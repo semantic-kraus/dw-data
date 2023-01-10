@@ -49,14 +49,19 @@
                     <org xml:id="DWorg00001">
                         <orgName xml:lang="de" type="orig_name">Stahlhelm</orgName>
                         <idno type="pmb"/>
+                        <idno type="gnd">https://d-nb.info/gnd/63616-2</idno>
                     </org>
                     <org xml:id="DWorg00002">
                         <orgName xml:lang="de" type="orig_name">GDVP</orgName>
+                        <orgName xml:lang="de" type="full">Großdeutsche Volkspartei</orgName>
                         <idno type="pmb"/>
+                        <idno type="gnd">https://d-nb.info/gnd/410560-6</idno>
                     </org>
                     <org xml:id="DWorg00003">
                         <orgName xml:lang="de" type="orig_name">KPÖ</orgName>
+                        <orgName xml:lang="de" type="full">Kommunistische Partei Österreichs</orgName>
                         <idno type="pmb"/>
+                        <idno type="gnd">https://d-nb.info/gnd/6012-4</idno>
                     </org>
                     <org xml:id="DWorg00004">
                         <orgName xml:lang="de" type="orig_name">Landbund</orgName>
