@@ -88,7 +88,8 @@
                     </org>
                     <org xml:id="DWorg00011">
                         <orgName xml:lang="de" type="orig_name">NSDAP</orgName>
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/134990/</idno>
+                        <idno type="gnd">https://d-nb.info/gnd/1012979-0</idno>
                     </org>
                     <org xml:id="DWorg00012">
                         <orgName xml:lang="de" type="orig_name">KPD</orgName>
