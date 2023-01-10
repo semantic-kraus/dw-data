@@ -2755,13 +2755,11 @@
                     </place>
                     <place xml:id="DWplace00449">
                         <placeName xml:lang="de" type="orig_name">Flensburg</placeName>
-                        <placeName xml:lang="de" type="simple_name">Flensburg</placeName>
                         
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/58801/</idno>
                     </place>
                     <place xml:id="DWplace00450">
                         <placeName xml:lang="de" type="orig_name">Blühnbach bei Salzburg</placeName>
-                        <placeName xml:lang="de" type="simple_name">Blühnbach bei Salzburg</placeName>
                         
                         <idno type="pmb"/>
                     </place>
