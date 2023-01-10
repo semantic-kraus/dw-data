@@ -62,79 +62,79 @@
                     <place xml:id="DWplace00000">
                         <placeName xml:lang="de" type="orig_name">Fulda</placeName>
                         <placeName xml:lang="de" type="simple_name">Fulda</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00001">
                         <placeName xml:lang="de" type="orig_name">Freiburg im Üechtland</placeName>
                         <placeName xml:lang="de" type="simple_name">Freiburg im Üechtland</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00002">
                         <placeName xml:lang="de" type="orig_name">Lübeck</placeName>
                         <placeName xml:lang="de" type="simple_name">Lübeck</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00003">
                         <placeName xml:lang="de" type="orig_name">Korez</placeName>
                         <placeName xml:lang="de" type="simple_name">Korez</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00004">
                         <placeName xml:lang="de" type="orig_name">Seibelsdorf</placeName>
                         <placeName xml:lang="de" type="simple_name">Seibelsdorf</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00005">
                         <placeName xml:lang="de" type="orig_name">Kopenhagen</placeName>
                         <placeName xml:lang="de" type="simple_name">Kopenhagen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/36300/</idno>
                     </place>
                     <place xml:id="DWplace00006">
                         <placeName xml:lang="de" type="orig_name">Ybbsitz</placeName>
                         <placeName xml:lang="de" type="simple_name">Ybbsitz</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00007">
                         <placeName xml:lang="de" type="orig_name">Lillehammer</placeName>
                         <placeName xml:lang="de" type="simple_name">Lillehammer</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/55986/</idno>
                     </place>
                     <place xml:id="DWplace00008">
                         <placeName xml:lang="de" type="orig_name">Bad Goisern</placeName>
                         <placeName xml:lang="de" type="simple_name">Bad Goisern</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/672/</idno>
                     </place>
                     <place xml:id="DWplace00009">
                         <placeName xml:lang="de" type="orig_name">Beverly Hills CA</placeName>
                         <placeName xml:lang="de" type="simple_name">Beverly Hills CA</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00010">
                         <placeName xml:lang="de" type="orig_name">Jaworzno</placeName>
                         <placeName xml:lang="de" type="simple_name">Jaworzno</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/94280/</idno>
                     </place>
                     <place xml:id="DWplace00011">
                         <placeName xml:lang="de" type="orig_name">Gehrden</placeName>
                         <placeName xml:lang="de" type="simple_name">Gehrden</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00012">
                         <placeName xml:lang="de" type="orig_name">Schruns</placeName>
                         <placeName xml:lang="de" type="simple_name">Schruns</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00013">
@@ -152,19 +152,19 @@
                     <place xml:id="DWplace00015">
                         <placeName xml:lang="de" type="orig_name">Saarbrücken</placeName>
                         <placeName xml:lang="de" type="simple_name">Saarbrücken</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00016">
                         <placeName xml:lang="de" type="orig_name">Bad Wiessee</placeName>
                         <placeName xml:lang="de" type="simple_name">Bad Wiessee</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/64728/</idno>
                     </place>
                     <place xml:id="DWplace00017">
                         <placeName xml:lang="de" type="orig_name">Kufstein</placeName>
                         <placeName xml:lang="de" type="simple_name">Kufstein</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/1012/</idno>
                     </place>
                     <place xml:id="DWplace00018">
@@ -188,13 +188,13 @@
                     <place xml:id="DWplace00021">
                         <placeName xml:lang="de" type="orig_name">Lyon</placeName>
                         <placeName xml:lang="de" type="simple_name">Lyon</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/63779/</idno>
                     </place>
                     <place xml:id="DWplace00022">
                         <placeName xml:lang="de" type="orig_name">Dortmund</placeName>
                         <placeName xml:lang="de" type="simple_name">Dortmund</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/915/</idno>
                     </place>
                     <place xml:id="DWplace00023">
@@ -212,19 +212,19 @@
                     <place xml:id="DWplace00025">
                         <placeName xml:lang="de" type="orig_name">Warschau</placeName>
                         <placeName xml:lang="de" type="simple_name">Warschau</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/888/</idno>
                     </place>
                     <place xml:id="DWplace00026">
                         <placeName xml:lang="de" type="orig_name">KZ Dachau</placeName>
                         <placeName xml:lang="de" type="simple_name">KZ Dachau</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00027">
                         <placeName xml:lang="de" type="orig_name">Schloss Lubowitz bei Ratibor</placeName>
                         <placeName xml:lang="de" type="simple_name">Schloss Lubowitz bei Ratibor</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00028">
@@ -236,25 +236,25 @@
                     <place xml:id="DWplace00029">
                         <placeName xml:lang="de" type="orig_name">Hof</placeName>
                         <placeName xml:lang="de" type="simple_name">Hof</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00030">
                         <placeName xml:lang="de" type="orig_name">White Plains NY</placeName>
                         <placeName xml:lang="de" type="simple_name">White Plains NY</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00031">
                         <placeName xml:lang="de" type="orig_name">Kalundborg</placeName>
                         <placeName xml:lang="de" type="simple_name">Kalundborg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/94292/</idno>
                     </place>
                     <place xml:id="DWplace00032">
                         <placeName xml:lang="de" type="orig_name">San Francisco CA</placeName>
                         <placeName xml:lang="de" type="simple_name">San Francisco CA</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00033">
@@ -266,31 +266,31 @@
                     <place xml:id="DWplace00034">
                         <placeName xml:lang="de" type="orig_name">Radkersburg</placeName>
                         <placeName xml:lang="de" type="simple_name">Radkersburg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00035">
                         <placeName xml:lang="de" type="orig_name">Miami FL</placeName>
                         <placeName xml:lang="de" type="simple_name">Miami FL</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00036">
                         <placeName xml:lang="de" type="orig_name">Den Haag</placeName>
                         <placeName xml:lang="de" type="simple_name">Den Haag</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/58810/</idno>
                     </place>
                     <place xml:id="DWplace00037">
                         <placeName xml:lang="de" type="orig_name">Ayot Saint Lawrence</placeName>
                         <placeName xml:lang="de" type="simple_name">Ayot Saint Lawrence</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/43686/</idno>
                     </place>
                     <place xml:id="DWplace00038">
                         <placeName xml:lang="de" type="orig_name">Riverdale NY</placeName>
                         <placeName xml:lang="de" type="simple_name">Riverdale NY</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00039">
@@ -302,7 +302,7 @@
                     <place xml:id="DWplace00040">
                         <placeName xml:lang="de" type="orig_name">Adserbølle</placeName>
                         <placeName xml:lang="de" type="simple_name">Adserbølle</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00041">
@@ -326,13 +326,13 @@
                     <place xml:id="DWplace00044">
                         <placeName xml:lang="de" type="orig_name">Kolín</placeName>
                         <placeName xml:lang="de" type="simple_name">Kolín</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00045">
                         <placeName xml:lang="de" type="orig_name">OserLag Taischet / Tajšet</placeName>
                         <placeName xml:lang="de" type="simple_name">OserLag Taischet / Tajšet</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00046">
@@ -362,7 +362,7 @@
                     <place xml:id="DWplace00050">
                         <placeName xml:lang="de" type="orig_name">Schloss Rumpenheim bei Hanau</placeName>
                         <placeName xml:lang="de" type="simple_name">Schloss Rumpenheim bei Hanau</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00051">
@@ -374,19 +374,19 @@
                     <place xml:id="DWplace00052">
                         <placeName xml:lang="de" type="orig_name">Vézelay</placeName>
                         <placeName xml:lang="de" type="simple_name">Vézelay</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/58488/</idno>
                     </place>
                     <place xml:id="DWplace00053">
                         <placeName xml:lang="de" type="orig_name">Kronberg im Taunus</placeName>
                         <placeName xml:lang="de" type="simple_name">Kronberg im Taunus</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00054">
                         <placeName xml:lang="de" type="orig_name">Wasserburg am Inn</placeName>
                         <placeName xml:lang="de" type="simple_name">Wasserburg am Inn</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/37934/</idno>
                     </place>
                     <place xml:id="DWplace00055">
@@ -398,13 +398,13 @@
                     <place xml:id="DWplace00056">
                         <placeName xml:lang="de" type="orig_name">New York NY</placeName>
                         <placeName xml:lang="de" type="simple_name">New York NY</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00057">
                         <placeName xml:lang="de" type="orig_name">Hamburg</placeName>
                         <placeName xml:lang="de" type="simple_name">Hamburg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/506/</idno>
                     </place>
                     <place xml:id="DWplace00058">
@@ -416,25 +416,25 @@
                     <place xml:id="DWplace00059">
                         <placeName xml:lang="de" type="orig_name">Babylon</placeName>
                         <placeName xml:lang="de" type="simple_name">Babylon</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/1261/</idno>
                     </place>
                     <place xml:id="DWplace00060">
                         <placeName xml:lang="de" type="orig_name">Perg</placeName>
                         <placeName xml:lang="de" type="simple_name">Perg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/45193/</idno>
                     </place>
                     <place xml:id="DWplace00061">
                         <placeName xml:lang="de" type="orig_name">Zürich</placeName>
                         <placeName xml:lang="de" type="simple_name">Zürich</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/484/</idno>
                     </place>
                     <place xml:id="DWplace00062">
                         <placeName xml:lang="de" type="orig_name">Eisleben</placeName>
                         <placeName xml:lang="de" type="simple_name">Eisleben</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12137/</idno>
                     </place>
                     <place xml:id="DWplace00063">
@@ -452,7 +452,7 @@
                     <place xml:id="DWplace00065">
                         <placeName xml:lang="de" type="orig_name">Leipzig</placeName>
                         <placeName xml:lang="de" type="simple_name">Leipzig</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/864/</idno>
                     </place>
                     <place xml:id="DWplace00066">
@@ -464,7 +464,7 @@
                     <place xml:id="DWplace00067">
                         <placeName xml:lang="de" type="orig_name">Troyes</placeName>
                         <placeName xml:lang="de" type="simple_name">Troyes</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/49087/</idno>
                     </place>
                     <place xml:id="DWplace00068">
@@ -476,61 +476,61 @@
                     <place xml:id="DWplace00069">
                         <placeName xml:lang="de" type="orig_name">Berlin-Spandau</placeName>
                         <placeName xml:lang="de" type="simple_name">Berlin-Spandau</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00070">
                         <placeName xml:lang="de" type="orig_name">Vordernberg</placeName>
                         <placeName xml:lang="de" type="simple_name">Vordernberg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00071">
                         <placeName xml:lang="de" type="orig_name">Białystok</placeName>
                         <placeName xml:lang="de" type="simple_name">Białystok</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/94190/</idno>
                     </place>
                     <place xml:id="DWplace00072">
                         <placeName xml:lang="de" type="orig_name">Hinterstoder</placeName>
                         <placeName xml:lang="de" type="simple_name">Hinterstoder</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/39334/</idno>
                     </place>
                     <place xml:id="DWplace00073">
                         <placeName xml:lang="de" type="orig_name">Ansbach</placeName>
                         <placeName xml:lang="de" type="simple_name">Ansbach</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00074">
                         <placeName xml:lang="de" type="orig_name">Sanssouci bei Potsdam</placeName>
                         <placeName xml:lang="de" type="simple_name">Sanssouci bei Potsdam</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00075">
                         <placeName xml:lang="de" type="orig_name">Altneudorf bei Heidelberg</placeName>
                         <placeName xml:lang="de" type="simple_name">Altneudorf bei Heidelberg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00076">
                         <placeName xml:lang="de" type="orig_name">Rio de Janeiro</placeName>
                         <placeName xml:lang="de" type="simple_name">Rio de Janeiro</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00077">
                         <placeName xml:lang="de" type="orig_name">Paris</placeName>
                         <placeName xml:lang="de" type="simple_name">Paris</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/182/</idno>
                     </place>
                     <place xml:id="DWplace00078">
                         <placeName xml:lang="de" type="orig_name">Sonnenberg</placeName>
                         <placeName xml:lang="de" type="simple_name">Sonnenberg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/92536/</idno>
                     </place>
                     <place xml:id="DWplace00079">
@@ -548,67 +548,67 @@
                     <place xml:id="DWplace00081">
                         <placeName xml:lang="de" type="orig_name">Foerde bei Grevenbrück</placeName>
                         <placeName xml:lang="de" type="simple_name">Foerde bei Grevenbrück</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00082">
                         <placeName xml:lang="de" type="orig_name">Minusio bei Locarno</placeName>
                         <placeName xml:lang="de" type="simple_name">Minusio bei Locarno</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00083">
                         <placeName xml:lang="de" type="orig_name">Tel Aviv-Jaffa</placeName>
                         <placeName xml:lang="de" type="simple_name">Tel Aviv-Jaffa</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00084">
                         <placeName xml:lang="de" type="orig_name">Obersasbach</placeName>
                         <placeName xml:lang="de" type="simple_name">Obersasbach</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00085">
                         <placeName xml:lang="de" type="orig_name">Wien</placeName>
                         <placeName xml:lang="de" type="simple_name">Wien</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
                     </place>
                     <place xml:id="DWplace00086">
                         <placeName xml:lang="de" type="orig_name">Dissenhofen</placeName>
                         <placeName xml:lang="de" type="simple_name">Dissenhofen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00087">
                         <placeName xml:lang="de" type="orig_name">St. Pölten</placeName>
                         <placeName xml:lang="de" type="simple_name">St. Pölten</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/49880/</idno>
                     </place>
                     <place xml:id="DWplace00088">
                         <placeName xml:lang="de" type="orig_name">Syrakus</placeName>
                         <placeName xml:lang="de" type="simple_name">Syrakus</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/48769/</idno>
                     </place>
                     <place xml:id="DWplace00089">
                         <placeName xml:lang="de" type="orig_name">Buenos Aires</placeName>
                         <placeName xml:lang="de" type="simple_name">Buenos Aires</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/54042/</idno>
                     </place>
                     <place xml:id="DWplace00090">
                         <placeName xml:lang="de" type="orig_name">Marietta OH</placeName>
                         <placeName xml:lang="de" type="simple_name">Marietta OH</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00091">
                         <placeName xml:lang="de" type="orig_name">Auschwitz</placeName>
                         <placeName xml:lang="de" type="simple_name">Auschwitz</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00092">
@@ -626,49 +626,49 @@
                     <place xml:id="DWplace00094">
                         <placeName xml:lang="de" type="orig_name">Zabrze</placeName>
                         <placeName xml:lang="de" type="simple_name">Zabrze</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/113478/</idno>
                     </place>
                     <place xml:id="DWplace00095">
                         <placeName xml:lang="de" type="orig_name">Stockholm</placeName>
                         <placeName xml:lang="de" type="simple_name">Stockholm</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/1119/</idno>
                     </place>
                     <place xml:id="DWplace00096">
                         <placeName xml:lang="de" type="orig_name">Bückeburg</placeName>
                         <placeName xml:lang="de" type="simple_name">Bückeburg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00097">
                         <placeName xml:lang="de" type="orig_name">Wiener Neustadt</placeName>
                         <placeName xml:lang="de" type="simple_name">Wiener Neustadt</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/587/</idno>
                     </place>
                     <place xml:id="DWplace00098">
                         <placeName xml:lang="de" type="orig_name">Marienbad</placeName>
                         <placeName xml:lang="de" type="simple_name">Marienbad</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/772/</idno>
                     </place>
                     <place xml:id="DWplace00099">
                         <placeName xml:lang="de" type="orig_name">Sankt Marienkirchen bei Schärding</placeName>
                         <placeName xml:lang="de" type="simple_name">Sankt Marienkirchen bei Schärding</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/35063/</idno>
                     </place>
                     <place xml:id="DWplace00100">
                         <placeName xml:lang="de" type="orig_name">Tscherkizino bei Majewo</placeName>
                         <placeName xml:lang="de" type="simple_name">Tscherkizino bei Majewo</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00101">
                         <placeName xml:lang="de" type="orig_name">Goslar</placeName>
                         <placeName xml:lang="de" type="simple_name">Goslar</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/117539/</idno>
                     </place>
                     <place xml:id="DWplace00102">
@@ -680,19 +680,19 @@
                     <place xml:id="DWplace00103">
                         <placeName xml:lang="de" type="orig_name">Wabern</placeName>
                         <placeName xml:lang="de" type="simple_name">Wabern</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00104">
                         <placeName xml:lang="de" type="orig_name">Tutzing</placeName>
                         <placeName xml:lang="de" type="simple_name">Tutzing</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/44493/</idno>
                     </place>
                     <place xml:id="DWplace00105">
                         <placeName xml:lang="de" type="orig_name">Marbach am Neckar</placeName>
                         <placeName xml:lang="de" type="simple_name">Marbach am Neckar</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00106">
@@ -704,25 +704,25 @@
                     <place xml:id="DWplace00107">
                         <placeName xml:lang="de" type="orig_name">Baden bei Wien</placeName>
                         <placeName xml:lang="de" type="simple_name">Baden bei Wien</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/662/</idno>
                     </place>
                     <place xml:id="DWplace00108">
                         <placeName xml:lang="de" type="orig_name">Los Angeles CA</placeName>
                         <placeName xml:lang="de" type="simple_name">Los Angeles CA</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00109">
                         <placeName xml:lang="de" type="orig_name">Lauffen am Neckar</placeName>
                         <placeName xml:lang="de" type="simple_name">Lauffen am Neckar</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00110">
                         <placeName xml:lang="de" type="orig_name">Westensee bei Kiel</placeName>
                         <placeName xml:lang="de" type="simple_name">Westensee bei Kiel</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00111">
@@ -752,25 +752,25 @@
                     <place xml:id="DWplace00115">
                         <placeName xml:lang="de" type="orig_name">Celle</placeName>
                         <placeName xml:lang="de" type="simple_name">Celle</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00116">
                         <placeName xml:lang="de" type="orig_name">Berlin-Lichterfelde</placeName>
                         <placeName xml:lang="de" type="simple_name">Berlin-Lichterfelde</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00117">
                         <placeName xml:lang="de" type="orig_name">Fleinhausen</placeName>
                         <placeName xml:lang="de" type="simple_name">Fleinhausen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00118">
                         <placeName xml:lang="de" type="orig_name">Kröv</placeName>
                         <placeName xml:lang="de" type="simple_name">Kröv</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00119">
@@ -788,25 +788,25 @@
                     <place xml:id="DWplace00121">
                         <placeName xml:lang="de" type="orig_name">Reval</placeName>
                         <placeName xml:lang="de" type="simple_name">Reval</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/42085/</idno>
                     </place>
                     <place xml:id="DWplace00122">
                         <placeName xml:lang="de" type="orig_name">Shrewsbury</placeName>
                         <placeName xml:lang="de" type="simple_name">Shrewsbury</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50161/</idno>
                     </place>
                     <place xml:id="DWplace00123">
                         <placeName xml:lang="de" type="orig_name">Rauenberg</placeName>
                         <placeName xml:lang="de" type="simple_name">Rauenberg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00124">
                         <placeName xml:lang="de" type="orig_name">Giuliano di Mezzegra</placeName>
                         <placeName xml:lang="de" type="simple_name">Giuliano di Mezzegra</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00125">
@@ -818,31 +818,31 @@
                     <place xml:id="DWplace00126">
                         <placeName xml:lang="de" type="orig_name">Holt</placeName>
                         <placeName xml:lang="de" type="simple_name">Holt</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00127">
                         <placeName xml:lang="de" type="orig_name">Lindigt</placeName>
                         <placeName xml:lang="de" type="simple_name">Lindigt</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00128">
                         <placeName xml:lang="de" type="orig_name">Nola</placeName>
                         <placeName xml:lang="de" type="simple_name">Nola</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00129">
                         <placeName xml:lang="de" type="orig_name">Brüssel</placeName>
                         <placeName xml:lang="de" type="simple_name">Brüssel</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/862/</idno>
                     </place>
                     <place xml:id="DWplace00130">
                         <placeName xml:lang="de" type="orig_name">Ebbs</placeName>
                         <placeName xml:lang="de" type="simple_name">Ebbs</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00131">
@@ -854,19 +854,19 @@
                     <place xml:id="DWplace00132">
                         <placeName xml:lang="de" type="orig_name">Fürth</placeName>
                         <placeName xml:lang="de" type="simple_name">Fürth</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00133">
                         <placeName xml:lang="de" type="orig_name">Rastatt</placeName>
                         <placeName xml:lang="de" type="simple_name">Rastatt</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/102541/</idno>
                     </place>
                     <place xml:id="DWplace00134">
                         <placeName xml:lang="de" type="orig_name">Moskau</placeName>
                         <placeName xml:lang="de" type="simple_name">Moskau</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/869/</idno>
                     </place>
                     <place xml:id="DWplace00135">
@@ -878,13 +878,13 @@
                     <place xml:id="DWplace00136">
                         <placeName xml:lang="de" type="orig_name">Aathal</placeName>
                         <placeName xml:lang="de" type="simple_name">Aathal</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00137">
                         <placeName xml:lang="de" type="orig_name">Tschudowo</placeName>
                         <placeName xml:lang="de" type="simple_name">Tschudowo</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00138">
@@ -902,7 +902,7 @@
                     <place xml:id="DWplace00140">
                         <placeName xml:lang="de" type="orig_name">Meßkirch</placeName>
                         <placeName xml:lang="de" type="simple_name">Meßkirch</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/94124/</idno>
                     </place>
                     <place xml:id="DWplace00141">
@@ -914,73 +914,73 @@
                     <place xml:id="DWplace00142">
                         <placeName xml:lang="de" type="orig_name">Metz</placeName>
                         <placeName xml:lang="de" type="simple_name">Metz</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00143">
                         <placeName xml:lang="de" type="orig_name">Tschepel</placeName>
                         <placeName xml:lang="de" type="simple_name">Tschepel</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00144">
                         <placeName xml:lang="de" type="orig_name">Apatin</placeName>
                         <placeName xml:lang="de" type="simple_name">Apatin</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/60532/</idno>
                     </place>
                     <place xml:id="DWplace00145">
                         <placeName xml:lang="de" type="orig_name">Deportation ins Ghetto Litzmannstadt / Łódź</placeName>
                         <placeName xml:lang="de" type="simple_name">Deportation ins Ghetto Litzmannstadt / Łódź</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00146">
                         <placeName xml:lang="de" type="orig_name">Straßburg</placeName>
                         <placeName xml:lang="de" type="simple_name">Straßburg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/319/</idno>
                     </place>
                     <place xml:id="DWplace00147">
                         <placeName xml:lang="de" type="orig_name">Schönau im Schwarzwald</placeName>
                         <placeName xml:lang="de" type="simple_name">Schönau im Schwarzwald</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00148">
                         <placeName xml:lang="de" type="orig_name">Wangerin / Węgorzyno</placeName>
                         <placeName xml:lang="de" type="simple_name">Wangerin / Węgorzyno</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00149">
                         <placeName xml:lang="de" type="orig_name">Neapel</placeName>
                         <placeName xml:lang="de" type="simple_name">Neapel</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/595/</idno>
                     </place>
                     <place xml:id="DWplace00150">
                         <placeName xml:lang="de" type="orig_name">Fjellhamar</placeName>
                         <placeName xml:lang="de" type="simple_name">Fjellhamar</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00151">
                         <placeName xml:lang="de" type="orig_name">Weimar</placeName>
                         <placeName xml:lang="de" type="simple_name">Weimar</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/197/</idno>
                     </place>
                     <place xml:id="DWplace00152">
                         <placeName xml:lang="de" type="orig_name">Potsdam</placeName>
                         <placeName xml:lang="de" type="simple_name">Potsdam</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00153">
                         <placeName xml:lang="de" type="orig_name">Wuppertal</placeName>
                         <placeName xml:lang="de" type="simple_name">Wuppertal</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/989/</idno>
                     </place>
                     <place xml:id="DWplace00154">
@@ -998,37 +998,37 @@
                     <place xml:id="DWplace00156">
                         <placeName xml:lang="de" type="orig_name">Texing bei Mank</placeName>
                         <placeName xml:lang="de" type="simple_name">Texing bei Mank</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00157">
                         <placeName xml:lang="de" type="orig_name">Meran</placeName>
                         <placeName xml:lang="de" type="simple_name">Meran</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/43520/</idno>
                     </place>
                     <place xml:id="DWplace00158">
                         <placeName xml:lang="de" type="orig_name">Gotha</placeName>
                         <placeName xml:lang="de" type="simple_name">Gotha</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/59469/</idno>
                     </place>
                     <place xml:id="DWplace00159">
                         <placeName xml:lang="de" type="orig_name">Bad Reichenhall</placeName>
                         <placeName xml:lang="de" type="simple_name">Bad Reichenhall</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/1181/</idno>
                     </place>
                     <place xml:id="DWplace00160">
                         <placeName xml:lang="de" type="orig_name">Bad Harzburg</placeName>
                         <placeName xml:lang="de" type="simple_name">Bad Harzburg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/54951/</idno>
                     </place>
                     <place xml:id="DWplace00161">
                         <placeName xml:lang="de" type="orig_name">Freiburg im Breisgau</placeName>
                         <placeName xml:lang="de" type="simple_name">Freiburg im Breisgau</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/631/</idno>
                     </place>
                     <place xml:id="DWplace00162">
@@ -1040,19 +1040,19 @@
                     <place xml:id="DWplace00163">
                         <placeName xml:lang="de" type="orig_name">Malesherbes</placeName>
                         <placeName xml:lang="de" type="simple_name">Malesherbes</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00164">
                         <placeName xml:lang="de" type="orig_name">Dublin</placeName>
                         <placeName xml:lang="de" type="simple_name">Dublin</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00165">
                         <placeName xml:lang="de" type="orig_name">am Hechtsee bei Kufstein</placeName>
                         <placeName xml:lang="de" type="simple_name">am Hechtsee bei Kufstein</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00166">
@@ -1064,7 +1064,7 @@
                     <place xml:id="DWplace00167">
                         <placeName xml:lang="de" type="orig_name">Venedig</placeName>
                         <placeName xml:lang="de" type="simple_name">Venedig</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/462/</idno>
                     </place>
                     <place xml:id="DWplace00168">
@@ -1076,25 +1076,25 @@
                     <place xml:id="DWplace00169">
                         <placeName xml:lang="de" type="orig_name">England</placeName>
                         <placeName xml:lang="de" type="simple_name">England</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00170">
                         <placeName xml:lang="de" type="orig_name">Wehlen an der Elbe</placeName>
                         <placeName xml:lang="de" type="simple_name">Wehlen an der Elbe</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00171">
                         <placeName xml:lang="de" type="orig_name">Maria Enzersdorf</placeName>
                         <placeName xml:lang="de" type="simple_name">Maria Enzersdorf</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/55974/</idno>
                     </place>
                     <place xml:id="DWplace00172">
                         <placeName xml:lang="de" type="orig_name">Kiel</placeName>
                         <placeName xml:lang="de" type="simple_name">Kiel</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/907/</idno>
                     </place>
                     <place xml:id="DWplace00173">
@@ -1112,19 +1112,19 @@
                     <place xml:id="DWplace00175">
                         <placeName xml:lang="de" type="orig_name">Mexico City</placeName>
                         <placeName xml:lang="de" type="simple_name">Mexico City</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/55301/</idno>
                     </place>
                     <place xml:id="DWplace00176">
                         <placeName xml:lang="de" type="orig_name">Breslau</placeName>
                         <placeName xml:lang="de" type="simple_name">Breslau</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/677/</idno>
                     </place>
                     <place xml:id="DWplace00177">
                         <placeName xml:lang="de" type="orig_name">Bukarest</placeName>
                         <placeName xml:lang="de" type="simple_name">Bukarest</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/993/</idno>
                     </place>
                     <place xml:id="DWplace00178">
@@ -1136,7 +1136,7 @@
                     <place xml:id="DWplace00179">
                         <placeName xml:lang="de" type="orig_name">Gütersloh</placeName>
                         <placeName xml:lang="de" type="simple_name">Gütersloh</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/93928/</idno>
                     </place>
                     <place xml:id="DWplace00180">
@@ -1148,19 +1148,19 @@
                     <place xml:id="DWplace00181">
                         <placeName xml:lang="de" type="orig_name">Karlsruhe</placeName>
                         <placeName xml:lang="de" type="simple_name">Karlsruhe</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/871/</idno>
                     </place>
                     <place xml:id="DWplace00182">
                         <placeName xml:lang="de" type="orig_name">Bevensen</placeName>
                         <placeName xml:lang="de" type="simple_name">Bevensen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00183">
                         <placeName xml:lang="de" type="orig_name">Frankfurt an der Oder</placeName>
                         <placeName xml:lang="de" type="simple_name">Frankfurt an der Oder</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00184">
@@ -1178,25 +1178,25 @@
                     <place xml:id="DWplace00186">
                         <placeName xml:lang="de" type="orig_name">Bochum</placeName>
                         <placeName xml:lang="de" type="simple_name">Bochum</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00187">
                         <placeName xml:lang="de" type="orig_name">Trient</placeName>
                         <placeName xml:lang="de" type="simple_name">Trient</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/954/</idno>
                     </place>
                     <place xml:id="DWplace00188">
                         <placeName xml:lang="de" type="orig_name">Rammenau</placeName>
                         <placeName xml:lang="de" type="simple_name">Rammenau</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/48510/</idno>
                     </place>
                     <place xml:id="DWplace00189">
                         <placeName xml:lang="de" type="orig_name">Frankfurt</placeName>
                         <placeName xml:lang="de" type="simple_name">Frankfurt</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00190">
@@ -1220,55 +1220,55 @@
                     <place xml:id="DWplace00193">
                         <placeName xml:lang="de" type="orig_name">Villach</placeName>
                         <placeName xml:lang="de" type="simple_name">Villach</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/40454/</idno>
                     </place>
                     <place xml:id="DWplace00194">
                         <placeName xml:lang="de" type="orig_name">Prag</placeName>
                         <placeName xml:lang="de" type="simple_name">Prag</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/652/</idno>
                     </place>
                     <place xml:id="DWplace00195">
                         <placeName xml:lang="de" type="orig_name">Bischofshofen</placeName>
                         <placeName xml:lang="de" type="simple_name">Bischofshofen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/41003/</idno>
                     </place>
                     <place xml:id="DWplace00196">
                         <placeName xml:lang="de" type="orig_name">Quevy le Grand bei Mons</placeName>
                         <placeName xml:lang="de" type="simple_name">Quevy le Grand bei Mons</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00197">
                         <placeName xml:lang="de" type="orig_name">Antwerpen</placeName>
                         <placeName xml:lang="de" type="simple_name">Antwerpen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/995/</idno>
                     </place>
                     <place xml:id="DWplace00198">
                         <placeName xml:lang="de" type="orig_name">Jasnaja Poljana</placeName>
                         <placeName xml:lang="de" type="simple_name">Jasnaja Poljana</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00199">
                         <placeName xml:lang="de" type="orig_name">Groß-Rosen Außenlager Wüstegiersdorf</placeName>
                         <placeName xml:lang="de" type="simple_name">Groß-Rosen Außenlager Wüstegiersdorf</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00200">
                         <placeName xml:lang="de" type="orig_name">Straelen</placeName>
                         <placeName xml:lang="de" type="simple_name">Straelen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00201">
                         <placeName xml:lang="de" type="orig_name">Nürnberg</placeName>
                         <placeName xml:lang="de" type="simple_name">Nürnberg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/44172/</idno>
                     </place>
                     <place xml:id="DWplace00202">
@@ -1280,13 +1280,13 @@
                     <place xml:id="DWplace00203">
                         <placeName xml:lang="de" type="orig_name">Lima</placeName>
                         <placeName xml:lang="de" type="simple_name">Lima</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/63797/</idno>
                     </place>
                     <place xml:id="DWplace00204">
                         <placeName xml:lang="de" type="orig_name">Rodaun bei Wien</placeName>
                         <placeName xml:lang="de" type="simple_name">Rodaun bei Wien</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00205">
@@ -1298,37 +1298,37 @@
                     <place xml:id="DWplace00206">
                         <placeName xml:lang="de" type="orig_name">Trier</placeName>
                         <placeName xml:lang="de" type="simple_name">Trier</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00207">
                         <placeName xml:lang="de" type="orig_name">Wesselburen</placeName>
                         <placeName xml:lang="de" type="simple_name">Wesselburen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/53806/</idno>
                     </place>
                     <place xml:id="DWplace00208">
                         <placeName xml:lang="de" type="orig_name">Ascona</placeName>
                         <placeName xml:lang="de" type="simple_name">Ascona</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/49872/</idno>
                     </place>
                     <place xml:id="DWplace00209">
                         <placeName xml:lang="de" type="orig_name">Pirmasens</placeName>
                         <placeName xml:lang="de" type="simple_name">Pirmasens</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00210">
                         <placeName xml:lang="de" type="orig_name">Clamecy</placeName>
                         <placeName xml:lang="de" type="simple_name">Clamecy</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/48686/</idno>
                     </place>
                     <place xml:id="DWplace00211">
                         <placeName xml:lang="de" type="orig_name">Graz</placeName>
                         <placeName xml:lang="de" type="simple_name">Graz</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/860/</idno>
                     </place>
                     <place xml:id="DWplace00212">
@@ -1340,49 +1340,49 @@
                     <place xml:id="DWplace00213">
                         <placeName xml:lang="de" type="orig_name">Ruhpolding</placeName>
                         <placeName xml:lang="de" type="simple_name">Ruhpolding</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50000/</idno>
                     </place>
                     <place xml:id="DWplace00214">
                         <placeName xml:lang="de" type="orig_name">’s-Hertogenbosch</placeName>
                         <placeName xml:lang="de" type="simple_name">’s-Hertogenbosch</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00215">
                         <placeName xml:lang="de" type="orig_name">Rosenow bei Gadebusch</placeName>
                         <placeName xml:lang="de" type="simple_name">Rosenow bei Gadebusch</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00216">
                         <placeName xml:lang="de" type="orig_name">London</placeName>
                         <placeName xml:lang="de" type="simple_name">London</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/224/</idno>
                     </place>
                     <place xml:id="DWplace00217">
                         <placeName xml:lang="de" type="orig_name">Parma</placeName>
                         <placeName xml:lang="de" type="simple_name">Parma</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/44210/</idno>
                     </place>
                     <place xml:id="DWplace00218">
                         <placeName xml:lang="de" type="orig_name">Gutenstein</placeName>
                         <placeName xml:lang="de" type="simple_name">Gutenstein</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/1036/</idno>
                     </place>
                     <place xml:id="DWplace00219">
                         <placeName xml:lang="de" type="orig_name">Ulm</placeName>
                         <placeName xml:lang="de" type="simple_name">Ulm</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/39966/</idno>
                     </place>
                     <place xml:id="DWplace00220">
                         <placeName xml:lang="de" type="orig_name">Genf</placeName>
                         <placeName xml:lang="de" type="simple_name">Genf</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/562/</idno>
                     </place>
                     <place xml:id="DWplace00221">
@@ -1394,7 +1394,7 @@
                     <place xml:id="DWplace00222">
                         <placeName xml:lang="de" type="orig_name">bei Karlsbad</placeName>
                         <placeName xml:lang="de" type="simple_name">bei Karlsbad</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00223">
@@ -1406,19 +1406,19 @@
                     <place xml:id="DWplace00224">
                         <placeName xml:lang="de" type="orig_name">Berlin u. a.</placeName>
                         <placeName xml:lang="de" type="simple_name">Berlin u. a.</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00225">
                         <placeName xml:lang="de" type="orig_name">Tübingen</placeName>
                         <placeName xml:lang="de" type="simple_name">Tübingen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00226">
                         <placeName xml:lang="de" type="orig_name">Werl</placeName>
                         <placeName xml:lang="de" type="simple_name">Werl</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/94214/</idno>
                     </place>
                     <place xml:id="DWplace00227">
@@ -1430,37 +1430,37 @@
                     <place xml:id="DWplace00228">
                         <placeName xml:lang="de" type="orig_name">Langenrohr</placeName>
                         <placeName xml:lang="de" type="simple_name">Langenrohr</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00229">
                         <placeName xml:lang="de" type="orig_name">Venosa</placeName>
                         <placeName xml:lang="de" type="simple_name">Venosa</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00230">
                         <placeName xml:lang="de" type="orig_name">Gloggnitz</placeName>
                         <placeName xml:lang="de" type="simple_name">Gloggnitz</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00231">
                         <placeName xml:lang="de" type="orig_name">Lindenberg im Allgäu</placeName>
                         <placeName xml:lang="de" type="simple_name">Lindenberg im Allgäu</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00232">
                         <placeName xml:lang="de" type="orig_name">Berndorf</placeName>
                         <placeName xml:lang="de" type="simple_name">Berndorf</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/47489/</idno>
                     </place>
                     <place xml:id="DWplace00233">
                         <placeName xml:lang="de" type="orig_name">Mírov</placeName>
                         <placeName xml:lang="de" type="simple_name">Mírov</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/37757/</idno>
                     </place>
                     <place xml:id="DWplace00234">
@@ -1472,13 +1472,13 @@
                     <place xml:id="DWplace00235">
                         <placeName xml:lang="de" type="orig_name">Kuty Lubiscytsche Iwacewice S.w.Baranowicze</placeName>
                         <placeName xml:lang="de" type="simple_name">Kuty Lubiscytsche Iwacewice S.w.Baranowicze</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00236">
                         <placeName xml:lang="de" type="orig_name">Manila</placeName>
                         <placeName xml:lang="de" type="simple_name">Manila</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00237">
@@ -1490,13 +1490,13 @@
                     <place xml:id="DWplace00238">
                         <placeName xml:lang="de" type="orig_name">Merseburg</placeName>
                         <placeName xml:lang="de" type="simple_name">Merseburg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00239">
                         <placeName xml:lang="de" type="orig_name">Frankfurt am Main</placeName>
                         <placeName xml:lang="de" type="simple_name">Frankfurt am Main</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/146/</idno>
                     </place>
                     <place xml:id="DWplace00240">
@@ -1508,19 +1508,19 @@
                     <place xml:id="DWplace00241">
                         <placeName xml:lang="de" type="orig_name">Lebanon NH</placeName>
                         <placeName xml:lang="de" type="simple_name">Lebanon NH</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00242">
                         <placeName xml:lang="de" type="orig_name">Sankt Petersburg</placeName>
                         <placeName xml:lang="de" type="simple_name">Sankt Petersburg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/433/</idno>
                     </place>
                     <place xml:id="DWplace00243">
                         <placeName xml:lang="de" type="orig_name">Andelin</placeName>
                         <placeName xml:lang="de" type="simple_name">Andelin</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00244">
@@ -1538,73 +1538,73 @@
                     <place xml:id="DWplace00246">
                         <placeName xml:lang="de" type="orig_name">Karlsbad</placeName>
                         <placeName xml:lang="de" type="simple_name">Karlsbad</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/842/</idno>
                     </place>
                     <place xml:id="DWplace00247">
                         <placeName xml:lang="de" type="orig_name">Lackenbach</placeName>
                         <placeName xml:lang="de" type="simple_name">Lackenbach</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/94073/</idno>
                     </place>
                     <place xml:id="DWplace00248">
                         <placeName xml:lang="de" type="orig_name">Göttingen</placeName>
                         <placeName xml:lang="de" type="simple_name">Göttingen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00249">
                         <placeName xml:lang="de" type="orig_name">Haifa</placeName>
                         <placeName xml:lang="de" type="simple_name">Haifa</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/55980/</idno>
                     </place>
                     <place xml:id="DWplace00250">
                         <placeName xml:lang="de" type="orig_name">Freiberg / Příbor</placeName>
                         <placeName xml:lang="de" type="simple_name">Freiberg / Příbor</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00251">
                         <placeName xml:lang="de" type="orig_name">Brunn am Gebirge</placeName>
                         <placeName xml:lang="de" type="simple_name">Brunn am Gebirge</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00252">
                         <placeName xml:lang="de" type="orig_name">Salzburg</placeName>
                         <placeName xml:lang="de" type="simple_name">Salzburg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00253">
                         <placeName xml:lang="de" type="orig_name">Neumarkt in der Oberpfalz</placeName>
                         <placeName xml:lang="de" type="simple_name">Neumarkt in der Oberpfalz</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/44163/</idno>
                     </place>
                     <place xml:id="DWplace00254">
                         <placeName xml:lang="de" type="orig_name">Kilchberg bei Zürich</placeName>
                         <placeName xml:lang="de" type="simple_name">Kilchberg bei Zürich</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00255">
                         <placeName xml:lang="de" type="orig_name">Ashland VA</placeName>
                         <placeName xml:lang="de" type="simple_name">Ashland VA</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00256">
                         <placeName xml:lang="de" type="orig_name">Krems</placeName>
                         <placeName xml:lang="de" type="simple_name">Krems</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/36545/</idno>
                     </place>
                     <place xml:id="DWplace00257">
                         <placeName xml:lang="de" type="orig_name">Bonn</placeName>
                         <placeName xml:lang="de" type="simple_name">Bonn</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/913/</idno>
                     </place>
                     <place xml:id="DWplace00258">
@@ -1622,31 +1622,31 @@
                     <place xml:id="DWplace00260">
                         <placeName xml:lang="de" type="orig_name">Luzern</placeName>
                         <placeName xml:lang="de" type="simple_name">Luzern</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/967/</idno>
                     </place>
                     <place xml:id="DWplace00261">
                         <placeName xml:lang="de" type="orig_name">Ternitz</placeName>
                         <placeName xml:lang="de" type="simple_name">Ternitz</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00262">
                         <placeName xml:lang="de" type="orig_name">Augsburg</placeName>
                         <placeName xml:lang="de" type="simple_name">Augsburg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/868/</idno>
                     </place>
                     <place xml:id="DWplace00263">
                         <placeName xml:lang="de" type="orig_name">Pella</placeName>
                         <placeName xml:lang="de" type="simple_name">Pella</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/60992/</idno>
                     </place>
                     <place xml:id="DWplace00264">
                         <placeName xml:lang="de" type="orig_name">Moosburg an der Isar</placeName>
                         <placeName xml:lang="de" type="simple_name">Moosburg an der Isar</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00265">
@@ -1670,49 +1670,49 @@
                     <place xml:id="DWplace00268">
                         <placeName xml:lang="de" type="orig_name">Bath</placeName>
                         <placeName xml:lang="de" type="simple_name">Bath</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00269">
                         <placeName xml:lang="de" type="orig_name">Hechingen</placeName>
                         <placeName xml:lang="de" type="simple_name">Hechingen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/48848/</idno>
                     </place>
                     <place xml:id="DWplace00270">
                         <placeName xml:lang="de" type="orig_name">am 31. 12. 1945 für tot erklärt)</placeName>
                         <placeName xml:lang="de" type="simple_name">am 31. 12. 1945 für tot erklärt)</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00271">
                         <placeName xml:lang="de" type="orig_name">Leicester</placeName>
                         <placeName xml:lang="de" type="simple_name">Leicester</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00272">
                         <placeName xml:lang="de" type="orig_name">Rosenheim</placeName>
                         <placeName xml:lang="de" type="simple_name">Rosenheim</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00273">
                         <placeName xml:lang="de" type="orig_name">Perchtoldsdorf</placeName>
                         <placeName xml:lang="de" type="simple_name">Perchtoldsdorf</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00274">
                         <placeName xml:lang="de" type="orig_name">Lüneburg</placeName>
                         <placeName xml:lang="de" type="simple_name">Lüneburg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00275">
                         <placeName xml:lang="de" type="orig_name">Karzin bei Stolp</placeName>
                         <placeName xml:lang="de" type="simple_name">Karzin bei Stolp</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00276">
@@ -1724,7 +1724,7 @@
                     <place xml:id="DWplace00277">
                         <placeName xml:lang="de" type="orig_name">Florenz</placeName>
                         <placeName xml:lang="de" type="simple_name">Florenz</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/263/</idno>
                     </place>
                     <place xml:id="DWplace00278">
@@ -1736,7 +1736,7 @@
                     <place xml:id="DWplace00279">
                         <placeName xml:lang="de" type="orig_name">Heidelberg</placeName>
                         <placeName xml:lang="de" type="simple_name">Heidelberg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/882/</idno>
                     </place>
                     <place xml:id="DWplace00280">
@@ -1748,43 +1748,43 @@
                     <place xml:id="DWplace00281">
                         <placeName xml:lang="de" type="orig_name">Bern</placeName>
                         <placeName xml:lang="de" type="simple_name">Bern</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/1223/</idno>
                     </place>
                     <place xml:id="DWplace00282">
                         <placeName xml:lang="de" type="orig_name">Aumühle-Friedrichsruh</placeName>
                         <placeName xml:lang="de" type="simple_name">Aumühle-Friedrichsruh</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00283">
                         <placeName xml:lang="de" type="orig_name">Round Hill VA</placeName>
                         <placeName xml:lang="de" type="simple_name">Round Hill VA</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00284">
                         <placeName xml:lang="de" type="orig_name">Mühlheim an der Ruhr</placeName>
                         <placeName xml:lang="de" type="simple_name">Mühlheim an der Ruhr</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00285">
                         <placeName xml:lang="de" type="orig_name">Stettin</placeName>
                         <placeName xml:lang="de" type="simple_name">Stettin</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/94156/</idno>
                     </place>
                     <place xml:id="DWplace00286">
                         <placeName xml:lang="de" type="orig_name">Rijeka</placeName>
                         <placeName xml:lang="de" type="simple_name">Rijeka</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00287">
                         <placeName xml:lang="de" type="orig_name">Edenkoben</placeName>
                         <placeName xml:lang="de" type="simple_name">Edenkoben</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00288">
@@ -1796,31 +1796,31 @@
                     <place xml:id="DWplace00289">
                         <placeName xml:lang="de" type="orig_name">Wiesbaden</placeName>
                         <placeName xml:lang="de" type="simple_name">Wiesbaden</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/883/</idno>
                     </place>
                     <place xml:id="DWplace00290">
                         <placeName xml:lang="de" type="orig_name">Cottbus</placeName>
                         <placeName xml:lang="de" type="simple_name">Cottbus</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00291">
                         <placeName xml:lang="de" type="orig_name">Bremen</placeName>
                         <placeName xml:lang="de" type="simple_name">Bremen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/891/</idno>
                     </place>
                     <place xml:id="DWplace00292">
                         <placeName xml:lang="de" type="orig_name">Würzburg</placeName>
                         <placeName xml:lang="de" type="simple_name">Würzburg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/852/</idno>
                     </place>
                     <place xml:id="DWplace00293">
                         <placeName xml:lang="de" type="orig_name">Princeton NJ</placeName>
                         <placeName xml:lang="de" type="simple_name">Princeton NJ</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00294">
@@ -1838,37 +1838,37 @@
                     <place xml:id="DWplace00296">
                         <placeName xml:lang="de" type="orig_name">Glasgow</placeName>
                         <placeName xml:lang="de" type="simple_name">Glasgow</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00297">
                         <placeName xml:lang="de" type="orig_name">Mansfeld</placeName>
                         <placeName xml:lang="de" type="simple_name">Mansfeld</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/39357/</idno>
                     </place>
                     <place xml:id="DWplace00298">
                         <placeName xml:lang="de" type="orig_name">Coeur d’Alene ID</placeName>
                         <placeName xml:lang="de" type="simple_name">Coeur d’Alene ID</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00299">
                         <placeName xml:lang="de" type="orig_name">Katowice)</placeName>
                         <placeName xml:lang="de" type="simple_name">Katowice)</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00300">
                         <placeName xml:lang="de" type="orig_name">Corduba</placeName>
                         <placeName xml:lang="de" type="simple_name">Corduba</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00301">
                         <placeName xml:lang="de" type="orig_name">Brünn</placeName>
                         <placeName xml:lang="de" type="simple_name">Brünn</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00302">
@@ -1886,19 +1886,19 @@
                     <place xml:id="DWplace00304">
                         <placeName xml:lang="de" type="orig_name">Berlin-Plötzensee</placeName>
                         <placeName xml:lang="de" type="simple_name">Berlin-Plötzensee</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00305">
                         <placeName xml:lang="de" type="orig_name">Garmisch-Partenkirchen</placeName>
                         <placeName xml:lang="de" type="simple_name">Garmisch-Partenkirchen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/667/</idno>
                     </place>
                     <place xml:id="DWplace00306">
                         <placeName xml:lang="de" type="orig_name">Rom</placeName>
                         <placeName xml:lang="de" type="simple_name">Rom</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/445/</idno>
                     </place>
                     <place xml:id="DWplace00307">
@@ -1910,13 +1910,13 @@
                     <place xml:id="DWplace00308">
                         <placeName xml:lang="de" type="orig_name">Arnstein</placeName>
                         <placeName xml:lang="de" type="simple_name">Arnstein</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/49655/</idno>
                     </place>
                     <place xml:id="DWplace00309">
                         <placeName xml:lang="de" type="orig_name">Schönhausen</placeName>
                         <placeName xml:lang="de" type="simple_name">Schönhausen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/63752/</idno>
                     </place>
                     <place xml:id="DWplace00310">
@@ -1940,13 +1940,13 @@
                     <place xml:id="DWplace00313">
                         <placeName xml:lang="de" type="orig_name">Berlin</placeName>
                         <placeName xml:lang="de" type="simple_name">Berlin</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/168/</idno>
                     </place>
                     <place xml:id="DWplace00314">
                         <placeName xml:lang="de" type="orig_name">Meiningen</placeName>
                         <placeName xml:lang="de" type="simple_name">Meiningen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00315">
@@ -1958,43 +1958,43 @@
                     <place xml:id="DWplace00316">
                         <placeName xml:lang="de" type="orig_name">Düsseldorf</placeName>
                         <placeName xml:lang="de" type="simple_name">Düsseldorf</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/863/</idno>
                     </place>
                     <place xml:id="DWplace00317">
                         <placeName xml:lang="de" type="orig_name">Exin</placeName>
                         <placeName xml:lang="de" type="simple_name">Exin</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/28636/</idno>
                     </place>
                     <place xml:id="DWplace00318">
                         <placeName xml:lang="de" type="orig_name">Aarhus</placeName>
                         <placeName xml:lang="de" type="simple_name">Aarhus</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00319">
                         <placeName xml:lang="de" type="orig_name">Marazion</placeName>
                         <placeName xml:lang="de" type="simple_name">Marazion</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00320">
                         <placeName xml:lang="de" type="orig_name">Danzig</placeName>
                         <placeName xml:lang="de" type="simple_name">Danzig</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00321">
                         <placeName xml:lang="de" type="orig_name">Nancy</placeName>
                         <placeName xml:lang="de" type="simple_name">Nancy</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/60521/</idno>
                     </place>
                     <place xml:id="DWplace00322">
                         <placeName xml:lang="de" type="orig_name">Oldenburg</placeName>
                         <placeName xml:lang="de" type="simple_name">Oldenburg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/44179/</idno>
                     </place>
                     <place xml:id="DWplace00323">
@@ -2006,19 +2006,19 @@
                     <place xml:id="DWplace00324">
                         <placeName xml:lang="de" type="orig_name">Linz</placeName>
                         <placeName xml:lang="de" type="simple_name">Linz</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00325">
                         <placeName xml:lang="de" type="orig_name">Katzenelnbogen</placeName>
                         <placeName xml:lang="de" type="simple_name">Katzenelnbogen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/112450/</idno>
                     </place>
                     <place xml:id="DWplace00326">
                         <placeName xml:lang="de" type="orig_name">Murnau</placeName>
                         <placeName xml:lang="de" type="simple_name">Murnau</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00327">
@@ -2030,31 +2030,31 @@
                     <place xml:id="DWplace00328">
                         <placeName xml:lang="de" type="orig_name">Antium</placeName>
                         <placeName xml:lang="de" type="simple_name">Antium</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/21854/</idno>
                     </place>
                     <place xml:id="DWplace00329">
                         <placeName xml:lang="de" type="orig_name">Eferding</placeName>
                         <placeName xml:lang="de" type="simple_name">Eferding</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00330">
                         <placeName xml:lang="de" type="orig_name">Siegen</placeName>
                         <placeName xml:lang="de" type="simple_name">Siegen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00331">
                         <placeName xml:lang="de" type="orig_name">KZ Kislau bei Bad Mingolsheim</placeName>
                         <placeName xml:lang="de" type="simple_name">KZ Kislau bei Bad Mingolsheim</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00332">
                         <placeName xml:lang="de" type="orig_name">Alexandria</placeName>
                         <placeName xml:lang="de" type="simple_name">Alexandria</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/12515/</idno>
                     </place>
                     <place xml:id="DWplace00333">
@@ -2066,7 +2066,7 @@
                     <place xml:id="DWplace00334">
                         <placeName xml:lang="de" type="orig_name">Somers NY</placeName>
                         <placeName xml:lang="de" type="simple_name">Somers NY</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00335">
@@ -2078,13 +2078,13 @@
                     <place xml:id="DWplace00336">
                         <placeName xml:lang="de" type="orig_name">Kriegsgefangenenlager Mühlberg/Elbe</placeName>
                         <placeName xml:lang="de" type="simple_name">Kriegsgefangenenlager Mühlberg/Elbe</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00337">
                         <placeName xml:lang="de" type="orig_name">Feldkirchen an der Donau</placeName>
                         <placeName xml:lang="de" type="simple_name">Feldkirchen an der Donau</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/118341/</idno>
                     </place>
                     <place xml:id="DWplace00338">
@@ -2096,19 +2096,19 @@
                     <place xml:id="DWplace00339">
                         <placeName xml:lang="de" type="orig_name">Wildeshausen</placeName>
                         <placeName xml:lang="de" type="simple_name">Wildeshausen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00340">
                         <placeName xml:lang="de" type="orig_name">Mödling</placeName>
                         <placeName xml:lang="de" type="simple_name">Mödling</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/968/</idno>
                     </place>
                     <place xml:id="DWplace00341">
                         <placeName xml:lang="de" type="orig_name">Herford</placeName>
                         <placeName xml:lang="de" type="simple_name">Herford</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00342">
@@ -2120,25 +2120,25 @@
                     <place xml:id="DWplace00343">
                         <placeName xml:lang="de" type="orig_name">Kassel</placeName>
                         <placeName xml:lang="de" type="simple_name">Kassel</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/39640/</idno>
                     </place>
                     <place xml:id="DWplace00344">
                         <placeName xml:lang="de" type="orig_name">Diez</placeName>
                         <placeName xml:lang="de" type="simple_name">Diez</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/59148/</idno>
                     </place>
                     <place xml:id="DWplace00345">
                         <placeName xml:lang="de" type="orig_name">Bad Gleichenberg</placeName>
                         <placeName xml:lang="de" type="simple_name">Bad Gleichenberg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/45244/</idno>
                     </place>
                     <place xml:id="DWplace00346">
                         <placeName xml:lang="de" type="orig_name">Bulgarien</placeName>
                         <placeName xml:lang="de" type="simple_name">Bulgarien</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/249/</idno>
                     </place>
                     <place xml:id="DWplace00347">
@@ -2150,37 +2150,37 @@
                     <place xml:id="DWplace00348">
                         <placeName xml:lang="de" type="orig_name">Braunschweig</placeName>
                         <placeName xml:lang="de" type="simple_name">Braunschweig</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00349">
                         <placeName xml:lang="de" type="orig_name">Magdeburg</placeName>
                         <placeName xml:lang="de" type="simple_name">Magdeburg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00350">
                         <placeName xml:lang="de" type="orig_name">Ahrensburg</placeName>
                         <placeName xml:lang="de" type="simple_name">Ahrensburg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/47471/</idno>
                     </place>
                     <place xml:id="DWplace00351">
                         <placeName xml:lang="de" type="orig_name">Leobersdorf</placeName>
                         <placeName xml:lang="de" type="simple_name">Leobersdorf</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00352">
                         <placeName xml:lang="de" type="orig_name">Tel Aviv</placeName>
                         <placeName xml:lang="de" type="simple_name">Tel Aviv</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/45970/</idno>
                     </place>
                     <place xml:id="DWplace00353">
                         <placeName xml:lang="de" type="orig_name">Tegernsee</placeName>
                         <placeName xml:lang="de" type="simple_name">Tegernsee</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/39752/</idno>
                     </place>
                     <place xml:id="DWplace00354">
@@ -2192,7 +2192,7 @@
                     <place xml:id="DWplace00355">
                         <placeName xml:lang="de" type="orig_name">Bleiburg</placeName>
                         <placeName xml:lang="de" type="simple_name">Bleiburg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00356">
@@ -2216,19 +2216,19 @@
                     <place xml:id="DWplace00359">
                         <placeName xml:lang="de" type="orig_name">Stuttgart</placeName>
                         <placeName xml:lang="de" type="simple_name">Stuttgart</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/872/</idno>
                     </place>
                     <place xml:id="DWplace00360">
                         <placeName xml:lang="de" type="orig_name">Köln</placeName>
                         <placeName xml:lang="de" type="simple_name">Köln</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/145/</idno>
                     </place>
                     <place xml:id="DWplace00361">
                         <placeName xml:lang="de" type="orig_name">Basel</placeName>
                         <placeName xml:lang="de" type="simple_name">Basel</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00362">
@@ -2240,19 +2240,19 @@
                     <place xml:id="DWplace00363">
                         <placeName xml:lang="de" type="orig_name">Cannes</placeName>
                         <placeName xml:lang="de" type="simple_name">Cannes</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/56147/</idno>
                     </place>
                     <place xml:id="DWplace00364">
                         <placeName xml:lang="de" type="orig_name">Schwerin</placeName>
                         <placeName xml:lang="de" type="simple_name">Schwerin</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00365">
                         <placeName xml:lang="de" type="orig_name">Hammer</placeName>
                         <placeName xml:lang="de" type="simple_name">Hammer</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00366">
@@ -2264,19 +2264,19 @@
                     <place xml:id="DWplace00367">
                         <placeName xml:lang="de" type="orig_name">Salins-les-Bains</placeName>
                         <placeName xml:lang="de" type="simple_name">Salins-les-Bains</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/94307/</idno>
                     </place>
                     <place xml:id="DWplace00368">
                         <placeName xml:lang="de" type="orig_name">Jena</placeName>
                         <placeName xml:lang="de" type="simple_name">Jena</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/876/</idno>
                     </place>
                     <place xml:id="DWplace00369">
                         <placeName xml:lang="de" type="orig_name">Brandenburg an der Havel</placeName>
                         <placeName xml:lang="de" type="simple_name">Brandenburg an der Havel</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/64197/</idno>
                     </place>
                     <place xml:id="DWplace00370">
@@ -2288,25 +2288,25 @@
                     <place xml:id="DWplace00371">
                         <placeName xml:lang="de" type="orig_name">Aachen</placeName>
                         <placeName xml:lang="de" type="simple_name">Aachen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00372">
                         <placeName xml:lang="de" type="orig_name">Belgrad</placeName>
                         <placeName xml:lang="de" type="simple_name">Belgrad</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/40222/</idno>
                     </place>
                     <place xml:id="DWplace00373">
                         <placeName xml:lang="de" type="orig_name">Clayton NC</placeName>
                         <placeName xml:lang="de" type="simple_name">Clayton NC</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00374">
                         <placeName xml:lang="de" type="orig_name">Dovia di Predappio</placeName>
                         <placeName xml:lang="de" type="simple_name">Dovia di Predappio</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00375">
@@ -2318,31 +2318,31 @@
                     <place xml:id="DWplace00376">
                         <placeName xml:lang="de" type="orig_name">Ilmenau</placeName>
                         <placeName xml:lang="de" type="simple_name">Ilmenau</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00377">
                         <placeName xml:lang="de" type="orig_name">Valladolid</placeName>
                         <placeName xml:lang="de" type="simple_name">Valladolid</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/47632/</idno>
                     </place>
                     <place xml:id="DWplace00378">
                         <placeName xml:lang="de" type="orig_name">Peresznye bei Ödenburg</placeName>
                         <placeName xml:lang="de" type="simple_name">Peresznye bei Ödenburg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00379">
                         <placeName xml:lang="de" type="orig_name">Manchester</placeName>
                         <placeName xml:lang="de" type="simple_name">Manchester</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00380">
                         <placeName xml:lang="de" type="orig_name">Stadtsteinach</placeName>
                         <placeName xml:lang="de" type="simple_name">Stadtsteinach</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/49817/</idno>
                     </place>
                     <place xml:id="DWplace00381">
@@ -2360,19 +2360,19 @@
                     <place xml:id="DWplace00383">
                         <placeName xml:lang="de" type="orig_name">München</placeName>
                         <placeName xml:lang="de" type="simple_name">München</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/45258/</idno>
                     </place>
                     <place xml:id="DWplace00384">
                         <placeName xml:lang="de" type="orig_name">New York</placeName>
                         <placeName xml:lang="de" type="simple_name">New York</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00385">
                         <placeName xml:lang="de" type="orig_name">Radebeul</placeName>
                         <placeName xml:lang="de" type="simple_name">Radebeul</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/45569/</idno>
                     </place>
                     <place xml:id="DWplace00386">
@@ -2390,13 +2390,13 @@
                     <place xml:id="DWplace00388">
                         <placeName xml:lang="de" type="orig_name">Velyki Soročynci</placeName>
                         <placeName xml:lang="de" type="simple_name">Velyki Soročynci</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00389">
                         <placeName xml:lang="de" type="orig_name">Ludwigshafen</placeName>
                         <placeName xml:lang="de" type="simple_name">Ludwigshafen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00390">
@@ -2408,7 +2408,7 @@
                     <place xml:id="DWplace00391">
                         <placeName xml:lang="de" type="orig_name">Nizza</placeName>
                         <placeName xml:lang="de" type="simple_name">Nizza</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/926/</idno>
                     </place>
                     <place xml:id="DWplace00392">
@@ -2426,31 +2426,31 @@
                     <place xml:id="DWplace00394">
                         <placeName xml:lang="de" type="orig_name">KZ Buchenwald</placeName>
                         <placeName xml:lang="de" type="simple_name">KZ Buchenwald</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00395">
                         <placeName xml:lang="de" type="orig_name">Chemnitz</placeName>
                         <placeName xml:lang="de" type="simple_name">Chemnitz</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/49582/</idno>
                     </place>
                     <place xml:id="DWplace00396">
                         <placeName xml:lang="de" type="orig_name">Bichlwang</placeName>
                         <placeName xml:lang="de" type="simple_name">Bichlwang</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00397">
                         <placeName xml:lang="de" type="orig_name">Neubau</placeName>
                         <placeName xml:lang="de" type="simple_name">Neubau</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00398">
                         <placeName xml:lang="de" type="orig_name">Connecticut CT</placeName>
                         <placeName xml:lang="de" type="simple_name">Connecticut CT</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00399">
@@ -2462,31 +2462,31 @@
                     <place xml:id="DWplace00400">
                         <placeName xml:lang="de" type="orig_name">Bisamberg</placeName>
                         <placeName xml:lang="de" type="simple_name">Bisamberg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00401">
                         <placeName xml:lang="de" type="orig_name">Altamonte Springs FL</placeName>
                         <placeName xml:lang="de" type="simple_name">Altamonte Springs FL</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00402">
                         <placeName xml:lang="de" type="orig_name">Minsk</placeName>
                         <placeName xml:lang="de" type="simple_name">Minsk</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00403">
                         <placeName xml:lang="de" type="orig_name">Braunau am Inn</placeName>
                         <placeName xml:lang="de" type="simple_name">Braunau am Inn</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00404">
                         <placeName xml:lang="de" type="orig_name">Dresden</placeName>
                         <placeName xml:lang="de" type="simple_name">Dresden</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00405">
@@ -2498,49 +2498,49 @@
                     <place xml:id="DWplace00406">
                         <placeName xml:lang="de" type="orig_name">Alsenz</placeName>
                         <placeName xml:lang="de" type="simple_name">Alsenz</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00407">
                         <placeName xml:lang="de" type="orig_name">Triest</placeName>
                         <placeName xml:lang="de" type="simple_name">Triest</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/873/</idno>
                     </place>
                     <place xml:id="DWplace00408">
                         <placeName xml:lang="de" type="orig_name">Posen</placeName>
                         <placeName xml:lang="de" type="simple_name">Posen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00409">
                         <placeName xml:lang="de" type="orig_name">Klagenfurt</placeName>
                         <placeName xml:lang="de" type="simple_name">Klagenfurt</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00410">
                         <placeName xml:lang="de" type="orig_name">Kranichfeld</placeName>
                         <placeName xml:lang="de" type="simple_name">Kranichfeld</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00411">
                         <placeName xml:lang="de" type="orig_name">KZ Börnicke</placeName>
                         <placeName xml:lang="de" type="simple_name">KZ Börnicke</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00412">
                         <placeName xml:lang="de" type="orig_name">Rheydt</placeName>
                         <placeName xml:lang="de" type="simple_name">Rheydt</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/94107/</idno>
                     </place>
                     <place xml:id="DWplace00413">
                         <placeName xml:lang="de" type="orig_name">Wien-Brigittenau</placeName>
                         <placeName xml:lang="de" type="simple_name">Wien-Brigittenau</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00414">
@@ -2552,49 +2552,49 @@
                     <place xml:id="DWplace00415">
                         <placeName xml:lang="de" type="orig_name">Airolo</placeName>
                         <placeName xml:lang="de" type="simple_name">Airolo</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00416">
                         <placeName xml:lang="de" type="orig_name">Stratford-upon-Avon</placeName>
                         <placeName xml:lang="de" type="simple_name">Stratford-upon-Avon</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/49870/</idno>
                     </place>
                     <place xml:id="DWplace00417">
                         <placeName xml:lang="de" type="orig_name">Odessa</placeName>
                         <placeName xml:lang="de" type="simple_name">Odessa</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/420/</idno>
                     </place>
                     <place xml:id="DWplace00418">
                         <placeName xml:lang="de" type="orig_name">Siegburg</placeName>
                         <placeName xml:lang="de" type="simple_name">Siegburg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/64609/</idno>
                     </place>
                     <place xml:id="DWplace00419">
                         <placeName xml:lang="de" type="orig_name">Berlin-Köpenick</placeName>
                         <placeName xml:lang="de" type="simple_name">Berlin-Köpenick</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00420">
                         <placeName xml:lang="de" type="orig_name">Perth</placeName>
                         <placeName xml:lang="de" type="simple_name">Perth</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00421">
                         <placeName xml:lang="de" type="orig_name">Ober-Ramstadt</placeName>
                         <placeName xml:lang="de" type="simple_name">Ober-Ramstadt</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/64680/</idno>
                     </place>
                     <place xml:id="DWplace00422">
                         <placeName xml:lang="de" type="orig_name">Genua</placeName>
                         <placeName xml:lang="de" type="simple_name">Genua</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00423">
@@ -2606,13 +2606,13 @@
                     <place xml:id="DWplace00424">
                         <placeName xml:lang="de" type="orig_name">Hainsfarth</placeName>
                         <placeName xml:lang="de" type="simple_name">Hainsfarth</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/46717/</idno>
                     </place>
                     <place xml:id="DWplace00425">
                         <placeName xml:lang="de" type="orig_name">Háj ve Slezsku)</placeName>
                         <placeName xml:lang="de" type="simple_name">Háj ve Slezsku)</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00426">
@@ -2624,37 +2624,37 @@
                     <place xml:id="DWplace00427">
                         <placeName xml:lang="de" type="orig_name">Tulln</placeName>
                         <placeName xml:lang="de" type="simple_name">Tulln</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/91959/</idno>
                     </place>
                     <place xml:id="DWplace00428">
                         <placeName xml:lang="de" type="orig_name">Langenlois</placeName>
                         <placeName xml:lang="de" type="simple_name">Langenlois</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/54969/</idno>
                     </place>
                     <place xml:id="DWplace00429">
                         <placeName xml:lang="de" type="orig_name">Rogowo</placeName>
                         <placeName xml:lang="de" type="simple_name">Rogowo</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00430">
                         <placeName xml:lang="de" type="orig_name">Evanston IL</placeName>
                         <placeName xml:lang="de" type="simple_name">Evanston IL</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00431">
                         <placeName xml:lang="de" type="orig_name">Solingen</placeName>
                         <placeName xml:lang="de" type="simple_name">Solingen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/94198/</idno>
                     </place>
                     <place xml:id="DWplace00432">
                         <placeName xml:lang="de" type="orig_name">Ávila</placeName>
                         <placeName xml:lang="de" type="simple_name">Ávila</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/28453/</idno>
                     </place>
                     <place xml:id="DWplace00433">
@@ -2666,19 +2666,19 @@
                     <place xml:id="DWplace00434">
                         <placeName xml:lang="de" type="orig_name">Budapest</placeName>
                         <placeName xml:lang="de" type="simple_name">Budapest</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/43471/</idno>
                     </place>
                     <place xml:id="DWplace00435">
                         <placeName xml:lang="de" type="orig_name">Göteborg</placeName>
                         <placeName xml:lang="de" type="simple_name">Göteborg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/40700/</idno>
                     </place>
                     <place xml:id="DWplace00436">
                         <placeName xml:lang="de" type="orig_name">Verviers</placeName>
                         <placeName xml:lang="de" type="simple_name">Verviers</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/46762/</idno>
                     </place>
                     <place xml:id="DWplace00437">
@@ -2690,37 +2690,37 @@
                     <place xml:id="DWplace00438">
                         <placeName xml:lang="de" type="orig_name">Ludwigshafen am Rhein</placeName>
                         <placeName xml:lang="de" type="simple_name">Ludwigshafen am Rhein</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00439">
                         <placeName xml:lang="de" type="orig_name">Starnberg</placeName>
                         <placeName xml:lang="de" type="simple_name">Starnberg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/40951/</idno>
                     </place>
                     <place xml:id="DWplace00440">
                         <placeName xml:lang="de" type="orig_name">Planegg</placeName>
                         <placeName xml:lang="de" type="simple_name">Planegg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/46289/</idno>
                     </place>
                     <place xml:id="DWplace00441">
                         <placeName xml:lang="de" type="orig_name">Neudeck</placeName>
                         <placeName xml:lang="de" type="simple_name">Neudeck</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00442">
                         <placeName xml:lang="de" type="orig_name">Kruszewnia bei Posen</placeName>
                         <placeName xml:lang="de" type="simple_name">Kruszewnia bei Posen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00443">
                         <placeName xml:lang="de" type="orig_name">Lissabon</placeName>
                         <placeName xml:lang="de" type="simple_name">Lissabon</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00444">
@@ -2750,31 +2750,31 @@
                     <place xml:id="DWplace00448">
                         <placeName xml:lang="de" type="orig_name">Essen</placeName>
                         <placeName xml:lang="de" type="simple_name">Essen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00449">
                         <placeName xml:lang="de" type="orig_name">Flensburg</placeName>
                         <placeName xml:lang="de" type="simple_name">Flensburg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/58801/</idno>
                     </place>
                     <place xml:id="DWplace00450">
                         <placeName xml:lang="de" type="orig_name">Blühnbach bei Salzburg</placeName>
                         <placeName xml:lang="de" type="simple_name">Blühnbach bei Salzburg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00451">
                         <placeName xml:lang="de" type="orig_name">Bermuda</placeName>
                         <placeName xml:lang="de" type="simple_name">Bermuda</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/46765/</idno>
                     </place>
                     <place xml:id="DWplace00452">
                         <placeName xml:lang="de" type="orig_name">Pfaffenhofen</placeName>
                         <placeName xml:lang="de" type="simple_name">Pfaffenhofen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00453">
@@ -2786,43 +2786,43 @@
                     <place xml:id="DWplace00454">
                         <placeName xml:lang="de" type="orig_name">Ajaccio</placeName>
                         <placeName xml:lang="de" type="simple_name">Ajaccio</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/847/</idno>
                     </place>
                     <place xml:id="DWplace00455">
                         <placeName xml:lang="de" type="orig_name">Regensburg</placeName>
                         <placeName xml:lang="de" type="simple_name">Regensburg</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/58684/</idno>
                     </place>
                     <place xml:id="DWplace00456">
                         <placeName xml:lang="de" type="orig_name">Bruck an der Mur</placeName>
                         <placeName xml:lang="de" type="simple_name">Bruck an der Mur</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/840/</idno>
                     </place>
                     <place xml:id="DWplace00457">
                         <placeName xml:lang="de" type="orig_name">Darmstadt</placeName>
                         <placeName xml:lang="de" type="simple_name">Darmstadt</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/834/</idno>
                     </place>
                     <place xml:id="DWplace00458">
                         <placeName xml:lang="de" type="orig_name">Bielefeld</placeName>
                         <placeName xml:lang="de" type="simple_name">Bielefeld</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00459">
                         <placeName xml:lang="de" type="orig_name">Polna</placeName>
                         <placeName xml:lang="de" type="simple_name">Polná</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/100693/</idno>
                     </place>
                     <place xml:id="DWplace00460">
                         <placeName xml:lang="de" type="orig_name">Nordhausen</placeName>
                         <placeName xml:lang="de" type="simple_name">Nordhausen</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/62107/</idno>
                     </place>
                     <place xml:id="DWplace00461">
@@ -2834,7 +2834,7 @@
                     <place xml:id="DWplace00462">
                         <placeName xml:lang="de" type="orig_name">Koblenz</placeName>
                         <placeName xml:lang="de" type="simple_name">Koblenz</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00463">
@@ -2846,19 +2846,19 @@
                     <place xml:id="DWplace00464">
                         <placeName xml:lang="de" type="orig_name">Mannheim</placeName>
                         <placeName xml:lang="de" type="simple_name">Mannheim</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/881/</idno>
                     </place>
                     <place xml:id="DWplace00465">
                         <placeName xml:lang="de" type="orig_name">Baden</placeName>
                         <placeName xml:lang="de" type="simple_name">Baden</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00466">
                         <placeName xml:lang="de" type="orig_name">Innsbruck</placeName>
                         <placeName xml:lang="de" type="simple_name">Innsbruck</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/867/</idno>
                     </place>
                     <place xml:id="DWplace00467">
@@ -2870,13 +2870,13 @@
                     <place xml:id="DWplace00468">
                         <placeName xml:lang="de" type="orig_name">Hannover</placeName>
                         <placeName xml:lang="de" type="simple_name">Hannover</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/890/</idno>
                     </place>
                     <place xml:id="DWplace00469">
                         <placeName xml:lang="de" type="orig_name">Worms</placeName>
                         <placeName xml:lang="de" type="simple_name">Worms</placeName>
-                        <placeName xml:lang="und" type="alt_label">nan</placeName>
+                        
                         <idno type="pmb"/>
                     </place>
                     <place xml:id="DWplace00470">
