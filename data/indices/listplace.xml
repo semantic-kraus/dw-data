@@ -273,7 +273,7 @@
                         <placeName xml:lang="de" type="orig_name">Miami FL</placeName>
                         <placeName xml:lang="de" type="simple_name">Miami FL</placeName>
                         
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/45749/</idno>
                     </place>
                     <place xml:id="DWplace00036">
                         <placeName xml:lang="de" type="orig_name">Den Haag</placeName>
@@ -477,7 +477,7 @@
                         <placeName xml:lang="de" type="orig_name">Berlin-Spandau</placeName>
                         <placeName xml:lang="de" type="simple_name">Berlin-Spandau</placeName>
                         
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/64677/</idno>
                     </place>
                     <place xml:id="DWplace00070">
                         <placeName xml:lang="de" type="orig_name">Vordernberg</placeName>
