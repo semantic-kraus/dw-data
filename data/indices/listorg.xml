@@ -1,0 +1,125 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Institutionsregister</title>
+                <title type="sub">Dritte Walpurgisnacht</title>
+                <respStmt>
+                    <resp>Aufbereitung der Daten</resp>
+                    <name>Oberreither, Bernhard</name>
+                </respStmt>
+                <respStmt>
+                    <resp>converted to XML encoding</resp>
+                    <name>Peter Andorfer</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Institut für die Erforschung der Habsburgermonarchie und des Balkanraumes</publisher>
+                <pubPlace>Wien</pubPlace>
+                <date when="2022">2022</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0">
+                        <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium vervielfältigen und weiterverbreiten</p>
+                        <p>Bearbeiten — das Material remixen, verändern und darauf aufbauen und zwar für beliebige Zwecke, sogar kommerziell.</p>
+                        <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen solange Sie sich an die Lizenzbedingungen halten. Unter folgenden Bedingungen:</p>
+                        <p>Namensnennung — Sie müssen angemessene Urheber- und Rechteangaben machen, einen Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden.
+                            Diese Angaben dürfen in jeder angemessenen Art und Weise gemacht werden, allerdings nicht so, dass der Eindruck entsteht, der Lizenzgeber unterstütze
+                            gerade Sie oder Ihre Nutzung besonders.</p>
+                        <p>Keine weiteren Einschränkungen — Sie dürfen keine zusätzlichen Klauseln oder technische Verfahren einsetzen, 
+                            die anderen rechtlich irgendetwas untersagen, was die Lizenz erlaubt.</p>
+                        <p>Hinweise:</p>
+                        <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich solcher Teile des Materials, die gemeinfrei sind, oder soweit Ihre Nutzungshandlungen durch Ausnahmen und
+                            Schranken des Urheberrechts gedeckt sind.</p>
+                        <p>Es werden keine Garantien gegeben und auch keine Gewähr geleistet.
+                            Die Lizenz verschafft Ihnen möglicherweise nicht alle Erlaubnisse,
+                            die Sie für die jeweilige Nutzung brauchen. 
+                            Es können beispielsweise andere Rechte wie Persönlichkeits- undDatenschutzrechte zu beachten sein, die Ihre Nutzung des Materials entsprechend beschränken.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Register der im Projekt erwähnten Institutionen</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="index_orgs">
+                <listOrg xml:id="listorg">
+                    <org xml:id="DWorg00001">
+                        <orgName xml:lang="de" type="orig_name">Stahlhelm</orgName>
+                        <idno type="pmb"/>
+                    </org>
+                    <org xml:id="DWorg00002">
+                        <orgName xml:lang="de" type="orig_name">GDVP</orgName>
+                        <idno type="pmb"/>
+                    </org>
+                    <org xml:id="DWorg00003">
+                        <orgName xml:lang="de" type="orig_name">KPÖ</orgName>
+                        <idno type="pmb"/>
+                    </org>
+                    <org xml:id="DWorg00004">
+                        <orgName xml:lang="de" type="orig_name">Landbund</orgName>
+                        <idno type="pmb"/>
+                    </org>
+                    <org xml:id="DWorg00005">
+                        <orgName xml:lang="de" type="orig_name">CSP</orgName>
+                        <idno type="pmb"/>
+                    </org>
+                    <org xml:id="DWorg00006">
+                        <orgName xml:lang="de" type="orig_name">Bund der Antisemiten</orgName>
+                        <idno type="pmb"/>
+                    </org>
+                    <org xml:id="DWorg00007">
+                        <orgName xml:lang="de" type="orig_name">SDAP</orgName>
+                        <idno type="pmb"/>
+                    </org>
+                    <org xml:id="DWorg00008">
+                        <orgName xml:lang="de" type="orig_name">Heimatblock</orgName>
+                        <idno type="pmb"/>
+                    </org>
+                    <org xml:id="DWorg00009">
+                        <orgName xml:lang="de" type="orig_name">SAPD</orgName>
+                        <idno type="pmb"/>
+                    </org>
+                    <org xml:id="DWorg00010">
+                        <orgName xml:lang="de" type="orig_name">SPD</orgName>
+                        <idno type="pmb"/>
+                    </org>
+                    <org xml:id="DWorg00011">
+                        <orgName xml:lang="de" type="orig_name">NSDAP</orgName>
+                        <idno type="pmb"/>
+                    </org>
+                    <org xml:id="DWorg00012">
+                        <orgName xml:lang="de" type="orig_name">KPD</orgName>
+                        <idno type="pmb"/>
+                    </org>
+                    <org xml:id="DWorg00013">
+                        <orgName xml:lang="de" type="orig_name">Partito operaio socialista in Austria</orgName>
+                        <idno type="pmb"/>
+                    </org>
+                    <org xml:id="DWorg00014">
+                        <orgName xml:lang="de" type="orig_name">Vaterländische Front</orgName>
+                        <idno type="pmb"/>
+                    </org>
+                    <org xml:id="DWorg00015">
+                        <orgName xml:lang="de" type="orig_name">DNVP</orgName>
+                        <idno type="pmb"/>
+                    </org>
+                    <org xml:id="DWorg00016">
+                        <orgName xml:lang="de" type="orig_name">Labour</orgName>
+                        <idno type="pmb"/>
+                    </org>
+                    <org xml:id="DWorg00017">
+                        <orgName xml:lang="de" type="orig_name">KJVD</orgName>
+                        <idno type="pmb"/>
+                    </org>
+                    <org xml:id="DWorg00018">
+                        <orgName xml:lang="de" type="orig_name">PNF</orgName>
+                        <idno type="pmb"/>
+                    </org>
+                </listOrg>
+            </div>
+        </body>
+    </text>
+</TEI>
