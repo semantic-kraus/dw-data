@@ -14,28 +14,10 @@
                 </respStmt>
             </titleStmt>
             <publicationStmt>
-                <publisher>Institut für die Erforschung der Habsburgermonarchie und des Balkanraumes</publisher>
+                <publisher>ACDH-CH / ACE</publisher>
                 <pubPlace>Wien</pubPlace>
-                <date when="2022">2022</date>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0">
-                        <p>Sie dürfen: Teilen — das Material in jedwedem Format oder Medium vervielfältigen und weiterverbreiten</p>
-                        <p>Bearbeiten — das Material remixen, verändern und darauf aufbauen und zwar für beliebige Zwecke, sogar kommerziell.</p>
-                        <p>Der Lizenzgeber kann diese Freiheiten nicht widerrufen solange Sie sich an die Lizenzbedingungen halten. Unter folgenden Bedingungen:</p>
-                        <p>Namensnennung — Sie müssen angemessene Urheber- und Rechteangaben machen, einen Link zur Lizenz beifügen und angeben, ob Änderungen vorgenommen wurden.
-                            Diese Angaben dürfen in jeder angemessenen Art und Weise gemacht werden, allerdings nicht so, dass der Eindruck entsteht, der Lizenzgeber unterstütze
-                            gerade Sie oder Ihre Nutzung besonders.</p>
-                        <p>Keine weiteren Einschränkungen — Sie dürfen keine zusätzlichen Klauseln oder technische Verfahren einsetzen, 
-                            die anderen rechtlich irgendetwas untersagen, was die Lizenz erlaubt.</p>
-                        <p>Hinweise:</p>
-                        <p>Sie müssen sich nicht an diese Lizenz halten hinsichtlich solcher Teile des Materials, die gemeinfrei sind, oder soweit Ihre Nutzungshandlungen durch Ausnahmen und
-                            Schranken des Urheberrechts gedeckt sind.</p>
-                        <p>Es werden keine Garantien gegeben und auch keine Gewähr geleistet.
-                            Die Lizenz verschafft Ihnen möglicherweise nicht alle Erlaubnisse,
-                            die Sie für die jeweilige Nutzung brauchen. 
-                            Es können beispielsweise andere Rechte wie Persönlichkeits- undDatenschutzrechte zu beachten sein, die Ihre Nutzung des Materials entsprechend beschränken.</p>
-                    </licence>
-                </availability>
+                <date when="2022">2023</date>
+                
             </publicationStmt>
             <sourceDesc>
                 <p>Register der im Projekt erwähnten Institutionen</p>
@@ -48,81 +30,127 @@
                 <listOrg xml:id="listorg">
                     <org xml:id="DWorg00001">
                         <orgName xml:lang="de" type="orig_name">Stahlhelm</orgName>
+                        <orgName xml:lang="de" type="short">Stahlhelm</orgName>
+                        <orgName xml:lang="de" type="full">Stahlhelm, Bund der Frontsoldaten</orgName>
                         <idno type="pmb"/>
                         <idno type="gnd">https://d-nb.info/gnd/63616-2</idno>
                     </org>
                     <org xml:id="DWorg00002">
                         <orgName xml:lang="de" type="orig_name">GDVP</orgName>
+                        <orgName xml:lang="de" type="short">GDVP</orgName>
                         <orgName xml:lang="de" type="full">Großdeutsche Volkspartei</orgName>
                         <idno type="pmb"/>
                         <idno type="gnd">https://d-nb.info/gnd/410560-6</idno>
                     </org>
                     <org xml:id="DWorg00003">
                         <orgName xml:lang="de" type="orig_name">KPÖ</orgName>
+                        <orgName xml:lang="de" type="short">KPÖ</orgName>
                         <orgName xml:lang="de" type="full">Kommunistische Partei Österreichs</orgName>
                         <idno type="pmb"/>
                         <idno type="gnd">https://d-nb.info/gnd/6012-4</idno>
                     </org>
                     <org xml:id="DWorg00004">
                         <orgName xml:lang="de" type="orig_name">Landbund</orgName>
+                        <orgName xml:lang="de" type="short">LBd</orgName>
+                        <orgName xml:lang="de" type="full">Landbund für Österreich</orgName>
                         <idno type="pmb"/>
+                        <idno type="gnd">https://d-nb.info/gnd/409407-4</idno>
                     </org>
                     <org xml:id="DWorg00005">
                         <orgName xml:lang="de" type="orig_name">CSP</orgName>
+                        <orgName xml:lang="de" type="short">CSP</orgName>
+                        <orgName xml:lang="de" type="full">Christlichsoziale Partei</orgName>
                         <idno type="pmb"/>
+                        <idno type="gnd">https://d-nb.info/gnd/5199156-1</idno>
                     </org>
                     <org xml:id="DWorg00006">
                         <orgName xml:lang="de" type="orig_name">Bund der Antisemiten</orgName>
+                        <orgName xml:lang="de" type="full">Bund der Antisemiten</orgName>
                         <idno type="pmb"/>
+                        <idno type="gnd"/>
                     </org>
                     <org xml:id="DWorg00007">
                         <orgName xml:lang="de" type="orig_name">SDAP</orgName>
+                        <orgName xml:lang="de" type="short">SDAP</orgName>
+                        <orgName xml:lang="de" type="full">Sozialdemokratische Arbeiterpartei Deutschösterreichs</orgName>
+                        <orgName xml:lang="de" type="full">Sozialdemokratische Arbeiterpartei</orgName>
                         <idno type="pmb"/>
+                        <idno type="gnd">https://d-nb.info/gnd/5060450-8</idno>
                     </org>
                     <org xml:id="DWorg00008">
                         <orgName xml:lang="de" type="orig_name">Heimatblock</orgName>
+                        <orgName xml:lang="de" type="full">Heimatblock</orgName>
                         <idno type="pmb"/>
+                        <idno type="gnd"/>
                     </org>
                     <org xml:id="DWorg00009">
                         <orgName xml:lang="de" type="orig_name">SAPD</orgName>
+                        <orgName xml:lang="de" type="short">SAPD</orgName>
+                        <orgName xml:lang="de" type="full">Sozialistische Arbeiterpartei Deutschlands</orgName>
                         <idno type="pmb"/>
+                        <idno type="gnd">https://d-nb.info/gnd/4055794-7</idno>
                     </org>
                     <org xml:id="DWorg00010">
                         <orgName xml:lang="de" type="orig_name">SPD</orgName>
+                        <orgName xml:lang="de" type="short">SPD</orgName>
+                        <orgName xml:lang="de" type="full">Sozialdemokratische Partei Deutschlands</orgName>
                         <idno type="pmb"/>
+                        <idno type="gnd">https://d-nb.info/gnd/2022139-3</idno>
                     </org>
                     <org xml:id="DWorg00011">
                         <orgName xml:lang="de" type="orig_name">NSDAP</orgName>
+                        <orgName xml:lang="de" type="short">NSDAP</orgName>
+                        <orgName xml:lang="de" type="full">Nationalsozialistische Deutsche Arbeiterpartei</orgName>
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/134990/</idno>
                         <idno type="gnd">https://d-nb.info/gnd/1012979-0</idno>
                     </org>
                     <org xml:id="DWorg00012">
                         <orgName xml:lang="de" type="orig_name">KPD</orgName>
+                        <orgName xml:lang="de" type="short">KPD</orgName>
+                        <orgName xml:lang="de" type="full">Kommunistische Partei Deutschlands</orgName>
                         <idno type="pmb"/>
+                        <idno type="gnd">https://d-nb.info/gnd/2016052-5</idno>
                     </org>
                     <org xml:id="DWorg00013">
                         <orgName xml:lang="de" type="orig_name">Partito operaio socialista in Austria</orgName>
+                        <orgName xml:lang="de" type="full">Partito operaio socialista in Austria</orgName>
                         <idno type="pmb"/>
+                        <idno type="gnd"/>
                     </org>
                     <org xml:id="DWorg00014">
                         <orgName xml:lang="de" type="orig_name">Vaterländische Front</orgName>
+                        <orgName xml:lang="de" type="short">VF</orgName>
+                        <orgName xml:lang="de" type="full">Vaterländische Front</orgName>
                         <idno type="pmb"/>
+                        <idno type="gnd">http://d-nb.info/gnd/5272350-1</idno>
                     </org>
                     <org xml:id="DWorg00015">
                         <orgName xml:lang="de" type="orig_name">DNVP</orgName>
+                        <orgName xml:lang="de" type="short">DNVP</orgName>
+                        <orgName xml:lang="de" type="full">Deutschnationale Volkspartei</orgName>
                         <idno type="pmb"/>
+                        <idno type="gnd">https://d-nb.info/gnd/117762-X</idno>
                     </org>
                     <org xml:id="DWorg00016">
                         <orgName xml:lang="de" type="orig_name">Labour</orgName>
+                        <orgName xml:lang="de" type="short">Labour</orgName>
+                        <orgName xml:lang="de" type="full">Labour Party</orgName>
                         <idno type="pmb"/>
+                        <idno type="gnd">https://d-nb.info/gnd/2124-6</idno>
                     </org>
                     <org xml:id="DWorg00017">
                         <orgName xml:lang="de" type="orig_name">KJVD</orgName>
+                        <orgName xml:lang="de" type="short">KJVD</orgName>
+                        <orgName xml:lang="de" type="full">Kommunistischer Jugendverband Deutschlands</orgName>
                         <idno type="pmb"/>
+                        <idno type="gnd">https://d-nb.info/gnd/132416-0</idno>
                     </org>
                     <org xml:id="DWorg00018">
                         <orgName xml:lang="de" type="orig_name">PNF</orgName>
+                        <orgName xml:lang="de" type="short">PNF</orgName>
+                        <orgName xml:lang="de" type="full">Partito Nazionale Fascista</orgName>
                         <idno type="pmb"/>
+                        <idno type="gnd">https://d-nb.info/gnd/80653-5</idno>
                     </org>
                 </listOrg>
             </div>
