@@ -112,8 +112,8 @@
                         <idno type="gnd">https://d-nb.info/gnd/2016052-5</idno>
                     </org>
                     <org xml:id="DWorg00013">
-                        <orgName xml:lang="de" type="orig_name">Partito operaio socialista in Austria</orgName>
-                        <orgName xml:lang="de" type="full">Partito operaio socialista in Austria</orgName>
+                        <orgName xml:lang="it" type="orig_name">Partito operaio socialista in Austria</orgName>
+                        <orgName xml:lang="it" type="full">Partito operaio socialista in Austria</orgName>
                         <idno type="pmb"/>
                         <idno type="gnd"/>
                     </org>
@@ -132,9 +132,9 @@
                         <idno type="gnd">https://d-nb.info/gnd/117762-X</idno>
                     </org>
                     <org xml:id="DWorg00016">
-                        <orgName xml:lang="de" type="orig_name">Labour</orgName>
-                        <orgName xml:lang="de" type="short">Labour</orgName>
-                        <orgName xml:lang="de" type="full">Labour Party</orgName>
+                        <orgName xml:lang="en" type="orig_name">Labour</orgName>
+                        <orgName xml:lang="en" type="short">Labour</orgName>
+                        <orgName xml:lang="en" type="full">Labour Party</orgName>
                         <idno type="pmb"/>
                         <idno type="gnd">https://d-nb.info/gnd/2124-6</idno>
                     </org>
@@ -146,9 +146,9 @@
                         <idno type="gnd">https://d-nb.info/gnd/132416-0</idno>
                     </org>
                     <org xml:id="DWorg00018">
-                        <orgName xml:lang="de" type="orig_name">PNF</orgName>
-                        <orgName xml:lang="de" type="short">PNF</orgName>
-                        <orgName xml:lang="de" type="full">Partito Nazionale Fascista</orgName>
+                        <orgName xml:lang="it" type="orig_name">PNF</orgName>
+                        <orgName xml:lang="it" type="short">PNF</orgName>
+                        <orgName xml:lang="it" type="full">Partito Nazionale Fascista</orgName>
                         <idno type="pmb"/>
                         <idno type="gnd">https://d-nb.info/gnd/80653-5</idno>
                     </org>
