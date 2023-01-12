@@ -8,16 +8,11 @@
                     <resp>Aufbereitung der Daten</resp>
                     <name>Oberreither, Bernhard</name>
                 </respStmt>
-                <respStmt>
-                    <resp>converted to XML encoding</resp>
-                    <name>Peter Andorfer</name>
-                </respStmt>
             </titleStmt>
             <publicationStmt>
                 <publisher>ACDH-CH / ACE</publisher>
                 <pubPlace>Wien</pubPlace>
                 <date when="2022">2023</date>
-                
             </publicationStmt>
             <sourceDesc>
                 <p>Register der im Projekt erwähnten Institutionen</p>
@@ -68,6 +63,7 @@
                         <orgName xml:lang="de" type="full">Bund der Antisemiten</orgName>
                         <idno type="pmb"/>
                         <idno type="gnd"/>
+                        <idno type="wikidata">https://www.wikidata.org/wiki/Q26695733</idno>
                     </org>
                     <org xml:id="DWorg00007">
                         <orgName xml:lang="de" type="orig_name">SDAP</orgName>
@@ -82,6 +78,7 @@
                         <orgName xml:lang="de" type="full">Heimatblock</orgName>
                         <idno type="pmb"/>
                         <idno type="gnd"/>
+                        <idno type="wikidata">https://www.wikidata.org/wiki/Q1595552</idno>
                     </org>
                     <org xml:id="DWorg00009">
                         <orgName xml:lang="de" type="orig_name">SAPD</orgName>
@@ -116,6 +113,7 @@
                         <orgName xml:lang="it" type="full">Partito operaio socialista in Austria</orgName>
                         <idno type="pmb"/>
                         <idno type="gnd"/>
+                        <idno type="wikidata">https://www.wikidata.org/wiki/Q21040720</idno>
                     </org>
                     <org xml:id="DWorg00014">
                         <orgName xml:lang="de" type="orig_name">Vaterländische Front</orgName>
