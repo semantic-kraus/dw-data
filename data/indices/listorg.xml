@@ -27,35 +27,35 @@
                         <orgName xml:lang="de" type="orig_name">Stahlhelm</orgName>
                         <orgName xml:lang="de" type="short">Stahlhelm</orgName>
                         <orgName xml:lang="de" type="full">Stahlhelm, Bund der Frontsoldaten</orgName>
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/135089/</idno>
                         <idno type="gnd">https://d-nb.info/gnd/63616-2</idno>
                     </org>
                     <org xml:id="DWorg00002">
                         <orgName xml:lang="de" type="orig_name">GDVP</orgName>
                         <orgName xml:lang="de" type="short">GDVP</orgName>
                         <orgName xml:lang="de" type="full">Großdeutsche Volkspartei</orgName>
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/135090/</idno>
                         <idno type="gnd">https://d-nb.info/gnd/410560-6</idno>
                     </org>
                     <org xml:id="DWorg00003">
                         <orgName xml:lang="de" type="orig_name">KPÖ</orgName>
                         <orgName xml:lang="de" type="short">KPÖ</orgName>
                         <orgName xml:lang="de" type="full">Kommunistische Partei Österreichs</orgName>
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/135091/</idno>
                         <idno type="gnd">https://d-nb.info/gnd/6012-4</idno>
                     </org>
                     <org xml:id="DWorg00004">
                         <orgName xml:lang="de" type="orig_name">Landbund</orgName>
                         <orgName xml:lang="de" type="short">LBd</orgName>
                         <orgName xml:lang="de" type="full">Landbund für Österreich</orgName>
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/135095/</idno>
                         <idno type="gnd">https://d-nb.info/gnd/409407-4</idno>
                     </org>
                     <org xml:id="DWorg00005">
                         <orgName xml:lang="de" type="orig_name">CSP</orgName>
                         <orgName xml:lang="de" type="short">CSP</orgName>
                         <orgName xml:lang="de" type="full">Christlichsoziale Partei</orgName>
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/118429/</idno>
                         <idno type="gnd">https://d-nb.info/gnd/5199156-1</idno>
                     </org>
                     <org xml:id="DWorg00006">
@@ -70,7 +70,7 @@
                         <orgName xml:lang="de" type="short">SDAP</orgName>
                         <orgName xml:lang="de" type="full">Sozialdemokratische Arbeiterpartei Deutschösterreichs</orgName>
                         <orgName xml:lang="de" type="full">Sozialdemokratische Arbeiterpartei</orgName>
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/135096/</idno>
                         <idno type="gnd">https://d-nb.info/gnd/5060450-8</idno>
                     </org>
                     <org xml:id="DWorg00008">
@@ -84,14 +84,14 @@
                         <orgName xml:lang="de" type="orig_name">SAPD</orgName>
                         <orgName xml:lang="de" type="short">SAPD</orgName>
                         <orgName xml:lang="de" type="full">Sozialistische Arbeiterpartei Deutschlands</orgName>
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/135098/</idno>
                         <idno type="gnd">https://d-nb.info/gnd/4055794-7</idno>
                     </org>
                     <org xml:id="DWorg00010">
                         <orgName xml:lang="de" type="orig_name">SPD</orgName>
                         <orgName xml:lang="de" type="short">SPD</orgName>
                         <orgName xml:lang="de" type="full">Sozialdemokratische Partei Deutschlands</orgName>
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/135099/</idno>
                         <idno type="gnd">https://d-nb.info/gnd/2022139-3</idno>
                     </org>
                     <org xml:id="DWorg00011">
@@ -105,7 +105,7 @@
                         <orgName xml:lang="de" type="orig_name">KPD</orgName>
                         <orgName xml:lang="de" type="short">KPD</orgName>
                         <orgName xml:lang="de" type="full">Kommunistische Partei Deutschlands</orgName>
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/135100/</idno>
                         <idno type="gnd">https://d-nb.info/gnd/2016052-5</idno>
                     </org>
                     <org xml:id="DWorg00013">
@@ -119,35 +119,35 @@
                         <orgName xml:lang="de" type="orig_name">Vaterländische Front</orgName>
                         <orgName xml:lang="de" type="short">VF</orgName>
                         <orgName xml:lang="de" type="full">Vaterländische Front</orgName>
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/135101/</idno>
                         <idno type="gnd">http://d-nb.info/gnd/5272350-1</idno>
                     </org>
                     <org xml:id="DWorg00015">
                         <orgName xml:lang="de" type="orig_name">DNVP</orgName>
                         <orgName xml:lang="de" type="short">DNVP</orgName>
                         <orgName xml:lang="de" type="full">Deutschnationale Volkspartei</orgName>
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/135102/</idno>
                         <idno type="gnd">https://d-nb.info/gnd/117762-X</idno>
                     </org>
                     <org xml:id="DWorg00016">
                         <orgName xml:lang="en" type="orig_name">Labour</orgName>
                         <orgName xml:lang="en" type="short">Labour</orgName>
                         <orgName xml:lang="en" type="full">Labour Party</orgName>
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/135103/</idno>
                         <idno type="gnd">https://d-nb.info/gnd/2124-6</idno>
                     </org>
                     <org xml:id="DWorg00017">
                         <orgName xml:lang="de" type="orig_name">KJVD</orgName>
                         <orgName xml:lang="de" type="short">KJVD</orgName>
                         <orgName xml:lang="de" type="full">Kommunistischer Jugendverband Deutschlands</orgName>
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/135104/</idno>
                         <idno type="gnd">https://d-nb.info/gnd/132416-0</idno>
                     </org>
                     <org xml:id="DWorg00018">
                         <orgName xml:lang="it" type="orig_name">PNF</orgName>
                         <orgName xml:lang="it" type="short">PNF</orgName>
                         <orgName xml:lang="it" type="full">Partito Nazionale Fascista</orgName>
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/135105/</idno>
                         <idno type="gnd">https://d-nb.info/gnd/80653-5</idno>
                     </org>
                 </listOrg>
