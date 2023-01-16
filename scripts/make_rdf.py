@@ -45,7 +45,7 @@ for x in doc.any_xpath(".//tei:person"):
         b_timestamp = URIRef(f"{SK}timestamp/{birth}")
         g.add((b_uri, RDF.type, CIDOC["E67_Birth"]))
         if label:
-            g.add((b_uri, RDFS.label, Literal(f"Geburth von {label}", lang="de")))
+            g.add((b_uri, RDFS.label, Literal(f"Geburt von {label}", lang="de")))
         g.add((b_uri, CIDOC["P98_brought_into_life"], subj))
         g.add((b_uri, CIDOC["P4_has_time-span"], b_timestamp))
         g.add((b_timestamp, RDF.type, CIDOC["E52_Time-Span"]))
@@ -64,6 +64,17 @@ for x in doc.any_xpath(".//tei:person"):
             )
         )
         g.add((b_timestamp, RDF.value, Literal(birth, datatype=XSD.date)))
+        try:
+            place = x.xpath(".//tei:birth/tei:placeName", namespaces=doc.nsmap)[0]
+        except IndexError:
+            place = None
+        if place is not None:
+            place_id = place.attrib["key"][1:]
+            place_name = place.text
+            place_uri = URIRef(f"{SK}{place_id}")
+            g.add((b_uri, CIDOC["P7_took_place_at"], place_uri))
+            g.add((place_uri, RDF.type, CIDOC["E53_Place"]))
+
         # death
         try:
             death = x.xpath(".//tei:death[@when]/@when", namespaces=doc.nsmap)[0]
@@ -93,4 +104,14 @@ for x in doc.any_xpath(".//tei:person"):
                 )
             )
             g.add((b_timestamp, RDF.value, Literal(death, datatype=XSD.date)))
+            try:
+                place = x.xpath(".//tei:death/tei:placeName", namespaces=doc.nsmap)[0]
+            except IndexError:
+                place = None
+            if place is not None:
+                place_id = place.attrib["key"][1:]
+                place_name = place.text
+                place_uri = URIRef(f"{SK}{place_id}")
+                g.add((b_uri, CIDOC["P7_took_place_at"], place_uri))
+                g.add((place_uri, RDF.type, CIDOC["E53_Place"]))
 g.serialize(f"{rdf_dir}/persons.ttl")
