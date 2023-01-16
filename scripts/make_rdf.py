@@ -1,4 +1,5 @@
 import os
+from slugify import slugify
 from acdh_tei_pyutils.tei import TeiReader
 from rdflib import Graph, Namespace, URIRef, Literal
 from rdflib.namespace import RDF, RDFS, OWL, XSD
@@ -7,7 +8,7 @@ SK = Namespace("https://sk.acdh.oeaw.ac.at/")
 CIDOC = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 FRBROO = Namespace("http://iflastandards.info/ns/fr/frbr/frbroo#")
 doc = TeiReader("./data/indices/listperson.xml")
-doc.nsmap
+nsmap = doc.nsmap
 
 rdf_dir = "./rdf"
 
@@ -20,13 +21,19 @@ for x in doc.any_xpath(".//tei:person"):
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E21_Person"]))
     try:
-        gnd = x.xpath('.//tei:idno[@type="GND"]/text()', namespaces=doc.nsmap)[0]
+        gnd = x.xpath('.//tei:idno[@type="GND"]/text()', namespaces=nsmap)[0]
     except IndexError:
         gnd = None
     if gnd:
         gnd_uri = URIRef(f"https://https://d-nb.info/gnd/{gnd}")
         g.add((subj, OWL["sameAs"], gnd_uri))
         g.add((gnd_uri, RDF.type, CIDOC["E42_Identifier"]))
+    for y in x.xpath('.//tei:occupation', namespaces=nsmap):
+        label = y.text
+        uri = URIRef(f"{SK}{slugify(label)}")
+        g.add((subj, CIDOC["P14i_performed"], uri))
+        g.add((uri, RDF.type, FRBROO["F51"]))
+        g.add((uri, RDF.value, Literal(label, lang="de")))
     try:
         label = x.xpath(
             './/tei:persName[@type="sk"][@subtype="pref"]/text()', namespaces=doc.nsmap
