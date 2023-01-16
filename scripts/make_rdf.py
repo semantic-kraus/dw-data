@@ -7,14 +7,15 @@ from rdflib.namespace import RDF, RDFS, OWL, XSD
 SK = Namespace("https://sk.acdh.oeaw.ac.at/")
 CIDOC = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 FRBROO = Namespace("http://iflastandards.info/ns/fr/frbr/frbroo#")
-doc = TeiReader("./data/indices/listperson.xml")
-nsmap = doc.nsmap
 
 rdf_dir = "./rdf"
 
 os.makedirs(rdf_dir, exist_ok=True)
 
 g = Graph()
+doc = TeiReader("./data/indices/listperson.xml")
+nsmap = doc.nsmap
+
 for x in doc.any_xpath(".//tei:person"):
     xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"]
     item_id = f"{SK}{xml_id}"
@@ -34,6 +35,10 @@ for x in doc.any_xpath(".//tei:person"):
         g.add((subj, CIDOC["P14i_performed"], uri))
         g.add((uri, RDF.type, FRBROO["F51"]))
         g.add((uri, RDF.value, Literal(label, lang="de")))
+    for y in x.xpath('.//tei:affiliation[@ref]', namespaces=nsmap):
+        occ_id = y.attrib['ref'][1:]
+        uri = URIRef(f"{SK}{occ_id}")
+        g.add((subj, CIDOC["X123_partofgroup"], uri))
     try:
         label = x.xpath(
             './/tei:persName[@type="sk"][@subtype="pref"]/text()', namespaces=doc.nsmap
@@ -81,7 +86,6 @@ for x in doc.any_xpath(".//tei:person"):
             place_uri = URIRef(f"{SK}{place_id}")
             g.add((b_uri, CIDOC["P7_took_place_at"], place_uri))
             g.add((place_uri, RDF.type, CIDOC["E53_Place"]))
-
         # death
         try:
             death = x.xpath(".//tei:death[@when]/@when", namespaces=doc.nsmap)[0]
@@ -121,4 +125,31 @@ for x in doc.any_xpath(".//tei:person"):
                 place_uri = URIRef(f"{SK}{place_id}")
                 g.add((b_uri, CIDOC["P7_took_place_at"], place_uri))
                 g.add((place_uri, RDF.type, CIDOC["E53_Place"]))
-g.serialize(f"{rdf_dir}/persons.ttl")
+doc = TeiReader("./data/indices/listplace.xml")
+for x in doc.any_xpath(".//tei:place"):
+    xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+    item_id = f"{SK}{xml_id}"
+    subj = URIRef(item_id)
+    g.add((subj, RDF.type, CIDOC["E53_Place"]))
+    try:
+        pmb = x.xpath('.//tei:idno[@type="pmb"]/text()', namespaces=nsmap)[0]
+    except IndexError:
+        pmb = None
+    if pmb:
+        pmb_uri = URIRef(pmb)
+        g.add((subj, OWL["sameAs"], pmb_uri))
+        g.add((pmb_uri, RDF.type, CIDOC["E42_Identifier"]))
+doc = TeiReader("./data/indices/listorg.xml")
+for x in doc.any_xpath(".//tei:org"):
+    xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+    item_id = f"{SK}{xml_id}"
+    subj = URIRef(item_id)
+    g.add((subj, RDF.type, CIDOC["E74_Group"]))
+    for y in x.xpath('.//tei:orgName[@type="full"]', namespaces=nsmap):
+        g.add(
+            (subj, RDFS.label, Literal(y.text, lang="de"))
+        )
+    for y in x.xpath('.//tei:idno[@type]/text()', namespaces=nsmap):
+        g.add((subj, OWL["sameAs"], URIRef(y)))
+        g.add((pmb_uri, RDF.type, CIDOC["E42_Identifier"]))
+g.serialize(f"{rdf_dir}/data.ttl")
