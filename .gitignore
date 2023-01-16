@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+play.*
+hansi*
+*.ipynb
+rdf/persons.ttl
