@@ -31,7 +31,7 @@ for x in doc.any_xpath(".//tei:person"):
         gnd_uri = URIRef(f"https://https://d-nb.info/gnd/{gnd}")
         g.add((subj, OWL["sameAs"], gnd_uri))
         g.add((gnd_uri, RDF.type, CIDOC["E42_Identifier"]))
-    for y in x.xpath('.//tei:occupation', namespaces=nsmap):
+    for y in x.xpath(".//tei:occupation", namespaces=nsmap):
         label = y.text
         uri = URIRef(f"{SK}{slugify(label)}")
         g.add((subj, CIDOC["P14i_performed"], uri))
@@ -40,31 +40,28 @@ for x in doc.any_xpath(".//tei:person"):
         # ToDo:
         # timespan_uri; timespan_uri, p82a und p82b
         # if only year (in case of @when use XSD.gYear)
-    for y in x.xpath('.//tei:affiliation[@ref]', namespaces=nsmap):
-        occ_id = y.attrib['ref'][1:]
+    for y in x.xpath(".//tei:affiliation[@ref]", namespaces=nsmap):
+        occ_id = y.attrib["ref"][1:]
         uri = URIRef(f"{SK}{occ_id}")
         join_uri = make_uri()
-        g.add((
-            join_uri, RDF.type, CIDOC["E85_Joining"]
-        ))
-        g.add((
-            join_uri, CIDOC["P143_joined"], subj
-        ))
-        g.add((
-            join_uri, CIDOC["P144_joined_with"], uri
-        ))
+        g.add((join_uri, RDF.type, CIDOC["E85_Joining"]))
+        g.add((join_uri, CIDOC["P143_joined"], subj))
+        g.add((join_uri, CIDOC["P144_joined_with"], uri))
         try:
-            date_str = y.attrib['notBefore']
+            date_str = y.attrib["notBefore"]
         except KeyError:
             continue
         join_timestamp = make_uri()
         g.add((join_timestamp, RDF.type, CIDOC["E52_Time-Span"]))
-        g.add((
-            join_uri, CIDOC["P4_has_time-span"], join_timestamp
-        ))
-        g.add((
-            join_timestamp, CIDOC["P82a_begin_of_the_begin"], date_to_literal(date_str)
-        ))
+        g.add((join_uri, CIDOC["P4_has_time-span"], join_timestamp))
+        g.add(
+            (
+                join_timestamp,
+                CIDOC["P82a_begin_of_the_begin"],
+                date_to_literal(date_str),
+            )
+        )
+        g.add((join_timestamp, CIDOC["P82b_end_of_the_end"], date_to_literal(date_str)))
         # ToDo:
         # E85 (Joining Eent) -> P4 -> E52; E52 P82a/P82b (use notBefore)
         # E86 (Leaving Event) -> E52 P82a/P82b (use notAfter)
@@ -176,10 +173,8 @@ for x in doc.any_xpath(".//tei:org"):
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E74_Group"]))
     for y in x.xpath('.//tei:orgName[@type="full"]', namespaces=nsmap):
-        g.add(
-            (subj, RDFS.label, Literal(y.text, lang="de"))
-        )
-    for y in x.xpath('.//tei:idno[@type]/text()', namespaces=nsmap):
+        g.add((subj, RDFS.label, Literal(y.text, lang="de")))
+    for y in x.xpath(".//tei:idno[@type]/text()", namespaces=nsmap):
         g.add((subj, OWL["sameAs"], URIRef(y)))
         g.add((pmb_uri, RDF.type, CIDOC["E42_Identifier"]))
 g.serialize(f"{rdf_dir}/data.ttl")
