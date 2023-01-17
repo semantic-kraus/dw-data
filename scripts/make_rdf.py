@@ -4,6 +4,8 @@ from acdh_tei_pyutils.tei import TeiReader
 from rdflib import Graph, Namespace, URIRef, Literal
 from rdflib.namespace import RDF, RDFS, OWL, XSD
 
+from utils import make_uri, date_to_literal
+
 SK = Namespace("https://sk.acdh.oeaw.ac.at/")
 CIDOC = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 FRBROO = Namespace("http://iflastandards.info/ns/fr/frbr/frbroo#")
@@ -35,10 +37,38 @@ for x in doc.any_xpath(".//tei:person"):
         g.add((subj, CIDOC["P14i_performed"], uri))
         g.add((uri, RDF.type, FRBROO["F51"]))
         g.add((uri, RDF.value, Literal(label, lang="de")))
+        # ToDo:
+        # timespan_uri; timespan_uri, p82a und p82b
+        # if only year (in case of @when use XSD.gYear)
     for y in x.xpath('.//tei:affiliation[@ref]', namespaces=nsmap):
         occ_id = y.attrib['ref'][1:]
         uri = URIRef(f"{SK}{occ_id}")
-        g.add((subj, CIDOC["X123_partofgroup"], uri))
+        join_uri = make_uri()
+        g.add((
+            join_uri, RDF.type, CIDOC["E85_Joining"]
+        ))
+        g.add((
+            join_uri, CIDOC["P143_joined"], subj
+        ))
+        g.add((
+            join_uri, CIDOC["P144_joined_with"], uri
+        ))
+        try:
+            date_str = y.attrib['notBefore']
+        except KeyError:
+            continue
+        join_timestamp = make_uri()
+        g.add((join_timestamp, RDF.type, CIDOC["E52_Time-Span"]))
+        g.add((
+            join_uri, CIDOC["P4_has_time-span"], join_timestamp
+        ))
+        g.add((
+            join_timestamp, CIDOC["P82a_begin_of_the_begin"], date_to_literal(date_str)
+        ))
+        # ToDo:
+        # E85 (Joining Eent) -> P4 -> E52; E52 P82a/P82b (use notBefore)
+        # E86 (Leaving Event) -> E52 P82a/P82b (use notAfter)
+
     try:
         label = x.xpath(
             './/tei:persName[@type="sk"][@subtype="pref"]/text()', namespaces=doc.nsmap
@@ -65,17 +95,17 @@ for x in doc.any_xpath(".//tei:person"):
             (
                 b_timestamp,
                 CIDOC["P82a_begin_of_the_begin"],
-                Literal(birth, datatype=XSD.date),
+                date_to_literal(birth),
             )
         )
         g.add(
             (
                 b_timestamp,
                 CIDOC["P82b_end_of_the_end"],
-                Literal(birth, datatype=XSD.date),
+                date_to_literal(birth),
             )
         )
-        g.add((b_timestamp, RDF.value, Literal(birth, datatype=XSD.date)))
+        g.add((b_timestamp, RDF.value, date_to_literal(birth)))
         try:
             place = x.xpath(".//tei:birth/tei:placeName", namespaces=doc.nsmap)[0]
         except IndexError:
@@ -96,7 +126,7 @@ for x in doc.any_xpath(".//tei:person"):
             b_timestamp = URIRef(f"{SK}timestamp/{death}")
             g.add((b_uri, RDF.type, CIDOC["E67_Death"]))
             if label:
-                g.add((b_uri, RDFS.label, Literal(f"Tot von {label}", lang="de")))
+                g.add((b_uri, RDFS.label, Literal(f"Tod von {label}", lang="de")))
             g.add((b_uri, CIDOC["P100_was_death_of"], subj))
             g.add((b_uri, CIDOC["P4_has_time-span"], b_timestamp))
             g.add((b_timestamp, RDF.type, CIDOC["E52_Time-Span"]))
@@ -104,17 +134,17 @@ for x in doc.any_xpath(".//tei:person"):
                 (
                     b_timestamp,
                     CIDOC["P82a_begin_of_the_begin"],
-                    Literal(death, datatype=XSD.date),
+                    date_to_literal(death),
                 )
             )
             g.add(
                 (
                     b_timestamp,
                     CIDOC["P82b_end_of_the_end"],
-                    Literal(death, datatype=XSD.date),
+                    date_to_literal(death),
                 )
             )
-            g.add((b_timestamp, RDF.value, Literal(death, datatype=XSD.date)))
+            g.add((b_timestamp, RDF.value, date_to_literal(death)))
             try:
                 place = x.xpath(".//tei:death/tei:placeName", namespaces=doc.nsmap)[0]
             except IndexError:
