@@ -267,7 +267,7 @@
 						<persName type="sk" subtype="pref">Thayer, Johann</persName>
 						<birth when="1911-07-25">25. 7. 1911<placeName key="#DWplace00085"
 								>Wien</placeName></birth>
-						<death when="1990-07-04">4. 7. 1990<placeName key="#DWplace00066">Wien
+						<death when="1990-07-04">4. 7. 1990<placeName type="ignore" key="#DWplace00066">Wien
 								(Best.)</placeName></death>
 						<occupation type="prim">Buchbindergehilfe</occupation>
 						<occupation>SS-Mitglied</occupation>
@@ -288,7 +288,7 @@
 						<persName type="sk" subtype="pseud">Meixner, Hugo</persName>
 						<birth when="1900-07-22">22. 7. 1900<placeName key="#DWplace00251">Brunn am
 								Gebirge</placeName></birth>
-						<death when="1990-06">28. 6. 1990<placeName key="#DWplace00066">Wien
+						<death when="1990-06">28. 6. 1990<placeName type="ignore" key="#DWplace00066">Wien
 								(Best.)</placeName></death>
 						<occupation type="prim">Vertreter, Wein- und Obsthändler,
 							SS-Haupsturmführer</occupation>
@@ -2000,7 +2000,7 @@
 						</persName>
 						<birth when="1894-02-05">5. 2. 1894<placeName key="#DWplace00085"
 								>Wien</placeName></birth>
-						<death when="1940-03-27">27. 3. 1940<placeName key="#DWplace00394">KZ
+						<death when="1940-03-27">27. 3. 194Eichenau (Dąbrówka Mała0<placeName key="#DWplace00394">KZ
 								Buchenwald</placeName></death>
 						<persName type="sk" subtype="pref">Kanitz, Otto Felix</persName>
 						<occupation type="prim">Pädagoge, Politiker</occupation>
@@ -2043,7 +2043,7 @@
 						</persName>
 						<birth when="1906-11-19">19. 11. 1906<placeName key="#DWplace00375">Eichenau
 								(Wójcice)</placeName></birth>
-						<death when="1943-07-01">1. 7. 1943<placeName key="#DWplace00240"
+						<death when="1943-07-01" type="missing">1. 7. 1943<placeName key="#DWplace00240"
 								>Charkow/Ljubotin/Merefa/Olschany bei Charkow
 							(vermisst)</placeName></death>
 						<persName type="sk" subtype="pref">Kottisch, Reinhold</persName>
@@ -2060,8 +2060,8 @@
 							<forename>Rufin</forename>
 							<surname>Wolnitza</surname>
 						</persName>
-						<birth when="1907-05-10">10. 5. 1907, Eichenau (Dąbrówka Mała<placeName
-								key="#DWplace00299">Katowice)</placeName></birth>
+						<birth when="1907-05-10">10. 5. 1907<placeName
+								key="#DWplace00299">Eichenau (Dąbrówka MałaKatowice)</placeName></birth>
 						<death when="1941-12-13">wahrsch. 13. 12. 1941<placeName key="#DWplace00137"
 								>Tschudowo</placeName></death>
 						<persName type="sk" subtype="pref">Wolnitza, Rufin</persName>
@@ -2133,7 +2133,7 @@
 						<birth when="1889-09-17">17. 9. 1889<placeName key="#DWplace00276">Koszinnen
 								(Kozin)</placeName></birth>
 						<persName type="sk" subtype="pref">Hoppe, Georg</persName>
-						<death when="1945-01-01">1. 1. 1945 (vermisst)</death>
+						<death when="1945-01-01" type="missing">1. 1. 1945 (vermisst)</death>
 						<occupation type="prim">Gastwirt</occupation>
 						<occupation>SA-Sturmführer</occupation>
 						<affiliation ref="#DWorg00011">NSDAP</affiliation>
@@ -3072,7 +3072,7 @@
 						</persName>
 						<birth when="1450">ca. 1450<placeName key="#DWplace00214"
 								>’s-Hertogenbosch</placeName></birth>
-						<death when="1516-08-08">8. 8. 1516<placeName key="#DWplace00162"
+						<death when="1516-08-08">8. 8. 1516<placeName key="#DWplace00162" type="ignore"
 								>’s-Hertogenbosch (Best.)</placeName></death>
 						<persName type="sk" subtype="pref">Bosch, Hieronymus</persName>
 						<occupation type="prim">Maler</occupation>
@@ -3780,9 +3780,8 @@
 						</persName>
 						<birth when="1896-12-18">18. 12. 1896<placeName key="#DWplace00239"
 								>Frankfurt am Main</placeName></birth>
-						<death when="1945">März 1945 bei Berlin (verschollen<placeName
-								key="#DWplace00270">am 31. 12. 1945 für tot
-							erklärt)</placeName></death>
+						<death when="1945-03" type="missing">März 1945 bei <placeName key="#DWplace00313">Berlin</placeName> (verschollen, am 31. 12. 1945 für tot
+							erklärt)</death>
 						<persName type="sk" subtype="pref">Flesch, Hans</persName>
 						<persName type="sk" subtype="born">Flesch, Johannes Georg Julius
 							Jakob</persName>
@@ -5672,7 +5671,7 @@
 						<birth when="1892-01-29">29. 1. 1892<placeName key="#DWplace00266">Csantavér
 								(Čantavir)</placeName></birth>
 						<persName type="sk" subtype="pref">Matuška, Szilveszter</persName>
-						<death>(verschwunden 1944/45)</death>
+						<death when="1944" type="missing">(verschwunden 1944/45)</death>
 						<occupation type="prim">Eisenbahnattentäter</occupation>
 						<idno type="GND">1112956344</idno>
 						<note type="source" subtype="publ">GND</note>
@@ -7506,8 +7505,8 @@
 							<forename>František</forename>
 							<surname>Žídek</surname>
 						</persName>
-						<birth when="1865-10-08">8. 10. 1865, Smolkau (Smolkov<placeName
-								key="#DWplace00425">Háj ve Slezsku)</placeName></birth>
+						<birth when="1865-10-08">8. 10. 1865<placeName
+								key="#DWplace00425">Smolkau (Smolkov Háj ve Slezsku)</placeName></birth>
 						<death when="1942-06-22">22. 6. 1942 oder 1943<placeName key="#DWplace00265"
 								>Olmütz (Olomouc)</placeName></death>
 						<persName type="sk" subtype="pref">Žídek, František</persName>
