@@ -1,6 +1,6 @@
 import os
 from slugify import slugify
-from acdh_cidoc_pyutils import make_uri, date_to_literal
+from acdh_cidoc_pyutils import make_uri, date_to_literal, create_e52
 from acdh_cidoc_pyutils.namespaces import CIDOC, FRBROO
 from acdh_tei_pyutils.tei import TeiReader
 from rdflib import Graph, Namespace, URIRef, Literal
@@ -87,22 +87,7 @@ for x in doc.any_xpath(".//tei:person"):
             g.add((b_uri, RDFS.label, Literal(f"Geburt von {label}", lang="de")))
         g.add((b_uri, CIDOC["P98_brought_into_life"], subj))
         g.add((b_uri, CIDOC["P4_has_time-span"], b_timestamp))
-        g.add((b_timestamp, RDF.type, CIDOC["E52_Time-Span"]))
-        g.add(
-            (
-                b_timestamp,
-                CIDOC["P82a_begin_of_the_begin"],
-                date_to_literal(birth),
-            )
-        )
-        g.add(
-            (
-                b_timestamp,
-                CIDOC["P82b_end_of_the_end"],
-                date_to_literal(birth),
-            )
-        )
-        g.add((b_timestamp, RDF.value, date_to_literal(birth)))
+        g = g + create_e52(b_timestamp, begin_of_begin=birth, end_of_end=birth)
         try:
             place = x.xpath(".//tei:birth/tei:placeName", namespaces=doc.nsmap)[0]
         except IndexError:
@@ -126,22 +111,7 @@ for x in doc.any_xpath(".//tei:person"):
                 g.add((b_uri, RDFS.label, Literal(f"Tod von {label}", lang="de")))
             g.add((b_uri, CIDOC["P100_was_death_of"], subj))
             g.add((b_uri, CIDOC["P4_has_time-span"], b_timestamp))
-            g.add((b_timestamp, RDF.type, CIDOC["E52_Time-Span"]))
-            g.add(
-                (
-                    b_timestamp,
-                    CIDOC["P82a_begin_of_the_begin"],
-                    date_to_literal(death),
-                )
-            )
-            g.add(
-                (
-                    b_timestamp,
-                    CIDOC["P82b_end_of_the_end"],
-                    date_to_literal(death),
-                )
-            )
-            g.add((b_timestamp, RDF.value, date_to_literal(death)))
+            g = g + create_e52(b_timestamp, begin_of_begin=death, end_of_end=death)
             try:
                 place = x.xpath(".//tei:death/tei:placeName", namespaces=doc.nsmap)[0]
             except IndexError:
