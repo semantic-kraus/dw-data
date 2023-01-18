@@ -1,3 +1,3 @@
+acdh-cidoc-pyutils
 acdh-tei-pyutils
-rdflib
 python-slugify

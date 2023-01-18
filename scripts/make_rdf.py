@@ -1,14 +1,14 @@
 import os
 from slugify import slugify
+from acdh_cidoc_pyutils import make_uri, date_to_literal
+from acdh_cidoc_pyutils.namespaces import CIDOC, FRBROO
 from acdh_tei_pyutils.tei import TeiReader
 from rdflib import Graph, Namespace, URIRef, Literal
 from rdflib.namespace import RDF, RDFS, OWL, XSD
 
-from utils import make_uri, date_to_literal
 
-SK = Namespace("https://sk.acdh.oeaw.ac.at/")
-CIDOC = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
-FRBROO = Namespace("http://iflastandards.info/ns/fr/frbr/frbroo#")
+domain = "https://sk.acdh.oeaw.ac.at/"
+SK = Namespace(domain)
 
 rdf_dir = "./rdf"
 
@@ -43,7 +43,7 @@ for x in doc.any_xpath(".//tei:person"):
     for y in x.xpath(".//tei:affiliation[@ref]", namespaces=nsmap):
         occ_id = y.attrib["ref"][1:]
         uri = URIRef(f"{SK}{occ_id}")
-        join_uri = make_uri()
+        join_uri = make_uri(domain=domain)
         g.add((join_uri, RDF.type, CIDOC["E85_Joining"]))
         g.add((join_uri, CIDOC["P143_joined"], subj))
         g.add((join_uri, CIDOC["P144_joined_with"], uri))
@@ -51,7 +51,7 @@ for x in doc.any_xpath(".//tei:person"):
             date_str = y.attrib["notBefore"]
         except KeyError:
             continue
-        join_timestamp = make_uri()
+        join_timestamp = make_uri(domain=domain)
         g.add((join_timestamp, RDF.type, CIDOC["E52_Time-Span"]))
         g.add((join_uri, CIDOC["P4_has_time-span"], join_timestamp))
         g.add(
