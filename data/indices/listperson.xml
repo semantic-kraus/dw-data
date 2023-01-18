@@ -2586,8 +2586,8 @@
 							<surname>Kraus</surname>
 						</persName>
 						<persName type="sk" subtype="pref">Kraus, Karl</persName>
-						<birth when="1874-04-28">28. 4. 1874, Jičín</birth>
-						<death when="1936-12-06">12. 6. 1936, Wien</death>
+						<birth when="1874-04-28">28. 4. 1874, <placeName>Jičín</placeName></birth>
+						<death when="1936-12-06">12. 6. 1936, <placeName key="#DWplace00085">Wien</placeName></death>
 						<occupation>Schriftsteller</occupation>
 						<idno type="GND">118566288</idno>
 						<note type="status" subtype="final"/>
