@@ -2857,6 +2857,13 @@
                         <placeName xml:lang="und" type="alt_label">Saint Helena</placeName>
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/40754/</idno>
                     </place>
+                	
+                	
+                	<place xml:id="DWplace00471">
+                		<placeName xml:lang="de" type="orig_name">Jičín</placeName>
+                		
+                		<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/41660/</idno>
+                	</place>
                 </listPlace>
             </div>
         </body>
