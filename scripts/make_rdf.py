@@ -8,6 +8,9 @@ from rdflib import Graph, Namespace, URIRef, Literal
 from rdflib.namespace import RDF, RDFS, OWL, XSD
 
 
+def normalize_string(string):
+    return " ".join(" ".join(string.split()).split())
+
 domain = "https://sk.acdh.oeaw.ac.at/"
 SK = Namespace(domain)
 
@@ -37,7 +40,25 @@ for x in tqdm(items, total=len(items)):
         uri = URIRef(f"{SK}{slugify(label)}")
         g.add((subj, CIDOC["P14i_performed"], uri))
         g.add((uri, RDF.type, FRBROO["F51"]))
-        g.add((uri, RDF.value, Literal(label, lang="de")))
+        g.add((uri, RDF.value, Literal(normalize_string(label), lang="de")))
+        begin, end = "", ""
+        try:
+            begin, end = y.attrib["when"], y.attrib["when"]
+        except KeyError:
+            pass
+        try:
+            begin = y.attrib["notBefore"]
+        except KeyError:
+            pass
+        try:
+            end = y.attrib["notAfter"]
+        except KeyError:
+            end = begin
+        if begin != "" or end != "":
+            ts_uri = URIRef(f"{SK}timestamp/{begin}{end}")
+            g.add((uri, CIDOC["P4_has_time-span"], ts_uri))
+            g += create_e52(ts_uri, begin_of_begin=begin, end_of_end=end)
+
         # ToDo:
         # timespan_uri; timespan_uri, p82a und p82b
         # if only year (in case of @when use XSD.gYear)
@@ -66,7 +87,7 @@ for x in tqdm(items, total=len(items)):
     except IndexError:
         label = None
     if label:
-        g.add((subj, RDFS.label, Literal(label, lang="de")))
+        g.add((subj, RDFS.label, Literal(normalize_string(label), lang="de")))
     # birth
     try:
         birth = x.xpath(".//tei:birth[@when]/@when", namespaces=doc.nsmap)[0]
@@ -136,7 +157,7 @@ for x in doc.any_xpath(".//tei:org"):
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E74_Group"]))
     for y in x.xpath('.//tei:orgName[@type="full"]', namespaces=nsmap):
-        g.add((subj, RDFS.label, Literal(y.text, lang="de")))
+        g.add((subj, RDFS.label, Literal(normalize_string(y.text), lang="de")))
     for y in x.xpath(".//tei:idno[@type]/text()", namespaces=nsmap):
         g.add((subj, OWL["sameAs"], URIRef(y)))
         g.add((pmb_uri, RDF.type, CIDOC["E42_Identifier"]))
