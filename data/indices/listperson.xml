@@ -803,8 +803,8 @@
 							<surname>Angeluscheff</surname>
 						</persName>
 						<persName type="sk" subtype="pref">Angeluscheff, Zhivko Dimitrov</persName>
-						<birth when="1897-01-15">15. 1. 1897, Maglizh (Stara Zagorsko<placeName
-								key="#DWplace00346">Bulgarien</placeName></birth>
+						<birth when="1897-01-15">15. 1. 1897 <placeName
+							key="#DWplace00346">Maglizh (Stara Zagorsko, Bulgarien)</placeName></birth>
 						<death when="1979-07-17">17. 7. 1979<placeName key="#DWplace00334">Somers
 								NY</placeName></death>
 						<occupation type="prim">Arzt</occupation>
