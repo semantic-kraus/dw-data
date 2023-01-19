@@ -271,7 +271,7 @@
 								(Best.)</placeName></death>
 						<occupation type="prim" n="01">Buchbindergehilfe</occupation>
 						<occupation n="02">SS-Mitglied</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">Zeitgenössische Berichterstattung,
 							Friedhöfe Wien</note>
 						<note type="status" subtype="final"/>
@@ -293,7 +293,7 @@
 						<occupation type="prim" n="01">Vertreter, Wein- und Obsthändler,
 							SS-Haupsturmführer</occupation>
 						<occupation notBefore="1933" n="02">Aufseher in Dachau</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">Rothländer 2012, Friedhöfe Wien, zeitgen.
 							Berichterstattung</note>
 						<note type="status" subtype="final"/>
@@ -330,7 +330,7 @@
 						<persName type="sk" subtype="pref">Grillmayr, Max</persName>
 						<occupation type="prim" n="01">Maschinentechniker</occupation>
 						<occupation n="02">SA- und SS-Mitglied</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">Wien-Geschichte-Wiki, volksbund.de</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -448,7 +448,7 @@
 						<persName type="sk" subtype="pseud">Huber, Hans</persName>
 						<occupation type="prim" n="01">Schuhmachergehilfe, Werkschutzführer</occupation>
 						<occupation n="02">SS-Hauptsturmführer</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">Rothländer 2012, Taufbuch
 							Unterdürnbach</note>
 						<note type="status" subtype="final"/>
@@ -469,7 +469,7 @@
 								>Mannheim</placeName></death>
 						<occupation type="prim" n="01">Sportartikelarbeiter</occupation>
 						<occupation n="02">SS-Truppführer</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">Stadt Mannheim, zeitgen.
 							Berichterstattung</note>
 						<note type="status" subtype="final"/>
@@ -487,7 +487,7 @@
 						<occupation type="prim" n="01">Handelsangestellter</occupation>
 						<occupation when="1933" n="02">SA-Scharführer</occupation>
 						<occupation n="03">SS- und Waffen-SS-Untersturmführer</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">Rothländer 2012</note>
 						<note type="status" subtype="open"/>
 					</person>
@@ -502,7 +502,7 @@
 						<persName type="sk" subtype="pref">Lapitza, Franz</persName>
 						<death>?</death>
 						<occupation type="prim" n="01">Handelsangestellter</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno/>
 						<note type="source" subtype="publ">WStLA, zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
@@ -519,7 +519,7 @@
 								>Wien</placeName></death>
 						<persName type="sk" subtype="pref">Kadletz, Franz</persName>
 						<occupation type="prim" n="01">Elektrotechniker</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno/>
 						<note type="source" subtype="publ">WStLA, zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
@@ -536,7 +536,7 @@
 						<death>?</death>
 						<occupation type="prim" n="01">Chauffeur</occupation>
 						<occupation n="02">SS-Wachmann</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno/>
 						<note type="source" subtype="publ">Rothländer 2012, zeitgen.
 							Berichterstattung</note>
@@ -553,7 +553,7 @@
 						<persName type="sk" subtype="pref">Görtler, Friedrich</persName>
 						<death>?</death>
 						<occupation type="prim" n="01">Schüler</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno/>
 						<note type="source" subtype="publ">Rothländer 2012</note>
 						<note type="status" subtype="final"/>
@@ -572,7 +572,7 @@
 						<occupation type="prim" n="01">Schüler</occupation>
 						<occupation when="1933" n="02">Bannschulführer für Niederösterreich des
 							NS-Schülerbundes, SS-Hauptsturmführer</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">Zumr 2017, volksbund.de, zeitgen.
 							Berichterstattung</note>
 						<note type="status" subtype="final"/>
@@ -590,7 +590,7 @@
 						<persName type="sk" subtype="pref">Kitzmantel, Georg</persName>
 						<occupation type="prim" n="01">Schüler</occupation>
 						<occupation n="02">SA-Mitglied</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="status" subtype="final"/>
 						<note type="source" subtype="publ">ÖStA – AdR</note>
 					</person>
@@ -605,7 +605,7 @@
 						<persName type="sk" subtype="pref">Weber, Robert</persName>
 						<death>?</death>
 						<occupation type="prim" n="01">Schüler</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">ÖStA – AdR</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -623,7 +623,7 @@
 								(UDSSR) (?)</placeName></death>
 						<occupation type="prim" n="01">Student, Techniker</occupation>
 						<occupation n="02">HJ-Kameradschaftsführer</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">ÖStA – AdR, Taufbuch St.
 							Margareta/Berndorf, zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
@@ -640,7 +640,7 @@
 						<death>?</death>
 						<occupation type="prim" n="01">Lehrer in Traiskirchen</occupation>
 						<occupation n="02">SS-Hauptsturmführer</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">1037100905</idno>
 						<note type="source" subtype="publ">BArch</note>
 						<note type="status" subtype="final"/>
@@ -657,7 +657,7 @@
 						<death>?</death>
 						<occupation type="prim" n="01">Hauptschullehrer</occupation>
 						<occupation n="02">SS-Sturmbannführer</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">ÖStA – AdR</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -673,7 +673,7 @@
 						<death>?</death>
 						<occupation type="prim" n="01">Lehramtsanwärter</occupation>
 						<occupation n="02">SS-Mitglied</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">ÖStA – AdR</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -692,7 +692,7 @@
 						<occupation type="prim" n="01">Physiker, Lehrer</occupation>
 						<occupation when="1933" n="02">Lehrer an der Bundeserziehungsanstalt in
 							Traiskirchen, SA-Truppführer</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">104527730</idno>
 						<note type="status" subtype="final"/>
 						<note type="source" subtype="publ">iuvsta.org, zeitgen.
@@ -711,7 +711,7 @@
 								>Mödling</placeName></death>
 						<occupation type="prim" n="01">Student, Kameradschaftsführer der HJ in
 							Perchtoldsdorf</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">Zumr 2017, moedling.msgis.net, zeitgen.
 							Berichterstattung</note>
 						<note type="status" subtype="final"/>
@@ -746,7 +746,7 @@
 						<persName type="sk" subtype="pref">Schwaninger, Michael</persName>
 						<occupation type="prim" n="01">Hilfsarbeiter, Heimatschutzangehöriger,
 							Hilfspolizist</occupation>
-						<affiliation ref="#DWorg00005">CSP</affiliation>
+						<affiliation ref="#DWorg00005" n="01">CSP</affiliation>
 						<note type="source" subtype="publ">Kastner 2019, zeitgen.
 							Berichterstattung</note>
 						<note type="status" subtype="final"/>
@@ -768,7 +768,7 @@
 							von</persName>
 						<occupation type="prim" n="01">Kaufmann, Safariunternehmer</occupation>
 						<occupation n="02">SA- und SS-Mitglied</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">Schober 2012,
 							familie-von-alvensleben.de</note>
 						<note type="status" subtype="final"/>
@@ -788,7 +788,7 @@
 						<occupation n="02">SA-Sturmführer</occupation>
 						<occupation notBefore="1933" notAfter="1934" n="03">Justiz- und Finanzminister des
 							Freistaates Braunschweig</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">116288493</idno>
 						<note type="source" subtype="publ">Klee 2007,
 							vernetztes-gedaechtnis.de</note>
@@ -892,7 +892,7 @@
 						<death when="1998-02-11">11. 2. 1998<placeName key="#DWplace00433">Puchheim
 								(Bayern) (?)</placeName></death>
 						<occupation type="prim" n="01">Wehrmann des Infanterie-Regiments Nr. 6</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">findagrave.com, zeitgen.
 							Berichterstattung</note>
 						<note type="status" subtype="final"/>
@@ -911,7 +911,7 @@
 						<death>?</death>
 						<occupation type="prim" n="01">Elektriker, Handelsangestellter</occupation>
 						<occupation n="02">SA-Scharführer</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">Taufbuch St. Marein bei Knittelfeld,
 							zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
@@ -933,7 +933,7 @@
 						<death>?</death>
 						<occupation type="prim" n="01">Fleischhauergehilfe</occupation>
 						<occupation n="02">SA-Mitglied</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -949,7 +949,7 @@
 						<death>?</death>
 						<occupation type="prim" n="01">SA-Lagerverwalter im KZ Oranienburg,
 							SA-Kassenführer</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">Theodore Fred Abel Papers</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -1128,7 +1128,7 @@
 						<occupation notBefore="1931" n="02">Büdericher, dann Neusser SA-Führer</occupation>
 						<occupation notBefore="1933" notAfter="1934" n="03">Polizeipräsident von
 							Krefeld–Uerdingen</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">Müller 1988, de.wikipedia.org</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -1147,7 +1147,7 @@
 						<occupation n="02">SA-Standartenführer</occupation>
 						<occupation notBefore="1933-04" n="03">Polizeipräsident von
 							München-Gladbach</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">Klein 1996</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -1203,7 +1203,7 @@
 								>Wildeshausen</placeName></death>
 						<persName type="sk" subtype="pref">Jacobi, Adolf</persName>
 						<occupation type="prim" n="01">Arzt, Kreisgruppenführer, Ratsherr</occupation>
-						<affiliation ref="#DWorg00001">Stahlhelm</affiliation>
+						<affiliation ref="#DWorg00001" n="01">Stahlhelm</affiliation>
 						<note type="source" subtype="publ">Bürger- und Geschichtsverein Wildeshausen
 							e. V.</note>
 						<note type="status" subtype="final"/>
@@ -1238,7 +1238,7 @@
 						<occupation type="prim" n="01">Jurist, Politiker</occupation>
 						<occupation notBefore="1918-11" notAfter="1920-03" n="02">Justiz-, dann
 							Innenminister von Preußen</occupation>
-						<affiliation ref="#DWorg00010">SPD</affiliation>
+						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">116659491</idno>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -1291,7 +1291,7 @@
 						<death>?</death>
 						<occupation type="prim" n="01">Maschinenbauer</occupation>
 						<occupation n="02">SS-Mitglied</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">Rothländer 2012</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -1308,7 +1308,7 @@
 								Janeiro</placeName></death>
 						<persName type="sk" subtype="pref">Janotta, Ernst von</persName>
 						<occupation type="prim" n="01">Zuckerindustrieller</occupation>
-						<affiliation/>
+						<affiliation n="01"/>
 						<idno type="GND"/>
 						<note type="source" subtype="publ">Landesarchiv Liechtenstein</note>
 						<note type="status" subtype="final"/>
@@ -1327,7 +1327,7 @@
 						<death>?</death>
 						<occupation type="prim" n="01">Kellner</occupation>
 						<occupation n="02">SA- und SS-Mitglied</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">Rothländer 2012</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -1345,7 +1345,7 @@
 						<occupation type="prim" n="01">Politiker</occupation>
 						<occupation notBefore="1928" notAfter="1932" n="02">Oberpräsident von
 							Niederschlesien</occupation>
-						<affiliation ref="#DWorg00010">SPD</affiliation>
+						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">117292761</idno>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -1368,7 +1368,7 @@
 							Pirmasens</occupation>
 						<occupation notBefore="1930" notAfter="1933" n="04">Stadtrat in
 							Pirmasens</occupation>
-						<affiliation ref="#DWorg00010">SPD</affiliation>
+						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">1014760097</idno>
 						<note type="source" subtype="publ">bavariathek.bayern</note>
 						<note type="status" subtype="final"/>
@@ -1404,7 +1404,7 @@
 								>Ludwigshafen</placeName></death>
 						<persName type="sk" subtype="pref">Ludwig, Werner</persName>
 						<occupation type="prim" n="01">Jurist, Politiker</occupation>
-						<affiliation ref="#DWorg00010">SPD</affiliation>
+						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">11952886X</idno>
 						<note type="source" subtype="publ">sozialdemokratie-rlp.de, Ruth
 							Ludwig</note>
@@ -1478,7 +1478,7 @@
 						<occupation type="prim" n="01">Evangelischer Pastor</occupation>
 						<occupation notBefore="1933-09" n="02">Reichsbischof der Deutschen Evangelischen
 							Kirche</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118785222</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -1513,7 +1513,7 @@
 								>Salzburg</placeName></death>
 						<occupation type="prim" n="01">Chirurg</occupation>
 						<occupation n="02">SS-Mitglied</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung, Taufbuch
 							Salzburg–St. Andrä</note>
 						<note type="status" subtype="final"/>
@@ -1530,7 +1530,7 @@
 								>Graz</placeName></death>
 						<persName type="sk" subtype="pref">Panitschek, Gustav</persName>
 						<occupation type="prim" n="01">Volksschullehrer</occupation>
-						<affiliation ref="#DWorg00005">CSP</affiliation>
+						<affiliation ref="#DWorg00005" n="01">CSP</affiliation>
 						<note type="source" subtype="publ">LAStmk</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -1630,7 +1630,7 @@
 							Bundespräsident</occupation>
 						<occupation notBefore="1933-06" notAfter="1934-02" n="02"
 							>Bundesratsabgeordneter</occupation>
-						<affiliation ref="#DWorg00007">SDAP</affiliation>
+						<affiliation ref="#DWorg00007" n="01">SDAP</affiliation>
 						<idno type="GND">118606301</idno>
 						<note type="source" subtype="publ">parlament.gv.at</note>
 						<note type="status" subtype="final"/>
@@ -1649,7 +1649,7 @@
 						<occupation type="prim" n="01">Politiker, Journalist</occupation>
 						<occupation notBefore="1932-05" notAfter="1933-07" n="02"
 							>Bundesratsabgeordneter</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">101292007</idno>
 						<note type="source" subtype="publ">parlament.gv.at</note>
 						<note type="status" subtype="final"/>
@@ -1669,7 +1669,7 @@
 						<occupation type="prim" n="01">Theaterintendant</occupation>
 						<occupation notBefore="1933" notAfter="1943" n="02">Generalintendant des Deutschen
 							Theaters Wiesbaden</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">117274550</idno>
 						<note type="source" subtype="publ">Klee 2009</note>
 						<note type="status" subtype="final"/>
@@ -1687,7 +1687,7 @@
 						<persName type="sk" subtype="pref">Bade, Wilfrid</persName>
 						<occupation type="prim" n="01">Beamter im Reichspropagandaministerium</occupation>
 						<occupation notBefore="1928" n="02">Journalist beim Verlagshaus Scherl</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">116030046</idno>
 						<note type="source" subtype="publ">Klee 2009</note>
 						<note type="status" subtype="final"/>
@@ -1726,7 +1726,7 @@
 						<occupation notBefore="1933" notAfter="1936" n="02">Schriftleiter des <title
 								level="j">Sächsischen Ärzteblattes</title>, Pressewart der
 							NS-Gauleitung des NS-Ärztebundes Sachsen</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">Breuer u. Schmidt 2010</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -1747,7 +1747,7 @@
 						<occupation notBefore="1932-07" n="03">Reichstagsabgeordneter</occupation>
 						<occupation notBefore="1933" notAfter="1934" n="04">Staatskommissar für das
 							Gesundheitswesen</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">129845493</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -1766,7 +1766,7 @@
 						<occupation type="prim" n="01">Unternehmer, SA-Standartenführer</occupation>
 						<occupation notBefore="1933" notAfter="1934" n="02">Lagerleiter des KZ
 							Oranienburg</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">stiftung-bg.de, Friedhof
 							Düsseldorf-Heerdt</note>
 						<note type="status" subtype="final"/>
@@ -1795,7 +1795,7 @@
 							>Reichsinnenminister</occupation>
 						<occupation notBefore="1930" notAfter="1932" n="04">preußischer
 							Innenminister</occupation>
-						<affiliation ref="#DWorg00010">SPD</affiliation>
+						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">11879678X</idno>
 						<note type="source" subtype="publ">AdR</note>
 						<note type="status" subtype="final"/>
@@ -1832,7 +1832,7 @@
 						<persName type="sk" subtype="pref">Sonnenschein, Hugo</persName>
 						<persName type="sk" subtype="pseud">Sonka, Hugo</persName>
 						<occupation type="prim" n="01">Schriftsteller, Lyriker</occupation>
-						<affiliation ref="#DWorg00003">KPÖ</affiliation>
+						<affiliation ref="#DWorg00003" n="01">KPÖ</affiliation>
 						<idno type="GND">119460416</idno>
 						<note type="source" subtype="publ">Killy</note>
 						<note type="status" subtype="final"/>
@@ -1852,7 +1852,7 @@
 						<occupation type="prim" n="01">Eisenbahnbeamter, Politiker</occupation>
 						<occupation notBefore="1932-10" notAfter="1933-03" n="02">Dritter Präsident des
 							Nationalrates</occupation>
-						<affiliation ref="#DWorg00002">GDVP</affiliation>
+						<affiliation ref="#DWorg00002" n="01">GDVP</affiliation>
 						<idno type="GND">132773074</idno>
 						<note type="source" subtype="publ">parlament.gv.at</note>
 						<note type="status" subtype="final"/>
@@ -1870,7 +1870,7 @@
 						<persName type="sk" subtype="pref">Theisen, Matthias</persName>
 						<occupation type="prim" n="01">Sekretär, Politiker, Gewerkschafter</occupation>
 						<occupation n="02">Braunschweigischer Stadtverordneter</occupation>
-						<affiliation ref="#DWorg00010">SPD</affiliation>
+						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">1035160900</idno>
 						<note type="source" subtype="publ">vernetztes-gedaechtnis.de</note>
 						<note type="status" subtype="final"/>
@@ -1888,7 +1888,7 @@
 								>Wien</placeName></death>
 						<persName type="sk" subtype="pref">Volkert, Ernst</persName>
 						<occupation type="prim" n="01">Medizinstudent, Arzt</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">WStLA, zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -1907,7 +1907,7 @@
 							München-Oberbayern</occupation>
 						<occupation notBefore="1933" notAfter="1942" n="02">Innenminister von
 							Bayern</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">120046733</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -1930,7 +1930,7 @@
 							Beobachters</title></occupation>
 						<occupation notBefore="1933" notAfter="1945" n="04">Reichstagsmitglied, Leiter des
 							Reichsverbands der deutschen Presse</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">128558873</idno>
 						<note type="source" subtype="publ">Klee 2007, Stockhorst 1967</note>
 						<note type="status" subtype="final"/>
@@ -1985,7 +1985,7 @@
 								(Best.)</placeName></death>
 						<persName type="sk" subtype="pref">Lauterbach, Albert</persName>
 						<occupation type="prim" n="01">Journalist, Ökonom</occupation>
-						<affiliation ref="#DWorg00007">SDAP</affiliation>
+						<affiliation ref="#DWorg00007" n="01">SDAP</affiliation>
 						<idno type="GND">118888749</idno>
 						<note type="source" subtype="publ">Hagemann u. Krohn 1999, Friedhöfe
 							Wien</note>
@@ -2008,7 +2008,7 @@
 								level="j">Die sozialistische Erziehung</title></occupation>
 						<occupation notBefore="1932" notAfter="1934" n="03"
 							>Bundesratsabgeordneter</occupation>
-						<affiliation ref="#DWorg00007">SDAP</affiliation>
+						<affiliation ref="#DWorg00007" n="01">SDAP</affiliation>
 						<idno type="GND">11855977X</idno>
 						<note type="source" subtype="publ">dasrotewien.at</note>
 						<note type="status" subtype="final"/>
@@ -2030,7 +2030,7 @@
 							Vorsitzender der SDAP</occupation>
 						<occupation notBefore="1923" notAfter="1934" n="03">Bürgermeister von
 							Wien</occupation>
-						<affiliation ref="#DWorg00007">SDAP</affiliation>
+						<affiliation ref="#DWorg00007" n="01">SDAP</affiliation>
 						<idno type="GND">119184745</idno>
 						<note type="source" subtype="publ">dasrotewien.at, parlament.gv.at</note>
 						<note type="status" subtype="final"/>
@@ -2049,7 +2049,7 @@
 						<persName type="sk" subtype="pref">Kottisch, Reinhold</persName>
 						<occupation type="prim" n="01">Elektriker</occupation>
 						<occupation n="02">SA-Mitglied</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">133534227</idno>
 						<note type="status" subtype="final"/>
 						<note type="source" subtype="publ">Kluke 1957, volksbund.de</note>
@@ -2067,7 +2067,7 @@
 						<persName type="sk" subtype="pref">Wolnitza, Rufin</persName>
 						<occupation type="prim" n="01">Grubenarbeiter</occupation>
 						<occupation n="02">SA-Mitglied</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">133794725</idno>
 						<note type="status" subtype="final"/>
 						<note type="source" subtype="publ">Kluke 1957, volksbund.de</note>
@@ -2084,7 +2084,7 @@
 						<death>?</death>
 						<occupation type="prim" n="01">Bergmann, Häuer</occupation>
 						<occupation n="02">SA-Mitglied</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">133435083</idno>
 						<note type="status" subtype="final"/>
 						<note type="source" subtype="publ">Kluke 1957</note>
@@ -2102,7 +2102,7 @@
 						<death>?</death>
 						<occupation type="prim" n="01">Markenkontrolleur</occupation>
 						<occupation n="02">SA-Obertruppführer</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">133585328</idno>
 						<note type="status" subtype="final"/>
 						<note type="source" subtype="publ">Kluke 1957</note>
@@ -2119,7 +2119,7 @@
 						<death>?</death>
 						<occupation type="prim" n="01">Gastwirt</occupation>
 						<occupation notBefore="1933" n="02">Bürgermeister von Potempa, SA</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">133544494</idno>
 						<note type="source" subtype="publ">Kluke 1957</note>
 						<note type="status" subtype="final"/>
@@ -2136,7 +2136,7 @@
 						<death when="1945-01-01" type="missing">1. 1. 1945 (vermisst)</death>
 						<occupation type="prim" n="01">Gastwirt</occupation>
 						<occupation n="02">SA-Sturmführer</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="status" subtype="final"/>
 						<note type="source" subtype="publ">Kluke 1957, volksbund.de</note>
 					</person>
@@ -2158,7 +2158,7 @@
 							Zeitung</title></occupation>
 						<occupation notBefore="1922" notAfter="1929" n="03">Münchner Redakteur des <title
 								level="j">Fränkischen Kurier</title></occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">116956658</idno>
 						<note type="status" subtype="final"/>
 						<note type="source" subtype="publ">historisches-lexikon-bayerns.de, Ebnet
@@ -2178,7 +2178,7 @@
 						<occupation type="prim" n="01">Journalist, Schriftsteller</occupation>
 						<occupation n="02">Schriftleiter des <title level="j">Fränkischen
 							Kurier</title></occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">117106399</idno>
 						<note type="status" subtype="final"/>
 						<note type="source" subtype="publ">Böhm 1995–1997</note>
@@ -2252,7 +2252,7 @@
 							>Reichstagsabgeordneter</occupation>
 						<occupation notAfter="1929" n="03">Staatsrat (Minister ohne
 							Portefeuille)</occupation>
-						<affiliation ref="#DWorg00010">SPD</affiliation>
+						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">118731459</idno>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -2273,7 +2273,7 @@
 							Landtagsabgeordneter</occupation>
 						<occupation when="1932" n="03">stellvertretender Badischer
 							Innenminister</occupation>
-						<affiliation ref="#DWorg00010">SPD</affiliation>
+						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">130055689</idno>
 						<note type="status" subtype="final"/>
 						<note type="source" subtype="publ">AdR</note>
@@ -2292,7 +2292,7 @@
 						<occupation type="prim" n="01">Dekorationsmaler, Politiker</occupation>
 						<occupation notBefore="1919" notAfter="1933" n="02">Badischer
 							Regierungsrat</occupation>
-						<affiliation ref="#DWorg00010">SPD</affiliation>
+						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">117272035</idno>
 						<note type="status" subtype="final"/>
 						<note type="source" subtype="publ">Stadtwiki Karlsruhe</note>
@@ -2312,7 +2312,7 @@
 						<occupation type="prim" n="01">Polizist, Politiker, Gewerkschafter</occupation>
 						<occupation notBefore="1930" notAfter="1933-02" n="02">Leiter der politischen
 							Polizei in Lörrach</occupation>
-						<affiliation ref="#DWorg00010">SPD</affiliation>
+						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">1012772705</idno>
 						<note type="source" subtype="publ">Stadtlexikon Karlsruhe</note>
 						<note type="status" subtype="final"/>
@@ -2329,7 +2329,7 @@
 						<death when="1965-11-17">17. 11. 1965</death>
 						<occupation type="prim" n="01">Kaufmann, Leiter der Antifaschistischen Aktion,
 							Widerstandskämpfer</occupation>
-						<affiliation ref="#DWorg00012">KPD</affiliation>
+						<affiliation ref="#DWorg00012" n="01">KPD</affiliation>
 						<note type="status" subtype="final"/>
 						<note type="source" subtype="publ">Landesarchiv Baden-Württemberg</note>
 					</person>
@@ -2348,7 +2348,7 @@
 						<occupation notBefore="1928" notAfter="1933" n="02">Politik- und
 							Feuilletonredakteur des sozialdemokratischen <title level="j"
 								>Volksfreund</title></occupation>
-						<affiliation ref="#DWorg00010">SPD</affiliation>
+						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">134233786</idno>
 						<note type="source" subtype="publ">Stadtlexikon Karlsruhe</note>
 						<note type="status" subtype="final"/>
@@ -2367,7 +2367,7 @@
 						<occupation n="01">Lederarbeiter, Politiker</occupation>
 						<occupation type="prim" notBefore="1929" notAfter="1933" n="02">Badischer
 							Landtagsabgeordneter</occupation>
-						<affiliation ref="#DWorg00012">KPD</affiliation>
+						<affiliation ref="#DWorg00012" n="01">KPD</affiliation>
 						<idno type="GND">126486638</idno>
 						<note type="status" subtype="final"/>
 						<note type="source" subtype="publ">landtag-bw.de</note>
@@ -2388,7 +2388,7 @@
 							Kreispropagandaleiter</occupation>
 						<occupation notBefore="1933-05-06" notAfter="1945-04-04" n="03">Innenminister von
 							Baden</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">130515175</idno>
 						<note type="source" subtype="publ">leo-bw.de</note>
 						<note type="status" subtype="final"/>
@@ -2411,7 +2411,7 @@
 							NSDAP-Gaues Baden</occupation>
 						<occupation when="1933" n="03">Pressechef der Badischen Landesregierung,
 							Gaupropagandaleiter</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">1012577600</idno>
 						<note type="source" subtype="publ">leo-bw.de</note>
 						<note type="status" subtype="final"/>
@@ -2432,7 +2432,7 @@
 						<persName type="sk" subtype="pref">Fischer, Alois</persName>
 						<persName type="sk" subtype="full">Fischer, Alois Andreas</persName>
 						
-						<affiliation ref="#DWorg00005">CSP</affiliation>
+						<affiliation ref="#DWorg00005" n="01">CSP</affiliation>
 						<note type="source" subtype="publ">Taufbuch Mittergrabern, NÖ
 							Landesarchiv</note>
 						<note type="status" subtype="final"/>
@@ -2469,7 +2469,7 @@
 						<occupation notBefore="1932-02-01" notAfter="1935-02-12" n="03">Mitarbeiter der
 							Presseabteilung des Auswärtigen Amts in Berlin, Referat IV (u. a.
 							Skandinavien)</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">Auswärtiges Amt</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -2505,7 +2505,7 @@
 						<occupation type="prim" n="01">Politiker, Landwirt</occupation>
 						<occupation notBefore="1931" notAfter="1938" n="02">Landeshauptmann von
 							Niederösterreich (mit Unterbrechungen)</occupation>
-						<affiliation ref="#DWorg00005">CSP</affiliation>
+						<affiliation ref="#DWorg00005" n="01">CSP</affiliation>
 						<idno type="GND">12789909X</idno>
 						<note type="source" subtype="publ">ÖBL</note>
 						<note type="status" subtype="final"/>
@@ -2551,7 +2551,7 @@
 							Brandenburg</occupation>
 						<occupation notBefore="1931" notAfter="1933" n="05">Mitglied des Preußischen
 							Staatsrates</occupation>
-						<affiliation ref="#DWorg00010">SPD</affiliation>
+						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">118687573</idno>
 						<note type="source" subtype="publ">BIOSOP-Online</note>
 						<note type="status" subtype="final"/>
@@ -2573,7 +2573,7 @@
 							Landtages</occupation>
 						<occupation notBefore="1928" notAfter="1933" n="04">Mitglied des
 							Reichstages</occupation>
-						<affiliation ref="#DWorg00010">SPD</affiliation>
+						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">118547879</idno>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -2674,7 +2674,7 @@
 						<occupation type="prim" n="01">Prinz von Preußen und NS-Parteiredner</occupation>
 						<occupation notBefore="1933" n="02">Preußischer Staatsraat und
 							Reichstagsabgeordneter</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">117746525</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -2691,7 +2691,7 @@
 								>Weimar</placeName></death>
 						<persName type="sk" subtype="pref">Bartels, Adolf</persName>
 						<occupation type="prim" n="01">Literaturhistoriker</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118652702</idno>
 						<note type="source" subtype="publ">Klee 2009</note>
 						<note type="status" subtype="final"/>
@@ -2709,7 +2709,7 @@
 						<persName type="sk" subtype="pref">Battisti, Cesare</persName>
 						<occupation type="prim" n="01">Politiker und Publizist</occupation>
 						<occupation n="02">Journalist, Geograph</occupation>
-						<affiliation ref="#DWorg00013">Partito operaio socialista in
+						<affiliation ref="#DWorg00013" n="01">Partito operaio socialista in
 							Austria</affiliation>
 						<idno type="GND">118653539</idno>
 						<note type="source" subtype="publ">ÖBL</note>
@@ -2736,7 +2736,7 @@
 							Staatssekretär für Sozialisierung</occupation>
 						<occupation notBefore="1919" notAfter="1934" n="05"
 							>Nationalratsabgeordneter</occupation>
-						<affiliation ref="#DWorg00007">SDAP</affiliation>
+						<affiliation ref="#DWorg00007" n="01">SDAP</affiliation>
 						<idno type="GND">118507346</idno>
 						<note type="source" subtype="publ">Wien-Geschichte-Wiki</note>
 						<note type="status" subtype="final"/>
@@ -3172,7 +3172,7 @@
 							Schlesien</occupation>
 						<occupation notBefore="1933" notAfter="1934" n="04">Oberpräsident von Schlesien,
 							preußischer Staatsrat</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">121383970</idno>
 						<note type="source" subtype="publ">Korfmacher 2012, Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -3191,7 +3191,7 @@
 						<occupation notBefore="1923" n="01">SA-Obergruppenführer</occupation>
 						<occupation type="prim" notBefore="1930" notAfter="1940" n="02">Chefadjutant
 							Hitlers</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">124531237</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -3317,7 +3317,7 @@
 						<persName type="sk" subtype="full">Dalton, Edward Hugh John Neal
 							Baron</persName>
 						<occupation type="prim" n="01">Politiker</occupation>
-						<affiliation ref="#DWorg00016">Labour</affiliation>
+						<affiliation ref="#DWorg00016" n="01">Labour</affiliation>
 						<idno type="GND">119019922</idno>
 						<note type="source" subtype="publ">biography.wales</note>
 						<note type="status" subtype="final"/>
@@ -3337,7 +3337,7 @@
 						<occupation n="02">Musikkritiker</occupation>
 						<occupation notBefore="1922-10" notAfter="1933" n="03">Musikredakteur der <title
 								level="j">Deutschösterreichischen Tages-Zeitung</title></occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">126762651</idno>
 						<note type="source" subtype="publ">Hoffmann 2009</note>
 						<note type="status" subtype="final"/>
@@ -3361,7 +3361,7 @@
 						<occupation notBefore="1933" notAfter="1942" n="02">Reichs- und Preußischer
 							Minister für Ernährung und Landwirtschaft,
 							Reichsbauernführer</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118671030</idno>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -3408,7 +3408,7 @@
 						<occupation notBefore="1919" notAfter="1934" n="03"
 							>Nationalratsabgeordneter</occupation>
 						<occupation notBefore="1924" notAfter="1934" n="04">Schutzbundführer</occupation>
-						<affiliation ref="#DWorg00007">SDAP</affiliation>
+						<affiliation ref="#DWorg00007" n="01">SDAP</affiliation>
 						<idno type="GND">118678027</idno>
 						<note type="source" subtype="publ">Czeike</note>
 						<note type="status" subtype="final"/>
@@ -3491,7 +3491,7 @@
 							Minister des Äußeren</occupation>
 						<occupation notBefore="1933-03-04" notAfter="1934-07-25" n="04">Diktator des
 							österreichischen „Ständestaats“</occupation>
-						<affiliation ref="#DWorg00005">CSP</affiliation>
+						<affiliation ref="#DWorg00005" n="01">CSP</affiliation>
 						<idno type="GND">118526561</idno>
 						<note type="source" subtype="publ">ÖBL</note>
 						<note type="status" subtype="final"/>
@@ -3545,8 +3545,8 @@
 						<persName type="sk" subtype="pref">Eckstein, Ernst</persName>
 						<occupation type="prim" n="01">Jurist und Politiker</occupation>
 						<occupation n="02">Rechtsanwalt, Notar</occupation>
-						<affiliation notAfter="1931" ref="#DWorg00010">SPD</affiliation>
-						<affiliation notBefore="1931" ref="#DWorg00009">SAPD</affiliation>
+						<affiliation notAfter="1931" ref="#DWorg00010" n="01">SPD</affiliation>
+						<affiliation notBefore="1931" ref="#DWorg00009" n="02">SAPD</affiliation>
 						<idno type="GND">131997742</idno>
 						<note type="source" subtype="publ">Bergbauer 2014</note>
 						<note type="status" subtype="final"/>
@@ -3603,7 +3603,7 @@
 						<occupation notBefore="1932" n="02">SS-Sturmbannführer in Wien</occupation>
 						<occupation notBefore="1933" n="03">SS-Standartenführer
 							Niederösterreich</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND"/>
 						<note type="source" subtype="publ">Zumr 2017</note>
 						<note type="status" subtype="final"/>
@@ -3628,7 +3628,7 @@
 						<occupation notBefore="1923" n="03">Leiter des Wehrpolitischen und des
 							Kolonialpolitischen Amtes der NSDAP</occupation>
 						<occupation notBefore="1928" n="04">SA-Gruppenführer</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">173194818</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -3648,7 +3648,7 @@
 						<occupation type="prim" n="01">Maschinenschlosser und Gewerkschafter</occupation>
 						<occupation n="02">Politiker, Mitglied des Reichsbanner
 							Schwarz-Rot-Gold</occupation>
-						<affiliation ref="#DWorg00010">SPD</affiliation>
+						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">1179117913</idno>
 						<note type="source" subtype="publ">stolpersteine-berlin.de</note>
 						<note type="status" subtype="final"/>
@@ -3666,7 +3666,7 @@
 								>Berlin</placeName></death>
 						<persName type="sk" subtype="pref">Ewers, Hanns Heinz</persName>
 						<occupation type="prim" n="01">Schriftsteller</occupation>
-						<affiliation notBefore="1931" ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation notBefore="1931" ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118685570</idno>
 						<note type="source" subtype="publ">Killy</note>
 						<note type="status" subtype="final"/>
@@ -3705,7 +3705,7 @@
 						<occupation notBefore="1933" notAfter="1934" n="04">Staatssekretär, dann
 							Reichskommissar für das Siedlungswesen im
 							Reichswirtschaftsministerium</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">119388766</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -3729,7 +3729,7 @@
 							das Sicherheitswesen</occupation>
 						<occupation notBefore="1933-09-21" notAfter="1934-07-10" n="04"
 							>Vizekanzler</occupation>
-						<affiliation ref="#DWorg00005">CSP</affiliation>
+						<affiliation ref="#DWorg00005" n="01">CSP</affiliation>
 						<idno type="GND">123555426</idno>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -3837,7 +3837,7 @@
 							Ländern</occupation>
 						<occupation notBefore="1933-06-26" notAfter="1942" n="05">Gründer, später Präsident
 							der Akademie für deutsches Recht</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118534742</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -3895,7 +3895,7 @@
 							Reichstagsmitglied</occupation>
 						<occupation notBefore="1933-06-01" notAfter="1934-04-01" n="04">Staatssekretär im
 							preußischen Justizministerium</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118693093</idno>
 						<note type="source" subtype="publ">lagis-hessen.de</note>
 						<note type="status" subtype="final"/>
@@ -3933,7 +3933,7 @@
 							Volksbildungsminister in Thüringen</occupation>
 						<occupation notBefore="1933" notAfter="1943-08-24" n="03"
 							>Reichsinnenminister</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">119055201</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -3994,7 +3994,7 @@
 						<occupation type="prim" n="01">Journalist und Politiker</occupation>
 						<occupation notBefore="1933" notAfter="1943" n="02">Innenminister von
 							Sachsen</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">13047245X</idno>
 						<note type="source" subtype="publ">Wagner 2004</note>
 						<note type="status" subtype="final"/>
@@ -4016,7 +4016,7 @@
 						<persName type="sk" subtype="pseud">Fritsch, Willy</persName>
 						<persName type="sk" subtype="born">Fritz, Wilhelm Egon</persName>
 						<occupation type="prim" n="01">Schauspieler</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118955160</idno>
 						<note type="source" subtype="publ">filmportal.de</note>
 						<note type="status" subtype="final"/>
@@ -4091,7 +4091,7 @@
 						<occupation type="prim" n="01">Versicherungskaufmann</occupation>
 						<occupation notBefore="1933-04" n="02">Direktor der Provinzial
 							Feuerversicherungsanstalt der Rheinprovinz</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">119359847</idno>
 						<note type="source" subtype="publ">Müller 1994</note>
 						<note type="status" subtype="final"/>
@@ -4118,7 +4118,7 @@
 							der NSDAP</occupation>
 						<occupation notBefore="1933-03-14" notAfter="1945-05-01" n="05">Reichsminister für
 							Volksaufklärung und Propaganda</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118540041</idno>
 						<note type="source" subtype="publ">Longerich 2010, Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -4175,7 +4175,7 @@
 							Luftfahrt</occupation>
 						<occupation notBefore="1933-04" notAfter="1945-04-23" n="05">Ministerpräsident von
 							Preußen</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118540157</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -4318,7 +4318,7 @@
 							Landesinspektor und Parteiführer der NSDAP Österreich</occupation>
 						<occupation notBefore="1931" notAfter="1944" n="03">Mitglied des Deutschen
 							Reichstags</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">123565529</idno>
 						<note type="source" subtype="publ">lagis-hessen.de, Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -4410,7 +4410,7 @@
 							Universität Freiburg</occupation>
 						<occupation notBefore="1933-05-27" notAfter="1934-04-23" n="03">Direktor der
 							Universität Freiburg</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118547798</idno>
 						<note type="source" subtype="publ">Klee 2009</note>
 						<note type="status" subtype="final"/>
@@ -4470,7 +4470,7 @@
 						<occupation notBefore="1931" n="02">Stellvertretender Obergruppenführer der
 							SA</occupation>
 						<occupation notBefore="1933" n="03">Polizeipräsident in Breslau</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">124349595</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -4494,7 +4494,7 @@
 						<occupation notBefore="1933" n="02">SA- und SS-Führer in
 							Berlin-Brandenburg</occupation>
 						<occupation notBefore="1933" n="03">Polizeipräsident in Potsdam</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">119528789</idno>
 						<note type="source" subtype="publ">Klee 2007, Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -4517,7 +4517,7 @@
 							Außenminister</occupation>
 						<occupation notBefore="1932-02" n="04">Präsident der Genfer
 							Abrüstungskonferenz</occupation>
-						<affiliation ref="#DWorg00016">Labour</affiliation>
+						<affiliation ref="#DWorg00016" n="01">Labour</affiliation>
 						<idno type="GND">118886711</idno>
 						<note type="source" subtype="publ">nobelprize.org</note>
 						<note type="status" subtype="final"/>
@@ -4536,7 +4536,7 @@
 						<occupation notBefore="1925" n="01">Privatsekretär Hitlers</occupation>
 						<occupation type="prim" notBefore="1933" n="02">‚Stellvertreter des
 							Führers‘</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">11855039X</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -4557,7 +4557,7 @@
 						<occupation type="prim" n="01">Politiker</occupation>
 						<occupation notBefore="1933" notAfter="1943" n="02">Oberpräsident von
 							Hessen-Nassau</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">12434593X</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -4583,7 +4583,7 @@
 						<occupation n="02">SA- und SS-Angehöriger</occupation>
 						<occupation notBefore="1933" n="03">beteiligt am Aufbau, später Leiter des
 							Forschungsamtes im Reichsluftfahrtministerium</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">124345948</idno>
 						<note type="source" subtype="publ">lagis-hessen.de</note>
 						<note type="status" subtype="final"/>
@@ -4603,7 +4603,7 @@
 						<occupation notBefore="1930" notAfter="1945" n="02"
 							>Reichstagsabgeordneter</occupation>
 						<occupation notBefore="1933" n="03">Polizeipräsident in München</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">11855123X</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -4672,7 +4672,7 @@
 							preußischen Wissenschaftsministerium</occupation>
 						<occupation notBefore="1933-05" n="06">Reichsorganisationsleiter des Kampfbundes
 							für deutsche Kultur</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">116897007</idno>
 						<note type="source" subtype="publ">Klee 2007, Klee 2009</note>
 						<note type="status" subtype="final"/>
@@ -4708,7 +4708,7 @@
 							Reichskanzler</occupation>
 						<occupation notBefore="1934-08-01" notAfter="1945-04-30" n="02">deutscher
 							Reichspräsident</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118551655</idno>
 						<note type="status" subtype="final"/>
 					</person>
@@ -4765,7 +4765,7 @@
 							Deutschen Christen</occupation>
 						<occupation notBefore="1933" notAfter="1933-12" n="03">Geistlicher Vizepräsident
 							des Evangelischen Oberkirchenrats, Bischof von Brandenburg</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118775014</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -4805,7 +4805,7 @@
 						<occupation notBefore="1933-01" notAfter="1933-06" n="04">Reichswirtschafts- und
 							Ernährungsminister</occupation>
 						<occupation n="05">Mitglied des Reichstags</occupation>
-						<affiliation ref="#DWorg00015">DNVP</affiliation>
+						<affiliation ref="#DWorg00015" n="01">DNVP</affiliation>
 						<idno type="GND">118554565</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -4852,7 +4852,7 @@
 						<occupation notBefore="1920" notAfter="1924" n="02">Stadträtin</occupation>
 						<occupation notBefore="1921" notAfter="1933" n="03">Mitglied der Bezirksversammlung
 							Köpenick</occupation>
-						<affiliation ref="#DWorg00010">SPD</affiliation>
+						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<note type="source" subtype="publ">gedenktafeln-in-berlin.de</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -4878,7 +4878,7 @@
 							Kampfbundes für deutsche Kultur in Österreich</occupation>
 						<occupation notBefore="1936" n="04">Mitbegründer des Bundes der deutschen
 							Schriftsteller Österreichs</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118746901</idno>
 						<note type="source" subtype="publ">Killy</note>
 						<note type="status" subtype="final"/>
@@ -4912,7 +4912,7 @@
 						<persName type="sk" subtype="pref">Johst, Hanns</persName>
 						<occupation type="prim" n="01">Schriftsteller</occupation>
 						<occupation n="02">politischer Publizist, Literaturfunktionär</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118712853</idno>
 						<note type="source" subtype="publ">Killy</note>
 						<note type="status" subtype="final"/>
@@ -4971,7 +4971,7 @@
 						<occupation type="prim" n="01">Politiker</occupation>
 						<occupation notBefore="1933-04-21" notAfter="1934" n="02">preußischer
 							Justizminister</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">122898397</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -5015,7 +5015,7 @@
 							Sachsen</occupation>
 						<occupation notBefore="1933" notAfter="1935" n="05">Ministerpräsident von
 							Sachsen</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">121673626</idno>
 						<note type="source" subtype="publ">Klee 2007, AdR</note>
 						<note type="status" subtype="final"/>
@@ -5110,7 +5110,7 @@
 							Bundesrats</occupation>
 						<occupation notBefore="1924" notAfter="1930" n="03">Mitglied der Zentralleitung des
 							Republikanischen Schutzbundes</occupation>
-						<affiliation ref="#DWorg00007">SDAP</affiliation>
+						<affiliation ref="#DWorg00007" n="01">SDAP</affiliation>
 						<idno type="GND">118713493</idno>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -5130,7 +5130,7 @@
 						<occupation type="prim" n="01">Politiker, Herausgeber</occupation>
 						<occupation notBefore="1932-11" notAfter="1933-05" n="02">Gauinspekteur von
 							Kärnten</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">Höffkes 1986, Stadtarchiv Neuss</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -5168,7 +5168,7 @@
 							Akademie Frankfurt</occupation>
 						<occupation notBefore="1933-05" notAfter="1934" n="03">Rektor der Universität
 							Frankfurt</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118566806</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -5188,7 +5188,7 @@
 						<persName type="sk" subtype="pref">Preußen, Wilhelm von</persName>
 						<persName type="sk" subtype="full">Preußen, Wilhelm Prinz von</persName>
 						<occupation type="prim" n="01">Politiker</occupation>
-						<affiliation ref="#DWorg00001">Stahlhelm</affiliation>
+						<affiliation ref="#DWorg00001" n="01">Stahlhelm</affiliation>
 						<idno type="GND">11877185X</idno>
 						<note type="source" subtype="publ">dhm.de</note>
 						<note type="status" subtype="final"/>
@@ -5210,7 +5210,7 @@
 						<occupation type="prim" n="01">Stahlindustrieller</occupation>
 						<occupation notBefore="1931" notAfter="1934" n="02">Vorsitzender des Reichsverbands
 							der Deutschen Industrie</occupation>
-						<affiliation notBefore="1940" ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation notBefore="1940" ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">116574216</idno>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -5233,7 +5233,7 @@
 							Brandenburgs und Berlins</occupation>
 						<occupation notBefore="1928-09" notAfter="1936" n="04">Gauleiter des Gaues Ostmark
 							(Frankfurt an der Oder), dann des Gaues Kurmark</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">128799536</idno>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -5254,7 +5254,7 @@
 							SP-Unterbezirksorganisation Chemnitz</occupation>
 						<occupation notBefore="1920-06" notAfter="1933-06" n="03">Mitglied des deutschen
 							Reichstages</occupation>
-						<affiliation ref="#DWorg00010">SPD</affiliation>
+						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">130011711</idno>
 						<note type="source" subtype="publ">BIOSOP-online</note>
 						<note type="status" subtype="final"/>
@@ -5275,7 +5275,7 @@
 						<occupation notBefore="1920" notAfter="1934" n="03">österreichischer
 							Nationalratsabgeordneter</occupation>
 						<occupation n="04">Gründer der Christlichsozialen Arbeiterbewegung</occupation>
-						<affiliation ref="#DWorg00005">CSP</affiliation>
+						<affiliation ref="#DWorg00005" n="01">CSP</affiliation>
 						<idno type="GND">118725432</idno>
 						<note type="source" subtype="publ">parlament.gv.at</note>
 						<note type="status" subtype="final"/>
@@ -5396,7 +5396,7 @@
 							München</occupation>
 						<occupation notBefore="1933-10" n="03">Reichsdramaturg im Reichsministerium für
 							Volksaufklärung und Propaganda</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">11732969X</idno>
 						<note type="source" subtype="publ">ns-reichsministerien.de</note>
 						<note type="status" subtype="final"/>
@@ -5438,7 +5438,7 @@
 							>Reichsorganisationsleiter</occupation>
 						<occupation notBefore="1933" notAfter="1945" n="05">Reichsleiter der Deutschen
 							Arbeitsfront</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118728016</idno>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -5535,7 +5535,7 @@
 							Reichstags</occupation>
 						<occupation notBefore="1932" notAfter="1933" n="03">Redakteur des <title level="j"
 								>Vorwärts</title></occupation>
-						<affiliation ref="#DWorg00010">SPD</affiliation>
+						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">118728725</idno>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -5796,7 +5796,7 @@
 						<occupation notBefore="1933" notAfter="1937" n="02">Leiter der Abteilung für
 							Weltanschauliche Schulung im Rasse- und Siedlungsamt, später Leiter des
 							Schulungsamtes im Rasse- und Siedlungshauptamt</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">1131595378</idno>
 						<note type="source" subtype="publ">GND, Hein 2012</note>
 						<note type="status" subtype="ok-ish"/>
@@ -5819,7 +5819,7 @@
 						<occupation notBefore="1933-03" notAfter="1945" n="04">Staatspräsident (später
 							Reichsttatthalter) sowie Innen- und Wirtschaftsminister von
 							Württemberg</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">120681021</idno>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -5838,7 +5838,7 @@
 						<occupation n="01">Begründer des italienischen Faschismus</occupation>
 						<occupation type="prim" notBefore="1922-10-31" notAfter="1943-07-25" n="02"
 							>Ministerpräsident, dann Diktator Italiens</occupation>
-						<affiliation ref="#DWorg00018">PNF</affiliation>
+						<affiliation ref="#DWorg00018" n="01">PNF</affiliation>
 						<idno type="GND">118585967</idno>
 						<note type="source" subtype="publ">dhm.de</note>
 						<note type="status" subtype="final"/>
@@ -5881,7 +5881,7 @@
 						<occupation type="prim" n="01">Rechtsanwalt, Notar</occupation>
 						<occupation notBefore="1921" notAfter="1935" n="02">(m. Unterbrechung) Vorsitzender
 							des von ihm mitbegründeten Verbands nationaldeutscher Juden</occupation>
-						<affiliation ref="#DWorg00015">DNVP</affiliation>
+						<affiliation ref="#DWorg00015" n="01">DNVP</affiliation>
 						<idno type="GND">124730949</idno>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -5962,7 +5962,7 @@
 							>Reichstagsabgeordneter</occupation>
 						<occupation notBefore="1929-12" notAfter="1933-03-30" n="03"
 							>Fraktionsvorsitzender</occupation>
-						<affiliation ref="#DWorg00015">DNVP</affiliation>
+						<affiliation ref="#DWorg00015" n="01">DNVP</affiliation>
 						<idno type="GND">101629362</idno>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -6061,7 +6061,7 @@
 							Obergruppenführer</occupation>
 						<occupation notBefore="1933-04" notAfter="1936-07" n="03">Polizeipräsident von
 							Kassel, Leiter der Staatspolizeistelle Kassel</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">139168648</idno>
 						<note type="source" subtype="publ">lagis-hessen.de</note>
 						<note type="status" subtype="final"/>
@@ -6081,7 +6081,7 @@
 						<persName type="sk" subtype="pref">Piscator, Erwin</persName>
 						<persName type="sk" subtype="full">Piscator, Erwin Friedrich Max</persName>
 						<occupation type="prim" n="01">Theaterregisseur</occupation>
-						<affiliation ref="#DWorg00012">KPD</affiliation>
+						<affiliation ref="#DWorg00012" n="01">KPD</affiliation>
 						<idno type="GND">118594648</idno>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -6151,7 +6151,7 @@
 							>Arbeiter-Zeitung</title></occupation>
 						<occupation notBefore="1931" notAfter="1934" n="03">Chefredakteur der <title
 								level="j">Arbeiter-Zeitung</title></occupation>
-						<affiliation ref="#DWorg00007">SDAP</affiliation>
+						<affiliation ref="#DWorg00007" n="01">SDAP</affiliation>
 						<idno type="GND">122391160</idno>
 						<note type="source" subtype="publ">Czeike</note>
 						<note type="status" subtype="final"/>
@@ -6233,7 +6233,7 @@
 							Oberösterreich</occupation>
 						<occupation notBefore="1928" notAfter="1933" n="03">geschäftsführender
 							Landesleiter, dann Landesleiter der NSDAP Österreich</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">130532762</idno>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -6252,7 +6252,7 @@
 						<occupation type="prim" n="01">Politiker, Lokomotivführer</occupation>
 						<occupation notBefore="1927-05-20" notAfter="1934-02-16" n="02"
 							>Landtagsabgeordneter in Niederösterreich</occupation>
-						<affiliation ref="#DWorg00007">SDAP</affiliation>
+						<affiliation ref="#DWorg00007" n="01">SDAP</affiliation>
 						<idno type="GND">131665219</idno>
 						<note type="source" subtype="publ">noe-landtag.gv.at</note>
 						<note type="status" subtype="final"/>
@@ -6383,7 +6383,7 @@
 						<occupation notBefore="1933" notAfter="1934" n="02">Mitglied des Reichstags,
 							bayerischer Staatsminister, Reichsminister ohne
 							Geschäftsbereich</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118745700</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -6424,7 +6424,7 @@
 						<occupation notBefore="1930" n="04">Reichstagsabgeordneter</occupation>
 						<occupation notBefore="1933" notAfter="1943-02" n="05">Reichsleiter des
 							Außenpolitischen Amts der NSDAP</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118602691</idno>
 						<note type="source" subtype="publ">Klee 2007, AdR</note>
 						<note type="status" subtype="final"/>
@@ -6469,7 +6469,7 @@
 							Kultusministeriums</occupation>
 						<occupation notBefore="1934-05-01" notAfter="1945-05-08" n="05">Reichsminister für
 							Wissenschaft, Erziehung und Volksbildung</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">119368617</idno>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -6511,7 +6511,7 @@
 							>Lagerkommandant des KZ Oranienburg</occupation>
 						<occupation n="02">Sparkassenangestellter, SA-Sturmbannführer,
 							SA-Oberführer</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">1035135000</idno>
 						<note type="source" subtype="publ">Klee 2007, GND</note>
 						<note type="status" subtype="final"/>
@@ -6534,7 +6534,7 @@
 							Prinz von</persName>
 						<occupation type="prim" notBefore="1933" notAfter="1935" n="01">Adjutant
 							Goebbels’</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">107367157</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -6572,7 +6572,7 @@
 							Reichs</occupation>
 						<occupation notBefore="1940-08-07" n="03">Gauleiter und Reichstatthalter in
 							Wien</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118607804</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -6631,7 +6631,7 @@
 							>Nationalratsabgeordneter</occupation>
 						<occupation notBefore="1927" notAfter="1934" n="03">Mitglied der
 							Niederösterreichischen Landesregierung</occupation>
-						<affiliation ref="#DWorg00007">SDAP</affiliation>
+						<affiliation ref="#DWorg00007" n="01">SDAP</affiliation>
 						<idno type="GND">128141913</idno>
 						<note type="source" subtype="publ">Austria-Forum</note>
 						<note type="status" subtype="final"/>
@@ -6715,7 +6715,7 @@
 							Landbundes</occupation>
 						<occupation notBefore="1933-02" notAfter="1934" n="07">Obmann des Kärntner
 							Landbundes</occupation>
-						<affiliation ref="#DWorg00004">Landbund</affiliation>
+						<affiliation ref="#DWorg00004" n="01">Landbund</affiliation>
 						<idno type="GND">118762656</idno>
 						<note type="source" subtype="publ">parlament.gv.at, Deutsche
 							Biographie</note>
@@ -6742,7 +6742,7 @@
 								<title level="j">Kampfruf</title></occupation>
 						<occupation notBefore="1933" n="04">Mitarbeiter des <title level="j">Völkischen
 								Beobachter</title> und anderer NS-Zeitungen</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">120146657</idno>
 						<note type="source" subtype="publ">Früh 2007, ÖBL</note>
 						<note type="status" subtype="final"/>
@@ -6780,8 +6780,8 @@
 							>Reichsarbeitsminister</occupation>
 						<occupation notBefore="1933-03" notAfter="1934-07" n="05">Reichskommissar für den
 							freiwilligen Arbeitsdienst</occupation>
-						<affiliation ref="#DWorg00001">Stahlhelm</affiliation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00001" n="01">Stahlhelm</affiliation>
+						<affiliation ref="#DWorg00011" n="02">NSDAP</affiliation>
 						<idno type="GND">117473847</idno>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -6909,7 +6909,7 @@
 							Tageszeitung <title level="j">Vorwärts</title></occupation>
 						<occupation notBefore="1933" notAfter="1940" n="04">Chefredakteur der Exil-Zeitung
 								<title level="j">Neuer Vorwärts</title></occupation>
-						<affiliation ref="#DWorg00010">SPD</affiliation>
+						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">118798448</idno>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -6942,8 +6942,8 @@
 							>Innenminister</occupation>
 						<occupation notBefore="1930-12-02" notAfter="1931-01-30" n="05"
 							>Parlamentsabgeordneter</occupation>
-						<affiliation ref="#DWorg00008">Heimatblock</affiliation>
-						<affiliation ref="#DWorg00014">Vaterländische Front</affiliation>
+						<affiliation ref="#DWorg00008" n="01">Heimatblock</affiliation>
+						<affiliation ref="#DWorg00014" n="02">Vaterländische Front</affiliation>
 						<idno type="GND">118752804</idno>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -6971,7 +6971,7 @@
 							österreichischen Heimatschutzes</occupation>
 						<occupation notBefore="1932" notAfter="1934" n="05">stv. Bundesführer der
 							alpenländischen Selbstschutzverbände</occupation>
-						<affiliation ref="#DWorg00005">CSP</affiliation>
+						<affiliation ref="#DWorg00005" n="01">CSP</affiliation>
 						<idno type="GND">129961981</idno>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -7019,7 +7019,7 @@
 							Schwarz-Rot-Gold</occupation>
 						<occupation notBefore="1921" notAfter="1924" n="04">Ministerpräsident von
 							Mecklenburg-Schwerin</occupation>
-						<affiliation ref="#DWorg00010">SPD</affiliation>
+						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">102233810</idno>
 						<note type="source" subtype="publ">AdR</note>
 						<note type="status" subtype="final"/>
@@ -7076,7 +7076,7 @@
 							>Reichstagsabgeordneter</occupation>
 						<occupation when="1933" n="05">Leiter des Zentralkomitees zur Abwehr der jüdischen
 							Greuel- und Boykotthetze</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118619233</idno>
 						<note type="source" subtype="publ">Klee 2007, Deutsche Biographie</note>
 						<note type="status" subtype="final"/>
@@ -7097,7 +7097,7 @@
 							Vereinigten Stahlwerke</occupation>
 						<occupation notBefore="1933" notAfter="1939" n="03">Preußischer
 							Staatsrat</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118622498</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -7295,7 +7295,7 @@
 							Bundeskanzler</occupation>
 						<occupation notBefore="1930" notAfter="1933" n="04">Obmann der Christlichsozialen
 							Partei</occupation>
-						<affiliation ref="#DWorg00005">CSP</affiliation>
+						<affiliation ref="#DWorg00005" n="01">CSP</affiliation>
 						<idno type="GND">118804022</idno>
 						<note type="source" subtype="publ">parlament.gv.at</note>
 						<note type="status" subtype="final"/>
@@ -7436,7 +7436,7 @@
 								>Berlin</placeName></death>
 						<persName type="sk" subtype="pref">Wessel, Horst</persName>
 						<occupation type="prim" n="01">SA-Sturmführer</occupation>
-						<affiliation ref="#DWorg00011">NSDAP</affiliation>
+						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118631721</idno>
 						<note type="source" subtype="publ">Klee 2007</note>
 						<note type="status" subtype="final"/>
@@ -7477,7 +7477,7 @@
 							>Nationalratsabgeordneter</occupation>
 						<occupation notBefore="1932" notAfter="1934" n="05">Obmann des
 							Landbunds</occupation>
-						<affiliation ref="#DWorg00004">Landbund</affiliation>
+						<affiliation ref="#DWorg00004" n="01">Landbund</affiliation>
 						<idno type="GND">117403946</idno>
 						<note type="source" subtype="publ">parlament.gv.at, Austria-Forum</note>
 						<note type="status" subtype="final"/>
@@ -7630,8 +7630,8 @@
 						<persName type="sk" subtype="pref">Tesch, Bruno</persName>
 						<persName type="sk" subtype="full">Tesch, Bruno Guido Camillo</persName>
 						<occupation type="prim" n="01">Klempner, Gewerkschafter</occupation>
-						<affiliation ref="#DWorg00012">KPD</affiliation>
-						<affiliation ref="#DWorg00017">KJVD</affiliation>
+						<affiliation ref="#DWorg00012" n="01">KPD</affiliation>
+						<affiliation ref="#DWorg00017" n="02">KJVD</affiliation>
 						<idno type="GND">124791891</idno>
 						<note type="source" subtype="publ">stolpersteine-hamburg.de, Hochmuth
 							2005</note>
@@ -7709,7 +7709,7 @@
 							SP-Bezirksvorstands Chemnitz-Erzgebirge</occupation>
 						<occupation notBefore="1926" notAfter="1933" n="04">Mitglied des sächsischen
 							Landtags</occupation>
-						<affiliation ref="#DWorg00010">SPD</affiliation>
+						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">13359081X</idno>
 						<note type="status" subtype="final"/>
 						<note type="source" subtype="publ">BIOSOP–Online</note>
@@ -7732,7 +7732,7 @@
 						<occupation notAfter="1933" n="03">Mitglied des Reichstags</occupation>
 						<occupation notBefore="1919" notAfter="1925" n="04">Oberbürgermeister von
 							Kassel</occupation>
-						<affiliation ref="#DWorg00010">SPD</affiliation>
+						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">118754351</idno>
 						<note type="status" subtype="final"/>
 						<note type="source" subtype="publ">Deutsche Biographie</note>
@@ -7755,8 +7755,8 @@
 							Wien</occupation>
 						<occupation notBefore="1897" notAfter="1907" n="04"
 							>Reichsratsabgeordneter</occupation>
-						<affiliation ref="#DWorg00005">CSP</affiliation>
-						<affiliation ref="#DWorg00006">Bund der Antisemiten</affiliation>
+						<affiliation ref="#DWorg00005" n="01">CSP</affiliation>
+						<affiliation ref="#DWorg00006" n="02">Bund der Antisemiten</affiliation>
 						<idno type="GND">1011385708</idno>
 						<note type="status" subtype="final"/>
 						<note type="source" subtype="publ">Krause [2005]</note>
