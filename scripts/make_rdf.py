@@ -20,7 +20,7 @@ doc = TeiReader("./data/indices/listperson.xml")
 nsmap = doc.nsmap
 items = doc.any_xpath(".//tei:person")
 for x in tqdm(items, total=len(items)):
-    xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+    xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"].lower()
     item_id = f"{SK}{xml_id}"
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E21_Person"]))
@@ -45,23 +45,30 @@ for x in tqdm(items, total=len(items)):
             g.add((uri, CIDOC["P4_has_time-span"], ts_uri))
             g += create_e52(ts_uri, begin_of_begin=begin, end_of_end=end)
     for y in x.xpath(".//tei:affiliation[@ref]", namespaces=nsmap):
-        occ_id = y.attrib["ref"][1:]
-        uri = URIRef(f"{SK}{occ_id}")
-        join_uri = make_uri(domain=domain)
+        affiliation_id = y.attrib["ref"][1:].lower()
+        end, _ = extract_begin_end(y)
+        uri = URIRef(f"{SK}{affiliation_id}")
+        join_uri = URIRef(f"{uri}/joining/{xml_id}")
         g.add((join_uri, RDF.type, CIDOC["E85_Joining"]))
         g.add((join_uri, CIDOC["P143_joined"], subj))
         g.add((join_uri, CIDOC["P144_joined_with"], uri))
+        if begin != "":
+            ts_uri = URIRef(f"{join_uri}/timestamp/{begin}")
+            g.add((join_uri, CIDOC["P4_has_time-span"], ts_uri))
+            g += create_e52(ts_uri, begin_of_begin=begin, end_of_end=begin)
         try:
-            date_str = y.attrib["notBefore"]
+            end = y.attrib["notAfter"]
         except KeyError:
-            continue
-        ts_uri = URIRef(f"{SK}timestamp/{date_str}")
-        g.add((join_uri, CIDOC["P4_has_time-span"], ts_uri))
-        g += create_e52(ts_uri, begin_of_begin=date_str, end_of_end=date_str)
-        # ToDo:
-        # E85 (Joining Eent) -> P4 -> E52; E52 P82a/P82b (use notBefore)
-        # E86 (Leaving Event) -> E52 P82a/P82b (use notAfter)
-
+            end = ""
+        if end != "":
+            join_uri = URIRef(f"{uri}/leaving/{xml_id}")
+            g.add((join_uri, RDF.type, CIDOC["E86_Leaving"]))
+            g.add((join_uri, CIDOC["P145_separated"], subj))
+            g.add((join_uri, CIDOC["P146_separated_from"], uri))
+            if end != "":
+                ts_uri = URIRef(f"{join_uri}/timestamp/{end}")
+                g.add((join_uri, CIDOC["P4_has_time-span"], ts_uri))
+                g += create_e52(ts_uri, begin_of_begin=end, end_of_end=end)
     try:
         label = x.xpath(
             './/tei:persName[@type="sk"][@subtype="pref"]/text()', namespaces=doc.nsmap
@@ -77,7 +84,7 @@ for x in tqdm(items, total=len(items)):
         birth = None
     if birth:
         b_uri = URIRef(f"{SK}{xml_id}/birth")
-        b_timestamp = URIRef(f"{SK}timestamp/{birth}")
+        b_timestamp = URIRef(f"{b_uri}/timestamp")
         g.add((b_uri, RDF.type, CIDOC["E67_Birth"]))
         if label:
             g.add((b_uri, RDFS.label, Literal(f"Geburt von {label}", lang="de")))
@@ -89,7 +96,7 @@ for x in tqdm(items, total=len(items)):
         except IndexError:
             place = None
         if place is not None:
-            place_id = place.attrib["key"][1:]
+            place_id = place.attrib["key"][1:].lower()
             place_name = place.text
             place_uri = URIRef(f"{SK}{place_id}")
             g.add((b_uri, CIDOC["P7_took_place_at"], place_uri))
@@ -101,7 +108,7 @@ for x in tqdm(items, total=len(items)):
             death = None
         if death:
             b_uri = URIRef(f"{SK}{xml_id}/death")
-            b_timestamp = URIRef(f"{SK}timestamp/{death}")
+            b_timestamp = URIRef(f"{b_uri}timestamp")
             g.add((b_uri, RDF.type, CIDOC["E67_Death"]))
             if label:
                 g.add((b_uri, RDFS.label, Literal(f"Tod von {label}", lang="de")))
@@ -113,14 +120,14 @@ for x in tqdm(items, total=len(items)):
             except IndexError:
                 place = None
             if place is not None:
-                place_id = place.attrib["key"][1:]
+                place_id = place.attrib["key"][1:].lower()
                 place_name = place.text
                 place_uri = URIRef(f"{SK}{place_id}")
                 g.add((b_uri, CIDOC["P7_took_place_at"], place_uri))
                 g.add((place_uri, RDF.type, CIDOC["E53_Place"]))
 doc = TeiReader("./data/indices/listplace.xml")
 for x in doc.any_xpath(".//tei:place"):
-    xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+    xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"].lower()
     item_id = f"{SK}{xml_id}"
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E53_Place"]))
@@ -134,7 +141,7 @@ for x in doc.any_xpath(".//tei:place"):
         g.add((pmb_uri, RDF.type, CIDOC["E42_Identifier"]))
 doc = TeiReader("./data/indices/listorg.xml")
 for x in doc.any_xpath(".//tei:org"):
-    xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+    xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"].lower()
     item_id = f"{SK}{xml_id}"
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E74_Group"]))
