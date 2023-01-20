@@ -1,15 +1,12 @@
 import os
 from tqdm import tqdm
 from slugify import slugify
-from acdh_cidoc_pyutils import make_uri, date_to_literal, create_e52
+from acdh_cidoc_pyutils import make_uri, create_e52, normalize_string, extract_begin_end
 from acdh_cidoc_pyutils.namespaces import CIDOC, FRBROO
 from acdh_tei_pyutils.tei import TeiReader
 from rdflib import Graph, Namespace, URIRef, Literal
-from rdflib.namespace import RDF, RDFS, OWL, XSD
+from rdflib.namespace import RDF, RDFS, OWL
 
-
-def normalize_string(string):
-    return " ".join(" ".join(string.split()).split())
 
 domain = "https://sk.acdh.oeaw.ac.at/"
 SK = Namespace(domain)
@@ -37,31 +34,16 @@ for x in tqdm(items, total=len(items)):
         g.add((gnd_uri, RDF.type, CIDOC["E42_Identifier"]))
     for y in x.xpath(".//tei:occupation", namespaces=nsmap):
         label = y.text
-        uri = URIRef(f"{SK}{slugify(label)}")
+        occupation_id = y.attrib["n"]
+        uri = URIRef(f"{SK}{xml_id}/occupation/{occupation_id}")
         g.add((subj, CIDOC["P14i_performed"], uri))
         g.add((uri, RDF.type, FRBROO["F51"]))
-        g.add((uri, RDF.value, Literal(normalize_string(label), lang="de")))
-        begin, end = "", ""
-        try:
-            begin, end = y.attrib["when"], y.attrib["when"]
-        except KeyError:
-            pass
-        try:
-            begin = y.attrib["notBefore"]
-        except KeyError:
-            pass
-        try:
-            end = y.attrib["notAfter"]
-        except KeyError:
-            end = begin
+        g.add((uri, RDFS.label, Literal(normalize_string(label), lang="de")))
+        begin, end = extract_begin_end(y)
         if begin != "" or end != "":
-            ts_uri = URIRef(f"{SK}timestamp/{begin}{end}")
+            ts_uri = URIRef(f"{uri}/timestamp")
             g.add((uri, CIDOC["P4_has_time-span"], ts_uri))
             g += create_e52(ts_uri, begin_of_begin=begin, end_of_end=end)
-
-        # ToDo:
-        # timespan_uri; timespan_uri, p82a und p82b
-        # if only year (in case of @when use XSD.gYear)
     for y in x.xpath(".//tei:affiliation[@ref]", namespaces=nsmap):
         occ_id = y.attrib["ref"][1:]
         uri = URIRef(f"{SK}{occ_id}")
