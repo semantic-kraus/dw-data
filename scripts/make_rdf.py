@@ -1,7 +1,13 @@
 import os
 from tqdm import tqdm
 from slugify import slugify
-from acdh_cidoc_pyutils import make_uri, create_e52, normalize_string, extract_begin_end
+from acdh_cidoc_pyutils import (
+    make_uri,
+    create_e52,
+    normalize_string,
+    extract_begin_end,
+    make_appelations,
+)
 from acdh_cidoc_pyutils.namespaces import CIDOC, FRBROO
 from acdh_tei_pyutils.tei import TeiReader
 from rdflib import Graph, Namespace, URIRef, Literal
@@ -24,33 +30,7 @@ for x in tqdm(items, total=len(items)):
     item_id = f"{SK}{xml_id}"
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E21_Person"]))
-    for i, y in enumerate(x.xpath('.//tei:persName', namespaces=nsmap)):
-        if len(y.text) > 2:
-            app_uri = URIRef(f"{subj}/appelation/{i}")
-            g.add((
-                app_uri, RDF.type, CIDOC["E33_E41_Linguistic_Appellation"]
-            ))
-            g.add((
-                app_uri, RDFS.label, Literal(normalize_string(y.text), lang="de")
-            ))
-            has_type = y.get("subtype")
-            if has_type:
-                type_uri = URIRef(f"{SK}type/{slugify(has_type)}")
-                g.add((
-                    type_uri, RDF.type, CIDOC["E55_Type"]
-                ))
-                g.add((
-                    type_uri, RDFS.label, Literal(has_type)
-                ))
-                g.add((
-                    app_uri, CIDOC["P2_has_type"], type_uri
-                ))
-            g.add((
-                subj, CIDOC["P1_is_identified_by"], app_uri
-            ))
-    # g.add((
-    #         subj, RDFS.label, Literal(normalize_string(y.text), lang="de")
-    #     ))
+    g += make_appelations(subj, x, type_domain=f"{SK}/types", default_lang="und")
     try:
         gnd = x.xpath('.//tei:idno[@type="GND"]/text()', namespaces=nsmap)[0]
     except IndexError:
@@ -158,35 +138,7 @@ for x in doc.any_xpath(".//tei:place"):
     item_id = f"{SK}{xml_id}"
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E53_Place"]))
-    for i, y in enumerate(x.xpath('.//tei:placeName', namespaces=nsmap)):
-        app_uri = URIRef(f"{subj}/appelation/{i}")
-        g.add((
-            app_uri, RDF.type, CIDOC["E33_E41_Linguistic_Appellation"]
-        ))
-        g.add((
-            app_uri, RDFS.label, Literal(normalize_string(y.text), lang="de")
-        ))
-        g.add((
-            subj, CIDOC["P1_is_identified_by"], app_uri
-        ))
-        has_type = y.get("type")
-        if has_type:
-            type_uri = URIRef(f"{SK}type/{slugify(has_type)}")
-            g.add((
-                type_uri, RDF.type, CIDOC["E55_Type"]
-            ))
-            g.add((
-                type_uri, RDFS.label, Literal(has_type)
-            ))
-            g.add((
-                app_uri, CIDOC["P2_has_type"], type_uri
-            ))
-        g.add((
-            subj, CIDOC["P1_is_identified_by"], app_uri
-        ))
-    g.add((
-            subj, RDFS.label, Literal(normalize_string(y.text), lang="de")
-        ))
+    g += make_appelations(subj, x, type_domain=f"{SK}types/", default_lang="und")
     try:
         pmb = x.xpath('.//tei:idno[@type="pmb"]/text()', namespaces=nsmap)[0]
     except IndexError:
@@ -201,35 +153,7 @@ for x in doc.any_xpath(".//tei:org"):
     item_id = f"{SK}{xml_id}"
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E74_Group"]))
-    for i, y in enumerate(x.xpath('.//tei:orgName', namespaces=nsmap)):
-        app_uri = URIRef(f"{subj}/appelation/{i}")
-        g.add((
-            app_uri, RDF.type, CIDOC["E33_E41_Linguistic_Appellation"]
-        ))
-        g.add((
-            app_uri, RDFS.label, Literal(normalize_string(y.text), lang="de")
-        ))
-        g.add((
-            subj, CIDOC["P1_is_identified_by"], app_uri
-        ))
-        has_type = y.get("type")
-        if has_type:
-            type_uri = URIRef(f"{SK}type/{slugify(has_type)}")
-            g.add((
-                type_uri, RDF.type, CIDOC["E55_Type"]
-            ))
-            g.add((
-                type_uri, RDFS.label, Literal(has_type)
-            ))
-            g.add((
-                app_uri, CIDOC["P2_has_type"], type_uri
-            ))
-        g.add((
-            subj, CIDOC["P1_is_identified_by"], app_uri
-        ))
-    g.add((
-            subj, RDFS.label, Literal(normalize_string(y.text), lang="de")
-        ))
+    g += make_appelations(subj, x, type_domain=f"{SK}types/", default_lang="und")
     for y in x.xpath(".//tei:idno[@type]/text()", namespaces=nsmap):
         g.add((subj, OWL["sameAs"], URIRef(y)))
         g.add((pmb_uri, RDF.type, CIDOC["E42_Identifier"]))
