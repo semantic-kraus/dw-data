@@ -30,7 +30,7 @@ for x in tqdm(items, total=len(items)):
     item_id = f"{SK}{xml_id}"
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E21_Person"]))
-    g += make_appelations(subj, x, type_domain=f"{SK}/types", default_lang="und")
+    g += make_appelations(subj, x, type_domain=f"{SK}types", default_lang="und")
     try:
         gnd = x.xpath('.//tei:idno[@type="GND"]/text()', namespaces=nsmap)[0]
     except IndexError:
@@ -82,8 +82,6 @@ for x in tqdm(items, total=len(items)):
         )[0]
     except IndexError:
         label = None
-    if label:
-        g.add((subj, RDFS.label, Literal(normalize_string(label), lang="de")))
     # birth
     try:
         birth = x.xpath(".//tei:birth[@when]/@when", namespaces=doc.nsmap)[0]
@@ -94,7 +92,7 @@ for x in tqdm(items, total=len(items)):
         b_timestamp = URIRef(f"{b_uri}/timestamp")
         g.add((b_uri, RDF.type, CIDOC["E67_Birth"]))
         if label:
-            g.add((b_uri, RDFS.label, Literal(f"Geburt von {label}", lang="de")))
+            g.add((b_uri, RDFS.label, Literal(f"Geburt von {normalize_string(label)}", lang="de")))
         g.add((b_uri, CIDOC["P98_brought_into_life"], subj))
         g.add((b_uri, CIDOC["P4_has_time-span"], b_timestamp))
         g += create_e52(b_timestamp, begin_of_begin=birth, end_of_end=birth)
@@ -118,7 +116,7 @@ for x in tqdm(items, total=len(items)):
             b_timestamp = URIRef(f"{b_uri}timestamp")
             g.add((b_uri, RDF.type, CIDOC["E67_Death"]))
             if label:
-                g.add((b_uri, RDFS.label, Literal(f"Tod von {label}", lang="de")))
+                g.add((b_uri, RDFS.label, Literal(f"Tod von {normalize_string(label)}", lang="de")))
             g.add((b_uri, CIDOC["P100_was_death_of"], subj))
             g.add((b_uri, CIDOC["P4_has_time-span"], b_timestamp))
             g += create_e52(b_timestamp, begin_of_begin=death, end_of_end=death)
