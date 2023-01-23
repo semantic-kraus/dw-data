@@ -1,3 +1,2 @@
 acdh-cidoc-pyutils
-acdh-tei-pyutils
 python-slugify
