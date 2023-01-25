@@ -3,7 +3,7 @@ from datetime import datetime
 now = datetime.now()
 
 
-with open('./scripts/index.html', 'r') as f:
+with open('./scripts/templates/template_index.html', 'r') as f:
     data = f.read()
 
 data = data.replace('###DATUM###', f"{now}")
