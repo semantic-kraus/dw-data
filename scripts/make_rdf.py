@@ -5,6 +5,7 @@ from acdh_cidoc_pyutils import (
     normalize_string,
     extract_begin_end,
     make_appelations,
+    make_ed42_identifiers
 )
 from acdh_cidoc_pyutils.namespaces import CIDOC, FRBROO
 from acdh_tei_pyutils.tei import TeiReader
@@ -28,6 +29,7 @@ for x in tqdm(items, total=len(items)):
     item_id = f"{SK}{xml_id}"
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E21_Person"]))
+    g += make_ed42_identifiers(subj, x, type_domain=f"{SK}types", default_lang="und")
     g += make_appelations(subj, x, type_domain=f"{SK}types", default_lang="und")
     try:
         gnd = x.xpath('.//tei:idno[@type="GND"]/text()', namespaces=nsmap)[0]
@@ -147,6 +149,7 @@ for x in doc.any_xpath(".//tei:place"):
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E53_Place"]))
     g += make_appelations(subj, x, type_domain=f"{SK}types/", default_lang="und")
+    g += make_ed42_identifiers(subj, x, type_domain=f"{SK}types", default_lang="und")
     try:
         pmb = x.xpath('.//tei:idno[@type="pmb"]/text()', namespaces=nsmap)[0]
     except IndexError:
@@ -162,6 +165,7 @@ for x in doc.any_xpath(".//tei:org"):
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E74_Group"]))
     g += make_appelations(subj, x, type_domain=f"{SK}types/", default_lang="und")
+    g += make_ed42_identifiers(subj, x, type_domain=f"{SK}types", default_lang="und")
     for y in x.xpath(".//tei:idno[@type]/text()", namespaces=nsmap):
         g.add((subj, OWL["sameAs"], URIRef(y)))
         g.add((pmb_uri, RDF.type, CIDOC["E42_Identifier"]))
