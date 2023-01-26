@@ -14,3 +14,9 @@ Verallgemeinerbare Schritte wie z.B
 werden in ein eigenes Python-Package [acdh-cidoc-pyutils](https://github.com/acdh-oeaw/acdh-cidoc-pyutils) ausgelagert.
 
 Bei jedem Push ins Repo wird eine einfache [GitHub-Page](https://semantic-kraus.github.io/dw_data/) erstellt von der die aktuelle Version des RDF-Graphen heruntergeladen werden kann.
+
+## Licensing
+
+All code unless otherwise noted is licensed under the terms [MIT License](https://opensource.org/licenses/MIT).
+
+For licensing information of the data in this repository, please look into the individual folders/files for further information.
