@@ -1441,8 +1441,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0055/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0055/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0055/identifier/DWpers0055>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0055/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118531697> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0055/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0056/birth> a ns1:E67_Birth ;
     rdfs:label "Geburt von Feder, Gottfried"@de ;
@@ -3581,8 +3580,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0246/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0246/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0246/identifier/DWpers0246>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0246/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118909169> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0246/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0247/birth> a ns1:E67_Birth ;
     rdfs:label "Geburt von Wagner, Richard"@de ;
@@ -5675,1032 +5673,6 @@
         <https://sk.acdh.oeaw.ac.at/dwplace00463/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwplace00463/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwplace00463/identifier/DWplace00463> .
-
-<https://https://d-nb.info/gnd/1011385708> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/1012577600> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/1012772705> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/101292007> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/1014760097> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/101629362> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/1019648775> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/102233810> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/1026212197> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/1026635926> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/1032505680> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/1035135000> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/1035160900> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/1037100905> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/104131136> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/1041315821> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/104527730> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/105321656> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/107367157> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/1112956344> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/1131595378> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/1131713982> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/116021217> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/116030046> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/116037016> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/116098678> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11610841X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/116168773> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/116184043> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/116288493> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/116311088> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/116314338> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/116415630> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/116432128> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/116574216> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/116577967> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/116659491> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/116798211> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/116896396> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/116897007> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/116941839> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/116956658> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/117019526> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/117064858> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/117106399> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/117272035> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/117274550> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/117292761> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11731482X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11732969X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11737105X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/117403946> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/117473847> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/117746525> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/1179117913> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118137948> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118501828> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118502255> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118507346> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118508288> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118509047> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11851136X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11851380X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118514768> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118515624> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118516221> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11851752X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118517872> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118518410> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118521098> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118522426> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118526146> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118526561> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118527053> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118529390> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118529579> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118531697> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118532847> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118534653> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118534742> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118535315> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118535749> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118536931> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11853856X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118540041> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118540157> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118540238> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118540424> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118542192> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118542664> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118543539> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118543628> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118546937> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118547739> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118547798> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118547879> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118548018> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118548034> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11855039X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11855123X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118551264> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118551655> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118551981> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118553569> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118554190> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118554565> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11855977X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118559796> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11856157X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11856322X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118564994> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118566288> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118566806> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118569635> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118569910> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118571990> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118572628> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118572695> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118574841> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118575775> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118576186> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118577158> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118577166> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118578537> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118585967> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118586408> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118587080> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118587943> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118589598> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11859138X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118591649> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118592041> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118594117> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118594648> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118594869> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118595822> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118598422> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118599380> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118602330> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118602691> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118606301> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118607626> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118607804> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11860788X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118608037> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118609807> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118610465> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118613200> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118613723> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118616110> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11861911X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118619233> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118622498> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118623443> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11862444X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118625063> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118625527> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118628879> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118628976> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118629867> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118631373> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118631721> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118632892> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118640984> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118642375> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11864291X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118652702> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118653539> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118653857> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118654756> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118655930> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118661620> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118663291> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118671030> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118673661> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118678027> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11868051X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118685570> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118687573> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118693093> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118699709> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118711156> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118712853> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118713493> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118713507> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118715828> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118722158> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118725432> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118725742> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11872780X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118728016> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118728725> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118730053> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118731459> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118734423> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118745700> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118746057> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118746901> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118752804> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118754351> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118758802> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118762656> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11877185X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118775014> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118780778> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118785222> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118786016> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11879678X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118798448> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11880314X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118804022> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118804545> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11880782X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118815237> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118818651> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118833553> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118840819> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118843397> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118851039> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118886711> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118888749> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118890700> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118909169> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118955160> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/118972340> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/119019922> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/119055201> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/119067412> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/119170353> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/119184745> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11919239X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/119359847> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/119368617> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/119388766> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/119460416> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/119487241> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/119505606> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/119524759> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/119527545> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/119528746> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/119528789> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/11952886X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/120046733> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/120131978> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/120146657> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/120681021> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/121383970> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/121673626> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/121700577> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/122365534> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/122391160> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/122898397> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/12348720X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/123489288> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/123555426> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/123557372> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/123565529> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/123634547> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/12434593X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/124345948> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/124349595> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/124531237> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/124730949> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/124752128> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/124791891> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/126462070> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/126486638> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/126762651> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/127442405> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/12789909X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/128141913> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/128558873> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/128799536> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/12899620X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/129413119> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/12958780X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/129845493> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/129961981> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/130011711> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/130055689> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/13047245X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/130515175> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/130532762> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/131665219> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/131997742> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/132773074> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/132966271> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/133435083> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/133534227> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/133544494> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/133585328> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/13359081X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/13365088X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/133794725> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/134233786> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/13544697X> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/139168648> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/139319417> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/139655360> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/141618868> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/143472178> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/173194818> a ns1:E42_Identifier .
-
-<https://https://d-nb.info/gnd/189489111> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/100693/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/101190/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/1012/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/102541/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/1036/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/104949/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/10767/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/1119/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/112450/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/112783/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/112822/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/113478/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/114028/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/117539/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/1181/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/118341/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/118748/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/12137/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/1223/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/12515/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/1259/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/1261/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/135111/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/135112/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/135119/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/135120/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/135147/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/135148/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/135154/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/145/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/146/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/182/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/197/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/21854/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/224/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/23731/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/23979/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/249/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/263/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/28453/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/28636/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/319/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/34556/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/35063/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/36300/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/36545/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/37757/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/37934/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/38177/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/38216/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/38711/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/39244/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/39334/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/39357/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/39640/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/39752/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/39966/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/40222/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/40454/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/40700/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/40754/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/40951/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/41003/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/41660/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/420/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/433/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/43471/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/43520/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/43686/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/44163/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/44172/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/44179/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/44210/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/44493/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/445/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/45193/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/45244/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/45258/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/45749/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/462/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/46289/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/46709/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/46717/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/46762/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/46765/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/47471/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/47489/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/47632/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/484/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/48510/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/48686/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/48769/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/48848/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/49008/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/49087/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/49174/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/49412/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/49532/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/49582/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/49655/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/49817/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/49870/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/49872/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/49880/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/50000/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/50161/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/506/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/52320/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/53806/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/53808/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/54027/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/54042/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/54921/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/54951/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/54969/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/55301/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/55896/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/55974/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/55980/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/55986/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/56147/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/562/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/5744/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/58488/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/58684/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/587/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/58801/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/58810/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/59148/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/59469/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/595/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/60521/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/60532/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/60992/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/62107/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/631/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/63752/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/63779/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/63797/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/64197/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/64607/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/64609/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/64677/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/64680/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/64728/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/64768/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/652/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/662/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/667/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/672/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/7576/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/772/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/8260/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/834/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/840/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/842/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/847/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/852/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/860/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/862/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/863/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/864/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/867/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/868/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/869/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/871/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/872/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/873/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/876/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/881/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/882/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/883/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/884/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/888/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/890/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/891/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/907/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/913/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/915/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/91959/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/92536/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/926/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/93928/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/94064/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/94073/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/94102/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/94124/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/94156/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/94173/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/94187/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/94190/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/94198/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/94210/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/94214/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/94280/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/94292/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/94307/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/94591/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/95342/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/954/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/967/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/968/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/97022/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/97254/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/97504/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/97919/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/989/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/9925/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/993/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/995/> a ns1:E42_Identifier .
 
 <https://sk.acdh.oeaw.ac.at/dworg00001/appelation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Stahlhelm"@de ;
@@ -33060,18 +32032,6 @@
 <https://sk.acdh.oeaw.ac.at/types/person/persname/surname/pseud> a ns1:E55_Type ;
     rdfs:label "pseud" .
 
-<https://pmb.acdh.oeaw.ac.at/entity/168/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/42085/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/45569/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/45970/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/677/> a ns1:E42_Identifier .
-
-<https://pmb.acdh.oeaw.ac.at/entity/94107/> a ns1:E42_Identifier .
-
 <https://sk.acdh.oeaw.ac.at/dworg00004> a ns1:E74_Group ;
     rdfs:label "Landbund"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/dworg00004/appelation/0>,
@@ -33101,8 +32061,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0000/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0000/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0000/identifier/DWpers0000>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0000/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118566288> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0000/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0001> a ns1:E21_Person ;
     rdfs:label "Abraham, Paul Pál"@und ;
@@ -33115,8 +32074,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0001/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0001/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0001/identifier/DWpers0001>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0001/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/122365534> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0001/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0002> a ns1:E21_Person ;
     rdfs:label "Alexander"@und ;
@@ -33125,8 +32083,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0002/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0002/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0002/identifier/DWpers0002>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0002/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118501828> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0002/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0003> a ns1:E21_Person ;
     rdfs:label "Altenberg, Peter Richard"@und ;
@@ -33139,8 +32096,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0003/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0003/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0003/identifier/DWpers0003>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0003/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118502255> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0003/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0008> a ns1:E21_Person ;
     rdfs:label "Baumbach, Rudolf"@und ;
@@ -33149,8 +32105,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0008/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0008/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0008/identifier/DWpers0008>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0008/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118653857> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0008/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0009> a ns1:E21_Person ;
     rdfs:label "Beethoven, Ludwig"@und ;
@@ -33159,8 +32114,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0009/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0009/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0009/identifier/DWpers0009>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0009/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118508288> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0009/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0010> a ns1:E21_Person ;
     rdfs:label "Beevers, John Leonard"@und ;
@@ -33185,8 +32139,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0011/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0011/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0011/identifier/DWpers0011>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0011/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/127442405> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0011/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0012> a ns1:E21_Person ;
     rdfs:label "Benedikt, Ernst Martin"@und ;
@@ -33198,8 +32151,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0012/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0012/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0012/identifier/DWpers0012>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0012/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118851039> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0012/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0013> a ns1:E21_Person ;
     rdfs:label "Benedikt, Moriz"@und ;
@@ -33212,8 +32164,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0013/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0013/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0013/identifier/DWpers0013>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0013/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118137948> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0013/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0015> a ns1:E21_Person ;
     rdfs:label "Berchtold, Leopold"@und ;
@@ -33237,8 +32188,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0015/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0015/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0015/identifier/DWpers0015>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0015/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/123557372> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0015/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0016> a ns1:E21_Person ;
     rdfs:label "Berger, Alfred"@und ;
@@ -33253,8 +32203,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0016/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0016/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0016/identifier/DWpers0016>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0016/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118655930> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0016/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0017> a ns1:E21_Person ;
     rdfs:label "Bernheim, Franz"@und ;
@@ -33264,8 +32213,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0017/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0017/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0017/identifier/DWpers0017>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0017/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/123634547> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0017/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0018> a ns1:E21_Person ;
     rdfs:label "Billinger, Richard"@und ;
@@ -33274,8 +32222,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0018/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0018/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0018/identifier/DWpers0018>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0018/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118746057> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0018/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0019> a ns1:E21_Person ;
     rdfs:label "bin Gorion, Emanuel"@und ;
@@ -33288,8 +32235,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0019/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0019/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0019/identifier/DWpers0019>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0019/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/116184043> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0019/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0020> a ns1:E21_Person ;
     rdfs:label "Binding, Rudolf G. Georg"@und ;
@@ -33302,8 +32248,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0020/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0020/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0020/identifier/DWpers0020>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0020/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118663291> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0020/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0021> a ns1:E21_Person ;
     rdfs:label "Bismarck, Otto"@und ;
@@ -33323,8 +32268,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0021/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0021/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0021/identifier/DWpers0021>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0021/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11851136X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0021/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0022> a ns1:E21_Person ;
     rdfs:label "Bonsels, Waldemar"@und ;
@@ -33333,8 +32277,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0022/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0022/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0022/identifier/DWpers0022>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0022/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118661620> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0022/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0023> a ns1:E21_Person ;
     rdfs:label "Bosch, Hieronymus"@und ;
@@ -33343,8 +32286,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0023/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0023/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0023/identifier/DWpers0023>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0023/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11851380X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0023/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0024> a ns1:E21_Person ;
     rdfs:label "Braun, Alfred"@und ;
@@ -33354,8 +32296,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0024/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0024/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0024/identifier/DWpers0024>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0024/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/116415630> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0024/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0025> a ns1:E21_Person ;
     rdfs:label "Brecht, Bertolt Eugen Berthold Friedrich"@und ;
@@ -33369,8 +32310,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0025/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0025/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0025/identifier/DWpers0025>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0025/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118514768> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0025/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0026> a ns1:E21_Person ;
     rdfs:label "Bredow, Hans"@und ;
@@ -33381,8 +32321,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0026/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0026/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0026/identifier/DWpers0026>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0026/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118673661> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0026/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0027> a ns1:E21_Person ;
     rdfs:label "Breughel, Pieter"@und ;
@@ -33392,8 +32331,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0027/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0027/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0027/identifier/DWpers0027>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0027/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/119524759> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0027/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0030> a ns1:E21_Person ;
     rdfs:label "Bruno, Giordano"@und ;
@@ -33402,8 +32340,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0030/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0030/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0030/identifier/DWpers0030>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0030/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118516221> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0030/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0031> a ns1:E21_Person ;
     rdfs:label "Burckhardt, Jacob Christoph"@und ;
@@ -33414,8 +32351,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0031/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0031/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0031/identifier/DWpers0031>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0031/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11851752X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0031/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0032> a ns1:E21_Person ;
     rdfs:label "Busch, Fritz"@und ;
@@ -33425,8 +32361,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0032/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0032/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0032/identifier/DWpers0032>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0032/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118517872> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0032/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0033> a ns1:E21_Person ;
     rdfs:label "Caligula"@und ;
@@ -33436,8 +32371,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0033/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0033/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0033/identifier/DWpers0033>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0033/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118518410> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0033/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0034> a ns1:E21_Person ;
     rdfs:label "Claudius, Matthias"@und ;
@@ -33447,8 +32381,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0034/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0034/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0034/identifier/DWpers0034>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0034/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118521098> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0034/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0035> a ns1:E21_Person ;
     rdfs:label "Coué, Émile"@und ;
@@ -33458,8 +32391,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0035/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0035/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0035/identifier/DWpers0035>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0035/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118522426> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0035/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0039> a ns1:E21_Person ;
     rdfs:label "Dawes, Charles Gates"@und ;
@@ -33472,8 +32404,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0039/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0039/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0039/identifier/DWpers0039>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0039/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/12348720X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0039/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0041> a ns1:E21_Person ;
     rdfs:label "Deutsch, Paul"@und ;
@@ -33483,8 +32414,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0041/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0041/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0041/identifier/DWpers0041>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0041/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/143472178> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0041/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0042> a ns1:E21_Person ;
     rdfs:label "Dreifus, Bernhard Ludwig"@und ;
@@ -33500,8 +32430,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0042/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0042/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0042/identifier/DWpers0042>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0042/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/116098678> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0042/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0043> a ns1:E21_Person ;
     rdfs:label "Dietrich, Heinrich"@und ;
@@ -33522,8 +32451,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0046/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0046/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0046/identifier/DWpers0046>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0046/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11868051X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0046/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0047> a ns1:E21_Person ;
     rdfs:label "Dostoevskij, Fëdor Mihajlovič"@und ;
@@ -33533,8 +32461,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0047/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0047/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0047/identifier/DWpers0047>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0047/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118527053> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0047/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0050> a ns1:E21_Person ;
     rdfs:label "Eichendorff, Joseph Karl Benedikt"@und ;
@@ -33547,8 +32474,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0050/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0050/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0050/identifier/DWpers0050>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0050/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118529390> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0050/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0051> a ns1:E21_Person ;
     rdfs:label "Einstein, Albert"@und ;
@@ -33557,8 +32483,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0051/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0051/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0051/identifier/DWpers0051>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0051/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118529579> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0051/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0058> a ns1:E21_Person ;
     rdfs:label "Fichte, Johann Gottlieb"@und ;
@@ -33568,8 +32493,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0058/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0058/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0058/identifier/DWpers0058>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0058/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118532847> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0058/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0059> a ns1:E21_Person ;
     rdfs:label "Flassak, Friedrich"@und ;
@@ -33594,8 +32518,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0060/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0060/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0060/identifier/DWpers0060>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0060/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/119528746> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0060/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0061> a ns1:E21_Person ;
     rdfs:label "Franck, James"@und ;
@@ -33607,8 +32530,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0061/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0061/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0061/identifier/DWpers0061>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0061/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118534653> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0061/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0063> a ns1:E21_Person ;
     rdfs:label "Frank, Karl"@und ;
@@ -33629,8 +32551,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0064/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0064/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0064/identifier/DWpers0064>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0064/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118509047> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0064/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0066> a ns1:E21_Person ;
     rdfs:label "Freud, Sigmund"@und ;
@@ -33640,8 +32561,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0066/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0066/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0066/identifier/DWpers0066>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0066/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118535315> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0066/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0068> a ns1:E21_Person ;
     rdfs:label "Friedrich"@und ;
@@ -33656,8 +32576,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0068/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0068/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0068/identifier/DWpers0068>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0068/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118535749> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0068/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0073> a ns1:E21_Person ;
     rdfs:label "Furtwängler, Wilhelm"@und ;
@@ -33667,8 +32586,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0073/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0073/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0073/identifier/DWpers0073>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0073/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118536931> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0073/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0074> a ns1:E21_Person ;
     rdfs:label "Futterweit, Norbert Samuel"@und ;
@@ -33688,8 +32606,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0076/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0076/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0076/identifier/DWpers0076>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0076/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11853856X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0076/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0077> a ns1:E21_Person ;
     rdfs:label "Giesecke, Heinrich"@und ;
@@ -33699,8 +32616,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0077/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0077/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0077/identifier/DWpers0077>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0077/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/141618868> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0077/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0080> a ns1:E21_Person ;
     rdfs:label "Goethe, Johann Wolfgang"@und ;
@@ -33710,8 +32626,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0080/appelation/0/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0080/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0080/identifier/DWpers0080>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0080/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118540238> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0080/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0081> a ns1:E21_Person ;
     rdfs:label "Gogolʹ, Nikolaj Vasilʹevič"@und ;
@@ -33721,8 +32636,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0081/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0081/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0081/identifier/DWpers0081>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0081/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118540424> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0081/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0085> a ns1:E21_Person ;
     rdfs:label "Gottsleben, Ludwig"@und ;
@@ -33732,8 +32646,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0085/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0085/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0085/identifier/DWpers0085>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0085/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/116798211> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0085/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0086> a ns1:E21_Person ;
     rdfs:label "Großmann, Stefan"@und ;
@@ -33745,8 +32658,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0086/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0086/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0086/identifier/DWpers0086>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0086/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118542664> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0086/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0088> a ns1:E21_Person ;
     rdfs:label "Grünwald, Alfred"@und ;
@@ -33755,8 +32667,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0088/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0088/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0088/identifier/DWpers0088>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0088/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118972340> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0088/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0091> a ns1:E21_Person ;
     rdfs:label "Gulbransson, Olaf Leonhard"@und ;
@@ -33768,8 +32679,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0091/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0091/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0091/identifier/DWpers0091>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0091/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118543539> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0091/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0092> a ns1:E21_Person ;
     rdfs:label "Gundolf, Friedrich Leopold"@und ;
@@ -33783,8 +32693,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0092/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0092/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0092/identifier/DWpers0092>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0092/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118543628> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0092/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0093> a ns1:E21_Person ;
     rdfs:label "Haarmann, Fritz Friedrich Heinrich Karl"@und ;
@@ -33796,8 +32705,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0093/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0093/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0093/identifier/DWpers0093>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0093/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118699709> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0093/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0096> a ns1:E21_Person ;
     rdfs:label "Haid, Liane Juliane"@und ;
@@ -33809,8 +32717,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0096/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0096/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0096/identifier/DWpers0096>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0096/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/13544697X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0096/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0097> a ns1:E21_Person ;
     rdfs:label "Hauptmann, Gerhart Johann Robert"@und ;
@@ -33822,8 +32729,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0097/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0097/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0097/identifier/DWpers0097>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0097/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118546937> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0097/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0098> a ns1:E21_Person ;
     rdfs:label "Hegel, Georg Wilhelm Friedrich"@und ;
@@ -33834,8 +32740,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0098/appelation/0/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0098/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0098/identifier/DWpers0098>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0098/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118547739> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0098/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0100> a ns1:E21_Person ;
     rdfs:label "Heine, Heinrich Harry Christian Johann"@und ;
@@ -33849,8 +32754,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0100/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0100/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0100/identifier/DWpers0100>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0100/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118548018> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0100/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0101> a ns1:E21_Person ;
     rdfs:label "Heine, Thomas Theodor"@und ;
@@ -33861,8 +32765,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0101/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0101/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0101/identifier/DWpers0101>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0101/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118548034> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0101/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0109> a ns1:E21_Person ;
     rdfs:label "Hindenburg, Oskar"@und ;
@@ -33875,8 +32778,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0109/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0109/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0109/identifier/DWpers0109>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0109/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/116896396> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0109/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0110> a ns1:E21_Person ;
     rdfs:label "Hindenburg, Paul"@und ;
@@ -33888,8 +32790,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0110/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0110/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0110/identifier/DWpers0110>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0110/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118551264> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0110/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0112> a ns1:E21_Person ;
     rdfs:label "Hirschfeld, Magnus"@und ;
@@ -33898,8 +32799,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0112/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0112/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0112/identifier/DWpers0112>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0112/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118815237> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0112/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0114> a ns1:E21_Person ;
     rdfs:label "Hölderlin, Johann Christian Friedrich"@und ;
@@ -33911,8 +32811,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0114/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0114/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0114/identifier/DWpers0114>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0114/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118551981> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0114/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0115> a ns1:E21_Person ;
     rdfs:label "Horaz"@und ;
@@ -33923,8 +32822,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0115/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0115/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0115/identifier/DWpers0115>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0115/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118553569> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0115/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0117> a ns1:E21_Person ;
     rdfs:label "Huch, Ricarda"@und ;
@@ -33933,8 +32831,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0117/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0117/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0117/identifier/DWpers0117>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0117/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118554190> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0117/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0119> a ns1:E21_Person ;
     rdfs:label "Jacobs, Monty Montague"@und ;
@@ -33950,8 +32847,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0119/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0119/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0119/identifier/DWpers0119>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0119/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118711156> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0119/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0122> a ns1:E21_Person ;
     rdfs:label "Joachim, Günther"@und ;
@@ -33968,8 +32864,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0124/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0124/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0124/identifier/DWpers0124>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0124/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118559796> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0124/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0125> a ns1:E21_Person ;
     rdfs:label "Kerr, Alfred"@und ;
@@ -33983,8 +32878,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0125/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0125/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0125/identifier/DWpers0125>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0125/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11856157X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0125/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0127> a ns1:E21_Person ;
     rdfs:label "Keyserling, Hermann"@und ;
@@ -33995,8 +32889,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0127/appelation/0/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0127/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0127/identifier/DWpers0127>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0127/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118722158> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0127/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0130> a ns1:E21_Person ;
     rdfs:label "Kleopatra"@und ;
@@ -34007,8 +32900,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0130/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0130/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0130/identifier/DWpers0130>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0130/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11856322X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0130/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0132> a ns1:E21_Person ;
     rdfs:label "Koehler, Wolfgang"@und ;
@@ -34018,8 +32910,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0132/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0132/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0132/identifier/DWpers0132>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0132/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118843397> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0132/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0133> a ns1:E21_Person ;
     rdfs:label "Colombo, Cristoforo"@und ;
@@ -34028,8 +32919,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0133/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0133/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0133/identifier/DWpers0133>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0133/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118564994> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0133/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0134> a ns1:E21_Person ;
     rdfs:label "Körner, Karl Theodor"@und ;
@@ -34040,8 +32930,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0134/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0134/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0134/identifier/DWpers0134>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0134/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118713507> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0134/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0137> a ns1:E21_Person ;
     rdfs:label "Krauß, Werner"@und ;
@@ -34051,8 +32940,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0137/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0137/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0137/identifier/DWpers0137>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0137/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118715828> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0137/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0144> a ns1:E21_Person ;
     rdfs:label "Labé, Louise"@und ;
@@ -34061,8 +32949,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0144/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0144/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0144/identifier/DWpers0144>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0144/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118725742> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0144/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0145> a ns1:E21_Person ;
     rdfs:label "Lányi, Richard"@und ;
@@ -34074,8 +32961,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0145/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0145/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0145/identifier/DWpers0145>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0145/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/132966271> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0145/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0146> a ns1:E21_Person ;
     rdfs:label "Lanz, Jörg Josef Adolf"@und ;
@@ -34091,8 +32977,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0146/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0146/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0146/identifier/DWpers0146>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0146/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118569635> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0146/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0147> a ns1:E21_Person ;
     rdfs:label "Lassalle, Ferdinand"@und ;
@@ -34102,8 +32987,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0147/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0147/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0147/identifier/DWpers0147>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0147/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118569910> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0147/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0148> a ns1:E21_Person ;
     rdfs:label "Lernet, Alexander Marie Norbert"@und ;
@@ -34117,8 +33001,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0148/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0148/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0148/identifier/DWpers0148>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0148/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118571990> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0148/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0149> a ns1:E21_Person ;
     rdfs:label "Lessing, Theodor"@und ;
@@ -34128,8 +33011,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0149/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0149/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0149/identifier/DWpers0149>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0149/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11872780X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0149/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0151> a ns1:E21_Person ;
     rdfs:label "Lichtenberg, Georg Christoph"@und ;
@@ -34139,8 +33021,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0151/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0151/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0151/identifier/DWpers0151>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0151/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118572628> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0151/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0152> a ns1:E21_Person ;
     rdfs:label "Liebermann, Max"@und ;
@@ -34150,8 +33031,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0152/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0152/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0152/identifier/DWpers0152>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0152/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118572695> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0152/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0153> a ns1:E21_Person ;
     rdfs:label "Lippowitz, Jakob"@und ;
@@ -34161,8 +33041,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0153/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0153/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0153/identifier/DWpers0153>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0153/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/139319417> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0153/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0154> a ns1:E21_Person ;
     rdfs:label "Litvinov, Maksim Maksimovič"@und ;
@@ -34174,8 +33053,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0154/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0154/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0154/identifier/DWpers0154>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0154/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118890700> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0154/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0156> a ns1:E21_Person ;
     rdfs:label "Ludendorff, Erich"@und ;
@@ -34185,8 +33063,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0156/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0156/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0156/identifier/DWpers0156>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0156/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118574841> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0156/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0157> a ns1:E21_Person ;
     rdfs:label "Ludwig, Emil"@und ;
@@ -34196,8 +33073,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0157/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0157/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0157/identifier/DWpers0157>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0157/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118780778> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0157/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0158> a ns1:E21_Person ;
     rdfs:label "Mäcenas"@und ;
@@ -34207,8 +33083,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0158/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0158/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0158/identifier/DWpers0158>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0158/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118730053> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0158/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0159> a ns1:E21_Person ;
     rdfs:label "Machiavelli, Niccolò"@und ;
@@ -34217,8 +33092,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0159/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0159/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0159/identifier/DWpers0159>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0159/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118575775> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0159/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0160> a ns1:E21_Person ;
     rdfs:label "Magnus, Kurt"@und ;
@@ -34229,8 +33103,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0160/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0160/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0160/identifier/DWpers0160>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0160/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118576186> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0160/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0161> a ns1:E21_Person ;
     rdfs:label "Mann, Paul Thomas"@und ;
@@ -34241,8 +33114,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0161/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0161/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0161/identifier/DWpers0161>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0161/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118577166> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0161/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0163> a ns1:E21_Person ;
     rdfs:label "Marx, Karl"@und ;
@@ -34251,8 +33123,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0163/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0163/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0163/identifier/DWpers0163>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0163/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118578537> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0163/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0164> a ns1:E21_Person ;
     rdfs:label "Matuška, Szilveszter"@und ;
@@ -34261,8 +33132,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0164/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0164/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0164/identifier/DWpers0164>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0164/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/1112956344> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0164/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0165> a ns1:E21_Person ;
     rdfs:label "May, Karl"@und ;
@@ -34271,8 +33141,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0165/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0165/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0165/identifier/DWpers0165>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0165/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118818651> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0165/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0166> a ns1:E21_Person ;
     rdfs:label "Meller, Rose"@und ;
@@ -34284,8 +33153,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0166/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0166/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0166/identifier/DWpers0166>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0166/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/1041315821> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0166/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0167> a ns1:E21_Person ;
     rdfs:label "Mitterwurzer, Friedrich"@und ;
@@ -34294,8 +33162,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0167/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0167/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0167/identifier/DWpers0167>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0167/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/117064858> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0167/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0168> a ns1:E21_Person ;
     rdfs:label "Moeller, Arthur"@und ;
@@ -34306,8 +33173,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0168/appelation/0/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0168/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0168/identifier/DWpers0168>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0168/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118734423> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0168/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0169> a ns1:E21_Person ;
     rdfs:label "Motta, Giuseppe"@und ;
@@ -34317,8 +33183,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0169/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0169/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0169/identifier/DWpers0169>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0169/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/116941839> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0169/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0174> a ns1:E21_Person ;
     rdfs:label "Bonaparte, Napoléon"@und ;
@@ -34332,8 +33197,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0174/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0174/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0174/identifier/DWpers0174>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0174/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118586408> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0174/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0176> a ns1:E21_Person ;
     rdfs:label "Nestroy, Johann Nepomuk Eduard Ambrosius"@und ;
@@ -34346,8 +33210,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0176/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0176/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0176/identifier/DWpers0176>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0176/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118587080> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0176/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0177> a ns1:E21_Person ;
     rdfs:label "Neurath, Konstantin"@und ;
@@ -34360,8 +33223,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0177/appelation/0/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0177/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0177/identifier/DWpers0177>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0177/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118786016> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0177/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0178> a ns1:E21_Person ;
     rdfs:label "Nietzsche, Friedrich"@und ;
@@ -34370,8 +33232,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0178/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0178/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0178/identifier/DWpers0178>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0178/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118587943> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0178/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0180> a ns1:E21_Person ;
     rdfs:label "Offenbach, Jacques Jakob"@und ;
@@ -34383,8 +33244,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0180/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0180/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0180/identifier/DWpers0180>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0180/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118589598> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0180/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0181> a ns1:E21_Person ;
     rdfs:label "Pallenberg, Max"@und ;
@@ -34393,8 +33253,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0181/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0181/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0181/identifier/DWpers0181>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0181/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11859138X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0181/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0182> a ns1:E21_Person ;
     rdfs:label "Papen, Franz"@und ;
@@ -34406,8 +33265,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0182/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0182/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0182/identifier/DWpers0182>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0182/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118591649> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0182/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0183> a ns1:E21_Person ;
     rdfs:label "Paudler, Maria"@und ;
@@ -34416,8 +33274,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0183/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0183/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0183/identifier/DWpers0183>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0183/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118592041> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0183/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0186> a ns1:E21_Person ;
     rdfs:label "Planck, Max Karl Ernst Ludwig"@und ;
@@ -34429,8 +33286,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0186/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0186/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0186/identifier/DWpers0186>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0186/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/1026212197> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0186/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0187> a ns1:E21_Person ;
     rdfs:label "Platen, August"@und ;
@@ -34448,8 +33304,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0187/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0187/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0187/identifier/DWpers0187>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0187/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118594869> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0187/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0189> a ns1:E21_Person ;
     rdfs:label "Popper-Lynkeus, Josef"@und ;
@@ -34461,8 +33316,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0189/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0189/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0189/identifier/DWpers0189>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0189/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118595822> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0189/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0190> a ns1:E21_Person ;
     rdfs:label "Präuscher, Hermann"@und ;
@@ -34472,8 +33326,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0190/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0190/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0190/identifier/DWpers0190>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0190/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/1026635926> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0190/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0191> a ns1:E21_Person ;
     rdfs:label "Preminger, Otto Ludwig"@und ;
@@ -34486,8 +33339,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0191/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0191/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0191/identifier/DWpers0191>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0191/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/119067412> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0191/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0194> a ns1:E21_Person ;
     rdfs:label "Rathenau, Emil"@und ;
@@ -34497,8 +33349,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0194/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0194/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0194/identifier/DWpers0194>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0194/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118598422> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0194/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0195> a ns1:E21_Person ;
     rdfs:label "Reinhardt, Max Maximilian"@und ;
@@ -34514,8 +33365,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0195/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0195/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0195/identifier/DWpers0195>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0195/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118599380> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0195/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0196> a ns1:E21_Person ;
     rdfs:label "Reiter, Josef"@und ;
@@ -34524,8 +33374,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0196/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0196/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0196/identifier/DWpers0196>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0196/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/116432128> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0196/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0197> a ns1:E21_Person ;
     rdfs:label "Richter, Steffi"@und ;
@@ -34539,8 +33388,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0197/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0197/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0197/identifier/DWpers0197>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0197/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118833553> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0197/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0198> a ns1:E21_Person ;
     rdfs:label "Robitschek, Kurt Ken"@und ;
@@ -34554,8 +33402,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0198/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0198/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0198/identifier/DWpers0198>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0198/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/116577967> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0198/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0200> a ns1:E21_Person ;
     rdfs:label "Rolland, Romain"@und ;
@@ -34564,8 +33411,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0200/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0200/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0200/identifier/DWpers0200>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0200/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118602330> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0200/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0202> a ns1:E21_Person ;
     rdfs:label "Harmsworth, Harold Sidney"@und ;
@@ -34578,8 +33424,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0202/appelation/0/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0202/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0202/identifier/DWpers0202>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0202/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/120131978> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0202/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0204> a ns1:E21_Person ;
     rdfs:label "Salten, Felix Siegmund"@und ;
@@ -34593,8 +33438,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0204/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0204/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0204/identifier/DWpers0204>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0204/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118840819> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0204/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0207> a ns1:E21_Person ;
     rdfs:label "Schiller, Friedrich"@und ;
@@ -34603,8 +33447,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0207/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0207/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0207/identifier/DWpers0207>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0207/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118607626> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0207/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0209> a ns1:E21_Person ;
     rdfs:label "Schlageter, Albert Leo"@und ;
@@ -34614,8 +33457,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0209/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0209/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0209/identifier/DWpers0209>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0209/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11860788X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0209/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0210> a ns1:E21_Person ;
     rdfs:label "Schleicher, Kurt"@und ;
@@ -34627,8 +33469,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0210/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0210/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0210/identifier/DWpers0210>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0210/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118608037> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0210/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0212> a ns1:E21_Person ;
     rdfs:label "Schnitzler, Arthur"@und ;
@@ -34637,8 +33478,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0212/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0212/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0212/identifier/DWpers0212>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0212/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118609807> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0212/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0213> a ns1:E21_Person ;
     rdfs:label "Schober, Johannes"@und ;
@@ -34651,8 +33491,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0213/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0213/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0213/identifier/DWpers0213>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0213/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118758802> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0213/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0214> a ns1:E21_Person ;
     rdfs:label "Schopenhauer, Arthur"@und ;
@@ -34661,8 +33500,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0214/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0214/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0214/identifier/DWpers0214>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0214/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118610465> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0214/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0217> a ns1:E21_Person ;
     rdfs:label "Schweppermann, Seyfried"@und ;
@@ -34671,8 +33509,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0217/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0217/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0217/identifier/DWpers0217>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0217/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/119527545> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0217/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0219> a ns1:E21_Person ;
     rdfs:label "Seneca"@und ;
@@ -34682,8 +33519,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0219/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0219/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0219/identifier/DWpers0219>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0219/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118613200> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0219/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0220> a ns1:E21_Person ;
     rdfs:label "Shakespeare, William"@und ;
@@ -34691,8 +33527,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0220/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0220/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0220/identifier/DWpers0220>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0220/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118613723> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0220/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0221> a ns1:E21_Person ;
     rdfs:label "Shaw, George Bernard"@und ;
@@ -34703,8 +33538,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0221/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0221/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0221/identifier/DWpers0221>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0221/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118642375> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0221/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0222> a ns1:E21_Person ;
     rdfs:label "Siegel, Michael"@und ;
@@ -34714,8 +33548,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0222/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0222/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0222/identifier/DWpers0222>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0222/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/1131713982> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0222/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0223> a ns1:E21_Person ;
     rdfs:label "Skubl, Michael"@und ;
@@ -34725,8 +33558,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0223/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0223/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0223/identifier/DWpers0223>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0223/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/1019648775> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0223/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0224> a ns1:E21_Person ;
     rdfs:label "Spengler, Oswald Arnold Gottfried"@und ;
@@ -34738,8 +33570,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0224/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0224/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0224/identifier/DWpers0224>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0224/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118616110> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0224/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0228> a ns1:E21_Person ;
     rdfs:label "Stein, Ernst Edward Aurel"@und ;
@@ -34753,8 +33584,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0228/appelation/0/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0228/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0228/identifier/DWpers0228>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0228/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/12899620X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0228/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0230> a ns1:E21_Person ;
     rdfs:label "Strauß, Alfred"@und ;
@@ -34772,8 +33602,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0231/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0231/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0231/identifier/DWpers0231>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0231/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11861911X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0231/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0234> a ns1:E21_Person ;
     rdfs:label "Tolstoj, Lev Nikolaevič"@und ;
@@ -34783,8 +33612,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0234/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0234/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0234/identifier/DWpers0234>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0234/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11864291X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0234/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0235> a ns1:E21_Person ;
     rdfs:label "Torquemada, Tomás"@und ;
@@ -34794,8 +33622,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0235/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0235/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0235/identifier/DWpers0235>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0235/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/119170353> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0235/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0236> a ns1:E21_Person ;
     rdfs:label "Toscanini, Arturo"@und ;
@@ -34804,8 +33631,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0236/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0236/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0236/identifier/DWpers0236>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0236/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118623443> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0236/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0237> a ns1:E21_Person ;
     rdfs:label "Tucholsky, Kurt"@und ;
@@ -34814,8 +33640,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0237/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0237/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0237/identifier/DWpers0237>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0237/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11862444X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0237/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0238> a ns1:E21_Person ;
     rdfs:label "Uhland, Johann Ludwig"@und ;
@@ -34826,8 +33651,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0238/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0238/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0238/identifier/DWpers0238>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0238/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118625063> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0238/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0239> a ns1:E21_Person ;
     rdfs:label "Uhlfelder, Max"@und ;
@@ -34847,8 +33671,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0240/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0240/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0240/identifier/DWpers0240>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0240/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/119505606> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0240/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0241> a ns1:E21_Person ;
     rdfs:label "Undset, Sigrid"@und ;
@@ -34857,8 +33680,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0241/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0241/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0241/identifier/DWpers0241>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0241/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11880314X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0241/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0242> a ns1:E21_Person ;
     rdfs:label "Unruh, Fritz"@und ;
@@ -34868,8 +33690,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0242/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0242/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0242/identifier/DWpers0242>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0242/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118625527> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0242/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0243> a ns1:E21_Person ;
     rdfs:label "Urbanitzky, Grete"@und ;
@@ -34880,8 +33701,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0243/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0243/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0243/identifier/DWpers0243>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0243/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11731482X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0243/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0245> a ns1:E21_Person ;
     rdfs:label "Viktor Emanuel"@und ;
@@ -34891,8 +33711,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0245/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0245/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0245/identifier/DWpers0245>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0245/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118804545> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0245/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0247> a ns1:E21_Person ;
     rdfs:label "Wagner, Richard"@und ;
@@ -34901,8 +33720,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0247/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0247/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0247/identifier/DWpers0247>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0247/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118594117> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0247/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0248> a ns1:E21_Person ;
     rdfs:label "Walter, Bruno Bruno Walter"@und ;
@@ -34918,8 +33736,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0248/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0248/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0248/identifier/DWpers0248>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0248/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118628879> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0248/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0249> a ns1:E21_Person ;
     rdfs:label "Vogelweide, Walther"@und ;
@@ -34929,8 +33746,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0249/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0249/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0249/identifier/DWpers0249>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0249/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118628976> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0249/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0250> a ns1:E21_Person ;
     rdfs:label "Wedekind, Frank"@und ;
@@ -34939,8 +33755,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0250/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0250/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0250/identifier/DWpers0250>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0250/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118629867> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0250/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0251> a ns1:E21_Person ;
     rdfs:label "Werfel, Franz"@und ;
@@ -34949,8 +33764,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0251/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0251/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0251/identifier/DWpers0251>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0251/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118631373> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0251/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0253> a ns1:E21_Person ;
     rdfs:label "Wilhelm"@und ;
@@ -34959,8 +33773,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0253/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0253/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0253/identifier/DWpers0253>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0253/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118632892> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0253/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0255> a ns1:E21_Person ;
     rdfs:label "Wolter, Charlotte"@und ;
@@ -34969,8 +33782,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0255/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0255/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0255/identifier/DWpers0255>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0255/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11880782X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0255/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0256> a ns1:E21_Person ;
     rdfs:label "Žídek, František"@und ;
@@ -34987,8 +33799,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0257/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0257/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0257/identifier/DWpers0257>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0257/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/117019526> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0257/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0262> a ns1:E21_Person ;
     rdfs:label "Mosel, Heribert Alois"@und ;
@@ -35022,8 +33833,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0401/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0401/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0401/identifier/DWpers0401>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0401/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/1032505680> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0401/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0402> a ns1:E21_Person ;
     rdfs:label "Andler, Charles"@und ;
@@ -35032,8 +33842,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0402/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0402/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0402/identifier/DWpers0402>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0402/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11919239X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0402/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1001> a ns1:E21_Person ;
     rdfs:label "Janotta, Ernst"@und ;
@@ -35054,8 +33863,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1006/appelation/0/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers1006/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1006/identifier/DWpers1006>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1006/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/116311088> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1006/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1007> a ns1:E21_Person ;
     rdfs:label "Georgieff, Helene"@und ;
@@ -35077,8 +33885,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1010/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1010/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1010/identifier/DWpers1010>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1010/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118654756> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1010/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1016> a ns1:E21_Person ;
     rdfs:label "Braune, Wilhelm"@und ;
@@ -35104,8 +33911,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1019/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1019/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1019/identifier/DWpers1019>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1019/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/123489288> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1019/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1020> a ns1:E21_Person ;
     rdfs:label "Dodd, William Edward"@und ;
@@ -35118,8 +33924,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1020/appelation/0/4>,
         <https://sk.acdh.oeaw.ac.at/dwpers1020/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1020/identifier/DWpers1020>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1020/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/105321656> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1020/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1021> a ns1:E21_Person ;
     rdfs:label "Dodd, William Edward"@und ;
@@ -35131,8 +33936,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1021/appelation/0/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers1021/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1021/identifier/DWpers1021>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1021/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118526146> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1021/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1022> a ns1:E21_Person ;
     rdfs:label "Döring, Theodor"@und ;
@@ -35141,8 +33945,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1022/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1022/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1022/identifier/DWpers1022>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1022/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/116168773> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1022/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1023> a ns1:E21_Person ;
     rdfs:label "Eckstein, Johanna Yana"@und ;
@@ -35208,8 +34011,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1047/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1047/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1047/identifier/DWpers1047>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1047/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/116021217> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1047/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1052> a ns1:E21_Person ;
     rdfs:label "Klingler, Michael"@und ;
@@ -35248,8 +34050,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1066/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1066/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1066/identifier/DWpers1066>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1066/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118577158> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1066/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1067> a ns1:E21_Person ;
     rdfs:label "Salten, Ottilie"@und ;
@@ -35262,8 +34063,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1067/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1067/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers1067/identifier/DWpers1067>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1067/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/139655360> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1067/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1068> a ns1:E21_Person ;
     rdfs:label "Mosse, Rudolf Sigismund Markus"@und ;
@@ -35274,8 +34074,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1068/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1068/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1068/identifier/DWpers1068>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1068/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/12958780X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1068/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1071> a ns1:E21_Person ;
     rdfs:label "Müller, Jørgen Peter"@und ;
@@ -35284,8 +34083,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1071/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1071/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1071/identifier/DWpers1071>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1071/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/126462070> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1071/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1075> a ns1:E21_Person ;
     rdfs:label "Neusel, Walter"@und ;
@@ -35294,8 +34092,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1075/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1075/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1075/identifier/DWpers1075>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1075/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/189489111> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1075/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1081> a ns1:E21_Person ;
     rdfs:label "Pommer, Otto"@und ;
@@ -35305,8 +34102,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1081/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1081/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1081/identifier/DWpers1081>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1081/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/1037100905> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1081/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1083> a ns1:E21_Person ;
     rdfs:label "Rieth, Kurt"@und ;
@@ -35316,8 +34112,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1083/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1083/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1083/identifier/DWpers1083>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1083/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/129413119> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1083/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1085> a ns1:E21_Person ;
     rdfs:label "Puttkamer, Robert Viktor"@und ;
@@ -35330,8 +34125,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1085/appelation/0/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers1085/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1085/identifier/DWpers1085>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1085/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/116314338> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1085/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1086> a ns1:E21_Person ;
     rdfs:label "Roach, Charles Alan"@und ;
@@ -35351,8 +34145,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1092/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1092/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1092/identifier/DWpers1092>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1092/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/13365088X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1092/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1100> a ns1:E21_Person ;
     rdfs:label "Sichl, Maria Mitzi Anna"@und ;
@@ -35395,8 +34188,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1119/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1119/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1119/identifier/DWpers1119>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1119/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11610841X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1119/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1141> a ns1:E21_Person ;
     rdfs:label "Dirnberger, Oskar Franz"@und ;
@@ -35417,8 +34209,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1142/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1142/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1142/identifier/DWpers1142>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1142/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/116037016> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1142/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1158> a ns1:E21_Person ;
     rdfs:label "Verdier, Jean"@und ;
@@ -35429,8 +34220,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1158/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1158/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1158/identifier/DWpers1158>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1158/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11737105X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1158/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1159> a ns1:E21_Person ;
     rdfs:label "Rémond, Paul Jules-Narcisse-Paul"@und ;
@@ -35442,8 +34232,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1159/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1159/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1159/identifier/DWpers1159>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1159/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/121700577> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1159/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1160> a ns1:E21_Person ;
     rdfs:label "Freedman, David Isaac"@und ;
@@ -35490,8 +34279,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1203/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1203/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1203/identifier/DWpers1203>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1203/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/119487241> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1203/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1208> a ns1:E21_Person ;
     rdfs:label "Grillparzer, Franz Seraphicus"@und ;
@@ -35502,8 +34290,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1208/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1208/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1208/identifier/DWpers1208>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1208/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118542192> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1208/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1300> a ns1:E21_Person ;
     rdfs:label "Puttkamer, Jesko Albert Eugen"@und ;
@@ -35518,8 +34305,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1300/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1300/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1300/identifier/DWpers1300>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1300/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/104131136> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1300/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers2001> a ns1:E21_Person ;
     rdfs:label "Lapitza, Franz"@und ;
@@ -35601,8 +34387,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers2015/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers2015/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers2015/identifier/DWpers2015>,
-        <https://sk.acdh.oeaw.ac.at/dwpers2015/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118640984> .
+        <https://sk.acdh.oeaw.ac.at/dwpers2015/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers2017> a ns1:E21_Person ;
     rdfs:label "Happach, Ernst Hans"@und ;
@@ -35636,8 +34421,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers2021/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2021/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2021/identifier/DWpers2021>,
-        <https://sk.acdh.oeaw.ac.at/dwpers2021/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/133435083> .
+        <https://sk.acdh.oeaw.ac.at/dwpers2021/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers2022> a ns1:E21_Person ;
     rdfs:label "Müller, Helmut Josef"@und ;
@@ -35648,8 +34432,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers2022/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers2022/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2022/identifier/DWpers2022>,
-        <https://sk.acdh.oeaw.ac.at/dwpers2022/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/133585328> .
+        <https://sk.acdh.oeaw.ac.at/dwpers2022/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers2023> a ns1:E21_Person ;
     rdfs:label "Lachmann, Paul"@und ;
@@ -35659,8 +34442,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers2023/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2023/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2023/identifier/DWpers2023>,
-        <https://sk.acdh.oeaw.ac.at/dwpers2023/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/133544494> .
+        <https://sk.acdh.oeaw.ac.at/dwpers2023/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers2031> a ns1:E21_Person ;
     rdfs:label "Brod, Max"@und ;
@@ -35669,8 +34451,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers2031/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2031/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2031/identifier/DWpers2031>,
-        <https://sk.acdh.oeaw.ac.at/dwpers2031/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118515624> .
+        <https://sk.acdh.oeaw.ac.at/dwpers2031/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers2041> a ns1:E21_Person ;
     rdfs:label "Mandl, Fritz Friedrich Alexander Maria"@und ;
@@ -35683,8 +34464,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers2041/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2041/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers2041/identifier/DWpers2041>,
-        <https://sk.acdh.oeaw.ac.at/dwpers2041/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/124752128> .
+        <https://sk.acdh.oeaw.ac.at/dwpers2041/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers2333> a ns1:E21_Person ;
     rdfs:label "Bedenik, Franz Josef"@und ;
@@ -35909,8 +34689,6 @@
         <https://sk.acdh.oeaw.ac.at/dwplace00466/identifier/idno/0> ;
     owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/867/> .
 
-<https://pmb.acdh.oeaw.ac.at/entity/50/> a ns1:E42_Identifier .
-
 <https://sk.acdh.oeaw.ac.at/dworg00001> a ns1:E74_Group ;
     rdfs:label "Stahlhelm"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/dworg00001/appelation/0>,
@@ -35946,8 +34724,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0004/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0004/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0004/identifier/DWpers0004>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0004/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/117746525> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0004/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0005> a ns1:E21_Person ;
     rdfs:label "Bartels, Adolf"@und ;
@@ -35956,8 +34733,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0005/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0005/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0005/identifier/DWpers0005>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0005/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118652702> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0005/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0006> a ns1:E21_Person ;
     rdfs:label "Battisti, Cesare"@und ;
@@ -35967,8 +34743,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0006/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0006/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0006/identifier/DWpers0006>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0006/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118653539> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0006/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0007> a ns1:E21_Person ;
     rdfs:label "Bauer, Otto"@und ;
@@ -35982,8 +34757,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0007/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0007/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0007/identifier/DWpers0007>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0007/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118507346> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0007/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0028> a ns1:E21_Person ;
     rdfs:label "Brückner, Helmuth"@und ;
@@ -35995,8 +34769,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0028/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0028/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0028/identifier/DWpers0028>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0028/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/121383970> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0028/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0029> a ns1:E21_Person ;
     rdfs:label "Brückner, Wilhelm"@und ;
@@ -36006,8 +34779,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0029/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0029/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0029/identifier/DWpers0029>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0029/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/124531237> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0029/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0036> a ns1:E21_Person ;
     rdfs:label "Dalton, Edward Hugh John Neal"@und ;
@@ -36021,8 +34793,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0036/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0036/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0036/identifier/DWpers0036>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0036/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/119019922> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0036/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0037> a ns1:E21_Person ;
     rdfs:label "Damisch, Heinrich"@und ;
@@ -36033,8 +34804,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0037/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0037/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0037/identifier/DWpers0037>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0037/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/126762651> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0037/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0038> a ns1:E21_Person ;
     rdfs:label "Darré, Richard Ricardo Walter Oscar"@und ;
@@ -36048,8 +34818,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0038/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0038/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0038/identifier/DWpers0038>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0038/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118671030> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0038/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0040> a ns1:E21_Person ;
     rdfs:label "Deutsch, Julius"@und ;
@@ -36062,8 +34831,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0040/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0040/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0040/identifier/DWpers0040>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0040/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118678027> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0040/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0045> a ns1:E21_Person ;
     rdfs:label "Dollfuß, Engelbert"@und ;
@@ -36075,8 +34843,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0045/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0045/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0045/identifier/DWpers0045>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0045/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118526561> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0045/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0052> a ns1:E21_Person ;
     rdfs:label "Epp, Franz Xaver"@und ;
@@ -36092,8 +34859,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0052/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0052/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0052/identifier/DWpers0052>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0052/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/173194818> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0052/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0053> a ns1:E21_Person ;
     rdfs:label "Essen, Paul"@und ;
@@ -36104,8 +34870,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0053/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0053/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0053/identifier/DWpers0053>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0053/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/1179117913> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0053/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0054> a ns1:E21_Person ;
     rdfs:label "Ewers, Hanns Heinz"@und ;
@@ -36115,8 +34880,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0054/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0054/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0054/identifier/DWpers0054>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0054/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118685570> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0054/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0056> a ns1:E21_Person ;
     rdfs:label "Feder, Gottfried"@und ;
@@ -36129,8 +34893,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0056/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0056/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0056/identifier/DWpers0056>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0056/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/119388766> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0056/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0057> a ns1:E21_Person ;
     rdfs:label "Fey, Emil"@und ;
@@ -36142,8 +34905,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0057/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0057/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0057/identifier/DWpers0057>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0057/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/123555426> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0057/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0062> a ns1:E21_Person ;
     rdfs:label "Frank, Hans"@und ;
@@ -36159,8 +34921,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0062/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0062/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0062/identifier/DWpers0062>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0062/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118534742> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0062/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0065> a ns1:E21_Person ;
     rdfs:label "Freisler, Karl Roland"@und ;
@@ -36174,8 +34935,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0065/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0065/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0065/identifier/DWpers0065>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0065/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118693093> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0065/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0067> a ns1:E21_Person ;
     rdfs:label "Frick, Wilhelm"@und ;
@@ -36186,8 +34946,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0067/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0067/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0067/identifier/DWpers0067>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0067/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/119055201> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0067/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0070> a ns1:E21_Person ;
     rdfs:label "Fritsch, Karl Johann Erhard"@und ;
@@ -36200,8 +34959,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0070/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0070/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0070/identifier/DWpers0070>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0070/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/13047245X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0070/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0071> a ns1:E21_Person ;
     rdfs:label "Fritsch, Willy Wilhelm Egon"@und ;
@@ -36215,8 +34973,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0071/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0071/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0071/identifier/DWpers0071>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0071/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118955160> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0071/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0078> a ns1:E21_Person ;
     rdfs:label "Goebbels, Hans Johann Friedrich"@und ;
@@ -36229,8 +34986,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0078/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0078/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0078/identifier/DWpers0078>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0078/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/119359847> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0078/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0079> a ns1:E21_Person ;
     rdfs:label "Goebbels, Joseph Paul"@und ;
@@ -36246,8 +35002,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0079/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0079/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0079/identifier/DWpers0079>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0079/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118540041> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0079/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0084> a ns1:E21_Person ;
     rdfs:label "Göring, Hermann"@und ;
@@ -36260,8 +35015,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0084/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0084/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0084/identifier/DWpers0084>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0084/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118540157> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0084/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0094> a ns1:E21_Person ;
     rdfs:label "Habicht, Theodor August Otto Wilhelm"@und ;
@@ -36276,8 +35030,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0094/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0094/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0094/identifier/DWpers0094>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0094/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/123565529> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0094/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0099> a ns1:E21_Person ;
     rdfs:label "Heidegger, Martin"@und ;
@@ -36288,8 +35041,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0099/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0099/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0099/identifier/DWpers0099>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0099/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118547798> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0099/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0102> a ns1:E21_Person ;
     rdfs:label "Heines, Edmund"@und ;
@@ -36300,8 +35052,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0102/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0102/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0102/identifier/DWpers0102>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0102/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/124349595> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0102/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0103> a ns1:E21_Person ;
     rdfs:label "Helldorff, Wolf Heinrich"@und ;
@@ -36315,8 +35066,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0103/appelation/0/4>,
         <https://sk.acdh.oeaw.ac.at/dwpers0103/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0103/identifier/DWpers0103>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0103/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/119528789> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0103/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0104> a ns1:E21_Person ;
     rdfs:label "Henderson, Arthur"@und ;
@@ -36328,8 +35078,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0104/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0104/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0104/identifier/DWpers0104>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0104/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118886711> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0104/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0105> a ns1:E21_Person ;
     rdfs:label "Heß, Rudolf"@und ;
@@ -36339,8 +35088,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0105/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0105/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0105/identifier/DWpers0105>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0105/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11855039X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0105/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0106> a ns1:E21_Person ;
     rdfs:label "Hessen, Philipp"@und ;
@@ -36352,8 +35100,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0106/appelation/0/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0106/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0106/identifier/DWpers0106>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0106/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/12434593X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0106/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0107> a ns1:E21_Person ;
     rdfs:label "Hessen, Christoph Ernst August"@und ;
@@ -36367,8 +35114,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0107/appelation/0/4>,
         <https://sk.acdh.oeaw.ac.at/dwpers0107/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0107/identifier/DWpers0107>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0107/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/124345948> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0107/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0108> a ns1:E21_Person ;
     rdfs:label "Himmler, Heinrich"@und ;
@@ -36379,8 +35125,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0108/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0108/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0108/identifier/DWpers0108>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0108/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11855123X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0108/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0111> a ns1:E21_Person ;
     rdfs:label "Hinkel, Hans"@und ;
@@ -36394,8 +35139,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0111/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0111/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0111/identifier/DWpers0111>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0111/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/116897007> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0111/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0113> a ns1:E21_Person ;
     rdfs:label "Hitler, Adolf"@und ;
@@ -36405,8 +35149,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0113/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0113/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0113/identifier/DWpers0113>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0113/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118551655> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0113/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0116> a ns1:E21_Person ;
     rdfs:label "Hossenfelder, Joachim"@und ;
@@ -36417,8 +35160,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0116/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0116/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0116/identifier/DWpers0116>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0116/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118775014> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0116/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0118> a ns1:E21_Person ;
     rdfs:label "Hugenberg, Alfred"@und ;
@@ -36431,8 +35173,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0118/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0118/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0118/identifier/DWpers0118>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0118/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118554565> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0118/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0120> a ns1:E21_Person ;
     rdfs:label "Jankowski, Maria Amalie"@und ;
@@ -36459,8 +35200,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0121/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0121/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0121/identifier/DWpers0121>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0121/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118746901> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0121/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0123> a ns1:E21_Person ;
     rdfs:label "Johst, Hanns"@und ;
@@ -36470,8 +35210,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0123/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0123/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0123/identifier/DWpers0123>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0123/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118712853> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0123/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0126> a ns1:E21_Person ;
     rdfs:label "Kerrl, Hanns"@und ;
@@ -36481,8 +35220,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0126/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0126/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0126/identifier/DWpers0126>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0126/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/122898397> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0126/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0128> a ns1:E21_Person ;
     rdfs:label "Killinger, Manfred"@und ;
@@ -36497,8 +35235,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0128/appelation/0/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0128/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0128/identifier/DWpers0128>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0128/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/121673626> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0128/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0135> a ns1:E21_Person ;
     rdfs:label "Körner, Theodor"@und ;
@@ -36511,8 +35248,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0135/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0135/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0135/identifier/DWpers0135>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0135/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118713493> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0135/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0136> a ns1:E21_Person ;
     rdfs:label "Kothen, Hans"@und ;
@@ -36533,8 +35269,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0138/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0138/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0138/identifier/DWpers0138>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0138/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118566806> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0138/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0139> a ns1:E21_Person ;
     rdfs:label "Preußen, Wilhelm"@und ;
@@ -36546,8 +35281,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0139/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0139/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0139/identifier/DWpers0139>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0139/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11877185X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0139/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0140> a ns1:E21_Person ;
     rdfs:label "Krupp, Gustav"@und ;
@@ -36559,8 +35293,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0140/appelation/0/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0140/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0140/identifier/DWpers0140>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0140/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/116574216> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0140/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0141> a ns1:E21_Person ;
     rdfs:label "Kube, Wilhelm"@und ;
@@ -36572,8 +35305,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0141/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0141/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0141/identifier/DWpers0141>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0141/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/128799536> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0141/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0142> a ns1:E21_Person ;
     rdfs:label "Kuhnt, Bernhard"@und ;
@@ -36584,8 +35316,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0142/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0142/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0142/identifier/DWpers0142>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0142/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/130011711> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0142/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0143> a ns1:E21_Person ;
     rdfs:label "Kunschak, Leopold"@und ;
@@ -36597,8 +35328,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0143/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0143/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0143/identifier/DWpers0143>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0143/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118725432> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0143/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0150> a ns1:E21_Person ;
     rdfs:label "Ley, Robert"@und ;
@@ -36611,8 +35341,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0150/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0150/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0150/identifier/DWpers0150>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0150/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118728016> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0150/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0155> a ns1:E21_Person ;
     rdfs:label "Löbe, Paul"@und ;
@@ -36623,8 +35352,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0155/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0155/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0155/identifier/DWpers0155>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0155/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118728725> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0155/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0170> a ns1:E21_Person ;
     rdfs:label "Motz, Karl"@und ;
@@ -36634,8 +35362,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0170/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0170/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0170/identifier/DWpers0170>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0170/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/1131595378> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0170/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0171> a ns1:E21_Person ;
     rdfs:label "Murr, Wilhelm"@und ;
@@ -36647,8 +35374,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0171/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0171/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0171/identifier/DWpers0171>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0171/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/120681021> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0171/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0172> a ns1:E21_Person ;
     rdfs:label "Mussolini, Benito"@und ;
@@ -36658,8 +35384,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0172/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0172/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0172/identifier/DWpers0172>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0172/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118585967> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0172/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0175> a ns1:E21_Person ;
     rdfs:label "Naumann, Max"@und ;
@@ -36669,8 +35394,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0175/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0175/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0175/identifier/DWpers0175>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0175/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/124730949> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0175/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0179> a ns1:E21_Person ;
     rdfs:label "Oberfohren, Ernst"@und ;
@@ -36681,8 +35405,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0179/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0179/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0179/identifier/DWpers0179>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0179/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/101629362> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0179/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0184> a ns1:E21_Person ;
     rdfs:label "Pfeffer von Salomon, Friedrich Ludwig Ferdinand Felix"@und ;
@@ -36697,8 +35420,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0184/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0184/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0184/identifier/DWpers0184>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0184/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/139168648> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0184/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0185> a ns1:E21_Person ;
     rdfs:label "Piscator, Erwin Friedrich Max"@und ;
@@ -36710,8 +35432,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0185/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0185/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0185/identifier/DWpers0185>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0185/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118594648> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0185/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0188> a ns1:E21_Person ;
     rdfs:label "Pollak, Oscar"@und ;
@@ -36722,8 +35443,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0188/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0188/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0188/identifier/DWpers0188>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0188/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/122391160> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0188/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0192> a ns1:E21_Person ;
     rdfs:label "Proksch, Alfred"@und ;
@@ -36734,8 +35454,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0192/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0192/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0192/identifier/DWpers0192>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0192/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/130532762> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0192/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0193> a ns1:E21_Person ;
     rdfs:label "Püchler, Josef"@und ;
@@ -36745,8 +35464,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0193/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0193/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0193/identifier/DWpers0193>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0193/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/131665219> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0193/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0199> a ns1:E21_Person ;
     rdfs:label "Röhm, Ernst"@und ;
@@ -36756,8 +35474,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0199/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0199/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0199/identifier/DWpers0199>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0199/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118745700> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0199/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0201> a ns1:E21_Person ;
     rdfs:label "Rosenberg, Alfred"@und ;
@@ -36770,8 +35487,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0201/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0201/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0201/identifier/DWpers0201>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0201/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118602691> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0201/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0203> a ns1:E21_Person ;
     rdfs:label "Rust, Bernhard"@und ;
@@ -36784,8 +35500,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0203/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0203/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0203/identifier/DWpers0203>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0203/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/119368617> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0203/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0205> a ns1:E21_Person ;
     rdfs:label "Schäfer, Werner"@und ;
@@ -36795,8 +35510,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0205/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0205/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0205/identifier/DWpers0205>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0205/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/1035135000> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0205/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0206> a ns1:E21_Person ;
     rdfs:label "Schaumburg-Lippe, Friedrich Christian"@und ;
@@ -36808,8 +35522,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0206/appelation/0/4>,
         <https://sk.acdh.oeaw.ac.at/dwpers0206/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0206/identifier/DWpers0206>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0206/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/107367157> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0206/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0208> a ns1:E21_Person ;
     rdfs:label "Schirach, Baldur"@und ;
@@ -36821,8 +35534,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0208/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0208/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0208/identifier/DWpers0208>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0208/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118607804> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0208/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0211> a ns1:E21_Person ;
     rdfs:label "Schneidmadl, Heinrich"@und ;
@@ -36833,8 +35545,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0211/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0211/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0211/identifier/DWpers0211>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0211/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/128141913> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0211/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0215> a ns1:E21_Person ;
     rdfs:label "Schumy, Vinzenz"@und ;
@@ -36849,8 +35560,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0215/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0215/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0215/identifier/DWpers0215>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0215/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118762656> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0215/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0216> a ns1:E21_Person ;
     rdfs:label "Schuster, Valentin J."@und ;
@@ -36865,8 +35575,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0216/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0216/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers0216/identifier/DWpers0216>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0216/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/120146657> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0216/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0225> a ns1:E21_Person ;
     rdfs:label "Stampfer, Friedrich Fritz"@und ;
@@ -36879,8 +35588,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0225/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0225/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0225/identifier/DWpers0225>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0225/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118798448> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0225/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0227> a ns1:E21_Person ;
     rdfs:label "Steidle, Richard Franz Josef"@und ;
@@ -36896,8 +35604,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0227/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0227/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0227/identifier/DWpers0227>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0227/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/129961981> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0227/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0229> a ns1:E21_Person ;
     rdfs:label "Stelling, Johannes"@und ;
@@ -36909,8 +35616,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0229/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0229/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0229/identifier/DWpers0229>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0229/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/102233810> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0229/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0232> a ns1:E21_Person ;
     rdfs:label "Streicher, Julius"@und ;
@@ -36923,8 +35629,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0232/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0232/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0232/identifier/DWpers0232>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0232/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118619233> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0232/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0233> a ns1:E21_Person ;
     rdfs:label "Thyssen, Fritz"@und ;
@@ -36935,8 +35640,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0233/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0233/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0233/identifier/DWpers0233>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0233/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118622498> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0233/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0244> a ns1:E21_Person ;
     rdfs:label "Vaugoin, Carl"@und ;
@@ -36948,8 +35652,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0244/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0244/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0244/identifier/DWpers0244>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0244/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118804022> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0244/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0252> a ns1:E21_Person ;
     rdfs:label "Wessel, Horst"@und ;
@@ -36958,8 +35661,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0252/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0252/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0252/identifier/DWpers0252>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0252/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118631721> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0252/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0254> a ns1:E21_Person ;
     rdfs:label "Winkler, Franz"@und ;
@@ -36972,8 +35674,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0254/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0254/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0254/identifier/DWpers0254>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0254/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/117403946> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0254/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0263> a ns1:E21_Person ;
     rdfs:label "Mosel, Heinrich"@und ;
@@ -37002,8 +35703,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0403/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0403/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0403/identifier/DWpers0403>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0403/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/13359081X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0403/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0404> a ns1:E21_Person ;
     rdfs:label "Scheidemann, Philipp Heinrich"@und ;
@@ -37016,8 +35716,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0404/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0404/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0404/identifier/DWpers0404>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0404/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118754351> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0404/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1003> a ns1:E21_Person ;
     rdfs:label "Adam, Hermann"@und ;
@@ -37028,8 +35727,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1003/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1003/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1003/identifier/DWpers1003>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1003/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/104527730> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1003/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1004> a ns1:E21_Person ;
     rdfs:label "Alvensleben, Werner Bodo Alvo Konstantin"@und ;
@@ -37052,8 +35750,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1005/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1005/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1005/identifier/DWpers1005>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1005/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/116288493> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1005/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1028> a ns1:E21_Person ;
     rdfs:label "Gazda, Johann"@und ;
@@ -37110,8 +35807,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1048/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1048/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1048/identifier/DWpers1048>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1048/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/116659491> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1048/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1049> a ns1:E21_Person ;
     rdfs:label "Kary, Hugo Hugo"@und ;
@@ -37133,8 +35829,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1061/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1061/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1061/identifier/DWpers1061>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1061/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/117292761> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1061/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1063> a ns1:E21_Person ;
     rdfs:label "Ludwig, Werner"@und ;
@@ -37144,8 +35839,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1063/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1063/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1063/identifier/DWpers1063>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1063/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11952886X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1063/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1064> a ns1:E21_Person ;
     rdfs:label "Ludwig, Adolf"@und ;
@@ -37157,8 +35851,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1064/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1064/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1064/identifier/DWpers1064>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1064/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/1014760097> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1064/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1072> a ns1:E21_Person ;
     rdfs:label "Müller, Ludwig"@und ;
@@ -37168,8 +35861,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1072/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1072/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1072/identifier/DWpers1072>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1072/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118785222> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1072/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1073> a ns1:E21_Person ;
     rdfs:label "Natter, Ernst"@und ;
@@ -37207,8 +35899,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1088/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1088/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1088/identifier/DWpers1088>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1088/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118606301> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1088/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1089> a ns1:E21_Person ;
     rdfs:label "Schattenfroh, Franz"@und ;
@@ -37218,8 +35909,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1089/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1089/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1089/identifier/DWpers1089>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1089/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/101292007> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1089/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1091> a ns1:E21_Person ;
     rdfs:label "Schirach, Carl"@und ;
@@ -37230,8 +35920,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1091/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1091/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1091/identifier/DWpers1091>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1091/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/117274550> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1091/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1093> a ns1:E21_Person ;
     rdfs:label "Seeliger, Alfred"@und ;
@@ -37252,8 +35941,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1094/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1094/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1094/identifier/DWpers1094>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1094/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/129845493> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1094/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1098> a ns1:E21_Person ;
     rdfs:label "Schulze-Wechsungen, Werner"@und ;
@@ -37278,8 +35966,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1099/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1099/appelation/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers1099/identifier/DWpers1099>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1099/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11879678X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1099/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1102> a ns1:E21_Person ;
     rdfs:label "Sonnenschein, Hugo"@und ;
@@ -37290,8 +35977,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1102/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1102/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1102/identifier/DWpers1102>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1102/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/119460416> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1102/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1103> a ns1:E21_Person ;
     rdfs:label "Straffner, Josef"@und ;
@@ -37302,8 +35988,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1103/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1103/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1103/identifier/DWpers1103>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1103/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/132773074> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1103/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1105> a ns1:E21_Person ;
     rdfs:label "Thayer, Johann"@und ;
@@ -37322,8 +36007,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1106/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1106/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1106/identifier/DWpers1106>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1106/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/1035160900> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1106/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1110> a ns1:E21_Person ;
     rdfs:label "Volkert, Ernst"@und ;
@@ -37342,8 +36026,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1111/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1111/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1111/identifier/DWpers1111>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1111/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/120046733> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1111/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1113> a ns1:E21_Person ;
     rdfs:label "Weiß, Wilhelm"@und ;
@@ -37355,8 +36038,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1113/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1113/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1113/identifier/DWpers1113>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1113/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/128558873> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1113/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1116> a ns1:E21_Person ;
     rdfs:label "Ziegler, Johann Hans"@und ;
@@ -37386,8 +36068,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1130/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1130/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1130/identifier/DWpers1130>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1130/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118888749> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1130/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1131> a ns1:E21_Person ;
     rdfs:label "Kanitz, Otto Felix"@und ;
@@ -37399,8 +36080,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1131/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1131/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1131/identifier/DWpers1131>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1131/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11855977X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1131/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1132> a ns1:E21_Person ;
     rdfs:label "Seitz, Karl"@und ;
@@ -37411,8 +36091,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1132/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1132/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1132/identifier/DWpers1132>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1132/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/119184745> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1132/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1135> a ns1:E21_Person ;
     rdfs:label "Rieger, Gustav Hugo"@und ;
@@ -37436,8 +36115,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1136/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1136/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1136/identifier/DWpers1136>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1136/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/116956658> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1136/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1137> a ns1:E21_Person ;
     rdfs:label "Schardt, Oskar Franz"@und ;
@@ -37448,8 +36126,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1137/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1137/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1137/identifier/DWpers1137>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1137/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/117106399> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1137/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1150> a ns1:E21_Person ;
     rdfs:label "Marum, Ludwig"@und ;
@@ -37461,8 +36138,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1150/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1150/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1150/identifier/DWpers1150>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1150/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118731459> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1150/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1152> a ns1:E21_Person ;
     rdfs:label "Rückert, Leopold"@und ;
@@ -37473,8 +36149,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1152/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1152/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1152/identifier/DWpers1152>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1152/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/130055689> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1152/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1153> a ns1:E21_Person ;
     rdfs:label "Pflaumer, Karl"@und ;
@@ -37485,8 +36160,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1153/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1153/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1153/identifier/DWpers1153>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1153/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/130515175> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1153/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1154> a ns1:E21_Person ;
     rdfs:label "Moraller, Franz Karl Theodor"@und ;
@@ -37499,8 +36173,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1154/appelation/0/3>,
         <https://sk.acdh.oeaw.ac.at/dwpers1154/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1154/identifier/DWpers1154>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1154/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/1012577600> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1154/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1175> a ns1:E21_Person ;
     rdfs:label "Kaaserer, Richard"@und ;
@@ -37521,8 +36194,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1176/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1176/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1176/identifier/DWpers1176>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1176/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/11732969X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1176/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1201> a ns1:E21_Person ;
     rdfs:label "Fischer, Alois Andreas"@und ;
@@ -37552,8 +36224,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1209/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1209/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1209/identifier/DWpers1209>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1209/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/12789909X> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1209/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers2002> a ns1:E21_Person ;
     rdfs:label "Kadletz, Franz"@und ;
@@ -37581,8 +36252,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers2019/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2019/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2019/identifier/DWpers2019>,
-        <https://sk.acdh.oeaw.ac.at/dwpers2019/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/133534227> .
+        <https://sk.acdh.oeaw.ac.at/dwpers2019/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers2020> a ns1:E21_Person ;
     rdfs:label "Wolnitza, Rufin"@und ;
@@ -37592,8 +36262,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers2020/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2020/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2020/identifier/DWpers2020>,
-        <https://sk.acdh.oeaw.ac.at/dwpers2020/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/133794725> .
+        <https://sk.acdh.oeaw.ac.at/dwpers2020/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers2024> a ns1:E21_Person ;
     rdfs:label "Hoppe, Georg"@und ;
@@ -37612,8 +36281,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers2025/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2025/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2025/identifier/DWpers2025>,
-        <https://sk.acdh.oeaw.ac.at/dwpers2025/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/117272035> .
+        <https://sk.acdh.oeaw.ac.at/dwpers2025/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers2026> a ns1:E21_Person ;
     rdfs:label "Furrer, August"@und ;
@@ -37624,8 +36292,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers2026/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers2026/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2026/identifier/DWpers2026>,
-        <https://sk.acdh.oeaw.ac.at/dwpers2026/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/1012772705> .
+        <https://sk.acdh.oeaw.ac.at/dwpers2026/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers2027> a ns1:E21_Person ;
     rdfs:label "Marx, Erich"@und ;
@@ -37643,8 +36310,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers2028/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2028/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2028/identifier/DWpers2028>,
-        <https://sk.acdh.oeaw.ac.at/dwpers2028/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/134233786> .
+        <https://sk.acdh.oeaw.ac.at/dwpers2028/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers2029> a ns1:E21_Person ;
     rdfs:label "Klausmann, Robert"@und ;
@@ -37654,8 +36320,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers2029/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2029/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2029/identifier/DWpers2029>,
-        <https://sk.acdh.oeaw.ac.at/dwpers2029/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/126486638> .
+        <https://sk.acdh.oeaw.ac.at/dwpers2029/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers2043> a ns1:E21_Person ;
     rdfs:label "Ebert, Friedrich"@und ;
@@ -37669,8 +36334,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers2043/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers2043/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2043/identifier/DWpers2043>,
-        <https://sk.acdh.oeaw.ac.at/dwpers2043/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118687573> .
+        <https://sk.acdh.oeaw.ac.at/dwpers2043/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers2044> a ns1:E21_Person ;
     rdfs:label "Heilmann, Ernst"@und ;
@@ -37682,8 +36346,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers2044/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2044/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers2044/identifier/DWpers2044>,
-        <https://sk.acdh.oeaw.ac.at/dwpers2044/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118547879> .
+        <https://sk.acdh.oeaw.ac.at/dwpers2044/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers3001> a ns1:E21_Person ;
     rdfs:label "Bade, Wilfrid"@und ;
@@ -37693,8 +36356,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers3001/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers3001/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers3001/identifier/DWpers3001>,
-        <https://sk.acdh.oeaw.ac.at/dwpers3001/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/116030046> .
+        <https://sk.acdh.oeaw.ac.at/dwpers3001/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwplace00002> a ns1:E53_Place ;
     rdfs:label "Lübeck"@de ;
@@ -37779,8 +36441,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0218/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0218/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0218/identifier/DWpers0218>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0218/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/117473847> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0218/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0226> a ns1:E21_Person ;
     rdfs:label "Starhemberg, Ernst Rüdiger Camillo Maria"@und ;
@@ -37799,8 +36460,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0226/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0226/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0226/identifier/DWpers0226>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0226/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/118752804> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0226/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0406> a ns1:E21_Person ;
     rdfs:label "Gregorig, Josef"@und ;
@@ -37812,8 +36472,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0406/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0406/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0406/identifier/DWpers0406>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0406/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/1011385708> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0406/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers1170> a ns1:E21_Person ;
     rdfs:label "Tesch, Bruno Guido Camillo"@und ;
@@ -37825,8 +36484,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers1170/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers1170/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers1170/identifier/DWpers1170>,
-        <https://sk.acdh.oeaw.ac.at/dwpers1170/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/124791891> .
+        <https://sk.acdh.oeaw.ac.at/dwpers1170/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwplace00077> a ns1:E53_Place ;
     rdfs:label "Paris"@de ;
@@ -37887,8 +36545,7 @@
         <https://sk.acdh.oeaw.ac.at/dwpers0049/appelation/0/2>,
         <https://sk.acdh.oeaw.ac.at/dwpers0049/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/dwpers0049/identifier/DWpers0049>,
-        <https://sk.acdh.oeaw.ac.at/dwpers0049/identifier/idno/0> ;
-    owl:sameAs <https://https://d-nb.info/gnd/131997742> .
+        <https://sk.acdh.oeaw.ac.at/dwpers0049/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/dwplace00061> a ns1:E53_Place ;
     rdfs:label "Zürich"@de ;
