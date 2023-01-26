@@ -808,7 +808,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00471> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0000> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0000/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0000/death> a ns1:E69_Death ;
     rdfs:label "Tod von Kraus, Karl"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0000> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0000/deathtimestamp> ;
@@ -820,7 +820,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00144> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0001> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0001/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0001/death> a ns1:E69_Death ;
     rdfs:label "Tod von Abraham, Paul"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0001> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0001/deathtimestamp> ;
@@ -832,7 +832,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00263> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0002> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0002/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0002/death> a ns1:E69_Death ;
     rdfs:label "Tod von Alexander der Große"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0002> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0002/deathtimestamp> ;
@@ -844,7 +844,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0003> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0003/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0003/death> a ns1:E69_Death ;
     rdfs:label "Tod von Altenberg, Peter"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0003> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0003/deathtimestamp> ;
@@ -856,7 +856,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00152> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0004> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0004/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0004/death> a ns1:E69_Death ;
     rdfs:label "Tod von August Wilhelm Prinz von Preußen"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0004> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0004/deathtimestamp> ;
@@ -868,7 +868,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00207> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0005> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0005/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0005/death> a ns1:E69_Death ;
     rdfs:label "Tod von Bartels, Adolf"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0005> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0005/deathtimestamp> ;
@@ -880,7 +880,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00187> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0006> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0006/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0006/death> a ns1:E69_Death ;
     rdfs:label "Tod von Battisti, Cesare"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0006> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0006/deathtimestamp> ;
@@ -892,7 +892,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0007> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0007/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0007/death> a ns1:E69_Death ;
     rdfs:label "Tod von Bauer, Otto"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0007> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0007/deathtimestamp> ;
@@ -904,7 +904,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00410> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0008> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0008/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0008/death> a ns1:E69_Death ;
     rdfs:label "Tod von Baumbach, Rudolf"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0008> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0008/deathtimestamp> ;
@@ -916,7 +916,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00257> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0009> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0009/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0009/death> a ns1:E69_Death ;
     rdfs:label "Tod von Beethoven, Ludwig van"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0009> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0009/deathtimestamp> ;
@@ -928,7 +928,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00051> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0010> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0010/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0010/death> a ns1:E69_Death ;
     rdfs:label "Tod von Beevers, John Leonard"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0010> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0010/deathtimestamp> ;
@@ -940,7 +940,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00434> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0011> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0011/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0011/death> a ns1:E69_Death ;
     rdfs:label "Tod von Békessy, Imre"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0011> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0011/deathtimestamp> ;
@@ -952,7 +952,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0012> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0012/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0012/death> a ns1:E69_Death ;
     rdfs:label "Tod von Benedikt, Ernst"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0012> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0012/deathtimestamp> ;
@@ -964,7 +964,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00184> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0013> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0013/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0013/death> a ns1:E69_Death ;
     rdfs:label "Tod von Benedikt, Moriz"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0013> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0013/deathtimestamp> ;
@@ -982,7 +982,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0015> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0015/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0015/death> a ns1:E69_Death ;
     rdfs:label "Tod von Berchtold, Leopod Graf"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0015> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0015/deathtimestamp> ;
@@ -994,7 +994,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0016> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0016/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0016/death> a ns1:E69_Death ;
     rdfs:label "Tod von Berger, Alfred von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0016> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0016/deathtimestamp> ;
@@ -1006,7 +1006,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00252> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0017> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0017/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0017/death> a ns1:E69_Death ;
     rdfs:label "Tod von Bernheim, Franz"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0017> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0017/deathtimestamp> ;
@@ -1018,7 +1018,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00099> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0018> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0018/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0018/death> a ns1:E69_Death ;
     rdfs:label "Tod von Billinger, Richard"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0018> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0018/deathtimestamp> ;
@@ -1030,7 +1030,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00342> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0019> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0019/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0019/death> a ns1:E69_Death ;
     rdfs:label "Tod von Gorion, Emanuel bin"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0019> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0019/deathtimestamp> ;
@@ -1042,7 +1042,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00361> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0020> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0020/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0020/death> a ns1:E69_Death ;
     rdfs:label "Tod von Binding, Rudolf G."@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0020> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0020/deathtimestamp> ;
@@ -1054,7 +1054,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00309> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0021> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0021/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0021/death> a ns1:E69_Death ;
     rdfs:label "Tod von Bismarck, Otto von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0021> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0021/deathtimestamp> ;
@@ -1066,7 +1066,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00350> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0022> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0022/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0022/death> a ns1:E69_Death ;
     rdfs:label "Tod von Bonsels, Waldemar"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0022> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0022/deathtimestamp> ;
@@ -1078,7 +1078,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00214> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0023> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0023/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0023/death> a ns1:E69_Death ;
     rdfs:label "Tod von Bosch, Hieronymus"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0023> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0023/deathtimestamp> ;
@@ -1090,7 +1090,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00313> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0024> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0024/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0024/death> a ns1:E69_Death ;
     rdfs:label "Tod von Braun, Alfred"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0024> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0024/deathtimestamp> ;
@@ -1102,7 +1102,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00262> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0025> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0025/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0025/death> a ns1:E69_Death ;
     rdfs:label "Tod von Brecht, Bertolt"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0025> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0025/deathtimestamp> ;
@@ -1114,7 +1114,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00381> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0026> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0026/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0026/death> a ns1:E69_Death ;
     rdfs:label "Tod von Bredow, Hans"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0026> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0026/deathtimestamp> ;
@@ -1126,7 +1126,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00129> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0027> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0027/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0027/death> a ns1:E69_Death ;
     rdfs:label "Tod von Breugel d. J., Pieter"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0027> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0027/deathtimestamp> ;
@@ -1138,7 +1138,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00202> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0028> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0028/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0028/death> a ns1:E69_Death ;
     rdfs:label "Tod von Brückner, Helmuth"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0028> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0028/deathtimestamp> ;
@@ -1150,7 +1150,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00267> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0029> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0029/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0029/death> a ns1:E69_Death ;
     rdfs:label "Tod von Brückner, Wilhelm"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0029> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0029/deathtimestamp> ;
@@ -1162,7 +1162,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00128> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0030> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0030/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0030/death> a ns1:E69_Death ;
     rdfs:label "Tod von Bruno, Giordano"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0030> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0030/deathtimestamp> ;
@@ -1174,7 +1174,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00361> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0031> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0031/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0031/death> a ns1:E69_Death ;
     rdfs:label "Tod von Burckhardt, Jacob"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0031> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0031/deathtimestamp> ;
@@ -1186,7 +1186,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00330> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0032> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0032/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0032/death> a ns1:E69_Death ;
     rdfs:label "Tod von Busch, Fritz"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0032> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0032/deathtimestamp> ;
@@ -1198,7 +1198,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00328> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0033> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0033/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0033/death> a ns1:E69_Death ;
     rdfs:label "Tod von Caligula"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0033> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0033/deathtimestamp> ;
@@ -1210,7 +1210,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00393> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0034> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0034/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0034/death> a ns1:E69_Death ;
     rdfs:label "Tod von Claudius, Matthias"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0034> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0034/deathtimestamp> ;
@@ -1222,7 +1222,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00067> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0035> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0035/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0035/death> a ns1:E69_Death ;
     rdfs:label "Tod von Coué, Émile"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0035> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0035/deathtimestamp> ;
@@ -1234,7 +1234,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00386> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0036> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0036/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0036/death> a ns1:E69_Death ;
     rdfs:label "Tod von Dalton, Hugh"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0036> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0036/deathtimestamp> ;
@@ -1246,7 +1246,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0037> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0037/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0037/death> a ns1:E69_Death ;
     rdfs:label "Tod von Damisch, Heinrich"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0037> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0037/deathtimestamp> ;
@@ -1258,7 +1258,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00323> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0038> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0038/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0038/death> a ns1:E69_Death ;
     rdfs:label "Tod von Darré, Richard"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0038> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0038/deathtimestamp> ;
@@ -1270,7 +1270,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00090> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0039> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0039/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0039/death> a ns1:E69_Death ;
     rdfs:label "Tod von Dawes, Charles Gates"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0039> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0039/deathtimestamp> ;
@@ -1282,7 +1282,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00247> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0040> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0040/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0040/death> a ns1:E69_Death ;
     rdfs:label "Tod von Deutsch, Julius"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0040> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0040/deathtimestamp> ;
@@ -1294,7 +1294,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0041> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0041/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0041/death> a ns1:E69_Death ;
     rdfs:label "Tod von Deutsch, Paul"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0041> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0041/deathtimestamp> ;
@@ -1306,7 +1306,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00061> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0042> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0042/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0042/death> a ns1:E69_Death ;
     rdfs:label "Tod von Diebold, Bernhard"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0042> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0042/deathtimestamp> ;
@@ -1318,7 +1318,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00000> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0043> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0043/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0043/death> a ns1:E69_Death ;
     rdfs:label "Tod von Dietrich, Heinrich"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0043> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0043/deathtimestamp> ;
@@ -1330,7 +1330,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00156> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0045> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0045/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0045/death> a ns1:E69_Death ;
     rdfs:label "Tod von Dollfuß, Engelbert"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0045> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0045/deathtimestamp> ;
@@ -1342,7 +1342,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00253> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0046> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0046/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0046/death> a ns1:E69_Death ;
     rdfs:label "Tod von Dorsch, Käthe"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0046> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0046/deathtimestamp> ;
@@ -1354,7 +1354,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00134> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0047> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0047/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0047/death> a ns1:E69_Death ;
     rdfs:label "Tod von Dostoevskij, Fëdor Mihajlovič"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0047> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0047/deathtimestamp> ;
@@ -1366,7 +1366,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00176> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0049> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0049/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0049/death> a ns1:E69_Death ;
     rdfs:label "Tod von Eckstein, Ernst"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0049> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0049/deathtimestamp> ;
@@ -1378,7 +1378,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00027> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0050> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0050/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0050/death> a ns1:E69_Death ;
     rdfs:label "Tod von Eichendorff, Joseph von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0050> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0050/deathtimestamp> ;
@@ -1390,7 +1390,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00219> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0051> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0051/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0051/death> a ns1:E69_Death ;
     rdfs:label "Tod von Einstein, Albert"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0051> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0051/deathtimestamp> ;
@@ -1402,7 +1402,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00383> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0052> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0052/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0052/death> a ns1:E69_Death ;
     rdfs:label "Tod von Epp, Franz von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0052> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0052/deathtimestamp> ;
@@ -1414,7 +1414,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00366> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0053> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0053/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0053/death> a ns1:E69_Death ;
     rdfs:label "Tod von Essen, Paul von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0053> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0053/deathtimestamp> ;
@@ -1426,7 +1426,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00316> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0054> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0054/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0054/death> a ns1:E69_Death ;
     rdfs:label "Tod von Ewers, Hanns Heinz"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0054> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0054/deathtimestamp> ;
@@ -1449,7 +1449,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00292> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0056> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0056/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0056/death> a ns1:E69_Death ;
     rdfs:label "Tod von Feder, Gottfried"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0056> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0056/deathtimestamp> ;
@@ -1461,7 +1461,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0057> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0057/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0057/death> a ns1:E69_Death ;
     rdfs:label "Tod von Fey, Emil"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0057> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0057/deathtimestamp> ;
@@ -1473,7 +1473,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00188> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0058> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0058/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0058/death> a ns1:E69_Death ;
     rdfs:label "Tod von Fichte, Johann Gottlieb"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0058> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0058/deathtimestamp> ;
@@ -1485,7 +1485,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0059> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0059/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0059/death> a ns1:E69_Death ;
     rdfs:label "Tod von Flassak, Friedrich"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0059> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0059/deathtimestamp> ;
@@ -1497,7 +1497,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00239> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0060> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0060/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0060/death> a ns1:E69_Death ;
     rdfs:label "Tod von Flesch, Hans"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0060> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0060/deathtimestamp> ;
@@ -1509,7 +1509,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00057> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0061> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0061/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0061/death> a ns1:E69_Death ;
     rdfs:label "Tod von Franck, James"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0061> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0061/deathtimestamp> ;
@@ -1521,7 +1521,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00181> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0062> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0062/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0062/death> a ns1:E69_Death ;
     rdfs:label "Tod von Frank, Hans"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0062> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0062/deathtimestamp> ;
@@ -1533,7 +1533,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00287> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0063> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0063/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0063/death> a ns1:E69_Death ;
     rdfs:label "Tod von Frank, Karl"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0063> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0063/deathtimestamp> ;
@@ -1545,7 +1545,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00297> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0064> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0064/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0064/death> a ns1:E69_Death ;
     rdfs:label "Tod von Benn, Gottfried"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0064> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0064/deathtimestamp> ;
@@ -1557,7 +1557,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00115> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0065> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0065/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0065/death> a ns1:E69_Death ;
     rdfs:label "Tod von Freisler, Roland"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0065> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0065/deathtimestamp> ;
@@ -1569,7 +1569,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00250> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0066> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0066/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0066/death> a ns1:E69_Death ;
     rdfs:label "Tod von Freud, Sigmund"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0066> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0066/deathtimestamp> ;
@@ -1581,7 +1581,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00406> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0067> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0067/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0067/death> a ns1:E69_Death ;
     rdfs:label "Tod von Frick, Wilhelm"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0067> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0067/deathtimestamp> ;
@@ -1593,7 +1593,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00313> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0068> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0068/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0068/death> a ns1:E69_Death ;
     rdfs:label "Tod von Friedrich der Große"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0068> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0068/deathtimestamp> ;
@@ -1612,7 +1612,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00029> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0070> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0070/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0070/death> a ns1:E69_Death ;
     rdfs:label "Tod von Fritsch, Karl"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0070> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0070/deathtimestamp> ;
@@ -1624,7 +1624,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00125> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0071> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0071/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0071/death> a ns1:E69_Death ;
     rdfs:label "Tod von Fritsch, Willy"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0071> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0071/deathtimestamp> ;
@@ -1636,7 +1636,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00313> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0073> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0073/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0073/death> a ns1:E69_Death ;
     rdfs:label "Tod von Furtwängler, Wilhelm"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0073> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0073/deathtimestamp> ;
@@ -1648,7 +1648,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0074> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0074/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0074/death> a ns1:E69_Death ;
     rdfs:label "Tod von Futterweit, Norbert Samuel"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0074> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0074/deathtimestamp> ;
@@ -1660,7 +1660,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00041> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0076> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0076/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0076/death> a ns1:E69_Death ;
     rdfs:label "Tod von George, Stefan"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0076> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0076/deathtimestamp> ;
@@ -1672,7 +1672,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00468> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0077> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0077/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0077/death> a ns1:E69_Death ;
     rdfs:label "Tod von Giesecke, Heinrich"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0077> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0077/deathtimestamp> .
@@ -1683,7 +1683,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00444> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0078> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0078/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0078/death> a ns1:E69_Death ;
     rdfs:label "Tod von Goebbels, Hans"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0078> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0078/deathtimestamp> ;
@@ -1695,7 +1695,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00412> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0079> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0079/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0079/death> a ns1:E69_Death ;
     rdfs:label "Tod von Goebbels, Joseph"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0079> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0079/deathtimestamp> ;
@@ -1707,7 +1707,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00239> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0080> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0080/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0080/death> a ns1:E69_Death ;
     rdfs:label "Tod von Goethe, Johann Wolfgang von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0080> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0080/deathtimestamp> ;
@@ -1719,7 +1719,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00388> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0081> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0081/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0081/death> a ns1:E69_Death ;
     rdfs:label "Tod von Gogol, Nikolaj Vasilʹevič"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0081> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0081/deathtimestamp> ;
@@ -1731,7 +1731,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00272> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0084> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0084/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0084/death> a ns1:E69_Death ;
     rdfs:label "Tod von Göring, Hermann"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0084> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0084/deathtimestamp> ;
@@ -1743,7 +1743,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00397> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0085> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0085/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0085/death> a ns1:E69_Death ;
     rdfs:label "Tod von Gottsleben, Ludwig"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0085> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0085/deathtimestamp> ;
@@ -1755,7 +1755,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0086> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0086/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0086/death> a ns1:E69_Death ;
     rdfs:label "Tod von Großmann, Stefan"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0086> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0086/deathtimestamp> ;
@@ -1767,7 +1767,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0088> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0088/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0088/death> a ns1:E69_Death ;
     rdfs:label "Tod von Grünwald, Alfred"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0088> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0088/deathtimestamp> ;
@@ -1779,7 +1779,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00139> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0091> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0091/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0091/death> a ns1:E69_Death ;
     rdfs:label "Tod von Gulbransson, Olaf"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0091> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0091/deathtimestamp> ;
@@ -1791,7 +1791,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00457> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0092> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0092/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0092/death> a ns1:E69_Death ;
     rdfs:label "Tod von Gundolf, Friedrich"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0092> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0092/deathtimestamp> ;
@@ -1803,7 +1803,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00468> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0093> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0093/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0093/death> a ns1:E69_Death ;
     rdfs:label "Tod von Haarmann, Fritz"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0093> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0093/deathtimestamp> ;
@@ -1815,7 +1815,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00289> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0094> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0094/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0094/death> a ns1:E69_Death ;
     rdfs:label "Tod von Habicht, Theodor"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0094> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0094/deathtimestamp> ;
@@ -1833,7 +1833,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0096> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0096/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0096/death> a ns1:E69_Death ;
     rdfs:label "Tod von Haid, Liane"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0096> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0096/deathtimestamp> ;
@@ -1845,7 +1845,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00338> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0097> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0097/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0097/death> a ns1:E69_Death ;
     rdfs:label "Tod von Hauptmann, Gerhart"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0097> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0097/deathtimestamp> ;
@@ -1857,7 +1857,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00359> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0098> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0098/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0098/death> a ns1:E69_Death ;
     rdfs:label "Tod von Hegel, Georg Wilhelm Friedrich"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0098> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0098/deathtimestamp> ;
@@ -1869,7 +1869,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00140> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0099> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0099/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0099/death> a ns1:E69_Death ;
     rdfs:label "Tod von Heidegger, Martin"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0099> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0099/deathtimestamp> ;
@@ -1881,7 +1881,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00316> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0100> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0100/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0100/death> a ns1:E69_Death ;
     rdfs:label "Tod von Heine, Heinrich"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0100> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0100/deathtimestamp> ;
@@ -1893,7 +1893,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00065> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0101> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0101/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0101/death> a ns1:E69_Death ;
     rdfs:label "Tod von Heine, Thomas Theodor"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0101> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0101/deathtimestamp> ;
@@ -1905,7 +1905,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00383> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0102> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0102/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0102/death> a ns1:E69_Death ;
     rdfs:label "Tod von Heines, Edmund"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0102> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0102/deathtimestamp> ;
@@ -1917,7 +1917,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00238> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0103> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0103/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0103/death> a ns1:E69_Death ;
     rdfs:label "Tod von Helldorf, Wolf Heinrich Graf von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0103> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0103/deathtimestamp> ;
@@ -1929,7 +1929,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00296> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0104> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0104/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0104/death> a ns1:E69_Death ;
     rdfs:label "Tod von Henderson, Arthur"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0104> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0104/deathtimestamp> ;
@@ -1941,7 +1941,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00332> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0105> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0105/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0105/death> a ns1:E69_Death ;
     rdfs:label "Tod von Heß, Rudolf"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0105> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0105/deathtimestamp> ;
@@ -1953,7 +1953,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00050> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0106> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0106/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0106/death> a ns1:E69_Death ;
     rdfs:label "Tod von Hessen, Philipp Prinz von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0106> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0106/deathtimestamp> ;
@@ -1965,7 +1965,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00239> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0107> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0107/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0107/death> a ns1:E69_Death ;
     rdfs:label "Tod von Hessen, Christoph Ernst August Prinz von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0107> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0107/deathtimestamp> ;
@@ -1977,7 +1977,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00383> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0108> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0108/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0108/death> a ns1:E69_Death ;
     rdfs:label "Tod von Himmler, Heinrich"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0108> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0108/deathtimestamp> ;
@@ -1989,7 +1989,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00357> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0109> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0109/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0109/death> a ns1:E69_Death ;
     rdfs:label "Tod von Hindenburg, Oskar von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0109> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0109/deathtimestamp> ;
@@ -2001,7 +2001,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00408> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0110> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0110/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0110/death> a ns1:E69_Death ;
     rdfs:label "Tod von Hindenburg, Paul von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0110> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0110/deathtimestamp> ;
@@ -2013,7 +2013,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00469> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0111> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0111/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0111/death> a ns1:E69_Death ;
     rdfs:label "Tod von Hinkel, Hans"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0111> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0111/deathtimestamp> ;
@@ -2025,7 +2025,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00178> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0112> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0112/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0112/death> a ns1:E69_Death ;
     rdfs:label "Tod von Hirschfeld, Magnus"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0112> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0112/deathtimestamp> ;
@@ -2037,7 +2037,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00403> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0113> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0113/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0113/death> a ns1:E69_Death ;
     rdfs:label "Tod von Hitler, Adolf"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0113> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0113/deathtimestamp> ;
@@ -2049,7 +2049,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00109> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0114> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0114/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0114/death> a ns1:E69_Death ;
     rdfs:label "Tod von Hölderlin, Friedrich"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0114> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0114/deathtimestamp> ;
@@ -2061,7 +2061,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00229> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0115> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0115/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0115/death> a ns1:E69_Death ;
     rdfs:label "Tod von Horaz"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0115> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0115/deathtimestamp> ;
@@ -2073,7 +2073,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00290> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0116> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0116/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0116/death> a ns1:E69_Death ;
     rdfs:label "Tod von Hossenfelder, Joachim"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0116> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0116/deathtimestamp> ;
@@ -2085,7 +2085,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00348> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0117> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0117/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0117/death> a ns1:E69_Death ;
     rdfs:label "Tod von Huch, Ricarda"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0117> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0117/deathtimestamp> ;
@@ -2097,7 +2097,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00468> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0118> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0118/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0118/death> a ns1:E69_Death ;
     rdfs:label "Tod von Hugenberg, Alfred"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0118> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0118/deathtimestamp> ;
@@ -2109,7 +2109,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00285> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0119> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0119/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0119/death> a ns1:E69_Death ;
     rdfs:label "Tod von Jacobs, Monty"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0119> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0119/deathtimestamp> ;
@@ -2121,7 +2121,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00453> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0120> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0120/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0120/death> a ns1:E69_Death ;
     rdfs:label "Tod von Jankowski, Maria Amalie"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0120> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0120/deathtimestamp> ;
@@ -2133,7 +2133,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00166> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0121> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0121/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0121/death> a ns1:E69_Death ;
     rdfs:label "Tod von Jelusich, Mirko"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0121> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0121/deathtimestamp> ;
@@ -2145,7 +2145,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00313> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0122> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0122/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0122/death> a ns1:E69_Death ;
     rdfs:label "Tod von Joachim, Günther"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0122> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0122/deathtimestamp> ;
@@ -2157,7 +2157,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00382> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0123> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0123/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0123/death> a ns1:E69_Death ;
     rdfs:label "Tod von Johst, Hanns"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0123> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0123/deathtimestamp> ;
@@ -2169,7 +2169,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00357> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0124> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0124/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0124/death> a ns1:E69_Death ;
     rdfs:label "Tod von Kant, Immanuel"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0124> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0124/deathtimestamp> ;
@@ -2181,7 +2181,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00176> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0125> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0125/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0125/death> a ns1:E69_Death ;
     rdfs:label "Tod von Kerr, Alfred"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0125> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0125/deathtimestamp> ;
@@ -2193,7 +2193,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00063> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0126> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0126/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0126/death> a ns1:E69_Death ;
     rdfs:label "Tod von Kerrl, Hanns"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0126> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0126/deathtimestamp> ;
@@ -2205,7 +2205,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00447> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0127> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0127/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0127/death> a ns1:E69_Death ;
     rdfs:label "Tod von Keyserling, Hermann Graf von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0127> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0127/deathtimestamp> ;
@@ -2217,7 +2217,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00127> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0128> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0128/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0128/death> a ns1:E69_Death ;
     rdfs:label "Tod von Killinger, Manfred Freiherr von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0128> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0128/deathtimestamp> ;
@@ -2229,7 +2229,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00332> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0130> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0130/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0130/death> a ns1:E69_Death ;
     rdfs:label "Tod von Kleopatra"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0130> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0130/deathtimestamp> ;
@@ -2241,7 +2241,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00092> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0132> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0132/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0132/death> a ns1:E69_Death ;
     rdfs:label "Tod von Koehler, Wolfgang"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0132> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0132/deathtimestamp> ;
@@ -2253,7 +2253,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00422> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0133> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0133/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0133/death> a ns1:E69_Death ;
     rdfs:label "Tod von Colombo, Cristoforo"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0133> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0133/deathtimestamp> ;
@@ -2265,7 +2265,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00404> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0134> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0134/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0134/death> a ns1:E69_Death ;
     rdfs:label "Tod von Körner, Theodor"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0134> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0134/deathtimestamp> ;
@@ -2277,7 +2277,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00467> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0135> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0135/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0135/death> a ns1:E69_Death ;
     rdfs:label "Tod von Körner, Theodor"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0135> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0135/deathtimestamp> ;
@@ -2289,7 +2289,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00258> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0136> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0136/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0136/death> a ns1:E69_Death ;
     rdfs:label "Tod von Kothen, Hans vom"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0136> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0136/deathtimestamp> ;
@@ -2301,7 +2301,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00020> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0137> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0137/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0137/death> a ns1:E69_Death ;
     rdfs:label "Tod von Krauß, Werner"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0137> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0137/deathtimestamp> ;
@@ -2313,7 +2313,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00362> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0138> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0138/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0138/death> a ns1:E69_Death ;
     rdfs:label "Tod von Krieck, Ernst"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0138> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0138/deathtimestamp> ;
@@ -2325,7 +2325,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00152> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0139> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0139/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0139/death> a ns1:E69_Death ;
     rdfs:label "Tod von Preußen, Wilhelm von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0139> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0139/deathtimestamp> ;
@@ -2337,7 +2337,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00036> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0140> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0140/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0140/death> a ns1:E69_Death ;
     rdfs:label "Tod von Krupp von Bohlen und Halbach, Gustav"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0140> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0140/deathtimestamp> ;
@@ -2349,7 +2349,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00043> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0141> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0141/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0141/death> a ns1:E69_Death ;
     rdfs:label "Tod von Kube, Wilhelm"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0141> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0141/deathtimestamp> ;
@@ -2361,7 +2361,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00065> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0142> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0142/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0142/death> a ns1:E69_Death ;
     rdfs:label "Tod von Kuhnt, Bernhard"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0142> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0142/deathtimestamp> ;
@@ -2373,7 +2373,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0143> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0143/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0143/death> a ns1:E69_Death ;
     rdfs:label "Tod von Kunschak, Leopold"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0143> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0143/deathtimestamp> ;
@@ -2385,7 +2385,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00021> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0144> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0144/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0144/death> a ns1:E69_Death ;
     rdfs:label "Tod von Labé, Louise"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0144> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0144/deathtimestamp> ;
@@ -2397,7 +2397,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0145> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0145/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0145/death> a ns1:E69_Death ;
     rdfs:label "Tod von Lányi, Richard"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0145> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0145/deathtimestamp> ;
@@ -2409,7 +2409,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0146> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0146/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0146/death> a ns1:E69_Death ;
     rdfs:label "Tod von Lanz von Liebenfels, Jörg"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0146> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0146/deathtimestamp> ;
@@ -2421,7 +2421,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00176> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0147> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0147/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0147/death> a ns1:E69_Death ;
     rdfs:label "Tod von Lassalle, Ferdinand"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0147> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0147/deathtimestamp> ;
@@ -2433,7 +2433,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0148> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0148/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0148/death> a ns1:E69_Death ;
     rdfs:label "Tod von Lernet-Holenia, Alexander"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0148> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0148/deathtimestamp> ;
@@ -2445,7 +2445,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00468> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0149> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0149/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0149/death> a ns1:E69_Death ;
     rdfs:label "Tod von Lessing, Theodor"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0149> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0149/deathtimestamp> ;
@@ -2457,7 +2457,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00358> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0150> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0150/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0150/death> a ns1:E69_Death ;
     rdfs:label "Tod von Ley, Robert"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0150> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0150/deathtimestamp> ;
@@ -2469,7 +2469,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00421> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0151> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0151/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0151/death> a ns1:E69_Death ;
     rdfs:label "Tod von Lichtenberg, Georg Christoph"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0151> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0151/deathtimestamp> ;
@@ -2481,7 +2481,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00313> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0152> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0152/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0152/death> a ns1:E69_Death ;
     rdfs:label "Tod von Liebermann, Max"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0152> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0152/deathtimestamp> ;
@@ -2493,7 +2493,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00065> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0153> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0153/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0153/death> a ns1:E69_Death ;
     rdfs:label "Tod von Lippowitz, Jakob"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0153> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0153/deathtimestamp> ;
@@ -2505,7 +2505,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00071> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0154> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0154/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0154/death> a ns1:E69_Death ;
     rdfs:label "Tod von Litvinov, Maksim Maksimovič"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0154> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0154/deathtimestamp> ;
@@ -2517,7 +2517,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00423> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0155> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0155/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0155/death> a ns1:E69_Death ;
     rdfs:label "Tod von Löbe, Paul"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0155> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0155/deathtimestamp> ;
@@ -2529,7 +2529,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00442> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0156> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0156/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0156/death> a ns1:E69_Death ;
     rdfs:label "Tod von Ludendorff, Erich"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0156> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0156/deathtimestamp> ;
@@ -2541,7 +2541,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00176> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0157> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0157/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0157/death> a ns1:E69_Death ;
     rdfs:label "Tod von Ludwig, Emil"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0157> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0157/deathtimestamp> ;
@@ -2552,7 +2552,7 @@
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0158/birth/timestamp> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0158> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0158/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0158/death> a ns1:E69_Death ;
     rdfs:label "Tod von Mäcenas"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0158> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0158/deathtimestamp> .
@@ -2563,7 +2563,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00277> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0159> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0159/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0159/death> a ns1:E69_Death ;
     rdfs:label "Tod von Machiavelli, Niccolò"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0159> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0159/deathtimestamp> ;
@@ -2575,7 +2575,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00343> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0160> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0160/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0160/death> a ns1:E69_Death ;
     rdfs:label "Tod von Magnus, Kurt"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0160> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0160/deathtimestamp> ;
@@ -2587,7 +2587,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00002> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0161> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0161/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0161/death> a ns1:E69_Death ;
     rdfs:label "Tod von Mann, Thomas"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0161> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0161/deathtimestamp> ;
@@ -2599,7 +2599,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00206> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0163> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0163/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0163/death> a ns1:E69_Death ;
     rdfs:label "Tod von Marx, Karl"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0163> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0163/deathtimestamp> ;
@@ -2611,7 +2611,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00266> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0164> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0164/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0164/death> a ns1:E69_Death ;
     rdfs:label "Tod von Matuška, Szilveszter"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0164> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0164/deathtimestamp> .
@@ -2622,7 +2622,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00370> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0165> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0165/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0165/death> a ns1:E69_Death ;
     rdfs:label "Tod von May, Karl"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0165> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0165/deathtimestamp> ;
@@ -2634,7 +2634,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00434> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0166> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0166/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0166/death> a ns1:E69_Death ;
     rdfs:label "Tod von Meller, Rose"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0166> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0166/deathtimestamp> ;
@@ -2646,7 +2646,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00404> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0167> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0167/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0167/death> a ns1:E69_Death ;
     rdfs:label "Tod von Mitterwurzer, Friedrich"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0167> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0167/deathtimestamp> ;
@@ -2658,7 +2658,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00431> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0168> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0168/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0168/death> a ns1:E69_Death ;
     rdfs:label "Tod von Moeller van den Bruck, Arthur"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0168> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0168/deathtimestamp> ;
@@ -2670,7 +2670,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00415> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0169> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0169/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0169/death> a ns1:E69_Death ;
     rdfs:label "Tod von Motta, Giuseppe"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0169> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0169/deathtimestamp> ;
@@ -2682,7 +2682,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00354> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0170> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0170/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0170/death> a ns1:E69_Death ;
     rdfs:label "Tod von Motz, Karl"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0170> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0170/deathtimestamp> .
@@ -2693,7 +2693,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00405> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0171> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0171/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0171/death> a ns1:E69_Death ;
     rdfs:label "Tod von Murr, Wilhelm"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0171> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0171/deathtimestamp> ;
@@ -2705,7 +2705,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00374> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0172> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0172/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0172/death> a ns1:E69_Death ;
     rdfs:label "Tod von Mussolini, Benito"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0172> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0172/deathtimestamp> ;
@@ -2717,7 +2717,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00454> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0174> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0174/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0174/death> a ns1:E69_Death ;
     rdfs:label "Tod von Bonaparte, Napoléon"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0174> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0174/deathtimestamp> ;
@@ -2729,7 +2729,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00313> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0175> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0175/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0175/death> a ns1:E69_Death ;
     rdfs:label "Tod von Naumann, Max"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0175> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0175/deathtimestamp> ;
@@ -2741,7 +2741,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0176> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0176/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0176/death> a ns1:E69_Death ;
     rdfs:label "Tod von Nestroy, Johann Nepomuk"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0176> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0176/deathtimestamp> ;
@@ -2753,7 +2753,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00303> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0177> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0177/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0177/death> a ns1:E69_Death ;
     rdfs:label "Tod von Neurath, Konstantin Freiherr von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0177> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0177/deathtimestamp> ;
@@ -2765,7 +2765,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00234> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0178> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0178/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0178/death> a ns1:E69_Death ;
     rdfs:label "Tod von Nietzsche, Friedrich"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0178> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0178/deathtimestamp> ;
@@ -2777,7 +2777,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00310> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0179> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0179/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0179/death> a ns1:E69_Death ;
     rdfs:label "Tod von Oberfohren, Ernst"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0179> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0179/deathtimestamp> ;
@@ -2789,7 +2789,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00360> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0180> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0180/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0180/death> a ns1:E69_Death ;
     rdfs:label "Tod von Offenbach, Jacques"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0180> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0180/deathtimestamp> ;
@@ -2801,7 +2801,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00413> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0181> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0181/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0181/death> a ns1:E69_Death ;
     rdfs:label "Tod von Pallenberg, Max"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0181> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0181/deathtimestamp> ;
@@ -2813,7 +2813,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00226> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0182> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0182/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0182/death> a ns1:E69_Death ;
     rdfs:label "Tod von Papen, Franz von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0182> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0182/deathtimestamp> ;
@@ -2825,7 +2825,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00294> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0183> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0183/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0183/death> a ns1:E69_Death ;
     rdfs:label "Tod von Paudler, Maria"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0183> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0183/deathtimestamp> ;
@@ -2837,7 +2837,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00278> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0184> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0184/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0184/death> a ns1:E69_Death ;
     rdfs:label "Tod von Pfeffer von Salomon, Friedrich"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0184> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0184/deathtimestamp> ;
@@ -2849,7 +2849,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00219> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0185> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0185/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0185/death> a ns1:E69_Death ;
     rdfs:label "Tod von Piscator, Erwin"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0185> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0185/deathtimestamp> ;
@@ -2861,7 +2861,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00172> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0186> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0186/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0186/death> a ns1:E69_Death ;
     rdfs:label "Tod von Planck, Max"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0186> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0186/deathtimestamp> ;
@@ -2873,7 +2873,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00073> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0187> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0187/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0187/death> a ns1:E69_Death ;
     rdfs:label "Tod von Platen, August von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0187> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0187/deathtimestamp> ;
@@ -2885,7 +2885,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0188> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0188/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0188/death> a ns1:E69_Death ;
     rdfs:label "Tod von Pollak, Oscar"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0188> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0188/deathtimestamp> ;
@@ -2897,7 +2897,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00044> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0189> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0189/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0189/death> a ns1:E69_Death ;
     rdfs:label "Tod von Popper-Lynkeus, Josef"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0189> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0189/deathtimestamp> ;
@@ -2909,7 +2909,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00158> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0190> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0190/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0190/death> a ns1:E69_Death ;
     rdfs:label "Tod von Präuscher, Hermann"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0190> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0190/deathtimestamp> ;
@@ -2921,7 +2921,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00023> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0191> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0191/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0191/death> a ns1:E69_Death ;
     rdfs:label "Tod von Preminger, Otto Ludwig"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0191> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0191/deathtimestamp> ;
@@ -2933,7 +2933,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00387> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0192> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0192/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0192/death> a ns1:E69_Death ;
     rdfs:label "Tod von Proksch, Alfred"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0192> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0192/deathtimestamp> ;
@@ -2945,7 +2945,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00230> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0193> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0193/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0193/death> a ns1:E69_Death ;
     rdfs:label "Tod von Püchler, Josef"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0193> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0193/deathtimestamp> ;
@@ -2957,7 +2957,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00313> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0194> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0194/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0194/death> a ns1:E69_Death ;
     rdfs:label "Tod von Rathenau, Emil"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0194> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0194/deathtimestamp> ;
@@ -2969,7 +2969,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00107> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0195> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0195/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0195/death> a ns1:E69_Death ;
     rdfs:label "Tod von Reinhardt, Max"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0195> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0195/deathtimestamp> ;
@@ -2981,7 +2981,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00403> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0196> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0196/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0196/death> a ns1:E69_Death ;
     rdfs:label "Tod von Reiter, Josef"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0196> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0196/deathtimestamp> ;
@@ -2993,7 +2993,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0197> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0197/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0197/death> a ns1:E69_Death ;
     rdfs:label "Tod von Richter, Stéphanie"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0197> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0197/deathtimestamp> ;
@@ -3005,7 +3005,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00194> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0198> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0198/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0198/death> a ns1:E69_Death ;
     rdfs:label "Tod von Robitschek, Kurt"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0198> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0198/deathtimestamp> ;
@@ -3017,7 +3017,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00383> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0199> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0199/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0199/death> a ns1:E69_Death ;
     rdfs:label "Tod von Röhm, Ernst"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0199> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0199/deathtimestamp> ;
@@ -3029,7 +3029,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00210> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0200> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0200/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0200/death> a ns1:E69_Death ;
     rdfs:label "Tod von Rolland, Romain"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0200> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0200/deathtimestamp> ;
@@ -3041,7 +3041,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00121> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0201> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0201/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0201/death> a ns1:E69_Death ;
     rdfs:label "Tod von Rosenberg, Alfred"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0201> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0201/deathtimestamp> ;
@@ -3053,7 +3053,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00216> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0202> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0202/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0202/death> a ns1:E69_Death ;
     rdfs:label "Tod von Rothermere, Harold Sidney Harmsworth Viscount"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0202> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0202/deathtimestamp> ;
@@ -3065,7 +3065,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00468> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0203> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0203/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0203/death> a ns1:E69_Death ;
     rdfs:label "Tod von Rust, Bernhard"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0203> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0203/deathtimestamp> ;
@@ -3077,7 +3077,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00080> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0204> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0204/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0204/death> a ns1:E69_Death ;
     rdfs:label "Tod von Salten, Felix"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0204> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0204/deathtimestamp> ;
@@ -3089,7 +3089,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00146> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0205> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0205/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0205/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schäfer, Werner"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0205> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0205/deathtimestamp> ;
@@ -3101,7 +3101,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00096> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0206> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0206/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0206/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schaumburg-Lippe, Friedrich Christian Prinz von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0206> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0206/deathtimestamp> ;
@@ -3113,7 +3113,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00105> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0207> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0207/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0207/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schiller, Friedrich von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0207> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0207/deathtimestamp> ;
@@ -3125,7 +3125,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00313> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0208> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0208/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0208/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schirach, Baldur von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0208> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0208/deathtimestamp> ;
@@ -3137,7 +3137,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00147> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0209> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0209/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0209/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schlageter, Albert Leo"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0209> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0209/deathtimestamp> ;
@@ -3149,7 +3149,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00369> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0210> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0210/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0210/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schleicher, Kurt von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0210> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0210/deathtimestamp> ;
@@ -3161,7 +3161,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00218> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0211> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0211/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0211/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schneidmadl, Heinrich"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0211> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0211/deathtimestamp> ;
@@ -3173,7 +3173,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0212> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0212/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0212/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schnitzler, Arthur"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0212> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0212/deathtimestamp> ;
@@ -3185,7 +3185,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00060> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0213> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0213/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0213/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schober, Johannes"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0213> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0213/deathtimestamp> ;
@@ -3197,7 +3197,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00320> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0214> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0214/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0214/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schopenhauer, Arthur"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0214> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0214/deathtimestamp> ;
@@ -3209,7 +3209,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00280> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0215> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0215/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0215/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schumy, Vinzenz"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0215> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0215/deathtimestamp> ;
@@ -3221,7 +3221,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0216> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0216/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0216/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schuster, Valentin J."@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0216> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0216/deathtimestamp> ;
@@ -3232,7 +3232,7 @@
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0217/birth/timestamp> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0217> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0217/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0217/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schweppermann, Seyfried"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0217> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0217/deathtimestamp> .
@@ -3243,7 +3243,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00349> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0218> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0218/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0218/death> a ns1:E69_Death ;
     rdfs:label "Tod von Seldte, Franz"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0218> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0218/deathtimestamp> ;
@@ -3255,7 +3255,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00300> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0219> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0219/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0219/death> a ns1:E69_Death ;
     rdfs:label "Tod von Seneca"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0219> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0219/deathtimestamp> ;
@@ -3267,7 +3267,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00416> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0220> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0220/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0220/death> a ns1:E69_Death ;
     rdfs:label "Tod von Shakespeare, William"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0220> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0220/deathtimestamp> ;
@@ -3279,7 +3279,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00164> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0221> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0221/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0221/death> a ns1:E69_Death ;
     rdfs:label "Tod von Shaw, George Bernard"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0221> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0221/deathtimestamp> ;
@@ -3291,7 +3291,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00308> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0222> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0222/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0222/death> a ns1:E69_Death ;
     rdfs:label "Tod von Siegel, Michael"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0222> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0222/deathtimestamp> ;
@@ -3303,7 +3303,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00355> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0223> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0223/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0223/death> a ns1:E69_Death ;
     rdfs:label "Tod von Skubl, Michael"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0223> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0223/deathtimestamp> ;
@@ -3315,7 +3315,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00119> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0224> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0224/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0224/death> a ns1:E69_Death ;
     rdfs:label "Tod von Spengler, Oswald"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0224> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0224/deathtimestamp> ;
@@ -3327,7 +3327,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00301> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0225> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0225/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0225/death> a ns1:E69_Death ;
     rdfs:label "Tod von Stampfer, Friedrich"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0225> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0225/deathtimestamp> ;
@@ -3339,7 +3339,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00329> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0226> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0226/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0226/death> a ns1:E69_Death ;
     rdfs:label "Tod von Starhemberg, Ernst Rüdiger Fürst von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0226> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0226/deathtimestamp> ;
@@ -3351,7 +3351,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00157> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0227> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0227/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0227/death> a ns1:E69_Death ;
     rdfs:label "Tod von Steidle, Richard"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0227> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0227/deathtimestamp> ;
@@ -3363,7 +3363,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00010> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0228> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0228/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0228/death> a ns1:E69_Death ;
     rdfs:label "Tod von Stein, Ernst Edward Aurel"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0228> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0228/deathtimestamp> ;
@@ -3375,7 +3375,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00057> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0229> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0229/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0229/death> a ns1:E69_Death ;
     rdfs:label "Tod von Stelling, Johannes"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0229> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0229/deathtimestamp> ;
@@ -3387,7 +3387,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00383> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0230> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0230/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0230/death> a ns1:E69_Death ;
     rdfs:label "Tod von Strauß, Alfred"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0230> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0230/deathtimestamp> ;
@@ -3399,7 +3399,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00383> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0231> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0231/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0231/death> a ns1:E69_Death ;
     rdfs:label "Tod von Strauss, Richard"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0231> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0231/deathtimestamp> ;
@@ -3411,7 +3411,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00117> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0232> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0232/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0232/death> a ns1:E69_Death ;
     rdfs:label "Tod von Streicher, Julius"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0232> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0232/deathtimestamp> ;
@@ -3423,7 +3423,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00284> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0233> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0233/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0233/death> a ns1:E69_Death ;
     rdfs:label "Tod von Thyssen, Fritz"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0233> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0233/deathtimestamp> ;
@@ -3435,7 +3435,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00198> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0234> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0234/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0234/death> a ns1:E69_Death ;
     rdfs:label "Tod von Tolstoj, Lev Nikolaevič"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0234> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0234/deathtimestamp> ;
@@ -3447,7 +3447,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00377> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0235> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0235/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0235/death> a ns1:E69_Death ;
     rdfs:label "Tod von Torquemada, Tomás de"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0235> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0235/deathtimestamp> ;
@@ -3459,7 +3459,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00217> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0236> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0236/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0236/death> a ns1:E69_Death ;
     rdfs:label "Tod von Toscanini, Arturo"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0236> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0236/deathtimestamp> ;
@@ -3471,7 +3471,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00313> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0237> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0237/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0237/death> a ns1:E69_Death ;
     rdfs:label "Tod von Tucholsky, Kurt"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0237> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0237/deathtimestamp> ;
@@ -3483,7 +3483,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00225> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0238> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0238/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0238/death> a ns1:E69_Death ;
     rdfs:label "Tod von Uhland, Ludwig"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0238> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0238/deathtimestamp> ;
@@ -3495,7 +3495,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00383> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0239> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0239/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0239/death> a ns1:E69_Death ;
     rdfs:label "Tod von Uhlfelder, Max"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0239> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0239/deathtimestamp> ;
@@ -3507,7 +3507,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0240> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0240/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0240/death> a ns1:E69_Death ;
     rdfs:label "Tod von Ullmann, Ludwig"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0240> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0240/deathtimestamp> ;
@@ -3519,7 +3519,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00031> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0241> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0241/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0241/death> a ns1:E69_Death ;
     rdfs:label "Tod von Undset, Sigrid"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0241> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0241/deathtimestamp> ;
@@ -3531,7 +3531,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00462> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0242> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0242/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0242/death> a ns1:E69_Death ;
     rdfs:label "Tod von Unruh, Fritz von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0242> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0242/deathtimestamp> ;
@@ -3543,7 +3543,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00324> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0243> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0243/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0243/death> a ns1:E69_Death ;
     rdfs:label "Tod von Urbanitzky, Grete von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0243> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0243/deathtimestamp> ;
@@ -3555,7 +3555,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0244> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0244/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0244/death> a ns1:E69_Death ;
     rdfs:label "Tod von Vaugoin, Carl"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0244> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0244/deathtimestamp> ;
@@ -3567,7 +3567,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00149> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0245> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0245/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0245/death> a ns1:E69_Death ;
     rdfs:label "Tod von Viktor Emanuel III."@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0245> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0245/deathtimestamp> ;
@@ -3588,7 +3588,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00065> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0247> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0247/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0247/death> a ns1:E69_Death ;
     rdfs:label "Tod von Wagner, Richard"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0247> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0247/deathtimestamp> ;
@@ -3600,7 +3600,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00313> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0248> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0248/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0248/death> a ns1:E69_Death ;
     rdfs:label "Tod von Walter, Bruno"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0248> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0248/deathtimestamp> ;
@@ -3611,7 +3611,7 @@
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0249/birth/timestamp> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0249> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0249/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0249/death> a ns1:E69_Death ;
     rdfs:label "Tod von Vogelweide, Walther von der"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0249> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0249/deathtimestamp> .
@@ -3622,7 +3622,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00468> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0250> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0250/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0250/death> a ns1:E69_Death ;
     rdfs:label "Tod von Wedekind, Frank"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0250> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0250/deathtimestamp> ;
@@ -3634,7 +3634,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00194> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0251> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0251/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0251/death> a ns1:E69_Death ;
     rdfs:label "Tod von Werfel, Franz"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0251> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0251/deathtimestamp> ;
@@ -3646,7 +3646,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00458> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0252> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0252/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0252/death> a ns1:E69_Death ;
     rdfs:label "Tod von Wessel, Horst"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0252> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0252/deathtimestamp> ;
@@ -3658,7 +3658,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00313> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0253> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0253/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0253/death> a ns1:E69_Death ;
     rdfs:label "Tod von Wilhelm II."@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0253> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0253/deathtimestamp> ;
@@ -3670,7 +3670,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00399> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0254> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0254/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0254/death> a ns1:E69_Death ;
     rdfs:label "Tod von Winkler, Franz"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0254> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0254/deathtimestamp> ;
@@ -3682,7 +3682,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00360> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0255> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0255/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0255/death> a ns1:E69_Death ;
     rdfs:label "Tod von Wolter, Charlotte"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0255> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0255/deathtimestamp> ;
@@ -3694,7 +3694,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00425> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0256> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0256/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0256/death> a ns1:E69_Death ;
     rdfs:label "Tod von Žídek, František"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0256> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0256/deathtimestamp> ;
@@ -3706,7 +3706,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00434> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0257> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0257/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0257/death> a ns1:E69_Death ;
     rdfs:label "Tod von Zsolnay, Paul"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0257> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0257/deathtimestamp> ;
@@ -3724,7 +3724,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00407> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0263> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0263/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0263/death> a ns1:E69_Death ;
     rdfs:label "Tod von Mosel, Heinrich"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0263> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0263/deathtimestamp> ;
@@ -3742,7 +3742,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00070> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0265> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0265/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0265/death> a ns1:E69_Death ;
     rdfs:label "Tod von Grillmayr, Max"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0265> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0265/deathtimestamp> ;
@@ -3754,7 +3754,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00452> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0401> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0401/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0401/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schweitzer, Charles"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0401> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0401/deathtimestamp> .
@@ -3765,7 +3765,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00146> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0402> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0402/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0402/death> a ns1:E69_Death ;
     rdfs:label "Tod von Andler, Charles"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0402> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0402/deathtimestamp> ;
@@ -3777,7 +3777,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00462> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0403> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0403/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0403/death> a ns1:E69_Death ;
     rdfs:label "Tod von Böchel, Karl"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0403> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0403/deathtimestamp> ;
@@ -3789,7 +3789,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00343> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0404> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0404/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0404/death> a ns1:E69_Death ;
     rdfs:label "Tod von Scheidemann, Philipp Heinrich"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0404> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0404/deathtimestamp> ;
@@ -3807,7 +3807,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00400> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers0406> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers0406/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers0406/death> a ns1:E69_Death ;
     rdfs:label "Tod von Gregorig, Josef"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers0406> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0406/deathtimestamp> ;
@@ -3819,7 +3819,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00356> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1001> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1001/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1001/death> a ns1:E69_Death ;
     rdfs:label "Tod von Janotta, Ernst von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1001> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1001/deathtimestamp> ;
@@ -3831,7 +3831,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1003> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1003/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1003/death> a ns1:E69_Death ;
     rdfs:label "Tod von Adam, Hermann"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1003> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1003/deathtimestamp> ;
@@ -3843,7 +3843,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00313> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1004> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1004/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1004/death> a ns1:E69_Death ;
     rdfs:label "Tod von Alvensleben, Werner von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1004> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1004/deathtimestamp> ;
@@ -3855,7 +3855,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00078> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1005> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1005/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1005/death> a ns1:E69_Death ;
     rdfs:label "Tod von Alpers, Friedrich"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1005> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1005/deathtimestamp> ;
@@ -3867,7 +3867,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00346> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1006> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1006/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1006/death> a ns1:E69_Death ;
     rdfs:label "Tod von Angeluscheff, Zhivko Dimitrov"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1006> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1006/deathtimestamp> ;
@@ -3879,7 +3879,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00028> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1007> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1007/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1007/death> a ns1:E69_Death ;
     rdfs:label "Tod von Angeluscheff, Helene"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1007> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1007/deathtimestamp> ;
@@ -3899,7 +3899,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00204> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1010> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1010/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1010/death> a ns1:E69_Death ;
     rdfs:label "Tod von Beer-Hofmann, Richard"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1010> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1010/deathtimestamp> ;
@@ -3923,7 +3923,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00056> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1018> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1018/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1018/death> a ns1:E69_Death ;
     rdfs:label "Tod von Diamant, Harry"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1018> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1018/deathtimestamp> ;
@@ -3935,7 +3935,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00255> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1019> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1019/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1019/death> a ns1:E69_Death ;
     rdfs:label "Tod von Dodd, Martha"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1019> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1019/deathtimestamp> ;
@@ -3947,7 +3947,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00255> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1020> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1020/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1020/death> a ns1:E69_Death ;
     rdfs:label "Tod von Dodd Jr., William Edward"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1020> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1020/deathtimestamp> ;
@@ -3959,7 +3959,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00373> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1021> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1021/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1021/death> a ns1:E69_Death ;
     rdfs:label "Tod von Dodd, William Edward"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1021> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1021/deathtimestamp> ;
@@ -3971,7 +3971,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00025> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1022> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1022/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1022/death> a ns1:E69_Death ;
     rdfs:label "Tod von Döring, Theodor"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1022> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1022/deathtimestamp> ;
@@ -3983,7 +3983,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00191> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1023> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1023/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1023/death> a ns1:E69_Death ;
     rdfs:label "Tod von Eckstein, Johanna (Yana)"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1023> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1023/deathtimestamp> ;
@@ -3995,7 +3995,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00057> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1024> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1024/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1024/death> a ns1:E69_Death ;
     rdfs:label "Tod von Elker, Alfred"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1024> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1024/deathtimestamp> ;
@@ -4013,7 +4013,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00273> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1028> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1028/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1028/death> a ns1:E69_Death ;
     rdfs:label "Tod von Gazda, Johann"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1028> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1028/deathtimestamp> ;
@@ -4025,7 +4025,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00081> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1029> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1029/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1029/death> a ns1:E69_Death ;
     rdfs:label "Tod von Gelberg, Wilhelm Eberhard"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1029> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1029/deathtimestamp> ;
@@ -4037,7 +4037,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00062> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1033> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1033/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1033/death> a ns1:E69_Death ;
     rdfs:label "Tod von Grunert, Richard"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1033> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1033/deathtimestamp> ;
@@ -4049,7 +4049,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00148> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1034> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1034/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1034/death> a ns1:E69_Death ;
     rdfs:label "Tod von Grünwald, Hanna"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1034> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1034/deathtimestamp> ;
@@ -4061,7 +4061,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00094> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1035> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1035/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1035/death> a ns1:E69_Death ;
     rdfs:label "Tod von Grünwald, Max"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1035> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1035/deathtimestamp> ;
@@ -4073,7 +4073,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00068> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1038> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1038/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1038/death> a ns1:E69_Death ;
     rdfs:label "Tod von Hodik, Johann"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1038> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1038/deathtimestamp> ;
@@ -4085,7 +4085,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00339> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1040> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1040/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1040/death> a ns1:E69_Death ;
     rdfs:label "Tod von Jacobi, Adolf"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1040> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1040/deathtimestamp> ;
@@ -4097,7 +4097,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1043> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1043/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1043/death> a ns1:E69_Death ;
     rdfs:label "Tod von Kitzmantel, Georg"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1043> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1043/deathtimestamp> ;
@@ -4109,7 +4109,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00313> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1047> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1047/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1047/death> a ns1:E69_Death ;
     rdfs:label "Tod von Kahle, Richard"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1047> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1047/deathtimestamp> ;
@@ -4121,7 +4121,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00408> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1048> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1048/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1048/death> a ns1:E69_Death ;
     rdfs:label "Tod von Heine, Wolfgang"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1048> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1048/deathtimestamp> ;
@@ -4133,7 +4133,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1049> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1049/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1049/death> a ns1:E69_Death ;
     rdfs:label "Tod von Kary, Hugo"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1049> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1049/deathtimestamp> ;
@@ -4145,7 +4145,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00396> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1052> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1052/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1052/death> a ns1:E69_Death ;
     rdfs:label "Tod von Klingler, Michael"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1052> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1052/deathtimestamp> ;
@@ -4165,7 +4165,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00058> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1056> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1056/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1056/death> a ns1:E69_Death ;
     rdfs:label "Tod von Krause, Max"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1056> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1056/deathtimestamp> ;
@@ -4177,7 +4177,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00002> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1061> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1061/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1061/death> a ns1:E69_Death ;
     rdfs:label "Tod von Lüdemann, Hermann"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1061> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1061/deathtimestamp> ;
@@ -4189,7 +4189,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00209> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1062> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1062/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1062/death> a ns1:E69_Death ;
     rdfs:label "Tod von Ludwig, Helena Magdalena"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1062> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1062/deathtimestamp> ;
@@ -4201,7 +4201,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00209> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1063> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1063/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1063/death> a ns1:E69_Death ;
     rdfs:label "Tod von Ludwig, Werner"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1063> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1063/deathtimestamp> ;
@@ -4213,7 +4213,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00209> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1064> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1064/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1064/death> a ns1:E69_Death ;
     rdfs:label "Tod von Ludwig, Adolf"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1064> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1064/deathtimestamp> ;
@@ -4225,7 +4225,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00383> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1066> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1066/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1066/death> a ns1:E69_Death ;
     rdfs:label "Tod von Mann, Klaus"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1066> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1066/deathtimestamp> ;
@@ -4237,7 +4237,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00194> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1067> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1067/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1067/death> a ns1:E69_Death ;
     rdfs:label "Tod von Salten, Ottilie"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1067> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1067/deathtimestamp> ;
@@ -4249,7 +4249,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00313> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1068> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1068/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1068/death> a ns1:E69_Death ;
     rdfs:label "Tod von Mosse, Rudolf Sigismund Markus"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1068> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1068/deathtimestamp> ;
@@ -4261,7 +4261,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00040> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1071> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1071/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1071/death> a ns1:E69_Death ;
     rdfs:label "Tod von Müller, Jørgen Peter"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1071> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1071/deathtimestamp> ;
@@ -4273,7 +4273,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00179> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1072> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1072/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1072/death> a ns1:E69_Death ;
     rdfs:label "Tod von Müller, Ludwig"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1072> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1072/deathtimestamp> ;
@@ -4285,7 +4285,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1073> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1073/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1073/death> a ns1:E69_Death ;
     rdfs:label "Tod von Natter, Ernst"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1073> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1073/deathtimestamp> ;
@@ -4297,7 +4297,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00186> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1075> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1075/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1075/death> a ns1:E69_Death ;
     rdfs:label "Tod von Neusel, Walter"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1075> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1075/deathtimestamp> ;
@@ -4309,7 +4309,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00252> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1076> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1076/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1076/death> a ns1:E69_Death ;
     rdfs:label "Tod von Oberascher, Hermann"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1076> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1076/deathtimestamp> ;
@@ -4321,7 +4321,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00034> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1078> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1078/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1078/death> a ns1:E69_Death ;
     rdfs:label "Tod von Panitschek, Gustav"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1078> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1078/deathtimestamp> ;
@@ -4339,7 +4339,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00197> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1083> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1083/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1083/death> a ns1:E69_Death ;
     rdfs:label "Tod von Rieth, Kurt"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1083> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1083/deathtimestamp> ;
@@ -4351,7 +4351,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00183> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1085> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1085/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1085/death> a ns1:E69_Death ;
     rdfs:label "Tod von Puttkamer, Robert Viktor von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1085> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1085/deathtimestamp> ;
@@ -4363,7 +4363,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00122> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1086> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1086/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1086/death> a ns1:E69_Death ;
     rdfs:label "Tod von Roach, Charles Alan"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1086> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1086/deathtimestamp> ;
@@ -4375,7 +4375,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00392> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1088> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1088/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1088/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schärf, Adolf"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1088> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1088/deathtimestamp> ;
@@ -4387,7 +4387,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00324> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1089> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1089/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1089/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schattenfroh, Franz"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1089> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1089/deathtimestamp> ;
@@ -4399,7 +4399,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00172> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1091> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1091/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1091/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schirach, Carl von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1091> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1091/deathtimestamp> ;
@@ -4411,7 +4411,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00313> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1092> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1092/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1092/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schirach, Rosalind von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1092> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1092/deathtimestamp> ;
@@ -4423,7 +4423,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00365> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1093> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1093/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1093/death> a ns1:E69_Death ;
     rdfs:label "Tod von Seeliger, Alfred"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1093> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1093/deathtimestamp> ;
@@ -4435,7 +4435,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00049> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1094> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1094/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1094/death> a ns1:E69_Death ;
     rdfs:label "Tod von Wegner, Ernst"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1094> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1094/deathtimestamp> ;
@@ -4447,7 +4447,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00460> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1098> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1098/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1098/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schulze-Wechsungen, Werner"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1098> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1098/deathtimestamp> ;
@@ -4459,7 +4459,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00341> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1099> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1099/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1099/death> a ns1:E69_Death ;
     rdfs:label "Tod von Severing, Carl Wilhelm"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1099> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1099/deathtimestamp> ;
@@ -4471,7 +4471,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1100> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1100/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1100/death> a ns1:E69_Death ;
     rdfs:label "Tod von Sichl, Maria Anna"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1100> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1100/deathtimestamp> ;
@@ -4483,7 +4483,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00136> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1101> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1101/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1101/death> a ns1:E69_Death ;
     rdfs:label "Tod von Streiff, Arnold Eric"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1101> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1101/deathtimestamp> ;
@@ -4495,7 +4495,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00064> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1102> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1102/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1102/death> a ns1:E69_Death ;
     rdfs:label "Tod von Sonnenschein, Hugo"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1102> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1102/deathtimestamp> ;
@@ -4507,7 +4507,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00008> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1103> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1103/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1103/death> a ns1:E69_Death ;
     rdfs:label "Tod von Straffner, Josef"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1103> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1103/deathtimestamp> ;
@@ -4519,7 +4519,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1105> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1105/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1105/death> a ns1:E69_Death ;
     rdfs:label "Tod von Thayer, Johann"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1105> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1105/deathtimestamp> ;
@@ -4531,7 +4531,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00448> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1106> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1106/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1106/death> a ns1:E69_Death ;
     rdfs:label "Tod von Theisen, Matthias"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1106> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1106/deathtimestamp> ;
@@ -4543,7 +4543,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1110> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1110/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1110/death> a ns1:E69_Death ;
     rdfs:label "Tod von Volkert, Ernst"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1110> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1110/deathtimestamp> ;
@@ -4555,7 +4555,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00212> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1111> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1111/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1111/death> a ns1:E69_Death ;
     rdfs:label "Tod von Wagner, Adolf"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1111> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1111/deathtimestamp> ;
@@ -4567,7 +4567,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00380> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1113> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1113/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1113/death> a ns1:E69_Death ;
     rdfs:label "Tod von Weiß, Wilhelm"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1113> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1113/deathtimestamp> ;
@@ -4579,7 +4579,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00106> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1116> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1116/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1116/death> a ns1:E69_Death ;
     rdfs:label "Tod von Ziegler, Johann"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1116> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1116/deathtimestamp> ;
@@ -4591,7 +4591,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00004> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1117> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1117/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1117/death> a ns1:E69_Death ;
     rdfs:label "Tod von Zinßer, Eduard"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1117> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1117/deathtimestamp> ;
@@ -4603,7 +4603,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00211> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1119> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1119/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1119/death> a ns1:E69_Death ;
     rdfs:label "Tod von Beer, Rudolf"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1119> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1119/deathtimestamp> ;
@@ -4620,7 +4620,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00017> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1122> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1122/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1122/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schwaninger, Michael"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1122> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1122/deathtimestamp> ;
@@ -4632,7 +4632,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1130> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1130/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1130/death> a ns1:E69_Death ;
     rdfs:label "Tod von Lauterbach, Albert"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1130> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1130/deathtimestamp> ;
@@ -4644,7 +4644,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1131> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1131/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1131/death> a ns1:E69_Death ;
     rdfs:label "Tod von Kanitz, Otto Felix"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1131> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1131/deathtimestamp> ;
@@ -4656,7 +4656,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1132> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1132/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1132/death> a ns1:E69_Death ;
     rdfs:label "Tod von Seitz, Karl"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1132> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1132/deathtimestamp> ;
@@ -4668,7 +4668,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00251> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1135> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1135/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1135/death> a ns1:E69_Death ;
     rdfs:label "Tod von Rieger, Gustav"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1135> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1135/deathtimestamp> ;
@@ -4680,7 +4680,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00262> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1136> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1136/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1136/death> a ns1:E69_Death ;
     rdfs:label "Tod von Hohenstatter, Ernst"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1136> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1136/deathtimestamp> ;
@@ -4692,7 +4692,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00383> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1137> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1137/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1137/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schardt, Oskar Franz"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1137> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1137/deathtimestamp> .
@@ -4709,7 +4709,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00466> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1141> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1141/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1141/death> a ns1:E69_Death ;
     rdfs:label "Tod von Dirnberger, Oskar Franz"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1141> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1141/deathtimestamp> ;
@@ -4721,7 +4721,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00446> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1142> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1142/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1142/death> a ns1:E69_Death ;
     rdfs:label "Tod von Bärwald, Leo"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1142> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1142/deathtimestamp> ;
@@ -4733,7 +4733,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00437> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1150> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1150/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1150/death> a ns1:E69_Death ;
     rdfs:label "Tod von Marum, Ludwig"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1150> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1150/deathtimestamp> ;
@@ -4745,7 +4745,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00181> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1152> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1152/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1152/death> a ns1:E69_Death ;
     rdfs:label "Tod von Rückert, Leopold"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1152> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1152/deathtimestamp> ;
@@ -4757,7 +4757,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00123> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1153> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1153/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1153/death> a ns1:E69_Death ;
     rdfs:label "Tod von Pflaumer, Karl"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1153> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1153/deathtimestamp> ;
@@ -4769,7 +4769,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00181> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1154> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1154/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1154/death> a ns1:E69_Death ;
     rdfs:label "Tod von Moraller, Franz Karl Theodor"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1154> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1154/deathtimestamp> ;
@@ -4780,7 +4780,7 @@
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1158/birth/timestamp> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1158> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1158/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1158/death> a ns1:E69_Death ;
     rdfs:label "Tod von Verdier, Jean"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1158> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1158/deathtimestamp> .
@@ -4791,7 +4791,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00367> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1159> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1159/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1159/death> a ns1:E69_Death ;
     rdfs:label "Tod von Rémond, Paul"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1159> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1159/deathtimestamp> ;
@@ -4803,7 +4803,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00434> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1160> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1160/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1160/death> a ns1:E69_Death ;
     rdfs:label "Tod von Freedman, David Isaac"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1160> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1160/deathtimestamp> ;
@@ -4814,7 +4814,7 @@
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1161/birth/timestamp> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1161> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1161/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1161/death> a ns1:E69_Death ;
     rdfs:label "Tod von Kukurudza, Michael"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1161> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1161/deathtimestamp> ;
@@ -4826,7 +4826,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00172> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1170> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1170/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1170/death> a ns1:E69_Death ;
     rdfs:label "Tod von Tesch, Bruno"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1170> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1170/deathtimestamp> ;
@@ -4838,7 +4838,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00223> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1171> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1171/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1171/death> a ns1:E69_Death ;
     rdfs:label "Tod von Tesch, Virginia Amata"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1171> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1171/deathtimestamp> ;
@@ -4850,7 +4850,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00187> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1175> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1175/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1175/death> a ns1:E69_Death ;
     rdfs:label "Tod von Kaaserer, Richard"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1175> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1175/deathtimestamp> ;
@@ -4862,7 +4862,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00368> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1176> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1176/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1176/death> a ns1:E69_Death ;
     rdfs:label "Tod von Schlösser, Rainer"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1176> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1176/deathtimestamp> ;
@@ -4874,7 +4874,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00292> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1200> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1200/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1200/death> a ns1:E69_Death ;
     rdfs:label "Tod von Meyer, Alfred"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1200> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1200/deathtimestamp> ;
@@ -4886,7 +4886,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00259> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1201> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1201/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1201/death> a ns1:E69_Death ;
     rdfs:label "Tod von Fischer, Alois"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1201> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1201/deathtimestamp> ;
@@ -4898,7 +4898,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00114> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1203> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1203/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1203/death> a ns1:E69_Death ;
     rdfs:label "Tod von Lang, Josef"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1203> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1203/deathtimestamp> ;
@@ -4910,7 +4910,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00313> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1207> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1207/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1207/death> a ns1:E69_Death ;
     rdfs:label "Tod von Bogs, Alexander"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1207> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1207/deathtimestamp> ;
@@ -4922,7 +4922,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1208> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1208/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1208/death> a ns1:E69_Death ;
     rdfs:label "Tod von Grillparzer, Franz"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1208> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1208/deathtimestamp> ;
@@ -4934,7 +4934,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00228> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1209> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1209/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1209/death> a ns1:E69_Death ;
     rdfs:label "Tod von Reither, Josef"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1209> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1209/deathtimestamp> ;
@@ -4946,7 +4946,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00313> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers1300> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers1300/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers1300/death> a ns1:E69_Death ;
     rdfs:label "Tod von Puttkamer, Jesko Freiherr von"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers1300> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers1300/deathtimestamp> ;
@@ -4964,7 +4964,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00311> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers2002> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers2002/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers2002/death> a ns1:E69_Death ;
     rdfs:label "Tod von Kadletz, Franz"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers2002> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers2002/deathtimestamp> ;
@@ -5006,7 +5006,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00232> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers2011> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers2011/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers2011/death> a ns1:E69_Death ;
     rdfs:label "Tod von Zaiser, Karl Robert"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers2011> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers2011/deathtimestamp> ;
@@ -5018,7 +5018,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers2013> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers2013/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers2013/death> a ns1:E69_Death ;
     rdfs:label "Tod von Hodik [jun.], Johann"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers2013> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers2013/deathtimestamp> ;
@@ -5030,7 +5030,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers2014> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers2014/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers2014/death> a ns1:E69_Death ;
     rdfs:label "Tod von Högl, Aloisia"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers2014> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers2014/deathtimestamp> ;
@@ -5042,7 +5042,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00357> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers2015> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers2015/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers2015/death> a ns1:E69_Death ;
     rdfs:label "Tod von Matkowsky, Adalbert"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers2015> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers2015/deathtimestamp> ;
@@ -5065,7 +5065,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00375> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers2019> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers2019/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers2019/death> a ns1:E69_Death ;
     rdfs:label "Tod von Kottisch, Reinhold"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers2019> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers2019/deathtimestamp> ;
@@ -5077,7 +5077,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00299> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers2020> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers2020/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers2020/death> a ns1:E69_Death ;
     rdfs:label "Tod von Wolnitza, Rufin"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers2020> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers2020/deathtimestamp> ;
@@ -5107,7 +5107,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00276> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers2024> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers2024/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers2024/death> a ns1:E69_Death ;
     rdfs:label "Tod von Hoppe, Georg"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers2024> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers2024/deathtimestamp> .
@@ -5118,7 +5118,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00181> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers2025> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers2025/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers2025/death> a ns1:E69_Death ;
     rdfs:label "Tod von Stenz, Hermann"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers2025> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers2025/deathtimestamp> ;
@@ -5130,7 +5130,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00335> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers2026> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers2026/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers2026/death> a ns1:E69_Death ;
     rdfs:label "Tod von Furrer sen., August"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers2026> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers2026/deathtimestamp> ;
@@ -5142,7 +5142,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00315> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers2027> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers2027/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers2027/death> a ns1:E69_Death ;
     rdfs:label "Tod von Marx, Erich"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers2027> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers2027/deathtimestamp> .
@@ -5153,7 +5153,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00426> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers2028> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers2028/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers2028/death> a ns1:E69_Death ;
     rdfs:label "Tod von Grünebaum, Sally"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers2028> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers2028/deathtimestamp> ;
@@ -5165,7 +5165,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00448> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers2029> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers2029/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers2029/death> a ns1:E69_Death ;
     rdfs:label "Tod von Klausmann, Robert"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers2029> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers2029/deathtimestamp> ;
@@ -5177,7 +5177,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00194> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers2031> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers2031/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers2031/death> a ns1:E69_Death ;
     rdfs:label "Tod von Brod, Max"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers2031> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers2031/deathtimestamp> ;
@@ -5189,7 +5189,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers2041> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers2041/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers2041/death> a ns1:E69_Death ;
     rdfs:label "Tod von Mandl, Fritz"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers2041> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers2041/deathtimestamp> ;
@@ -5201,7 +5201,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00291> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers2043> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers2043/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers2043/death> a ns1:E69_Death ;
     rdfs:label "Tod von Ebert [jun.], Friedrich"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers2043> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers2043/deathtimestamp> ;
@@ -5213,7 +5213,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00313> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers2044> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers2044/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers2044/death> a ns1:E69_Death ;
     rdfs:label "Tod von Heilmann, Ernst"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers2044> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers2044/deathtimestamp> ;
@@ -5225,7 +5225,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers2333> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers2333/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers2333/death> a ns1:E69_Death ;
     rdfs:label "Tod von Bedenik, Franz"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers2333> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers2333/deathtimestamp> ;
@@ -5237,7 +5237,7 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/dwplace00313> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/dwpers3001> .
 
-<https://sk.acdh.oeaw.ac.at/dwpers3001/death> a ns1:E67_Death ;
+<https://sk.acdh.oeaw.ac.at/dwpers3001/death> a ns1:E69_Death ;
     rdfs:label "Tod von Bade, Wilfrid"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/dwpers3001> ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers3001/deathtimestamp> ;
