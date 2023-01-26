@@ -31,14 +31,6 @@ for x in tqdm(items, total=len(items)):
     g.add((subj, RDF.type, CIDOC["E21_Person"]))
     g += make_ed42_identifiers(subj, x, type_domain=f"{SK}types", default_lang="und")
     g += make_appelations(subj, x, type_domain=f"{SK}types", default_lang="und")
-    try:
-        gnd = x.xpath('.//tei:idno[@type="GND"]/text()', namespaces=nsmap)[0]
-    except IndexError:
-        gnd = None
-    if gnd:
-        gnd_uri = URIRef(f"https://https://d-nb.info/gnd/{gnd}")
-        g.add((subj, OWL["sameAs"], gnd_uri))
-        g.add((gnd_uri, RDF.type, CIDOC["E42_Identifier"]))
     for y in x.xpath(".//tei:occupation", namespaces=nsmap):
         label = y.text
         occupation_id = y.attrib["n"]
@@ -150,14 +142,6 @@ for x in doc.any_xpath(".//tei:place"):
     g.add((subj, RDF.type, CIDOC["E53_Place"]))
     g += make_appelations(subj, x, type_domain=f"{SK}types/", default_lang="und")
     g += make_ed42_identifiers(subj, x, type_domain=f"{SK}types", default_lang="und")
-    try:
-        pmb = x.xpath('.//tei:idno[@type="pmb"]/text()', namespaces=nsmap)[0]
-    except IndexError:
-        pmb = None
-    if pmb:
-        pmb_uri = URIRef(pmb)
-        g.add((subj, OWL["sameAs"], pmb_uri))
-        g.add((pmb_uri, RDF.type, CIDOC["E42_Identifier"]))
 doc = TeiReader("./data/indices/listorg.xml")
 for x in doc.any_xpath(".//tei:org"):
     xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"].lower()
@@ -166,7 +150,4 @@ for x in doc.any_xpath(".//tei:org"):
     g.add((subj, RDF.type, CIDOC["E74_Group"]))
     g += make_appelations(subj, x, type_domain=f"{SK}types/", default_lang="und")
     g += make_ed42_identifiers(subj, x, type_domain=f"{SK}types", default_lang="und")
-    for y in x.xpath(".//tei:idno[@type]/text()", namespaces=nsmap):
-        g.add((subj, OWL["sameAs"], URIRef(y)))
-        g.add((pmb_uri, RDF.type, CIDOC["E42_Identifier"]))
 g.serialize(f"{rdf_dir}/data.ttl")
