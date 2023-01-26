@@ -112,7 +112,7 @@ for x in tqdm(items, total=len(items)):
         if death:
             b_uri = URIRef(f"{SK}{xml_id}/death")
             b_timestamp = URIRef(f"{b_uri}timestamp")
-            g.add((b_uri, RDF.type, CIDOC["E67_Death"]))
+            g.add((b_uri, RDF.type, CIDOC["E69_Death"]))
             if label:
                 g.add(
                     (
