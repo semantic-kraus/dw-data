@@ -40,7 +40,7 @@ for x in tqdm(items, total=len(items)):
         g.add((uri, RDF.type, FRBROO["F51"]))
         g.add((uri, RDFS.label, Literal(normalize_string(label), lang="de")))
         begin, end = extract_begin_end(y)
-        if begin != "" or end != "":
+        if begin and end:
             ts_uri = URIRef(f"{uri}/timestamp")
             g.add((uri, CIDOC["P4_has_time-span"], ts_uri))
             g += create_e52(ts_uri, begin_of_begin=begin, end_of_end=end)
@@ -52,7 +52,7 @@ for x in tqdm(items, total=len(items)):
         g.add((join_uri, RDF.type, CIDOC["E85_Joining"]))
         g.add((join_uri, CIDOC["P143_joined"], subj))
         g.add((join_uri, CIDOC["P144_joined_with"], uri))
-        if begin != "":
+        if begin:
             ts_uri = URIRef(f"{join_uri}/timestamp/{begin}")
             g.add((join_uri, CIDOC["P4_has_time-span"], ts_uri))
             g += create_e52(ts_uri, begin_of_begin=begin, end_of_end=begin)
@@ -60,12 +60,12 @@ for x in tqdm(items, total=len(items)):
             end = y.attrib["notAfter"]
         except KeyError:
             end = ""
-        if end != "":
+        if end:
             join_uri = URIRef(f"{uri}/leaving/{xml_id}")
             g.add((join_uri, RDF.type, CIDOC["E86_Leaving"]))
             g.add((join_uri, CIDOC["P145_separated"], subj))
             g.add((join_uri, CIDOC["P146_separated_from"], uri))
-            if end != "":
+            if end:
                 ts_uri = URIRef(f"{join_uri}/timestamp/{end}")
                 g.add((join_uri, CIDOC["P4_has_time-span"], ts_uri))
                 g += create_e52(ts_uri, begin_of_begin=end, end_of_end=end)
@@ -83,7 +83,6 @@ for x in tqdm(items, total=len(items)):
     if birth:
         birth_g, b_uri, birth_timestamp = make_birth_death_entities(subj, x, event_type="birth", verbose=True)
         g += birth_g
-        g += create_e52(birth_timestamp, begin_of_begin=birth, end_of_end=birth)
         try:
             place = x.xpath(".//tei:birth/tei:placeName", namespaces=doc.nsmap)[0]
         except IndexError:
@@ -102,7 +101,6 @@ for x in tqdm(items, total=len(items)):
     if death:
         death_g, b_uri, death_timestamp = make_birth_death_entities(subj, x, event_type="death", verbose=True, default_prefix="Tod von")
         g += death_g
-        g += create_e52(death_timestamp, begin_of_begin=death, end_of_end=death)
         try:
             place = x.xpath(".//tei:death/tei:placeName", namespaces=doc.nsmap)[0]
         except IndexError:
