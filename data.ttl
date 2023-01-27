@@ -18006,9 +18006,9 @@
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/dwpers0244/occupation/02/timestamp> .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0244/occupation/02/timestamp> a ns1:E52_Time-Span ;
-    rdfs:label "1921 - 1921"^^xsd:string ;
-    ns1:P82a_begin_of_the_begin "1921"^^xsd:gYear ;
-    ns1:P82b_end_of_the_end "1921"^^xsd:gYear .
+    rdfs:label "1922 - 1933"^^xsd:string ;
+    ns1:P82a_begin_of_the_begin "1922"^^xsd:gYear ;
+    ns1:P82b_end_of_the_end "1933"^^xsd:gYear .
 
 <https://sk.acdh.oeaw.ac.at/dwpers0244/occupation/03> a <http://iflastandards.info/ns/fr/frbr/frbroo#F51> ;
     rdfs:label "österreichischer Bundeskanzler"@de ;
