@@ -6,7 +6,7 @@ from acdh_cidoc_pyutils import (
     extract_begin_end,
     make_appelations,
     make_ed42_identifiers,
-    make_birth_death_entities
+    make_birth_death_entities,
 )
 from acdh_cidoc_pyutils.namespaces import CIDOC, FRBROO
 from acdh_tei_pyutils.tei import TeiReader
@@ -26,7 +26,7 @@ doc = TeiReader("./data/indices/listperson.xml")
 nsmap = doc.nsmap
 items = doc.any_xpath(".//tei:person")
 for x in tqdm(items, total=len(items)):
-    xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"].lower()
+    xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"]
     item_id = f"{SK}{xml_id}"
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E21_Person"]))
@@ -45,7 +45,7 @@ for x in tqdm(items, total=len(items)):
             g.add((uri, CIDOC["P4_has_time-span"], ts_uri))
             g += create_e52(ts_uri, begin_of_begin=begin, end_of_end=end)
     for y in x.xpath(".//tei:affiliation[@ref]", namespaces=nsmap):
-        affiliation_id = y.attrib["ref"][1:].lower()
+        affiliation_id = y.attrib["ref"][1:]
         end, _ = extract_begin_end(y)
         uri = URIRef(f"{SK}{affiliation_id}")
         join_uri = URIRef(f"{uri}/joining/{xml_id}")
@@ -81,39 +81,28 @@ for x in tqdm(items, total=len(items)):
     except IndexError:
         birth = None
     if birth:
-        birth_g, b_uri, birth_timestamp = make_birth_death_entities(subj, x, event_type="birth", verbose=True)
+        birth_g, b_uri, birth_timestamp = make_birth_death_entities(
+            subj, x, domain=SK, event_type="birth", verbose=True
+        )
         g += birth_g
-        try:
-            place = x.xpath(".//tei:birth/tei:placeName", namespaces=doc.nsmap)[0]
-        except IndexError:
-            place = None
-        if place is not None:
-            place_id = place.attrib["key"][1:].lower()
-            place_name = place.text
-            place_uri = URIRef(f"{SK}{place_id}")
-            g.add((b_uri, CIDOC["P7_took_place_at"], place_uri))
-            g.add((place_uri, RDF.type, CIDOC["E53_Place"]))
     # death
     try:
         death = x.xpath(".//tei:death[@when]/@when", namespaces=doc.nsmap)[0]
     except IndexError:
         death = None
     if death:
-        death_g, b_uri, death_timestamp = make_birth_death_entities(subj, x, event_type="death", verbose=True, default_prefix="Tod von")
+        death_g, b_uri, death_timestamp = make_birth_death_entities(
+            subj,
+            x,
+            domain=SK,
+            event_type="death",
+            verbose=True,
+            default_prefix="Tod von",
+        )
         g += death_g
-        try:
-            place = x.xpath(".//tei:death/tei:placeName", namespaces=doc.nsmap)[0]
-        except IndexError:
-            place = None
-        if place is not None:
-            place_id = place.attrib["key"][1:].lower()
-            place_name = place.text
-            place_uri = URIRef(f"{SK}{place_id}")
-            g.add((b_uri, CIDOC["P7_took_place_at"], place_uri))
-            g.add((place_uri, RDF.type, CIDOC["E53_Place"]))
 doc = TeiReader("./data/indices/listplace.xml")
 for x in doc.any_xpath(".//tei:place"):
-    xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"].lower()
+    xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"]
     item_id = f"{SK}{xml_id}"
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E53_Place"]))
@@ -121,7 +110,7 @@ for x in doc.any_xpath(".//tei:place"):
     g += make_ed42_identifiers(subj, x, type_domain=f"{SK}types", default_lang="und")
 doc = TeiReader("./data/indices/listorg.xml")
 for x in doc.any_xpath(".//tei:org"):
-    xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"].lower()
+    xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"]
     item_id = f"{SK}{xml_id}"
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E74_Group"]))
