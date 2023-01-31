@@ -2,17 +2,16 @@ import os
 from tqdm import tqdm
 from acdh_cidoc_pyutils import (
     create_e52,
-    normalize_string,
     extract_begin_end,
     make_appelations,
     make_ed42_identifiers,
     make_birth_death_entities,
     make_occupations
 )
-from acdh_cidoc_pyutils.namespaces import CIDOC, FRBROO
+from acdh_cidoc_pyutils.namespaces import CIDOC
 from acdh_tei_pyutils.tei import TeiReader
-from rdflib import Graph, Namespace, URIRef, Literal
-from rdflib.namespace import RDF, RDFS
+from rdflib import Graph, Namespace, URIRef
+from rdflib.namespace import RDF
 
 
 domain = "https://sk.acdh.oeaw.ac.at/"
