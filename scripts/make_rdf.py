@@ -7,6 +7,7 @@ from acdh_cidoc_pyutils import (
     make_appelations,
     make_ed42_identifiers,
     make_birth_death_entities,
+    make_occupations
 )
 from acdh_cidoc_pyutils.namespaces import CIDOC, FRBROO
 from acdh_tei_pyutils.tei import TeiReader
@@ -32,18 +33,7 @@ for x in tqdm(items, total=len(items)):
     g.add((subj, RDF.type, CIDOC["E21_Person"]))
     g += make_ed42_identifiers(subj, x, type_domain=f"{SK}types", default_lang="und")
     g += make_appelations(subj, x, type_domain=f"{SK}types", default_lang="und")
-    for y in x.xpath(".//tei:occupation", namespaces=nsmap):
-        label = y.text
-        occupation_id = y.attrib["n"]
-        uri = URIRef(f"{SK}{xml_id}/occupation/{occupation_id}")
-        g.add((subj, CIDOC["P14i_performed"], uri))
-        g.add((uri, RDF.type, FRBROO["F51"]))
-        g.add((uri, RDFS.label, Literal(normalize_string(label), lang="de")))
-        begin, end = extract_begin_end(y)
-        if begin and end:
-            ts_uri = URIRef(f"{uri}/timestamp")
-            g.add((uri, CIDOC["P4_has_time-span"], ts_uri))
-            g += create_e52(ts_uri, begin_of_begin=begin, end_of_end=end)
+    g += make_occupations(subj, x, f"{SK}", default_lang="und", id_xpath='@n')[0]
     for y in x.xpath(".//tei:affiliation[@ref]", namespaces=nsmap):
         affiliation_id = y.attrib["ref"][1:]
         end, _ = extract_begin_end(y)
@@ -52,10 +42,10 @@ for x in tqdm(items, total=len(items)):
         g.add((join_uri, RDF.type, CIDOC["E85_Joining"]))
         g.add((join_uri, CIDOC["P143_joined"], subj))
         g.add((join_uri, CIDOC["P144_joined_with"], uri))
-        if begin:
-            ts_uri = URIRef(f"{join_uri}/timestamp/{begin}")
-            g.add((join_uri, CIDOC["P4_has_time-span"], ts_uri))
-            g += create_e52(ts_uri, begin_of_begin=begin, end_of_end=begin)
+        # if begin:
+        #     ts_uri = URIRef(f"{join_uri}/timestamp/{begin}")
+        #     g.add((join_uri, CIDOC["P4_has_time-span"], ts_uri))
+        #     g += create_e52(ts_uri, begin_of_begin=begin, end_of_end=begin)
         try:
             end = y.attrib["notAfter"]
         except KeyError:
