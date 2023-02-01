@@ -267,8 +267,13 @@
 						<persName type="sk" subtype="pref">Thayer, Johann</persName>
 						<birth when="1911-07-25">25. 7. 1911<placeName key="#DWplace00085"
 								>Wien</placeName></birth>
-						<death when="1990-07-04">4. 7. 1990<placeName type="ignore" key="#DWplace00066">Wien
-								(Best.)</placeName></death>
+						<event>
+							<desc>
+								<date when="1990-07-04">4. 7. 1990</date>
+								<placeName key="#DWplace00066">Wien</placeName>
+							</desc>
+							<note>Event type: Burial</note>
+						</event>
 						<occupation type="prim" n="01">Buchbindergehilfe</occupation>
 						<occupation n="02">SS-Mitglied</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
@@ -288,8 +293,7 @@
 						<persName type="sk" subtype="pseud">Meixner, Hugo</persName>
 						<birth when="1900-07-22">22. 7. 1900<placeName key="#DWplace00251">Brunn am
 								Gebirge</placeName></birth>
-						<death when="1990-06">28. 6. 1990<placeName type="ignore" key="#DWplace00066">Wien
-								(Best.)</placeName></death>
+						<death when="1990-06">28. 6. 1990</death>
 						<occupation type="prim" n="01">Vertreter, Wein- und Obsthändler,
 							SS-Haupsturmführer</occupation>
 						<occupation notBefore="1933" n="02">Aufseher in Dachau</occupation>
@@ -1981,8 +1985,7 @@
 						</persName>
 						<birth when="1904-06-24">24. 6. 1904<placeName key="#DWplace00085"
 								>Wien</placeName></birth>
-						<death when="1986-07-29">29. 7. 1986<placeName key="#DWplace00066">Wien
-								(Best.)</placeName></death>
+						<death when="1986-07">Juli 1986</death>
 						<persName type="sk" subtype="pref">Lauterbach, Albert</persName>
 						<occupation type="prim" n="01">Journalist, Ökonom</occupation>
 						<affiliation ref="#DWorg00007" n="01">SDAP</affiliation>
@@ -2000,7 +2003,7 @@
 						</persName>
 						<birth when="1894-02-05">5. 2. 1894<placeName key="#DWplace00085"
 								>Wien</placeName></birth>
-						<death when="1940-03-27">27. 3. 194<placeName key="#DWplace00394">KZ
+						<death when="1940-03-27">27. 3. 1940<placeName key="#DWplace00394">KZ
 								Buchenwald</placeName></death>
 						<persName type="sk" subtype="pref">Kanitz, Otto Felix</persName>
 						<occupation type="prim" n="01">Pädagoge, Politiker</occupation>
@@ -2043,9 +2046,14 @@
 						</persName>
 						<birth when="1906-11-19">19. 11. 1906<placeName key="#DWplace00375">Eichenau
 								(Wójcice)</placeName></birth>
-						<death when="1943-07-01" type="missing">1. 7. 1943<placeName key="#DWplace00240"
-								>Charkow/Ljubotin/Merefa/Olschany bei Charkow
-							(vermisst)</placeName></death>
+						<event>
+							<desc>
+								<date when="1943-07-01">1. 7. 1943</date>
+								<placeName key="#DWplace00240">Charkow/Ljubotin/Merefa/Olschany 
+								bei Charkow</placeName>
+							</desc>
+							<note>Event type: Declared/Gone Missing</note>
+						</event>
 						<persName type="sk" subtype="pref">Kottisch, Reinhold</persName>
 						<occupation type="prim" n="01">Elektriker</occupation>
 						<occupation n="02">SA-Mitglied</occupation>
@@ -2133,7 +2141,12 @@
 						<birth when="1889-09-17">17. 9. 1889<placeName key="#DWplace00276">Koszinnen
 								(Kozin)</placeName></birth>
 						<persName type="sk" subtype="pref">Hoppe, Georg</persName>
-						<death when="1945-01-01" type="missing">1. 1. 1945 (vermisst)</death>
+						<event>
+							<desc>
+								<date when="1945-01-01">1. 1. 1945</date>
+							</desc>
+							<note>Event type: Declared/Gone Missing</note>
+						</event>
 						<occupation type="prim" n="01">Gastwirt</occupation>
 						<occupation n="02">SA-Sturmführer</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
@@ -3071,8 +3084,14 @@
 						</persName>
 						<birth when="1450">ca. 1450<placeName key="#DWplace00214"
 								>’s-Hertogenbosch</placeName></birth>
-						<death when="1516-08-08">8. 8. 1516<placeName key="#DWplace00162" type="ignore"
-								>’s-Hertogenbosch (Best.)</placeName></death>
+						<event>
+							<desc>
+								<date when="1516-08-08">8. 8. 1516</date>
+								<placeName key="#DWplace00162"
+									>’s-Hertogenbosch</placeName>
+							</desc>
+							<note>Event type: Burial</note>
+						</event>
 						<persName type="sk" subtype="pref">Bosch, Hieronymus</persName>
 						<occupation type="prim" n="01">Maler</occupation>
 						<idno type="GND">11851380X</idno>
@@ -3779,8 +3798,19 @@
 						</persName>
 						<birth when="1896-12-18">18. 12. 1896<placeName key="#DWplace00239"
 								>Frankfurt am Main</placeName></birth>
-						<death when="1945-03" type="missing">März 1945 bei <placeName key="#DWplace00313">Berlin</placeName> (verschollen, am 31. 12. 1945 für tot
-							erklärt)</death>
+						<event>
+							<desc>
+								<date when="1945-03">März 1945</date>
+								<placeName key="#DWplace00313">Berlin</placeName>
+							</desc>
+							<note>Event type: Declared/Gone Missing</note>
+						</event>
+						<event>
+							<desc>
+								<date when="1945-12-31">31. 12. 1945</date>
+							</desc>
+							<note>Event type: Declared Dead</note>
+						</event>
 						<persName type="sk" subtype="pref">Flesch, Hans</persName>
 						<persName type="sk" subtype="born">Flesch, Johannes Georg Julius
 							Jakob</persName>
@@ -5670,7 +5700,12 @@
 						<birth when="1892-01-29">29. 1. 1892<placeName key="#DWplace00266">Csantavér
 								(Čantavir)</placeName></birth>
 						<persName type="sk" subtype="pref">Matuška, Szilveszter</persName>
-						<death when="1944" type="missing">(verschwunden 1944/45)</death>
+						<event>
+							<desc>
+								<date when="1944">1944</date>
+							</desc>
+							<note>Event type: Declared/Gone Missing</note>
+						</event>
 						<occupation type="prim" n="01">Eisenbahnattentäter</occupation>
 						<idno type="GND">1112956344</idno>
 						<note type="source" subtype="publ">GND</note>
