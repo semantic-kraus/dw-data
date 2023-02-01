@@ -964,12 +964,6 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/DWplace00214> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/DWpers0023> .
 
-<https://sk.acdh.oeaw.ac.at/DWpers0023/death> a ns1:E69_Death ;
-    rdfs:label "Tod von Bosch, Hieronymus"@de ;
-    ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/DWpers0023> ;
-    ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers0023/death/timestamp> ;
-    ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/DWplace00162> .
-
 <https://sk.acdh.oeaw.ac.at/DWpers0024/birth> a ns1:E67_Birth ;
     rdfs:label "Geburt von Braun, Alfred"@de ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers0024/birth/timestamp> ;
@@ -1376,12 +1370,6 @@
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers0060/birth/timestamp> ;
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/DWplace00239> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/DWpers0060> .
-
-<https://sk.acdh.oeaw.ac.at/DWpers0060/death> a ns1:E69_Death ;
-    rdfs:label "Tod von Flesch, Hans Johannes Georg Julius Jakob"@de ;
-    ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/DWpers0060> ;
-    ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers0060/death/timestamp> ;
-    ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/DWplace00313> .
 
 <https://sk.acdh.oeaw.ac.at/DWpers0061/birth> a ns1:E67_Birth ;
     rdfs:label "Geburt von Franck, James"@de ;
@@ -2490,11 +2478,6 @@
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers0164/birth/timestamp> ;
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/DWplace00266> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/DWpers0164> .
-
-<https://sk.acdh.oeaw.ac.at/DWpers0164/death> a ns1:E69_Death ;
-    rdfs:label "Tod von Matuška, Szilveszter"@de ;
-    ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/DWpers0164> ;
-    ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers0164/death/timestamp> .
 
 <https://sk.acdh.oeaw.ac.at/DWpers0165/birth> a ns1:E67_Birth ;
     rdfs:label "Geburt von May, Karl"@de ;
@@ -4396,12 +4379,6 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/DWplace00085> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/DWpers1105> .
 
-<https://sk.acdh.oeaw.ac.at/DWpers1105/death> a ns1:E69_Death ;
-    rdfs:label "Tod von Thayer, Johann"@de ;
-    ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/DWpers1105> ;
-    ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers1105/death/timestamp> ;
-    ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/DWplace00066> .
-
 <https://sk.acdh.oeaw.ac.at/DWpers1106/birth> a ns1:E67_Birth ;
     rdfs:label "Geburt von Theisen, Matthias"@de ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers1106/birth/timestamp> ;
@@ -4512,8 +4489,7 @@
 <https://sk.acdh.oeaw.ac.at/DWpers1130/death> a ns1:E69_Death ;
     rdfs:label "Tod von Lauterbach, Albert"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/DWpers1130> ;
-    ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers1130/death/timestamp> ;
-    ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/DWplace00066> .
+    ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers1130/death/timestamp> .
 
 <https://sk.acdh.oeaw.ac.at/DWpers1131/birth> a ns1:E67_Birth ;
     rdfs:label "Geburt von Kanitz, Otto Felix"@de ;
@@ -4548,8 +4524,7 @@
 <https://sk.acdh.oeaw.ac.at/DWpers1135/death> a ns1:E69_Death ;
     rdfs:label "Tod von Rieger, Gustav Hugo"@de ;
     ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/DWpers1135> ;
-    ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers1135/death/timestamp> ;
-    ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/DWplace00066> .
+    ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers1135/death/timestamp> .
 
 <https://sk.acdh.oeaw.ac.at/DWpers1136/birth> a ns1:E67_Birth ;
     rdfs:label "Geburt von Hohenstatter, Ernst"@de ;
@@ -4942,12 +4917,6 @@
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/DWplace00375> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/DWpers2019> .
 
-<https://sk.acdh.oeaw.ac.at/DWpers2019/death> a ns1:E69_Death ;
-    rdfs:label "Tod von Kottisch, Reinhold"@de ;
-    ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/DWpers2019> ;
-    ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers2019/death/timestamp> ;
-    ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/DWplace00240> .
-
 <https://sk.acdh.oeaw.ac.at/DWpers2020/birth> a ns1:E67_Birth ;
     rdfs:label "Geburt von Wolnitza, Rufin"@de ;
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers2020/birth/timestamp> ;
@@ -4983,11 +4952,6 @@
     ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers2024/birth/timestamp> ;
     ns1:P7_took_place_at <https://sk.acdh.oeaw.ac.at/DWplace00276> ;
     ns1:P98_brought_into_life <https://sk.acdh.oeaw.ac.at/DWpers2024> .
-
-<https://sk.acdh.oeaw.ac.at/DWpers2024/death> a ns1:E69_Death ;
-    rdfs:label "Tod von Hoppe, Georg"@de ;
-    ns1:P100_was_death_of <https://sk.acdh.oeaw.ac.at/DWpers2024> ;
-    ns1:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers2024/death/timestamp> .
 
 <https://sk.acdh.oeaw.ac.at/DWpers2025/birth> a ns1:E67_Birth ;
     rdfs:label "Geburt von Stenz, Hermann"@de ;
@@ -5185,6 +5149,15 @@
         <https://sk.acdh.oeaw.ac.at/DWplace00047/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/DWplace00047/identifier/DWplace00047> .
 
+<https://sk.acdh.oeaw.ac.at/DWplace00066> a ns1:E53_Place ;
+    rdfs:label "Wien (Best.)"@de ;
+    ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00066/appelation/0>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00066/appelation/1>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00066/appelation/2>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00066/identifier/DWplace00066>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00066/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/50/> .
+
 <https://sk.acdh.oeaw.ac.at/DWplace00075> a ns1:E53_Place ;
     rdfs:label "Altneudorf bei Heidelberg"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00075/appelation/0>,
@@ -5262,6 +5235,13 @@
         <https://sk.acdh.oeaw.ac.at/DWplace00153/identifier/DWplace00153>,
         <https://sk.acdh.oeaw.ac.at/DWplace00153/identifier/idno/0> ;
     owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/989/> .
+
+<https://sk.acdh.oeaw.ac.at/DWplace00162> a ns1:E53_Place ;
+    rdfs:label "’s-Hertogenbosch (Best.)"@de ;
+    ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00162/appelation/0>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00162/appelation/1>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00162/appelation/2>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00162/identifier/DWplace00162> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00168> a ns1:E53_Place ;
     rdfs:label "Belgard (Białogard)"@de ;
@@ -5349,6 +5329,13 @@
         <https://sk.acdh.oeaw.ac.at/DWplace00237/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/DWplace00237/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/DWplace00237/identifier/DWplace00237> .
+
+<https://sk.acdh.oeaw.ac.at/DWplace00240> a ns1:E53_Place ;
+    rdfs:label "Charkow/Ljubotin/Merefa/Olschany bei Charkow (vermisst)"@de ;
+    ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00240/appelation/0>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00240/appelation/1>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00240/appelation/2>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00240/identifier/DWplace00240> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00243> a ns1:E53_Place ;
     rdfs:label "Andelin"@de ;
@@ -7245,6 +7232,15 @@
 <https://sk.acdh.oeaw.ac.at/DWpers0022/occupation/01> a <http://iflastandards.info/ns/fr/frbr/frbroo#F51> ;
     rdfs:label "Schriftsteller"@und .
 
+<https://sk.acdh.oeaw.ac.at/DWpers0023> a ns1:E21_Person ;
+    rdfs:label "Bosch, Hieronymus"@und ;
+    ns1:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers0023/occupation/01> ;
+    ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers0023/appelation/0/0>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0023/appelation/0/1>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0023/appelation/1>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0023/identifier/DWpers0023>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0023/identifier/idno/0> .
+
 <https://sk.acdh.oeaw.ac.at/DWpers0023/appelation/0/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Hieronymus"@und ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/person/persname/forename> .
@@ -7261,11 +7257,6 @@
     rdfs:label "1450 - 1450"^^xsd:string ;
     ns1:P82a_begin_of_the_begin "1450"^^xsd:gYear ;
     ns1:P82b_end_of_the_end "1450"^^xsd:gYear .
-
-<https://sk.acdh.oeaw.ac.at/DWpers0023/death/timestamp> a ns1:E52_Time-Span ;
-    rdfs:label "1516-08-08 - 1516-08-08"^^xsd:string ;
-    ns1:P82a_begin_of_the_begin "1516-08-08"^^xsd:date ;
-    ns1:P82b_end_of_the_end "1516-08-08"^^xsd:date .
 
 <https://sk.acdh.oeaw.ac.at/DWpers0023/identifier/DWpers0023> a ns1:E42_Identifier ;
     rdfs:label "DWpers0023"@und ;
@@ -8861,6 +8852,22 @@
 <https://sk.acdh.oeaw.ac.at/DWpers0059/occupation/02> a <http://iflastandards.info/ns/fr/frbr/frbroo#F51> ;
     rdfs:label "Rayonsinspektor der Wiener Sicherheitswache"@und .
 
+<https://sk.acdh.oeaw.ac.at/DWpers0060> a ns1:E21_Person ;
+    rdfs:label "Flesch, Hans Johannes Georg Julius Jakob"@und ;
+    ns1:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers0060/occupation/01>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0060/occupation/02>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0060/occupation/03> ;
+    ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers0060/appelation/0/0>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0060/appelation/0/1>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0060/appelation/0/2>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0060/appelation/0/3>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0060/appelation/0/4>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0060/appelation/0/5>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0060/appelation/1>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0060/appelation/2>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0060/identifier/DWpers0060>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0060/identifier/idno/0> .
+
 <https://sk.acdh.oeaw.ac.at/DWpers0060/appelation/0/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Hans"@und ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/person/persname/forename/taken> .
@@ -8897,11 +8904,6 @@
     rdfs:label "1896-12-18 - 1896-12-18"^^xsd:string ;
     ns1:P82a_begin_of_the_begin "1896-12-18"^^xsd:date ;
     ns1:P82b_end_of_the_end "1896-12-18"^^xsd:date .
-
-<https://sk.acdh.oeaw.ac.at/DWpers0060/death/timestamp> a ns1:E52_Time-Span ;
-    rdfs:label "1945-03 - 1945-03"^^xsd:string ;
-    ns1:P82a_begin_of_the_begin "1945-03"^^xsd:gYearMonth ;
-    ns1:P82b_end_of_the_end "1945-03"^^xsd:gYearMonth .
 
 <https://sk.acdh.oeaw.ac.at/DWpers0060/identifier/DWpers0060> a ns1:E42_Identifier ;
     rdfs:label "DWpers0060"@und ;
@@ -13443,6 +13445,15 @@
 <https://sk.acdh.oeaw.ac.at/DWpers0163/occupation/01> a <http://iflastandards.info/ns/fr/frbr/frbroo#F51> ;
     rdfs:label "Sozial- und Wirtschaftsphilosoph, Theoretiker des Sozialismus"@und .
 
+<https://sk.acdh.oeaw.ac.at/DWpers0164> a ns1:E21_Person ;
+    rdfs:label "Matuška, Szilveszter"@und ;
+    ns1:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers0164/occupation/01> ;
+    ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers0164/appelation/0/0>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0164/appelation/0/1>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0164/appelation/1>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0164/identifier/DWpers0164>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0164/identifier/idno/0> .
+
 <https://sk.acdh.oeaw.ac.at/DWpers0164/appelation/0/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Szilveszter"@und ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/person/persname/forename> .
@@ -13459,11 +13470,6 @@
     rdfs:label "1892-01-29 - 1892-01-29"^^xsd:string ;
     ns1:P82a_begin_of_the_begin "1892-01-29"^^xsd:date ;
     ns1:P82b_end_of_the_end "1892-01-29"^^xsd:date .
-
-<https://sk.acdh.oeaw.ac.at/DWpers0164/death/timestamp> a ns1:E52_Time-Span ;
-    rdfs:label "1944 - 1944"^^xsd:string ;
-    ns1:P82a_begin_of_the_begin "1944"^^xsd:gYear ;
-    ns1:P82b_end_of_the_end "1944"^^xsd:gYear .
 
 <https://sk.acdh.oeaw.ac.at/DWpers0164/identifier/DWpers0164> a ns1:E42_Identifier ;
     rdfs:label "DWpers0164"@und ;
@@ -20749,11 +20755,6 @@
     ns1:P82a_begin_of_the_begin "1911-07-25"^^xsd:date ;
     ns1:P82b_end_of_the_end "1911-07-25"^^xsd:date .
 
-<https://sk.acdh.oeaw.ac.at/DWpers1105/death/timestamp> a ns1:E52_Time-Span ;
-    rdfs:label "1990-07-04 - 1990-07-04"^^xsd:string ;
-    ns1:P82a_begin_of_the_begin "1990-07-04"^^xsd:date ;
-    ns1:P82b_end_of_the_end "1990-07-04"^^xsd:date .
-
 <https://sk.acdh.oeaw.ac.at/DWpers1105/identifier/DWpers1105> a ns1:E42_Identifier ;
     rdfs:label "DWpers1105"@und ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/xml-id> .
@@ -21147,9 +21148,9 @@
     ns1:P82b_end_of_the_end "1904-06-24"^^xsd:date .
 
 <https://sk.acdh.oeaw.ac.at/DWpers1130/death/timestamp> a ns1:E52_Time-Span ;
-    rdfs:label "1986-07-29 - 1986-07-29"^^xsd:string ;
-    ns1:P82a_begin_of_the_begin "1986-07-29"^^xsd:date ;
-    ns1:P82b_end_of_the_end "1986-07-29"^^xsd:date .
+    rdfs:label "1986-07 - 1986-07"^^xsd:string ;
+    ns1:P82a_begin_of_the_begin "1986-07"^^xsd:gYearMonth ;
+    ns1:P82b_end_of_the_end "1986-07"^^xsd:gYearMonth .
 
 <https://sk.acdh.oeaw.ac.at/DWpers1130/identifier/DWpers1130> a ns1:E42_Identifier ;
     rdfs:label "DWpers1130"@und ;
@@ -22842,11 +22843,6 @@
     ns1:P82a_begin_of_the_begin "1906-11-19"^^xsd:date ;
     ns1:P82b_end_of_the_end "1906-11-19"^^xsd:date .
 
-<https://sk.acdh.oeaw.ac.at/DWpers2019/death/timestamp> a ns1:E52_Time-Span ;
-    rdfs:label "1943-07-01 - 1943-07-01"^^xsd:string ;
-    ns1:P82a_begin_of_the_begin "1943-07-01"^^xsd:date ;
-    ns1:P82b_end_of_the_end "1943-07-01"^^xsd:date .
-
 <https://sk.acdh.oeaw.ac.at/DWpers2019/identifier/DWpers2019> a ns1:E42_Identifier ;
     rdfs:label "DWpers2019"@und ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/xml-id> .
@@ -23016,11 +23012,6 @@
     rdfs:label "1889-09-17 - 1889-09-17"^^xsd:string ;
     ns1:P82a_begin_of_the_begin "1889-09-17"^^xsd:date ;
     ns1:P82b_end_of_the_end "1889-09-17"^^xsd:date .
-
-<https://sk.acdh.oeaw.ac.at/DWpers2024/death/timestamp> a ns1:E52_Time-Span ;
-    rdfs:label "1945-01-01 - 1945-01-01"^^xsd:string ;
-    ns1:P82a_begin_of_the_begin "1945-01-01"^^xsd:date ;
-    ns1:P82b_end_of_the_end "1945-01-01"^^xsd:date .
 
 <https://sk.acdh.oeaw.ac.at/DWpers2024/identifier/DWpers2024> a ns1:E42_Identifier ;
     rdfs:label "DWpers2024"@und ;
@@ -26334,13 +26325,6 @@
     rdfs:label "https://pmb.acdh.oeaw.ac.at/entity/631/"@und ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> .
 
-<https://sk.acdh.oeaw.ac.at/DWplace00162> a ns1:E53_Place ;
-    rdfs:label "’s-Hertogenbosch (Best.)"@de ;
-    ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00162/appelation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00162/appelation/1>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00162/appelation/2>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00162/identifier/DWplace00162> .
-
 <https://sk.acdh.oeaw.ac.at/DWplace00162/appelation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "’s-Hertogenbosch (Best.)"@de ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/orig-name> .
@@ -27576,13 +27560,6 @@
 <https://sk.acdh.oeaw.ac.at/DWplace00239/identifier/idno/0> a ns1:E42_Identifier ;
     rdfs:label "https://pmb.acdh.oeaw.ac.at/entity/146/"@und ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> .
-
-<https://sk.acdh.oeaw.ac.at/DWplace00240> a ns1:E53_Place ;
-    rdfs:label "Charkow/Ljubotin/Merefa/Olschany bei Charkow (vermisst)"@de ;
-    ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00240/appelation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00240/appelation/1>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00240/appelation/2>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00240/identifier/DWplace00240> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00240/appelation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Charkow/Ljubotin/Merefa/Olschany bei Charkow (vermisst)"@de ;
@@ -31616,15 +31593,6 @@
         <https://sk.acdh.oeaw.ac.at/DWpers0022/identifier/DWpers0022>,
         <https://sk.acdh.oeaw.ac.at/DWpers0022/identifier/idno/0> .
 
-<https://sk.acdh.oeaw.ac.at/DWpers0023> a ns1:E21_Person ;
-    rdfs:label "Bosch, Hieronymus"@und ;
-    ns1:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers0023/occupation/01> ;
-    ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers0023/appelation/0/0>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0023/appelation/0/1>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0023/appelation/1>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0023/identifier/DWpers0023>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0023/identifier/idno/0> .
-
 <https://sk.acdh.oeaw.ac.at/DWpers0024> a ns1:E21_Person ;
     rdfs:label "Braun, Alfred"@und ;
     ns1:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers0024/occupation/01>,
@@ -31840,22 +31808,6 @@
         <https://sk.acdh.oeaw.ac.at/DWpers0059/appelation/0/1>,
         <https://sk.acdh.oeaw.ac.at/DWpers0059/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/DWpers0059/identifier/DWpers0059> .
-
-<https://sk.acdh.oeaw.ac.at/DWpers0060> a ns1:E21_Person ;
-    rdfs:label "Flesch, Hans Johannes Georg Julius Jakob"@und ;
-    ns1:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers0060/occupation/01>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0060/occupation/02>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0060/occupation/03> ;
-    ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers0060/appelation/0/0>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0060/appelation/0/1>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0060/appelation/0/2>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0060/appelation/0/3>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0060/appelation/0/4>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0060/appelation/0/5>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0060/appelation/1>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0060/appelation/2>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0060/identifier/DWpers0060>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0060/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/DWpers0061> a ns1:E21_Person ;
     rdfs:label "Franck, James"@und ;
@@ -32461,15 +32413,6 @@
         <https://sk.acdh.oeaw.ac.at/DWpers0163/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/DWpers0163/identifier/DWpers0163>,
         <https://sk.acdh.oeaw.ac.at/DWpers0163/identifier/idno/0> .
-
-<https://sk.acdh.oeaw.ac.at/DWpers0164> a ns1:E21_Person ;
-    rdfs:label "Matuška, Szilveszter"@und ;
-    ns1:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers0164/occupation/01> ;
-    ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers0164/appelation/0/0>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0164/appelation/0/1>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0164/appelation/1>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0164/identifier/DWpers0164>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0164/identifier/idno/0> .
 
 <https://sk.acdh.oeaw.ac.at/DWpers0165> a ns1:E21_Person ;
     rdfs:label "May, Karl"@und ;
@@ -33507,6 +33450,15 @@
         <https://sk.acdh.oeaw.ac.at/DWpers1101/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/DWpers1101/identifier/DWpers1101> .
 
+<https://sk.acdh.oeaw.ac.at/DWpers1105> a ns1:E21_Person ;
+    rdfs:label "Thayer, Johann"@und ;
+    ns1:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers1105/occupation/01>,
+        <https://sk.acdh.oeaw.ac.at/DWpers1105/occupation/02> ;
+    ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers1105/appelation/0/0>,
+        <https://sk.acdh.oeaw.ac.at/DWpers1105/appelation/0/1>,
+        <https://sk.acdh.oeaw.ac.at/DWpers1105/appelation/1>,
+        <https://sk.acdh.oeaw.ac.at/DWpers1105/identifier/DWpers1105> .
+
 <https://sk.acdh.oeaw.ac.at/DWpers1117> a ns1:E21_Person ;
     rdfs:label "Zinßer, Eduard"@und ;
     ns1:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers1117/occupation/01> ;
@@ -33750,6 +33702,16 @@
         <https://sk.acdh.oeaw.ac.at/DWpers2018/appelation/2>,
         <https://sk.acdh.oeaw.ac.at/DWpers2018/identifier/DWpers2018> .
 
+<https://sk.acdh.oeaw.ac.at/DWpers2019> a ns1:E21_Person ;
+    rdfs:label "Kottisch, Reinhold"@und ;
+    ns1:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers2019/occupation/01>,
+        <https://sk.acdh.oeaw.ac.at/DWpers2019/occupation/02> ;
+    ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers2019/appelation/0/0>,
+        <https://sk.acdh.oeaw.ac.at/DWpers2019/appelation/0/1>,
+        <https://sk.acdh.oeaw.ac.at/DWpers2019/appelation/1>,
+        <https://sk.acdh.oeaw.ac.at/DWpers2019/identifier/DWpers2019>,
+        <https://sk.acdh.oeaw.ac.at/DWpers2019/identifier/idno/0> .
+
 <https://sk.acdh.oeaw.ac.at/DWpers2021> a ns1:E21_Person ;
     rdfs:label "Gräupner, August"@und ;
     ns1:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers2021/occupation/01>,
@@ -33780,6 +33742,15 @@
         <https://sk.acdh.oeaw.ac.at/DWpers2023/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/DWpers2023/identifier/DWpers2023>,
         <https://sk.acdh.oeaw.ac.at/DWpers2023/identifier/idno/0> .
+
+<https://sk.acdh.oeaw.ac.at/DWpers2024> a ns1:E21_Person ;
+    rdfs:label "Hoppe, Georg"@und ;
+    ns1:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers2024/occupation/01>,
+        <https://sk.acdh.oeaw.ac.at/DWpers2024/occupation/02> ;
+    ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers2024/appelation/0/0>,
+        <https://sk.acdh.oeaw.ac.at/DWpers2024/appelation/0/1>,
+        <https://sk.acdh.oeaw.ac.at/DWpers2024/appelation/1>,
+        <https://sk.acdh.oeaw.ac.at/DWpers2024/identifier/DWpers2024> .
 
 <https://sk.acdh.oeaw.ac.at/DWpers2031> a ns1:E21_Person ;
     rdfs:label "Brod, Max"@und ;
@@ -35327,15 +35298,6 @@
         <https://sk.acdh.oeaw.ac.at/DWpers1103/identifier/DWpers1103>,
         <https://sk.acdh.oeaw.ac.at/DWpers1103/identifier/idno/0> .
 
-<https://sk.acdh.oeaw.ac.at/DWpers1105> a ns1:E21_Person ;
-    rdfs:label "Thayer, Johann"@und ;
-    ns1:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers1105/occupation/01>,
-        <https://sk.acdh.oeaw.ac.at/DWpers1105/occupation/02> ;
-    ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers1105/appelation/0/0>,
-        <https://sk.acdh.oeaw.ac.at/DWpers1105/appelation/0/1>,
-        <https://sk.acdh.oeaw.ac.at/DWpers1105/appelation/1>,
-        <https://sk.acdh.oeaw.ac.at/DWpers1105/identifier/DWpers1105> .
-
 <https://sk.acdh.oeaw.ac.at/DWpers1106> a ns1:E21_Person ;
     rdfs:label "Theisen, Matthias"@und ;
     ns1:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers1106/occupation/01>,
@@ -35581,16 +35543,6 @@
         <https://sk.acdh.oeaw.ac.at/DWpers2011/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/DWpers2011/identifier/DWpers2011> .
 
-<https://sk.acdh.oeaw.ac.at/DWpers2019> a ns1:E21_Person ;
-    rdfs:label "Kottisch, Reinhold"@und ;
-    ns1:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers2019/occupation/01>,
-        <https://sk.acdh.oeaw.ac.at/DWpers2019/occupation/02> ;
-    ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers2019/appelation/0/0>,
-        <https://sk.acdh.oeaw.ac.at/DWpers2019/appelation/0/1>,
-        <https://sk.acdh.oeaw.ac.at/DWpers2019/appelation/1>,
-        <https://sk.acdh.oeaw.ac.at/DWpers2019/identifier/DWpers2019>,
-        <https://sk.acdh.oeaw.ac.at/DWpers2019/identifier/idno/0> .
-
 <https://sk.acdh.oeaw.ac.at/DWpers2020> a ns1:E21_Person ;
     rdfs:label "Wolnitza, Rufin"@und ;
     ns1:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers2020/occupation/01>,
@@ -35600,15 +35552,6 @@
         <https://sk.acdh.oeaw.ac.at/DWpers2020/appelation/1>,
         <https://sk.acdh.oeaw.ac.at/DWpers2020/identifier/DWpers2020>,
         <https://sk.acdh.oeaw.ac.at/DWpers2020/identifier/idno/0> .
-
-<https://sk.acdh.oeaw.ac.at/DWpers2024> a ns1:E21_Person ;
-    rdfs:label "Hoppe, Georg"@und ;
-    ns1:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers2024/occupation/01>,
-        <https://sk.acdh.oeaw.ac.at/DWpers2024/occupation/02> ;
-    ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers2024/appelation/0/0>,
-        <https://sk.acdh.oeaw.ac.at/DWpers2024/appelation/0/1>,
-        <https://sk.acdh.oeaw.ac.at/DWpers2024/appelation/1>,
-        <https://sk.acdh.oeaw.ac.at/DWpers2024/identifier/DWpers2024> .
 
 <https://sk.acdh.oeaw.ac.at/DWpers2025> a ns1:E21_Person ;
     rdfs:label "Stenz, Hermann"@und ;
@@ -35701,15 +35644,6 @@
         <https://sk.acdh.oeaw.ac.at/DWplace00002/identifier/DWplace00002>,
         <https://sk.acdh.oeaw.ac.at/DWplace00002/identifier/idno/0> ;
     owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/884/> .
-
-<https://sk.acdh.oeaw.ac.at/DWplace00066> a ns1:E53_Place ;
-    rdfs:label "Wien (Best.)"@de ;
-    ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00066/appelation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00066/appelation/1>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00066/appelation/2>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00066/identifier/DWplace00066>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00066/identifier/idno/0> ;
-    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/50/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00134> a ns1:E53_Place ;
     rdfs:label "Moskau"@de ;
