@@ -1,12 +1,11 @@
 import os
 from tqdm import tqdm
 from acdh_cidoc_pyutils import (
-    create_e52,
-    extract_begin_end,
     make_appelations,
     make_ed42_identifiers,
     make_birth_death_entities,
-    make_occupations
+    make_occupations,
+    make_affiliations,
 )
 from acdh_cidoc_pyutils.namespaces import CIDOC
 from acdh_tei_pyutils.tei import TeiReader
@@ -30,40 +29,22 @@ for x in tqdm(items, total=len(items)):
     item_id = f"{SK}{xml_id}"
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E21_Person"]))
-    g += make_ed42_identifiers(subj, x, type_domain=f"{SK}types", default_lang="und")
-    g += make_appelations(subj, x, type_domain=f"{SK}types", default_lang="und")
-    g += make_occupations(subj, x, f"{SK}", default_lang="und", id_xpath='@n')[0]
-    for y in x.xpath(".//tei:affiliation[@ref]", namespaces=nsmap):
-        affiliation_id = y.attrib["ref"][1:]
-        end, _ = extract_begin_end(y)
-        uri = URIRef(f"{SK}{affiliation_id}")
-        join_uri = URIRef(f"{uri}/joining/{xml_id}")
-        g.add((join_uri, RDF.type, CIDOC["E85_Joining"]))
-        g.add((join_uri, CIDOC["P143_joined"], subj))
-        g.add((join_uri, CIDOC["P144_joined_with"], uri))
-        # if begin:
-        #     ts_uri = URIRef(f"{join_uri}/timestamp/{begin}")
-        #     g.add((join_uri, CIDOC["P4_has_time-span"], ts_uri))
-        #     g += create_e52(ts_uri, begin_of_begin=begin, end_of_end=begin)
-        try:
-            end = y.attrib["notAfter"]
-        except KeyError:
-            end = ""
-        if end:
-            join_uri = URIRef(f"{uri}/leaving/{xml_id}")
-            g.add((join_uri, RDF.type, CIDOC["E86_Leaving"]))
-            g.add((join_uri, CIDOC["P145_separated"], subj))
-            g.add((join_uri, CIDOC["P146_separated_from"], uri))
-            if end:
-                ts_uri = URIRef(f"{join_uri}/timestamp/{end}")
-                g.add((join_uri, CIDOC["P4_has_time-span"], ts_uri))
-                g += create_e52(ts_uri, begin_of_begin=end, end_of_end=end)
     try:
         label = x.xpath(
             './/tei:persName[@type="sk"][@subtype="pref"]/text()', namespaces=doc.nsmap
         )[0]
     except IndexError:
         label = None
+    g += make_ed42_identifiers(subj, x, type_domain=f"{SK}types", default_lang="und")
+    g += make_appelations(subj, x, type_domain=f"{SK}types", default_lang="und")
+    g += make_occupations(subj, x, default_lang="und", id_xpath="@n")[0]
+    for y in x.xpath(".//tei:affiliation[@ref]", namespaces=nsmap):
+        g += make_affiliations(
+            subj,
+            x,
+            domain,
+            person_label=f"{label}",
+        )
     # birth
     try:
         birth = x.xpath(".//tei:birth[@when]/@when", namespaces=doc.nsmap)[0]
