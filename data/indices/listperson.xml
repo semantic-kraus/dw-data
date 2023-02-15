@@ -249,7 +249,7 @@
 							<surname type="taken" subtype="later">Graf</surname>
 						</persName>
 						<persName type="sk" subtype="pref">Crcil, Josef</persName>
-						<persName type="sk" subtype="pseud">Graf, Karl</persName>
+						<persName type="sk" subtype="taken">Graf, Karl</persName>
 						<birth when="1912-02-13">13. 2. 1912<placeName key="#DWplace00085"
 								>Wien</placeName></birth>
 						<death>?</death>
@@ -290,7 +290,7 @@
 							<surname type="taken" subtype="later">Meixner</surname>
 						</persName>
 						<persName type="sk" subtype="pref">Rieger, Gustav</persName>
-						<persName type="sk" subtype="pseud">Meixner, Hugo</persName>
+						<persName type="sk" subtype="taken">Meixner, Hugo</persName>
 						<birth when="1900-07-22">22. 7. 1900<placeName key="#DWplace00251">Brunn am
 								Gebirge</placeName></birth>
 						<death when="1990-06">28. 6. 1990</death>
@@ -311,7 +311,7 @@
 							<surname type="taken" subtype="later">Pertz</surname>
 						</persName>
 						<persName type="sk" subtype="pref">Bedenik, Franz</persName>
-						<persName type="sk" subtype="pseud">Pertz, Josef</persName>
+						<persName type="sk" subtype="taken">Pertz, Josef</persName>
 						<birth when="1912-03-04">4. 3. 1912 o. 1913<placeName key="#DWplace00085"
 								>Wien</placeName></birth>
 						<death when="1939-01-21">21. 1. 1939<placeName key="#DWplace00085"
@@ -449,7 +449,7 @@
 						<death when="1997-06-19">19. 6. 1997<placeName key="#DWplace00456">Bruck an
 								der Mur</placeName></death>
 						<persName type="sk" subtype="pref">Ziegler, Johann</persName>
-						<persName type="sk" subtype="pseud">Huber, Hans</persName>
+						<persName type="sk" subtype="taken">Huber, Hans</persName>
 						<occupation type="prim" n="01">Schuhmachergehilfe, Werkschutzführer</occupation>
 						<occupation n="02">SS-Hauptsturmführer</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
@@ -466,7 +466,7 @@
 							<surname type="taken" subtype="later">Kurtner</surname>
 						</persName>
 						<persName type="sk" subtype="pref">Kary, Hugo</persName>
-						<persName type="sk" subtype="pseud">Kurtner, Hugo</persName>
+						<persName type="sk" subtype="taken">Kurtner, Hugo</persName>
 						<birth when="1903-11-29">29. 11. 1903<placeName key="#DWplace00085"
 								>Wien</placeName></birth>
 						<death when="1978-07-07">7. 7. 1978<placeName key="#DWplace00464"
@@ -1289,7 +1289,7 @@
 							<surname type="taken" subtype="later">Pernreiter</surname>
 						</persName>
 						<persName type="sk" subtype="pref">Happach, Ernst</persName>
-						<persName type="sk" subtype="pseud">Pernreiter, Hans</persName>
+						<persName type="sk" subtype="taken">Pernreiter, Hans</persName>
 						<birth when="1897">25. 6. o. 25. 7. 1897<placeName key="#DWplace00085"
 								>Wien</placeName></birth>
 						<death>?</death>
@@ -1326,7 +1326,7 @@
 							<surname type="taken" subtype="later">Strobl</surname>
 						</persName>
 						<persName type="sk" subtype="pref">Jatsch, Robert</persName>
-						<persName type="sk" subtype="pseud">Strobl, Hans</persName>
+						<persName type="sk" subtype="taken">Strobl, Hans</persName>
 						<birth when="1902">1902</birth>
 						<death>?</death>
 						<occupation type="prim" n="01">Kellner</occupation>
