@@ -431,7 +431,7 @@
 						<death when="1938-07-19">19. 7. 1938<placeName key="#DWplace00085"
 								>Wien</placeName></death>
 						<persName type="sk" subtype="pref">Högl, Aloisia</persName>
-						<persName type="sk" subtype="nick">Högl, Luise</persName>
+						<persName type="sk" subtype="alt">Högl, Luise</persName>
 						<occupation type="prim" n="01">Private</occupation>
 						<note type="source" subtype="publ">WStLA, zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
