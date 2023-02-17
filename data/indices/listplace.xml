@@ -226,7 +226,7 @@
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/94292/</idno>
                     </place>
                     <place xml:id="DWplace00032">
-                        <placeName xml:lang="de" type="orig_name">San Francisco CA</placeName>
+                        <placeName xml:lang="en" type="orig_name">San Francisco CA</placeName>
                         
                         
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/38216/</idno>
@@ -234,14 +234,14 @@
                     <place xml:id="DWplace00033">
                         <placeName xml:lang="de" type="orig_name">Altona (Hamburg-Altona)</placeName>
                         <placeName xml:lang="de" type="simple_name">Altona</placeName>
-                        <placeName xml:lang="und" type="alt_label">Hamburg-Altona</placeName>
+                        <placeName xml:lang="de" type="alt_label">Hamburg-Altona</placeName>
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/1259/</idno>
                     </place>
                     <place xml:id="DWplace00034">
                         <placeName xml:lang="de" type="orig_name">Radkersburg</placeName>
                         
                         
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/95529/</idno>
                     </place>
                     <place xml:id="DWplace00035">
                         <placeName xml:lang="de" type="orig_name">Miami FL</placeName>
@@ -265,19 +265,20 @@
                         <placeName xml:lang="de" type="orig_name">Riverdale NY</placeName>
                         
                         
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/141877/</idno>
+                        <idno type="geonames">https://www.geonames.org/5133917/riverdale.html</idno>
                     </place>
                     <place xml:id="DWplace00039">
                         <placeName xml:lang="de" type="orig_name">Agnetendorf/Agnieszków (Jagniątków)</placeName>
                         <placeName xml:lang="de" type="simple_name">Agnetendorf/Agnieszków</placeName>
                         <placeName xml:lang="und" type="alt_label">Jagniątków</placeName>
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/141878/</idno>
                     </place>
                     <place xml:id="DWplace00040">
                         <placeName xml:lang="de" type="orig_name">Adserbølle</placeName>
                         
                         
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/141879/</idno>
                     </place>
                     <place xml:id="DWplace00041">
                         <placeName xml:lang="de" type="orig_name">Büdesheim (Bingen-Büdesheim)</placeName>
@@ -289,27 +290,27 @@
                         <placeName xml:lang="de" type="orig_name">Egg (Vorarlberg)</placeName>
                         <placeName xml:lang="de" type="simple_name">Egg</placeName>
                         <placeName xml:lang="und" type="alt_label">Vorarlberg</placeName>
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/141885/</idno>
                     </place>
                     <place xml:id="DWplace00043">
                         <placeName xml:lang="de" type="orig_name">Glogau (Głogów)</placeName>
                         <placeName xml:lang="de" type="simple_name">Glogau</placeName>
                         <placeName xml:lang="und" type="alt_label">Głogów</placeName>
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/6298/</idno>
                     </place>
                     <place xml:id="DWplace00044">
                         <placeName xml:lang="de" type="orig_name">Kolín</placeName>
                         
                         
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/2125/</idno>
                     </place>
                     <place xml:id="DWplace00045">
                         <placeName xml:lang="de" type="orig_name">OserLag Taischet / Tajšet</placeName>
                         
                         
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/141886/</idno>
                     </place>
-                    <place xml:id="DWplace00046">
+                    <!--<place xml:id="DWplace00046">
                         <placeName xml:lang="de" type="orig_name">Nezdenitz (Nezdenice)</placeName>
                         <placeName xml:lang="de" type="simple_name">Nezdenitz</placeName>
                         <placeName xml:lang="und" type="alt_label">Nezdenice</placeName>
@@ -324,14 +325,14 @@
                     <place xml:id="DWplace00048">
                         <placeName xml:lang="de" type="orig_name">Monte Collino (Italien)</placeName>
                         <placeName xml:lang="de" type="simple_name">Monte Collino</placeName>
-                        <placeName xml:lang="und" type="alt_label">Italien</placeName>
+                        
                         <idno type="pmb"/>
-                    </place>
+                    </place>-->
                     <place xml:id="DWplace00049">
                         <placeName xml:lang="de" type="orig_name">Szymborze (Inowrocław-Szymborze)</placeName>
                         <placeName xml:lang="de" type="simple_name">Szymborze</placeName>
                         <placeName xml:lang="und" type="alt_label">Inowrocław-Szymborze</placeName>
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/141887/</idno>
                     </place>
                     <place xml:id="DWplace00050">
                         <placeName xml:lang="de" type="orig_name">Schloss Rumpenheim bei Hanau</placeName>
