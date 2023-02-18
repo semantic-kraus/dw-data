@@ -3986,7 +3986,7 @@
 						<death when="1786-08-17">17. 8. 1786<placeName key="#DWplace00074">Sanssouci
 								bei Potsdam</placeName></death>
 						<persName type="sk" subtype="pref">Friedrich der Große</persName>
-						<persName type="sk" subtype="pref">Friedrich II., König von
+						<persName type="sk" subtype="full">Friedrich II., König von
 							Preußen</persName>
 						<occupation type="prim" notBefore="1740-05-31" n="01">Preußischer
 							König</occupation>
@@ -4602,10 +4602,9 @@
 							<nameLink>von</nameLink>
 							<surname>Hessen</surname>
 						</persName>
-						<birth when="1901-05-14">14. 05. 1901<placeName key="#DWplace00239"
+						<birth when="1901-05-14">14. 5. 1901<placeName key="#DWplace00239"
 								>Frankfurt am Main</placeName></birth>
-						<death when="1943-10-07">7. 10. 1943<placeName key="#DWplace00048">Monte
-								Collino (Italien)</placeName></death>
+						<death when="1943-10-07">7. 10. 1943</death>
 						<persName type="sk" subtype="pref">Hessen, Christoph Ernst August Prinz
 							von</persName>
 						<occupation type="prim" notBefore="1933" n="01">Regierungsrat im
