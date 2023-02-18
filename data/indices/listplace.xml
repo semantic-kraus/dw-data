@@ -338,13 +338,13 @@
                         <placeName xml:lang="de" type="orig_name">Schloss Rumpenheim bei Hanau</placeName>
                         
                         
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/141897/</idno>
                     </place>
                     <place xml:id="DWplace00051">
                         <placeName xml:lang="de" type="orig_name">Gildersome (Yorkshire)</placeName>
                         <placeName xml:lang="de" type="simple_name">Gildersome</placeName>
-                        <placeName xml:lang="und" type="alt_label">Yorkshire</placeName>
-                        <idno type="pmb"/>
+                        
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/141898/</idno>
                     </place>
                     <place xml:id="DWplace00052">
                         <placeName xml:lang="de" type="orig_name">Vézelay</placeName>
@@ -356,7 +356,7 @@
                         <placeName xml:lang="de" type="orig_name">Kronberg im Taunus</placeName>
                         
                         
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/43321/</idno>
                     </place>
                     <place xml:id="DWplace00054">
                         <placeName xml:lang="de" type="orig_name">Wasserburg am Inn</placeName>
@@ -374,7 +374,7 @@
                         <placeName xml:lang="de" type="orig_name">New York NY</placeName>
                         
                         
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/5199/</idno>
                     </place>
                     <place xml:id="DWplace00057">
                         <placeName xml:lang="de" type="orig_name">Hamburg</placeName>
@@ -386,7 +386,7 @@
                         <placeName xml:lang="de" type="orig_name">Stallupönen (Nesterow)</placeName>
                         <placeName xml:lang="de" type="simple_name">Stallupönen</placeName>
                         <placeName xml:lang="und" type="alt_label">Nesterow</placeName>
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/141899/</idno>
                     </place>
                     <place xml:id="DWplace00059">
                         <placeName xml:lang="de" type="orig_name">Babylon</placeName>
@@ -446,7 +446,7 @@
                         <placeName xml:lang="de" type="orig_name">Protiwin (Protivín)</placeName>
                         <placeName xml:lang="de" type="simple_name">Protiwin</placeName>
                         <placeName xml:lang="und" type="alt_label">Protivín</placeName>
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/141900/</idno>
                     </place>
                     <place xml:id="DWplace00069">
                         <placeName xml:lang="de" type="orig_name">Berlin-Spandau</placeName>
@@ -458,7 +458,7 @@
                         <placeName xml:lang="de" type="orig_name">Vordernberg</placeName>
                         
                         
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/141901/</idno>
                     </place>
                     <place xml:id="DWplace00071">
                         <placeName xml:lang="de" type="orig_name">Białystok</placeName>
@@ -476,13 +476,13 @@
                         <placeName xml:lang="de" type="orig_name">Ansbach</placeName>
                         
                         
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/45618/</idno>
                     </place>
                     <place xml:id="DWplace00074">
                         <placeName xml:lang="de" type="orig_name">Sanssouci bei Potsdam</placeName>
                         
                         
-                        <idno type="pmb"/>
+                        <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/141902/</idno>
                     </place>
                     <place xml:id="DWplace00075">
                         <placeName xml:lang="de" type="orig_name">Altneudorf bei Heidelberg</placeName>
