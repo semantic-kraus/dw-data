@@ -16,6 +16,7 @@ def gsheet_to_df(sheet_id):
 
 
 df = gsheet_to_df("1wpoZJPKj4CjEuwyVYahGVST9tPKR1aohAJBq4w49Kq0")
+print(df)
 
 with open('./data/indices/listperson.xml', 'r') as f:
     data = f.read()
@@ -24,8 +25,8 @@ for i, row in df.iterrows():
     search_term = f'<note type="source" subtype="publ">{row["abbr"].strip()}</note>'
     replace_term = f'<note type="source" subtype="publ">{row["expan"].strip()}</note>'
     data = data.replace(search_term, replace_term)
-data = data.replace('&', '&amp;')
 
+data = data.replace("&", "&amp;")
 doc = TeiReader(data)
 
-doc.tree_to_file('hansi.xml')
+doc.tree_to_file('./data/indices/listperson.xml')
