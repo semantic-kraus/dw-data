@@ -310,7 +310,7 @@
 						</persName>
 						<persName type="sk" subtype="pref">Bedenik, Franz</persName>
 						<persName type="sk" subtype="taken">Pertz, Josef</persName>
-						<birth when="1912-03-04">4. 3. 1912 o. 1913<placeName key="#DWplace00085">Wien</placeName></birth>
+						<birth when="1912-03-04" type="approx">4. 3. 1912 o. 1913<placeName key="#DWplace00085">Wien</placeName></birth>
 						<death when="1939-01-21">21. 1. 1939<placeName key="#DWplace00085">Wien</placeName></death>
 						<occupation type="prim" n="01">Zuckerbäckergeselle</occupation>
 						<occupation n="02">SS-Scharführer</occupation>
@@ -386,7 +386,7 @@
 							<surname>Baumann</surname>
 						</persName>
 						<persName type="sk" subtype="pref">Baumann, Theresia</persName>
-						<birth when="1888">ca. 1888</birth>
+						<birth when="1888" type="approx">ca. 1888</birth>
 						<death>?</death>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
@@ -846,7 +846,7 @@
 							<forename>Heinrich</forename>
 							<surname>Mosel</surname>
 						</persName>
-						<birth when="1907-06-27">27. o. 29. 6. 1907<placeName key="#DWplace00407">Triest</placeName></birth>
+						<birth when="1907-06-27" type="approx">27. o. 29. 6. 1907<placeName key="#DWplace00407">Triest</placeName></birth>
 						<persName type="sk" subtype="pref">Mosel, Heinrich</persName>
 						<death when="1998-02-11">11. 2. 1998<placeName key="#DWplace00433">Puchheim
 								(Bayern) (?)</placeName></death>
@@ -885,7 +885,7 @@
 							<forename>Karl</forename>
 							<surname>Scheibenpflug</surname>
 						</persName>
-						<birth when="1912">ca. 1912<placeName key="#DWplace00428">Langenlois</placeName></birth>
+						<birth when="1912" type="approx">ca. 1912<placeName key="#DWplace00428">Langenlois</placeName></birth>
 						<persName type="sk" subtype="pref">Weichselbaum, Alois</persName>
 						<persName type="sk" subtype="pseud">Scheibenpflug, Karl</persName>
 						<death>?</death>
@@ -1223,7 +1223,7 @@
 						</persName>
 						<persName type="sk" subtype="pref">Happach, Ernst</persName>
 						<persName type="sk" subtype="taken">Pernreiter, Hans</persName>
-						<birth when="1897">25. 6. o. 25. 7. 1897<placeName key="#DWplace00085">Wien</placeName></birth>
+						<birth when="1897" type="approx">25. 6. o. 25. 7. 1897<placeName key="#DWplace00085">Wien</placeName></birth>
 						<death>?</death>
 						<occupation type="prim" n="01">Maschinenbauer</occupation>
 						<occupation n="02">SS-Mitglied</occupation>
@@ -1936,7 +1936,7 @@
 							<surname>Wolnitza</surname>
 						</persName>
 						<birth when="1907-05-10">10. 5. 1907<placeName key="#DWplace00299">Eichenau (Dąbrówka MałaKatowice)</placeName></birth>
-						<death when="1941-12-13">wahrsch. 13. 12. 1941<placeName key="#DWplace00137">Tschudowo</placeName></death>
+						<death when="1941-12-13" type="approx">wahrsch. 13. 12. 1941<placeName key="#DWplace00137">Tschudowo</placeName></death>
 						<persName type="sk" subtype="pref">Wolnitza, Rufin</persName>
 						<occupation type="prim" n="01">Grubenarbeiter</occupation>
 						<occupation n="02">SA-Mitglied</occupation>
@@ -2583,7 +2583,7 @@
 							<nameLink>van</nameLink>
 							<surname>Beethoven</surname>
 						</persName>
-						<birth when="1770-12-16">16.(?) 12. 1770<placeName key="#DWplace00257">Bonn</placeName></birth>
+						<birth when="1770-12-16" type="approx">16.(?) 12. 1770<placeName key="#DWplace00257">Bonn</placeName></birth>
 						<death when="1827-03-26">26. 3. 1827<placeName key="#DWplace00085">Wien</placeName></death>
 						<persName type="sk" subtype="pref">Beethoven, Ludwig van</persName>
 						<idno type="GND">118508288</idno>
@@ -2859,7 +2859,7 @@
 							<forename>Hieronymus</forename>
 							<surname>Bosch</surname>
 						</persName>
-						<birth when="1450">ca. 1450<placeName key="#DWplace00214">’s-Hertogenbosch</placeName></birth>
+						<birth when="1450" type="approx">ca. 1450<placeName key="#DWplace00214">’s-Hertogenbosch</placeName></birth>
 						<event>
 							<desc>
 								<date when="1516-08-08">8. 8. 1516</date>
@@ -2949,7 +2949,7 @@
 							<surname>Brückner</surname>
 						</persName>
 						<birth when="1896-05-07">7. 5. 1896<placeName key="#DWplace00202">Ober-Peilau (Piława Górna)</placeName></birth>
-						<death when="1951-01-12">12. 1. 1951 (?)<placeName key="#DWplace00045">OserLag Taischet / Tajšet</placeName></death>
+						<death when="1951-01-12" type="approx">12. 1. 1951 (?)<placeName key="#DWplace00045">OserLag Taischet / Tajšet</placeName></death>
 						<persName type="sk" subtype="pref">Brückner, Helmuth</persName>
 						<occupation type="prim" n="01">Politiker</occupation>
 						<occupation n="02">Soldat, Journalist</occupation>
@@ -2987,7 +2987,7 @@
 							<forename>Giordano</forename>
 							<surname>Bruno</surname>
 						</persName>
-						<birth when="1548">Jan. o. Feb. 1548<placeName key="#DWplace00128">Nola</placeName></birth>
+						<birth when="1548-01" type="approx">Jan. o. Feb. 1548<placeName key="#DWplace00128">Nola</placeName></birth>
 						<death when="1600-02-17">17. 2. 1600<placeName key="#DWplace00306">Rom</placeName></death>
 						<persName type="sk" subtype="pref">Bruno, Giordano</persName>
 						<occupation type="prim" n="01">Philosoph, Theologe</occupation>
@@ -3702,7 +3702,7 @@
 							<forename>Abraham</forename>
 							<surname>Friesch</surname>
 						</persName>
-						<birth>Mitte 18. Jh. (?)<placeName key="#DWplace00459">Polna</placeName></birth>
+						<birth type="approx">Mitte 18. Jh. (?)<placeName key="#DWplace00459">Polna</placeName></birth>
 						<persName type="sk" subtype="pref">Friesch, Abraham</persName>
 						<death>?</death>
 						<note type="source" subtype="publ">Hugo Gold (Hg.): Die Juden und Judengemeinden Böhmens in Vergangenheit und Gegenwart. Brünn 1934.</note>
@@ -4696,7 +4696,7 @@
 							<forename>Cristoforo</forename>
 							<surname>Colombo</surname>
 						</persName>
-						<birth when="1451">ca. 1451<placeName key="#DWplace00422">Genua</placeName></birth>
+						<birth when="1451" type="approx">ca. 1451<placeName key="#DWplace00422">Genua</placeName></birth>
 						<death when="1506-05-20">20. 5. 1506<placeName key="#DWplace00377">Valladolid</placeName></death>
 						<persName type="sk" subtype="pref">Colombo, Cristoforo</persName>
 						<occupation type="prim" n="01">Seefahrer</occupation>
@@ -4906,7 +4906,7 @@
 							<forename>Louise</forename>
 							<surname>Labé</surname>
 						</persName>
-						<birth when="1520">ca. 1520/1522<placeName key="#DWplace00021">Lyon</placeName></birth>
+						<birth when="1520" type="approx">ca. 1520/1522<placeName key="#DWplace00021">Lyon</placeName></birth>
 						<death when="1566">1566<placeName key="#DWplace00021">Lyon</placeName></death>
 						<persName type="sk" subtype="pref">Labé, Louise</persName>
 						<occupation type="prim" n="01">Dichterin</occupation>
@@ -5172,7 +5172,7 @@
 						<persName full="yes">Gaius Maecenas</persName>
 						<persName type="sk" subtype="pref">Mäcenas</persName>
 						<persName type="sk" subtype="full">Gaius Maecenas</persName>
-						<birth when="-0070">ca. 70 v. Chr.</birth>
+						<birth when="-0070" type="approx">ca. 70 v. Chr.</birth>
 						<death when="-0008">8 v. Chr.</death>
 						<occupation type="prim" n="01">Förderer der Literatur, Diplomat</occupation>
 						<idno type="GND">118730053</idno>
@@ -5368,7 +5368,7 @@
 						<birth when="1906-10-16">16. 10. 1906<placeName key="#DWplace00354">Langula
 								(Vogtei-Langula)</placeName></birth>
 						<persName type="sk" subtype="pref">Motz, Karl</persName>
-						<death when="1978">1978 (?)</death>
+						<death when="1978" type="approx">1978 (?)</death>
 						<occupation type="prim" n="01">Referent im Rasse- und Siedlungsamt</occupation>
 						<occupation notBefore="1933" notAfter="1937" n="02">Leiter der Abteilung für
 							Weltanschauliche Schulung im Rasse- und Siedlungsamt, später Leiter des
@@ -5521,7 +5521,7 @@
 						</persName>
 						<birth when="1881-03-15">15. 3. 1881<placeName key="#DWplace00310">Dümpten
 								(Mülheim-Dümpten)</placeName></birth>
-						<death when="1933-05-07">7. (?) 5. 1933<placeName key="#DWplace00172">Kiel</placeName></death>
+						<death when="1933-05-07" type="approx">7. (?) 5. 1933<placeName key="#DWplace00172">Kiel</placeName></death>
 						<persName type="sk" subtype="pref">Oberfohren, Ernst</persName>
 						<occupation type="prim" n="01">Politiker</occupation>
 						<occupation notBefore="1920" notAfter="1933-03-30" n="02">Reichstagsabgeordneter</occupation>
@@ -6246,7 +6246,7 @@
 							<surname>Schweppermann</surname>
 						</persName>
 						<persName type="sk" subtype="pref">Schweppermann, Seyfried</persName>
-						<birth when="1260">ca. 1260</birth>
+						<birth when="1260" type="approx">ca. 1260</birth>
 						<death when="1337">1337</death>
 						<occupation type="prim" n="01">Feldherr</occupation>
 						<idno type="GND">119527545</idno>
@@ -6279,7 +6279,7 @@
 					<person xml:id="DWpers0219" sortKey="Seneca#Lucius_Annaeus_Seneca">
 						<persName>Seneca</persName>
 						<persName full="yes">Lucius Annaeus Seneca</persName>
-						<birth when="0004">ca. 4 n. Chr.<placeName key="#DWplace00300">Corduba</placeName></birth>
+						<birth when="0004" type="approx">ca. 4 n. Chr.<placeName key="#DWplace00300">Corduba</placeName></birth>
 						<death when="0065-04">April 65 n. Chr.<placeName key="#DWplace00306">Rom</placeName></death>
 						<persName type="sk" subtype="pref">Seneca</persName>
 						<persName type="sk" subtype="full">Lucius Annaeus Seneca</persName>
@@ -6765,9 +6765,7 @@
 							<forename>Konrad</forename>
 							<surname>Vorlauf</surname>
 						</persName>
-						<birth>
-							<placeName key="#DWplace00347">Wien (?)</placeName>
-						</birth>
+						
 						<death when="1408-07-11">11. 7. 1408<placeName key="#DWplace00085">Wien</placeName></death>
 						<persName type="sk" subtype="pref">Vorlauf, Konrad</persName>
 						<occupation type="prim" n="01">Ratsherr und Bürgermeister von Wien</occupation>
@@ -6822,8 +6820,8 @@
 							<surname>Vogelweide</surname>
 						</persName>
 						<persName type="sk" subtype="pref">Vogelweide, Walther von der</persName>
-						<birth when="1170">ca. 1170</birth>
-						<death when="1230">ca. 1230</death>
+						<birth when="1170" type="approx">ca. 1170</birth>
+						<death when="1230" type="approx">ca. 1230</death>
 						<occupation type="prim" n="01">Minnesänger und Sangspruchdichter</occupation>
 						<idno type="GND">118628976</idno>
 						<note type="source" subtype="publ">Walter Killy (Hg.): Literaturlexikon. Autoren und Werke deutscher Sprache. 15 Bde. Gütersloh und München 1988–1993.</note>
@@ -6931,7 +6929,7 @@
 							<surname>Žídek</surname>
 						</persName>
 						<birth when="1865-10-08">8. 10. 1865<placeName key="#DWplace00425">Smolkau (Smolkov Háj ve Slezsku)</placeName></birth>
-						<death when="1942-06-22">22. 6. 1942 oder 1943<placeName key="#DWplace00265">Olmütz (Olomouc)</placeName></death>
+						<death when="1942-06-22" type="approx">22. 6. 1942 oder 1943<placeName key="#DWplace00265">Olmütz (Olomouc)</placeName></death>
 						<persName type="sk" subtype="pref">Žídek, František</persName>
 						<occupation type="prim" n="01">Tapezierer und Kaufmann</occupation>
 						<note type="source" subtype="publ">Staatl. Bezirksarchiv Olomouc</note>
@@ -7007,7 +7005,7 @@
 							<surname>Kukurudza</surname>
 						</persName>
 						<persName type="sk" subtype="pref">Kukurudza, Michael</persName>
-						<birth when="1895">ca. 1895</birth>
+						<birth when="1895" type="approx">ca. 1895</birth>
 						<death when="1933-05-29">29. 5. 1933<placeName key="#DWplace00411">KZ
 								Börnicke</placeName></death>
 						<occupation type="prim" n="01">Arbeiter, Melker</occupation>
