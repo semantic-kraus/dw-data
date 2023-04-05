@@ -488,13 +488,13 @@
                         <placeName xml:lang="de" type="orig_name">Altneudorf bei Heidelberg</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/93999/</idno>
                     </place>
                     <place xml:id="DWplace00076">
                         <placeName xml:lang="de" type="orig_name">Rio de Janeiro</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/18245/</idno>
                     </place>
                     <place xml:id="DWplace00077">
                         <placeName xml:lang="de" type="orig_name">Paris</placeName>
@@ -517,32 +517,32 @@
                     <place xml:id="DWplace00080">
                         <placeName xml:lang="de" type="orig_name">Pest (Budapest)</placeName>
                         <placeName xml:lang="de" type="simple_name">Pest</placeName>
-                        <placeName xml:lang="und" type="alt_label">Budapest</placeName>
-                        <idno type="pmb"/>
+                        
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143268/</idno>
                     </place>
                     <place xml:id="DWplace00081">
                         <placeName xml:lang="de" type="orig_name">Foerde bei Grevenbrück</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143269/</idno>
                     </place>
                     <place xml:id="DWplace00082">
                         <placeName xml:lang="de" type="orig_name">Minusio bei Locarno</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/2440/</idno>
                     </place>
                     <place xml:id="DWplace00083">
                         <placeName xml:lang="de" type="orig_name">Tel Aviv-Jaffa</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/51650/</idno>
                     </place>
                     <place xml:id="DWplace00084">
                         <placeName xml:lang="de" type="orig_name">Obersasbach</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143270/</idno>
                     </place>
                     <place xml:id="DWplace00085">
                         <placeName xml:lang="de" type="orig_name">Wien</placeName>
@@ -550,12 +550,7 @@
                         
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
                     </place>
-                    <place xml:id="DWplace00086">
-                        <placeName xml:lang="de" type="orig_name">Dissenhofen</placeName>
-                        
-                        
-                        <idno type="pmb"/>
-                    </place>
+                    
                     <place xml:id="DWplace00087">
                         <placeName xml:lang="de" type="orig_name">St. Pölten</placeName>
                         
@@ -578,13 +573,13 @@
                         <placeName xml:lang="de" type="orig_name">Marietta OH</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143271/</idno>
                     </place>
                     <place xml:id="DWplace00091">
                         <placeName xml:lang="de" type="orig_name">Auschwitz</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/2290/</idno>
                     </place>
                     <place xml:id="DWplace00092">
                         <placeName xml:lang="de" type="orig_name">Reval (Tallinn)</placeName>
@@ -614,7 +609,7 @@
                         <placeName xml:lang="de" type="orig_name">Bückeburg</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/94244/</idno>
                     </place>
                     <place xml:id="DWplace00097">
                         <placeName xml:lang="de" type="orig_name">Wiener Neustadt</placeName>
@@ -638,7 +633,7 @@
                         <placeName xml:lang="de" type="orig_name">Tscherkizino bei Majewo</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143272/</idno>
                     </place>
                     <place xml:id="DWplace00101">
                         <placeName xml:lang="de" type="orig_name">Goslar</placeName>
@@ -650,13 +645,13 @@
                         <placeName xml:lang="de" type="orig_name">Kükenbruch (Extertal-Kükenbruch)</placeName>
                         <placeName xml:lang="de" type="simple_name">Kükenbruch</placeName>
                         <placeName xml:lang="und" type="alt_label">Extertal-Kükenbruch</placeName>
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143273/</idno>
                     </place>
                     <place xml:id="DWplace00103">
                         <placeName xml:lang="de" type="orig_name">Wabern</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143274/</idno>
                     </place>
                     <place xml:id="DWplace00104">
                         <placeName xml:lang="de" type="orig_name">Tutzing</placeName>
@@ -668,13 +663,13 @@
                         <placeName xml:lang="de" type="orig_name">Marbach am Neckar</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/39585/</idno>
                     </place>
                     <place xml:id="DWplace00106">
                         <placeName xml:lang="de" type="orig_name">Unter-Dürnbach (Niederösterreich)</placeName>
                         <placeName xml:lang="de" type="simple_name">Unter-Dürnbach</placeName>
-                        <placeName xml:lang="und" type="alt_label">Niederösterreich</placeName>
-                        <idno type="pmb"/>
+                        
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143275/</idno>
                     </place>
                     <place xml:id="DWplace00107">
                         <placeName xml:lang="de" type="orig_name">Baden bei Wien</placeName>
@@ -686,61 +681,61 @@
                         <placeName xml:lang="de" type="orig_name">Los Angeles CA</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/37116/</idno>
                     </place>
                     <place xml:id="DWplace00109">
                         <placeName xml:lang="de" type="orig_name">Lauffen am Neckar</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/35662/</idno>
                     </place>
                     <place xml:id="DWplace00110">
                         <placeName xml:lang="de" type="orig_name">Westensee bei Kiel</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143276/</idno>
                     </place>
                     <place xml:id="DWplace00111">
                         <placeName xml:lang="de" type="orig_name">Kieslingswalde (?)</placeName>
                         <placeName xml:lang="de" type="simple_name">Kieslingswalde</placeName>
-                        <placeName xml:lang="und" type="alt_label">?</placeName>
-                        <idno type="pmb"/>
+                    	
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143277/</idno>
                     </place>
                     <place xml:id="DWplace00112">
                         <placeName xml:lang="de" type="orig_name">Berghausen (Rhein-Lahn-Kreis)</placeName>
                         <placeName xml:lang="de" type="simple_name">Berghausen</placeName>
-                        <placeName xml:lang="und" type="alt_label">Rhein-Lahn-Kreis</placeName>
-                        <idno type="pmb"/>
+                        
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143278/</idno>
                     </place>
                     <place xml:id="DWplace00113">
                         <placeName xml:lang="de" type="orig_name">Sewsk (UDSSR) (?)</placeName>
                         <placeName xml:lang="de" type="simple_name">Sewsk</placeName>
-                        <placeName xml:lang="und" type="alt_label">UDSSR  ?</placeName>
-                        <idno type="pmb"/>
+                        
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143279/</idno>
                     </place>
                     <place xml:id="DWplace00114">
                         <placeName xml:lang="de" type="orig_name">Simmering (Wien-Simmering)</placeName>
                         <placeName xml:lang="de" type="simple_name">Simmering</placeName>
                         <placeName xml:lang="und" type="alt_label">Wien-Simmering</placeName>
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/94013/</idno>
                     </place>
                     <place xml:id="DWplace00115">
                         <placeName xml:lang="de" type="orig_name">Celle</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/64173/</idno>
                     </place>
                     <place xml:id="DWplace00116">
                         <placeName xml:lang="de" type="orig_name">Berlin-Lichterfelde</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/25514/</idno>
                     </place>
                     <place xml:id="DWplace00117">
                         <placeName xml:lang="de" type="orig_name">Fleinhausen</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/38650/</idno>
                     </place>
                     <place xml:id="DWplace00118">
                         <placeName xml:lang="de" type="orig_name">Kröv</placeName>
