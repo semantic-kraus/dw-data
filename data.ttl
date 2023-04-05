@@ -5317,12 +5317,9 @@
 <https://sk.acdh.oeaw.ac.at/DWplace00075> a ns1:E53_Place ;
     rdfs:label "Altneudorf bei Heidelberg"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00075/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00075/identifier/DWplace00075> .
-
-<https://sk.acdh.oeaw.ac.at/DWplace00086> a ns1:E53_Place ;
-    rdfs:label "Dissenhofen"@de ;
-    ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00086/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00086/identifier/DWplace00086> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00075/identifier/DWplace00075>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00075/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/93999/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00087> a ns1:E53_Place ;
     rdfs:label "St. Pölten"@de ;
@@ -5351,8 +5348,9 @@
     rdfs:label "Berghausen (Rhein-Lahn-Kreis)"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00112/appellation/0>,
         <https://sk.acdh.oeaw.ac.at/DWplace00112/appellation/1>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00112/appellation/2>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00112/identifier/DWplace00112> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00112/identifier/DWplace00112>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00112/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/143278/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00131> a ns1:E53_Place ;
     rdfs:label "Quito (Ecuador)"@de ;
@@ -23894,10 +23892,17 @@
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00075" .
 
+<https://sk.acdh.oeaw.ac.at/DWplace00075/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/93999/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/93999/" .
+
 <https://sk.acdh.oeaw.ac.at/DWplace00076> a ns1:E53_Place ;
     rdfs:label "Rio de Janeiro"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00076/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00076/identifier/DWplace00076> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00076/identifier/DWplace00076>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00076/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/18245/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00076/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Rio de Janeiro"@de ;
@@ -23908,6 +23913,11 @@
     rdfs:label "Identifier: DWplace00076"@und ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00076" .
+
+<https://sk.acdh.oeaw.ac.at/DWplace00076/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/18245/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/18245/" .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00077/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Paris"@de ;
@@ -23984,8 +23994,9 @@
     rdfs:label "Pest (Budapest)"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00080/appellation/0>,
         <https://sk.acdh.oeaw.ac.at/DWplace00080/appellation/1>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00080/appellation/2>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00080/identifier/DWplace00080> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00080/identifier/DWplace00080>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00080/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/143268/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00080/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Pest (Budapest)"@de ;
@@ -23997,20 +24008,22 @@
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/simple-name> ;
     rdf:value "Pest" .
 
-<https://sk.acdh.oeaw.ac.at/DWplace00080/appellation/2> a ns1:E33_E41_Linguistic_Appellation ;
-    rdfs:label "Budapest"@und ;
-    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/alt-label> ;
-    rdf:value "Budapest" .
-
 <https://sk.acdh.oeaw.ac.at/DWplace00080/identifier/DWplace00080> a ns1:E42_Identifier ;
     rdfs:label "Identifier: DWplace00080"@und ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00080" .
 
+<https://sk.acdh.oeaw.ac.at/DWplace00080/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/143268/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/143268/" .
+
 <https://sk.acdh.oeaw.ac.at/DWplace00081> a ns1:E53_Place ;
     rdfs:label "Foerde bei Grevenbrück"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00081/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00081/identifier/DWplace00081> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00081/identifier/DWplace00081>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00081/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/143269/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00081/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Foerde bei Grevenbrück"@de ;
@@ -24022,10 +24035,17 @@
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00081" .
 
+<https://sk.acdh.oeaw.ac.at/DWplace00081/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/143269/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/143269/" .
+
 <https://sk.acdh.oeaw.ac.at/DWplace00082> a ns1:E53_Place ;
     rdfs:label "Minusio bei Locarno"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00082/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00082/identifier/DWplace00082> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00082/identifier/DWplace00082>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00082/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/2440/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00082/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Minusio bei Locarno"@de ;
@@ -24037,10 +24057,17 @@
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00082" .
 
+<https://sk.acdh.oeaw.ac.at/DWplace00082/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/2440/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/2440/" .
+
 <https://sk.acdh.oeaw.ac.at/DWplace00083> a ns1:E53_Place ;
     rdfs:label "Tel Aviv-Jaffa"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00083/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00083/identifier/DWplace00083> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00083/identifier/DWplace00083>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00083/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/51650/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00083/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Tel Aviv-Jaffa"@de ;
@@ -24052,10 +24079,17 @@
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00083" .
 
+<https://sk.acdh.oeaw.ac.at/DWplace00083/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/51650/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/51650/" .
+
 <https://sk.acdh.oeaw.ac.at/DWplace00084> a ns1:E53_Place ;
     rdfs:label "Obersasbach"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00084/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00084/identifier/DWplace00084> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00084/identifier/DWplace00084>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00084/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/143270/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00084/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Obersasbach"@de ;
@@ -24066,6 +24100,11 @@
     rdfs:label "Identifier: DWplace00084"@und ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00084" .
+
+<https://sk.acdh.oeaw.ac.at/DWplace00084/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/143270/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/143270/" .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00085/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Wien"@de ;
@@ -24081,16 +24120,6 @@
     rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/50/"@und ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
     rdf:value "https://pmb.acdh.oeaw.ac.at/entity/50/" .
-
-<https://sk.acdh.oeaw.ac.at/DWplace00086/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
-    rdfs:label "Dissenhofen"@de ;
-    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/orig-name> ;
-    rdf:value "Dissenhofen" .
-
-<https://sk.acdh.oeaw.ac.at/DWplace00086/identifier/DWplace00086> a ns1:E42_Identifier ;
-    rdfs:label "Identifier: DWplace00086"@und ;
-    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
-    rdf:value "DWplace00086" .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00087/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "St. Pölten"@de ;
@@ -24154,7 +24183,9 @@
 <https://sk.acdh.oeaw.ac.at/DWplace00090> a ns1:E53_Place ;
     rdfs:label "Marietta OH"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00090/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00090/identifier/DWplace00090> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00090/identifier/DWplace00090>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00090/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/143271/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00090/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Marietta OH"@de ;
@@ -24166,10 +24197,17 @@
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00090" .
 
+<https://sk.acdh.oeaw.ac.at/DWplace00090/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/143271/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/143271/" .
+
 <https://sk.acdh.oeaw.ac.at/DWplace00091> a ns1:E53_Place ;
     rdfs:label "Auschwitz"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00091/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00091/identifier/DWplace00091> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00091/identifier/DWplace00091>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00091/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/2290/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00091/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Auschwitz"@de ;
@@ -24180,6 +24218,11 @@
     rdfs:label "Identifier: DWplace00091"@und ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00091" .
+
+<https://sk.acdh.oeaw.ac.at/DWplace00091/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/2290/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/2290/" .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00092> a ns1:E53_Place ;
     rdfs:label "Reval (Tallinn)"@de ;
@@ -24287,7 +24330,9 @@
 <https://sk.acdh.oeaw.ac.at/DWplace00096> a ns1:E53_Place ;
     rdfs:label "Bückeburg"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00096/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00096/identifier/DWplace00096> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00096/identifier/DWplace00096>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00096/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/94244/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00096/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Bückeburg"@de ;
@@ -24298,6 +24343,11 @@
     rdfs:label "Identifier: DWplace00096"@und ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00096" .
+
+<https://sk.acdh.oeaw.ac.at/DWplace00096/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/94244/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/94244/" .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00097> a ns1:E53_Place ;
     rdfs:label "Wiener Neustadt"@de ;
@@ -24368,7 +24418,9 @@
 <https://sk.acdh.oeaw.ac.at/DWplace00100> a ns1:E53_Place ;
     rdfs:label "Tscherkizino bei Majewo"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00100/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00100/identifier/DWplace00100> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00100/identifier/DWplace00100>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00100/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/143272/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00100/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Tscherkizino bei Majewo"@de ;
@@ -24379,6 +24431,11 @@
     rdfs:label "Identifier: DWplace00100"@und ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00100" .
+
+<https://sk.acdh.oeaw.ac.at/DWplace00100/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/143272/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/143272/" .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00101/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Goslar"@de ;
@@ -24400,7 +24457,9 @@
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00102/appellation/0>,
         <https://sk.acdh.oeaw.ac.at/DWplace00102/appellation/1>,
         <https://sk.acdh.oeaw.ac.at/DWplace00102/appellation/2>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00102/identifier/DWplace00102> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00102/identifier/DWplace00102>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00102/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/143273/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00102/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Kükenbruch (Extertal-Kükenbruch)"@de ;
@@ -24422,10 +24481,17 @@
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00102" .
 
+<https://sk.acdh.oeaw.ac.at/DWplace00102/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/143273/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/143273/" .
+
 <https://sk.acdh.oeaw.ac.at/DWplace00103> a ns1:E53_Place ;
     rdfs:label "Wabern"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00103/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00103/identifier/DWplace00103> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00103/identifier/DWplace00103>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00103/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/143274/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00103/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Wabern"@de ;
@@ -24436,6 +24502,11 @@
     rdfs:label "Identifier: DWplace00103"@und ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00103" .
+
+<https://sk.acdh.oeaw.ac.at/DWplace00103/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/143274/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/143274/" .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00104> a ns1:E53_Place ;
     rdfs:label "Tutzing"@de ;
@@ -24462,7 +24533,9 @@
 <https://sk.acdh.oeaw.ac.at/DWplace00105> a ns1:E53_Place ;
     rdfs:label "Marbach am Neckar"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00105/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00105/identifier/DWplace00105> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00105/identifier/DWplace00105>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00105/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/39585/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00105/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Marbach am Neckar"@de ;
@@ -24474,12 +24547,18 @@
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00105" .
 
+<https://sk.acdh.oeaw.ac.at/DWplace00105/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/39585/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/39585/" .
+
 <https://sk.acdh.oeaw.ac.at/DWplace00106> a ns1:E53_Place ;
     rdfs:label "Unter-Dürnbach (Niederösterreich)"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00106/appellation/0>,
         <https://sk.acdh.oeaw.ac.at/DWplace00106/appellation/1>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00106/appellation/2>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00106/identifier/DWplace00106> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00106/identifier/DWplace00106>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00106/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/143275/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00106/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Unter-Dürnbach (Niederösterreich)"@de ;
@@ -24491,15 +24570,15 @@
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/simple-name> ;
     rdf:value "Unter-Dürnbach" .
 
-<https://sk.acdh.oeaw.ac.at/DWplace00106/appellation/2> a ns1:E33_E41_Linguistic_Appellation ;
-    rdfs:label "Niederösterreich"@und ;
-    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/alt-label> ;
-    rdf:value "Niederösterreich" .
-
 <https://sk.acdh.oeaw.ac.at/DWplace00106/identifier/DWplace00106> a ns1:E42_Identifier ;
     rdfs:label "Identifier: DWplace00106"@und ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00106" .
+
+<https://sk.acdh.oeaw.ac.at/DWplace00106/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/143275/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/143275/" .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00107> a ns1:E53_Place ;
     rdfs:label "Baden bei Wien"@de ;
@@ -24526,7 +24605,9 @@
 <https://sk.acdh.oeaw.ac.at/DWplace00108> a ns1:E53_Place ;
     rdfs:label "Los Angeles CA"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00108/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00108/identifier/DWplace00108> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00108/identifier/DWplace00108>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00108/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/37116/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00108/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Los Angeles CA"@de ;
@@ -24538,10 +24619,17 @@
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00108" .
 
+<https://sk.acdh.oeaw.ac.at/DWplace00108/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/37116/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/37116/" .
+
 <https://sk.acdh.oeaw.ac.at/DWplace00109> a ns1:E53_Place ;
     rdfs:label "Lauffen am Neckar"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00109/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00109/identifier/DWplace00109> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00109/identifier/DWplace00109>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00109/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/35662/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00109/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Lauffen am Neckar"@de ;
@@ -24553,10 +24641,17 @@
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00109" .
 
+<https://sk.acdh.oeaw.ac.at/DWplace00109/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/35662/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/35662/" .
+
 <https://sk.acdh.oeaw.ac.at/DWplace00110> a ns1:E53_Place ;
     rdfs:label "Westensee bei Kiel"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00110/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00110/identifier/DWplace00110> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00110/identifier/DWplace00110>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00110/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/143276/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00110/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Westensee bei Kiel"@de ;
@@ -24568,12 +24663,18 @@
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00110" .
 
+<https://sk.acdh.oeaw.ac.at/DWplace00110/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/143276/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/143276/" .
+
 <https://sk.acdh.oeaw.ac.at/DWplace00111> a ns1:E53_Place ;
     rdfs:label "Kieslingswalde (?)"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00111/appellation/0>,
         <https://sk.acdh.oeaw.ac.at/DWplace00111/appellation/1>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00111/appellation/2>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00111/identifier/DWplace00111> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00111/identifier/DWplace00111>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00111/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/143277/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00111/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Kieslingswalde (?)"@de ;
@@ -24585,15 +24686,15 @@
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/simple-name> ;
     rdf:value "Kieslingswalde" .
 
-<https://sk.acdh.oeaw.ac.at/DWplace00111/appellation/2> a ns1:E33_E41_Linguistic_Appellation ;
-    rdfs:label "?"@und ;
-    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/alt-label> ;
-    rdf:value "?" .
-
 <https://sk.acdh.oeaw.ac.at/DWplace00111/identifier/DWplace00111> a ns1:E42_Identifier ;
     rdfs:label "Identifier: DWplace00111"@und ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00111" .
+
+<https://sk.acdh.oeaw.ac.at/DWplace00111/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/143277/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/143277/" .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00112/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Berghausen (Rhein-Lahn-Kreis)"@de ;
@@ -24605,22 +24706,23 @@
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/simple-name> ;
     rdf:value "Berghausen" .
 
-<https://sk.acdh.oeaw.ac.at/DWplace00112/appellation/2> a ns1:E33_E41_Linguistic_Appellation ;
-    rdfs:label "Rhein-Lahn-Kreis"@und ;
-    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/alt-label> ;
-    rdf:value "Rhein-Lahn-Kreis" .
-
 <https://sk.acdh.oeaw.ac.at/DWplace00112/identifier/DWplace00112> a ns1:E42_Identifier ;
     rdfs:label "Identifier: DWplace00112"@und ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00112" .
 
+<https://sk.acdh.oeaw.ac.at/DWplace00112/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/143278/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/143278/" .
+
 <https://sk.acdh.oeaw.ac.at/DWplace00113> a ns1:E53_Place ;
     rdfs:label "Sewsk (UDSSR) (?)"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00113/appellation/0>,
         <https://sk.acdh.oeaw.ac.at/DWplace00113/appellation/1>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00113/appellation/2>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00113/identifier/DWplace00113> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00113/identifier/DWplace00113>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00113/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/143279/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00113/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Sewsk (UDSSR) (?)"@de ;
@@ -24632,22 +24734,24 @@
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/simple-name> ;
     rdf:value "Sewsk" .
 
-<https://sk.acdh.oeaw.ac.at/DWplace00113/appellation/2> a ns1:E33_E41_Linguistic_Appellation ;
-    rdfs:label "UDSSR ?"@und ;
-    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/alt-label> ;
-    rdf:value "UDSSR ?" .
-
 <https://sk.acdh.oeaw.ac.at/DWplace00113/identifier/DWplace00113> a ns1:E42_Identifier ;
     rdfs:label "Identifier: DWplace00113"@und ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00113" .
+
+<https://sk.acdh.oeaw.ac.at/DWplace00113/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/143279/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/143279/" .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00114> a ns1:E53_Place ;
     rdfs:label "Simmering (Wien-Simmering)"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00114/appellation/0>,
         <https://sk.acdh.oeaw.ac.at/DWplace00114/appellation/1>,
         <https://sk.acdh.oeaw.ac.at/DWplace00114/appellation/2>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00114/identifier/DWplace00114> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00114/identifier/DWplace00114>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00114/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/94013/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00114/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Simmering (Wien-Simmering)"@de ;
@@ -24669,10 +24773,17 @@
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00114" .
 
+<https://sk.acdh.oeaw.ac.at/DWplace00114/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/94013/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/94013/" .
+
 <https://sk.acdh.oeaw.ac.at/DWplace00115> a ns1:E53_Place ;
     rdfs:label "Celle"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00115/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00115/identifier/DWplace00115> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00115/identifier/DWplace00115>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00115/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/64173/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00115/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Celle"@de ;
@@ -24684,10 +24795,17 @@
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00115" .
 
+<https://sk.acdh.oeaw.ac.at/DWplace00115/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/64173/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/64173/" .
+
 <https://sk.acdh.oeaw.ac.at/DWplace00116> a ns1:E53_Place ;
     rdfs:label "Berlin-Lichterfelde"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00116/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00116/identifier/DWplace00116> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00116/identifier/DWplace00116>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00116/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/25514/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00116/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Berlin-Lichterfelde"@de ;
@@ -24699,10 +24817,17 @@
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00116" .
 
+<https://sk.acdh.oeaw.ac.at/DWplace00116/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/25514/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/25514/" .
+
 <https://sk.acdh.oeaw.ac.at/DWplace00117> a ns1:E53_Place ;
     rdfs:label "Fleinhausen"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00117/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00117/identifier/DWplace00117> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00117/identifier/DWplace00117>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00117/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/38650/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00117/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Fleinhausen"@de ;
@@ -24713,6 +24838,11 @@
     rdfs:label "Identifier: DWplace00117"@und ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00117" .
+
+<https://sk.acdh.oeaw.ac.at/DWplace00117/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/38650/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/38650/" .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00118> a ns1:E53_Place ;
     rdfs:label "Kröv"@de ;
