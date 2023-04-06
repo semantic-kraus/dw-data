@@ -741,7 +741,7 @@
                         <placeName xml:lang="de" type="orig_name">Kröv</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143280/</idno>
                     </place>
                     <place xml:id="DWplace00119">
                         <placeName xml:lang="de" type="orig_name">Blankenburg (Bad Blankenburg)</placeName>
