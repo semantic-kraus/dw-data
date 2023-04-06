@@ -24847,7 +24847,9 @@
 <https://sk.acdh.oeaw.ac.at/DWplace00118> a ns1:E53_Place ;
     rdfs:label "Kröv"@de ;
     ns1:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00118/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWplace00118/identifier/DWplace00118> .
+        <https://sk.acdh.oeaw.ac.at/DWplace00118/identifier/DWplace00118>,
+        <https://sk.acdh.oeaw.ac.at/DWplace00118/identifier/idno/0> ;
+    owl:sameAs <https://pmb.acdh.oeaw.ac.at/entity/143280/> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00118/appellation/0> a ns1:E33_E41_Linguistic_Appellation ;
     rdfs:label "Kröv"@de ;
@@ -24858,6 +24860,11 @@
     rdfs:label "Identifier: DWplace00118"@und ;
     ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "DWplace00118" .
+
+<https://sk.acdh.oeaw.ac.at/DWplace00118/identifier/idno/0> a ns1:E42_Identifier ;
+    rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/143280/"@und ;
+    ns1:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/pmb> ;
+    rdf:value "https://pmb.acdh.oeaw.ac.at/entity/143280/" .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00119> a ns1:E53_Place ;
     rdfs:label "Blankenburg (Bad Blankenburg)"@de ;
