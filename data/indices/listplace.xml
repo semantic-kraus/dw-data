@@ -998,13 +998,13 @@
                         <placeName xml:lang="de" type="orig_name">am Hechtsee bei Kufstein</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143296/</idno>
                     </place>
                     <place xml:id="DWplace00166">
                         <placeName xml:lang="de" type="orig_name">Semil (Semily)</placeName>
                         <placeName xml:lang="de" type="simple_name">Semil</placeName>
                         <placeName xml:lang="und" type="alt_label">Semily</placeName>
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/38560/</idno>
                     </place>
                     <place xml:id="DWplace00167">
                         <placeName xml:lang="de" type="orig_name">Venedig</placeName>
@@ -1012,23 +1012,18 @@
                         
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/462/</idno>
                     </place>
-                    <place xml:id="DWplace00168">
-                        <placeName xml:lang="de" type="orig_name">Belgard (Białogard)</placeName>
-                        <placeName xml:lang="de" type="simple_name">Belgard</placeName>
-                        <placeName xml:lang="und" type="alt_label">Białogard</placeName>
-                        <idno type="pmb"/>
-                    </place>
+                    
                     <place xml:id="DWplace00169">
                         <placeName xml:lang="de" type="orig_name">England</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/254/</idno>
                     </place>
                     <place xml:id="DWplace00170">
                         <placeName xml:lang="de" type="orig_name">Wehlen an der Elbe</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143297/</idno>
                     </place>
                     <place xml:id="DWplace00171">
                         <placeName xml:lang="de" type="orig_name">Maria Enzersdorf</placeName>
@@ -1046,13 +1041,13 @@
                         <placeName xml:lang="de" type="orig_name">Gorki (Nischni Nowgorod)</placeName>
                         <placeName xml:lang="de" type="simple_name">Gorki</placeName>
                         <placeName xml:lang="und" type="alt_label">Nischni Nowgorod</placeName>
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/2324/</idno>
                     </place>
                     <place xml:id="DWplace00174">
                         <placeName xml:lang="de" type="orig_name">Friedland (Korfantów)</placeName>
                         <placeName xml:lang="de" type="simple_name">Friedland</placeName>
                         <placeName xml:lang="und" type="alt_label">Korfantów</placeName>
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143298/</idno>
                     </place>
                     <place xml:id="DWplace00175">
                         <placeName xml:lang="de" type="orig_name">Mexico City</placeName>
@@ -1088,7 +1083,7 @@
                         <placeName xml:lang="de" type="orig_name">Würgassen (Beverungen-Würgassen)</placeName>
                         <placeName xml:lang="de" type="simple_name">Würgassen</placeName>
                         <placeName xml:lang="und" type="alt_label">Beverungen-Würgassen</placeName>
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143299/</idno>
                     </place>
                     <place xml:id="DWplace00181">
                         <placeName xml:lang="de" type="orig_name">Karlsruhe</placeName>
@@ -1100,25 +1095,25 @@
                         <placeName xml:lang="de" type="orig_name">Bevensen</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143300/</idno>
                     </place>
                     <place xml:id="DWplace00183">
                         <placeName xml:lang="de" type="orig_name">Frankfurt an der Oder</placeName>
                         
                         
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/35518/</idno>
                     </place>
                     <place xml:id="DWplace00184">
                         <placeName xml:lang="de" type="orig_name">Kwassitz (Kvasice)</placeName>
                         <placeName xml:lang="de" type="simple_name">Kwassitz</placeName>
                         <placeName xml:lang="und" type="alt_label">Kvasice</placeName>
-                        <idno type="pmb"/>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/43642/</idno>
                     </place>
                     <place xml:id="DWplace00185">
                         <placeName xml:lang="de" type="orig_name">Quillota (Chile)</placeName>
                         <placeName xml:lang="de" type="simple_name">Quillota</placeName>
-                        <placeName xml:lang="und" type="alt_label">Chile</placeName>
-                        <idno type="pmb"/>
+                        
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143301/</idno>
                     </place>
                     <place xml:id="DWplace00186">
                         <placeName xml:lang="de" type="orig_name">Bochum</placeName>
