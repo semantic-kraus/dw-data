@@ -218,7 +218,7 @@
 
 				<bibl source="_" xml:id="DWbibl01946" sortKey="Dieboldo_Bernardo#Pedretto_Albert">
 					<author key="#DWpers0042">Bernardo Dieboldo</author>
-					<author key="#nonDWpers1402">Alberto Pedretto</author>
+					<author key="#nDWpers1402">Alberto Pedretto</author>
 					<title level="a">Das klassische Italien als Reiseland [Reklame]</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
@@ -303,7 +303,7 @@
 
 				<bibl source="_" xml:id="DWbibl03178" sortKey="Saint-Simon_Claude-Henri_de">
 					<ref type="gen" target="https://archive.org/details/bnf-bpt6k1045600w/page/n9/mode/2up" subtype="example"/>
-					<author key="#nonDWpers1403">Claude-Henri de Saint-Simon</author>
+					<author key="#nDWpers1403">Claude-Henri de Saint-Simon</author>
 					<title level="m">Catéchisme des industriels</title>
 					<num>premier cahier</num>
 					<date when="1823">1823</date>
@@ -329,14 +329,14 @@
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl00714" sortKey="Hobbes_Thomas">
-					<author key="#nonDWpers1404">Thomas Hobbes [zugeschr.]</author>
+					<author key="#nDWpers1404">Thomas Hobbes [zugeschr.]</author>
 					<title level="m">[Sprichwort]</title>
 					<citedRange xml:id="DWbibl00713" wholeText="yes"><note type="context">Primum vivere, deinde
 							philosophari.</note></citedRange>
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03286" sortKey="Ludwig_der_Bayer">
-					<author key="#nonDWpers1405">Ludwig der Bayer [zugeschr.]</author>
+					<author key="#nDWpers1405">Ludwig der Bayer [zugeschr.]</author>
 					<title level="m">[Sprichwort]</title>
 					<date when="1322">1322</date>
 					<citedRange xml:id="DWbibl03287" wholeText="yes"><note type="context">Jedem Mann ein Ei, dem
@@ -555,7 +555,7 @@
 				
 				<bibl source="_" xml:id="DWbibl03573" sortKey="Luden_Heinrich">
 					<ref type="gen" target="https://textgridrep.org/browse/124h9.0" subtype="example"/>
-					<author key="#nonDWpers1406">Heinrich Luden</author>
+					<author key="#nDWpers1406">Heinrich Luden</author>
 					<title level="m">Rückblicke in mein Leben</title>
 					<title level="m" type="subtitle">Aus dem Nachlasse</title>
 					<date when="1847">1847</date>
@@ -641,7 +641,7 @@
 
 				<bibl source="_" xml:id="DWbibl01956" sortKey="Podewils_Heinrich_von">
 					<ref type="gen" target="https://archive.org/details/bub_gb_3d8AAAAAcAAJ/page/n259/mode/2up" subtype="example"/>
-					<author key="#nonDWpers1407">Heinrich von Podewils</author>
+					<author key="#nDWpers1407">Heinrich von Podewils</author>
 					<title level="m">[Brief]</title>
 					<date when="1740-06-05">5. 6. 1740<note>Entst.</note></date>
 					<citedRange xml:id="DWbibl01957">
@@ -704,7 +704,7 @@
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl00647" sortKey="Eckart_Dietrich"><!-- Quelle: Schmitz-Berning, Vokabular des Naitonalsozialismus; dort  Abdruck vom VB 11.8.1921 wiedergegeben -->
-					<author key="#nonDWpers1408">Dietrich Eckart</author>
+					<author key="#nDWpers1408">Dietrich Eckart</author>
 					<title level="m">Sturmlied [Feuerjo! / Deutschland erwache!]</title>
 					<date when="1923">1919/1923</date>
 					<citedRange xml:id="DWbibl00296">Vers 10 u. ö.</citedRange><!-- Deutschland erwache -->
@@ -733,7 +733,7 @@
 				<bibl source="_" xml:id="DWbibl00298" sortKey="Ewers_Hanns_Heinz">
 					<author key="#DWpers0054">Hanns Heinz Ewers</author>
 					<title level="a">Drei Grafen Spee</title>
-					<title level="m">Deutsche Kriegslieder</title>
+					<title level="m" key="#DWbibl04599">Deutsche Kriegslieder</title>
 					<pubPlace key="#DWplace00383">München</pubPlace>
 					<date when="1915">1915</date>
 					<biblScope>S. 27–30</biblScope>
@@ -742,10 +742,10 @@
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl00302" sortKey="Ewers_Hanns_Heinz#Jaffe_Joseph">
-					<author role="pretext" key="#nonDWpers1409">Joseph Jaffe</author>
+					<author role="pretext" key="#nDWpers1409">Joseph Jaffe</author>
 					<author key="#DWpers0054">Hanns Heinz Ewers</author>
 					<title level="a">Der Jude an Rußland</title>
-					<title level="m">Deutsche Kriegslieder</title>
+					<title level="m" key="#DWbibl04599">Deutsche Kriegslieder</title>
 					<pubPlace key="#DWplace00383">München</pubPlace>
 					<date when="1915">1915</date>
 					<biblScope>S. 51–52</biblScope>
@@ -756,7 +756,7 @@
 				<bibl source="_" xml:id="DWbibl00300" sortKey="Ewers_Hanns_Heinz">
 					<author key="#DWpers0054">Hanns Heinz Ewers</author>
 					<title level="a">Vorwort</title>
-					<title level="m">Deutsche Kriegslieder</title>
+					<title level="m" key="#DWbibl04599">Deutsche Kriegslieder</title>
 					<pubPlace key="#DWplace00383">München</pubPlace>
 					<date when="1915">1915</date>
 					<biblScope>S. 5–8</biblScope>
@@ -774,7 +774,7 @@
 					<author key="#DWpers0054">Hanns Heinz Ewers</author>
 					<title level="a">Kamerad, wo kommst du her?</title>
 					<title level="a" type="subtitle">Ein Lied im Volkston</title>
-					<title level="m">Deutsche Kriegslieder</title>
+					<title level="m" key="#DWbibl04599">Deutsche Kriegslieder</title>
 					<pubPlace key="#DWplace00383">München</pubPlace>
 					<date when="1915">1915</date>
 					<biblScope>S. 34–37</biblScope>
@@ -839,7 +839,7 @@
 				
 				<bibl source="_" xml:id="DWbibl04022" sortKey="Roessler_Carl#Ressner_Carl">
 					<ref type="gen" subtype="example" target="https://archive.org/details/3537942/page/n3/mode/2up"/>
-					<author key="#nonDWpers1410">Carl Rößler [d. i.: Carl Reßner]</author>
+					<author key="#nDWpers1410">Carl Rößler [d. i.: Carl Reßner]</author>
 					<title level="m">Die fünf Frankfurter</title>
 					<title level="m" type="subtitle">Lustspiel in drei Akten</title>
 					<date when="1911">1911<note>UA</note></date>
@@ -880,7 +880,7 @@
 
 				<bibl source="_" xml:id="DWbibl01950" sortKey="Kleist_Heinrich_von">
 					<ref type="gen" target="https://textgridrep.org/browse/r0hz.0" subtype="example"/>
-					<author key="#nonDWpers1411">Heinrich von Kleist</author>
+					<author key="#nDWpers1411">Heinrich von Kleist</author>
 					<title level="m">Die Hermannsschlacht</title>
 					<date notAfter="1808">vor 1808<note>Entst.</note></date>
 					<citedRange xml:id="DWbibl01951">3. Akt, 2. Auftritt<note type="context">
@@ -1019,7 +1019,7 @@
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl01585" sortKey="Calderón_de_la_Barca_Pedro">
-					<author key="#nonDWpers1412">Pedro Calderón de la Barca</author>
+					<author key="#nDWpers1412">Pedro Calderón de la Barca</author>
 					<title level="m">Der Richter von Zalamea</title>
 					<date when="1651">1651<note>ED</note></date>
 					<citedRange xml:id="DWbibl00639" wholeText="yes"/><!-- Anspielung -->
@@ -1139,7 +1139,7 @@
 
 				<bibl source="_" xml:id="DWbibl00687" sortKey="Luther_Martin"><!-- Quelle: http://www.liederlexikon.de/lieder/ein_feste_burg_ist_unser_gott -->
 					<ref type="gen" target="http://www.liederlexikon.de/lieder/ein_feste_burg_ist_unser_gott/editiona" subtype="example"/>
-					<author key="#nonDWpers1413">Martin Luther</author>
+					<author key="#nDWpers1413">Martin Luther</author>
 					<title level="m">Ein feste Burg ist unser Gott</title>
 					<date when="1529">1529</date><!-- = ED -->
 					<citedRange xml:id="DWbibl01822">Strophe 3, Vers 1<ref target="http://www.liederlexikon.de/lieder/ein_feste_burg_ist_unser_gott/editiona" subtype="example" type="ext"/>
@@ -1170,7 +1170,7 @@
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03477" sortKey="Hoffmann_Heinrich">
-					<author key="#nonDWpers1414">Heinrich Hoffmann</author>
+					<author key="#nDWpers1414">Heinrich Hoffmann</author>
 					<title level="m">[Hitler im Nietzsche-Archiv in Weimar, Fotografie]</title>
 					<date when="1932-01-31">31. 1. 1932<note>Entst.</note></date>
 					<citedRange xml:id="DWbibl03478" wholeText="yes"/>
@@ -1236,7 +1236,7 @@
 
 				<bibl source="_" xml:id="DWbibl02682" sortKey="Bach_David_Josef#D._B.">
 					<ref type="gen" target="https://anno.onb.ac.at/cgi-content/anno?aid=aze%26datum=19330621%26seite=7%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1415">D. B. [d. i.: David Josef Bach]</author>
+					<author key="#nDWpers1415">D. B. [d. i.: David Josef Bach]</author>
 					<title level="a">Die Scala wird Schauspielhaus</title>
 					<title level="j" key="#DWbibl04203">Arbeiter-Zeitung</title>
 					<title level="j" type="short">AZ</title>
@@ -1267,8 +1267,8 @@
 					<pubPlace key="#DWplace00085">Wien</pubPlace>
 					<date key="#DWbibl04597" when="1933-06-15">15. 6. 1933</date>
 					<biblScope>S. 6</biblScope>
-					<citedRange xml:id="DWbibl02691" corresp="#DWfacs0189" wholeText="yes"><ref type="ext" target="http://anno.onb.ac.at/cgi-content/anno?aid=aze%26datum=19330615%26seite=6%26zoom=33" subtype="specific"/></citedRange><!-- [Titel] -->
-					<citedRange xml:id="DWbibl02692" corresp="#DWfacs0189" wholeText="yes"><ref type="ext" target="http://anno.onb.ac.at/cgi-content/anno?aid=aze%26datum=19330615%26seite=6%26zoom=33" subtype="specific"/></citedRange><!-- Rayonsinspektor Friedrich Flassak i … gestorben. -->
+					<citedRange xml:id="DWbibl02691" corresp="#DWfacs0189"><ref type="ext" target="http://anno.onb.ac.at/cgi-content/anno?aid=aze%26datum=19330615%26seite=6%26zoom=33" subtype="specific"/></citedRange><!-- [Titel] -->
+					<citedRange xml:id="DWbibl02692" corresp="#DWfacs0189"><ref type="ext" target="http://anno.onb.ac.at/cgi-content/anno?aid=aze%26datum=19330615%26seite=6%26zoom=33" subtype="specific"/></citedRange><!-- Rayonsinspektor Friedrich Flassak i … gestorben. -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03553" sortKey="N._N.">
@@ -1337,7 +1337,7 @@
 
 				<bibl source="_" xml:id="DWbibl03265" sortKey="b.">
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=aze%26datum=19330715%26seite=8%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1416">b.</author>
+					<author key="#nDWpers1416">b.</author>
 					<title level="a">„In Deutschland hat keiner zu meckern.“</title>
 					<title level="j" key="#DWbibl04203">Arbeiter-Zeitung</title>
 					<title level="j" type="short">AZ</title>
@@ -1351,7 +1351,7 @@
 
 				<bibl source="_" xml:id="DWbibl03268" sortKey="Boerger_Wilhelm">
 					<ref type="gen" target="http://library.fes.de/gwp/id/2470" subtype="specific"/>
-					<author key="#nonDWpers1417">Wilhelm Börger</author>
+					<author key="#nDWpers1417">Wilhelm Börger</author>
 					<title level="a">Deutscher! Dein Glaube ist Dein Sieg!</title>
 					<title level="a" type="subtitle">Ansprache im Berliner Lustgarten am 21. Juni
 						1933 bei der Protestkundgebung gegen die Genfer Herausforderung</title>
@@ -1366,7 +1366,7 @@
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03361" sortKey="Wagner_Otto">
-					<author key="#nonDWpers1418">Otto Wagner</author>
+					<author key="#nDWpers1418">Otto Wagner</author>
 					<title level="m">[Schreiben an den Vorsitzenden des kommunalpolitischen Amtes
 						der NSDAP]</title>
 					<date type="approx" when="1933-05-27">27[?]. 5. 1933</date>
@@ -1441,7 +1441,7 @@ den Kampf -->
 				</bibl>angebliche Greuel -->
 
 				<bibl source="_" xml:id="DWbibl02611" sortKey="H._Joh." corresp="#DWfacs0970">
-					<author key="#nonDWpers1419">Joh. H.</author>
+					<author key="#nDWpers1419">Joh. H.</author>
 					<title level="a">Gespräche an der Werkbank</title>
 					<title level="j" key="#DWbibl04207">Der Sozialdemokrat</title>
 					<pubPlace key="#DWplace00085">Wien</pubPlace>
@@ -1452,7 +1452,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02614" sortKey="H._Joh." corresp="#DWfacs0965">
-					<author key="#nonDWpers1419">Joh. H.</author>
+					<author key="#nDWpers1419">Joh. H.</author>
 					<title level="a">Gespräche an der Werkbank</title>
 					<title level="j" key="#DWbibl04207">Der Sozialdemokrat</title>
 					<pubPlace key="#DWplace00085">Wien</pubPlace>
@@ -1752,7 +1752,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03411" sortKey="Wallroth_Anton">
-					<author key="#nonDWpers1420">Anton Wallroth</author>
+					<author key="#nDWpers1420">Anton Wallroth</author>
 					<title level="m">[Mitteilung des Regierungspräsidenten von
 						Schleswig-Hollstein]</title>
 					<citedRange xml:id="DWbibl03412" wholeText="yes"/>
@@ -1955,7 +1955,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl00077" sortKey="Fischer_Ernst" corresp="#DWfacs0373">
-					<author key="#nonDWpers1421">e. f. [d. i.: Ernst Fischer]</author>
+					<author key="#nDWpers1421">e. f. [d. i.: Ernst Fischer]</author>
 					<title level="a">Das Dritte Reich braucht Lakaien. Die Parade der
 						Ueberläufer</title>
 					<title level="j" key="#DWbibl04203">Arbeiter-Zeitung</title>
@@ -2020,7 +2020,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl00084" sortKey="Cicero_Marcus_Tullius">
 					<ref type="gen" target="https://archive.org/details/redengegencatili00cice_0/page/n9/mode/2up" subtype="example"/>
-					<author key="#nonDWpers1422">Marcus Tullius Cicero</author>
+					<author key="#nDWpers1422">Marcus Tullius Cicero</author>
 					<title level="m">1. Rede gegen Catilina</title>
 					<date when="-0063">63 v. Chr.<note>UA</note></date>
 					<citedRange xml:id="DWbibl01148">
@@ -2212,7 +2212,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03740" sortKey="Fraser_Robert" corresp="#DWfacs2082">
-					<author key="#nonDWpers1423">Robert Fraser</author>
+					<author key="#nDWpers1423">Robert Fraser</author>
 					<title level="a">Dr. Rosenberg Runs Away</title>
 					<title level="a" type="subtitle">No Answer When Shown Picture Of Woman Nazis
 						Tortured. Reception that Ended in Fiasco</title>
@@ -2357,7 +2357,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02173" sortKey="Bernhagen_Rolf" corresp="#DWfacs1516">
-					<author key="#nonDWpers1424">Rolf Bernhagen</author>
+					<author key="#nDWpers1424">Rolf Bernhagen</author>
 					<title level="a">Der taubengraue Überzieher</title>
 					<title level="j" key="#DWbibl04220">Deutschösterreichische Tages-Zeitung</title>
 					<title level="j" type="short">DÖTZ</title>
@@ -2387,7 +2387,7 @@ den Kampf -->
 				</bibl>
 				
 				<bibl source="_" xml:id="DWbibl03669" sortKey="Prader_Georg">
-					<author key="#nonDWpers1425">Georg Prader</author>
+					<author key="#nDWpers1425">Georg Prader</author>
 					<title level="m">[Wortmeldung im Niederösterreichischen Landtag]</title>
 					<date when="1933-06-16">16. 6. 1933<note>UA</note></date>
 					<citedRange xml:id="DWbibl03670"/>
@@ -2550,7 +2550,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl00104" sortKey="tt" corresp="#DWfacs1545">
-					<author key="#nonDWpers1301">–tt–</author>
+					<author key="#nDWpers1301">–tt–</author>
 					<title level="a">„Der letzte Schützengraben liberaler Freiheit“</title>
 					<title level="j" key="#DWbibl04220">Deutschösterreichische Tages-Zeitung</title>
 					<title level="j" type="short">DÖTZ</title>
@@ -2691,7 +2691,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03240" sortKey="D._J." corresp="#DWfacs2067">
-					<author key="#nonDWpers1302">J. D.</author>
+					<author key="#nDWpers1302">J. D.</author>
 					<title level="a">Frontkämpfer nach dem Krieg</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
@@ -2703,7 +2703,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl03242" sortKey="W.">
 					<ref type="gen" target="https://www.digital.wienbibliothek.at/wbrobv02/content/pageview/2554834" subtype="specific"/>
-					<author key="#nonDWpers1303">W.</author>
+					<author key="#nDWpers1303">W.</author>
 					<title level="a">Eine skandalöse Erstaufführung in München</title>
 					<title level="a" type="subtitle">Die Verhöhnung des Soldatentodes durch den
 						Juden Karl Kraus – Wir fordern Verbot der Aufführung im
@@ -3172,7 +3172,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl02412" sortKey="Muenz_Sigmund">
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=waz%26datum=19330506%26seite=4%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1426">Sigmund Münz</author>
+					<author key="#nDWpers1426">Sigmund Münz</author>
 					<title level="a">„Die verbreiteten Greuelmeldungen waren großer Schwindel“
 						(??)</title>
 					<title level="a" type="subtitle">Offenes Schreiben an Geheimrat Professor Dr. v.
@@ -3200,7 +3200,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl03189" sortKey="Sartorius_Paul">
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=waz%26datum=19330611%26seite=15%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1304">Paul Sartorius</author>
+					<author key="#nDWpers1304">Paul Sartorius</author>
 					<title level="a">Wiener Wirtschaftswoche. Die Besonderheiten des deutschen
 						Transfermoratoriums</title>
 					<title level="a" type="subtitle">Ein Großstaat mit aktiver Handelsbilanz und
@@ -3245,7 +3245,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl02982" sortKey="x">
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=waz%26datum=19330823%26seite=1%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1305">x</author>
+					<author key="#nDWpers1305">x</author>
 					<title level="a">Hitlers Folterkammern</title>
 					<title level="j" key="#DWbibl04225">Wiener Allgemeine Zeitung</title>
 					<title level="j" type="short">WAZ</title>
@@ -3270,7 +3270,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl02985" sortKey="Lucian">
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=tag%26datum=19330616%26seite=2%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1306">Lucian</author>
+					<author key="#nDWpers1306">Lucian</author>
 					<title level="a">Wie der Nationalsozialismus in Deutschland finanziert
 						wird</title>
 					<title level="j" key="#DWbibl04205">Der Wiener Tag</title>
@@ -3512,7 +3512,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl00145" sortKey="x">
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=waz%26datum=19330405%26seite=3%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1305">x</author>
+					<author key="#nDWpers1305">x</author>
 					<title level="a">Herr Goebbels bittet zum Tee</title>
 					<title level="j" key="#DWbibl04225">Wiener Allgemeine Zeitung</title>
 					<title level="j" type="short">WAZ</title>
@@ -3560,7 +3560,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03454" sortKey="Herrmann_Wolfgang">
-					<author key="#nonDWpers1307">Wolfgang Herrmann</author>
+					<author key="#nDWpers1307">Wolfgang Herrmann</author>
 					<title level="m">[Vorläufige „schwarze Listen“ für die Deutsche Studentenschaft]</title>
 					<date when="1933-04">April 1933</date>
 					<citedRange xml:id="DWbibl01905" wholeText="yes"/><!-- diese schwarze Liste -->
@@ -3769,7 +3769,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl00176" sortKey="ipse">
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=waz%26datum=19330727%26seite=3%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1308">ipse</author>
+					<author key="#nDWpers1308">ipse</author>
 					<title level="a">Politische Sterilisierung</title>
 					<title level="j" key="#DWbibl04225">Wiener Allgemeine Zeitung</title>
 					<title level="j" type="short">WAZ</title>
@@ -3820,7 +3820,7 @@ den Kampf -->
 				
 				<bibl source="_" xml:id="DWbibl03585" sortKey="Fraenkel_Ella">
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=waz%26datum=19330517%26seite=3%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1309">Ella Fränkel</author>
+					<author key="#nDWpers1309">Ella Fränkel</author>
 					<title level="a">Wie mein Vater ermordet werden sollte</title>
 					<title level="j" key="#DWbibl04225">Wiener Allgemeine Zeitung</title>
 					<title level="j" type="short">WAZ</title>
@@ -3959,8 +3959,8 @@ den Kampf -->
 
 
 				<bibl source="_" xml:id="DWbibl00676" sortKey="Loos_Anita">
-					<author key="#nonDWpers1310">Anita Loos</author>
-					<author role="Illustrationen" key="#nonDWpers1311">Ralph Barton</author>
+					<author key="#nDWpers1310">Anita Loos</author>
+					<author role="Illustrationen" key="#nDWpers1311">Ralph Barton</author>
 					<title level="m">Gentlemen Prefer Blondes</title>
 					<title level="m" type="subtitle">The Illuminating Diary of a Professional
 						Lady</title>
@@ -3971,7 +3971,7 @@ den Kampf -->
 				<bibl source="_" xml:id="DWbibl01931" sortKey="Abraham_Paul#Gruenwald_Alfred#Loehner-Beda_Fritz">
 					<author role="Komposition" key="#DWpers0001">Paul Abraham</author>
 					<author role="Libretto" key="# DWpers0088">Alfred Grünwald</author>
-					<author role="Libretto" key="#nonDWpers1312">Fritz Löhner-Beda</author>
+					<author role="Libretto" key="#nDWpers1312">Fritz Löhner-Beda</author>
 					<title level="m">Ball im Savoy</title>
 					<date when="1932">1932<note>UA</note></date>
 					<citedRange xml:id="DWbibl01932" wholeText="yes"/><!-- Titel -->
@@ -4095,7 +4095,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl00202" sortKey="N._N." corresp="#DWfacs1366">
-					<author key="#nonDWpers1313">A. Z.</author>
+					<author key="#nDWpers1313">A. Z.</author>
 					<title level="a">Besuch im Konzentrationslager</title>
 					<title level="a" type="subtitle">Wie die hessischen Schutzhäftlinge leben</title>
 					<title level="j" key="#DWbibl04248">Die Insel des Berliner Tageblatt</title>
@@ -4129,7 +4129,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03804" sortKey="Schramm_Wilhelm_Ritter_von">
-					<author key="#nonDWpers1314">Wilhelm Ritter von Schramm</author>
+					<author key="#nDWpers1314">Wilhelm Ritter von Schramm</author>
 					<title level="m">[Rede auf dem Werbefest der Deutschen Bühne]</title>
 					<citedRange xml:id="DWbibl03803"/><!-- Seelische Erneuerung tut not. -->
 				</bibl>
@@ -4176,7 +4176,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02074" sortKey="Ruppin_Walter">
-					<author key="#nonDWpers1315">Walter Ruppin</author><!-- Vorname: https://www.bundestag.de/resource/blob/194566/4b781643e7eeb454b5821cc0be2f4285/MdR_1919-1933_alphabetisch-data.pdf -->
+					<author key="#nDWpers1315">Walter Ruppin</author><!-- Vorname: https://www.bundestag.de/resource/blob/194566/4b781643e7eeb454b5821cc0be2f4285/MdR_1919-1933_alphabetisch-data.pdf -->
 					<title level="a">Fort mit den jüdischen Aerzten!</title>
 					<title level="j" key="#DWbibl04249">Aerzteblatt der Provinzen Brandenburg, Grenzmark und Pommern</title>
 					<pubPlace key="#DWplace00322">Oldenburg</pubPlace>
@@ -4345,7 +4345,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl01701" sortKey="Cato">
-					<author key="#nonDWpers1316">Cato</author>
+					<author key="#nDWpers1316">Cato</author>
 					<title level="m">[Reden vor dem römischen Senat]</title>
 					<date notAfter="-0149">vor 149 v. Chr.<note>Entst.</note></date>
 					<citedRange xml:id="DWbibl00218"><note type="context">Ceterum censeo Carthaginem
@@ -4355,14 +4355,14 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl00219" sortKey="Chamisso_Adelbert_von">
 					<ref type="gen" target="https://textgridrep.org/browse/kw0w.0" subtype="example"/>
-					<author key="#nonDWpers1317">Adelbert von Chamisso</author>
+					<author key="#nDWpers1317">Adelbert von Chamisso</author>
 					<title level="m">Die Sonne bringt es an den Tag</title>
 					<date when="1827">1827<note>ED</note></date>
 					<citedRange xml:id="DWbibl00341"><ref target="https://textgridrep.org/browse/-/browse/kw0w_0" subtype="example" type="ext"/></citedRange><!-- Die Sprache … den Tag -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl00221" sortKey="Alighieri_Dante">
-					<author key="#nonDWpers1318">Dante Alighieri</author>
+					<author key="#nDWpers1318">Dante Alighieri</author>
 					<title level="m">Die Göttliche Komödie</title>
 					<date notBefore="1307" notAfter="1321" type="approx">~1307–1321<note>Entst.</note></date>
 					<citedRange xml:id="DWbibl01287">Hölle, XXXIV.
@@ -4370,7 +4370,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl00223" sortKey="Raabe_Heinz" corresp="#DWfacs1503">
-					<author key="#nonDWpers1319">Heinz Raabe</author>
+					<author key="#nDWpers1319">Heinz Raabe</author>
 					<title level="a">Wehrdienst des Geistes</title>
 					<title level="j" key="#DWbibl04214">Das Neue Tage-Buch</title>
 					<title level="j" type="short">NTB</title>
@@ -4441,7 +4441,7 @@ den Kampf -->
 				
 				<bibl source="_" xml:id="DWbibl04124" sortKey="Tagore_Sonniyendranath">
 					<ref type="gen" subtype="specific" target="https://gallica.bnf.fr/ark:/12148/bpt6k7640891j/f3.item"/>
-					<author key="#nonDWpers1320">Sonniyendranath Tagore</author>
+					<author key="#nDWpers1320">Sonniyendranath Tagore</author>
 					<title level="a">En prison, á Munich, avec les victimes des nazis „pour avoir voulu tuer Hitler“ (!)</title>
 					<title level="j" key="#DWbibl04238">Paris-Soir</title>
 					<pubPlace key="#DWplace00077">Paris</pubPlace>
@@ -4937,7 +4937,7 @@ den Kampf -->
 				<bibl source="_" xml:id="DWbibl00255" sortKey="Ewers_Hanns_Heinz">
 					<author key="#DWpers0054">Hanns Heinz Ewers</author>
 					<title level="a">Wir und die Welt</title>
-					<title level="m">Deutsche Kriegslieder</title>
+					<title level="m" key="#DWbibl04599">Deutsche Kriegslieder</title>
 					<pubPlace key="#DWplace00383">München</pubPlace>
 					<date when="1915">1915</date>
 					<biblScope>S. 11–14</biblScope>
@@ -4972,7 +4972,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03546" sortKey="R._W." corresp="#DWfacs2090">
-					<author key="#nonDWpers1321">Dr. W. R.</author>
+					<author key="#nDWpers1321">Dr. W. R.</author>
 					<title level="a">Rückblick und Ausblick</title>
 					<title level="a" type="subtitle">Ein historischer Beitrag zur Judenfrage</title>
 					<title level="j" key="#DWbibl04251">Die Brücke des Berliner Tageblatts</title>
@@ -4984,7 +4984,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl00260" sortKey="Haeuber_Erich" corresp="#DWfacs1364">
-					<author key="#nonDWpers1322">Erich Haeuber</author>
+					<author key="#nDWpers1322">Erich Haeuber</author>
 					<title level="a">Die zweite Phase der Revolution</title>
 					<title level="j" key="#DWbibl04236">Berliner Tageblatt</title>
 					<title level="j" type="short">BT</title>
@@ -4995,7 +4995,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03548" sortKey="Kyser_Hans" corresp="#DWfacs2096">
-					<author key="#nonDWpers1323">Hans Kyser</author>
+					<author key="#nDWpers1323">Hans Kyser</author>
 					<title level="a">Aufbruch des Geistes</title>
 					<title level="j" key="#DWbibl04272">Berliner Lokal-Anzeiger</title>
 					<pubPlace key="#DWplace00313">Berlin</pubPlace>
@@ -5028,7 +5028,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02785" sortKey="Scholtz_Hans">
-					<author key="#nonDWpers1324">Hans Scholtz</author>
+					<author key="#nDWpers1324">Hans Scholtz</author>
 					<title level="m">[Fahndungsplakat]</title>
 					<citedRange xml:id="DWbibl02786"/>
 				</bibl>
@@ -5048,8 +5048,8 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl02627" sortKey="N._N.">
 					<title level="m">[Theateranekdote]</title>
-					<citedRange xml:id="DWbibl02628" wholeText="yes"/>
-					<citedRange xml:id="DWbibl02964" wholeText="yes"/>
+					<citedRange xml:id="DWbibl02628"/>
+					<citedRange xml:id="DWbibl02964"/>
 				</bibl>
 				
 				<!--<bibl source="_" xml:id="DWbibl03697" sortKey="N._N.">
@@ -5194,7 +5194,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl03142" sortKey="R-n._A-é.">
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=oab%26datum=19330809%26seite=5%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1325">A-é. R-n.</author>
+					<author key="#nDWpers1325">A-é. R-n.</author>
 					<title level="a">Hitler konfisziert Millionenvermögen Feuchtwangers</title>
 					<title level="j" key="#DWbibl04240">Österreichisches Abendblatt</title>
 					<pubPlace key="#DWplace00085">Wien</pubPlace>
@@ -5322,7 +5322,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl02136" sortKey="Rehmann_Hans">
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=std%26datum=19330910%26seite=6%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1326">Hans Rehmann</author>
+					<author key="#nDWpers1326">Hans Rehmann</author>
 					<title level="a">Dank an Max Reinhardt</title>
 					<title level="j" key="#DWbibl04209">Die Stunde</title>
 					<pubPlace key="#DWplace00085">Wien</pubPlace>
@@ -5363,7 +5363,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl02146" sortKey="Stefan_Paul">
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=std%26datum=19330601%26seite=5%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1327">P. Stf. [d. i.: Paul Stefan]</author>
+					<author key="#nDWpers1327">P. Stf. [d. i.: Paul Stefan]</author>
 					<title level="a">Weltmeinung gegen Deutschland</title>
 					<title level="a" type="subtitle">Nachklänge zum Internationelen
 						Pen-Klub-Kongreß</title>
@@ -6179,7 +6179,7 @@ den Kampf -->
 				</bibl> "wenn ich im Rundfunk sprach" -->
 
 				<bibl source="_" xml:id="DWbibl00322" sortKey="ck." corresp="#DWfacs1269">
-					<author key="#nonDWpers1328">ck.</author>
+					<author key="#nDWpers1328">ck.</author>
 					<title level="a">„Der Wanderer.“</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
@@ -6190,7 +6190,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03738" sortKey="WvD" corresp="#DWfacs1276">
-					<author key="#nonDWpers1329">WvD</author>
+					<author key="#nDWpers1329">WvD</author>
 					<title level="a">Englische Gereiztheit</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
@@ -6203,8 +6203,8 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03736" sortKey="Sbg#Nb" corresp="#DWfacs1273">
-					<author key="#nonDWpers1330">Nb</author>
-					<author key="#nonDWpers1331">Sbg</author>
+					<author key="#nDWpers1330">Nb</author>
+					<author key="#nDWpers1331">Sbg</author>
 					<title level="a">Viel Lärm um nichts</title>
 					<title level="a" type="subtitle">Das diplomatische Spiel um Deutschland und
 						Oesterreich</title>
@@ -6308,7 +6308,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03508" sortKey="BK" corresp="#DWfacs1223">
-					<author key="#nonDWpers1332">BK</author>
+					<author key="#nDWpers1332">BK</author>
 					<title level="a">Auftakt in Nürnberg</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
@@ -6397,7 +6397,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl00325" sortKey="ck" corresp="#DWfacs1227">
-					<author key="#nonDWpers1328">ck.</author>
+					<author key="#nDWpers1328">ck.</author>
 					<title level="a">Johsts „Schlageter“ in Frankfurt</title>
 					<title level="a" type="subtitle">Aufführung im Schauspielhaus am 17. Mai</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
@@ -6444,7 +6444,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl00327" sortKey="Geibel_Emanuel">
 					<ref type="gen" target="https://textgridrep.org/browse/n56h.0" subtype="example"/>
-					<author key="#nonDWpers1333">Emanuel Geibel</author>
+					<author key="#nDWpers1333">Emanuel Geibel</author>
 					<title level="m">Deutschlands Beruf</title>
 					<date when="1861">1861</date>
 					<citedRange xml:id="DWbibl01881">Vers 41–42<note type="context">
@@ -6665,16 +6665,16 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl00338" sortKey="Grimm_Wilhelm_und_Jacob">
 					<ref type="gen" subtype="example" target="https://textgridrep.org/browse/nz3f.0"/>
-					<author key="#nonDWpers1334">Jacob Grimm</author>
-					<author key="#nonDWpers1335">Wilhelm Grimm</author>
+					<author key="#nDWpers1334">Jacob Grimm</author>
+					<author key="#nDWpers1335">Wilhelm Grimm</author>
 					<title level="a">Rotkäppchen</title>
-					<title level="m">Kinder- und Hausmärchen, Bd. 1</title>
+					<title level="m" key="#DWbibl04600">Kinder- und Hausmärchen, Bd. 1</title>
 					<date when="1812">1812<note>ED</note></date>
 					<citedRange xml:id="DWbibl00179"><ref type="ext" subtype="example" target="https://textgridrep.org/browse/nz3f.0"/></citedRange><!-- Großmutter, was. .. fressen kann! -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl00339" sortKey="Tiger">
-					<author key="#nonDWpers1336">„Tiger“</author>
+					<author key="#nDWpers1336">„Tiger“</author>
 					<title level="a">Judenliebchen sehen dich an!</title>
 					<title level="j" key="#DWbibl04259">Hakenkreuzbanner</title>
 					<pubPlace key="#DWplace00464">Mannheim</pubPlace>
@@ -6696,7 +6696,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl00345" sortKey="Hauff_Wilhelm">
 					<ref type="gen" target="https://de.wikisource.org/wiki/Reuters_Morgengesang" subtype="example"/>
-					<author key="#nonDWpers1337">Wilhelm Hauff</author>
+					<author key="#nDWpers1337">Wilhelm Hauff</author>
 					<title level="m">Reiters Morgenlied</title>
 					<date when="1824">1824</date>
 					<citedRange xml:id="DWbibl00497"><ref target="https://de.wikisource.org/wiki/Reuters_Morgengesang" subtype="example" type="ext"/></citedRange><!-- Morgenrot, Morgenrot … frühen Tod -->
@@ -6812,7 +6812,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl00351" sortKey="Herrmann_Wolfgang">
 					<ref type="gen" target="http://digital.slub-dresden.de/id39946221X-19330516/10" subtype="specific"/>
-					<author key="#nonDWpers1338">Wolfgang Herrmann</author>
+					<author key="#nDWpers1338">Wolfgang Herrmann</author>
 					<title level="a">Prinzipielles zur Säuberung der öffentlichen Büchereien</title>
 					<title level="j" key="#DWbibl04276">Börsenblatt für den Deutschen Buchhandel</title>
 					<pubPlace key="#DWplace00065">Leipzig</pubPlace>
@@ -6833,7 +6833,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl00352" sortKey="Herwegh_Georg">
 					<ref type="gen" target="https://textgridrep.org/browse/q2zd.0" subtype="example"/>
-					<author key="#nonDWpers1339">Georg Herwegh</author>
+					<author key="#nDWpers1339">Georg Herwegh</author>
 					<title level="m">Der Freiheit eine Gasse!</title>
 					<date when="1841">1841</date>
 					<citedRange xml:id="DWbibl00762">
@@ -6850,7 +6850,7 @@ den Kampf -->
 				</bibl>
 				
 				<bibl source="_" xml:id="DWbibl03640" sortKey="Gumpert_Thekla_von#Herzblaettchens_Zeitvertreib">
-					<author role="Gründerin" key="#nonDWpers1340">Thekla von Gumpert</author>
+					<author role="Gründerin" key="#nDWpers1340">Thekla von Gumpert</author>
 					<title level="j" key="#DWbibl04278">Herzblättchens Zeitvertreib</title>
 					<title level="j" type="subtitle">Unterhaltungen für kleine Knaben und Mädchen zur Herzensbildung und Entwickelung der Begriffe</title>
 					<title level="j" type="short">Herzblättchens Zeitvertreib</title>
@@ -7145,7 +7145,7 @@ den Kampf -->
 				
 				<bibl source="_" xml:id="DWbibl03999" sortKey="Arndt_Ernst_Moritz">
 					<ref type="gen" subtype="example" target="https://textgridrep.org/browse/k1m8.0"/>
-					<author key="#nonDWpers1341">Ernst Moritz Arndt</author>
+					<author key="#nDWpers1341">Ernst Moritz Arndt</author>
 					<title level="m">Des Deutschen Vaterland</title>
 					<date when="1813">1813</date>
 					<citedRange xml:id="DWbibl04000"><ref type="ext" subtype="example" target="https://textgridrep.org/browse/k1m8.0#tg118.3.42"/></citedRange>
@@ -7162,7 +7162,7 @@ den Kampf -->
 				<bibl source="_" xml:id="DWbibl04005" sortKey="Uhland_Ludwig#Silcher_Friedrich">
 					<ref type="gen" subtype="example" target="https://textgridrep.org/browse/wq24.0"/>
 					<author role="pretext" key="#DWpers0238">Ludwig Uhland</author>
-					<author role="Vertonung" key="#nonDWpers1342">Friedrich Silcher</author>
+					<author role="Vertonung" key="#nDWpers1342">Friedrich Silcher</author>
 					<title level="m">Der gute Kamerad</title>
 					<date when="1825">1825</date>
 					<citedRange xml:id="DWbibl04006" wholeText="yes"><ref type="ext" subtype="example" target="https://textgridrep.org/browse/wq24.0"/></citedRange>
@@ -7186,8 +7186,8 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl00353" sortKey="Hitler_Adolf#Schneider_Hermann#Schwarz_Franz_X."><!-- bibl. Daten: Espe, Das Buch der NSDAP, S. 219-224 -->
 					<author role="Unterzeichner" key="#DWpers0113">Adolf Hitler</author>
-					<author role="Unterzeichner" key="#nonDWpers1343">Hermann Schneider</author>
-					<author role="Unterzeichner" key="#nonDWpers1344">Franz X. Schwarz</author>
+					<author role="Unterzeichner" key="#nDWpers1343">Hermann Schneider</author>
+					<author role="Unterzeichner" key="#nDWpers1344">Franz X. Schwarz</author>
 					<title level="m">Satzungen des „Nationalsozialistischen Deutschen
 						Arbeitervereins e.V.“</title>
 					<date when="1925">1925</date>
@@ -7195,7 +7195,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03397" sortKey="Seidl_Johann_Gabriel"><!-- Hinweis: Timms II, S. 448 -->
-					<author key="#nonDWpers1345">Johann Gabriel Seidl</author>
+					<author key="#nDWpers1345">Johann Gabriel Seidl</author>
 					<title level="m">Volkshymne [Gott erhalte]</title>
 					<date when="1853">1853</date>
 					<citedRange xml:id="DWbibl03398">2. Strophe<ref type="int" subtype="nonexcl" target="#DWbibl03400"/></citedRange><!-- Gut und Blut -->
@@ -7217,7 +7217,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02236" sortKey="Chelius_Fritz_H.">
-					<author key="#nonDWpers1346">Fritz H. Chelius</author>
+					<author key="#nDWpers1346">Fritz H. Chelius</author>
 					<title level="m">Aus Adolf Hitlers Jugendland und Jugendzeit</title>
 					<date when="1933">1933</date>
 					<citedRange xml:id="DWbibl02237">1. Kapitel: Auf deutschem Boden
@@ -7264,7 +7264,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl03195" sortKey="Buelow_Bernhard_von">
 					<ref type="gen" target="https://de.wikisource.org/wiki/Deutschlands_Platz_an_der_Sonne" subtype="example"/>
-					<author key="#nonDWpers1347">Bernhard von Bülow</author>
+					<author key="#nDWpers1347">Bernhard von Bülow</author>
 					<title level="m">[Reichstagsrede zum deutschen Kolonialismus]</title>
 					<date when="1897-12-06">6. 12. 1897<note>UA</note></date>
 					<citedRange xml:id="DWbibl03196">
@@ -7663,7 +7663,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl00356" sortKey="Homer">
 					<ref type="gen" subtype="example" target="https://dev.textgridrep.org/browse/qhzn.0"/>
-					<author key="#nonDWpers1348">Homer</author>
+					<author key="#nDWpers1348">Homer</author>
 					<title level="m">Ilias</title>
 					<date notBefore="-0800" notAfter="-0601" type="approx">7./8. Jh. v. Chr.<note>Entst.</note></date>
 					<citedRange xml:id="DWbibl01396">IV. Gesang<note type="context">
@@ -7678,7 +7678,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl00609" sortKey="Hutten_Ulrich_von"><!-- Stremmel -->
 					<ref type="gen" target="https://archive.org/details/operaquaereperir01huttuoft/page/194/mode/2up" subtype="example"/>
-					<author key="#nonDWpers1349">Ulrich von Hutten</author>
+					<author key="#nDWpers1349">Ulrich von Hutten</author>
 					<title level="m">[Brief an Willibald Birckheimer]</title>
 					<date when="1518-10-25">25. 10. 1518</date>
 					<citedRange xml:id="DWbibl00357">
@@ -7704,7 +7704,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl00359" sortKey="Juvenal">
 					<ref type="gen" target="https://www.thelatinlibrary.com/juvenal/1.shtml" subtype="example"/>
-					<author key="#nonDWpers1350">Juvenal</author>
+					<author key="#nDWpers1350">Juvenal</author>
 					<title level="m">Saturae / Satiren</title>
 					<date type="approx" notBefore="0101" notAfter="0200">2. Jh. n. Chr.</date>
 					<citedRange xml:id="DWbibl01399">Erste Satire, Vers 79<note type="context"><lg><l>si
@@ -7825,7 +7825,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02718" sortKey="Franz_Joseph_I.">
-					<author key="#nonDWpers1351">Franz Joseph I.</author>
+					<author key="#nDWpers1351">Franz Joseph I.</author>
 					<title level="m">An meine Völker!</title>
 					<date when="1914-07-28">28. 7. 1914</date>
 					<citedRange xml:id="DWbibl02719"><note type="context">Ich habe alles geprüft und
@@ -7963,7 +7963,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl00377" sortKey="Lessing_Gotthold_Ephraim">
 					<ref type="gen" target="https://textgridrep.org/browse/rksp.0" subtype="example"/>
-					<author key="#nonDWpers1352">Gotthold Ephraim Lessing</author>
+					<author key="#nDWpers1352">Gotthold Ephraim Lessing</author>
 					<title level="m">Emilia Galotti</title>
 					<date when="1772">1772<note>UA</note></date>
 					<citedRange xml:id="DWbibl01418">V. Akt, 2. Auftritt<ref target="https://textgridrep.org/browse/-/browse/rksp_0#tg647.2.2.part2" subtype="example" type="ext"/></citedRange><!-- Hölle … Hohngelächter -->
@@ -7971,7 +7971,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl00378" sortKey="Lessing_Gotthold_Ephraim">
 					<ref type="gen" target="https://textgridrep.org/browse/rkpt.0" subtype="example"/>
-					<author key="#nonDWpers1352">Gotthold Ephraim Lessing</author>
+					<author key="#nDWpers1352">Gotthold Ephraim Lessing</author>
 					<title level="m">Nathan der Weise</title>
 					<date when="1783">1783<note>UA</note></date>
 					<citedRange xml:id="DWbibl01766">3. Akt, 7. Auftritt, Vers 1911–1917<note type="context">
@@ -8278,7 +8278,7 @@ den Kampf -->
 				</bibl>
 				
 				<bibl source="_" xml:id="DWbibl03942" sortKey="Frauenfeld_Alfred_Eduard">
-					<author key="#nonDWpers1353">Alfred Eduard Frauenfeld</author>
+					<author key="#nDWpers1353">Alfred Eduard Frauenfeld</author>
 					<title level="m">[Ansprache in Bregenz]</title>
 					<date when="1931-08-05">5. 8. 1931<note>UA</note></date>
 					<citedRange xml:id="DWbibl03943"/><!-- manch glücklicher Formulierung politischen Täuscherwesens -->
@@ -8408,7 +8408,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="_" xml:id="DWbibl02138" sortKey="s._j.">
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=nfp%26datum=19330909%26seite=8%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1354">j. s.</author>
+					<author key="#nDWpers1354">j. s.</author>
 					<title level="a">Max Reinhardt zum sechzigsten Geburtstag</title>
 					<title level="j" key="#DWbibl04223">Neue Freie Presse</title>
 					<title level="j" type="short">NFP</title>
@@ -8546,7 +8546,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="_" xml:id="DWbibl00410" sortKey="Novalis#Hardenberg_Friedrich_von">
 					<ref type="gen" target="https://textgridrep.org/browse/-/browse/sv8t_0" subtype="example"/>
-					<author key="#nonDWpers1355">Novalis</author>
+					<author key="#nDWpers1355">Novalis</author>
 					<title level="m">Heinrich von Ofterdingen</title>
 					<date when="1802">1802<note>UA</note></date>
 					<citedRange xml:id="DWbibl00701"><ref target="https://textgridrep.org/browse/-/browse/sv8t_0" subtype="example" type="ext"/></citedRange><!-- braune Blume -->
@@ -8554,8 +8554,8 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="_" xml:id="DWbibl00411" sortKey="Offenbach_Jacques">
 					<author role="Komposition" key="#DWpers0180">Jacques Offenbach</author>
-					<author role="Libretto" key="#nonDWpers1356">Henri Meilhac</author>
-					<author role="Libretto" key="#nonDWpers1357">Ludovic Halévy</author>
+					<author role="Libretto" key="#nDWpers1356">Henri Meilhac</author>
+					<author role="Libretto" key="#nDWpers1357">Ludovic Halévy</author>
 					<title level="m">Blaubart</title>
 					<date when="1866">1866<note>UA</note></date>
 					<citedRange xml:id="DWbibl01868">II. Bild</citedRange><!-- Bin verloren! -->
@@ -8563,9 +8563,9 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="_" xml:id="DWbibl02222" sortKey="Offenbach_Jacques">
 					<author role="Komposition" key="#DWpers0180">Jacques Offenbach</author>
-					<author role="Libretto" key="#nonDWpers1358">Albert Vanloo</author>
-					<author role="Libretto" key="#nonDWpers1359">Eugène Leterrier</author>
-					<author role="Libretto" key="#nonDWpers1360">Arnold Mortier</author>
+					<author role="Libretto" key="#nDWpers1358">Albert Vanloo</author>
+					<author role="Libretto" key="#nDWpers1359">Eugène Leterrier</author>
+					<author role="Libretto" key="#nDWpers1360">Arnold Mortier</author>
 					<title level="m">Reise in den Mond</title>
 					<date when="1875">1875<note>UA</note></date>
 					<citedRange xml:id="DWbibl02223" wholeText="yes"/><!-- [Titelnennung] -->
@@ -8573,8 +8573,8 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="_" xml:id="DWbibl02638" sortKey="Offenbach_Jacques">
 					<author role="Komposition" key="#DWpers0180">Jacques Offenbach</author>
-					<author role="Libretto" key="#nonDWpers1356">Henri Meilhac</author>
-					<author role="Libretto" key="#nonDWpers1357">Ludovic Halévy</author>
+					<author role="Libretto" key="#nDWpers1356">Henri Meilhac</author>
+					<author role="Libretto" key="#nDWpers1357">Ludovic Halévy</author>
 					<title level="m">Die schöne Helena</title>
 					<date when="1864">1864<note>UA</note></date>
 					<citedRange xml:id="DWbibl02639">I. Akt, 5. Szene u. ö.</citedRange><!-- die »Hand des Verhängnisses«, welche die häufigen Niederlagen jener verschuldet hat -->
@@ -8608,7 +8608,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="_" xml:id="DWbibl02877" sortKey="Eschenbach_Wolfram_von">
 					<ref type="gen" subtype="example" target="https://textgridrep.org/browse/x9rw.0"/>
-					<author key="#nonDWpers1361">Wolfram von Eschenbach</author>
+					<author key="#nDWpers1361">Wolfram von Eschenbach</author>
 					<title level="m">Parzival</title>
 					<date notBefore="1200" notAfter="1210">1200–1210<note>Entst.</note></date>
 					<citedRange xml:id="DWbibl02878"><ref type="ext" subtype="example" target="https://textgridrep.org/browse/x9rw.0"/></citedRange><!-- Tumben -->
@@ -8616,7 +8616,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				
 				<bibl source="_" xml:id="DWbibl03637" sortKey="Redwitz_Oskar_von">
 					<ref type="gen" subtype="example" target="https://archive.org/details/bub_gb_Q4I7AAAAcAAJ/page/n4/mode/1up"/>
-					<author key="#nonDWpers1362">Oskar von Redwitz</author>
+					<author key="#nDWpers1362">Oskar von Redwitz</author>
 					<title level="m">Philippine Welser</title>
 					<title level="m" type="subtitle">Historisches Schauspiel in fünf Akten</title>
 					<date when="1858">1858<note>UA</note></date>
@@ -8625,7 +8625,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="_" xml:id="DWbibl00604" sortKey="Phaedrus_Gaius_Iulius">
 					<ref type="gen" target="https://la.wikisource.org/wiki/Fabulae_(Phaedrus)/Liber_I#[PROLOGUS]_Auctor." subtype="example"/>
-					<author key="#nonDWpers1363">Gaius Iulius Phaedrus</author>
+					<author key="#nDWpers1363">Gaius Iulius Phaedrus</author>
 					<title level="m">Fabulae</title>
 					<num>Liber I</num>
 					<date when="0030" type="approx">~30 n. Chr.</date>
@@ -8696,7 +8696,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				<bibl source="_" xml:id="DWbibl00425" sortKey="Platen_August_von">
 					<author key="#DWpers0187">August von Platen</author>
 					<title level="a">An einen deutschen Fürsten</title>
-					<title level="m">Polenlieder</title>
+					<title level="m" key="#DWbibl04601">Polenlieder</title>
 					<date when="1831">1831<note>Entst.</note></date>
 					<citedRange xml:id="DWbibl00431">Strophe
 					VII</citedRange><!-- Wie Mancher … Haß der Welt -->
@@ -8705,7 +8705,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				<bibl source="_" xml:id="DWbibl00426" sortKey="Platen_August_von">
 					<author key="#DWpers0187">August von Platen</author>
 					<title level="a">Der legitime Monarch (Monolog)</title>
-					<title level="m">Polenlieder</title>
+					<title level="m" key="#DWbibl04601">Polenlieder</title>
 					<date when="1831">1831<note>Entst.</note></date>
 					<citedRange xml:id="DWbibl00305">Strophe I</citedRange><!-- Bricht dir … Schulter, Autokrator -->
 				</bibl>
@@ -8713,7 +8713,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				<bibl source="_" xml:id="DWbibl00427" sortKey="Platen_August_von">
 					<author key="#DWpers0187">August von Platen</author>
 					<title level="a">Eamus omnis execrata Civitas</title>
-					<title level="m">Polenlieder</title>
+					<title level="m" key="#DWbibl04601">Polenlieder</title>
 					<date when="1831">1831<note>Entst.</note></date>
 					<citedRange xml:id="DWbibl00304">Strophe I,
 					II</citedRange><!-- O, kommt … eigene Haus! -->
@@ -8732,7 +8732,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				<bibl source="_" xml:id="DWbibl00430" sortKey="Platen_August_von"><!-- ACHTUNG: Strophen je nach Ausgabe auch geteilt, hier nach HKA -->
 					<author key="#DWpers0187">August von Platen</author>
 					<title level="a">Gesang der Polen</title>
-					<title level="m">Polenlieder</title>
+					<title level="m" key="#DWbibl04601">Polenlieder</title>
 					<date when="1831">1831<note>Entst.</note></date>
 					<citedRange xml:id="DWbibl00301">Strophe
 					X</citedRange><!-- Mag zu … Rächer auferstehn -->
@@ -8741,7 +8741,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				<bibl source="_" xml:id="DWbibl00436" sortKey="Platen_August_von"><!-- ACHTUNG: Strophen je nach Ausgabe anders; Kraus bezieht sich vielleicht(!) auf die Erstausgabe der Polenlieder 1939; hier: HKA -->
 					<author key="#DWpers0187">August von Platen</author>
 					<title level="a">Klagelied der polnischen Verbannten in Sibirien</title>
-					<title level="m">Polenlieder</title>
+					<title level="m" key="#DWbibl04601">Polenlieder</title>
 					<date when="1832">1832<note>Entst.</note></date>
 					<citedRange xml:id="DWbibl00303">Strophe I</citedRange><!-- Aus den … Gesang verfluchen -->
 					<citedRange xml:id="DWbibl00435">Strophe VI, VII</citedRange><!-- Kranz des … Dieb entwenden -->
@@ -8755,7 +8755,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				<bibl source="_" xml:id="DWbibl00437" sortKey="Platen_August_von">
 					<author key="#DWpers0187">August von Platen</author>
 					<title level="a">Unterirdischer Chor</title>
-					<title level="m">Polenlieder</title>
+					<title level="m" key="#DWbibl04601">Polenlieder</title>
 					<date when="1832">1832<note>Entst.</note></date>
 					<citedRange xml:id="DWbibl00438">Strophe IV, V</citedRange><!-- Den Gott … ist erkannt-->
 					<citedRange xml:id="DWbibl00439">Strophe
@@ -8763,7 +8763,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl00440" sortKey="Plato">
-					<author key="#nonDWpers1364">Plato</author>
+					<author key="#nDWpers1364">Plato</author>
 					<title level="m">Nomoi / Gesetze</title>
 					<num>Buch 7</num>
 					<date when="-0350" type="approx">~ 350 v. Chr.</date>
@@ -8946,7 +8946,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="_" xml:id="DWbibl02131" sortKey="Margulies_Hans">
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=tag%26datum=19330307%26seite=3%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1365">Hans Margulies</author>
+					<author key="#nDWpers1365">Hans Margulies</author>
 					<title level="a">Die Bartholomäusnacht des deutschen Geistes</title>
 					<title level="j" key="#DWbibl04205">Der Wiener Tag</title>
 					<pubPlace key="#DWplace00085">Wien</pubPlace>
@@ -8975,7 +8975,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="_" xml:id="DWbibl02799" sortKey="Ralf">
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=tag%26datum=19330514%26seite=17%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1366">Ralf</author>
+					<author key="#nDWpers1366">Ralf</author>
 					<title level="a">Was summt die Biene Maja?</title>
 					<title level="a" type="subtitle">„Begründungen von Waldemar Bonsels“ betreffend
 						seinen Antisemitismus</title>
@@ -9208,7 +9208,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02320" sortKey="Leers_Johann_von">
-					<author key="#nonDWpers1367">Johann von Leers</author>
+					<author key="#nDWpers1367">Johann von Leers</author>
 					<title level="m">[Rede auf der Berliner Studendendemonstration gegen
 						Österreich]</title>
 					<date when="1933-05-20">20. 5. 1933<note>UA</note></date>
@@ -9242,7 +9242,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="_" xml:id="DWbibl01346" sortKey="f.#Funder_Friedrich">
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=rpt%26datum=19330526%26seite=1%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1368">f. [d. i.: Friedrich Funder]</author>
+					<author key="#nDWpers1368">f. [d. i.: Friedrich Funder]</author>
 					<title level="a">Wolkenkuckucksheim?</title>
 					<title level="j" key="#DWbibl04230">Reichspost</title>
 					<title level="j" type="short">RP</title>
@@ -9288,7 +9288,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03426" sortKey="In_der_Maur_Gilbert_von">
-					<author key="#nonDWpers1369">Gilbert von In der Maur</author>
+					<author key="#nDWpers1369">Gilbert von In der Maur</author>
 					<title level="m">[Memorandum]</title>
 					<date when="1933-07-13">13. 7. 1933</date>
 					<citedRange xml:id="DWbibl03427"/>
@@ -9326,7 +9326,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02866" sortKey="Ditz_Hans">
-					<author key="#nonDWpers1370">Hans Ditz</author>
+					<author key="#nDWpers1370">Hans Ditz</author>
 					<title level="m">[Aktennotiz des Berliner Außenpolitischen Amtes der
 						NSDAP]</title>
 					<citedRange xml:id="DWbibl02867"/><!-- »mit Siemens wegen einer Verschärfung der Lage in Verbindung -->
@@ -9485,7 +9485,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02858" sortKey="Hoenig_Hermann">
-					<author key="#nonDWpers1371">Hermann Hönig</author>
+					<author key="#nDWpers1371">Hermann Hönig</author>
 					<title level="m">[Rundfunkansprache]</title>
 					<date when="1933-08-11">11. 8. 1933<note>UA</note></date>
 					<citedRange xml:id="DWbibl02859"/><!-- Sie beschweren sich im Rundfunk, daß man einen deutschen Journalisten die Zelle eines österreichischen Homosexuellen teilen ließ (was hier vielleicht noch als Courtoisie beschönigt wird). -->
@@ -9560,7 +9560,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl00573" sortKey="Rousseau_Jean-Jacques">
-					<author key="#nonDWpers1372">Jean-Jacques Rousseau [zugeschrieben]</author>
+					<author key="#nDWpers1372">Jean-Jacques Rousseau [zugeschrieben]</author>
 					<title level="m">[sprichwörtl. Formulierung]</title>
 					<citedRange xml:id="DWbibl00503" wholeText="yes"><note type="context">Zurück zur
 						Natur!</note></citedRange><!-- zur Natur zurückzufinden -->
@@ -9891,7 +9891,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="_" xml:id="DWbibl00520" sortKey="Suetonius_Tranquillus_Gaius">
 					<ref type="gen" target="https://la.wikisource.org/wiki/Vita_divi_Titi" subtype="example"/>
-					<author key="#nonDWpers1373">Gaius Suetonius Tranquillus</author>
+					<author key="#nDWpers1373">Gaius Suetonius Tranquillus</author>
 					<title level="m">Titus</title>
 					<date type="approx" when="0120">~120 n. Chr.</date>
 					<citedRange xml:id="DWbibl00733">1. Kapitel<note type="context">[dt.: „Zierde
@@ -9902,7 +9902,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="_" xml:id="DWbibl00521" sortKey="Tacitus_Publius_Cornelius">
 					<ref type="gen" target="http://www.thelatinlibrary.com/tacitus/tac.ann1.shtml" subtype="example"/>
-					<author key="#nonDWpers1374">Publius Cornelius Tacitus</author>
+					<author key="#nDWpers1374">Publius Cornelius Tacitus</author>
 					<title level="m">Ab excessu divi Augusti (Annales)</title>
 					<date type="approx" notBefore="0110" notAfter="0120">110–120 n. Chr.</date>
 					<citedRange xml:id="DWbibl00342">Liber 1,7<ref target="http://www.thelatinlibrary.com/tacitus/tac.ann1.shtml" subtype="example" type="ext"/>
@@ -9913,7 +9913,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 				
 				<bibl source="_" xml:id="DWbibl03566" sortKey="Sanden_Heinrich">
-					<author key="#nonDWpers1375">Heinrich Sanden</author>
+					<author key="#nDWpers1375">Heinrich Sanden</author>
 					<title level="m">[Dr. Siegel wird durch München geführt, Fotografie]</title>
 					<citedRange xml:id="DWbibl03567" wholeText="yes"/>
 				</bibl>
@@ -9928,7 +9928,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl00524" sortKey="xyz" corresp="#DWfacs1151">
-					<author key="#nonDWpers1376">xyz</author>
+					<author key="#nDWpers1376">xyz</author>
 					<title level="a">Aufbruch der Kunst</title>
 					<title level="j" key="#DWbibl04244">Telegraf</title>
 					<pubPlace key="#DWplace00085">Wien</pubPlace>
@@ -9949,7 +9949,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03524" sortKey="xyz" corresp="#DWfacs1115">
-					<author key="#nonDWpers1376">xyz</author>
+					<author key="#nDWpers1376">xyz</author>
 					<title level="a">Geburtsreformen des Dritten Reiches</title>
 					<title level="j" key="#DWbibl04244">Telegraf</title>
 					<pubPlace key="#DWplace00085">Wien</pubPlace>
@@ -10012,7 +10012,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02046" sortKey="Diok_Arthur" corresp="#DWfacs1570">
-					<author key="#nonDWpers1379">Arthur Diok</author>
+					<author key="#nDWpers1379">Arthur Diok</author>
 					<title level="a">Oesterreichs Sendung</title>
 					<title level="a" type="subtitle">Auszug aus den politischen Reden des großen
 						Dichters Ludwig Uhland</title>
@@ -10079,7 +10079,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 					<biblScope>S. 3</biblScope>
 					<citedRange xml:id="DWbibl01501" corresp="#DWfacs1411"/><!-- Unsere Bewegung hat … Kitsch verkommen. -->
 					<!-- <citedRange xml:id="DWbibl00472" corresp="#DWfacs1411"/>gebracht -->
-					<citedRange xml:id="DWbibl01503" corresp="#DWfacs1410" wholeText="yes"/><!-- gegen den Kitsch -->
+					
 					<citedRange xml:id="DWbibl01500" corresp="#DWfacs1410" wholeText="yes"/><!-- Kitsch -->
 					<!--<citedRange xml:id="DWbibl03479" corresp="#DWfacs1412"
 					/> die Anbringung von Wahlsprüchen auf Gebrauchsporzellan,  -->
@@ -10187,7 +10187,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl00539" sortKey="Vergil">
-					<author key="#nonDWpers1380">Vergil</author>
+					<author key="#nDWpers1380">Vergil</author>
 					<title level="m">Aeneis</title>
 					<date notBefore="-0029" notAfter="-0019">29 bis 19 v. Chr.<note>Entst.</note></date>
 					<citedRange xml:id="DWbibl01506">IV, 625<ref type="ext" subtype="example" target="http://www.thelatinlibrary.com/vergil/aen4.shtml"/>
@@ -10195,7 +10195,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 				
 				<bibl source="_" xml:id="DWbibl04120" sortKey="Livius">
-					<author key="#nonDWpers1381">Titus Livius</author>
+					<author key="#nDWpers1381">Titus Livius</author>
 					<title level="m">Ab urbe condita libri, V</title><!-- genauer: 5,47  -->
 					<date when="-0025">27–25 v. Chr.</date>
 					<citedRange xml:id="DWbibl04121">47</citedRange>
@@ -10204,7 +10204,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="_" xml:id="DWbibl00540" sortKey="Vogl_Johann_Nepomuk">
 					<ref type="gen" target="https://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10121964_00321.html" subtype="example"/>
-					<author key="#nonDWpers1382">Johann Nepomuk Vogl</author>
+					<author key="#nDWpers1382">Johann Nepomuk Vogl</author>
 					<title level="m">Das Erkennen</title>
 					<date notAfter="1838">vor 1838<note>Entst.</note></date><!-- Quelle der date-Angabe: ANNO gibt (Suche "Mutteraug") eine Rezension einer Vertonung durch Müller aus dem Februar 1838	 -->
 					<citedRange xml:id="DWbibl00227"><ref target="https://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10121964_00321.html" subtype="example" type="ext"/></citedRange><!-- Wir aber konnten … bewillkommnen: -->
@@ -10333,8 +10333,8 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="_" xml:id="DWbibl01933" sortKey="Offenbach_Jacques#Meilhac_Henri#Halévy_Ludovic">
 					<author role="Komposition" key="#DWpers0180">Jacques Offenbach</author>
-					<author role="Libretto" key="#nonDWpers1356">Henri Meilhac</author>
-					<author role="Libretto" key="#nonDWpers1357">Ludovic Halévy</author>
+					<author role="Libretto" key="#nDWpers1356">Henri Meilhac</author>
+					<author role="Libretto" key="#nDWpers1357">Ludovic Halévy</author>
 					<title level="m">Die Briganten / Die Banditen</title>
 					<date when="1869">1869<note>UA</note></date>
 					<citedRange xml:id="DWbibl01934" wholeText="yes"/><!-- Titel -->
@@ -10356,7 +10356,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="_" xml:id="DWbibl02079" sortKey="Adler_Alfred">
 					<ref type="gen" subtype="example" target="https://de.wikisource.org/wiki/Über_den_nervösen_Charakter"/>
-					<author key="#nonDWpers1383">Alfred Adler</author>
+					<author key="#nDWpers1383">Alfred Adler</author>
 					<title level="m">Über den nervösen Charakter</title>
 					<date when="1912">1912</date>
 					<citedRange xml:id="DWbibl02080"><ref type="ext" subtype="example" target="https://de.wikisource.org/wiki/Über_den_nervösen_Charakter"/></citedRange><!-- [Anspielung auf Thema Minderwertigkeitskomplex] -->
@@ -10481,7 +10481,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="_" xml:id="DWbibl03002" sortKey="x">
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=waz%26datum=19330820%26seite=2%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1305">x</author>
+					<author key="#nDWpers1305">x</author>
 					<title level="a">Der Hitler-Gruß des Cambridge-Mannes</title>
 					<title level="j" key="#DWbibl04225">Wiener Allgemeine Zeitung</title>
 					<title level="j" type="short">WAZ</title>
@@ -10515,7 +10515,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				
 				<bibl source="_" xml:id="DWbibl04100" sortKey="Werckmeister_Rudolph">
 					<ref type="gen" subtype="specific" target="https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10486243/canvas/530/view"/>
-					<author key="#nonDWpers1384">Rudolph Werckmeister</author>
+					<author key="#nDWpers1384">Rudolph Werckmeister</author>
 					<title level="a">Aufforderung</title>
 					<title level="j" key="#DWbibl04296">Berlinische Nachrichten von Staats- und gelehrten Sachen</title>
 					<title level="j" type="short">Berlinische Nachrichten</title>
@@ -10655,7 +10655,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03550" sortKey="Pahl_Georg"><!-- http://www.fotogeschichte.info/bisher-erschienen/hefte-ab-126/131/goetz-kreutzmueller-fotografie-ns-terror/ -->
-					<author key="#nonDWpers1385">Georg Pahl</author>
+					<author key="#nDWpers1385">Georg Pahl</author>
 					<title level="m">[SA-Mann und Häftlinge im KZ Friedrichstraße, Fotografie]</title>
 					<date when="1933-03-06">6. 3. 1933</date>
 					<citedRange xml:id="DWbibl03551" wholeText="yes"/><!-- durch jenen machthabenden … -->
@@ -10706,7 +10706,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="_" xml:id="DWbibl02770" sortKey="s._g.">
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=aze%26datum=19330409%26seite=13%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1386">g. s.</author>
+					<author key="#nDWpers1386">g. s.</author>
 					<title level="a">Zwei Tage in Leipzig</title>
 					<title level="j" key="#DWbibl04203">Arbeiter-Zeitung</title>
 					<title level="j" type="short">AZ</title>
@@ -10777,7 +10777,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="_" xml:id="DWbibl02602" sortKey="Winter_Max">
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=aze%26datum=19321219%26seite=3%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1387">Max Winter</author>
+					<author key="#nDWpers1387">Max Winter</author>
 					<title level="a">Wie trägt man die drei Pfeile? [Leserbrief]</title>
 					<title level="j" key="#DWbibl04203">Arbeiter-Zeitung</title>
 					<title level="j" type="short">AZ</title>
@@ -10789,9 +10789,9 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="_" xml:id="DWbibl02604" sortKey="Lindner_Eduard#Adeko#Sperl_Gustav">
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=aze%26datum=19330102%26seite=3%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1388">Eduard Lindner</author>
-					<author key="#nonDWpers1389">Adeko</author>
-					<author key="#nonDWpers1390">Gustav Sperl</author>
+					<author key="#nDWpers1388">Eduard Lindner</author>
+					<author key="#nDWpers1389">Adeko</author>
+					<author key="#nDWpers1390">Gustav Sperl</author>
 					<title level="a">Wie trägt man die drei Pfeile [Leserbriefe]</title>
 					<title level="j" key="#DWbibl04203">Arbeiter-Zeitung</title>
 					<title level="j" type="short">AZ</title>
@@ -10972,7 +10972,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 
 				<bibl source="_" xml:id="DWbibl02534" sortKey="Fritsch_Karl">
-					<author key="#nonDWpers1391">Karl Fritsch</author>
+					<author key="#nDWpers1391">Karl Fritsch</author>
 					<title level="m">[Rede in der Chemnitzer Stadthalle]</title>
 					<date when="1933-06-29">29. 6. 1933<note>UA</note></date>
 					<citedRange xml:id="DWbibl02535"/><!-- So haben wir … Unzufriedenheit verbreitet -->
@@ -11218,7 +11218,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02271" sortKey="Hartmann_Hans" corresp="#DWfacs1185">
-					<author key="#nonDWpers1392">Hans Hartmann</author>
+					<author key="#nDWpers1392">Hans Hartmann</author>
 					<title level="a">Neue Ziele der Menschheit</title>
 					<title level="j" key="#DWbibl04303">Berliner Morgenpost</title>
 					<pubPlace key="#DWplace00313">Berlin</pubPlace>
@@ -11260,7 +11260,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 
 				<bibl source="_" xml:id="DWbibl03416" sortKey="N._N.">
-					<author key="#nonDWpers1393">Regierungsassessor Dr. Casper</author>
+					<author key="#nDWpers1393">Regierungsassessor Dr. Casper</author>
 					<title level="m">[Königsberger Vortrag zur
 						„kommenden Reichsverfassung“]</title>
 					<date when="1933-08">August 1933<note>UA</note></date><!-- um den 10. August 1933 -->
@@ -11721,7 +11721,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02581" sortKey="Eine_deutsche_Patriotin">
-					<author key="#nonDWpers1394">[„Eine deutsche Patriotin“]</author>
+					<author key="#nDWpers1394">[„Eine deutsche Patriotin“]</author>
 					<title level="m">[Leserbrief]</title>
 					<citedRange xml:id="DWbibl02582"/><!-- Welcher Gottgesegnete … unseren Helden! -->
 				</bibl>
@@ -11862,7 +11862,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="Frueh" xml:id="DWbibl00673" sortKey="Schneider_Emil">
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=rpt%26datum=19330814%26seite=10%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1395">Emil Schneider</author>
+					<author key="#nDWpers1395">Emil Schneider</author>
 					<title level="a">Ein umfassender Situationsbericht aus Berlin</title>
 					<title level="j" key="#DWbibl04230">Reichspost</title>
 					<title level="j" type="short">RP</title>
@@ -11917,7 +11917,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02057" sortKey="Sauckel_Fritz">
-					<author key="#nonDWpers1396">Fritz Sauckel</author>
+					<author key="#nDWpers1396">Fritz Sauckel</author>
 					<title level="m">[Rede am Gauparteitag Thüringen in Weimar]</title>
 					<date when="1933-06-17">17. 6. 1933<note>UA</note></date>
 					<citedRange xml:id="DWbibl02058"/><!-- Intoleranz befohlen -->
@@ -12020,7 +12020,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="Frueh" xml:id="DWbibl00685" sortKey="Margulies_Hanns">
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=tag%26datum=19330611%26seite=10%26zoom=33" subtype="specific"/>
-					<author key="#nonDWpers1365">Hanns Margulies</author>
+					<author key="#nDWpers1365">Hanns Margulies</author>
 					<title level="a">Deutschlands Selbstausschluß aus der Kulturwelt</title>
 					<title level="a" type="subtitle">Mord und Totschlag am „inneren Feind“ keine
 						strafbare Handlung</title>
@@ -12063,7 +12063,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03345" sortKey="Wagner_Gerhard">
-					<author key="#nonDWpers1397">Gerhard Wagner</author><!-- ACHTUNG - Funktion – Ärztekommissar – anmerken? -->
+					<author key="#nDWpers1397">Gerhard Wagner</author><!-- ACHTUNG - Funktion – Ärztekommissar – anmerken? -->
 					<title level="m">[Anordnung]</title>
 					<date when="1933-07-29">29. 7. 1933</date>
 					<citedRange xml:id="DWbibl03346"/><!-- arische Ärzte … und umgekehrt -->
@@ -12229,7 +12229,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 
 				<bibl source="_" xml:id="DWbibl02240" sortKey="Bang_Paul">
-					<author key="#nonDWpers1398">Paul Bang</author>
+					<author key="#nDWpers1398">Paul Bang</author>
 					<title level="m">[Erklärung vor einer Tagung deutschnationaler
 						Industrieller]</title>
 					<date when="1933-02-11">11. 2. 1933<note>UA</note></date>
@@ -12880,7 +12880,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02125" sortKey="Koehler_Wolfgang" corresp="#DWfacs1291">
-					<author key="#nonDWpers1399">Wolfgang Köhler</author>
+					<author key="#nDWpers1399">Wolfgang Köhler</author>
 					<title level="a">Gespräche in Deutschland</title>
 					<title level="j" key="#DWbibl04200">Deutsche Allgemeine Zeitung</title>
 					<title level="j" type="short">DAZ</title>
@@ -13553,7 +13553,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 
 				<bibl source="_" xml:id="DWbibl03432" sortKey="R._A.">
 					<ref type="gen" subtype="specific" target="https://gallica.bnf.fr/ark:/12148/bpt6k627751w.item"/>
-					<author key="#nonDWpers1400">A. R.</author>
+					<author key="#nDWpers1400">A. R.</author>
 					<title level="a">Une voix d'Allemagne parle</title>
 					<title level="j" key="#DWbibl04316">Le Petit Parisien</title>
 					<pubPlace key="#DWplace00077">Paris</pubPlace>
@@ -13621,7 +13621,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 				
 				<bibl source="_" xml:id="DWbibl03900" sortKey="Hoffmann_Heinrich">
-					<author key="#nonDWpers1401">Heinrich Hoffmann</author>
+					<author key="#nDWpers1401">Heinrich Hoffmann</author>
 					<title level="m">[Fotografie]</title>
 					<citedRange xml:id="DWbibl03901" wholeText="yes"/>
 				</bibl>
