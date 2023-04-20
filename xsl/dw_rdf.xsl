@@ -12,6 +12,7 @@
   </xsl:template>
   
   <xsl:template match="tei:teiHeader"/>
+  <xsl:template match="tei:facsimile"/>
   
   <xsl:template match="tei:bibl">
     
