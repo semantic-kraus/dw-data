@@ -1,0 +1,2699 @@
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .    
+@prefix frbroo: <https://cidoc-crm.org/frbroo/sites/default/files/FRBR2.4-draft.rdfs#> .
+@prefix lk: <https://sk.acdh.oeaw.ac.at/project/legal-kraus> .
+@prefix ns1: <https://w3id.org/lso/intro/Vx/#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sk: <https://sk.acdh.oeaw.ac.at/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sk:DWbibl02789 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Unsere Meinung"@en  .
+    
+sk:DWbibl00004 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Abendlied"@en  .
+    
+sk:DWbibl02585 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Aus meinem Leben. Dichtung und Wahrheit"@en  .
+    
+sk:DWbibl03178 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Catéchisme des industriels"@en  .
+    
+sk:DWbibl00008 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Faust"@en  .
+    
+sk:DWbibl00009 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Zauberlehrling"@en  .
+    
+sk:DWbibl03935 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Gesang der Geister über den Wassern"@en  .
+    
+sk:DWbibl00362 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Götz von Berlichingen mit der eisernen Hand"@en  .
+    
+sk:DWbibl00011 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Gespräch mit Heinrich Luden"@en  .
+    
+sk:DWbibl03573 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Rückblicke in mein Leben"@en  .
+    
+sk:DWbibl00012 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: An den Mond"@en  .
+    
+sk:DWbibl00013 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Torquato Tasso"@en  .
+    
+sk:DWbibl01956 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Brief]"@en  .
+    
+sk:DWbibl00015 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Nachgelassenes Fragment]"@en  .
+    
+sk:DWbibl02005 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Nachgelassenes Fragment]"@en  .
+    
+sk:DWbibl01062 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Nachgelassenes Fragment]"@en  .
+    
+sk:DWbibl01780 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Nachgelassenes Fragment]"@en  .
+    
+sk:DWbibl00647 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Sturmlied [Feuerjo! / Deutschland erwache!]"@en  .
+    
+sk:DWbibl00298 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Drei Grafen Spee"@en  .
+    
+sk:DWbibl00302 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Jude an Rußland"@en  .
+    
+sk:DWbibl00300 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Vorwort"@en  .
+    
+sk:DWbibl00299 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Kamerad, wo kommst du her?"@en  .
+    
+sk:DWbibl03533 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Deutscher Geist wird verramscht"@en  .
+    
+sk:DWbibl01950 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Hermannsschlacht"@en  .
+    
+sk:DWbibl00017 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Zur Genealogie der Moral"@en  .
+    
+sk:DWbibl00018 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Jenseits von Gut und Böse"@en  .
+    
+sk:DWbibl03972 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Morgenröthe"@en  .
+    
+sk:DWbibl00022 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Nachgelassenes Fragment]"@en  .
+    
+sk:DWbibl00023 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Menschliches, Allzumenschliches"@en  .
+    
+sk:DWbibl00024 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Liebes Leid und Lust"@en  .
+    
+sk:DWbibl00025 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hamlet"@en  .
+    
+sk:DWbibl04009 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Deutschland und Oesterreich"@en  .
+    
+sk:DWbibl00660 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: König Lear"@en  .
+    
+sk:DWbibl00027 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Antonius und Cleopatra"@en  .
+    
+sk:DWbibl00028 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das Wintermärchen"@en  .
+    
+sk:DWbibl00029 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Macbeth"@en  .
+    
+sk:DWbibl00030 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die lustigen Weiber von Windsor"@en  .
+    
+sk:DWbibl00031 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Heinrich IV, 1. Teil"@en  .
+    
+sk:DWbibl00687 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ein feste Burg ist unser Gott"@en  .
+    
+sk:DWbibl03357 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Sozialdemokratie und die Regierungskrise"@en  .
+    
+sk:DWbibl03359 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede]"@en  .
+    
+sk:DWbibl02682 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Scala wird Schauspielhaus"@en  .
+    
+sk:DWbibl03553 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der gewesene badische Staatspräsident verhaftet"@en  .
+    
+sk:DWbibl03555 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Meldung der Polizeipressestelle Hamburg]"@en  .
+    
+sk:DWbibl02680 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Regierung hält sich streng an die Verfassung"@en  .
+    
+sk:DWbibl03633 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Stürmische Debatte in Genf: Nazi einstimmig abgelehnt"@en  .
+    
+sk:DWbibl03384 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Äußerung auf der Internationalen Arbeitskonferenz in
+						Genf]"@en  .
+    
+sk:DWbibl02668 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wie schlagen wir den Terror?"@en  .
+    
+sk:DWbibl03265 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: „In Deutschland hat keiner zu meckern.“"@en  .
+    
+sk:DWbibl03268 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Deutscher! Dein Glaube ist Dein Sieg!"@en  .
+    
+sk:DWbibl03361 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Schreiben an den Vorsitzenden des kommunalpolitischen Amtes
+						der NSDAP]"@en  .
+    
+sk:DWbibl03699 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Den jüdischen Kapitalisten geschieht nichts"@en  .
+    
+sk:DWbibl02672 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Unterschreibet! Unterschreibet!"@en  .
+    
+sk:DWbibl02670 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Rote Flamme über dem Roten Berg"@en  .
+    
+sk:DWbibl02629 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wir vergessen nichts!"@en  .
+    
+sk:DWbibl02611 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Gespräche an der Werkbank"@en  .
+    
+sk:DWbibl01577 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Zwei Briefe aus Deutschland"@en  .
+    
+sk:DWbibl02904 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Anonymer Brief]"@en  .
+    
+sk:DWbibl02549 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das wahnsinnige „Judenliebchen“"@en  .
+    
+sk:DWbibl02284 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Barbarossa von Neudeck"@en  .
+    
+sk:DWbibl02286 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Befehl und Wahlaufruf"@en  .
+    
+sk:DWbibl02263 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Aus der Hölle des Dritten Reiches"@en  .
+    
+sk:DWbibl02855 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Soldaten das sind lustige Brüder [Soldatenlied]"@en  .
+    
+sk:DWbibl02250 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Deutschland ist bankrott"@en  .
+    
+sk:DWbibl02853 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Ansprache auf einer Versammlung der Kolonialwaren- und
+						Delikatessenhändler in München]"@en  .
+    
+sk:DWbibl02974 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hitlers halber Sieg über das Zentrum"@en  .
+    
+sk:DWbibl02976 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Auflösung des Zentrums"@en  .
+    
+sk:DWbibl03694 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Kundgebung der Reichsleitung der Deutschen
+						Zentrumspartei]"@en  .
+    
+sk:DWbibl03422 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Unstimmigkeiten im „Dritten Reich“"@en  .
+    
+sk:DWbibl03424 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rundfunkrede anlässlich der Wahl Friedrich von Bodelschwinghs
+						zum Reichsbischof]"@en  .
+    
+sk:DWbibl03206 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Rassenkunde für Volksschüler"@en  .
+    
+sk:DWbibl03208 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Interview mit Friedrich Alfred Beck]"@en  .
+    
+sk:DWbibl02694 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Plötzlicher Tod eines Wachebeamten"@en  .
+    
+sk:DWbibl02336 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Geschäft geht vor Rasse"@en  .
+    
+sk:DWbibl00053 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das Hakenkreuz bedeutet ..."@en  .
+    
+sk:DWbibl03297 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der große Brockhaus"@en  .
+    
+sk:DWbibl00056 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Verhältnismäßig viel jüdische Herren"@en  .
+    
+sk:DWbibl02434 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rechenschaftsbericht der A.E.G.]"@en  .
+    
+sk:DWbibl00059 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nazi und jüdische Kapitalisten"@en  .
+    
+sk:DWbibl02450 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wie Ernst Eckstein starb"@en  .
+    
+sk:DWbibl00061 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nazischüler brauchen nicht zu lernen"@en  .
+    
+sk:DWbibl03203 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Anordnung]"@en  .
+    
+sk:DWbibl02205 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die braune Mordbestie ist wieder losgelassen"@en  .
+    
+sk:DWbibl00065 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Im Landtag einstimmig angenommen"@en  .
+    
+sk:DWbibl00066 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Szenen, die über alle Begriffe gehen"@en  .
+    
+sk:DWbibl02008 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Immer neue Konzentrationslager"@en  .
+    
+sk:DWbibl02477 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Flucht aus dem Dritten Reich"@en  .
+    
+sk:DWbibl02889 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Meldung des Conti-Nachrichten-Büros]"@en  .
+    
+sk:DWbibl00077 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das Dritte Reich braucht Lakaien. Die Parade der
+						Ueberläufer"@en  .
+    
+sk:DWbibl02658 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das neue österreichische Staatsgebäude"@en  .
+    
+sk:DWbibl00084 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: 1. Rede gegen Catilina"@en  .
+    
+sk:DWbibl00085 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Lästerung Nietzsches"@en  .
+    
+sk:DWbibl03576 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Nachgelassenes Fragment]"@en  .
+    
+sk:DWbibl03757 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Aus dem Nachlass: Studien aus der Umwerthungszeit
+						1882–1888"@en  .
+    
+sk:DWbibl03748 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Wille zur Macht. Versuch einer Umwerthung aller
+						Werte"@en  .
+    
+sk:DWbibl03750 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Aus dem Nachlass: Aufzeichnungen aus der Zeit der Morgenröthe
+						und der Fröhlichen Wissenschaft 1880–1882"@en  .
+    
+sk:DWbibl03557 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Wille zur Macht. Versuch einer Umwerthung aller
+						Werte"@en  .
+    
+sk:DWbibl00086 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Aus dem Lande des braunen Schreckens"@en  .
+    
+sk:DWbibl03062 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: The Terror in Germany"@en  .
+    
+sk:DWbibl02678 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wien verteidigt seine Rechte"@en  .
+    
+sk:DWbibl02912 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede zur Eröffnung der Wohnhausanlage Jedleseestraße]"@en  .
+    
+sk:DWbibl03535 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Wiener werden ihre Rechte zu verteidigen wissen"@en  .
+    
+sk:DWbibl02507 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die braune Hölle von Dürgoy"@en  .
+    
+sk:DWbibl02509 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: “Camp Life” in Germany"@en  .
+    
+sk:DWbibl03740 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Dr. Rosenberg Runs Away"@en  .
+    
+sk:DWbibl02169 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Dummheiten der Woche"@en  .
+    
+sk:DWbibl03041 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Brandstiftung bei der „Hakoah“"@en  .
+    
+sk:DWbibl03150 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Festnahme eines Stahlhelmführers"@en  .
+    
+sk:DWbibl03134 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wir werden ihnen die Kinder nehmen!"@en  .
+    
+sk:DWbibl03136 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Ansprache vor SA und SS in Erfurt]"@en  .
+    
+sk:DWbibl02180 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Dummheiten der Woche"@en  .
+    
+sk:DWbibl03401 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Judas Rolle in Krieg und Republik"@en  .
+    
+sk:DWbibl02182 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Turner des Wiener Turngaues!"@en  .
+    
+sk:DWbibl02741 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Damit die arme Seel' a Ruh' hat"@en  .
+    
+sk:DWbibl02815 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Bomben"@en  .
+    
+sk:DWbibl02171 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: "@en  .
+    
+sk:DWbibl02173 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der taubengraue Überzieher"@en  .
+    
+sk:DWbibl02675 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Im Zeichen der Vaterländischen Front"@en  .
+    
+sk:DWbibl02910 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Wortmeldung im Niederösterreichischen Landtag]"@en  .
+    
+sk:DWbibl03669 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Wortmeldung im Niederösterreichischen Landtag]"@en  .
+    
+sk:DWbibl02583 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wie die deutschen „Justizgreuel“ in Wirklichkeit
+						aussehen!"@en  .
+    
+sk:DWbibl00079 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Vor der Aufklärung der Bombenanschläge?"@en  .
+    
+sk:DWbibl02134 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Emigranten-Politik"@en  .
+    
+sk:DWbibl00088 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Krach beim Penclubkongreß"@en  .
+    
+sk:DWbibl00092 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Toscanini hat in Bayreuth endgültig abgesagt"@en  .
+    
+sk:DWbibl00094 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Richard Wagner-Gedenkjahr in Bayreuth"@en  .
+    
+sk:DWbibl02248 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Mitteilung die Absage Toscaninis betreffend]"@en  .
+    
+sk:DWbibl00095 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Riesenkundgebung in den Sophiensälen!"@en  .
+    
+sk:DWbibl00096 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hausarzt-Briefkasten"@en  .
+    
+sk:DWbibl00097 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Laßt doch die Juden allein!"@en  .
+    
+sk:DWbibl00098 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Kube über Hitlers Mission"@en  .
+    
+sk:DWbibl03032 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede auf einer Kundgebung der NSBO im Berliner
+						Sportpalast]"@en  .
+    
+sk:DWbibl00104 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: „Der letzte Schützengraben liberaler Freiheit“"@en  .
+    
+sk:DWbibl00105 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Bombenanschlag auf das Wiedener „Warenhaus der
+						Kleinigkeiten“ – eine Kleinigkeit"@en  .
+    
+sk:DWbibl00108 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Unser Ziel"@en  .
+    
+sk:DWbibl00109 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: A. E. I. O. U."@en  .
+    
+sk:DWbibl00112 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Einstein verzichtet auf Rückkehr nach Deutschland"@en  .
+    
+sk:DWbibl00114 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ganz Deutschland feiert Adolf Hitlers Geburtstag!"@en  .
+    
+sk:DWbibl00123 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Goethe-Symphonie"@en  .
+    
+sk:DWbibl00124 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Einschreiten gegen den „Stahlhelm“ in Braunschweig"@en  .
+    
+sk:DWbibl02054 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Amtliche Mitteilung]"@en  .
+    
+sk:DWbibl00126 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Antinationaler Skandal in München"@en  .
+    
+sk:DWbibl03240 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Frontkämpfer nach dem Krieg"@en  .
+    
+sk:DWbibl03242 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Eine skandalöse Erstaufführung in München"@en  .
+    
+sk:DWbibl03270 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Deutschland"@en  .
+    
+sk:DWbibl03273 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede]"@en  .
+    
+sk:DWbibl02448 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Verteidigung des Wohlstandes im Kriege"@en  .
+    
+sk:DWbibl02978 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Gegen Eingriffe in die Schulverwaltung"@en  .
+    
+sk:DWbibl02980 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Erlass]"@en  .
+    
+sk:DWbibl02575 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ein „Schmucktelegramm“ für den Nürnberger
+						Reichsparteitag"@en  .
+    
+sk:DWbibl00504 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wettkampf des Geistes auf der Berliner Olympiade"@en  .
+    
+sk:DWbibl00127 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Eindruck der Rede Hitlers"@en  .
+    
+sk:DWbibl01919 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Regierungserklärung Görings im preußischen Landtag"@en  .
+    
+sk:DWbibl00129 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das Attentat auf Professor Lessing"@en  .
+    
+sk:DWbibl02148 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Generalversammlung des Pen-Klubs"@en  .
+    
+sk:DWbibl02839 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Schlusswort auf der PEN-Generalversammlung]"@en  .
+    
+sk:DWbibl00133 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Toscaninis Absage an Bayreuth"@en  .
+    
+sk:DWbibl02103 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Verletzung der Luftsouveränität Oesterreichs"@en  .
+    
+sk:DWbibl02101 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Eine Falschmeldung der „Arbeiterzeitung“"@en  .
+    
+sk:DWbibl00134 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Gegen die geschminkten Frauen"@en  .
+    
+sk:DWbibl02898 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Aussendung des Pressedienstes der NSDAP]"@en  .
+    
+sk:DWbibl00136 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: An einem großen Unglück vorüber ..."@en  .
+    
+sk:DWbibl00137 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Konflikt der französischen Sozialisten vor der
+						Internationale"@en  .
+    
+sk:DWbibl00138 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Führerprinzip auch in der Wirtschaft"@en  .
+    
+sk:DWbibl03301 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Ansprache an der Bergakademie Clausthal-Zellerfeld]"@en  .
+    
+sk:DWbibl03303 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ein Denkmal der deutschen Arbeit in Berlin"@en  .
+    
+sk:DWbibl00139 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Gegen die antideutsche Propaganda"@en  .
+    
+sk:DWbibl03420 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Zuschrift der Aktiengesellschaft Mix und Genest]"@en  .
+    
+sk:DWbibl02952 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Festkundgebung des Wiener Heimatschutzes"@en  .
+    
+sk:DWbibl02954 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Ansprache auf der Festkundgebung des Wiener
+						Heimatschutzes]"@en  .
+    
+sk:DWbibl00140 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Aufgabe des Deutschen Bauernbundes in Oesterreich"@en  .
+    
+sk:DWbibl02950 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Ansprache auf der Heldengedenkfeier der Kärntner Bauernwehr
+						und des Junglandbundes]"@en  .
+    
+sk:DWbibl02340 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Frau Undset gefällt der Scheiterhaufen"@en  .
+    
+sk:DWbibl02699 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Um die Demokratie"@en  .
+    
+sk:DWbibl02412 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: „Die verbreiteten Greuelmeldungen waren großer Schwindel“
+						(??)"@en  .
+    
+sk:DWbibl03189 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wiener Wirtschaftswoche. Die Besonderheiten des deutschen
+						Transfermoratoriums"@en  .
+    
+sk:DWbibl03299 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Aus dem Dritten Reich"@en  .
+    
+sk:DWbibl03068 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Okkasion"@en  .
+    
+sk:DWbibl03070 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: "@en  .
+    
+sk:DWbibl02982 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hitlers Folterkammern"@en  .
+    
+sk:DWbibl02985 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wie der Nationalsozialismus in Deutschland finanziert
+						wird"@en  .
+    
+sk:DWbibl03066 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nazi-Folterkammer im Extrazimmer"@en  .
+    
+sk:DWbibl03008 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Müssen Ausländer den Hitler-Gruß leisten?"@en  .
+    
+sk:DWbibl02966 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nationalrat Kunschak über die Abwehr der braunen Pest"@en  .
+    
+sk:DWbibl02970 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Ansprache in den Wimberger-Sälen]"@en  .
+    
+sk:DWbibl00736 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Kleines Geburtstagsgeschenk"@en  .
+    
+sk:DWbibl02538 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Reichsgesetz gegen die Arbeitslosigkeit"@en  .
+    
+sk:DWbibl02519 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Mord im Auftrag des Naziministers Frank"@en  .
+    
+sk:DWbibl02756 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Deutschland von heute"@en  .
+    
+sk:DWbibl02709 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Max Reinhardts Wiener Aufenthalt"@en  .
+    
+sk:DWbibl00146 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die demolierte Literatur"@en  .
+    
+sk:DWbibl03282 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die SA Jesu Christi"@en  .
+    
+sk:DWbibl03667 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Arier-Paragraph in Deutschland"@en  .
+    
+sk:DWbibl03307 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Wahlaufruf der „Deutschen Christen“]"@en  .
+    
+sk:DWbibl03284 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hitler empfindet sich als Werkzeug Gottes"@en  .
+    
+sk:DWbibl03309 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede im Münchner Bürgerbräukeller]"@en  .
+    
+sk:DWbibl03434 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Sous le signe de la crois gammée"@en  .
+    
+sk:DWbibl02782 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wohin soll ich mich wenden?"@en  .
+    
+sk:DWbibl00165 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der erste Bericht über den Penklub-Skandal von Ragusa"@en  .
+    
+sk:DWbibl02342 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Neue strafrechtliche Bestimmungen"@en  .
+    
+sk:DWbibl00175 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Deutschland für eine Anrufung des Völkerbundes?"@en  .
+    
+sk:DWbibl00187 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die jüdischen Bärte der Passionsspieler von Oberammergau
+						verfemt"@en  .
+    
+sk:DWbibl00188 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Rudolf Mosse in der Haft gestorben"@en  .
+    
+sk:DWbibl03043 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Mort suspecte de l'éditeur Rudolf Mosse"@en  .
+    
+sk:DWbibl03585 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wie mein Vater ermordet werden sollte"@en  .
+    
+sk:DWbibl04122 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: "@en  .
+    
+sk:DWbibl00189 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Juden dürfen nicht blind sein"@en  .
+    
+sk:DWbibl00190 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: 53.000 politische Häftlinge in Hitlers Gewalt"@en  .
+    
+sk:DWbibl00192 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Bibel"@en  .
+    
+sk:DWbibl01944 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Geschenke des Lebens"@en  .
+    
+sk:DWbibl02050 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Proteste im Hugenberg-Lager"@en  .
+    
+sk:DWbibl02795 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: „Mit diesen Burschen wird aufgeräumt“"@en  .
+    
+sk:DWbibl02052 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede auf einer Amtswaltertagung in Königsberg]"@en  .
+    
+sk:DWbibl00201 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Eine Mitteilung der bayerischen politischen Polizei"@en  .
+    
+sk:DWbibl02834 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Meldung der bayerischen politischen Polizei]"@en  .
+    
+sk:DWbibl02746 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Friedensbotschaft Roosevelts"@en  .
+    
+sk:DWbibl00202 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Besuch im Konzentrationslager"@en  .
+    
+sk:DWbibl03809 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Kanzler und die Kunst"@en  .
+    
+sk:DWbibl03806 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede auf dem Werbefest der Deutschen Bühne]"@en  .
+    
+sk:DWbibl03804 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede auf dem Werbefest der Deutschen Bühne]"@en  .
+    
+sk:DWbibl00203 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Oswald Spenglers Hakenkreuz-Bekenntnis"@en  .
+    
+sk:DWbibl02010 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Jahre der Entscheidung"@en  .
+    
+sk:DWbibl00205 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das zweite Dementi"@en  .
+    
+sk:DWbibl03430 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Mitteilung der deutschen Gesandtschaft in Wien]"@en  .
+    
+sk:DWbibl02074 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Fort mit den jüdischen Aerzten!"@en  .
+    
+sk:DWbibl00209 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das Referendarlager in Jüterborg"@en  .
+    
+sk:DWbibl02500 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Braunbuch über Reichstagsbrand und Hitlerterror"@en  .
+    
+sk:DWbibl00215 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Todesanzeige]"@en  .
+    
+sk:DWbibl02116 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Grauen über Nazi-Deutschland"@en  .
+    
+sk:DWbibl03487 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: The Terror in Germany"@en  .
+    
+sk:DWbibl02598 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Russische Journalisten in Leipzig verhaftet"@en  .
+    
+sk:DWbibl02494 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Zweck der deutschen Konzentrationslager"@en  .
+    
+sk:DWbibl02496 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Äußerung]"@en  .
+    
+sk:DWbibl03054 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hitler Stages Air Raid on Berlin"@en  .
+    
+sk:DWbibl02358 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Naziattentäter Alvensleben"@en  .
+    
+sk:DWbibl02317 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Razzia bei den Nazibonzen"@en  .
+    
+sk:DWbibl02118 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Todesanzeige]"@en  .
+    
+sk:DWbibl01701 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Reden vor dem römischen Senat]"@en  .
+    
+sk:DWbibl00219 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Sonne bringt es an den Tag"@en  .
+    
+sk:DWbibl00221 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Göttliche Komödie"@en  .
+    
+sk:DWbibl01991 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Selbstbehauptung der deutschen Universität"@en  .
+    
+sk:DWbibl00226 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Häftlinge müssen auf einem Baum sitzend „Kuckuck“ rufen"@en  .
+    
+sk:DWbibl03615 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Erlebnisse eines Oesterreichers in Hitlers Hölle"@en  .
+    
+sk:DWbibl04124 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: En prison, á Munich, avec les victimes des nazis „pour avoir voulu tuer Hitler“ (!)"@en  .
+    
+sk:DWbibl02739 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Annonce des Kabarettlokals „Pavillon“]"@en  .
+    
+sk:DWbibl00230 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Judenmißhandlungen in Nürnberg"@en  .
+    
+sk:DWbibl03409 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: "@en  .
+    
+sk:DWbibl02632 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die andre Einstellung"@en  .
+    
+sk:DWbibl02665 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Vor den Völkerbund!"@en  .
+    
+sk:DWbibl02160 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Frühere Reichsrundfunk-Funktionäre ins Konzentrationslager
+						gebracht"@en  .
+    
+sk:DWbibl02532 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ein Horst-Wessel-Denkmal im Dachauer
+						Konzentrationslager"@en  .
+    
+sk:DWbibl00235 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Oesterreichischer Arbeiter wandert durchs Dritte Reich"@en  .
+    
+sk:DWbibl00242 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ein jüdisches Wohlverhaltungszeugnis und die Quittung
+						dafür"@en  .
+    
+sk:DWbibl02832 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: "@en  .
+    
+sk:DWbibl02176 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Randbemerkungen"@en  .
+    
+sk:DWbibl02178 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Propagandaplakat der Wiener NSDAP]"@en  .
+    
+sk:DWbibl01941 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Dr. Goebbels über die Aufgaben des deutschen Theaters"@en  .
+    
+sk:DWbibl02190 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Für Dichterrecht und Freiheit"@en  .
+    
+sk:DWbibl02156 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Was sich in Ragusa wirklich zutrug"@en  .
+    
+sk:DWbibl02154 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Wortmeldung am Pen-Klub-Kongress in Ragusa]"@en  .
+    
+sk:DWbibl02060 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Völkisches Deutsches Theater"@en  .
+    
+sk:DWbibl03377 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: La commémoration de l’anniversaire de la mort de
+						Schlageter"@en  .
+    
+sk:DWbibl03438 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Le duel entre le chancelier d'Autriche et M. Goebbels et les
+						conversations particulières qui dès aujourd'hui vont être engagées semblent
+						les intérêts principaux de la session"@en  .
+    
+sk:DWbibl02292 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das Dritte Reich – ein Paradies"@en  .
+    
+sk:DWbibl01984 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Zweite „Terrorwelle“"@en  .
+    
+sk:DWbibl03389 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: The Triumph of the Nazis"@en  .
+    
+sk:DWbibl00250 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Propagandaminister scherzt ..."@en  .
+    
+sk:DWbibl02446 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hitlers Theorie gegen Hitlers Praxis"@en  .
+    
+sk:DWbibl02418 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die pazifistische Leipziger Messe"@en  .
+    
+sk:DWbibl02420 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Aufruf der Leipziger Messe]"@en  .
+    
+sk:DWbibl02347 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Es gibt keinen österreichisch-deutschen Konflikt ..."@en  .
+    
+sk:DWbibl03610 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Erziehung zum Heldentum"@en  .
+    
+sk:DWbibl00251 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nietzsche und die deutsche Gegenwart"@en  .
+    
+sk:DWbibl03759 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Nachgelassenes Fragment]"@en  .
+    
+sk:DWbibl02902 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Bekanntmachung des Polizeipräsidenten von Erfurt]"@en  .
+    
+sk:DWbibl00255 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wir und die Welt"@en  .
+    
+sk:DWbibl00256 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: „... erst Dein Herz ...“"@en  .
+    
+sk:DWbibl02076 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die deutschen Juden sind Deutsche"@en  .
+    
+sk:DWbibl03546 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Rückblick und Ausblick"@en  .
+    
+sk:DWbibl00260 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die zweite Phase der Revolution"@en  .
+    
+sk:DWbibl03548 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Aufbruch des Geistes"@en  .
+    
+sk:DWbibl02542 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Polizeibeamter"@en  .
+    
+sk:DWbibl02785 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Fahndungsplakat]"@en  .
+    
+sk:DWbibl02625 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Unbekannte Paketsender"@en  .
+    
+sk:DWbibl00263 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Deutschland annonciert"@en  .
+    
+sk:DWbibl03316 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nazi und die „Schöne Helena“"@en  .
+    
+sk:DWbibl02992 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Deutsche Fremdenverkehrswerbung]"@en  .
+    
+sk:DWbibl00271 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Schamlosen"@en  .
+    
+sk:DWbibl03394 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nazi Methods"@en  .
+    
+sk:DWbibl02552 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Girl’s Humiliation"@en  .
+    
+sk:DWbibl04021 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Girls’ Humiliation"@en  .
+    
+sk:DWbibl03318 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die „Fackel“ eingestellt"@en  .
+    
+sk:DWbibl03154 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hitlers „Programm“ und „Erfüllung“"@en  .
+    
+sk:DWbibl03142 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hitler konfisziert Millionenvermögen Feuchtwangers"@en  .
+    
+sk:DWbibl03078 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Weltsensation um Hitlers Abstammung!"@en  .
+    
+sk:DWbibl03046 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Deutsche Blutschuld an Hilfspolizisten-Mord erwiesen"@en  .
+    
+sk:DWbibl02536 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Konzentrationslager für Wassersportler"@en  .
+    
+sk:DWbibl01286 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Briefe flüchtiger Nationalsozialisten"@en  .
+    
+sk:DWbibl00279 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Brief nach der Flucht aus Österreich]"@en  .
+    
+sk:DWbibl00288 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Oswald Spengler gegen das Dritte Reich"@en  .
+    
+sk:DWbibl02136 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Dank an Max Reinhardt"@en  .
+    
+sk:DWbibl00293 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Kulturkuriosa aus dem Dritten Reich"@en  .
+    
+sk:DWbibl03082 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Kulturkuriosa aus dem Dritten Reich"@en  .
+    
+sk:DWbibl03084 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: "@en  .
+    
+sk:DWbibl02146 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Weltmeinung gegen Deutschland"@en  .
+    
+sk:DWbibl00292 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Reklame der Fa. Berna-Käse]"@en  .
+    
+sk:DWbibl02754 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Völkerbundrat enthüllt sein wahres Gesicht!"@en  .
+    
+sk:DWbibl00308 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Vorwort des Herausgebers]"@en  .
+    
+sk:DWbibl01883 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Theaterrevue]"@en  .
+    
+sk:DWbibl00686 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Journaille"@en  .
+    
+sk:DWbibl00002 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Maximilian Harden"@en  .
+    
+sk:DWbibl01995 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Tagebuch"@en  .
+    
+sk:DWbibl01909 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die chinesische Mauer"@en  .
+    
+sk:DWbibl02031 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Heine und die Folgen"@en  .
+    
+sk:DWbibl03959 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Nestroy-Zitat]"@en  .
+    
+sk:DWbibl03247 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ein Ruf, der bis ans Ende der Zeit dringt"@en  .
+    
+sk:DWbibl02085 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nachts"@en  .
+    
+sk:DWbibl02087 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hoffnung"@en  .
+    
+sk:DWbibl01929 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ein deutsches Kriegsgedicht"@en  .
+    
+sk:DWbibl03226 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Abenteuer der Arbeit"@en  .
+    
+sk:DWbibl02033 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nachts"@en  .
+    
+sk:DWbibl02275 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das zweite Sonett der Louise Labé"@en  .
+    
+sk:DWbibl03215 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das technoromantische Abenteuer"@en  .
+    
+sk:DWbibl02036 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Gespenster"@en  .
+    
+sk:DWbibl01779 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Innsbruck"@en  .
+    
+sk:DWbibl00261 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Lächler"@en  .
+    
+sk:DWbibl01927 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Von Humor und Lyrik"@en  .
+    
+sk:DWbibl03560 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Fall Diebold"@en  .
+    
+sk:DWbibl02998 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Reklamefahrten zur Hölle"@en  .
+    
+sk:DWbibl01893 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Vom Pfuirufen"@en  .
+    
+sk:DWbibl02077 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nachruf"@en  .
+    
+sk:DWbibl03381 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Großmann, der Herzensdieb"@en  .
+    
+sk:DWbibl00309 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Warum vadient der Jude schneller und mehr Jeld als der
+						Christ"@en  .
+    
+sk:DWbibl01897 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Entlarvt durch Bekessy"@en  .
+    
+sk:DWbibl03245 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Um das „Traumstück“]"@en  .
+    
+sk:DWbibl03311 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: "@en  .
+    
+sk:DWbibl03313 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Programmnotiz zur Vorlesung vom 13. 6. 1928 im Mittleren
+						Konzerthaussaal, Wien]"@en  .
+    
+sk:DWbibl02940 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Zur Vorlesung vom 16. 10. 1930 im Architektenvereinssaal,
+						Wien]"@en  .
+    
+sk:DWbibl02942 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Coupletstrophe zu Offenbachs „Tirolienne“]"@en  .
+    
+sk:DWbibl02144 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Nobelpreis"@en  .
+    
+sk:DWbibl02048 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wieder zuhause"@en  .
+    
+sk:DWbibl02029 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wissen Sie schon"@en  .
+    
+sk:DWbibl01886 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: In unserer äußeren Politik steuern wir Gott sei Dank den deutschen Kurs"@en  .
+    
+sk:DWbibl03504 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das Analphabet"@en  .
+    
+sk:DWbibl03506 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Pressezitat]"@en  .
+    
+sk:DWbibl00314 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Zur Vorlesung vom 2. 1. 1929 in Wien, mit Materialien und
+						Anmerkungen]"@en  .
+    
+sk:DWbibl02600 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Auseinandersetzung mit Karl Kraus"@en  .
+    
+sk:DWbibl00315 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Warum pflegen Leute mit Kultur ihr Haar nur mit Javol?"@en  .
+    
+sk:DWbibl03601 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Inserat für „Javol“]"@en  .
+    
+sk:DWbibl00317 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: In dieser großen Zeit"@en  .
+    
+sk:DWbibl00318 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Produktion"@en  .
+    
+sk:DWbibl00322 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: „Der Wanderer.“"@en  .
+    
+sk:DWbibl03738 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Englische Gereiztheit"@en  .
+    
+sk:DWbibl03736 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Viel Lärm um nichts"@en  .
+    
+sk:DWbibl03728 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Reichskanzler gegen das Angebertum"@en  .
+    
+sk:DWbibl03628 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Schreiben an Wilhelm Friedrich Loeper]"@en  .
+    
+sk:DWbibl03722 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Unterredung Sauerweins mit dem Reichsminister Dr.
+						Goebbels"@en  .
+    
+sk:DWbibl03724 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Après sept mois d’hitlérisme"@en  .
+    
+sk:DWbibl00323 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Barbaren und die Kunst"@en  .
+    
+sk:DWbibl03510 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Er kann den Zwiespalt nicht finden ..."@en  .
+    
+sk:DWbibl03508 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Auftakt in Nürnberg"@en  .
+    
+sk:DWbibl02623 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Partei feiert Wilhelm Ellenbogen"@en  .
+    
+sk:DWbibl02540 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das Dritte Reich kündigt Kinderraub an"@en  .
+    
+sk:DWbibl02422 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Risiko"@en  .
+    
+sk:DWbibl02452 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das Urteil im Fememordprozeß"@en  .
+    
+sk:DWbibl02426 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Juda kaufe!"@en  .
+    
+sk:DWbibl02873 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Auskunft des Leipziger Messeamtes]"@en  .
+    
+sk:DWbibl02424 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Urteilsbegründung des Berliner Landgerichts]"@en  .
+    
+sk:DWbibl02207 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Hakenkreuzapachen als Skalpjäger"@en  .
+    
+sk:DWbibl00325 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Johsts „Schlageter“ in Frankfurt"@en  .
+    
+sk:DWbibl02330 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Deutschland und Oesterreich"@en  .
+    
+sk:DWbibl02332 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Deutsches Dementi einer Agenturmeldung]"@en  .
+    
+sk:DWbibl02860 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Zwei jugendliche Kommunisten zum Tode verurteilt"@en  .
+    
+sk:DWbibl02862 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Urteilsbegründung eines Berliner Schwurgerichts]"@en  .
+    
+sk:DWbibl00327 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Deutschlands Beruf"@en  .
+    
+sk:DWbibl00330 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Aufgaben des deutschen Theaters"@en  .
+    
+sk:DWbibl00331 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede anlässlich der Bücherverbrennung am Berliner
+						Opernplatz]"@en  .
+    
+sk:DWbibl03446 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Reichsminister Dr. Goebbels spricht auf dem Opernplatz. „Das
+						Alte liegt in den Flammen“"@en  .
+    
+sk:DWbibl037202 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Richtlinien über die Vergebung öffentlicher Aufträge"@en  .
+    
+sk:DWbibl03726 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Reichswirtschaftsminister Dr. Schmitt[:] Der Wiederaufbau der
+						Wirtschaft"@en  .
+    
+sk:DWbibl02712 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Bücherverbrennung in Berlin"@en  .
+    
+sk:DWbibl01952 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede vor der „Berufsgruppe Film“ in den Tennishallen,
+						Berlin]"@en  .
+    
+sk:DWbibl03512 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede vor Schriftstellern und Verlegern im Hotel
+						Kaiserhof]"@en  .
+    
+sk:DWbibl03815 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: „Lernt das Volk verstehen“"@en  .
+    
+sk:DWbibl01561 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Zeitpunkt"@en  .
+    
+sk:DWbibl00336 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Revisor"@en  .
+    
+sk:DWbibl00337 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Traum, ein Leben"@en  .
+    
+sk:DWbibl00338 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Rotkäppchen"@en  .
+    
+sk:DWbibl00345 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Reiters Morgenlied"@en  .
+    
+sk:DWbibl00346 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hanneles Himmelfahrt"@en  .
+    
+sk:DWbibl00610 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Atta Troll"@en  .
+    
+sk:DWbibl00619 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Ich weiß nicht, was soll es bedeuten / Die Lorelei]"@en  .
+    
+sk:DWbibl00350 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nachtgedanken"@en  .
+    
+sk:DWbibl03744 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Im Kampf um das Judentum"@en  .
+    
+sk:DWbibl03746 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: „An der Schwelle des Goethe-Jahres“"@en  .
+    
+sk:DWbibl00352 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Freiheit eine Gasse!"@en  .
+    
+sk:DWbibl03908 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Goering über die deutsche Kriegspropaganda"@en  .
+    
+sk:DWbibl03910 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Comment M. Hermann Goering comprend les relations franco-allemandes"@en  .
+    
+sk:DWbibl03912 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Interview]"@en  .
+    
+sk:DWbibl03917 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Goebbels verhöhnt das Zentrum"@en  .
+    
+sk:DWbibl03919 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Ansprache vor der Hitlerjugend in Breslau]"@en  .
+    
+sk:DWbibl03921 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Anfang oder Ende der Nazi-Revolution?"@en  .
+    
+sk:DWbibl03927 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Fratze des Wahnsinns"@en  .
+    
+sk:DWbibl03929 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Ansprache]"@en  .
+    
+sk:DWbibl03944 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Reichsregierung beklagt sich über Sir John Simon"@en  .
+    
+sk:DWbibl03946 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Aussendung des Wolffbüros]"@en  .
+    
+sk:DWbibl03948 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Griechische Mythologie]"@en  .
+    
+sk:DWbibl03951 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Heute abend feierlicher Empfang im Rathaus: Der Volkskanzler trägt sich ins Goldene Buch ein"@en  .
+    
+sk:DWbibl03961 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Germanische Mythologie]"@en  .
+    
+sk:DWbibl03965 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Blätterstimmen"@en  .
+    
+sk:DWbibl03968 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Es war also Frau Urbanitzky"@en  .
+    
+sk:DWbibl03970 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hitler sucht seinen Rückzug zu bemänteln"@en  .
+    
+sk:DWbibl03974 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Biene Maja und ihre Abenteuer"@en  .
+    
+sk:DWbibl03980 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Deutschland ist auferstanden!"@en  .
+    
+sk:DWbibl03985 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Säuberungsaufgaben bei der Reichspost"@en  .
+    
+sk:DWbibl03988 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Eine einzige deutsche Zeitung meldet …"@en  .
+    
+sk:DWbibl03999 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Des Deutschen Vaterland"@en  .
+    
+sk:DWbibl03238 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Antwort auf die „Rundfrage über Karl Kraus“]"@en  .
+    
+sk:DWbibl00353 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Satzungen des „Nationalsozialistischen Deutschen
+						Arbeitervereins e.V.“"@en  .
+    
+sk:DWbibl03397 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Volkshymne [Gott erhalte]"@en  .
+    
+sk:DWbibl02236 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Aus Adolf Hitlers Jugendland und Jugendzeit"@en  .
+    
+sk:DWbibl03195 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Reichstagsrede zum deutschen Kolonialismus]"@en  .
+    
+sk:DWbibl01960 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Ansprache am Kongreß der „Deutschen Arbeitsfront“ in
+						Berlin]"@en  .
+    
+sk:DWbibl02841 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Zur Schlichtung des Konflikts zwischen der Türkei und
+						Russland]"@en  .
+    
+sk:DWbibl03514 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede zur Außenpolitik im Reichstag]"@en  .
+    
+sk:DWbibl03472 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Neue Kampfansage Hitlers an den Marxismus"@en  .
+    
+sk:DWbibl01958 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Kongreß der Deutschen Arbeitsfront"@en  .
+    
+sk:DWbibl03794 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Riesenkundgebungen der Deutschen Arbeitsfront"@en  .
+    
+sk:DWbibl03796 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede auf einer Kundgebung der Deutschen Arbeitsfront in
+						Leipzig]"@en  .
+    
+sk:DWbibl03780 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Neudeck"@en  .
+    
+sk:DWbibl03776 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Presse und Beamte bei Minister Darré: Der Bauer – die
+						Elementarfrage der Volksexistenz"@en  .
+    
+sk:DWbibl03778 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Vortrag auf einem Presseempfang des Reichsministeriums für
+						Landwirtschaft]"@en  .
+    
+sk:DWbibl03773 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Luftschutz, die Forderung der Nation!"@en  .
+    
+sk:DWbibl03792 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Staatssekretär Reinhardt im Rundfunk. Förderung der nationalen
+						Arbeit durch die Opferwilligkeit des Volkes"@en  .
+    
+sk:DWbibl03819 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die marxistische Solidarität ohne Maske! Dr. Ley gegen die
+						Herausforderungen der II. Internationale"@en  .
+    
+sk:DWbibl03817 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Wortmeldungen auf der Internationalen Arbeitskonferenz in
+						Genf]"@en  .
+    
+sk:DWbibl03229 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Adolf Hitlers große Rede auf der Kulturtagung.
+						Nationalsozialismus als Weltanschauung"@en  .
+    
+sk:DWbibl03080 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die deutsche Kunst als stolzeste Verteidigung des deutschen
+						Volkes"@en  .
+    
+sk:DWbibl03821 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Deutschland muss jede Intervention ablehnen"@en  .
+    
+sk:DWbibl03473 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Adolf Hitler in Kiel vor 45000 S.A.-Männern"@en  .
+    
+sk:DWbibl03451 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede vor SA und SS in Kiel]"@en  .
+    
+sk:DWbibl01969 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Interview mit Adolf Hitler]"@en  .
+    
+sk:DWbibl03631 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der nationalsozialistische Flugblatt-Krieg"@en  .
+    
+sk:DWbibl02322 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Fremdenverkehrswerbung in Österreich [NS–Flugblatt]"@en  .
+    
+sk:DWbibl00355 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hyperion oder der Eremit in Griechenland"@en  .
+    
+sk:DWbibl00356 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ilias"@en  .
+    
+sk:DWbibl00609 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Brief an Willibald Birckheimer]"@en  .
+    
+sk:DWbibl00358 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Schlageter"@en  .
+    
+sk:DWbibl00359 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Saturae / Satiren"@en  .
+    
+sk:DWbibl00364 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Kritik der praktischen Vernunft"@en  .
+    
+sk:DWbibl00366 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Über den Gemeinspruch: Das mag in der Theorie richtig sein,
+						taugt aber nicht für die Praxis"@en  .
+    
+sk:DWbibl01703 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Zum ewigen Frieden"@en  .
+    
+sk:DWbibl03645 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Vorsicht!"@en  .
+    
+sk:DWbibl02716 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die letzte Nacht"@en  .
+    
+sk:DWbibl02718 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: An meine Völker!"@en  .
+    
+sk:DWbibl02296 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wir antworten:"@en  .
+    
+sk:DWbibl00370 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: „Oesterreich über alles!“"@en  .
+    
+sk:DWbibl02394 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Eine reichsdeutsche Stimme über das Verhältnis zu
+						Oesterreich"@en  .
+    
+sk:DWbibl02405 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ein deutscher Kommentar zum Berliner Schritt"@en  .
+    
+sk:DWbibl02868 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Meldung des Conti-Nachrichten-Büros]"@en  .
+    
+sk:DWbibl02762 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Gegen die Rundfunkpropaganda"@en  .
+    
+sk:DWbibl00375 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ein Deutscher antwortet der Welt"@en  .
+    
+sk:DWbibl00377 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Emilia Galotti"@en  .
+    
+sk:DWbibl00378 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nathan der Weise"@en  .
+    
+sk:DWbibl00379 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Sudelbücher, Heft D"@en  .
+    
+sk:DWbibl00380 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Sudelbücher, Heft K"@en  .
+    
+sk:DWbibl00381 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Sudelbücher, Heft L"@en  .
+    
+sk:DWbibl00618 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Zur Kritik der politischen Oekonomie"@en  .
+    
+sk:DWbibl00384 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Talisman"@en  .
+    
+sk:DWbibl00385 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der böse Geist Lumpazivagabundus oder Das liederliche
+						Kleeblatt"@en  .
+    
+sk:DWbibl00607 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Kampl"@en  .
+    
+sk:DWbibl00387 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ostern im Dritten Reich"@en  .
+    
+sk:DWbibl04011 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: „Ostern im Dritten Reich“"@en  .
+    
+sk:DWbibl02121 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Zerbrecht die Ketten!"@en  .
+    
+sk:DWbibl02440 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Darré gegen Goebbels"@en  .
+    
+sk:DWbibl02442 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das Bauerntum als Lebensquell der Nordischen Rasse"@en  .
+    
+sk:DWbibl00391 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Blutbilanz des „Dritten Reiches“"@en  .
+    
+sk:DWbibl03328 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Göring, der Brandstifter"@en  .
+    
+sk:DWbibl03330 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Reichstag Fire Sensation"@en  .
+    
+sk:DWbibl02918 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede bei der 199. Bundesratssitzung]"@en  .
+    
+sk:DWbibl03742 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Bundesrat"@en  .
+    
+sk:DWbibl03491 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Wortwechsel während der 199. Bundesratssitzung]"@en  .
+    
+sk:DWbibl02924 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hoch der Erste Mai!"@en  .
+    
+sk:DWbibl03811 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Kampf gegen den Nacktkultur-Schwindel"@en  .
+    
+sk:DWbibl03336 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Deutsche Justiz"@en  .
+    
+sk:DWbibl02926 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Politik im Donauraum"@en  .
+    
+sk:DWbibl02944 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Kontroverse zwischen Starhemberg und Schober"@en  .
+    
+sk:DWbibl02946 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Ansprache in Linz]"@en  .
+    
+sk:DWbibl03942 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Ansprache in Bregenz]"@en  .
+    
+sk:DWbibl03380 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Harter Kampf um Lausanne im Parlament"@en  .
+    
+sk:DWbibl00392 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Was deutsche Juden sagen"@en  .
+    
+sk:DWbibl03369 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Äußerung zur „Greuelpropaganda“]"@en  .
+    
+sk:DWbibl02819 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Was Oesterreich will"@en  .
+    
+sk:DWbibl03348 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Erklärung]"@en  .
+    
+sk:DWbibl02138 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Max Reinhardt zum sechzigsten Geburtstag"@en  .
+    
+sk:DWbibl00404 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Schwere Anklagen des Bundesführers Starhemberg gegen die
+						Nationalsozialisten"@en  .
+    
+sk:DWbibl00406 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Zweierlei Aeußerungen des Justizministers Dr. Frank II über die
+						Judenfrage"@en  .
+    
+sk:DWbibl03715 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Presse-Empfang bei Dr. Frank"@en  .
+    
+sk:DWbibl03763 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: „Für deutsches Recht und deutsche Rechtspflege“"@en  .
+    
+sk:DWbibl02594 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Ansprache auf der Kundgebung „Für deutsches Recht und deutsche
+						Rechtspflege“ in Berlin]"@en  .
+    
+sk:DWbibl01955 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Zukunft des deutschen Films"@en  .
+    
+sk:DWbibl00408 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die „Times“ über Oesterreich"@en  .
+    
+sk:DWbibl00410 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Heinrich von Ofterdingen"@en  .
+    
+sk:DWbibl00411 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Blaubart"@en  .
+    
+sk:DWbibl00606 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Parsifal"@en  .
+    
+sk:DWbibl02877 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Parzival"@en  .
+    
+sk:DWbibl03637 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Philippine Welser"@en  .
+    
+sk:DWbibl00604 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Fabulae"@en  .
+    
+sk:DWbibl00414 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Sonett [Anstimmen darf ich ungewöhnte Töne]"@en  .
+    
+sk:DWbibl02214 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Sonett [Was habt ihr denn an euerm Rhein und Ister]"@en  .
+    
+sk:DWbibl00418 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Sonett [Die letzte Hefe sollt’ ich noch genießen]"@en  .
+    
+sk:DWbibl00416 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Sonett [Es sehnt sich ewig dieser Geist ins Weite]"@en  .
+    
+sk:DWbibl00419 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Sonett [Dies Land der Mühe, dieses Land des herben]"@en  .
+    
+sk:DWbibl00420 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Sonett [Ihr, denen Bosheit angefrischt den Kleister]"@en  .
+    
+sk:DWbibl00425 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: An einen deutschen Fürsten"@en  .
+    
+sk:DWbibl00426 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der legitime Monarch (Monolog)"@en  .
+    
+sk:DWbibl00427 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Eamus omnis execrata Civitas"@en  .
+    
+sk:DWbibl00428 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Epilog"@en  .
+    
+sk:DWbibl00430 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Gesang der Polen"@en  .
+    
+sk:DWbibl00436 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Klagelied der polnischen Verbannten in Sibirien"@en  .
+    
+sk:DWbibl00437 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Unterirdischer Chor"@en  .
+    
+sk:DWbibl00440 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nomoi / Gesetze"@en  .
+    
+sk:DWbibl03625 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Römischer Rechtsgrundsatz]"@en  .
+    
+sk:DWbibl03332 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Beitrag zur Selbstkritik"@en  .
+    
+sk:DWbibl02933 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wirtschaftskrieg nach zwei Fronten"@en  .
+    
+sk:DWbibl03605 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Trommler"@en  .
+    
+sk:DWbibl02428 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Strandbad Wannsee für Juden verboten"@en  .
+    
+sk:DWbibl00468 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Solidarität Bredows mit den verhafteten Rundfunkleitern"@en  .
+    
+sk:DWbibl00471 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Krokodilstränen nennt Hitler die Teilnahme der Welt"@en  .
+    
+sk:DWbibl02300 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Adolf Hitler im Interview]"@en  .
+    
+sk:DWbibl00476 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Erläuterungen zum Vivisektionsverbot"@en  .
+    
+sk:DWbibl03719 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Erlass zum Vivisektionsverbot]"@en  .
+    
+sk:DWbibl02131 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Bartholomäusnacht des deutschen Geistes"@en  .
+    
+sk:DWbibl02432 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Jüdisches Geld stinkt nicht"@en  .
+    
+sk:DWbibl02875 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: "@en  .
+    
+sk:DWbibl02328 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der erste Wiener Bombenprozeß"@en  .
+    
+sk:DWbibl03704 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nazihelden von der traurigen Gestalt"@en  .
+    
+sk:DWbibl02387 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Bombenleger verurteilt"@en  .
+    
+sk:DWbibl02803 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nouvel incident au cenotaphe de Londres"@en  .
+    
+sk:DWbibl02365 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Verschwörung gegen Oesterreich"@en  .
+    
+sk:DWbibl02360 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Belogenes Deutschland"@en  .
+    
+sk:DWbibl02459 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die christlich-soziale Lüge entlarvt: Keine Beteiligung der
+						N.S.D.A.P. an den Bombenattentaten nachzuweisen"@en  .
+    
+sk:DWbibl01332 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Verbrecherlaufbahn eines führenden braunen Journalisten"@en  .
+    
+sk:DWbibl02311 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Berliner Greuelpropaganda gegen Oesterreich"@en  .
+    
+sk:DWbibl03187 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hitlers Regierungserklärung"@en  .
+    
+sk:DWbibl03292 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hitlers Programm: Neuer blutiger Terror"@en  .
+    
+sk:DWbibl03188 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Regierungserklärung vor dem deutschen Reichstag]"@en  .
+    
+sk:DWbibl03658 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede in der Garnisonskirche am sog. „Tag von Potsdam“]"@en  .
+    
+sk:DWbibl03660 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Potsdamer kgl. Theater"@en  .
+    
+sk:DWbibl02313 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Erklärung der Studentenschaft auf der Berliner
+						Studentendemonstration gegen Österreich]"@en  .
+    
+sk:DWbibl02320 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede auf der Berliner Studendendemonstration gegen
+						Österreich]"@en  .
+    
+sk:DWbibl02252 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Zwiespältige Beurteilung des Paktes"@en  .
+    
+sk:DWbibl02254 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ein geschichtliches Abkommen. Der Viermächtepakt wird
+						unterzeichnet"@en  .
+    
+sk:DWbibl01346 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wolkenkuckucksheim?"@en  .
+    
+sk:DWbibl00483 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das Weltecho der Kanzlerrede"@en  .
+    
+sk:DWbibl02105 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Austro-German Relations"@en  .
+    
+sk:DWbibl00485 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Getarnte Presse und Ministerialspionage"@en  .
+    
+sk:DWbibl03426 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Memorandum]"@en  .
+    
+sk:DWbibl02367 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Galerie der Führer"@en  .
+    
+sk:DWbibl03428 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Dossier mit Führungszeugnissen]"@en  .
+    
+sk:DWbibl02368 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Gewollte Verschärfung der Spannung"@en  .
+    
+sk:DWbibl02866 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Aktennotiz des Berliner Außenpolitischen Amtes der
+						NSDAP]"@en  .
+    
+sk:DWbibl02370 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das erste Dementi"@en  .
+    
+sk:DWbibl02864 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Mitteilung des außenpolitischen Amtes der NSDAP]"@en  .
+    
+sk:DWbibl00489 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wie die neuen Machthaber reden"@en  .
+    
+sk:DWbibl02460 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Ansprache in Stuttgart anlässlich seiner Wahl zum
+						württembergischen Staatspräsidenten]"@en  .
+    
+sk:DWbibl00492 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Eine Polemik des Berliner Auswärtigen Amtes"@en  .
+    
+sk:DWbibl02379 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Aussendung des Conti-Nachrichten-Büros]"@en  .
+    
+sk:DWbibl00493 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Pakt von Rom"@en  .
+    
+sk:DWbibl02257 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nationalismus"@en  .
+    
+sk:DWbibl03481 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Antwort auf die Pan-Europa-Rundfrage]"@en  .
+    
+sk:DWbibl00498 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ein netter Nachbar in Bayern"@en  .
+    
+sk:DWbibl00368 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Ansprache im Bayerischen Rundfunk]"@en  .
+    
+sk:DWbibl00501 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der nationalsozialistische Geschichtsunterricht"@en  .
+    
+sk:DWbibl03048 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Richtlinien für den nationalsozialistischen
+						Geschichtsunterricht]"@en  .
+    
+sk:DWbibl02315 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Fortdauer der Münchner Rundfunkhetze"@en  .
+    
+sk:DWbibl02858 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rundfunkansprache]"@en  .
+    
+sk:DWbibl02987 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Auflösung des gewerblichen Kampfbundes"@en  .
+    
+sk:DWbibl02989 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Wirtschaft vertraut auf die Reichsgewalt"@en  .
+    
+sk:DWbibl00070 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Forderungen der „deutschen Studentenschaft“"@en  .
+    
+sk:DWbibl02847 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Betrachtungen zum Weltkriege"@en  .
+    
+sk:DWbibl00505 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das Lied von der Glocke"@en  .
+    
+sk:DWbibl00506 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wallensteins Tod"@en  .
+    
+sk:DWbibl00508 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die unüberwindliche Flotte"@en  .
+    
+sk:DWbibl03528 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hoffnung"@en  .
+    
+sk:DWbibl02906 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Inschrift auf einer Gedenkmünze zum Andenken an den Untergang
+						der spanischen Armada 1558]"@en  .
+    
+sk:DWbibl00509 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Braut von Messina oder die feindlichen Brüder"@en  .
+    
+sk:DWbibl00510 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Räuber"@en  .
+    
+sk:DWbibl00511 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Verschwörung des Fiesco zu Genua"@en  .
+    
+sk:DWbibl00512 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Maria Stuart"@en  .
+    
+sk:DWbibl00579 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wilhelm Tell"@en  .
+    
+sk:DWbibl00515 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Parerga und Paralipomena"@en  .
+    
+sk:DWbibl00516 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Schwertlied"@en  .
+    
+sk:DWbibl00517 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hercules furens"@en  .
+    
+sk:DWbibl02828 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Sprichwort]"@en  .
+    
+sk:DWbibl02826 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Moralische Briefe an Lucilius"@en  .
+    
+sk:DWbibl00519 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Mensch und die Technik"@en  .
+    
+sk:DWbibl00520 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Titus"@en  .
+    
+sk:DWbibl00521 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ab excessu divi Augusti (Annales)"@en  .
+    
+sk:DWbibl00522 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: "@en  .
+    
+sk:DWbibl00524 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Aufbruch der Kunst"@en  .
+    
+sk:DWbibl03568 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Seliger Mai"@en  .
+    
+sk:DWbibl03524 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Geburtsreformen des Dritten Reiches"@en  .
+    
+sk:DWbibl03526 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hitler erlaubt die Auswanderung der Juden"@en  .
+    
+sk:DWbibl00527 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Konsularberichte"@en  .
+    
+sk:DWbibl03442 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Kein Gerede von Revolution!"@en  .
+    
+sk:DWbibl03444 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Was wir dazu sagen"@en  .
+    
+sk:DWbibl00528 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Gegen Österreichs Ausschluß aus dem deutschen
+						Staatsverbande"@en  .
+    
+sk:DWbibl02046 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Oesterreichs Sendung"@en  .
+    
+sk:DWbibl00531 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wien hat den Konflikt auf die Spitze getrieben"@en  .
+    
+sk:DWbibl00669 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Erklärung]"@en  .
+    
+sk:DWbibl03459 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Unerhörte marxistische Frechheiten in Genf"@en  .
+    
+sk:DWbibl03464 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Was die Auslands-Presse in Bayern sah:"@en  .
+    
+sk:DWbibl03786 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Aufgaben des deutschen Feuilletons"@en  .
+    
+sk:DWbibl03771 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede auf der ersten Konferenz des deutschen
+						Feuilletons]"@en  .
+    
+sk:DWbibl00537 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Schwarze Fahnen über Österreich"@en  .
+    
+sk:DWbibl02479 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Selbstmord Oberfohrens: Die letzten Wochen waren unerträglich"@en  .
+    
+sk:DWbibl03072 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Zusammenbruch des deutschen Geistes: Die Schande der deutschen
+						Aerzteschaft"@en  .
+    
+sk:DWbibl03074 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Zum Geleit"@en  .
+    
+sk:DWbibl03480 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hitlers Ablehnung des Ehrendoktorats"@en  .
+    
+sk:DWbibl02383 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Dämmert’s schon?"@en  .
+    
+sk:DWbibl00539 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Aeneis"@en  .
+    
+sk:DWbibl04120 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ab urbe condita libri, V"@en  .
+    
+sk:DWbibl00540 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das Erkennen"@en  .
+    
+sk:DWbibl01895 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: „Die Unüberwindlichen“"@en  .
+    
+sk:DWbibl03580 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der friedliche Kanzler und der kriegerische Vizekanzler"@en  .
+    
+sk:DWbibl02403 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Intervention – wogegen?"@en  .
+    
+sk:DWbibl02760 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Oesterreich und Deutschland"@en  .
+    
+sk:DWbibl02042 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede auf einer Grenzlandtagung auf der Iburg im Teutoburger
+						Wald]"@en  .
+    
+sk:DWbibl02079 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Über den nervösen Charakter"@en  .
+    
+sk:DWbibl01518 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Götterdämmerung"@en  .
+    
+sk:DWbibl00563 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Über Staat und Religion"@en  .
+    
+sk:DWbibl00564 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Was ist deutsch?"@en  .
+    
+sk:DWbibl04025 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Deutsche Kunst und Deutsche Politik"@en  .
+    
+sk:DWbibl01990 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Stimme eines Defaitisten"@en  .
+    
+sk:DWbibl03765 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Reichsminister Dr. Goebbels vor den NS-Funkwarten: „Der
+						Rundfunk hat eindeutig nationalsozialistisch eingestellt zu sein“"@en  .
+    
+sk:DWbibl03030 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede auf einer Versammlung der NS-Reichsfunkwarte]"@en  .
+    
+sk:DWbibl00554 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nv wil ich mich des scharpfen sanges och genieten"@en  .
+    
+sk:DWbibl02490 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Konzentrationslager sind „Internate“"@en  .
+    
+sk:DWbibl03002 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Hitler-Gruß des Cambridge-Mannes"@en  .
+    
+sk:DWbibl03004 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Englischer Prospekt der deutschen
+						Fremdenverkehrswerbung]"@en  .
+    
+sk:DWbibl03519 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Erlass der Staatspolizei Dortmund]"@en  .
+    
+sk:DWbibl03622 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Schutzhaft für Verkehr mit Juden"@en  .
+    
+sk:DWbibl04100 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Aufforderung"@en  .
+    
+sk:DWbibl02811 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Dramatische Szene zwischen Hindenburg und Hitler"@en  .
+    
+sk:DWbibl02727 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Kitschorgien des Dritten Reiches"@en  .
+    
+sk:DWbibl03436 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: "@en  .
+    
+sk:DWbibl02729 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Dreieinhalb Monate hinter Stacheldraht"@en  .
+    
+sk:DWbibl02731 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hinter Stacheldraht"@en  .
+    
+sk:DWbibl03485 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Erfahrungsbericht aus der Strafanstalt Düsseldorf und dem KZ
+						Siegburg]"@en  .
+    
+sk:DWbibl00576 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Deutschland heute"@en  .
+    
+sk:DWbibl02198 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hakenkreuzler überfallen Otto Wels"@en  .
+    
+sk:DWbibl03212 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Wiener Bombenattentate aufgeklärt"@en  .
+    
+sk:DWbibl02768 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die deutsche Sozialdemokratie und die Internationale"@en  .
+    
+sk:DWbibl02770 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Zwei Tage in Leipzig"@en  .
+    
+sk:DWbibl02631 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die kommunistische Partei verboten"@en  .
+    
+sk:DWbibl02609 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Druckerei „Vorwärts“ unter Vorzensur"@en  .
+    
+sk:DWbibl01658 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Flucht aus dem Dritten Reich"@en  .
+    
+sk:DWbibl02891 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Meldung von Wolffs Telegraphischem Bureau]"@en  .
+    
+sk:DWbibl01982 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Es wird weitergeprügelt!"@en  .
+    
+sk:DWbibl002464 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Mitteilung zur Auflösung der christlichen
+						Gewerkschaften]"@en  .
+    
+sk:DWbibl02184 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die deutsche Literatur auf dem Scheiterhaufen"@en  .
+    
+sk:DWbibl02186 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [„Feuersprüche“ zur Bücherverbrennung]"@en  .
+    
+sk:DWbibl00577 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Eine Frage an die „Wiener Zeitung“"@en  .
+    
+sk:DWbibl00581 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: SA.-Börsenbericht"@en  .
+    
+sk:DWbibl00583 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Angebliche scharfe Maßnahmen gegen die
+						Geburtenbeschränkung"@en  .
+    
+sk:DWbibl00584 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Sachsen hält den Rekord an Schutzhäftlingen"@en  .
+    
+sk:DWbibl03322 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Bundeskanzler an Amerika"@en  .
+    
+sk:DWbibl03324 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Ansprache im CBS-Radio]"@en  .
+    
+sk:DWbibl02621 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das mysteriöse Friedensangebot"@en  .
+    
+sk:DWbibl03172 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Amtliche Mitteilung]"@en  .
+    
+sk:DWbibl02534 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede in der Chemnitzer Stadthalle]"@en  .
+    
+sk:DWbibl00587 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ein „Überpreußen“"@en  .
+    
+sk:DWbibl03050 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Ansprache beim Gartenfest der Technischen Hochschule in
+						Berlin-Charlottenburg]"@en  .
+    
+sk:DWbibl00588 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Von Deutschlands tiefster Schmach"@en  .
+    
+sk:DWbibl02573 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Polizeibericht aus Worms]"@en  .
+    
+sk:DWbibl02570 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: "@en  .
+    
+sk:DWbibl02567 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: "@en  .
+    
+sk:DWbibl02565 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: "@en  .
+    
+sk:DWbibl02560 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: "@en  .
+    
+sk:DWbibl02556 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: "@en  .
+    
+sk:DWbibl02557 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: "@en  .
+    
+sk:DWbibl00595 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Gerhart Hauptmann, Gast der SS"@en  .
+    
+sk:DWbibl02515 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: „Den Verletzungen erlegen“"@en  .
+    
+sk:DWbibl03120 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hitler über den „Stellungs-Kampf“"@en  .
+    
+sk:DWbibl02806 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Rattenfänger von Hameln"@en  .
+    
+sk:DWbibl02517 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede zur Parteigründungsfeier im Münchner Hofbräuhaus]"@en  .
+    
+sk:DWbibl00598 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Mit Zangen und brennenden Zigarren gefoltert"@en  .
+    
+sk:DWbibl03034 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: "@en  .
+    
+sk:DWbibl00603 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Bonzenversorgung"@en  .
+    
+sk:DWbibl00605 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Vorgeschichte der Reichstagsabstimmung"@en  .
+    
+sk:DWbibl02656 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Redaktioneller Nachtrag zur Antwort Friedrich
+						Stampfers]"@en  .
+    
+sk:DWbibl00611 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: „Neue Ziele der Menschheit“"@en  .
+    
+sk:DWbibl02271 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Neue Ziele der Menschheit"@en  .
+    
+sk:DWbibl00613 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Angst vor der „zweiten Revolution“"@en  .
+    
+sk:DWbibl03127 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede an die Reichsstatthalter in Berlin]"@en  .
+    
+sk:DWbibl03416 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Königsberger Vortrag zur
+						„kommenden Reichsverfassung“]"@en  .
+    
+sk:DWbibl03608 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die künftige Reichsverfassung"@en  .
+    
+sk:DWbibl02488 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Dachauer Chronik"@en  .
+    
+sk:DWbibl00617 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die militärische Schulung in Deutschland"@en  .
+    
+sk:DWbibl00622 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ein rumänischer Ingenieur furchtbar mißhandelt"@en  .
+    
+sk:DWbibl03440 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Inginerul român P. Dracopol torturat de hitleristi"@en  .
+    
+sk:DWbibl00626 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Im Namen Goethes"@en  .
+    
+sk:DWbibl00629 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Von Aachen nach Wien und nach Kamerun"@en  .
+    
+sk:DWbibl00633 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der arische Held geht auf Brautschau"@en  .
+    
+sk:DWbibl02548 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Positives Programm für die Verbesserung der Rasse in der Ehe
+						[?]"@en  .
+    
+sk:DWbibl03713 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Deutscher Greuelfilm"@en  .
+    
+sk:DWbibl04104 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Inserat des „NS-Tonfilmberichtes N2“]"@en  .
+    
+sk:DWbibl02703 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Bundesrat über Oesterreichs Außenpolitik"@en  .
+    
+sk:DWbibl00642 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Begründung einer dringlichen Anfrage an die Regierung]"@en  .
+    
+sk:DWbibl00648 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Liebeskunst des Dritten Reiches"@en  .
+    
+sk:DWbibl03363 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nazi-Jungfrau darf nicht mit Juden flirten"@en  .
+    
+sk:DWbibl03366 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Les juifs et les jeunes filles „allemandes“"@en  .
+    
+sk:DWbibl00650 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ein Fußtritt für die Lakaien"@en  .
+    
+sk:DWbibl02850 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der deutsche Ungeist"@en  .
+    
+sk:DWbibl00655 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Göbbels schafft Arbeit"@en  .
+    
+sk:DWbibl03338 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Personalien]"@en  .
+    
+sk:DWbibl00658 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Bilder aus dem Dritten Reich"@en  .
+    
+sk:DWbibl00661 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Bürgerliche „Demokraten“"@en  .
+    
+sk:DWbibl00662 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Von Amts wegen den Folterknechten ausgeliefert"@en  .
+    
+sk:DWbibl02484 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Aussendung der Bremer Polizeidirektion]"@en  .
+    
+sk:DWbibl02483 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ein Mörder – Aufseher in Dachau"@en  .
+    
+sk:DWbibl00666 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hysterisch geworden"@en  .
+    
+sk:DWbibl02579 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Eine Frauenstimme aus dem Dritten Reich"@en  .
+    
+sk:DWbibl02581 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Leserbrief]"@en  .
+    
+sk:DWbibl00668 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Göring über die nationale Revolution"@en  .
+    
+sk:DWbibl02486 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Identität des Attentäters Alvensleben"@en  .
+    
+sk:DWbibl02389 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Eine Rundfunkrede gegen Oesterreich"@en  .
+    
+sk:DWbibl02391 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede im Münchner Rundfunk]"@en  .
+    
+sk:DWbibl02355 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die angeblichen Putschpläne an der bayerischen Grenze"@en  .
+    
+sk:DWbibl03231 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Deutsche Erklärung zu einem Bericht der „Reichspost“]"@en  .
+    
+sk:DWbibl02289 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Ansprache auf der Tagung des Pommerschen Landbundes]"@en  .
+    
+sk:DWbibl02288 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wo hab' ich denn die schönen blauen Augen her?"@en  .
+    
+sk:DWbibl00672 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Reichsminister Goebbels sprach gestern abend zu Deutschland:
+						„Volk an der Arbeit“"@en  .
+    
+sk:DWbibl03197 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Volk an der Arbeit [Rundfunkansprache]"@en  .
+    
+sk:DWbibl02481 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Greuel des Dritten Reiches"@en  .
+    
+sk:DWbibl00673 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ein umfassender Situationsbericht aus Berlin"@en  .
+    
+sk:DWbibl00675 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Bekenntnis wird zum Gefängnis"@en  .
+    
+sk:DWbibl03162 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Revolution ohne einzigen Schuß"@en  .
+    
+sk:DWbibl03671 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Drei Monate deutsche Revolution"@en  .
+    
+sk:DWbibl00677 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Fascismus duldet keine andern Parteien"@en  .
+    
+sk:DWbibl02057 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede am Gauparteitag Thüringen in Weimar]"@en  .
+    
+sk:DWbibl00678 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nationalsozialistische Schulung der preußischen Beamten"@en  .
+    
+sk:DWbibl03123 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Erlass an die preußische Beamtenschaft]"@en  .
+    
+sk:DWbibl00679 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die braunen Buben in der Schule"@en  .
+    
+sk:DWbibl03201 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Gleichschaltung unter Schulkameraden"@en  .
+    
+sk:DWbibl00681 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Oberammergau im Zeichen des Hakenkreuzes"@en  .
+    
+sk:DWbibl03028 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Verordnung zu den Oberammergauer Passionsspielen]"@en  .
+    
+sk:DWbibl00682 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Görings Arzt begeht „Selbstmord“"@en  .
+    
+sk:DWbibl00685 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Deutschlands Selbstausschluß aus der Kulturwelt"@en  .
+    
+sk:DWbibl02851 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der nationale Zweck"@en  .
+    
+sk:DWbibl00689 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Arische Krankenbehandlung"@en  .
+    
+sk:DWbibl03345 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Anordnung]"@en  .
+    
+sk:DWbibl01971 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Bernhard Kuhnt nach seiner Verhaftung,
+						Photographie]"@en  .
+    
+sk:DWbibl00690 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nazi Greuelpropaganda"@en  .
+    
+sk:DWbibl00691 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Göbbels droht"@en  .
+    
+sk:DWbibl02163 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede im Berliner Sportpalast]"@en  .
+    
+sk:DWbibl00692 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Kampf ums Recht"@en  .
+    
+sk:DWbibl00695 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Old Shatterhand und das Dritte Reich"@en  .
+    
+sk:DWbibl01938 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Auf dem Obersalzberg"@en  .
+    
+sk:DWbibl00697 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: War einst ein junger Sturmsoldat"@en  .
+    
+sk:DWbibl00699 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Nazi und ihr Programm"@en  .
+    
+sk:DWbibl02655 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Schlagt sie nicht!"@en  .
+    
+sk:DWbibl03678 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Idealisten und Konjunkturhascher"@en  .
+    
+sk:DWbibl00704 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede vor Amtswaltern im Berliner Sportpalast]"@en  .
+    
+sk:DWbibl02259 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das Programm der N.S.D.A.P. und seine weltanschaulichen
+						Grundgedanken"@en  .
+    
+sk:DWbibl02240 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Erklärung vor einer Tagung deutschnationaler
+						Industrieller]"@en  .
+    
+sk:DWbibl00705 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der Weltprotest gegen Hitler-Deutschland"@en  .
+    
+sk:DWbibl02108 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede am Kongress der Sozialistischen Arbeiter-Internationale
+						in Paris]"@en  .
+    
+sk:DWbibl00706 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Göring war im Irrenhaus!"@en  .
+    
+sk:DWbibl02072 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nazi Chief Once in Asylum"@en  .
+    
+sk:DWbibl00707 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die „Arbeiterpartei“"@en  .
+    
+sk:DWbibl03407 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: "@en  .
+    
+sk:DWbibl01935 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: „Weg mit den jüdischen Aerzten!“"@en  .
+    
+sk:DWbibl02261 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hugenbergs Nachfolger ernannt"@en  .
+    
+sk:DWbibl00708 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Führer des Dritten Reichs privat"@en  .
+    
+sk:DWbibl00710 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Schutzhaft muß bezahlt werden!"@en  .
+    
+sk:DWbibl02896 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Meldung des Conti-Nachrichten-Büros]"@en  .
+    
+sk:DWbibl00712 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wehrlose werden gefoltert!"@en  .
+    
+sk:DWbibl00717 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die „unpolitischen“ Literaten"@en  .
+    
+sk:DWbibl02140 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: "@en  .
+    
+sk:DWbibl00719 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Revolutionäre sterben"@en  .
+    
+sk:DWbibl00724 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Pleite in Bayreuth"@en  .
+    
+sk:DWbibl00727 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Um der Freiheit willen"@en  .
+    
+sk:DWbibl02663 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wien wird standhalten!"@en  .
+    
+sk:DWbibl00728 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Und Oesterreich?"@en  .
+    
+sk:DWbibl02265 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Erklärung]"@en  .
+    
+sk:DWbibl00732 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: „Es gibt keine Klassen mehr!“"@en  .
+    
+sk:DWbibl02467 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Erlass]"@en  .
+    
+sk:DWbibl00735 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Nazigreuel"@en  .
+    
+sk:DWbibl03148 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: "@en  .
+    
+sk:DWbibl00594 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Hitlers Pakt mit Thyssen: Wie die Nazi die deutschen Arbeiter
+						an die Großindustrie verkauften"@en  .
+    
+sk:DWbibl00738 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das Grauen von Köpenick"@en  .
+    
+sk:DWbibl02528 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Göring amnestiert Bestien"@en  .
+    
+sk:DWbibl00739 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Eine Demokratie wehrt sich gegen das Dritte Reich"@en  .
+    
+sk:DWbibl02267 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Bericht über eine Unterredung mit Goebbels und Neurath
+						anlässlich von Grenzzwischenfällen]"@en  .
+    
+sk:DWbibl00743 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Konzentrationslager für Marxisten"@en  .
+    
+sk:DWbibl03016 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Vergnügungsreisen im Dritten Reich"@en  .
+    
+sk:DWbibl03018 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Travelling in Germany"@en  .
+    
+sk:DWbibl02935 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Konflikt zwischen Wien und Berlin"@en  .
+    
+sk:DWbibl02937 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Was hat sich in Salzburg abgespielt?"@en  .
+    
+sk:DWbibl03497 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Beispielloser Redeexzeß Franks in Graz"@en  .
+    
+sk:DWbibl03653 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Amerika verwarnt Deutschland"@en  .
+    
+sk:DWbibl03499 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede vor einer nationalsozialistischen Versammlung in
+						Graz]"@en  .
+    
+sk:DWbibl02590 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Stellungnahme zur Ankunft der nationalsozialistischen Minister
+						und Funktionäre]"@en  .
+    
+sk:DWbibl02044 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Neuordnung Mitteleuropas ohne kriegerische Experimente"@en  .
+    
+sk:DWbibl01967 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Scharfe antisemitische Aeußerungen Hitlers"@en  .
+    
+sk:DWbibl00751 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Burg Schwabenberg Sitz des Rasseamtes der S.S."@en  .
+    
+sk:DWbibl03275 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das Rasseamt der SS."@en  .
+    
+sk:DWbibl03278 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Ansprache]"@en  .
+    
+sk:DWbibl01923 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Verbrechen und Torheit!"@en  .
+    
+sk:DWbibl00752 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Abwehraktion gegen die Greuelhetze"@en  .
+    
+sk:DWbibl03414 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Mitteilung des Vorsitzenden des Vereins Deutscher
+						Zeitungsverleger]"@en  .
+    
+sk:DWbibl02093 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Eine Mitteilung des Deutschen Kulturbundes"@en  .
+    
+sk:DWbibl00753 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Zuschriften an die „Neue Freie Presse“ gegen die
+						Greuelmeldungen"@en  .
+    
+sk:DWbibl02094 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Keine Gefährdung ausländischer Automobilisten"@en  .
+    
+sk:DWbibl02097 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Mutige Worte"@en  .
+    
+sk:DWbibl00765 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Reichenhaller Rede Hitlers"@en  .
+    
+sk:DWbibl02196 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede auf einer Führertagung von SA, SS und Stahlhelm in Reichenhall]"@en  .
+    
+sk:DWbibl02099 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Der kategorische Imperativ in der Politik"@en  .
+    
+sk:DWbibl00767 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das Zentrum aufgelöst"@en  .
+    
+sk:DWbibl02972 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Aussendung der Zentrums-Partei]"@en  .
+    
+sk:DWbibl00769 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Tod des Führers der sozialdemokratischen Arbeiterpartei Dr.
+						Eckstein"@en  .
+    
+sk:DWbibl02823 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Aufruf an seine Anhänger]"@en  .
+    
+sk:DWbibl02410 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Gleichschaltung der christlichen Gewerkschaften"@en  .
+    
+sk:DWbibl03419 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Mitteilung zur Gleichschaltung der Gewerkschaften]"@en  .
+    
+sk:DWbibl03157 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Aufgaben der Berliner Schutzpolizei"@en  .
+    
+sk:DWbibl03160 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Ansprache vor den Vertretern des Offizierskorps und der
+						Beamtenschaft der Schutzpolizei]"@en  .
+    
+sk:DWbibl03354 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Deutschland ist nicht Italien ... "@en  .
+    
+sk:DWbibl00780 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Schonung der Wirtschaft"@en  .
+    
+sk:DWbibl03191 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Rede zur Wirtschaftspolitik vor Gauleitern,
+						NSBO-Landesobleuten und „Treuhändern der Arbeit“ in Berlin]"@en  .
+    
+sk:DWbibl00783 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Vermögenseinziehung und Aberkennung der deutschen
+						Staatsangehörigkeit"@en  .
+    
+sk:DWbibl00787 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Göring gegen die Greuelberichte über Deutschland"@en  .
+    
+sk:DWbibl02209 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Ansprache vor Vertretern der ausländischen Presse]"@en  .
+    
+sk:DWbibl02324 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Aufdeckung nationalsozialistischer Betätigung in Baden"@en  .
+    
+sk:DWbibl00788 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Im Namen der Menschlichkeit"@en  .
+    
+sk:DWbibl02817 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Festabend des Wiener Pen-Klubs"@en  .
+    
+sk:DWbibl04128 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ein österreichisches Heldendenkmal"@en  .
+    
+sk:DWbibl00790 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: „Nicht zur Inschutzhaftnahme fähig“"@en  .
+    
+sk:DWbibl02881 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Bericht der Bochumer Polizei]"@en  .
+    
+sk:DWbibl02468 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ein Verhafteter verwundet sich"@en  .
+    
+sk:DWbibl02885 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Meldung von Wolffs Telegraphischem Bureau]"@en  .
+    
+sk:DWbibl02471 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Orgien sadistischer Blutgier"@en  .
+    
+sk:DWbibl02473 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: In a Brown House"@en  .
+    
+sk:DWbibl00803 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Aus der deutschen Hölle"@en  .
+    
+sk:DWbibl03164 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Die Schweiz erleichtert die Einreise"@en  .
+    
+sk:DWbibl02498 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Das deutsche Schandgeld"@en  .
+    
+sk:DWbibl03432 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Une voix d'Allemagne parle"@en  .
+    
+sk:DWbibl01300 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Jüdischer Hausierer vor dem Sondergericht"@en  .
+    
+sk:DWbibl01986 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Egon Erwin Kisch über die Folterungen der politischen
+						Gefangenen in Spandau"@en  .
+    
+sk:DWbibl01889 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [Nordische Mythologie]"@en  .
+    
+sk:DWbibl03696 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Ein „Urlaubstag“ des Führers"@en  .
+    
+sk:DWbibl03691 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Adolf Hitler ganz privat"@en  .
+    
+sk:DWbibl03685 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: [NS-Anschlag]"@en  .
+    
+sk:DWbibl03680 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Reichsstatthalter von Epp im Allgäu"@en  .
+    
+sk:DWbibl03681 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Brockhaus’ Konversations-Lexikon"@en  .
+    
+sk:DWbibl04131 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Wiener Chronik"@en  .
+    
+ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOGrundfestenhuebenUndDruebenWendungTreueSozialdemokratGewesenWendungTreue2GuteGedaechtnisANNO/Österreichische NationalbibliothekANNOSatrapieWahnsinnigANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOdieTimesMeldetNochEinPaarWirdsieBesitztweiteReisenselbstAusmalennoetigeKlarmachtTatbestandesMitzuteilenErregungDaruebererwischtWordendieMutterseinerGeilheitfristlosEntlassenanstoessigerANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOblutigeMasseZangenFleischKorallenWundenGesehenANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOerstesGemeinschaftslagerbueffelnRassefragenVersaillesPutzUndFlickstundeANNO/Österreichische NationalbibliothekANNONachrichtVonDerAnzuendungANNO/Österreichische NationalbibliothekANNOBettDerEvolutionANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOvorsichtigeBehandlungnichtGebundenANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOWirVerlangenMittelmeertypANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOHedemannstraße1Hedemannstrasse2ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOProgrammeUndIdeenBazillentraegerIdeenDesProgrammesANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNORechtsstaatVerordnungenANNO/Österreichische NationalbibliothekANNOnichtGefrommtANNO/Österreichische NationalbibliothekANNOEr mußte ... Lagers gezeigtstundenlangem Prügeln ... zerschlagen wurdenwimmerte die ganze Nachtanscheinend sei ... bald gestorbenbis sie geschlagen werden und die Schläge zählen
+					müssendieser Komparsen ... und behält⁠ANNO/Österreichische NationalbibliothekANNOden früheren Oberpräsidenten von dessen Beamten ... zu
+					nähen und ihn Besuchern vorzuzeigenNilpferdpeitscheANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOangeblicheGreuelANNO/Österreichische NationalbibliothekANNOGedaechtnistruebungANNO/Österreichische NationalbibliothekANNOSchwaermernANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOEs gibt gegen politische Terrorakte ein sehr ...
+					Mittel gegen den politischen TerrorGerade in dieser ZeitGerade in dieser Zeit2ANNO/Österreichische NationalbibliothekANNOda die Berliner ... Ursprungs abzielteANNO/Österreichische NationalbibliothekANNOGetoetetenGetoetetenGetoetetenANNO/Österreichische NationalbibliothekANNOBruderIstUntergebrachtANNO/Österreichische NationalbibliothekANNOSchaedelbasisANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOHat man Sie geschlagen? Ach, wie peinlich!DWbibl01983_1DWbibl01983_2ANNO/Österreichische NationalbibliothekANNODWbibl01336Kein Wort ... sie kamendie den ... und zerschlagenHinschlachtung des Ministerpräsidenten Stelling
+				des halbblinden Paul v. EssenANNO/Österreichische NationalbibliothekANNOrechtsgefluegeltANNO/Österreichische NationalbibliothekANNOwir sind keine Partei, wir sind eine WeltanschauungWir denken in JahrhundertenEs fangen manche an zu meckern. In Deutschland hat keiner
+				zu meckernANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOverjagterAerzteANNO/Österreichische NationalbibliothekANNOboesenNaziANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOAufseherInDachauANNO/Österreichische NationalbibliothekANNOvernehmenANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOHoeflichkeitGetadeltANNO/Österreichische NationalbibliothekANNOGottgesegneteANNO/Österreichische NationalbibliothekANNOblauenAugenANNO/Österreichische NationalbibliothekANNOmanGlaubeANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNObespucktANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOfanatischenGefaengnisANNO/Österreichische NationalbibliothekANNOerschuettertWeintenANNO/Österreichische NationalbibliothekANNOPelzjudenANNO/Österreichische NationalbibliothekANNOIntoleranzANNO/Österreichische NationalbibliothekANNOAlleMeineNeunjaehrigenANNO/Österreichische NationalbibliothekANNODamit sollen ...Bild zu machen.ANNO/Österreichische NationalbibliothekANNOVerdachtsderUntreuebrachteSichVerletzungenBeiANNO/Österreichische NationalbibliothekANNOSexualprozessANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOGrimmigerAnerkennungGeheimnisvolleRebellenhinaufblinzeltenANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOwahre TatDeshalb halten ... Verfassung fest.Glaubt man, ... reden bereit_erst ein
+					Verfassungsgesetzhat einem Nazi ... verwehren.ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOdie da planten, bei der ProduktenbörseANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOmancher geschoren wurde zur EinbrennungANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOdas hohe Glück ... zu seinANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOKolonie FrankreichsANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOWasserleichenANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOverklungen und vertan1verklungen und vertan2ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOInsassePflegermorphinistisch befeuertANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOFreiheit! ... den FaschismusANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOmit Stahlruten ins Gesicht gepeitschtund wie der Rädelsführer dem heroisch Sterbenden, ... :So,
+				Matties, diesmal bist du noch gut davongekommenJustizminister von Braunschweigbesudeltunter wieherndem Gelächter gemartert, bis nichts von ihm da
+				ist als eine blutige Masse;während ihre Frauen aufpassen müssen ... Gesichter schneidetANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOmischt sich ... Angelegenheiten DeutschlandsANNO/Österreichische NationalbibliothekANNOFaustMetapherANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOTeufelBeelzebubANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOisegoriegeistigenKampffreienWettbewerb_WerbenANNO/Österreichische NationalbibliothekANNOhabenIhnGefuehrtANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOfür Bayreuth ... verzichtenFreikartenANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOpropter_lebenswertANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOMeisterstueckeDerDiplomatieunerwuenschtenBesuchANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOFolge der PropagandagelogenANNO/Österreichische NationalbibliothekANNOBarbarenVonAltesHerANNO/Österreichische NationalbibliothekANNOlachend erwiderte ... zu zahlenLebensmittelReichlichGespendetANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOVerhandlungspauseANNO/Österreichische NationalbibliothekANNOMassakrierungANNO/Österreichische NationalbibliothekANNOPflichteteBei_DoktrinANNO/Österreichische NationalbibliothekANNOFrauInKoelnANNO/Österreichische NationalbibliothekANNOBindingBillingerBlutmythosANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOKonterrevolutionRepublikKonzentrationslagerANNO/Österreichische NationalbibliothekANNOKampfFormenMittelEntwicklung1KampfFormenMittelEntwicklung2SeltenWarEsoberstenGrundsatzANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOGrasRupfenANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNODaKommenSieWerDerRegierungUnterstelltWarenhaeuserVerhaeltnisseMeistern_MeisterungZinsknechtschaftunabaenderlichANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOBONZEANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOEROBERNANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOJEDENTAGLEHRTZUSAMMENZUTREIBENBERGKETTEANNO/Österreichische NationalbibliothekANNOOPPOSITIONANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOGEGNERTRIFFTANNO/Österreichische NationalbibliothekANNOKUEHNZUKAEMPFENANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOGESCHUETTELT_BEELZEBUBUEBERSIEHTNICHT_UEBERSIEHTAUCHNICHTEINZIGENAUSNAHMEANNO/Österreichische NationalbibliothekANNOKAMPFKRAFTFUEHLBARERSTENMAITAKTIKUEBERALTERTANNO/Österreichische NationalbibliothekANNOEINZIGEERFOLGANZIEHUNGSKRAFTMACHTGEBRAUCHENMASSENPSYCHOLOGISCHEPROPAGANDAIDEOLOGISCHEORIENTIERUNGZURUECKGEWORFENZUKUNFTNICHTBEREITISTANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOVermerkPassnichtWahrANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOOhrlaeppchenKommunistenANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOPapeStrasseFormulareANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOschweinestallgebrocheneRippenEskorteANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOKaisersHerzogserblickenWirdANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOvermeidetevergessANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOSonderaktionenJedenfalls_OhneJedenUnterschiedausdruecklichHervorhebenbodenstaendig1ANNO/Österreichische NationalbibliothekANNObodenstaendige2gewinnenkoenntestetsdagegenANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNORuheUndOrdnungTelegrammenUndBriefenGeschaeftstaetigkeitDieseMitteilungGeschaeftenNachgehenANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOErwartungenEmpfindlichkeitANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNObestandenDollfussSeiteANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNODasIstAllesDeutschlandWillOesterreichUeberAllesimGegenteilDasWasRheinUndDonauSehnsuchtAllerDeutschenVolkLiebtANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNODrEcksteinKonnte1ANNO/Österreichische NationalbibliothekANNOabfinden2NochVorVierzehnInEinemAnfallKuenstlichZugefuehrtSelbstaufgabeANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOEssenerRedeverwahre_ausrottenANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOausschlaggebendFuehrerausleseANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOSyntheseZwischenNurVorDerVernunftANNO/Österreichische NationalbibliothekANNOuntergeordneteOrgane1untergeordneteOrgane2ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOSchoenheitUndGottANNO/Österreichische NationalbibliothekANNOnichtDasGeringsteANNO/Österreichische NationalbibliothekANNOausBisherNichtBekannterANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNODrittelZwangsbeitrittEingliederungDerStudentenZusammenschluss1Zusammenschluss2ErbkrankheitenVerwandteVerhaftetErhebungDesArmes1ErhebungDesArmes2AufDerFLuchtAusschaltungANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOEinziehungSpielbankenAberkennungParteiBildungANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOnichtSehrErwuenschtANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOBurgSchwabenbergGeschichtsraumWertDesBlutesANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOMenschheitsgedankenRechtslebensANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOzuDenken1zuDenken2ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNODWbibl03655ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNODWbibl03319ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOWieEsDeutschlandsKrokodilstraenenMinderheitNochKeine20FrachtUndSpesenANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOVorzimmerSchaumburgGoeringZarIllustriertenANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOaufgeraeumtNadelsticheANNO/Österreichische NationalbibliothekANNOSoHabenWirderSaechsicheInnenministerANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNO1.SaemtlicheANNO/Österreichische NationalbibliothekANNOBegeisterungANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNO(beide)ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNObeideANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOSiemensWirtschaftssabotageANNO/Österreichische NationalbibliothekANNOkaltzustellenuntersuchungsundschlichtungsausschussANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOjuedischerDrehjuedischerDreh2ANNO/Österreichische NationalbibliothekANNOBenehmenANNO/Österreichische NationalbibliothekANNORundfunkVoelkerbundANNO/Österreichische NationalbibliothekANNOharterFaustentgegenstelltKieferEinschlagenANNO/Österreichische NationalbibliothekANNOZumuessenglaubtKlarheitgeschaffenANNO/Österreichische NationalbibliothekANNOdasWesentlicheGedankengutWichtigstenSeitenANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOoesterreichischeGreuelinnereAngelegenheitPolizeistrafenANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOistEineLuegenpropagandaEhreBeiJudenANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNO123ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNO1u23ANNO/Österreichische NationalbibliothekANNO1_11_2ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNO1u23ANNO/Österreichische NationalbibliothekANNO123ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNO12_12_2DWbibl03621ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNO1u234ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNODieSacheDasVolkRechtOderZehnSchrittWieMuessenerschreckendesBildANNO/Österreichische NationalbibliothekANNODeutschlandLaedtDeutschlandGeniesseAufsteigenverwirklichenANNO/Österreichische NationalbibliothekANNOVerwirklichen2ANNO/Österreichische NationalbibliothekANNOangeblichenANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOueberraschungneuesBlattANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOBEIDEANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNO1ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNO1_11_2ANNO/Österreichische NationalbibliothekANNOscherzbombeANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOFuehrer1Fuehrer2ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNO1ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOschaerfereResolutionschaerfereResolution2ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACE21ACE/Austrian Corpora and EditionsACEANNO/Österreichische NationalbibliothekANNOACE/Austrian Corpora and EditionsACE1ACE/Austrian Corpora and EditionsACE1ACE/Austrian Corpora and EditionsACEANNO/Österreichische NationalbibliothekANNO1ANNO/Österreichische NationalbibliothekANNO1ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNO1_11_223ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNO1_11_2ANNO/Österreichische NationalbibliothekANNO1ANNO/Österreichische NationalbibliothekANNO1ANNO/Österreichische NationalbibliothekANNO12ANNO/Österreichische NationalbibliothekANNO1ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNO1ANNO/Österreichische NationalbibliothekANNO12-6+DWbibl00196_DWbibl00143_DWbibl00142_DWbibl01743
+				ANNO/Österreichische NationalbibliothekANNO1_11_2ANNO/Österreichische NationalbibliothekANNO1ANNO/Österreichische NationalbibliothekANNO1ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNO1ANNO/Österreichische NationalbibliothekANNO1DWbibl03627ANNO/Österreichische NationalbibliothekANNO1ANNO/Österreichische NationalbibliothekANNO1_11_2ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNO1Femina2SadistenkabaretANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNO1u234ANNO/Österreichische NationalbibliothekANNO1_11_2234ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNO1ANNO/Österreichische NationalbibliothekANNO1_11_2ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNO12ANNO/Österreichische NationalbibliothekANNO1ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNO1Staatsbibliothek zu Berlin – Preußischer
+					Kulturbesitz (Signatur: 2° Ztg 1621)SBB-PKStaatsbibliothek zu Berlin – Preußischer
+					Kulturbesitz (Signatur: 2° Ztg 1621)SBB-PK1Staatsbibliothek zu Berlin – Preußischer
+					Kulturbesitz (Signatur: 2° Ztg 1621)SBB-PKStaatsbibliothek zu Berlin – Preußischer
+					Kulturbesitz (Signatur: 2° Ztg 1621)SBB-PK1u2345Staatsbibliothek zu Berlin – Preußischer Kulturbesitz
+				(Signatur: 2° Ztg 1621)SBB-PK1Staatsbibliothek zu Berlin – Preußischer Kulturbesitz
+				(Signatur: 2° Ztg 1621)SBB-PK1ACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEBibliothèque nationale de FranceBnF1Bibliothèque nationale de FranceBnF12DWbibl03620ACE/Austrian Corpora and EditionsACE1ANNO/Österreichische NationalbibliothekANNOFES/Friedrich-Ebert-StiftungFES1_11_2ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNODWbibl02132ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOFES/Friedrich-Ebert-StiftungFESACE/Austrian Corpora and EditionsACEANNO/Österreichische NationalbibliothekANNOACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEDWbibl01746ACE/Austrian Corpora and EditionsACEDWbibl03075_1DWbibl03075_2Bibliothèque nationale de FranceBnFBibliothèque nationale de FranceBnFDWbibl03725ACE/Austrian Corpora and EditionsACEDWbibl01329DWbibl00273_1ACE/Austrian Corpora and EditionsACEDWbibl00273_2FES/Friedrich-Ebert-StiftungFESDWbibl02529_1DWbibl02529_2FES/Friedrich-Ebert-StiftungFESFES/Friedrich-Ebert-StiftungFESDWbibl02441ACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEDWbibl03679ACE/Austrian Corpora and EditionsACEDWbibl03692ACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEDWbibl03695Staatsbibliothek zu Berlin – Preußischer Kulturbesitz
+					(Signatur: 2° Ztg 789b)SBB-PKStaatsbibliothek zu Berlin – Preußischer Kulturbesitz
+					(Signatur: 2° Ztg 789b)SBB-PKDWbibl02272ACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEDWbibl03716National Library of Romania – Special CollectionsNLRDWbibl03441ACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEDWbibl02395DWbibl02396DWbibl02397DWbibl02398DWbibl02399DWbibl02400DWbibl03235ACE/Austrian Corpora and EditionsACEDWbibl01412DWbibl00740DWbibl01872_DWbibl01874DWbibl01876DWbibl01877DWbibl01878DWbibl02279ACE/Austrian Corpora and EditionsACEBibliothèque nationale de FranceBnFDWbibl03378ACE/Austrian Corpora and EditionsACEDWbibl02297DWbibl03665ACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEDWbibl03684DWbibl03683ACE/Austrian Corpora and EditionsACEDWbibl02239ACE/Austrian Corpora and EditionsACEDWbibl03718ACE/Austrian Corpora and EditionsACEDWbibl02977ACE/Austrian Corpora and EditionsACEDWbibl03509ACE/Austrian Corpora and EditionsACEDWbibl03723ACE/Austrian Corpora and EditionsACEDWbibl01383DWbibl01382ACE/Austrian Corpora and EditionsACEDWbibl00575DWbibl00324DWbibl01915_DWbibl01916DWbibl01381_DWbibl00148_DWbibl00149DWbibl00326DWbibl01709DWbibl01710DWbibl01711_DWbibl01712DWbibl01713DWbibl01714_DWbibl01715DWbibl01717DWbibl01718_DWbibl01744_DWbibl01745DWbibl01721DWbibl01722_DWbibl01759DWbibl01723DWbibl01724DWbibl01725DWbibl01726_1DWbibl01726_2DWbibl01727DWbibl01728DWbibl01729DWbibl01730DWbibl01731DWbibl01732_DWbibl01733DWbibl01734DWbibl01735DWbibl01736DWbibl01737DWbibl01738DWbibl01739DWbibl01740DWbibl01741DWbibl01742ACE/Austrian Corpora and EditionsACEDWbibl03276DWbibl03277DWbibl03280ACE/Austrian Corpora and EditionsACEDWbibl01379ACE/Austrian Corpora and EditionsACEDWbibl02990ACE/Austrian Corpora and EditionsACEDWbibl03737DWbibl03735ACE/Austrian Corpora and EditionsACEDWbibl03739DWbibl03733DWbibl03732ACE/Austrian Corpora and EditionsACEDWbibl03729Digitalisat: SLUB Dresden; freier Zugang – Rechte vorbehaltenSLUB DresdenDWbibl03202_1DWbibl03202_2ANNO/Österreichische NationalbibliothekANNOACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEDWbibl01187ACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEDWbibl02790DWbibl02791DWbibl02792DWbibl02793DWbibl02794ACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEDWbibl01795_2_DWbibl01798_2_DWbibl01799_2DWbibl01800DWbibl01802DWbibl01803DWbibl01804_DWbibl01805_DWbibl01806DWbibl01807_DWbibl01815DWbibl01809DWbibl01812DWbibl01814_DWbibl01816DWbibl00507_DWbibl01817_DWbibl01818_DWbibl01819_DWbibl01820_DWbibl02195DWbibl00132_DWbibl02162DWbibl00257DWbibl01836DWbibl01837DWbibl01838_DWbibl02194DWbibl01839DWbibl01840DWbibl01083DWbibl01842DWbibl01846_DWbibl01847DWbibl01848DWbibl01849DWbibl01850DWbibl01851_2DWbibl01851_1DWbibl03666DWbibl01852DWbibl02843DWbibl01853_1DWbibl01853_2DWbibl01854_DWbibl01855ACE/Austrian Corpora and EditionsACEDWbibl03764ACE/Austrian Corpora and EditionsACEDWbibl01940DWbibl01949ANNO/Österreichische NationalbibliothekANNOBibliothèque nationale de FranceBnFDWbibl02804ACE/Austrian Corpora and EditionsACEDWbibl03814ACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEDWbibl03808DWbibl03807DWbibl03762ACE/Austrian Corpora and EditionsACEDWbibl01325ACE/Austrian Corpora and EditionsACEDWbibl01275DWbibl03822DWbibl03619ACE/Austrian Corpora and EditionsACEDWbibl00599DWbibl00600ACE/Austrian Corpora and EditionsACE1ACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACE1ACE/Austrian Corpora and EditionsACE1ACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACE1ACE/Austrian Corpora and EditionsACE12_12_2ACE/Austrian Corpora and EditionsACEANNO/Österreichische NationalbibliothekANNODWbibl03362DWbibl03700ACE/Austrian Corpora and EditionsACE13ACE/Austrian Corpora and EditionsACEDWbibl02580ACE/Austrian Corpora and EditionsACEUniversitätsbibliothek Wien, Sign.: IV-581594UBWDWbibl03476 DWbibl01281 Universitätsbibliothek Wien, Sign.: IV-581594UBWACE/Austrian Corpora and EditionsACEDWbibl03787 ACE/Austrian Corpora and EditionsACEUniversitätsbibliothek Wien, Sign.: IV-581594UBWDWbibl03465 ACE/Austrian Corpora and EditionsACEUniversitätsbibliothek Wien, Sign.: IV-581594UBWDWbibl01501_DWbibl01501 DWbibl03479 Universitätsbibliothek Wien, Sign.: IV-581594UBWDWbibl03468 Universitätsbibliothek Wien, Sign.: IV-581594UBWDWbibl01785 DWbibl03450 +DWbibl03931ACE/Austrian Corpora and EditionsACEDWbibl03795 Universitätsbibliothek Wien, Sign.: IV-581594UBWDWbibl01498 ACE/Austrian Corpora and EditionsACEDWbibl03777 ACE/Austrian Corpora and EditionsACEDWbibl03820 ACE/Austrian Corpora and EditionsACEDWbibl03774 DWbibl03769_1 DWbibl03769_2 DWbibl03770 DWbibl03990ACE/Austrian Corpora and EditionsACEDWbibl03681 Universitätsbibliothek Wien, Sign.: IV-581594UBWDWbibl03460 Universitätsbibliothek Wien, Sign.: IV-581594UBWDWbibl01507_DWbibl01757_DWbibl00545_DWbibl01511 DWbibl01509_DWbibl01510_DWbibl01514 DWbibl01764 DWbibl01765 DWbibl01767 DWbibl01513 DWbibl00546 DWbibl01512 Universitätsbibliothek Wien, Sign.: IV-581594UBWDWbibl01959 ACE/Austrian Corpora and EditionsACEDWbibl03818 ACE/Austrian Corpora and EditionsACEUniversitätsbibliothek Wien, Sign.: IV-581594UB WienDWbibl03474 Universitätsbibliothek Wien, Sign.: IV-581594UB WienACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEDWbibl03781_1 DWbibl03781_2 ACE/Austrian Corpora and EditionsACEDWbibl03103 DWbibl03096 DWbibl03098 DWbibl03099 DWbibl03100 DWbibl03101_DWbibl03111 DWbibl03102 DWbibl03118 DWbibl03112_DWbibl03113 DWbibl03116 ACE/Austrian Corpora and EditionsACEDWbibl03117 DWbibl03097_DWbibl03114 DWbibl03115 ACE/Austrian Corpora and EditionsACEDWbibl03785 ACE/Austrian Corpora and EditionsACEDWbibl03793_DWbibl03788 DWbibl03789 Staatsbibliothek zu Berlin – Preußischer Kulturbesitz
+				(Signatur: 2° Ztg 1621)SBB-PKDWbibl02761 Staatsbibliothek zu Berlin – Preußischer Kulturbesitz
+				(Signatur: 2° Ztg 1621)SBB-PKDWbibl03151Staatsbibliothek zu Berlin – Preußischer Kulturbesitz
+				(Signatur: 2° Ztg 1621)SBB-PKACE/Austrian Corpora and EditionsACEDWbibl03077Bibliothèque nationale de FranceBnFDWbibl03435Bibliothèque nationale de FranceBnFDWbibl03433Bibliothèque nationale de FranceBnFACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEDWbibl00091DWbibl00252DWbibl01778_1DWbibl01778_2ACE/Austrian Corpora and EditionsACEDWbibl01289_DWbibl00525ACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEBibliothèque nationale de FranceBnFBibliothèque nationale de FranceBnFBibliothèque nationale de FranceBnFDWbibl03439ACE/Austrian Corpora and EditionsACEDWbibl02755ACE/Austrian Corpora and EditionsACEDWbibl01184ACE/Austrian Corpora and EditionsACEDWbibl02174ACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEDWbibl02742DWbibl02743ACE/Austrian Corpora and EditionsACEDWbibl01176_DWbibl01175DWbibl01177DWbibl01178_1DWbibl01178_2DWbibl01179ACE/Austrian Corpora and EditionsACEDWbibl00217ACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEDWbibl02183ACE/Austrian Corpora and EditionsACEDWbibl01173ACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEDWbibl01169ACE/Austrian Corpora and EditionsACEDWbibl01172DWbibl01171DWbibl01170ACE/Austrian Corpora and EditionsACEDWbibl01168ACE/Austrian Corpora and EditionsACEDWbibl01166ACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEDWbibl01165_DWbibl01707ACE/Austrian Corpora and EditionsACEDWbibl02816ACE/Austrian Corpora and EditionsACEDWbibl01161ACE/Austrian Corpora and EditionsACEDWbibl01163ACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEDWbibl01158ACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEDWbibl01157ACE/Austrian Corpora and EditionsACEDWbibl01156_DWbibl02249ACE/Austrian Corpora and EditionsACEDWbibl02584ACE/Austrian Corpora and EditionsACEDWbibl01154DWbibl01155ACE/Austrian Corpora and EditionsACEDWbibl01152DWbibl01153DWbibl03575ACE/Austrian Corpora and EditionsACEDWbibl02047FES/Friedrich-Ebert-StiftungFESDWbibl03484DWbibl03269FES/Friedrich-Ebert-StiftungFESDWbibl03271SLUB, digital.slub-dresden.de/id1666418854 (Urheberrechtsschutz 1.0)SLUB DresdenDWbibl01391_1DWbibl01391_2DWbibl01866_DWbibl01867DWbibl02844SLUB, digital.slub-dresden.de/id1666418854 (Urheberrechtsschutz 1.0)SLUB DresdenDWbibl02142DWbibl02212DWbibl02213DWbibl01135DWbibl02211SLUB, digital.slub-dresden.de/id1666418854 (Urheberrechtsschutz 1.0)SLUB DresdenANNO/Österreichische NationalbibliothekANNODWbibl01594DWbibl01595ANNO/Österreichische NationalbibliothekANNODWbibl03616DWbibl03618_1DWbibl03618_2ANNO/Österreichische NationalbibliothekANNODWbibl03586DWbibl03588ACE/Austrian Corpora and EditionsACEDWbibl02384_1DWbibl02384_2Wienbibliothek im Rathaus / Wienbibliothek DigitalWienbibliothekDWbibl03243Bibliothèque nationale de FranceBnFANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNODWbibl00434ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNODWbibl03385ANNO/Österreichische NationalbibliothekANNODWbibl03611DWbibl03612DWbibl03613DWbibl03614ANNO/Österreichische NationalbibliothekANNODWbibl02323ANNO/Österreichische NationalbibliothekANNODWbibl03668ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNODWbibl03606ANNO/Österreichische NationalbibliothekANNODWbibl03417ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNODWbibl01190ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOACE/Austrian Corpora and EditionsACEDWbibl03163_1DWbibl03163_2ACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEDWbibl02474ACE/Austrian Corpora and EditionsACEDWbibl03063Bibliothèque nationale de FranceBnFACE/Austrian Corpora and EditionsACEDWbibl03241_1DWbibl03241_2ACE/Austrian Corpora and EditionsACEDWbibl02676DWbibl02677ACE/Austrian Corpora and EditionsACEDWbibl01150ACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEStaatsbibliothek zu Berlin – Preußischer
+				Kulturbesitz (Signatur: M 216)SBB-PKDWbibl03055Staatsbibliothek zu Berlin – Preußischer
+				Kulturbesitz (Signatur: M 216)SBB-PKDWbibl01834Staatsbibliothek zu Berlin – Preußischer
+				Kulturbesitz (Signatur: M 216)SBB-PKStaatsbibliothek zu Berlin – Preußischer
+				Kulturbesitz (Signatur: M 216)SBB-PKDWbibl03741Staatsbibliothek zu Berlin – Preußischer
+				Kulturbesitz (Signatur: M 216)SBB-PKDWbibl03331ACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEDWbibl01321_DWbibl01322_1DWbibl01321_DWbibl01322_2ACE/Austrian Corpora and EditionsACEDWbibl03547ACE/Austrian Corpora and EditionsACEDWbibl01324?DWbibl01323SLUB, digital.slub-dresden.de/id1666418854 (Urheberrechtsschutz 1.0)SLUB DresdenFES/Friedrich-Ebert-StiftungFESDWbibl03549ANNO/Österreichische NationalbibliothekANNODWbibl03536DWbibl02664ANNO/Österreichische NationalbibliothekANNODWbibl03661ANNO/Österreichische NationalbibliothekANNODWbibl00291ANNO/Österreichische NationalbibliothekANNODWbibl02318ACE/Austrian Corpora and EditionsACEANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNODWbibl03534ANNO/Österreichische NationalbibliothekANNODWbibl03654ANNO/Österreichische NationalbibliothekANNOACE/Austrian Corpora and EditionsACEDWbibl02512DWbibl02510ANNO/Österreichische NationalbibliothekANNOACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEBibliothèque nationale de FranceBnFTatenEvolutionACE/Austrian Corpora and EditionsACEACE/Austrian Corpora and EditionsACEANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOTatenEvolutionANNO/Österreichische NationalbibliothekANNOACE/Austrian Corpora and EditionsACEANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOEhrfurcht_1Ehrfurcht_2RevolutionAmAnfangAusDemWegeANNO/Österreichische NationalbibliothekANNOACE/Austrian Corpora and EditionsACEANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNOACE/Austrian Corpora and EditionsACEDWbibl00289_DWbibl02027DWbibl01490ANNO/Österreichische NationalbibliothekANNOANNO/Österreichische NationalbibliothekANNO
