@@ -59,7 +59,7 @@
     </xsl:variable>
     
     <xsl:text>sk:</xsl:text><xsl:value-of select="@xml:id"/><xsl:text> a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label &quot;Expression: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en  .
+  rdfs:label &quot;Expression: </xsl:text><xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;',' '), '(\s)+', ' ')"/><xsl:text>&quot;@en  .
     
 </xsl:text>
   </xsl:template>

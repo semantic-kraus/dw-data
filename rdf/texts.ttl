@@ -151,8 +151,7 @@ sk:DWbibl03633 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Stürmische Debatte in Genf: Nazi einstimmig abgelehnt"@en  .
     
 sk:DWbibl03384 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Äußerung auf der Internationalen Arbeitskonferenz in
-						Genf]"@en  .
+  rdfs:label "Expression: [Äußerung auf der Internationalen Arbeitskonferenz in Genf]"@en  .
     
 sk:DWbibl02668 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Wie schlagen wir den Terror?"@en  .
@@ -164,8 +163,7 @@ sk:DWbibl03268 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Deutscher! Dein Glaube ist Dein Sieg!"@en  .
     
 sk:DWbibl03361 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Schreiben an den Vorsitzenden des kommunalpolitischen Amtes
-						der NSDAP]"@en  .
+  rdfs:label "Expression: [Schreiben an den Vorsitzenden des kommunalpolitischen Amtes der NSDAP]"@en  .
     
 sk:DWbibl03699 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Den jüdischen Kapitalisten geschieht nichts"@en  .
@@ -207,8 +205,7 @@ sk:DWbibl02250 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Deutschland ist bankrott"@en  .
     
 sk:DWbibl02853 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Ansprache auf einer Versammlung der Kolonialwaren- und
-						Delikatessenhändler in München]"@en  .
+  rdfs:label "Expression: [Ansprache auf einer Versammlung der Kolonialwaren- und Delikatessenhändler in München]"@en  .
     
 sk:DWbibl02974 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Hitlers halber Sieg über das Zentrum"@en  .
@@ -217,15 +214,13 @@ sk:DWbibl02976 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Auflösung des Zentrums"@en  .
     
 sk:DWbibl03694 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Kundgebung der Reichsleitung der Deutschen
-						Zentrumspartei]"@en  .
+  rdfs:label "Expression: [Kundgebung der Reichsleitung der Deutschen Zentrumspartei]"@en  .
     
 sk:DWbibl03422 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Unstimmigkeiten im „Dritten Reich“"@en  .
     
 sk:DWbibl03424 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Rundfunkrede anlässlich der Wahl Friedrich von Bodelschwinghs
-						zum Reichsbischof]"@en  .
+  rdfs:label "Expression: [Rundfunkrede anlässlich der Wahl Friedrich von Bodelschwinghs zum Reichsbischof]"@en  .
     
 sk:DWbibl03206 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Rassenkunde für Volksschüler"@en  .
@@ -282,8 +277,7 @@ sk:DWbibl02889 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Meldung des Conti-Nachrichten-Büros]"@en  .
     
 sk:DWbibl00077 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Das Dritte Reich braucht Lakaien. Die Parade der
-						Ueberläufer"@en  .
+  rdfs:label "Expression: Das Dritte Reich braucht Lakaien. Die Parade der Ueberläufer"@en  .
     
 sk:DWbibl02658 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Das neue österreichische Staatsgebäude"@en  .
@@ -298,20 +292,16 @@ sk:DWbibl03576 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Nachgelassenes Fragment]"@en  .
     
 sk:DWbibl03757 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Aus dem Nachlass: Studien aus der Umwerthungszeit
-						1882–1888"@en  .
+  rdfs:label "Expression: Aus dem Nachlass: Studien aus der Umwerthungszeit 1882–1888"@en  .
     
 sk:DWbibl03748 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Der Wille zur Macht. Versuch einer Umwerthung aller
-						Werte"@en  .
+  rdfs:label "Expression: Der Wille zur Macht. Versuch einer Umwerthung aller Werte"@en  .
     
 sk:DWbibl03750 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Aus dem Nachlass: Aufzeichnungen aus der Zeit der Morgenröthe
-						und der Fröhlichen Wissenschaft 1880–1882"@en  .
+  rdfs:label "Expression: Aus dem Nachlass: Aufzeichnungen aus der Zeit der Morgenröthe und der Fröhlichen Wissenschaft 1880–1882"@en  .
     
 sk:DWbibl03557 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Der Wille zur Macht. Versuch einer Umwerthung aller
-						Werte"@en  .
+  rdfs:label "Expression: Der Wille zur Macht. Versuch einer Umwerthung aller Werte"@en  .
     
 sk:DWbibl00086 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Aus dem Lande des braunen Schreckens"@en  .
@@ -383,8 +373,7 @@ sk:DWbibl03669 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Wortmeldung im Niederösterreichischen Landtag]"@en  .
     
 sk:DWbibl02583 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Wie die deutschen „Justizgreuel“ in Wirklichkeit
-						aussehen!"@en  .
+  rdfs:label "Expression: Wie die deutschen „Justizgreuel“ in Wirklichkeit aussehen!"@en  .
     
 sk:DWbibl00079 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Vor der Aufklärung der Bombenanschläge?"@en  .
@@ -417,15 +406,13 @@ sk:DWbibl00098 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Kube über Hitlers Mission"@en  .
     
 sk:DWbibl03032 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Rede auf einer Kundgebung der NSBO im Berliner
-						Sportpalast]"@en  .
+  rdfs:label "Expression: [Rede auf einer Kundgebung der NSBO im Berliner Sportpalast]"@en  .
     
 sk:DWbibl00104 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: „Der letzte Schützengraben liberaler Freiheit“"@en  .
     
 sk:DWbibl00105 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Der Bombenanschlag auf das Wiedener „Warenhaus der
-						Kleinigkeiten“ – eine Kleinigkeit"@en  .
+  rdfs:label "Expression: Der Bombenanschlag auf das Wiedener „Warenhaus der Kleinigkeiten“ – eine Kleinigkeit"@en  .
     
 sk:DWbibl00108 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Unser Ziel"@en  .
@@ -473,8 +460,7 @@ sk:DWbibl02980 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Erlass]"@en  .
     
 sk:DWbibl02575 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Ein „Schmucktelegramm“ für den Nürnberger
-						Reichsparteitag"@en  .
+  rdfs:label "Expression: Ein „Schmucktelegramm“ für den Nürnberger Reichsparteitag"@en  .
     
 sk:DWbibl00504 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Wettkampf des Geistes auf der Berliner Olympiade"@en  .
@@ -513,8 +499,7 @@ sk:DWbibl00136 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: An einem großen Unglück vorüber ..."@en  .
     
 sk:DWbibl00137 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Der Konflikt der französischen Sozialisten vor der
-						Internationale"@en  .
+  rdfs:label "Expression: Der Konflikt der französischen Sozialisten vor der Internationale"@en  .
     
 sk:DWbibl00138 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Führerprinzip auch in der Wirtschaft"@en  .
@@ -535,15 +520,13 @@ sk:DWbibl02952 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Festkundgebung des Wiener Heimatschutzes"@en  .
     
 sk:DWbibl02954 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Ansprache auf der Festkundgebung des Wiener
-						Heimatschutzes]"@en  .
+  rdfs:label "Expression: [Ansprache auf der Festkundgebung des Wiener Heimatschutzes]"@en  .
     
 sk:DWbibl00140 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Aufgabe des Deutschen Bauernbundes in Oesterreich"@en  .
     
 sk:DWbibl02950 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Ansprache auf der Heldengedenkfeier der Kärntner Bauernwehr
-						und des Junglandbundes]"@en  .
+  rdfs:label "Expression: [Ansprache auf der Heldengedenkfeier der Kärntner Bauernwehr und des Junglandbundes]"@en  .
     
 sk:DWbibl02340 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Frau Undset gefällt der Scheiterhaufen"@en  .
@@ -552,12 +535,10 @@ sk:DWbibl02699 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Um die Demokratie"@en  .
     
 sk:DWbibl02412 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: „Die verbreiteten Greuelmeldungen waren großer Schwindel“
-						(??)"@en  .
+  rdfs:label "Expression: „Die verbreiteten Greuelmeldungen waren großer Schwindel“ (??)"@en  .
     
 sk:DWbibl03189 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Wiener Wirtschaftswoche. Die Besonderheiten des deutschen
-						Transfermoratoriums"@en  .
+  rdfs:label "Expression: Wiener Wirtschaftswoche. Die Besonderheiten des deutschen Transfermoratoriums"@en  .
     
 sk:DWbibl03299 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Aus dem Dritten Reich"@en  .
@@ -572,8 +553,7 @@ sk:DWbibl02982 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Hitlers Folterkammern"@en  .
     
 sk:DWbibl02985 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Wie der Nationalsozialismus in Deutschland finanziert
-						wird"@en  .
+  rdfs:label "Expression: Wie der Nationalsozialismus in Deutschland finanziert wird"@en  .
     
 sk:DWbibl03066 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Nazi-Folterkammer im Extrazimmer"@en  .
@@ -636,8 +616,7 @@ sk:DWbibl00175 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Deutschland für eine Anrufung des Völkerbundes?"@en  .
     
 sk:DWbibl00187 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Die jüdischen Bärte der Passionsspieler von Oberammergau
-						verfemt"@en  .
+  rdfs:label "Expression: Die jüdischen Bärte der Passionsspieler von Oberammergau verfemt"@en  .
     
 sk:DWbibl00188 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Rudolf Mosse in der Haft gestorben"@en  .
@@ -781,19 +760,16 @@ sk:DWbibl02665 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Vor den Völkerbund!"@en  .
     
 sk:DWbibl02160 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Frühere Reichsrundfunk-Funktionäre ins Konzentrationslager
-						gebracht"@en  .
+  rdfs:label "Expression: Frühere Reichsrundfunk-Funktionäre ins Konzentrationslager gebracht"@en  .
     
 sk:DWbibl02532 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Ein Horst-Wessel-Denkmal im Dachauer
-						Konzentrationslager"@en  .
+  rdfs:label "Expression: Ein Horst-Wessel-Denkmal im Dachauer Konzentrationslager"@en  .
     
 sk:DWbibl00235 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Oesterreichischer Arbeiter wandert durchs Dritte Reich"@en  .
     
 sk:DWbibl00242 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Ein jüdisches Wohlverhaltungszeugnis und die Quittung
-						dafür"@en  .
+  rdfs:label "Expression: Ein jüdisches Wohlverhaltungszeugnis und die Quittung dafür"@en  .
     
 sk:DWbibl02832 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: "@en  .
@@ -820,13 +796,10 @@ sk:DWbibl02060 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Völkisches Deutsches Theater"@en  .
     
 sk:DWbibl03377 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: La commémoration de l’anniversaire de la mort de
-						Schlageter"@en  .
+  rdfs:label "Expression: La commémoration de l’anniversaire de la mort de Schlageter"@en  .
     
 sk:DWbibl03438 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Le duel entre le chancelier d'Autriche et M. Goebbels et les
-						conversations particulières qui dès aujourd'hui vont être engagées semblent
-						les intérêts principaux de la session"@en  .
+  rdfs:label "Expression: Le duel entre le chancelier d'Autriche et M. Goebbels et les conversations particulières qui dès aujourd'hui vont être engagées semblent les intérêts principaux de la session"@en  .
     
 sk:DWbibl02292 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Das Dritte Reich – ein Paradies"@en  .
@@ -1039,8 +1012,7 @@ sk:DWbibl03381 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Großmann, der Herzensdieb"@en  .
     
 sk:DWbibl00309 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Warum vadient der Jude schneller und mehr Jeld als der
-						Christ"@en  .
+  rdfs:label "Expression: Warum vadient der Jude schneller und mehr Jeld als der Christ"@en  .
     
 sk:DWbibl01897 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Entlarvt durch Bekessy"@en  .
@@ -1052,12 +1024,10 @@ sk:DWbibl03311 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: "@en  .
     
 sk:DWbibl03313 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Programmnotiz zur Vorlesung vom 13. 6. 1928 im Mittleren
-						Konzerthaussaal, Wien]"@en  .
+  rdfs:label "Expression: [Programmnotiz zur Vorlesung vom 13. 6. 1928 im Mittleren Konzerthaussaal, Wien]"@en  .
     
 sk:DWbibl02940 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Zur Vorlesung vom 16. 10. 1930 im Architektenvereinssaal,
-						Wien]"@en  .
+  rdfs:label "Expression: [Zur Vorlesung vom 16. 10. 1930 im Architektenvereinssaal, Wien]"@en  .
     
 sk:DWbibl02942 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Coupletstrophe zu Offenbachs „Tirolienne“]"@en  .
@@ -1081,8 +1051,7 @@ sk:DWbibl03506 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Pressezitat]"@en  .
     
 sk:DWbibl00314 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Zur Vorlesung vom 2. 1. 1929 in Wien, mit Materialien und
-						Anmerkungen]"@en  .
+  rdfs:label "Expression: [Zur Vorlesung vom 2. 1. 1929 in Wien, mit Materialien und Anmerkungen]"@en  .
     
 sk:DWbibl02600 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Auseinandersetzung mit Karl Kraus"@en  .
@@ -1115,8 +1084,7 @@ sk:DWbibl03628 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Schreiben an Wilhelm Friedrich Loeper]"@en  .
     
 sk:DWbibl03722 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Unterredung Sauerweins mit dem Reichsminister Dr.
-						Goebbels"@en  .
+  rdfs:label "Expression: Unterredung Sauerweins mit dem Reichsminister Dr. Goebbels"@en  .
     
 sk:DWbibl03724 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Après sept mois d’hitlérisme"@en  .
@@ -1176,30 +1144,25 @@ sk:DWbibl00330 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Aufgaben des deutschen Theaters"@en  .
     
 sk:DWbibl00331 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Rede anlässlich der Bücherverbrennung am Berliner
-						Opernplatz]"@en  .
+  rdfs:label "Expression: [Rede anlässlich der Bücherverbrennung am Berliner Opernplatz]"@en  .
     
 sk:DWbibl03446 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Reichsminister Dr. Goebbels spricht auf dem Opernplatz. „Das
-						Alte liegt in den Flammen“"@en  .
+  rdfs:label "Expression: Reichsminister Dr. Goebbels spricht auf dem Opernplatz. „Das Alte liegt in den Flammen“"@en  .
     
 sk:DWbibl037202 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Richtlinien über die Vergebung öffentlicher Aufträge"@en  .
     
 sk:DWbibl03726 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Reichswirtschaftsminister Dr. Schmitt[:] Der Wiederaufbau der
-						Wirtschaft"@en  .
+  rdfs:label "Expression: Reichswirtschaftsminister Dr. Schmitt[:] Der Wiederaufbau der Wirtschaft"@en  .
     
 sk:DWbibl02712 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Bücherverbrennung in Berlin"@en  .
     
 sk:DWbibl01952 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Rede vor der „Berufsgruppe Film“ in den Tennishallen,
-						Berlin]"@en  .
+  rdfs:label "Expression: [Rede vor der „Berufsgruppe Film“ in den Tennishallen, Berlin]"@en  .
     
 sk:DWbibl03512 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Rede vor Schriftstellern und Verlegern im Hotel
-						Kaiserhof]"@en  .
+  rdfs:label "Expression: [Rede vor Schriftstellern und Verlegern im Hotel Kaiserhof]"@en  .
     
 sk:DWbibl03815 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: „Lernt das Volk verstehen“"@en  .
@@ -1307,8 +1270,7 @@ sk:DWbibl03238 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Antwort auf die „Rundfrage über Karl Kraus“]"@en  .
     
 sk:DWbibl00353 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Satzungen des „Nationalsozialistischen Deutschen
-						Arbeitervereins e.V.“"@en  .
+  rdfs:label "Expression: Satzungen des „Nationalsozialistischen Deutschen Arbeitervereins e.V.“"@en  .
     
 sk:DWbibl03397 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Volkshymne [Gott erhalte]"@en  .
@@ -1320,12 +1282,10 @@ sk:DWbibl03195 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Reichstagsrede zum deutschen Kolonialismus]"@en  .
     
 sk:DWbibl01960 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Ansprache am Kongreß der „Deutschen Arbeitsfront“ in
-						Berlin]"@en  .
+  rdfs:label "Expression: [Ansprache am Kongreß der „Deutschen Arbeitsfront“ in Berlin]"@en  .
     
 sk:DWbibl02841 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Zur Schlichtung des Konflikts zwischen der Türkei und
-						Russland]"@en  .
+  rdfs:label "Expression: [Zur Schlichtung des Konflikts zwischen der Türkei und Russland]"@en  .
     
 sk:DWbibl03514 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Rede zur Außenpolitik im Reichstag]"@en  .
@@ -1340,42 +1300,34 @@ sk:DWbibl03794 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Riesenkundgebungen der Deutschen Arbeitsfront"@en  .
     
 sk:DWbibl03796 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Rede auf einer Kundgebung der Deutschen Arbeitsfront in
-						Leipzig]"@en  .
+  rdfs:label "Expression: [Rede auf einer Kundgebung der Deutschen Arbeitsfront in Leipzig]"@en  .
     
 sk:DWbibl03780 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Neudeck"@en  .
     
 sk:DWbibl03776 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Presse und Beamte bei Minister Darré: Der Bauer – die
-						Elementarfrage der Volksexistenz"@en  .
+  rdfs:label "Expression: Presse und Beamte bei Minister Darré: Der Bauer – die Elementarfrage der Volksexistenz"@en  .
     
 sk:DWbibl03778 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Vortrag auf einem Presseempfang des Reichsministeriums für
-						Landwirtschaft]"@en  .
+  rdfs:label "Expression: [Vortrag auf einem Presseempfang des Reichsministeriums für Landwirtschaft]"@en  .
     
 sk:DWbibl03773 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Luftschutz, die Forderung der Nation!"@en  .
     
 sk:DWbibl03792 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Staatssekretär Reinhardt im Rundfunk. Förderung der nationalen
-						Arbeit durch die Opferwilligkeit des Volkes"@en  .
+  rdfs:label "Expression: Staatssekretär Reinhardt im Rundfunk. Förderung der nationalen Arbeit durch die Opferwilligkeit des Volkes"@en  .
     
 sk:DWbibl03819 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Die marxistische Solidarität ohne Maske! Dr. Ley gegen die
-						Herausforderungen der II. Internationale"@en  .
+  rdfs:label "Expression: Die marxistische Solidarität ohne Maske! Dr. Ley gegen die Herausforderungen der II. Internationale"@en  .
     
 sk:DWbibl03817 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Wortmeldungen auf der Internationalen Arbeitskonferenz in
-						Genf]"@en  .
+  rdfs:label "Expression: [Wortmeldungen auf der Internationalen Arbeitskonferenz in Genf]"@en  .
     
 sk:DWbibl03229 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Adolf Hitlers große Rede auf der Kulturtagung.
-						Nationalsozialismus als Weltanschauung"@en  .
+  rdfs:label "Expression: Adolf Hitlers große Rede auf der Kulturtagung. Nationalsozialismus als Weltanschauung"@en  .
     
 sk:DWbibl03080 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Die deutsche Kunst als stolzeste Verteidigung des deutschen
-						Volkes"@en  .
+  rdfs:label "Expression: Die deutsche Kunst als stolzeste Verteidigung des deutschen Volkes"@en  .
     
 sk:DWbibl03821 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Deutschland muss jede Intervention ablehnen"@en  .
@@ -1414,8 +1366,7 @@ sk:DWbibl00364 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Kritik der praktischen Vernunft"@en  .
     
 sk:DWbibl00366 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Über den Gemeinspruch: Das mag in der Theorie richtig sein,
-						taugt aber nicht für die Praxis"@en  .
+  rdfs:label "Expression: Über den Gemeinspruch: Das mag in der Theorie richtig sein, taugt aber nicht für die Praxis"@en  .
     
 sk:DWbibl01703 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Zum ewigen Frieden"@en  .
@@ -1436,8 +1387,7 @@ sk:DWbibl00370 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: „Oesterreich über alles!“"@en  .
     
 sk:DWbibl02394 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Eine reichsdeutsche Stimme über das Verhältnis zu
-						Oesterreich"@en  .
+  rdfs:label "Expression: Eine reichsdeutsche Stimme über das Verhältnis zu Oesterreich"@en  .
     
 sk:DWbibl02405 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Ein deutscher Kommentar zum Berliner Schritt"@en  .
@@ -1473,8 +1423,7 @@ sk:DWbibl00384 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Der Talisman"@en  .
     
 sk:DWbibl00385 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Der böse Geist Lumpazivagabundus oder Das liederliche
-						Kleeblatt"@en  .
+  rdfs:label "Expression: Der böse Geist Lumpazivagabundus oder Das liederliche Kleeblatt"@en  .
     
 sk:DWbibl00607 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Kampl"@en  .
@@ -1552,12 +1501,10 @@ sk:DWbibl02138 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Max Reinhardt zum sechzigsten Geburtstag"@en  .
     
 sk:DWbibl00404 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Schwere Anklagen des Bundesführers Starhemberg gegen die
-						Nationalsozialisten"@en  .
+  rdfs:label "Expression: Schwere Anklagen des Bundesführers Starhemberg gegen die Nationalsozialisten"@en  .
     
 sk:DWbibl00406 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Zweierlei Aeußerungen des Justizministers Dr. Frank II über die
-						Judenfrage"@en  .
+  rdfs:label "Expression: Zweierlei Aeußerungen des Justizministers Dr. Frank II über die Judenfrage"@en  .
     
 sk:DWbibl03715 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Presse-Empfang bei Dr. Frank"@en  .
@@ -1566,8 +1513,7 @@ sk:DWbibl03763 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: „Für deutsches Recht und deutsche Rechtspflege“"@en  .
     
 sk:DWbibl02594 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Ansprache auf der Kundgebung „Für deutsches Recht und deutsche
-						Rechtspflege“ in Berlin]"@en  .
+  rdfs:label "Expression: [Ansprache auf der Kundgebung „Für deutsches Recht und deutsche Rechtspflege“ in Berlin]"@en  .
     
 sk:DWbibl01955 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Zukunft des deutschen Films"@en  .
@@ -1693,8 +1639,7 @@ sk:DWbibl02360 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Belogenes Deutschland"@en  .
     
 sk:DWbibl02459 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Die christlich-soziale Lüge entlarvt: Keine Beteiligung der
-						N.S.D.A.P. an den Bombenattentaten nachzuweisen"@en  .
+  rdfs:label "Expression: Die christlich-soziale Lüge entlarvt: Keine Beteiligung der N.S.D.A.P. an den Bombenattentaten nachzuweisen"@en  .
     
 sk:DWbibl01332 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Verbrecherlaufbahn eines führenden braunen Journalisten"@en  .
@@ -1718,19 +1663,16 @@ sk:DWbibl03660 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Potsdamer kgl. Theater"@en  .
     
 sk:DWbibl02313 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Erklärung der Studentenschaft auf der Berliner
-						Studentendemonstration gegen Österreich]"@en  .
+  rdfs:label "Expression: [Erklärung der Studentenschaft auf der Berliner Studentendemonstration gegen Österreich]"@en  .
     
 sk:DWbibl02320 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Rede auf der Berliner Studendendemonstration gegen
-						Österreich]"@en  .
+  rdfs:label "Expression: [Rede auf der Berliner Studendendemonstration gegen Österreich]"@en  .
     
 sk:DWbibl02252 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Zwiespältige Beurteilung des Paktes"@en  .
     
 sk:DWbibl02254 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Ein geschichtliches Abkommen. Der Viermächtepakt wird
-						unterzeichnet"@en  .
+  rdfs:label "Expression: Ein geschichtliches Abkommen. Der Viermächtepakt wird unterzeichnet"@en  .
     
 sk:DWbibl01346 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Wolkenkuckucksheim?"@en  .
@@ -1757,8 +1699,7 @@ sk:DWbibl02368 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Gewollte Verschärfung der Spannung"@en  .
     
 sk:DWbibl02866 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Aktennotiz des Berliner Außenpolitischen Amtes der
-						NSDAP]"@en  .
+  rdfs:label "Expression: [Aktennotiz des Berliner Außenpolitischen Amtes der NSDAP]"@en  .
     
 sk:DWbibl02370 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Das erste Dementi"@en  .
@@ -1770,8 +1711,7 @@ sk:DWbibl00489 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Wie die neuen Machthaber reden"@en  .
     
 sk:DWbibl02460 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Ansprache in Stuttgart anlässlich seiner Wahl zum
-						württembergischen Staatspräsidenten]"@en  .
+  rdfs:label "Expression: [Ansprache in Stuttgart anlässlich seiner Wahl zum württembergischen Staatspräsidenten]"@en  .
     
 sk:DWbibl00492 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Eine Polemik des Berliner Auswärtigen Amtes"@en  .
@@ -1798,8 +1738,7 @@ sk:DWbibl00501 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Der nationalsozialistische Geschichtsunterricht"@en  .
     
 sk:DWbibl03048 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Richtlinien für den nationalsozialistischen
-						Geschichtsunterricht]"@en  .
+  rdfs:label "Expression: [Richtlinien für den nationalsozialistischen Geschichtsunterricht]"@en  .
     
 sk:DWbibl02315 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Fortdauer der Münchner Rundfunkhetze"@en  .
@@ -1832,8 +1771,7 @@ sk:DWbibl03528 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Hoffnung"@en  .
     
 sk:DWbibl02906 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Inschrift auf einer Gedenkmünze zum Andenken an den Untergang
-						der spanischen Armada 1558]"@en  .
+  rdfs:label "Expression: [Inschrift auf einer Gedenkmünze zum Andenken an den Untergang der spanischen Armada 1558]"@en  .
     
 sk:DWbibl00509 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Braut von Messina oder die feindlichen Brüder"@en  .
@@ -1899,8 +1837,7 @@ sk:DWbibl03444 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Was wir dazu sagen"@en  .
     
 sk:DWbibl00528 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Gegen Österreichs Ausschluß aus dem deutschen
-						Staatsverbande"@en  .
+  rdfs:label "Expression: Gegen Österreichs Ausschluß aus dem deutschen Staatsverbande"@en  .
     
 sk:DWbibl02046 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Oesterreichs Sendung"@en  .
@@ -1921,8 +1858,7 @@ sk:DWbibl03786 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Aufgaben des deutschen Feuilletons"@en  .
     
 sk:DWbibl03771 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Rede auf der ersten Konferenz des deutschen
-						Feuilletons]"@en  .
+  rdfs:label "Expression: [Rede auf der ersten Konferenz des deutschen Feuilletons]"@en  .
     
 sk:DWbibl00537 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Schwarze Fahnen über Österreich"@en  .
@@ -1931,8 +1867,7 @@ sk:DWbibl02479 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Der Selbstmord Oberfohrens: Die letzten Wochen waren unerträglich"@en  .
     
 sk:DWbibl03072 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Zusammenbruch des deutschen Geistes: Die Schande der deutschen
-						Aerzteschaft"@en  .
+  rdfs:label "Expression: Zusammenbruch des deutschen Geistes: Die Schande der deutschen Aerzteschaft"@en  .
     
 sk:DWbibl03074 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Zum Geleit"@en  .
@@ -1965,8 +1900,7 @@ sk:DWbibl02760 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Oesterreich und Deutschland"@en  .
     
 sk:DWbibl02042 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Rede auf einer Grenzlandtagung auf der Iburg im Teutoburger
-						Wald]"@en  .
+  rdfs:label "Expression: [Rede auf einer Grenzlandtagung auf der Iburg im Teutoburger Wald]"@en  .
     
 sk:DWbibl02079 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Über den nervösen Charakter"@en  .
@@ -1987,8 +1921,7 @@ sk:DWbibl01990 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Stimme eines Defaitisten"@en  .
     
 sk:DWbibl03765 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Reichsminister Dr. Goebbels vor den NS-Funkwarten: „Der
-						Rundfunk hat eindeutig nationalsozialistisch eingestellt zu sein“"@en  .
+  rdfs:label "Expression: Reichsminister Dr. Goebbels vor den NS-Funkwarten: „Der Rundfunk hat eindeutig nationalsozialistisch eingestellt zu sein“"@en  .
     
 sk:DWbibl03030 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Rede auf einer Versammlung der NS-Reichsfunkwarte]"@en  .
@@ -2003,8 +1936,7 @@ sk:DWbibl03002 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Der Hitler-Gruß des Cambridge-Mannes"@en  .
     
 sk:DWbibl03004 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Englischer Prospekt der deutschen
-						Fremdenverkehrswerbung]"@en  .
+  rdfs:label "Expression: [Englischer Prospekt der deutschen Fremdenverkehrswerbung]"@en  .
     
 sk:DWbibl03519 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Erlass der Staatspolizei Dortmund]"@en  .
@@ -2031,8 +1963,7 @@ sk:DWbibl02731 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Hinter Stacheldraht"@en  .
     
 sk:DWbibl03485 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Erfahrungsbericht aus der Strafanstalt Düsseldorf und dem KZ
-						Siegburg]"@en  .
+  rdfs:label "Expression: [Erfahrungsbericht aus der Strafanstalt Düsseldorf und dem KZ Siegburg]"@en  .
     
 sk:DWbibl00576 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Deutschland heute"@en  .
@@ -2065,8 +1996,7 @@ sk:DWbibl01982 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Es wird weitergeprügelt!"@en  .
     
 sk:DWbibl002464 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Mitteilung zur Auflösung der christlichen
-						Gewerkschaften]"@en  .
+  rdfs:label "Expression: [Mitteilung zur Auflösung der christlichen Gewerkschaften]"@en  .
     
 sk:DWbibl02184 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die deutsche Literatur auf dem Scheiterhaufen"@en  .
@@ -2081,8 +2011,7 @@ sk:DWbibl00581 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: SA.-Börsenbericht"@en  .
     
 sk:DWbibl00583 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Angebliche scharfe Maßnahmen gegen die
-						Geburtenbeschränkung"@en  .
+  rdfs:label "Expression: Angebliche scharfe Maßnahmen gegen die Geburtenbeschränkung"@en  .
     
 sk:DWbibl00584 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Sachsen hält den Rekord an Schutzhäftlingen"@en  .
@@ -2106,8 +2035,7 @@ sk:DWbibl00587 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Ein „Überpreußen“"@en  .
     
 sk:DWbibl03050 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Ansprache beim Gartenfest der Technischen Hochschule in
-						Berlin-Charlottenburg]"@en  .
+  rdfs:label "Expression: [Ansprache beim Gartenfest der Technischen Hochschule in Berlin-Charlottenburg]"@en  .
     
 sk:DWbibl00588 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Von Deutschlands tiefster Schmach"@en  .
@@ -2161,8 +2089,7 @@ sk:DWbibl00605 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Vorgeschichte der Reichstagsabstimmung"@en  .
     
 sk:DWbibl02656 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Redaktioneller Nachtrag zur Antwort Friedrich
-						Stampfers]"@en  .
+  rdfs:label "Expression: [Redaktioneller Nachtrag zur Antwort Friedrich Stampfers]"@en  .
     
 sk:DWbibl00611 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: „Neue Ziele der Menschheit“"@en  .
@@ -2177,8 +2104,7 @@ sk:DWbibl03127 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Rede an die Reichsstatthalter in Berlin]"@en  .
     
 sk:DWbibl03416 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Königsberger Vortrag zur
-						„kommenden Reichsverfassung“]"@en  .
+  rdfs:label "Expression: [Königsberger Vortrag zur „kommenden Reichsverfassung“]"@en  .
     
 sk:DWbibl03608 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die künftige Reichsverfassung"@en  .
@@ -2205,8 +2131,7 @@ sk:DWbibl00633 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Der arische Held geht auf Brautschau"@en  .
     
 sk:DWbibl02548 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Positives Programm für die Verbesserung der Rasse in der Ehe
-						[?]"@en  .
+  rdfs:label "Expression: Positives Programm für die Verbesserung der Rasse in der Ehe [?]"@en  .
     
 sk:DWbibl03713 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Deutscher Greuelfilm"@en  .
@@ -2290,8 +2215,7 @@ sk:DWbibl02288 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Wo hab' ich denn die schönen blauen Augen her?"@en  .
     
 sk:DWbibl00672 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Reichsminister Goebbels sprach gestern abend zu Deutschland:
-						„Volk an der Arbeit“"@en  .
+  rdfs:label "Expression: Reichsminister Goebbels sprach gestern abend zu Deutschland: „Volk an der Arbeit“"@en  .
     
 sk:DWbibl03197 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Volk an der Arbeit [Rundfunkansprache]"@en  .
@@ -2351,8 +2275,7 @@ sk:DWbibl03345 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Anordnung]"@en  .
     
 sk:DWbibl01971 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Bernhard Kuhnt nach seiner Verhaftung,
-						Photographie]"@en  .
+  rdfs:label "Expression: [Bernhard Kuhnt nach seiner Verhaftung, Photographie]"@en  .
     
 sk:DWbibl00690 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Nazi Greuelpropaganda"@en  .
@@ -2388,19 +2311,16 @@ sk:DWbibl00704 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Rede vor Amtswaltern im Berliner Sportpalast]"@en  .
     
 sk:DWbibl02259 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Das Programm der N.S.D.A.P. und seine weltanschaulichen
-						Grundgedanken"@en  .
+  rdfs:label "Expression: Das Programm der N.S.D.A.P. und seine weltanschaulichen Grundgedanken"@en  .
     
 sk:DWbibl02240 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Erklärung vor einer Tagung deutschnationaler
-						Industrieller]"@en  .
+  rdfs:label "Expression: [Erklärung vor einer Tagung deutschnationaler Industrieller]"@en  .
     
 sk:DWbibl00705 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Der Weltprotest gegen Hitler-Deutschland"@en  .
     
 sk:DWbibl02108 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Rede am Kongress der Sozialistischen Arbeiter-Internationale
-						in Paris]"@en  .
+  rdfs:label "Expression: [Rede am Kongress der Sozialistischen Arbeiter-Internationale in Paris]"@en  .
     
 sk:DWbibl00706 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Göring war im Irrenhaus!"@en  .
@@ -2469,8 +2389,7 @@ sk:DWbibl03148 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: "@en  .
     
 sk:DWbibl00594 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Hitlers Pakt mit Thyssen: Wie die Nazi die deutschen Arbeiter
-						an die Großindustrie verkauften"@en  .
+  rdfs:label "Expression: Hitlers Pakt mit Thyssen: Wie die Nazi die deutschen Arbeiter an die Großindustrie verkauften"@en  .
     
 sk:DWbibl00738 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Das Grauen von Köpenick"@en  .
@@ -2482,8 +2401,7 @@ sk:DWbibl00739 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Eine Demokratie wehrt sich gegen das Dritte Reich"@en  .
     
 sk:DWbibl02267 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Bericht über eine Unterredung mit Goebbels und Neurath
-						anlässlich von Grenzzwischenfällen]"@en  .
+  rdfs:label "Expression: [Bericht über eine Unterredung mit Goebbels und Neurath anlässlich von Grenzzwischenfällen]"@en  .
     
 sk:DWbibl00743 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Konzentrationslager für Marxisten"@en  .
@@ -2507,12 +2425,10 @@ sk:DWbibl03653 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Amerika verwarnt Deutschland"@en  .
     
 sk:DWbibl03499 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Rede vor einer nationalsozialistischen Versammlung in
-						Graz]"@en  .
+  rdfs:label "Expression: [Rede vor einer nationalsozialistischen Versammlung in Graz]"@en  .
     
 sk:DWbibl02590 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Stellungnahme zur Ankunft der nationalsozialistischen Minister
-						und Funktionäre]"@en  .
+  rdfs:label "Expression: [Stellungnahme zur Ankunft der nationalsozialistischen Minister und Funktionäre]"@en  .
     
 sk:DWbibl02044 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Neuordnung Mitteleuropas ohne kriegerische Experimente"@en  .
@@ -2536,15 +2452,13 @@ sk:DWbibl00752 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Abwehraktion gegen die Greuelhetze"@en  .
     
 sk:DWbibl03414 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Mitteilung des Vorsitzenden des Vereins Deutscher
-						Zeitungsverleger]"@en  .
+  rdfs:label "Expression: [Mitteilung des Vorsitzenden des Vereins Deutscher Zeitungsverleger]"@en  .
     
 sk:DWbibl02093 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Eine Mitteilung des Deutschen Kulturbundes"@en  .
     
 sk:DWbibl00753 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Zuschriften an die „Neue Freie Presse“ gegen die
-						Greuelmeldungen"@en  .
+  rdfs:label "Expression: Zuschriften an die „Neue Freie Presse“ gegen die Greuelmeldungen"@en  .
     
 sk:DWbibl02094 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Keine Gefährdung ausländischer Automobilisten"@en  .
@@ -2568,8 +2482,7 @@ sk:DWbibl02972 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Aussendung der Zentrums-Partei]"@en  .
     
 sk:DWbibl00769 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Tod des Führers der sozialdemokratischen Arbeiterpartei Dr.
-						Eckstein"@en  .
+  rdfs:label "Expression: Tod des Führers der sozialdemokratischen Arbeiterpartei Dr. Eckstein"@en  .
     
 sk:DWbibl02823 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Aufruf an seine Anhänger]"@en  .
@@ -2584,8 +2497,7 @@ sk:DWbibl03157 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Aufgaben der Berliner Schutzpolizei"@en  .
     
 sk:DWbibl03160 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Ansprache vor den Vertretern des Offizierskorps und der
-						Beamtenschaft der Schutzpolizei]"@en  .
+  rdfs:label "Expression: [Ansprache vor den Vertretern des Offizierskorps und der Beamtenschaft der Schutzpolizei]"@en  .
     
 sk:DWbibl03354 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Deutschland ist nicht Italien ... "@en  .
@@ -2594,12 +2506,10 @@ sk:DWbibl00780 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Schonung der Wirtschaft"@en  .
     
 sk:DWbibl03191 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: [Rede zur Wirtschaftspolitik vor Gauleitern,
-						NSBO-Landesobleuten und „Treuhändern der Arbeit“ in Berlin]"@en  .
+  rdfs:label "Expression: [Rede zur Wirtschaftspolitik vor Gauleitern, NSBO-Landesobleuten und „Treuhändern der Arbeit“ in Berlin]"@en  .
     
 sk:DWbibl00783 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Vermögenseinziehung und Aberkennung der deutschen
-						Staatsangehörigkeit"@en  .
+  rdfs:label "Expression: Vermögenseinziehung und Aberkennung der deutschen Staatsangehörigkeit"@en  .
     
 sk:DWbibl00787 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Göring gegen die Greuelberichte über Deutschland"@en  .
@@ -2653,8 +2563,7 @@ sk:DWbibl01300 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Jüdischer Hausierer vor dem Sondergericht"@en  .
     
 sk:DWbibl01986 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: Egon Erwin Kisch über die Folterungen der politischen
-						Gefangenen in Spandau"@en  .
+  rdfs:label "Expression: Egon Erwin Kisch über die Folterungen der politischen Gefangenen in Spandau"@en  .
     
 sk:DWbibl01889 a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Nordische Mythologie]"@en  .
