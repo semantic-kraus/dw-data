@@ -14,7 +14,6 @@
   <xsl:template match="tei:facsimile"/>
 
   <xsl:template match="tei:bibl">
-
     <xsl:choose>
       <xsl:when test="tei:title[@level = 'a']">
         <xsl:call-template name="create-bibl-F22-issue"/>
@@ -25,6 +24,10 @@
         <xsl:call-template name="create-bibl-F24"/>
       </xsl:otherwise>
     </xsl:choose>
+    
+    <xsl:if test="tei:title[@level = 'j']">
+      <xsl:call-template name="create-bibl-F24-periodical"/>
+    </xsl:if>
   </xsl:template>
 
   <!-- functions aka. named templates -->
@@ -141,10 +144,24 @@
 </xsl:text>
   </xsl:template>
   
-  <!-- 
-  -->
-  
-  
+  <xsl:template name="create-bibl-F24-periodical">
+    
+    <xsl:variable name="title" select="tei:title[@level='j'][1]/text()"/>
+
+    <xsl:variable name="uri-period">
+      <xsl:call-template name="get-periodical-uri"/>
+    </xsl:variable>
+    <xsl:variable name="uri-issue">
+      <xsl:call-template name="get-issue-uri"/>
+    </xsl:variable>
+    
+    <xsl:text>sk:</xsl:text><xsl:value-of select="$uri-period"/><xsl:text> a frbroo:F24_Publication_Expression ;
+  rdfs:label &quot;Periodical: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
+  frbroo:R5_has_component sk:</xsl:text><xsl:value-of select="$uri-issue"/><xsl:text> .
+
+</xsl:text>
+  </xsl:template>
+    
   <xsl:template name="create-bibl-F24-issue">
       <xsl:variable name="title">
         <xsl:call-template name="get-F24-title"/>
@@ -169,8 +186,16 @@
       </xsl:variable>
       
       <xsl:text>sk:</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text> a frbroo:F24_Publication_Expression ;
-  rdfs:label &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
-  cidoc:P165_incorporates</xsl:text><xsl:value-of select="$uri-issue"/><xsl:text> .
+  rdfs:label &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en </xsl:text>
+      <xsl:if test="tei:title[level='j']">
+        <xsl:variable name="uri-period">
+          <xsl:call-template name="get-periodical-uri"/>
+        </xsl:variable>
+        <xsl:text>;
+  frbrooR5i_is_component_of sk:</xsl:text><xsl:value-of select="$uri-period"/>
+      </xsl:if>
+  <xsl:text>;
+  cidoc:P165_incorporates sk:</xsl:text><xsl:value-of select="$uri-issue"/><xsl:text> .
 
 </xsl:text>
     </xsl:template>
@@ -187,6 +212,10 @@
       </xsl:choose>
     </xsl:variable>  
     <xsl:value-of select="translate($uri, '#', '')" />
+  </xsl:template>
+  
+  <xsl:template name="get-periodical-uri">
+    <xsl:value-of select="concat(translate(tei:title[@level = 'j']/@key, '#', ''), '/published-expression')" />
   </xsl:template>
 
   <xsl:template name="get-F24-uri">
