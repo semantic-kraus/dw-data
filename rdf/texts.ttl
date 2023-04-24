@@ -1413,11 +1413,16 @@ sk:DWbibl04203/published-expression a frbroo:F24_Publication_Expression ;
   frbroo:R5_has_component sk:DWbibl04504 .
 
 sk:DWbibl02128 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl02128/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk: .
+    
+sk: a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Frankfurter Zeitung"@en ;
   cidoc:P165_incorporates sk:DWbibl02128 .
+    
+sk:/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Frankfurter Zeitung"@en ;
+  cidoc:P165_incorporates sk: .
 
 sk:DWbibl04201/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Frankfurter Zeitung"@en ;
@@ -1997,11 +2002,16 @@ sk:DWbibl04220/published-expression a frbroo:F24_Publication_Expression ;
   frbroo:R5_has_component sk:DWbibl04508 .
 
 sk:DWbibl02171 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl02171/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk:DWbibl04648 .
+    
+sk:DWbibl04648 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Völkischer Beobachter"@en ;
   cidoc:P165_incorporates sk:DWbibl02171 .
+    
+sk:DWbibl04648/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Völkischer Beobachter"@en ;
+  cidoc:P165_incorporates sk:DWbibl04648 .
 
 sk:DWbibl04221/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Völkischer Beobachter"@en ;
@@ -3066,11 +3076,16 @@ sk:DWbibl04225/published-expression a frbroo:F24_Publication_Expression ;
   frbroo:R5_has_component sk:DWbibl04695 .
 
 sk:DWbibl03070 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl03070/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk: .
+    
+sk: a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Groß-Berliner Aerzteblatt"@en ;
   cidoc:P165_incorporates sk:DWbibl03070 .
+    
+sk:/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Groß-Berliner Aerzteblatt"@en ;
+  cidoc:P165_incorporates sk: .
 
 sk:DWbibl04245/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Groß-Berliner Aerzteblatt"@en ;
@@ -3800,11 +3815,16 @@ sk:DWbibl04225/published-expression a frbroo:F24_Publication_Expression ;
   frbroo:R5_has_component sk:DWbibl04514 .
 
 sk:DWbibl04122 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl04122/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk: .
+    
+sk: a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Aufruf"@en ;
   cidoc:P165_incorporates sk:DWbibl04122 .
+    
+sk:/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Aufruf"@en ;
+  cidoc:P165_incorporates sk: .
 
 sk:DWbibl04235/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Aufruf"@en ;
@@ -4536,11 +4556,16 @@ sk:DWbibl04203/published-expression a frbroo:F24_Publication_Expression ;
   frbroo:R5_has_component sk:DWbibl04754 .
 
 sk:DWbibl03409 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl03409/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk: .
+    
+sk: a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Volksstimme"@en ;
   cidoc:P165_incorporates sk:DWbibl03409 .
+    
+sk:/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Volksstimme"@en ;
+  cidoc:P165_incorporates sk: .
 
 sk:DWbibl04268/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Volksstimme"@en ;
@@ -4698,11 +4723,16 @@ sk:DWbibl01308/published-expression a frbroo:F24_Publication_Expression ;
   cidoc:P165_incorporates sk:DWbibl01308 .
 
 sk:DWbibl02832 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl02832/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk:DWbibl04759 .
+    
+sk:DWbibl04759 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Großdeutscher Pressedienst"@en ;
   cidoc:P165_incorporates sk:DWbibl02832 .
+    
+sk:DWbibl04759/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Großdeutscher Pressedienst"@en ;
+  cidoc:P165_incorporates sk:DWbibl04759 .
 
 sk:DWbibl04269/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Großdeutscher Pressedienst"@en ;
@@ -5625,11 +5655,16 @@ sk:DWbibl04209/published-expression a frbroo:F24_Publication_Expression ;
   frbroo:R5_has_component sk:DWbibl04800 .
 
 sk:DWbibl03084 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl03084/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk: .
+    
+sk: a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Völkischer Beobachter"@en ;
   cidoc:P165_incorporates sk:DWbibl03084 .
+    
+sk:/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Völkischer Beobachter"@en ;
+  cidoc:P165_incorporates sk: .
 
 sk:DWbibl04221/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Völkischer Beobachter"@en ;
@@ -6201,11 +6236,16 @@ sk:DWbibl04227/published-expression a frbroo:F24_Publication_Expression ;
   frbroo:R5_has_component sk:DWbibl04529 .
 
 sk:DWbibl03311 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl03311/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk:DWbibl04529 .
+    
+sk:DWbibl04529 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Die Fackel"@en ;
   cidoc:P165_incorporates sk:DWbibl03311 .
+    
+sk:DWbibl04529/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Die Fackel"@en ;
+  cidoc:P165_incorporates sk:DWbibl04529 .
 
 sk:DWbibl04227/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Die Fackel"@en ;
@@ -9114,11 +9154,16 @@ sk:DWbibl04205/published-expression a frbroo:F24_Publication_Expression ;
   frbroo:R5_has_component sk:DWbibl04916 .
 
 sk:DWbibl03023 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl03023/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk: .
+    
+sk: a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Nachtausgabe"@en ;
   cidoc:P165_incorporates sk:DWbibl03023 .
+    
+sk:/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Nachtausgabe"@en ;
+  cidoc:P165_incorporates sk: .
 
 sk:DWbibl04262/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Nachtausgabe"@en ;
@@ -9205,11 +9250,16 @@ sk:DWbibl04205/published-expression a frbroo:F24_Publication_Expression ;
   frbroo:R5_has_component sk:DWbibl04922 .
 
 sk:DWbibl02875 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl02875/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk:DWbibl04923 .
+    
+sk:DWbibl04923 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Zeitschrift für Textilwirtschaft"@en ;
   cidoc:P165_incorporates sk:DWbibl02875 .
+    
+sk:DWbibl04923/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Zeitschrift für Textilwirtschaft"@en ;
+  cidoc:P165_incorporates sk:DWbibl04923 .
 
 sk:DWbibl04289/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Zeitschrift für Textilwirtschaft"@en ;
@@ -10051,11 +10101,16 @@ sk:DWbibl03567/published-expression a frbroo:F24_Publication_Expression ;
   cidoc:P165_incorporates sk:DWbibl03567 .
 
 sk:DWbibl00522 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl00522/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk:DWbibl04948 .
+    
+sk:DWbibl04948 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Der Abend"@en ;
   cidoc:P165_incorporates sk:DWbibl00522 .
+    
+sk:DWbibl04948/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Der Abend"@en ;
+  cidoc:P165_incorporates sk:DWbibl04948 .
 
 sk:DWbibl04202/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Der Abend"@en ;
@@ -10780,11 +10835,16 @@ sk:DWbibl04225/published-expression a frbroo:F24_Publication_Expression ;
   frbroo:R5_has_component sk:DWbibl04975 .
 
 sk:DWbibl03436 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl03436/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk: .
+    
+sk: a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Nationalzeitung"@en ;
   cidoc:P165_incorporates sk:DWbibl03436 .
+    
+sk:/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Nationalzeitung"@en ;
+  cidoc:P165_incorporates sk: .
 
 sk:DWbibl04297/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Nationalzeitung"@en ;
@@ -11320,66 +11380,96 @@ sk:DWbibl02573/published-expression a frbroo:F24_Publication_Expression ;
   cidoc:P165_incorporates sk:DWbibl02573 .
 
 sk:DWbibl02570 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl02570/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk: .
+    
+sk: a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Hessische Volkswacht"@en ;
   cidoc:P165_incorporates sk:DWbibl02570 .
+    
+sk:/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Hessische Volkswacht"@en ;
+  cidoc:P165_incorporates sk: .
 
 sk:DWbibl04299/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Hessische Volkswacht"@en ;
   frbroo:R5_has_component sk: .
 
 sk:DWbibl02567 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl02567/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk: .
+    
+sk: a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Hakenkreuzbanner"@en ;
   cidoc:P165_incorporates sk:DWbibl02567 .
+    
+sk:/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Hakenkreuzbanner"@en ;
+  cidoc:P165_incorporates sk: .
 
 sk:DWbibl04259/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Hakenkreuzbanner"@en ;
   frbroo:R5_has_component sk: .
 
 sk:DWbibl02565 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl02565/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk: .
+    
+sk: a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Der Donaubote"@en ;
   cidoc:P165_incorporates sk:DWbibl02565 .
+    
+sk:/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Der Donaubote"@en ;
+  cidoc:P165_incorporates sk: .
 
 sk:DWbibl04300/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Der Donaubote"@en ;
   frbroo:R5_has_component sk: .
 
 sk:DWbibl02560 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl02560/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk: .
+    
+sk: a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Der Stürmer"@en ;
   cidoc:P165_incorporates sk:DWbibl02560 .
+    
+sk:/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Der Stürmer"@en ;
+  cidoc:P165_incorporates sk: .
 
 sk:DWbibl04301/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Der Stürmer"@en ;
   frbroo:R5_has_component sk: .
 
 sk:DWbibl02556 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl02556/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk:DWbibl04994 .
+    
+sk:DWbibl04994 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Fränkische Tagespost"@en ;
   cidoc:P165_incorporates sk:DWbibl02556 .
+    
+sk:DWbibl04994/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Fränkische Tagespost"@en ;
+  cidoc:P165_incorporates sk:DWbibl04994 .
 
 sk:DWbibl04260/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Fränkische Tagespost"@en ;
   frbroo:R5_has_component sk:DWbibl04994 .
 
 sk:DWbibl02557 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl02557/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk:DWbibl04995 .
+    
+sk:DWbibl04995 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Fränkische Tagespost"@en ;
   cidoc:P165_incorporates sk:DWbibl02557 .
+    
+sk:DWbibl04995/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Fränkische Tagespost"@en ;
+  cidoc:P165_incorporates sk:DWbibl04995 .
 
 sk:DWbibl04260/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Fränkische Tagespost"@en ;
@@ -11489,11 +11579,16 @@ sk:DWbibl04203/published-expression a frbroo:F24_Publication_Expression ;
   frbroo:R5_has_component sk:DWbibl04562 .
 
 sk:DWbibl03034 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl03034/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk:DWbibl04999 .
+    
+sk:DWbibl04999 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Deutsche Freiheit"@en ;
   cidoc:P165_incorporates sk:DWbibl03034 .
+    
+sk:DWbibl04999/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Deutsche Freiheit"@en ;
+  cidoc:P165_incorporates sk:DWbibl04999 .
 
 sk:DWbibl04302/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Deutsche Freiheit"@en ;
@@ -12914,11 +13009,16 @@ sk:DWbibl04203/published-expression a frbroo:F24_Publication_Expression ;
   frbroo:R5_has_component sk:DWbibl04576 .
 
 sk:DWbibl03407 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl03407/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk: .
+    
+sk: a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Nachtausgabe"@en ;
   cidoc:P165_incorporates sk:DWbibl03407 .
+    
+sk:/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Nachtausgabe"@en ;
+  cidoc:P165_incorporates sk: .
 
 sk:DWbibl04262/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Nachtausgabe"@en ;
@@ -13044,11 +13144,16 @@ sk:DWbibl04203/published-expression a frbroo:F24_Publication_Expression ;
   frbroo:R5_has_component sk:DWbibl04579 .
 
 sk:DWbibl02140 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl02140/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk: .
+    
+sk: a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Pravda"@en ;
   cidoc:P165_incorporates sk:DWbibl02140 .
+    
+sk:/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Pravda"@en ;
+  cidoc:P165_incorporates sk: .
 
 sk:DWbibl04313/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Pravda"@en ;
@@ -13197,11 +13302,16 @@ sk:DWbibl04203/published-expression a frbroo:F24_Publication_Expression ;
   frbroo:R5_has_component sk:DWbibl04583 .
 
 sk:DWbibl03148 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl03148/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk: .
+    
+sk: a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Der Vormarsch"@en ;
   cidoc:P165_incorporates sk:DWbibl03148 .
+    
+sk:/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Der Vormarsch"@en ;
+  cidoc:P165_incorporates sk: .
 
 sk:DWbibl04314/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Der Vormarsch"@en ;
@@ -13707,11 +13817,16 @@ sk:DWbibl04203/published-expression a frbroo:F24_Publication_Expression ;
   frbroo:R5_has_component sk:DWbibl04592 .
 
 sk:DWbibl03405 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl03405/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk: .
+    
+sk: a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Semaine Religieuse"@en ;
   cidoc:P165_incorporates sk:DWbibl03405 .
+    
+sk:/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Semaine Religieuse"@en ;
+  cidoc:P165_incorporates sk: .
 
 sk:DWbibl04315/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Semaine Religieuse"@en ;
@@ -14474,11 +14589,16 @@ sk:DWbibl04317/published-expression a frbroo:F24_Publication_Expression ;
   frbroo:R5_has_component sk:DWbibl05089 .
 
 sk:DWbibl03688 a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label "Expression: "@en .
-
-sk:DWbibl03688/published-expression a frbroo:F24_Publication_Expression ;
-  rdfs:label "Published Expression: "@en ;
+  rdfs:label "Expression: "@en ;
+  cidoc:P165i_is_incorporated_in sk:DWbibl05090 .
+    
+sk:DWbibl05090 a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Expression: Issue: Illustrierte Wochenbeilage der Deutschen Tageszeitung"@en ;
   cidoc:P165_incorporates sk:DWbibl03688 .
+    
+sk:DWbibl05090/published-expression a frbroo:F24_Publication_Expression ;
+  rdfs:label "Published Expression: Illustrierte Wochenbeilage der Deutschen Tageszeitung"@en ;
+  cidoc:P165_incorporates sk:DWbibl05090 .
 
 sk:DWbibl04318/published-expression a frbroo:F24_Publication_Expression ;
   rdfs:label "Periodical: Illustrierte Wochenbeilage der Deutschen Tageszeitung"@en ;
