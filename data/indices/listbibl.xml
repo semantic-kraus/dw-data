@@ -1829,6 +1829,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02127" sortKey="N._N.">
+					<title level="a"/>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
 					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
@@ -2349,6 +2350,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02171" sortKey="N._N.">
+					<title level="a"/>
 					<title level="j" key="#DWbibl04221">Völkischer Beobachter</title>
 					<title level="j" type="short">VB</title>
 					<date when="1933-05-17" key="#DWbibl04648">17. 5. 1933</date>
@@ -3236,6 +3238,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03070" sortKey="N._N.">
+					<title level="a"/>
 					<title level="j" key="#DWbibl04245">Groß-Berliner Aerzteblatt</title>
 					<pubPlace key="#DWplace00313">Berlin</pubPlace>
 					<num>H. 20</num>
@@ -3830,6 +3833,7 @@ den Kampf -->
 				</bibl>
 				
 				<bibl source="_" xml:id="DWbibl04122" sortKey="N._N.">
+					<title level="a"/>
 					<title level="j" key="#DWbibl04235">Aufruf</title>
 					<pubPlace key="#DWplace00194">Prag</pubPlace>
 					<citedRange xml:id="DWbibl04123"/>
@@ -4485,6 +4489,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03409" sortKey="N._N.">
+					<title level="a"/>
 					<title level="j" key="#DWbibl04268">Volksstimme</title>
 					<pubPlace key="#DWplace00015">Saarbrücken</pubPlace>
 					<citedRange xml:id="DWbibl03410"/><!-- [bloßes Faktum übernommen] daß Gefangene … rupfen müssen -->
@@ -4647,6 +4652,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02832" sortKey="N._N.">
+					<title level="a"/>
 					<title level="j" key="#DWbibl04269">Großdeutscher Pressedienst</title>
 					<date when="1933-05-24" key="#DWbibl04759">24. 5. 1933</date>
 					<citedRange xml:id="DWbibl02833"/>
@@ -5354,6 +5360,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03084" sortKey="N._N.">
+					<title level="a"/>
 					<title level="j" key="#DWbibl04221">Völkischer Beobachter</title>
 					<title level="j" type="short">VB</title>
 					<citedRange xml:id="DWbibl03085"/><!-- Daß er als Denker von eigentümlicher Schärfe und Klarheit zu den großen deutschen Staatsphilosophen … Hinsicht auch den Gebildeten eine gewaltige Überraschung. -->
@@ -5948,6 +5955,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03311" sortKey="Kraus_Karl">
+					<title level="a"/>
 					<ref type="gen" target="https://fackel.oeaw.ac.at/f/800,050" subtype="specific"/>
 					<author key="#DWpers0000">Karl Kraus</author>
 					<title level="j" key="#DWbibl04227">Die Fackel</title>
@@ -8955,6 +8963,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03022" sortKey="N._N.">
+					<title level="a"/>
 					<title level="j" key="#DWbibl04262">Nachtausgabe</title>
 					<pubPlace key="#DWplace00313">Berlin</pubPlace>
 					<citedRange xml:id="DWbibl03023" wholeText="yes"/><!-- in die Schlageter-Ausstellung geht kein Mensch -->
@@ -9018,6 +9027,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02875" sortKey="N._N.">
+					<title level="a"/>
 					<title level="j" key="#DWbibl04289">Zeitschrift für Textilwirtschaft</title>
 					<pubPlace key="#DWplace00313">Berlin</pubPlace>
 					<date when="1933-07-21" key="#DWbibl04923">21. 7. 1933</date>
@@ -9918,6 +9928,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 				
 				<bibl source="_" xml:id="DWbibl00522" sortKey="N._N."><!-- ehem. Telegraf, 1507, S. 3 -->
+					<title level="a"/>
 					<ref type="gen" target="http://anno.onb.ac.at/cgi-content/anno?aid=abd%26datum=19330324%26seite=12%26zoom=33" subtype="specific"/>
 					<title level="j" key="#DWbibl04202">Der Abend</title>
 					<pubPlace key="#DWplace00085">Wien</pubPlace>
@@ -10560,6 +10571,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03436" sortKey="N._N.">
+					<title level="a"/>
 					<title level="j" key="#DWbibl04297">Nationalzeitung</title>
 					<pubPlace key="#DWplace00313">Berlin</pubPlace>
 					<citedRange xml:id="DWbibl03437"/>
@@ -11025,24 +11037,28 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02570" sortKey="N._N.">
+					<title level="a"/>
 					<title level="j" key="#DWbibl04299">Hessische Volkswacht</title>
 					<pubPlace key="#DWplace00343">Kassel</pubPlace>
 					<citedRange xml:id="DWbibl02571"/><!-- Die Mutter … Straßen Kassels -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02567" sortKey="N._N.">
+					<title level="a"/>
 					<title level="j" key="#DWbibl04259">Hakenkreuzbanner</title>
 					<pubPlace key="#DWplace00464">Mannheim</pubPlace>
 					<citedRange xml:id="DWbibl02568"/><!-- die Erregung darüber ist  …geduldet werden wird. -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02565" sortKey="N._N.">
+					<title level="a"/>
 					<title level="j" key="#DWbibl04300">Der Donaubote</title>
 					<pubPlace key="#DWplace00313">Berlin</pubPlace>
 					<citedRange xml:id="DWbibl02566"/><!-- ‥ angedroht, solche Frauen öffentlich anzuprangern, …  Juden, einschließlich des Tatbestandes, mitzuteilen.  -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02560" sortKey="N._N.">
+					<title level="a"/>
 					<title level="j" key="#DWbibl04301">Der Stürmer</title>
 					<pubPlace key="#DWplace00201">Nürnberg</pubPlace>
 					<citedRange xml:id="DWbibl02561"/><!-- Sie besitzt die Frechheit … zu erscheinen. -->
@@ -11052,6 +11068,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02556" sortKey="N._N.">
+					<title level="a"/>
 					<title level="j" key="#DWbibl04260">Fränkische Tagespost</title>
 					<pubPlace key="#DWplace00201">Nürnberg</pubPlace>
 					<date when="1933-08-19" key="#DWbibl04994">19. 8. 1933</date>
@@ -11060,6 +11077,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02557" sortKey="N._N.">
+					<title level="a"/>
 					<title level="j" key="#DWbibl04260">Fränkische Tagespost</title>
 					<pubPlace key="#DWplace00201">Nürnberg</pubPlace>
 					<date when="1933-08-22" key="#DWbibl04995">22. 8. 1933</date>
@@ -11158,6 +11176,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03034" sortKey="N._N.">
+					<title level="a"/>
 					<title level="j" key="#DWbibl04302">Deutsche Freiheit</title>
 					<pubPlace key="#DWplace00015">Saarbrücken</pubPlace>
 					<date when="1933-07-04" key="#DWbibl04999">4. 7. 1933</date>
@@ -12301,6 +12320,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03407" sortKey="N._N.">
+					<title level="a"/>
 					<title level="j" key="#DWbibl04262">Nachtausgabe</title>
 					<pubPlace key="#DWplace00313">Berlin</pubPlace>
 					<citedRange xml:id="DWbibl03408"/><!-- [bloßes Faktum übernommen] einen richtiggehenden Prinzen zum Adjuntanten -->
@@ -12406,6 +12426,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02140" sortKey="N._N.">
+					<title level="a"/>
 					<title level="j" key="#DWbibl04313">Pravda</title>
 					<pubPlace key="#DWplace00372">Belgrad</pubPlace>
 					<citedRange xml:id="DWbibl02141"/>
@@ -12561,6 +12582,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03148" sortKey="Kothen_Hanns_vom">
+					<title level="a"/>
 					<author key="#DWpers0136">Hanns vom Kothen</author>
 					<title level="j" key="#DWbibl04314">Der Vormarsch</title>
 					<pubPlace key="#DWplace00409">Klagenfurt</pubPlace>
@@ -13015,6 +13037,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03404" sortKey="N._N.">
+					<title level="a"/>
 					<title level="j" key="#DWbibl04315">Semaine Religieuse</title>
 					<pubPlace key="#DWplace00077">Paris</pubPlace>
 					<citedRange xml:id="DWbibl03405" wholeText="yes"/>
@@ -13636,6 +13659,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03689" sortKey="N._N." corresp="#DWfacs1216">
+					<title level="a"/>
 					<title level="j" key="#DWbibl04318">Illustrierte Wochenbeilage der Deutschen Tageszeitung</title>
 					<pubPlace key="#DWplace00313">Berlin</pubPlace>
 					<date when="1933-07-15" key="#DWbibl05090">15. 7. 1933</date>
