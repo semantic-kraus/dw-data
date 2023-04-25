@@ -265,7 +265,7 @@
 						</persName>
 						<persName type="sk" subtype="pref">Thayer, Johann</persName>
 						<birth when="1911-07-25">25. 7. 1911<placeName key="#DWplace00085">Wien</placeName></birth>
-						<event>
+						<event type="burial">
 							<desc>
 								<date when="1990-07-04">4. 7. 1990</date>
 								<placeName key="#DWplace00066">Wien</placeName>
@@ -1933,7 +1933,7 @@
 						</persName>
 						<birth when="1906-11-19">19. 11. 1906<placeName key="#DWplace00375">Eichenau
 								(Wójcice)</placeName></birth>
-						<event>
+						<event type="missing">
 							<desc>
 								<date when="1943-07-01">1. 7. 1943</date>
 								<placeName key="#DWplace00240">Charkow/Ljubotin/Merefa/Olschany 
@@ -2026,7 +2026,7 @@
 						<birth when="1889-09-17">17. 9. 1889<placeName key="#DWplace00276">Koszinnen
 								(Kozin)</placeName></birth>
 						<persName type="sk" subtype="pref">Hoppe, Georg</persName>
-						<event>
+						<event type="missing">
 							<desc>
 								<date when="1945-01-01">1. 1. 1945</date>
 							</desc>
@@ -2884,7 +2884,7 @@
 							<surname>Bosch</surname>
 						</persName>
 						<birth when="1450" type="approx">ca. 1450<placeName key="#DWplace00214">’s-Hertogenbosch</placeName></birth>
-						<event>
+						<event type="burial">
 							<desc>
 								<date when="1516-08-08">8. 8. 1516</date>
 								<placeName key="#DWplace00162">’s-Hertogenbosch</placeName>
@@ -3539,14 +3539,14 @@
 							<surname>Flesch</surname>
 						</persName>
 						<birth when="1896-12-18">18. 12. 1896<placeName key="#DWplace00239">Frankfurt am Main</placeName></birth>
-						<event>
+						<event type="missing">
 							<desc>
 								<date when="1945-03">März 1945</date>
 								<placeName key="#DWplace00313">Berlin</placeName>
 							</desc>
 							<note>Event type: Declared/Gone Missing</note>
 						</event>
-						<event>
+						<event type="decl-dead">
 							<desc>
 								<date when="1945-12-31">31. 12. 1945</date>
 							</desc>
@@ -5284,7 +5284,7 @@
 						<birth when="1892-01-29">29. 1. 1892<placeName key="#DWplace00266">Csantavér
 								(Čantavir)</placeName></birth>
 						<persName type="sk" subtype="pref">Matuška, Szilveszter</persName>
-						<event>
+						<event type="missing">
 							<desc>
 								<date when="1944">1944</date>
 							</desc>
