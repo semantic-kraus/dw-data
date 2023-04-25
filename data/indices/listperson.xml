@@ -270,7 +270,7 @@
 								<date when="1990-07-04">4. 7. 1990</date>
 								<placeName key="#DWplace00066">Wien</placeName>
 							</desc>
-							<note>Event type: Burial</note>
+							<note>Burial</note>
 						</event>
 						<occupation type="prim" n="01">Buchbindergehilfe</occupation>
 						<occupation n="02">SS-Mitglied</occupation>
@@ -1939,7 +1939,7 @@
 								<placeName key="#DWplace00240">Charkow/Ljubotin/Merefa/Olschany 
 								bei Charkow</placeName>
 							</desc>
-							<note>Event type: Declared/Gone Missing</note>
+							<note>Declared/Gone Missing</note>
 						</event>
 						<persName type="sk" subtype="pref">Kottisch, Reinhold</persName>
 						<occupation type="prim" n="01">Elektriker</occupation>
@@ -2030,7 +2030,7 @@
 							<desc>
 								<date when="1945-01-01">1. 1. 1945</date>
 							</desc>
-							<note>Event type: Declared/Gone Missing</note>
+							<note>Declared/Gone Missing</note>
 						</event>
 						<occupation type="prim" n="01">Gastwirt</occupation>
 						<occupation n="02">SA-Sturmführer</occupation>
@@ -2889,7 +2889,7 @@
 								<date when="1516-08-08">8. 8. 1516</date>
 								<placeName key="#DWplace00162">’s-Hertogenbosch</placeName>
 							</desc>
-							<note>Event type: Burial</note>
+							<note>Burial</note>
 						</event>
 						<persName type="sk" subtype="pref">Bosch, Hieronymus</persName>
 						<occupation type="prim" n="01">Maler</occupation>
@@ -3544,7 +3544,7 @@
 								<date when="1945-03">März 1945</date>
 								<placeName key="#DWplace00313">Berlin</placeName>
 							</desc>
-							<note>Event type: Declared/Gone Missing</note>
+							<note>Declared/Gone Missing</note>
 						</event>
 						<event type="decl-dead">
 							<desc>
@@ -5288,7 +5288,7 @@
 							<desc>
 								<date when="1944">1944</date>
 							</desc>
-							<note>Event type: Declared/Gone Missing</note>
+							<note>Declared/Gone Missing</note>
 						</event>
 						<occupation type="prim" n="01">Eisenbahnattentäter</occupation>
 						<idno type="GND">1112956344</idno>
