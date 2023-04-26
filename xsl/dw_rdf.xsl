@@ -475,88 +475,98 @@
     </xsl:if>  </xsl:template>
   
   <xsl:template name="create-F24-appellation-date-periodical">
-    <xsl:variable name="uri-f24">
-      <xsl:call-template name="get-F24-uri"/>
-    </xsl:variable>
-    <xsl:variable name="title" select="tei:date/text()"/>
-    
-    <xsl:text>#F24 appellation date periodical
+    <xsl:if test="tei:date">      
+      <xsl:variable name="uri-f24">
+        <xsl:call-template name="get-F24-uri"/>
+      </xsl:variable>
+      <xsl:variable name="title" select="tei:date/text()"/>
+      
+      <xsl:text>#F24 appellation date periodical
 </xsl:text>
-    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation-date/0&gt; a cidoc:E90_Symbolic_Object ;
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation-date/0&gt; a cidoc:E90_Symbolic_Object ;
   rdfs:label &quot;Appellation Part: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en 
   cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation/0&gt; ;  
   cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/date&gt; ;
   rdf:value &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot; .
 
 </xsl:text>    
+    </xsl:if>
   </xsl:template>
   
   <xsl:template name="create-F24-appellation-datenote-periodical">
-    <xsl:variable name="uri-f24">
-      <xsl:call-template name="get-F24-uri"/>
-    </xsl:variable>
-    <xsl:variable name="title" select="tei:date/tei:note/text()"/>
-    
-    <xsl:text>#F24 appellation date/note periodical
+    <xsl:if test="tei:date/tei:note">
+      <xsl:variable name="uri-f24">
+        <xsl:call-template name="get-F24-uri"/>
+      </xsl:variable>
+      <xsl:variable name="title" select="tei:date/tei:note/text()"/>
+      
+      <xsl:text>#F24 appellation date/note periodical
 </xsl:text>
-    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation-ed/0&gt; a cidoc:E90_Symbolic_Object ;
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation-ed/0&gt; a cidoc:E90_Symbolic_Object ;
   rdfs:label &quot;Appellation Part: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en 
   cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation/0&gt; ;  
   cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/ed&gt; ;
   rdf:value &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot; .
 
-</xsl:text>    
+</xsl:text>
+    </xsl:if>
   </xsl:template>
   
   <xsl:template name="create-F24-appellation-place-periodical">    
-    <xsl:variable name="uri-f24">
-      <xsl:call-template name="get-F24-uri"/>
-    </xsl:variable>
-    <xsl:variable name="title" select="tei:pubPlace/text()"/>
-    
-    <xsl:text>#F24 appellation place periodical
+    <xsl:if test="tei:pubPlace">
+      <xsl:variable name="uri-f24">
+        <xsl:call-template name="get-F24-uri"/>
+      </xsl:variable>
+      <xsl:variable name="title" select="tei:pubPlace/text()"/>
+      
+      <xsl:text>#F24 appellation place periodical
 </xsl:text>
-    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation-place/0&gt; a cidoc:E90_Symbolic_Object ;
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation-place/0&gt; a cidoc:E90_Symbolic_Object ;
   rdfs:label &quot;Appellation Part: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en 
   cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation/0&gt; ;  
   cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/place&gt; ;
   rdf:value &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot; .
 
-</xsl:text>    
+</xsl:text>
+    </xsl:if>
   </xsl:template>
   
   <xsl:template name="create-F24-appellation-num-periodical">    
-    <xsl:variable name="uri-f24">
-      <xsl:call-template name="get-F24-uri"/>
-    </xsl:variable>
-    <xsl:variable name="title" select="tei:num/text()"/>
-    
-    <xsl:text>#F24 appellation num periodical
+    <xsl:if test="tei:num">
+      <xsl:variable name="uri-f24">
+        <xsl:call-template name="get-F24-uri"/>
+      </xsl:variable>
+      <xsl:variable name="title" select="tei:num/text()"/>
+      
+      <xsl:text>#F24 appellation num periodical
 </xsl:text>
-    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation-num/0&gt; a cidoc:E90_Symbolic_Object ;
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation-num/0&gt; a cidoc:E90_Symbolic_Object ;
   rdfs:label &quot;Appellation Part: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en 
   cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation/0&gt; ;  
   cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/num&gt; ;
   rdf:value &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot; .
 
-</xsl:text>    
+</xsl:text>
+    </xsl:if>
   </xsl:template>
   
   <xsl:template name="create-F24-appellation-edition-periodical">    
-    <xsl:variable name="uri-f24">
-      <xsl:call-template name="get-F24-uri"/>
-    </xsl:variable>
-    <xsl:variable name="title" select="tei:edition/text()"/>
-    
-    <xsl:text>#F24 appellation edition periodical
+    <xsl:if test="tei:edition">
+      <xsl:variable name="uri-f24">
+        <xsl:call-template name="get-F24-uri"/>
+      </xsl:variable>
+      <xsl:variable name="title" select="tei:edition/text()"/>
+      
+      <xsl:text>#F24 appellation edition periodical
 </xsl:text>
-    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation-ed/1&gt; a cidoc:E90_Symbolic_Object ;
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation-ed/1&gt; a cidoc:E90_Symbolic_Object ;
   rdfs:label &quot;Appellation Part: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en 
   cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation/0&gt; ;  
   cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/ed&gt; ;
   rdf:value &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot; .
 
-</xsl:text>    
+</xsl:text>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template name="create-F22-subtitle-issue">
