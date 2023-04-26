@@ -32,6 +32,7 @@
       <xsl:otherwise>
         <xsl:call-template name="create-bibl-F22"/>
         <xsl:call-template name="create-F22-title"/>
+        <xsl:call-template name="create-F22-subtitle"/>
         <xsl:call-template name="create-bibl-F24"/>
       </xsl:otherwise>
     </xsl:choose>    
@@ -83,10 +84,15 @@
     <xsl:text>#F22
 </xsl:text>
     <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>&gt; a frbroo:F22_Self-Contained_Expression ;
-  rdfs:label &quot;Expression: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en .
-
-</xsl:text>
-  </xsl:template>
+  rdfs:label &quot;Expression: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
+  cidoc:P102_has_title &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>/title/0&gt;</xsl:text>    
+    <xsl:if test="tei:title[@level='m' and @type='subtitle']">
+      <xsl:text> ;
+  cidoc:P102_has_title &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>/title/1&gt;</xsl:text>   
+    </xsl:if>
+    <xsl:text> .
+    
+</xsl:text>  </xsl:template>
 
   <xsl:template name="create-bibl-F22-art-issue">
     <xsl:variable name="title">
@@ -254,8 +260,18 @@
     <xsl:text>#F22 title
 </xsl:text>
     <xsl:call-template name="create-F22-title-param">
-      <xsl:with-param name="title" select="tei:title[@level='m']/text()"/>
+      <xsl:with-param name="title" select="tei:title[@level='m' and not(@type)]/text()"/>
     </xsl:call-template>    
+  </xsl:template>
+  
+  <xsl:template name="create-F22-subtitle">
+    <xsl:if test="tei:title[@level='m' and @type='subtitle']">      
+      <xsl:text>#F22 subtitle
+</xsl:text>
+      <xsl:call-template name="create-F22-subtitle-param">
+        <xsl:with-param name="title" select="tei:title[@level='m' and @type='subtitle']/text()"/>
+      </xsl:call-template>    
+    </xsl:if>
   </xsl:template>
   
   <xsl:template name="create-bibl-F22-art-edissue">
@@ -316,6 +332,21 @@
   cidoc:P102i_is_title_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>&gt; ;
   rdfs:label &quot;Title: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
   cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/title/main&gt; ;
+  rdf:value &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot; .
+    
+</xsl:text>
+  </xsl:template>
+ 
+  <xsl:template name="create-F22-subtitle-param">
+    <xsl:param name="title" />    
+    <xsl:param name="uri-f22">
+      <xsl:call-template name="get-F22-uri"/>
+    </xsl:param>
+    
+    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>/title/1&gt; a cidoc:E35_Title ;
+  cidoc:P102i_is_title_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>&gt; ;
+  rdfs:label &quot;Title: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
+  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/title/sub&gt; ;
   rdf:value &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot; .
     
 </xsl:text>
@@ -424,7 +455,7 @@
       <xsl:variable name="uri-f24">
         <xsl:call-template name="get-F24-uri"/>
       </xsl:variable>
-      <xsl:variable name="title" select="tei:title[@level='m' and @type='subtitle']"/>
+      <xsl:variable name="title" select="replace(translate(tei:title[@level='m' and @type='subtitle'], '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       
       <xsl:text>#F24 appellation title1
 </xsl:text>
@@ -461,7 +492,7 @@
       <xsl:variable name="uri-f24">
         <xsl:call-template name="get-F24-uri"/>
       </xsl:variable>
-      <xsl:variable name="title" select="tei:title[@level='j' and @type='subtitle']"/>
+      <xsl:variable name="title" select="replace(translate(tei:title[@level='j' and @type='subtitle'], '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       
       <xsl:text>#F24 appellation title1 periodical
 </xsl:text>
@@ -675,11 +706,11 @@
   <xsl:template name="get-F22-title">
     <xsl:choose>
       <xsl:when test="tei:title[@level = 'a']">
-        <xsl:value-of select="replace(translate(tei:title[@level = 'a'][1], '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"        />
+        <xsl:value-of select="replace(translate(tei:title[@level = 'a' and not(@type)], '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"        />
       </xsl:when>
       <xsl:when test="tei:title[@level = 'm']">
         <xsl:value-of
-          select="replace(translate(tei:title[@level = 'm'][1], '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"
+          select="replace(translate(tei:title[@level = 'm' and not(@type)], '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"
         />
       </xsl:when>
       <xsl:otherwise> </xsl:otherwise>
