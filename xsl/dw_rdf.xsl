@@ -653,7 +653,7 @@ frbroo:R17_created <https://sk.acdh.oeaw.ac.at/DWbibl02021> .
     
     <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/creation&gt; a frbroo:F28_Expression_Creation ;
   rdfs:label &quot;Creation of: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
-  frbroo:R17_created &lt;https://sk.acdh.oeaw.ac.at/t</xsl:text><xsl:value-of select="$uri"/><xsl:text>/creation&gt; .
+  frbroo:R17_created &lt;https://sk.acdh.oeaw.ac.at/t</xsl:text><xsl:value-of select="$uri"/><xsl:text>&gt; .
     
 </xsl:text>
   </xsl:template>
