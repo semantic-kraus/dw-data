@@ -17,6 +17,7 @@
     <xsl:choose>
       <xsl:when test="tei:title[@level = 'a']">
         <xsl:call-template name="create-bibl-F22-art-issue"/>
+        <xsl:call-template name="create-F28"/>
         <xsl:call-template name="create-F22-title-art-issue"/>
         <xsl:call-template name="create-F22-subtitle-art-issue"/>
         <xsl:call-template name="create-bibl-F22-issue"/>
@@ -31,6 +32,7 @@
       </xsl:when>
       <xsl:otherwise>
         <xsl:call-template name="create-bibl-F22"/>
+        <xsl:call-template name="create-F28"/>
         <xsl:call-template name="create-F22-title"/>
         <xsl:call-template name="create-F22-subtitle"/>
         <xsl:call-template name="create-bibl-F24"/>
@@ -618,6 +620,42 @@
     
 </xsl:text>
     </xsl:if>
+  </xsl:template>
+
+
+<!-- 
+#F28
+
+<https://sk.acdh.oeaw.ac.at/DWbibl02021/creation> a frbroo:F28_Expression_Creation ;
+  rdfs:label "Creation of: Caesar"@en ;
+frbroo:R17_created <https://sk.acdh.oeaw.ac.at/DWbibl02021> .    
+    -->
+
+  <xsl:template name="create-F28">
+    <xsl:variable name="title">
+      <xsl:call-template name="get-F22-title"/>
+    </xsl:variable>
+    <xsl:variable name="uri-f22">
+      <xsl:call-template name="get-F22-uri"/>      
+    </xsl:variable>
+    
+    <xsl:text>#F28
+</xsl:text>
+    <xsl:call-template name="create-F28-param">      
+      <xsl:with-param name="title" select="$title"/>    
+      <xsl:with-param name="uri" select="$uri-f22"/>
+    </xsl:call-template>
+  </xsl:template>
+
+  <xsl:template name="create-F28-param">
+    <xsl:param name="title" />    
+    <xsl:param name="uri"/>
+    
+    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/creation&gt; a frbroo:F28_Expression_Creation ;
+  rdfs:label &quot;Creation of: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
+  frbroo:R17_created &lt;https://sk.acdh.oeaw.ac.at/t</xsl:text><xsl:value-of select="$uri"/><xsl:text>/creation&gt; .
+    
+</xsl:text>
   </xsl:template>
 
   <!-- helpers -->
