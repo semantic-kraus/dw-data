@@ -478,7 +478,7 @@
     <xsl:variable name="uri-f24">
       <xsl:call-template name="get-F24-uri"/>
     </xsl:variable>
-    <xsl:variable name="title" select="teidate/text()"/>
+    <xsl:variable name="title" select="tei:date/text()"/>
     
     <xsl:text>#F24 appellation date periodical
 </xsl:text>
