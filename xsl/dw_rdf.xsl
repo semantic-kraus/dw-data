@@ -18,27 +18,32 @@
       <xsl:when test="tei:title[@level = 'a']">
         <xsl:call-template name="create-bibl-F22-art-issue"/>
         <xsl:call-template name="create-F28"/>
+        <xsl:call-template name="create-F52-creation-timespan"/>
         <xsl:call-template name="create-F22-title-art-issue"/>
         <xsl:call-template name="create-F22-subtitle-art-issue"/>
         <xsl:call-template name="create-bibl-F22-issue"/>
         <xsl:call-template name="create-F22-title-issue"/>
         <xsl:call-template name="create-bibl-F24-issue"/>
-        <xsl:call-template name="create-F30"/>
+        <xsl:call-template name="create-F30-issue"/>
+        <xsl:call-template name="create-F52-publication-timespan"/>
       </xsl:when>
       <xsl:when test="tei:editor">
         <xsl:call-template name="create-bibl-F22-art-edissue"/>
         <xsl:call-template name="create-F22-title-art-edissue"/>
         <xsl:call-template name="create-F22-subtitle-art-edissue"/>
         <xsl:call-template name="create-bibl-F24-issue"/>
-        <xsl:call-template name="create-F30"/>
+        <xsl:call-template name="create-F30-issue"/>
+        <xsl:call-template name="create-F52-publication-timespan"/>
       </xsl:when>
       <xsl:otherwise>
         <xsl:call-template name="create-bibl-F22"/>
         <xsl:call-template name="create-F28"/>
+        <xsl:call-template name="create-F52-creation-timespan"/>
         <xsl:call-template name="create-F22-title"/>
         <xsl:call-template name="create-F22-subtitle"/>
         <xsl:call-template name="create-bibl-F24"/>
         <xsl:call-template name="create-F30"/>
+        <xsl:call-template name="create-F52-publication-timespan"/>
       </xsl:otherwise>
     </xsl:choose>    
     <xsl:choose>
@@ -171,7 +176,7 @@
   rdfs:label &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
   cidoc:P1_is_identified_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>/appellation/0&gt; ;
   cidoc:P165_incorporates &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>&gt; ;
-  cidoc:R24i_was_created_throug &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>/publication .
+  cidoc:R24i_was_created_throug &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>/publication&gt; .
 
 </xsl:text>
     </xsl:if>
@@ -227,7 +232,7 @@
       <xsl:text>;
   cidoc:P1_is_identified_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation/0&gt; ;
   cidoc:P165_incorporates &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-issue"/><xsl:text>&gt; ;
-  cidoc:R24i_was_created_throug &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-issue"/><xsl:text>/publication .
+  cidoc:R24i_was_created_throug &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-issue"/><xsl:text>/publication&gt; .
 
 </xsl:text>
     </xsl:if>
@@ -628,11 +633,6 @@
   </xsl:template>
 
   <xsl:template name="create-F28">
-    
-    <!-- 
-die sich entweder aus bibl/@xml:id oder aus citedRange[@wholeText="yes"]/@key generiert, 
-und für die parent::bibl/author und/oder parent::date/note[contains(./text(), "Entst.")] gilt
-    -->
     <xsl:if test="tei:bibl/tei:author or contains(tei:date/tei:note/text(), 'Entst.')">
       <xsl:variable name="title">
         <xsl:call-template name="get-F22-title"/>
@@ -645,12 +645,75 @@ und für die parent::bibl/author und/oder parent::date/note[contains(./text(), "
 </xsl:text>
       <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/creation&gt; a frbroo:F28_Expression_Creation ;
   rdfs:label &quot;Creation of: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
-  frbroo:R17_created &lt;https://sk.acdh.oeaw.ac.at/t</xsl:text><xsl:value-of select="$uri"/><xsl:text>&gt; .
+  frbroo:R17_created &lt;https://sk.acdh.oeaw.ac.at/t</xsl:text><xsl:value-of select="$uri"/><xsl:text>&gt;</xsl:text>
+      
+      <xsl:if test="contains(tei:date/tei:note/text(), 'Entst.')">
+        <xsl:text> ;
+  cidoc:P4_has_time-span &lt;https://sk.acdh.oeaw.ac.at/t</xsl:text><xsl:value-of select="$uri"/><xsl:text>/creation/time-span&gt;</xsl:text>
+      </xsl:if>
+      
+      <xsl:text> .
     
 </xsl:text>
     </xsl:if>
   </xsl:template>
 
+  <xsl:template name="create-F52-creation-timespan">
+    <xsl:if test="contains(tei:date/tei:note/text(), 'Entst.')">
+      <xsl:variable name="uri">
+        <xsl:call-template name="get-F22-uri"/>      
+      </xsl:variable>
+      <xsl:variable name="title">
+        <xsl:choose>
+          <xsl:when test="@notBefore and @notAfter">
+            <xsl:value-of select="@notBefore"/><xsl:text> - </xsl:text><xsl:value-of select="@notAfter"/>
+          </xsl:when>
+          <xsl:when test="@when">
+            <xsl:value-of select="@when"/>
+          </xsl:when>
+        </xsl:choose>
+      </xsl:variable>
+      <xsl:variable name="begin-date">
+        <xsl:choose>
+          <xsl:when test="@notBefore">
+            <xsl:call-template name="format-date-and-type">
+              <xsl:with-param name="date" select="@notBefore"/>
+            </xsl:call-template>
+          </xsl:when>
+          <xsl:when test="@when">
+            <xsl:call-template name="format-date-and-type">
+              <xsl:with-param name="date" select="@when"/>
+            </xsl:call-template>
+          </xsl:when>
+        </xsl:choose>
+      </xsl:variable>
+      <xsl:variable name="end-date">
+        <xsl:choose>
+          <xsl:when test="@notAfter">
+            <xsl:call-template name="format-date-and-type">
+              <xsl:with-param name="date" select="@notAfter"/>
+            </xsl:call-template>
+          </xsl:when>
+          <xsl:when test="@when">
+            <xsl:call-template name="format-date-and-type">
+              <xsl:with-param name="date" select="@when"/>
+            </xsl:call-template>
+          </xsl:when>
+        </xsl:choose>
+      </xsl:variable>
+      
+      <xsl:text>#F52 creation time-span
+</xsl:text>
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/creation/time-span&gt; a cidoc:E52_Time-Span ;
+  rdfs:label &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
+  cidoc:P4i_is_time-span_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/creation&gt; ;
+  cidoc:P82a_begin_of_the_begin </xsl:text><xsl:value-of select="$begin-date"/><xsl:text> ;
+  cidoc:P82b_end_of_the_end </xsl:text><xsl:value-of select="$end-date"/><xsl:text> .  
+    
+</xsl:text>      
+    </xsl:if>
+  </xsl:template>
+  
   <xsl:template name="create-F30">
       <xsl:variable name="title">
         <xsl:call-template name="get-F22-title"/>
@@ -663,12 +726,93 @@ und für die parent::bibl/author und/oder parent::date/note[contains(./text(), "
 </xsl:text>
       <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/publication&gt; a frbroo:F30_Publication_Event ;
   rdfs:label &quot;Publication of: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
-  cidoc:R24_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/published-expression&gt; .
-    
+  cidoc:R24_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/published-expression&gt;</xsl:text>
+    <xsl:if test="not(tei:date/tei:note/text()='UA' or tei:date/tei:note/text()='Entst.')">
+      <xsl:text> ;
+  cidoc:P4_has_time-span &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/publication/time-span&gt;</xsl:text>
+    </xsl:if>
+    <xsl:text> .
+
 </xsl:text>
   </xsl:template>
-  
-  
+  <xsl:template name="create-F30-issue">
+      <xsl:variable name="title">
+        <xsl:call-template name="get-F24-title"/>
+      </xsl:variable>
+      <xsl:variable name="uri">
+        <xsl:call-template name="get-F24-uri"/>      
+      </xsl:variable>
+      
+      <xsl:text>#F30 issue
+</xsl:text>
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/publication&gt; a frbroo:F30_Publication_Event ;
+  rdfs:label &quot;Publication of: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
+  cidoc:R24_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/published-expression&gt;</xsl:text>
+    <xsl:if test="not(tei:date/tei:note/text()='UA' or tei:date/tei:note/text()='Entst.')">
+      <xsl:text> ;
+  cidoc:P4_has_time-span &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/publication/time-span&gt;</xsl:text>
+    </xsl:if>
+    <xsl:text> .
+
+</xsl:text>
+  </xsl:template>
+
+  <xsl:template name="create-F52-publication-timespan">
+    <xsl:if test="not(tei:date/tei:note/text()='UA' or tei:date/tei:note/text()='Entst.')">
+      <xsl:variable name="uri">
+        <xsl:call-template name="get-F22-uri"/>      
+      </xsl:variable>
+      <xsl:variable name="title">
+        <xsl:choose>
+          <xsl:when test="@notBefore and @notAfter">
+            <xsl:value-of select="@notBefore"/><xsl:text> - </xsl:text><xsl:value-of select="@notAfter"/>
+          </xsl:when>
+          <xsl:when test="@when">
+            <xsl:value-of select="@when"/>
+          </xsl:when>
+        </xsl:choose>
+      </xsl:variable>
+      <xsl:variable name="begin-date">
+        <xsl:choose>
+          <xsl:when test="@notBefore">
+            <xsl:call-template name="format-date-and-type">
+              <xsl:with-param name="date" select="@notBefore"/>
+            </xsl:call-template>
+          </xsl:when>
+          <xsl:when test="@when">
+            <xsl:call-template name="format-date-and-type">
+              <xsl:with-param name="date" select="@when"/>
+            </xsl:call-template>
+          </xsl:when>
+        </xsl:choose>
+      </xsl:variable>
+      <xsl:variable name="end-date">
+        <xsl:choose>
+          <xsl:when test="@notAfter">
+            <xsl:call-template name="format-date-and-type">
+              <xsl:with-param name="date" select="@notAfter"/>
+            </xsl:call-template>
+          </xsl:when>
+          <xsl:when test="@when">
+            <xsl:call-template name="format-date-and-type">
+              <xsl:with-param name="date" select="@when"/>
+            </xsl:call-template>
+          </xsl:when>
+        </xsl:choose>
+      </xsl:variable>
+      
+      <xsl:text>#F52 publication time-span
+</xsl:text>
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/publication/time-span&gt; a cidoc:E52_Time-Span ;
+  rdfs:label &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
+  cidoc:P4i_is_time-span_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/publication&gt; ;
+  cidoc:P82a_begin_of_the_begin </xsl:text><xsl:value-of select="$begin-date"/><xsl:text> ;
+  cidoc:P82b_end_of_the_end </xsl:text><xsl:value-of select="$end-date"/><xsl:text> .  
+    
+</xsl:text>      
+    </xsl:if>
+  </xsl:template>
+
   <!-- helpers -->
 
   <xsl:template name="get-issue-uri">
@@ -783,4 +927,35 @@ und für die parent::bibl/author und/oder parent::date/note[contains(./text(), "
     />
   </xsl:template>
 
+  <xsl:template name="format-date-and-type">
+    <xsl:param name="date"/>
+    
+    <xsl:choose>
+      <xsl:when test="string-length($date)=4">
+        <!-- YYYY -->
+        <xsl:value-of select="concat('&quot;', $date, '&quot;^^xs:gYear')"/>
+      </xsl:when>
+      <xsl:when test="string-length($date)=5 and substring($date,1,1)='-'">
+        <!-- YYYY -->
+        <xsl:value-of select="concat('&quot;', $date, '&quot;^^xs:gYear')"/>
+      </xsl:when>
+      <xsl:when test="string-length($date)=7 and substring($date,5,1)='-'">
+        <!-- YYYY-MM -->
+        <xsl:value-of select="concat('&quot;', $date, '&quot;^^xs:gYearMonth')"/>
+      </xsl:when>
+      <xsl:when test="string-length($date)=8 and substring($date,1,1)='-' and substring($date,6,1)='-'">
+        <!-- -YYYY-MM -->
+        <xsl:value-of select="concat('&quot;', $date, '&quot;^^xs:gYearMonth')"/>
+      </xsl:when>
+      <xsl:when test="string-length($date)=7 and substring($date,5,1)='-' and substring($date,8,1)='-'">
+        <!-- YYYY-MM-DD -->
+        <xsl:value-of select="concat('&quot;', $date, '&quot;^^xs:date')"/>
+      </xsl:when>
+      <xsl:when test="string-length($date)=8 and substring($date,1,1)='-' and substring($date,6,1)='-' and substring($date,9,1)='-'">
+        <!-- -YYYY-MM-DD -->
+        <xsl:value-of select="concat('&quot;', $date, '&quot;^^xs:date')"/>
+      </xsl:when>
+    </xsl:choose>
+  </xsl:template>
+  
 </xsl:stylesheet>
