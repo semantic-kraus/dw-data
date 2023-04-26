@@ -34,23 +34,25 @@
         <xsl:call-template name="create-F22-title"/>
         <xsl:call-template name="create-bibl-F24"/>
       </xsl:otherwise>
+    </xsl:choose>    
+    <xsl:choose>
+      <xsl:when test="tei:title[@level = 'j']">
+          <xsl:call-template name="create-bibl-F24-periodical"/>
+          <xsl:call-template name="create-bibl-F24-appellation-periodical"/>
+          <xsl:call-template name="create-F24-appellation-title0-periodical"/>
+          <xsl:call-template name="create-F24-appellation-title1-periodical"/>
+          <xsl:call-template name="create-F24-appellation-date-periodical"/>
+          <xsl:call-template name="create-F24-appellation-datenote-periodical"/>
+          <xsl:call-template name="create-F24-appellation-place-periodical"/>
+          <xsl:call-template name="create-F24-appellation-num-periodical"/>
+          <xsl:call-template name="create-F24-appellation-edition-periodical"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:call-template name="create-F24-appellation"/>
+        <xsl:call-template name="create-F24-appellation-title0"/>
+        <xsl:call-template name="create-F24-appellation-title1"/>
+      </xsl:otherwise>
     </xsl:choose>
-    
-    <xsl:call-template name="create-F24-appellation"/>
-    <xsl:call-template name="create-F24-appellation-title0"/>
-    <xsl:call-template name="create-F24-appellation-title1"/>
-
-    <xsl:if test="tei:title[@level = 'j']">
-      <xsl:call-template name="create-bibl-F24-periodical"/>
-      <xsl:call-template name="create-bibl-F24-appellation-periodical"/>
-      <xsl:call-template name="create-F24-appellation-title0-periodical"/>
-      <xsl:call-template name="create-F24-appellation-title1-periodical"/>
-      <xsl:call-template name="create-F24-appellation-date-periodical"/>
-      <xsl:call-template name="create-F24-appellation-datenote-periodical"/>
-      <xsl:call-template name="create-F24-appellation-place-periodical"/>
-      <xsl:call-template name="create-F24-appellation-num-periodical"/>
-      <xsl:call-template name="create-F24-appellation-edition-periodical"/>
-    </xsl:if>
   </xsl:template>
 
   <!-- functions aka. named templates -->
@@ -357,11 +359,6 @@
   </xsl:template>
   
   <xsl:template name="create-bibl-F24-appellation-periodical">
-<!-- 
-    <xsl:variable name="uri-f22">
-      <xsl:call-template name="get-F22-uri"/>
-    </xsl:variable>
-    -->
     <xsl:variable name="uri-f24">
       <xsl:call-template name="get-F24-uri"/>
     </xsl:variable>
@@ -403,14 +400,6 @@
         
 </xsl:text>
   </xsl:template>
-
-<!-- 
-date >> [F22-URI]/appellation-date/0 | rdf:value "[tei:date/text()]" | rdfs:label "Appellation part: [date/text()]"
-date/note >> [F22-URI]/appellation-ed/0 | rdf:value "[tei:date/tei:note/text()]" | rdfs:label "Appellation part: [date/note/text()]"
-place >> [F22-URI]/appellation-place/0 | rdf:value "[tei:pubPlace/text()]" | rdfs:label "Appellation part: [pubPlace/text()]"
-num >> [F22-URI]/appellation-num/0 | rdf:value "[tei:num/text()]" | rdfs:label "Appellation part: [num/text()]"
-edition >> [F22-URI]/appellation-ed/0 | rdf:value "[tei:edition/text()]" | rdfs:label "Appellation part: [edition/text()]"
-  -->
 
   <xsl:template name="create-F24-appellation-title0">
     <xsl:variable name="uri-f24">
