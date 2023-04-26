@@ -48,6 +48,7 @@
           <xsl:call-template name="create-F24-appellation-num-periodical"/>
           <xsl:call-template name="create-F24-appellation-edition-periodical"/>
       </xsl:when>
+      <xsl:when test="tei:date/tei:note/text()='UA' or tei:date/tei:note/text()='Entst.'"></xsl:when>
       <xsl:otherwise>
         <xsl:call-template name="create-F24-appellation"/>
         <xsl:call-template name="create-F24-appellation-title0"/>
@@ -148,25 +149,26 @@
   </xsl:template>
 
   <xsl:template name="create-bibl-F24">
-
-    <xsl:variable name="title">
-      <xsl:call-template name="get-F24-title"/>
-    </xsl:variable>
-    <xsl:variable name="uri-f22">
-      <xsl:call-template name="get-F22-uri"/>     
-    </xsl:variable>
-    <xsl:variable name="uri-f24">
-      <xsl:call-template name="get-F24-uri"/>
-    </xsl:variable>
-    
-    <xsl:text>#F24
-</xsl:text>
-    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/published-expression&gt; a frbroo:F24_Publication_Expression ;
+    <xsl:if test="not(tei:date/tei:note/text()='UA' or tei:date/tei:note/text()='Entst.')">
+      <xsl:variable name="title">
+        <xsl:call-template name="get-F24-title"/>
+      </xsl:variable>
+      <xsl:variable name="uri-f22">
+        <xsl:call-template name="get-F22-uri"/>     
+      </xsl:variable>
+      <xsl:variable name="uri-f24">
+        <xsl:call-template name="get-F24-uri"/>
+      </xsl:variable>
+      
+      <xsl:text>#F24
+  </xsl:text>
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/published-expression&gt; a frbroo:F24_Publication_Expression ;
   rdfs:label &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
   cidoc:P1_is_identified_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>/appellation/0&gt; ;
   cidoc:P165_incorporates &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>&gt; .
 
 </xsl:text>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template name="create-bibl-F24-periodical">
@@ -191,35 +193,37 @@
   </xsl:template>
 
   <xsl:template name="create-bibl-F24-issue">
-    <xsl:variable name="title">
-      <xsl:call-template name="get-F24-title"/>
-    </xsl:variable>
-    <xsl:variable name="uri-f22">
-      <xsl:call-template name="get-F22-uri"/>
-    </xsl:variable>
-    <xsl:variable name="uri-f24">
-      <xsl:call-template name="get-F24-uri"/>
-    </xsl:variable>
-    <xsl:variable name="uri-issue">
-      <xsl:call-template name="get-issue-uri"/>
-    </xsl:variable>
-
-    <xsl:text>#F24 issue
-</xsl:text>
-    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/published-expression&gt; a frbroo:F24_Publication_Expression ;
-  rdfs:label &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en </xsl:text>
-    <xsl:if test="tei:title[level = 'j']">
-      <xsl:variable name="uri-period">
-        <xsl:call-template name="get-periodical-uri"/>
+    <xsl:if test="not(tei:date/tei:note/text()='UA' or tei:date/tei:note/text()='Entst.')">      
+      <xsl:variable name="title">
+        <xsl:call-template name="get-F24-title"/>
       </xsl:variable>
-      <xsl:text>;
+      <xsl:variable name="uri-f22">
+        <xsl:call-template name="get-F22-uri"/>
+      </xsl:variable>
+      <xsl:variable name="uri-f24">
+        <xsl:call-template name="get-F24-uri"/>
+      </xsl:variable>
+      <xsl:variable name="uri-issue">
+        <xsl:call-template name="get-issue-uri"/>
+      </xsl:variable>
+  
+      <xsl:text>#F24 issue
+</xsl:text>
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/published-expression&gt; a frbroo:F24_Publication_Expression ;
+  rdfs:label &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en </xsl:text>
+      <xsl:if test="tei:title[level = 'j']">
+        <xsl:variable name="uri-period">
+          <xsl:call-template name="get-periodical-uri"/>
+        </xsl:variable>
+        <xsl:text>;
   frbrooR5i_is_component_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-period"/><xsl:text>&gt; </xsl:text>
-    </xsl:if>
-    <xsl:text>;
+      </xsl:if>
+      <xsl:text>;
   cidoc:P1_is_identified_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation/0&gt; ;
   cidoc:P165_incorporates &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-issue"/><xsl:text>&gt; .
 
 </xsl:text>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template name="create-F22-title-art-issue">
