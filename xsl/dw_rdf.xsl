@@ -476,7 +476,7 @@
     </xsl:variable>
     <xsl:variable name="title" select="tei:title[@level='j' and not(@type)]"/>
     
-    <xsl:text>#F24 appellation title0 periodical
+    <xsl:text>#F24 appellation title0 periodical issue
 </xsl:text>
     <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation-title/0&gt; a cidoc:E90_Symbolic_Object ;
   rdfs:label &quot;Appellation Part: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en 
@@ -495,7 +495,7 @@
       </xsl:variable>
       <xsl:variable name="title" select="replace(translate(tei:title[@level='j' and @type='subtitle'], '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       
-      <xsl:text>#F24 appellation title1 periodical
+      <xsl:text>#F24 appellation title1 periodical issue
 </xsl:text>
       <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation-title/1&gt; a cidoc:E90_Symbolic_Object ;
   rdfs:label &quot;Appellation Part: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en 
@@ -513,7 +513,7 @@
       </xsl:variable>
       <xsl:variable name="title" select="tei:date/text()"/>
       
-      <xsl:text>#F24 appellation date periodical
+      <xsl:text>#F24 appellation date periodical issue
 </xsl:text>
       <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation-date/0&gt; a cidoc:E90_Symbolic_Object ;
   rdfs:label &quot;Appellation Part: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en 
@@ -532,7 +532,7 @@
       </xsl:variable>
       <xsl:variable name="title" select="tei:date/tei:note/text()"/>
       
-      <xsl:text>#F24 appellation date/note periodical
+      <xsl:text>#F24 appellation date/note periodical issue
 </xsl:text>
       <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation-ed/0&gt; a cidoc:E90_Symbolic_Object ;
   rdfs:label &quot;Appellation Part: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en 
@@ -551,7 +551,7 @@
       </xsl:variable>
       <xsl:variable name="title" select="tei:pubPlace/text()"/>
       
-      <xsl:text>#F24 appellation place periodical
+      <xsl:text>#F24 appellation place periodical issue
 </xsl:text>
       <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation-place/0&gt; a cidoc:E90_Symbolic_Object ;
   rdfs:label &quot;Appellation Part: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en 
@@ -570,7 +570,7 @@
       </xsl:variable>
       <xsl:variable name="title" select="tei:num/text()"/>
       
-      <xsl:text>#F24 appellation num periodical
+      <xsl:text>#F24 appellation num periodical issue
 </xsl:text>
       <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation-num/0&gt; a cidoc:E90_Symbolic_Object ;
   rdfs:label &quot;Appellation Part: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en 
@@ -589,7 +589,7 @@
       </xsl:variable>
       <xsl:variable name="title" select="tei:edition/text()"/>
       
-      <xsl:text>#F24 appellation edition periodical
+      <xsl:text>#F24 appellation edition periodical issue
 </xsl:text>
       <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation-ed/1&gt; a cidoc:E90_Symbolic_Object ;
   rdfs:label &quot;Appellation Part: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en 
