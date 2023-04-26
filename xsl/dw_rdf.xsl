@@ -23,12 +23,14 @@
         <xsl:call-template name="create-bibl-F22-issue"/>
         <xsl:call-template name="create-F22-title-issue"/>
         <xsl:call-template name="create-bibl-F24-issue"/>
+        <xsl:call-template name="create-F30"/>
       </xsl:when>
       <xsl:when test="tei:editor">
         <xsl:call-template name="create-bibl-F22-art-edissue"/>
         <xsl:call-template name="create-F22-title-art-edissue"/>
         <xsl:call-template name="create-F22-subtitle-art-edissue"/>
         <xsl:call-template name="create-bibl-F24-issue"/>
+        <xsl:call-template name="create-F30"/>
       </xsl:when>
       <xsl:otherwise>
         <xsl:call-template name="create-bibl-F22"/>
@@ -36,6 +38,7 @@
         <xsl:call-template name="create-F22-title"/>
         <xsl:call-template name="create-F22-subtitle"/>
         <xsl:call-template name="create-bibl-F24"/>
+        <xsl:call-template name="create-F30"/>
       </xsl:otherwise>
     </xsl:choose>    
     <xsl:choose>
@@ -167,7 +170,8 @@
       <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/published-expression&gt; a frbroo:F24_Publication_Expression ;
   rdfs:label &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
   cidoc:P1_is_identified_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>/appellation/0&gt; ;
-  cidoc:P165_incorporates &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>&gt; .
+  cidoc:P165_incorporates &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>&gt; ;
+  cidoc:R24i_was_created_throug &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>/publication .
 
 </xsl:text>
     </xsl:if>
@@ -222,7 +226,8 @@
       </xsl:if>
       <xsl:text>;
   cidoc:P1_is_identified_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation/0&gt; ;
-  cidoc:P165_incorporates &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-issue"/><xsl:text>&gt; .
+  cidoc:P165_incorporates &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-issue"/><xsl:text>&gt; ;
+  cidoc:R24i_was_created_throug &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-issue"/><xsl:text>/publication .
 
 </xsl:text>
     </xsl:if>
@@ -646,6 +651,24 @@ und für die parent::bibl/author und/oder parent::date/note[contains(./text(), "
     </xsl:if>
   </xsl:template>
 
+  <xsl:template name="create-F30">
+      <xsl:variable name="title">
+        <xsl:call-template name="get-F22-title"/>
+      </xsl:variable>
+      <xsl:variable name="uri">
+        <xsl:call-template name="get-F22-uri"/>      
+      </xsl:variable>
+      
+      <xsl:text>#F30
+</xsl:text>
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/publication&gt; a frbroo:F30_Publication_Event ;
+  rdfs:label &quot;Publication of: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
+  cidoc:R24_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/published-expression&gt; .
+    
+</xsl:text>
+  </xsl:template>
+  
+  
   <!-- helpers -->
 
   <xsl:template name="get-issue-uri">
