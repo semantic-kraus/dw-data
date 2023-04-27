@@ -159,7 +159,7 @@
   </xsl:template>
 
   <xsl:template name="create-bibl-F24">
-    <xsl:if test="not(tei:date/tei:note/text()='UA' or tei:date/tei:note/text()='Entst.')">
+    <xsl:if test="tei:date and not(tei:date/tei:note/text()='UA' or tei:date/tei:note/text()='Entst.')">
       <xsl:variable name="title">
         <xsl:call-template name="get-F24-title"/>
       </xsl:variable>
@@ -183,27 +183,28 @@
   </xsl:template>
 
   <xsl:template name="create-bibl-F24-periodical">
-
-    <xsl:variable name="title" select="tei:title[@level = 'j'][1]/text()"/>
-
-    <xsl:variable name="uri-period">
-      <xsl:call-template name="get-periodical-uri"/>
-    </xsl:variable>
-    <xsl:variable name="uri-issue">
-      <xsl:call-template name="get-issue-uri"/>
-    </xsl:variable>
-
-    <xsl:text>#F24 periodical
+    <xsl:if test="tei:date">      
+      <xsl:variable name="title" select="tei:title[@level = 'j'][1]/text()"/>
+  
+      <xsl:variable name="uri-period">
+        <xsl:call-template name="get-periodical-uri"/>
+      </xsl:variable>
+      <xsl:variable name="uri-issue">
+        <xsl:call-template name="get-issue-uri"/>
+      </xsl:variable>
+  
+      <xsl:text>#F24 periodical
 </xsl:text>
-    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-period"/><xsl:text>&gt; a frbroo:F24_Publication_Expression ;
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-period"/><xsl:text>&gt; a frbroo:F24_Publication_Expression ;
   rdfs:label &quot;Periodical: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
   frbroo:R5_has_component &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-issue"/><xsl:text>/published-expression&gt; .
 
 </xsl:text>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template name="create-bibl-F24-issue">
-    <xsl:if test="not(tei:date/tei:note/text()='UA' or tei:date/tei:note/text()='Entst.')">      
+    <xsl:if test="tei:date and not(tei:date/tei:note/text()='UA' or tei:date/tei:note/text()='Entst.')">      
       <xsl:variable name="title">
         <xsl:call-template name="get-F24-title"/>
       </xsl:variable>
@@ -687,7 +688,7 @@
   </xsl:template>
   
   <xsl:template name="create-F30">
-    <xsl:if test="not(tei:date/tei:note/text()='UA' or tei:date/tei:note/text()='Entst.')">
+    <xsl:if test="tei:date and not(tei:date/tei:note/text()='UA' or tei:date/tei:note/text()='Entst.')">
       <xsl:variable name="title">
         <xsl:call-template name="get-F22-title"/>
       </xsl:variable>
@@ -707,6 +708,7 @@
   </xsl:template>
   
   <xsl:template name="create-F30-issue">
+    <xsl:if test="tei:date">
       <xsl:variable name="title">
         <xsl:call-template name="get-F24-title"/>
       </xsl:variable>
@@ -719,13 +721,14 @@
       <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/publication&gt; a frbroo:F30_Publication_Event ;
   rdfs:label &quot;Publication of: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
   cidoc:R24_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/published-expression&gt;</xsl:text>
-    <xsl:if test="not(tei:date/tei:note/text()='UA' or tei:date/tei:note/text()='Entst.')">
-      <xsl:text> ;
-  cidoc:P4_has_time-span &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/publication/time-span&gt;</xsl:text>
-    </xsl:if>
-    <xsl:text> .
+      <xsl:if test="not(tei:date/tei:note/text()='UA' or tei:date/tei:note/text()='Entst.')">
+        <xsl:text> ;
+    cidoc:P4_has_time-span &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/publication/time-span&gt;</xsl:text>
+      </xsl:if>
+      <xsl:text> .
 
 </xsl:text>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template name="create-E52-publication-timespan">
