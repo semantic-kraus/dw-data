@@ -2253,7 +2253,7 @@
   cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03532/published-expression> ;
   cidoc:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWbibl03532/publication/time-span> .
 
-#E52 publication time-span
+#E52 issue publication time-span
 <https://sk.acdh.oeaw.ac.at/DWbibl03532/publication/time-span> a cidoc:E52_Time-Span ;
   rdfs:label "1929"@en ;
   cidoc:P4i_is_time-span_of <https://sk.acdh.oeaw.ac.at/DWbibl03532/publication> ;
@@ -9056,7 +9056,7 @@
   cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03757/published-expression> ;
   cidoc:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWbibl03757/publication/time-span> .
 
-#E52 publication time-span
+#E52 issue publication time-span
 <https://sk.acdh.oeaw.ac.at/DWbibl03757/publication/time-span> a cidoc:E52_Time-Span ;
   rdfs:label "1920"@en ;
   cidoc:P4i_is_time-span_of <https://sk.acdh.oeaw.ac.at/DWbibl03757/publication> ;
@@ -9116,7 +9116,7 @@
   cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03748/published-expression> ;
   cidoc:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWbibl03748/publication/time-span> .
 
-#E52 publication time-span
+#E52 issue publication time-span
 <https://sk.acdh.oeaw.ac.at/DWbibl03748/publication/time-span> a cidoc:E52_Time-Span ;
   rdfs:label "1926"@en ;
   cidoc:P4i_is_time-span_of <https://sk.acdh.oeaw.ac.at/DWbibl03748/publication> ;
@@ -9174,7 +9174,7 @@
   cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03750/published-expression> ;
   cidoc:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWbibl03750/publication/time-span> .
 
-#E52 publication time-span
+#E52 issue publication time-span
 <https://sk.acdh.oeaw.ac.at/DWbibl03750/publication/time-span> a cidoc:E52_Time-Span ;
   rdfs:label "1924"@en ;
   cidoc:P4i_is_time-span_of <https://sk.acdh.oeaw.ac.at/DWbibl03750/publication> ;
@@ -9232,7 +9232,7 @@
   cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03557/published-expression> ;
   cidoc:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWbibl03557/publication/time-span> .
 
-#E52 publication time-span
+#E52 issue publication time-span
 <https://sk.acdh.oeaw.ac.at/DWbibl03557/publication/time-span> a cidoc:E52_Time-Span ;
   rdfs:label "1926"@en ;
   cidoc:P4i_is_time-span_of <https://sk.acdh.oeaw.ac.at/DWbibl03557/publication> ;
