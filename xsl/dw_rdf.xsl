@@ -33,7 +33,7 @@
         <xsl:call-template name="create-F22-subtitle-art-edissue"/>
         <xsl:call-template name="create-bibl-F24-issue"/>
         <xsl:call-template name="create-F30-issue"/>
-        <xsl:call-template name="create-E52-publication-timespan"/>
+        <xsl:call-template name="create-E52-publication-timespan-issue"/>
       </xsl:when>
       <xsl:otherwise>
         <xsl:call-template name="create-bibl-F22"/>
@@ -665,42 +665,13 @@
           <xsl:call-template name="get-F22-uri"/>      
         </xsl:variable>
         <xsl:variable name="title">
-          <xsl:choose>
-            <xsl:when test="tei:date/@notBefore and tei:date/@notAfter">
-              <xsl:value-of select="tei:date/@notBefore"/><xsl:text> - </xsl:text><xsl:value-of select="tei:date/@notAfter"/>
-            </xsl:when>
-            <xsl:when test="tei:date/@when">
-              <xsl:value-of select="tei:date/@when"/>
-            </xsl:when>
-          </xsl:choose>
+          <xsl:call-template name="get-timespan-title"/>
         </xsl:variable>
         <xsl:variable name="begin-date">
-          <xsl:choose>
-            <xsl:when test="tei:date/@notBefore">
-              <xsl:call-template name="format-date-and-type">
-                <xsl:with-param name="date" select="tei:date/@notBefore"/>
-              </xsl:call-template>
-            </xsl:when>
-            <xsl:when test="tei:date/@when">
-              <xsl:call-template name="format-date-and-type">
-                <xsl:with-param name="date" select="tei:date/@when"/>
-              </xsl:call-template>
-            </xsl:when>
-          </xsl:choose>
+          <xsl:call-template name="get-timespan-begin"/>          
         </xsl:variable>
         <xsl:variable name="end-date">
-          <xsl:choose>
-            <xsl:when test="tei:date/@notAfter">
-              <xsl:call-template name="format-date-and-type">
-                <xsl:with-param name="date" select="tei:date/@notAfter"/>
-              </xsl:call-template>
-            </xsl:when>
-            <xsl:when test="tei:date/@when">
-              <xsl:call-template name="format-date-and-type">
-                <xsl:with-param name="date" select="tei:date/@when"/>
-              </xsl:call-template>
-            </xsl:when>
-          </xsl:choose>
+          <xsl:call-template name="get-timespan-end"/>          
         </xsl:variable>
         
         <xsl:text>#E52 creation time-span
@@ -766,45 +737,45 @@
           <xsl:call-template name="get-F22-uri"/>      
         </xsl:variable>
         <xsl:variable name="title">
-          <xsl:choose>
-            <xsl:when test="tei:date/@notBefore and tei:date/@notAfter">
-              <xsl:value-of select="tei:date/@notBefore"/><xsl:text> - </xsl:text><xsl:value-of select="tei:date/@notAfter"/>
-            </xsl:when>
-            <xsl:when test="tei:date/@when">
-              <xsl:value-of select="tei:date/@when"/>
-            </xsl:when>
-          </xsl:choose>
+          <xsl:call-template name="get-timespan-title"/>
         </xsl:variable>
         <xsl:variable name="begin-date">
-          <xsl:choose>
-            <xsl:when test="tei:date/@notBefore">
-              <xsl:call-template name="format-date-and-type">
-                <xsl:with-param name="date" select="tei:date/@notBefore"/>
-              </xsl:call-template>
-            </xsl:when>
-            <xsl:when test="tei:date/@when">
-              <xsl:call-template name="format-date-and-type">
-                <xsl:with-param name="date" select="tei:date/@when"/>
-              </xsl:call-template>
-            </xsl:when>
-          </xsl:choose>
+          <xsl:call-template name="get-timespan-begin"/>          
         </xsl:variable>
         <xsl:variable name="end-date">
-          <xsl:choose>
-            <xsl:when test="tei:date/@notAfter">
-              <xsl:call-template name="format-date-and-type">
-                <xsl:with-param name="date" select="tei:date/@notAfter"/>
-              </xsl:call-template>
-            </xsl:when>
-            <xsl:when test="tei:date/@when">
-              <xsl:call-template name="format-date-and-type">
-                <xsl:with-param name="date" select="tei:date/@when"/>
-              </xsl:call-template>
-            </xsl:when>
-          </xsl:choose>
+          <xsl:call-template name="get-timespan-end"/>          
         </xsl:variable>
       
         <xsl:text>#E52 publication time-span
+</xsl:text>
+        <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/publication/time-span&gt; a cidoc:E52_Time-Span ;
+  rdfs:label &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
+  cidoc:P4i_is_time-span_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/publication&gt; ;
+  cidoc:P82a_begin_of_the_begin </xsl:text><xsl:value-of select="$begin-date"/><xsl:text> ;
+  cidoc:P82b_end_of_the_end </xsl:text><xsl:value-of select="$end-date"/><xsl:text> .  
+    
+</xsl:text>      
+      </xsl:if>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template name="create-E52-publication-timespan-issue">
+    <xsl:if test="not(tei:date/tei:note/text()='UA' or tei:date/tei:note/text()='Entst.')">
+      <xsl:if test="tei:date[@when or (@notBefore and @notAfter)]">
+        <xsl:variable name="uri">
+          <xsl:call-template name="get-F24-uri"/>      
+        </xsl:variable>
+        <xsl:variable name="title">
+          <xsl:call-template name="get-timespan-title"/>
+        </xsl:variable>
+        <xsl:variable name="begin-date">
+          <xsl:call-template name="get-timespan-begin"/>          
+        </xsl:variable>
+        <xsl:variable name="end-date">
+          <xsl:call-template name="get-timespan-end"/>          
+        </xsl:variable>
+      
+        <xsl:text>#E52 issue publication time-span
 </xsl:text>
         <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/publication/time-span&gt; a cidoc:E52_Time-Span ;
   rdfs:label &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
@@ -931,6 +902,47 @@
     />
   </xsl:template>
 
+  <xsl:template name="get-timespan-title">
+    <xsl:choose>
+      <xsl:when test="tei:date/@notBefore and tei:date/@notAfter">
+        <xsl:value-of select="tei:date/@notBefore"/><xsl:text> - </xsl:text><xsl:value-of select="tei:date/@notAfter"/>
+      </xsl:when>
+      <xsl:when test="tei:date/@when">
+        <xsl:value-of select="tei:date/@when"/>
+      </xsl:when>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template name="get-timespan-begin">
+    <xsl:choose>
+      <xsl:when test="tei:date/@notBefore">
+        <xsl:call-template name="format-date-and-type">
+          <xsl:with-param name="date" select="tei:date/@notBefore"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="tei:date/@when">
+        <xsl:call-template name="format-date-and-type">
+          <xsl:with-param name="date" select="tei:date/@when"/>
+        </xsl:call-template>
+      </xsl:when>
+    </xsl:choose>
+  </xsl:template>
+  
+  <xsl:template name="get-timespan-end">
+    <xsl:choose>
+      <xsl:when test="tei:date/@notAfter">
+        <xsl:call-template name="format-date-and-type">
+          <xsl:with-param name="date" select="tei:date/@notAfter"/>
+        </xsl:call-template>
+      </xsl:when>
+      <xsl:when test="tei:date/@when">
+        <xsl:call-template name="format-date-and-type">
+          <xsl:with-param name="date" select="tei:date/@when"/>
+        </xsl:call-template>
+      </xsl:when>
+    </xsl:choose>  
+  </xsl:template>
+  
   <xsl:template name="format-date-and-type">
     <xsl:param name="date"/>
     
