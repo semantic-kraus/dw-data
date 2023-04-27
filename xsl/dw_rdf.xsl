@@ -666,38 +666,38 @@
         </xsl:variable>
         <xsl:variable name="title">
           <xsl:choose>
-            <xsl:when test="@notBefore and @notAfter">
-              <xsl:value-of select="@notBefore"/><xsl:text> - </xsl:text><xsl:value-of select="@notAfter"/>
+            <xsl:when test="tei:date/@notBefore and tei:date/@notAfter">
+              <xsl:value-of select="tei:date/@notBefore"/><xsl:text> - </xsl:text><xsl:value-of select="tei:date/@notAfter"/>
             </xsl:when>
-            <xsl:when test="@when">
-              <xsl:value-of select="@when"/>
+            <xsl:when test="tei:date/@when">
+              <xsl:value-of select="tei:date/@when"/>
             </xsl:when>
           </xsl:choose>
         </xsl:variable>
         <xsl:variable name="begin-date">
           <xsl:choose>
-            <xsl:when test="@notBefore">
+            <xsl:when test="tei:date/@notBefore">
               <xsl:call-template name="format-date-and-type">
-                <xsl:with-param name="date" select="@notBefore"/>
+                <xsl:with-param name="date" select="tei:date/@notBefore"/>
               </xsl:call-template>
             </xsl:when>
-            <xsl:when test="@when">
+            <xsl:when test="tei:date/@when">
               <xsl:call-template name="format-date-and-type">
-                <xsl:with-param name="date" select="@when"/>
+                <xsl:with-param name="date" select="tei:date/@when"/>
               </xsl:call-template>
             </xsl:when>
           </xsl:choose>
         </xsl:variable>
         <xsl:variable name="end-date">
           <xsl:choose>
-            <xsl:when test="@notAfter">
+            <xsl:when test="tei:date/@notAfter">
               <xsl:call-template name="format-date-and-type">
-                <xsl:with-param name="date" select="@notAfter"/>
+                <xsl:with-param name="date" select="tei:date/@notAfter"/>
               </xsl:call-template>
             </xsl:when>
-            <xsl:when test="@when">
+            <xsl:when test="tei:date/@when">
               <xsl:call-template name="format-date-and-type">
-                <xsl:with-param name="date" select="@when"/>
+                <xsl:with-param name="date" select="tei:date/@when"/>
               </xsl:call-template>
             </xsl:when>
           </xsl:choose>
@@ -767,38 +767,38 @@
         </xsl:variable>
         <xsl:variable name="title">
           <xsl:choose>
-            <xsl:when test="@notBefore and @notAfter">
-              <xsl:value-of select="@notBefore"/><xsl:text> - </xsl:text><xsl:value-of select="@notAfter"/>
+            <xsl:when test="tei:date/@notBefore and tei:date/@notAfter">
+              <xsl:value-of select="tei:date/@notBefore"/><xsl:text> - </xsl:text><xsl:value-of select="tei:date/@notAfter"/>
             </xsl:when>
-            <xsl:when test="@when">
-              <xsl:value-of select="@when"/>
+            <xsl:when test="tei:date/@when">
+              <xsl:value-of select="tei:date/@when"/>
             </xsl:when>
           </xsl:choose>
         </xsl:variable>
         <xsl:variable name="begin-date">
           <xsl:choose>
-            <xsl:when test="@notBefore">
+            <xsl:when test="tei:date/@notBefore">
               <xsl:call-template name="format-date-and-type">
-                <xsl:with-param name="date" select="@notBefore"/>
+                <xsl:with-param name="date" select="tei:date/@notBefore"/>
               </xsl:call-template>
             </xsl:when>
-            <xsl:when test="@when">
+            <xsl:when test="tei:date/@when">
               <xsl:call-template name="format-date-and-type">
-                <xsl:with-param name="date" select="@when"/>
+                <xsl:with-param name="date" select="tei:date/@when"/>
               </xsl:call-template>
             </xsl:when>
           </xsl:choose>
         </xsl:variable>
         <xsl:variable name="end-date">
           <xsl:choose>
-            <xsl:when test="@notAfter">
+            <xsl:when test="tei:date/@notAfter">
               <xsl:call-template name="format-date-and-type">
-                <xsl:with-param name="date" select="@notAfter"/>
+                <xsl:with-param name="date" select="tei:date/@notAfter"/>
               </xsl:call-template>
             </xsl:when>
-            <xsl:when test="@when">
+            <xsl:when test="tei:date/@when">
               <xsl:call-template name="format-date-and-type">
-                <xsl:with-param name="date" select="@when"/>
+                <xsl:with-param name="date" select="tei:date/@when"/>
               </xsl:call-template>
             </xsl:when>
           </xsl:choose>
@@ -951,11 +951,11 @@
         <!-- -YYYY-MM -->
         <xsl:value-of select="concat('&quot;', $date, '&quot;^^xs:gYearMonth')"/>
       </xsl:when>
-      <xsl:when test="string-length($date)=7 and substring($date,5,1)='-' and substring($date,8,1)='-'">
+      <xsl:when test="string-length($date)=10 and substring($date,5,1)='-' and substring($date,8,1)='-'">
         <!-- YYYY-MM-DD -->
         <xsl:value-of select="concat('&quot;', $date, '&quot;^^xs:date')"/>
       </xsl:when>
-      <xsl:when test="string-length($date)=8 and substring($date,1,1)='-' and substring($date,6,1)='-' and substring($date,9,1)='-'">
+      <xsl:when test="string-length($date)=11 and substring($date,1,1)='-' and substring($date,6,1)='-' and substring($date,9,1)='-'">
         <!-- -YYYY-MM-DD -->
         <xsl:value-of select="concat('&quot;', $date, '&quot;^^xs:date')"/>
       </xsl:when>
