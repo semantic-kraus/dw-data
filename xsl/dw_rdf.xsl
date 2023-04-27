@@ -384,7 +384,7 @@
     <xsl:variable name="uri-f24">
       <xsl:call-template name="get-F24-uri"/>
     </xsl:variable>
-    <xsl:variable name="title" select="tei:title[@level='j' and not(@type)]"/>
+    <xsl:variable name="title" select="tei:title[@level='m' and not(@type)]/text()"/>
     
     <xsl:text>#F24 appellation
 </xsl:text>
@@ -405,7 +405,7 @@
     <xsl:variable name="uri-f24">
       <xsl:call-template name="get-F24-uri"/>
     </xsl:variable>
-    <xsl:variable name="title" select="tei:title[@level='m']"/>
+    <xsl:variable name="title" select="tei:title[@level='j']/text()"/>
     
     <xsl:text>#F24 appellation periodical
 </xsl:text>
