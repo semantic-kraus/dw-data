@@ -982,11 +982,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Ausspruch]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03219/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Ausspruch]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03219/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl03221> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Propagandapostkarte]"@en ;
@@ -1262,11 +1257,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Götz von Berlichingen mit der eisernen Hand" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00362/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Götz von Berlichingen mit der eisernen Hand"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00362/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl01871> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Dauer im Wechsel"@en ;
@@ -1324,11 +1314,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Gespräch mit Heinrich Luden" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00011/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Gespräch mit Heinrich Luden"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00011/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl03573> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Rückblicke in mein Leben"@en ;
@@ -1550,11 +1535,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Brief]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl01956/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Brief]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl01956/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00015> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Nachgelassenes Fragment]"@en ;
@@ -1580,11 +1560,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Nachgelassenes Fragment]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00015/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Nachgelassenes Fragment]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00015/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl04117> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Götzen-Dämmerung"@en ;
@@ -1671,11 +1646,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Nachgelassenes Fragment]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02005/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Nachgelassenes Fragment]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02005/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl01062> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Nachgelassenes Fragment]"@en ;
@@ -1701,11 +1671,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Nachgelassenes Fragment]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl01062/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Nachgelassenes Fragment]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl01062/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl01780> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Nachgelassenes Fragment]"@en ;
@@ -1731,11 +1696,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Nachgelassenes Fragment]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl01780/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Nachgelassenes Fragment]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl01780/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00647> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Sturmlied [Feuerjo! / Deutschland erwache!]"@en ;
@@ -2442,11 +2402,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/sub> ;
   rdf:value "Lustspiel in drei Akten" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl04023/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Die fünf Frankfurter"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl04023/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl01892> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die demolirte Literatur"@en ;
@@ -2639,11 +2594,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Brief an den Westdeutschen Rundfunk]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02227/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Brief an den Westdeutschen Rundfunk]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02227/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl01950> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Hermannsschlacht"@en ;
@@ -2662,11 +2612,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Die Hermannsschlacht" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl01950/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Die Hermannsschlacht"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl01950/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00016> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Also sprach Zarathustra"@en ;
@@ -2782,11 +2727,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Der Antichrist" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl01775/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Der Antichrist"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl01775/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00018> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Jenseits von Gut und Böse"@en ;
@@ -2963,11 +2903,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Nachgelassenes Fragment]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00022/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Nachgelassenes Fragment]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00022/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00023> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Menschliches, Allzumenschliches"@en ;
@@ -3083,11 +3018,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Liebes Leid und Lust" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00024/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Liebes Leid und Lust"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00024/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00025> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Hamlet"@en ;
@@ -3113,11 +3043,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Hamlet" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00025/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Hamlet"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00025/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl04009> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Deutschland und Oesterreich"@en ;
@@ -3223,11 +3148,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "König Lear" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00660/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: König Lear"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00660/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00027> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Antonius und Cleopatra"@en ;
@@ -3253,11 +3173,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Antonius und Cleopatra" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00027/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Antonius und Cleopatra"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00027/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00028> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Das Wintermärchen"@en ;
@@ -3328,11 +3243,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Macbeth" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00029/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Macbeth"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00029/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00030> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die lustigen Weiber von Windsor"@en ;
@@ -3358,11 +3268,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Die lustigen Weiber von Windsor" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00030/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Die lustigen Weiber von Windsor"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00030/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00031> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Heinrich IV, 1. Teil"@en ;
@@ -3375,11 +3280,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Heinrich IV, 1. Teil" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00031/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Heinrich IV, 1. Teil"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00031/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00687> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Ein feste Burg ist unser Gott"@en ;
@@ -3530,11 +3430,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Hitler im Nietzsche-Archiv in Weimar, Fotografie]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03478/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Hitler im Nietzsche-Archiv in Weimar, Fotografie]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03478/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl03291> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Das Reichstagsgebäude in Flammen"@en ;
@@ -3820,11 +3715,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Rede]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03359/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03359/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl02708> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Sozialdemokratische Bordelle in Wien"@en ;
@@ -4457,11 +4347,6 @@
   rdf:value "[Äußerung auf der Internationalen Arbeitskonferenz in
 						Genf]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03384/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Äußerung auf der Internationalen Arbeitskonferenz in Genf]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03384/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl02668> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Wie schlagen wir den Terror?"@en ;
@@ -5905,11 +5790,6 @@
   rdf:value "[Ansprache auf einer Versammlung der Kolonialwaren- und
 						Delikatessenhändler in München]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02853/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Ansprache auf einer Versammlung der Kolonialwaren- und Delikatessenhändler in München]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02853/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl02130> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Verbot des „Simplicissimus“"@en ;
@@ -6767,11 +6647,6 @@
   rdf:value "[Rundfunkrede anlässlich der Wahl Friedrich von Bodelschwinghs
 						zum Reichsbischof]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03424/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rundfunkrede anlässlich der Wahl Friedrich von Bodelschwinghs zum Reichsbischof]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03424/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl03206> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Rassenkunde für Volksschüler"@en ;
@@ -8839,11 +8714,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "1. Rede gegen Catilina" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00084/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: 1. Rede gegen Catilina"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00084/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl00085> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Lästerung Nietzsches"@en ;
@@ -8957,11 +8827,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Nachgelassenes Fragment]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03576/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Nachgelassenes Fragment]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03576/published-expression> .
-
 #F22 art-edissue
 <https://sk.acdh.oeaw.ac.at/DWbibl05097> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Aus dem Nachlass: Studien aus der Umwerthungszeit 1882–1888"@en ;
@@ -9221,11 +9086,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Ecce homo" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03578/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Ecce homo"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03578/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl00086> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Aus dem Lande des braunen Schreckens"@en ;
@@ -9513,11 +9373,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Rede zur Eröffnung der Wohnhausanlage Jedleseestraße]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02912/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede zur Eröffnung der Wohnhausanlage Jedleseestraße]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02912/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl03535> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Wiener werden ihre Rechte zu verteidigen wissen"@en ;
@@ -10318,11 +10173,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Ansprache vor SA und SS in Erfurt]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03136/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Ansprache vor SA und SS in Erfurt]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03136/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl02180> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Dummheiten der Woche"@en ;
@@ -10967,11 +10817,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Wortmeldung im Niederösterreichischen Landtag]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02910/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Wortmeldung im Niederösterreichischen Landtag]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02910/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl03669> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Wortmeldung im Niederösterreichischen Landtag]"@en ;
@@ -10984,11 +10829,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Wortmeldung im Niederösterreichischen Landtag]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03669/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Wortmeldung im Niederösterreichischen Landtag]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03669/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl02583> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Wie die deutschen „Justizgreuel“ in Wirklichkeit aussehen!"@en ;
@@ -14444,11 +14284,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Schlusswort auf der PEN-Generalversammlung]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02839/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Schlusswort auf der PEN-Generalversammlung]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02839/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl00133> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Toscaninis Absage an Bayreuth"@en ;
@@ -15307,11 +15142,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Ansprache an der Bergakademie Clausthal-Zellerfeld]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03301/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Ansprache an der Bergakademie Clausthal-Zellerfeld]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03301/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl03303> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Ein Denkmal der deutschen Arbeit in Berlin"@en ;
@@ -15646,11 +15476,6 @@
   rdf:value "[Ansprache auf der Festkundgebung des Wiener
 						Heimatschutzes]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02954/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Ansprache auf der Festkundgebung des Wiener Heimatschutzes]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02954/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl00140> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Aufgabe des Deutschen Bauernbundes in Oesterreich"@en ;
@@ -15764,11 +15589,6 @@
   rdf:value "[Ansprache auf der Heldengedenkfeier der Kärntner Bauernwehr
 						und des Junglandbundes]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02950/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Ansprache auf der Heldengedenkfeier der Kärntner Bauernwehr und des Junglandbundes]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02950/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl02340> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Frau Undset gefällt der Scheiterhaufen"@en ;
@@ -17434,11 +17254,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Ansprache in den Wimberger-Sälen]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02970/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Ansprache in den Wimberger-Sälen]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02970/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl00736> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Kleines Geburtstagsgeschenk"@en ;
@@ -19847,11 +19662,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Rede im Münchner Rundfunk]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02376/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede im Münchner Rundfunk]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02376/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl01237> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Politische Sterilisierung"@en ;
@@ -20687,11 +20497,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Die Büchse der Pandora" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02578/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Die Büchse der Pandora"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02578/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl01943> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Mussolinis Gespräche mit Emil Ludwig"@en ;
@@ -20873,11 +20678,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Ball im Savoy" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl01932/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Ball im Savoy"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl01932/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl02759> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Uniformierte Nazi morden an der Grenze"@en ;
@@ -21232,11 +21032,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Rede auf einer Amtswaltertagung in Königsberg]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02052/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede auf einer Amtswaltertagung in Königsberg]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02052/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl00201> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Eine Mitteilung der bayerischen politischen Polizei"@en ;
@@ -23442,11 +23237,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Reden vor dem römischen Senat]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl01701/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Reden vor dem römischen Senat]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl01701/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00219> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Sonne bringt es an den Tag"@en ;
@@ -23517,11 +23307,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Die Göttliche Komödie" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00221/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Die Göttliche Komödie"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00221/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl00224> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Wehrdienst des Geistes"@en ;
@@ -26855,11 +26640,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Nachgelassenes Fragment]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03759/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Nachgelassenes Fragment]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03759/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl01665> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Deutsche Frau raucht nicht!"@en ;
@@ -30257,11 +30037,6 @@
   rdf:value "Tragödie in 5 Akten mit Vorspiel und
 						Epilog" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00294/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Die letzten Tage der Menschheit"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00294/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl01979> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Gruppenbild mit Leichnam Cesare Battistis]"@en ;
@@ -36577,11 +36352,6 @@
   rdf:value "[Rede im Hotel Kaiserhof vor den deutschen
 						Theaterleitern]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00330/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Die Aufgaben des deutschen Theaters"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00330/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00331> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Rede anlässlich der Bücherverbrennung am Berliner Opernplatz]"@en ;
@@ -36596,11 +36366,6 @@
   rdf:value "[Rede anlässlich der Bücherverbrennung am Berliner
 						Opernplatz]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00331/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede anlässlich der Bücherverbrennung am Berliner Opernplatz]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00331/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl03446> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Reichsminister Dr. Goebbels spricht auf dem Opernplatz. „Das Alte liegt in den Flammen“"@en ;
@@ -37058,11 +36823,6 @@
   rdf:value "[Rede vor der „Berufsgruppe Film“ in den Tennishallen,
 						Berlin]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl01952/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede vor der „Berufsgruppe Film“ in den Tennishallen, Berlin]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl01952/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl03512> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Rede vor Schriftstellern und Verlegern im Hotel Kaiserhof]"@en ;
@@ -37077,11 +36837,6 @@
   rdf:value "[Rede vor Schriftstellern und Verlegern im Hotel
 						Kaiserhof]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03512/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede vor Schriftstellern und Verlegern im Hotel Kaiserhof]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03512/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl03815> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: „Lernt das Volk verstehen“"@en ;
@@ -37236,11 +36991,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Aufstieg und Fall der Stadt Mahagonny" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl04110/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Aufstieg und Fall der Stadt Mahagonny"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl04110/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00336> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Der Revisor"@en ;
@@ -37253,11 +37003,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Der Revisor" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00336/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Der Revisor"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00336/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00337> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Der Traum, ein Leben"@en ;
@@ -37270,11 +37015,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Der Traum, ein Leben" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00337/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Der Traum, ein Leben"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00337/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl00338> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Rotkäppchen"@en ;
@@ -37471,11 +37211,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Hanneles Himmelfahrt" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00346/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Hanneles Himmelfahrt"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00346/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00610> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Atta Troll"@en ;
@@ -38369,11 +38104,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Interview]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03912/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Interview]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03912/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl03917> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Goebbels verhöhnt das Zentrum"@en ;
@@ -38466,11 +38196,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Ansprache vor der Hitlerjugend in Breslau]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03919/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Ansprache vor der Hitlerjugend in Breslau]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03919/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl03921> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Anfang oder Ende der Nazi-Revolution?"@en ;
@@ -38661,11 +38386,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Ansprache]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03929/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Ansprache]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03929/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl03944> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Reichsregierung beklagt sich über Sir John Simon"@en ;
@@ -38981,11 +38701,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Tora / Fünf Bücher Mose" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03956/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Tora / Fünf Bücher Mose"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03956/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl03958> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Der Untergang des Abendlandes"@en ;
@@ -39929,11 +39644,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Traumstück" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03996/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Traumstück"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03996/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl03998> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Der Nobelpreis"@en ;
@@ -40542,11 +40252,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Reichstagsrede zum deutschen Kolonialismus]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03195/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Reichstagsrede zum deutschen Kolonialismus]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03195/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl01960> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Ansprache am Kongreß der „Deutschen Arbeitsfront“ in Berlin]"@en ;
@@ -40561,11 +40266,6 @@
   rdf:value "[Ansprache am Kongreß der „Deutschen Arbeitsfront“ in
 						Berlin]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl01960/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Ansprache am Kongreß der „Deutschen Arbeitsfront“ in Berlin]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl01960/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl02841> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Zur Schlichtung des Konflikts zwischen der Türkei und Russland]"@en ;
@@ -40580,11 +40280,6 @@
   rdf:value "[Zur Schlichtung des Konflikts zwischen der Türkei und
 						Russland]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02841/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Zur Schlichtung des Konflikts zwischen der Türkei und Russland]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02841/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl03514> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Rede zur Außenpolitik im Reichstag]"@en ;
@@ -40597,11 +40292,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Rede zur Außenpolitik im Reichstag]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03514/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede zur Außenpolitik im Reichstag]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03514/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl03472> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Neue Kampfansage Hitlers an den Marxismus"@en ;
@@ -40917,11 +40607,6 @@
   rdf:value "[Rede auf einer Kundgebung der Deutschen Arbeitsfront in
 						Leipzig]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03796/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede auf einer Kundgebung der Deutschen Arbeitsfront in Leipzig]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03796/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl03780> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Neudeck"@en ;
@@ -41127,11 +40812,6 @@
   rdf:value "[Vortrag auf einem Presseempfang des Reichsministeriums für
 						Landwirtschaft]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03778/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Vortrag auf einem Presseempfang des Reichsministeriums für Landwirtschaft]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03778/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl03773> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Luftschutz, die Forderung der Nation!"@en ;
@@ -41524,11 +41204,6 @@
   rdf:value "[Wortmeldungen auf der Internationalen Arbeitskonferenz in
 						Genf]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03817/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Wortmeldungen auf der Internationalen Arbeitskonferenz in Genf]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03817/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl03229> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Adolf Hitlers große Rede auf der Kulturtagung. Nationalsozialismus als Weltanschauung"@en ;
@@ -41648,11 +41323,6 @@
   rdf:value "Die deutsche Kunst als stolzeste Verteidigung des deutschen
 						Volkes" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03080/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Die deutsche Kunst als stolzeste Verteidigung des deutschen Volkes"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03080/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl03821> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Deutschland muss jede Intervention ablehnen"@en ;
@@ -41852,11 +41522,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Rede vor SA und SS in Kiel]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03451/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede vor SA und SS in Kiel]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03451/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl00034> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Aufruf der Parteileitung der N.S.D.A.P. / Samstag, Schlag 10 Uhr, wird das Judentum wissen, wem es den Kampf angesagt hat!"@en ;
@@ -42270,11 +41935,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Ilias" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00356/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Ilias"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00356/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00609> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Brief an Willibald Birckheimer]"@en ;
@@ -42332,11 +41992,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Schlageter" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00358/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Schlageter"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00358/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00359> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Saturae / Satiren"@en ;
@@ -42898,11 +42553,6 @@
   rdf:value "[Kolportierter Ausspruch Kaiser Wilhelms angesichts deutscher
 						Gefallener]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02721/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Kolportierter Ausspruch Kaiser Wilhelms angesichts deutscher Gefallener]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02721/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl02278> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Auseinandersetzung mit Romain Rolland"@en ;
@@ -43622,11 +43272,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Emilia Galotti" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00377/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Emilia Galotti"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00377/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00378> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Nathan der Weise"@en ;
@@ -43639,11 +43284,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Nathan der Weise" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00378/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Nathan der Weise"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00378/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00379> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Sudelbücher, Heft D"@en ;
@@ -43669,11 +43309,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Sudelbücher, Heft D" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00379/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Sudelbücher, Heft D"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00379/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00380> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Sudelbücher, Heft K"@en ;
@@ -43699,11 +43334,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Sudelbücher, Heft K" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00380/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Sudelbücher, Heft K"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00380/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00381> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Sudelbücher, Heft L"@en ;
@@ -43729,11 +43359,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Sudelbücher, Heft L" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00381/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Sudelbücher, Heft L"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00381/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: "@en ;
@@ -43829,11 +43454,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Der Talisman" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00384/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Der Talisman"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00384/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00385> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Der böse Geist Lumpazivagabundus oder Das liederliche Kleeblatt"@en ;
@@ -43848,11 +43468,6 @@
   rdf:value "Der böse Geist Lumpazivagabundus oder Das liederliche
 						Kleeblatt" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00385/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Der böse Geist Lumpazivagabundus oder Das liederliche Kleeblatt"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00385/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00607> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Kampl"@en ;
@@ -43865,11 +43480,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Kampl" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00607/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Kampl"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00607/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl00387> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Ostern im Dritten Reich"@en ;
@@ -44557,11 +44167,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Rede bei der 199. Bundesratssitzung]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02918/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede bei der 199. Bundesratssitzung]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02918/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl03742> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Bundesrat"@en ;
@@ -44654,11 +44259,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Wortwechsel während der 199. Bundesratssitzung]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03491/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Wortwechsel während der 199. Bundesratssitzung]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03491/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl02921> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Trotz alledem!"@en ;
@@ -45220,11 +44820,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Ansprache in Bregenz]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03942/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Ansprache in Bregenz]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03942/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl03380> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Harter Kampf um Lausanne im Parlament"@en ;
@@ -46479,11 +46074,6 @@
   rdf:value "[Ansprache auf der Kundgebung „Für deutsches Recht und deutsche
 						Rechtspflege“ in Berlin]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02594/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Ansprache auf der Kundgebung „Für deutsches Recht und deutsche Rechtspflege“ in Berlin]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02594/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl01821> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Adolf Hitler kündet der Welt Deutschlands Friedenswillen"@en ;
@@ -46597,11 +46187,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[sog. „Friedensrede“ vor dem Reichstag]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02831/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [sog. „Friedensrede“ vor dem Reichstag]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02831/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl01955> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Zukunft des deutschen Films"@en ;
@@ -46799,11 +46384,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Heinrich von Ofterdingen" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00410/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Heinrich von Ofterdingen"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00410/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00411> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Blaubart"@en ;
@@ -46816,11 +46396,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Blaubart" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00411/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Blaubart"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00411/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl02223> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Reise in den Mond"@en ;
@@ -46833,11 +46408,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Reise in den Mond" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02223/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Reise in den Mond"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02223/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl02640> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die schöne Helena"@en ;
@@ -46850,11 +46420,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Die schöne Helena" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02640/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Die schöne Helena"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02640/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl03636> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Der fliegende Holländer"@en ;
@@ -46875,11 +46440,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/sub> ;
   rdf:value "Romantische Oper in drei Akten" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03636/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Der fliegende Holländer"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03636/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00606> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Parsifal"@en ;
@@ -46900,11 +46460,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/sub> ;
   rdf:value "Ein Bühnenweihfestspiel" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00606/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Parsifal"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00606/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl02877> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Parzival"@en ;
@@ -46930,11 +46485,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Parzival" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02877/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Parzival"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02877/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl03637> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Philippine Welser"@en ;
@@ -46955,11 +46505,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/sub> ;
   rdf:value "Historisches Schauspiel in fünf Akten" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03637/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Philippine Welser"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03637/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00604> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Fabulae"@en ;
@@ -47030,11 +46575,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Sonett [Anstimmen darf ich ungewöhnte Töne]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00414/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Sonett [Anstimmen darf ich ungewöhnte Töne]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00414/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl02214> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Sonett [Was habt ihr denn an euerm Rhein und Ister]"@en ;
@@ -47060,11 +46600,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Sonett [Was habt ihr denn an euerm Rhein und Ister]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02214/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Sonett [Was habt ihr denn an euerm Rhein und Ister]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02214/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00418> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Sonett [Die letzte Hefe sollt’ ich noch genießen]"@en ;
@@ -47090,11 +46625,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Sonett [Die letzte Hefe sollt’ ich noch genießen]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00418/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Sonett [Die letzte Hefe sollt’ ich noch genießen]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00418/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00416> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Sonett [Es sehnt sich ewig dieser Geist ins Weite]"@en ;
@@ -47120,11 +46650,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Sonett [Es sehnt sich ewig dieser Geist ins Weite]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00416/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Sonett [Es sehnt sich ewig dieser Geist ins Weite]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00416/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00419> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Sonett [Dies Land der Mühe, dieses Land des herben]"@en ;
@@ -47150,11 +46675,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Sonett [Dies Land der Mühe, dieses Land des herben]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00419/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Sonett [Dies Land der Mühe, dieses Land des herben]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00419/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00420> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Sonett [Ihr, denen Bosheit angefrischt den Kleister]"@en ;
@@ -47357,11 +46877,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Epilog" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00428/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Epilog"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00428/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl00430> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Gesang der Polen"@en ;
@@ -50119,11 +49634,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Regierungserklärung vor dem deutschen Reichstag]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03188/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Regierungserklärung vor dem deutschen Reichstag]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03188/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl03658> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Rede in der Garnisonskirche am sog. „Tag von Potsdam“]"@en ;
@@ -50136,11 +49646,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Rede in der Garnisonskirche am sog. „Tag von Potsdam“]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03658/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede in der Garnisonskirche am sog. „Tag von Potsdam“]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03658/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl03660> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Potsdamer kgl. Theater"@en ;
@@ -50244,11 +49749,6 @@
   rdf:value "[Erklärung der Studentenschaft auf der Berliner
 						Studentendemonstration gegen Österreich]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02313/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Erklärung der Studentenschaft auf der Berliner Studentendemonstration gegen Österreich]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02313/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl02320> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Rede auf der Berliner Studendendemonstration gegen Österreich]"@en ;
@@ -50263,11 +49763,6 @@
   rdf:value "[Rede auf der Berliner Studendendemonstration gegen
 						Österreich]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02320/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede auf der Berliner Studendendemonstration gegen Österreich]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02320/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl02252> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Zwiespältige Beurteilung des Paktes"@en ;
@@ -51375,11 +50870,6 @@
   rdf:value "[Ansprache in Stuttgart anlässlich seiner Wahl zum
 						württembergischen Staatspräsidenten]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02460/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Ansprache in Stuttgart anlässlich seiner Wahl zum württembergischen Staatspräsidenten]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02460/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl00492> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Eine Polemik des Berliner Auswärtigen Amtes"@en ;
@@ -51814,11 +51304,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Ansprache im Bayerischen Rundfunk]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00368/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Ansprache im Bayerischen Rundfunk]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00368/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl00501> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Der nationalsozialistische Geschichtsunterricht"@en ;
@@ -52048,11 +51533,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Rundfunkansprache]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02858/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rundfunkansprache]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02858/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl01474> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Ein Erlaß Görings gegen die „Miesmacher“"@en ;
@@ -52429,11 +51909,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Ausspruch im Gespräch mit Sir Edward Goschen]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02846/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Ausspruch im Gespräch mit Sir Edward Goschen]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02846/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl02847> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Betrachtungen zum Weltkriege"@en ;
@@ -52612,11 +52087,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Wallensteins Tod" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00506/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Wallensteins Tod"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00506/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00508> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die unüberwindliche Flotte"@en ;
@@ -52761,11 +52231,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Die Braut von Messina oder die feindlichen Brüder" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00509/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Die Braut von Messina oder die feindlichen Brüder"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00509/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00510> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Räuber"@en ;
@@ -52778,11 +52243,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Die Räuber" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00510/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Die Räuber"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00510/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00511> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Verschwörung des Fiesco zu Genua"@en ;
@@ -52795,11 +52255,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Die Verschwörung des Fiesco zu Genua" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00511/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Die Verschwörung des Fiesco zu Genua"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00511/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00512> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Maria Stuart"@en ;
@@ -52812,11 +52267,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Maria Stuart" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00512/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Maria Stuart"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00512/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00579> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Wilhelm Tell"@en ;
@@ -52829,11 +52279,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Wilhelm Tell" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00579/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Wilhelm Tell"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00579/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00515> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Parerga und Paralipomena"@en ;
@@ -52949,11 +52394,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Hercules furens" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00517/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Hercules furens"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00517/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl02828> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Sprichwort]"@en ;
@@ -55326,11 +54766,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Aeneis" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00539/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Aeneis"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00539/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl04120> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Ab urbe condita libri, V"@en ;
@@ -55394,11 +54829,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Das Erkennen" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00540/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Das Erkennen"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00540/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl01763> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Wenn die Künstler wüßten ..."@en ;
@@ -55960,11 +55390,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Rede auf der Stahlhelm-Kundgebung in Münster]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02295/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede auf der Stahlhelm-Kundgebung in Münster]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02295/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl02042> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Rede auf einer Grenzlandtagung auf der Iburg im Teutoburger Wald]"@en ;
@@ -55979,11 +55404,6 @@
   rdf:value "[Rede auf einer Grenzlandtagung auf der Iburg im Teutoburger
 						Wald]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02042/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede auf einer Grenzlandtagung auf der Iburg im Teutoburger Wald]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02042/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl01934> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Briganten / Die Banditen"@en ;
@@ -55996,11 +55416,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Die Briganten / Die Banditen" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl01934/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Die Briganten / Die Banditen"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl01934/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl03563> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Offenbach-Zyklus, Textfassung und Wortregie: Karl Kraus]"@en ;
@@ -56175,11 +55590,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Götterdämmerung" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl01518/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Götterdämmerung"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl01518/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl00563> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Über Staat und Religion"@en ;
@@ -56548,11 +55958,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/sub> ;
   rdf:value "[Kunstklage II – L. 32,7]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00554/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Nv wil ich mich des scharpfen sanges och genieten"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00554/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl02490> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Konzentrationslager sind „Internate“"@en ;
@@ -59282,11 +58687,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[„Feuersprüche“ zur Bücherverbrennung]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02186/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [„Feuersprüche“ zur Bücherverbrennung]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02186/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl00577> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Eine Frage an die „Wiener Zeitung“"@en ;
@@ -59720,11 +59120,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Ansprache im CBS-Radio]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03324/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Ansprache im CBS-Radio]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03324/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl02621> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Das mysteriöse Friedensangebot"@en ;
@@ -59855,11 +59250,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Rede in der Chemnitzer Stadthalle]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02534/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede in der Chemnitzer Stadthalle]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02534/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl00587> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Ein „Überpreußen“"@en ;
@@ -60863,11 +60253,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Rede zur Parteigründungsfeier im Münchner Hofbräuhaus]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02517/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede zur Parteigründungsfeier im Münchner Hofbräuhaus]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02517/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl01550> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Können Sie schweigen?"@en ;
@@ -61631,11 +61016,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Rede an die Reichsstatthalter in Berlin]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03127/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede an die Reichsstatthalter in Berlin]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03127/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl03416> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Königsberger Vortrag zur „kommenden Reichsverfassung“]"@en ;
@@ -61650,11 +61030,6 @@
   rdf:value "[Königsberger Vortrag zur
 						„kommenden Reichsverfassung“]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03416/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Königsberger Vortrag zur „kommenden Reichsverfassung“]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03416/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl03608> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die künftige Reichsverfassung"@en ;
@@ -63179,11 +62554,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Begründung einer dringlichen Anfrage an die Regierung]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00642/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Begründung einer dringlichen Anfrage an die Regierung]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00642/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl00648> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Liebeskunst des Dritten Reiches"@en ;
@@ -65068,11 +64438,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Rede im Münchner Rundfunk]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02391/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede im Münchner Rundfunk]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02391/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl02345> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Frage der Demarche in Berlin"@en ;
@@ -65310,11 +64675,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Ansprache auf der Tagung des Pommerschen Landbundes]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02289/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Ansprache auf der Tagung des Pommerschen Landbundes]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02289/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl02288> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Wo hab' ich denn die schönen blauen Augen her?"@en ;
@@ -65502,11 +64862,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "Volk an der Arbeit [Rundfunkansprache]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03197/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: Volk an der Arbeit [Rundfunkansprache]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03197/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl02481> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Greuel des Dritten Reiches"@en ;
@@ -66008,11 +65363,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Rede am Gauparteitag Thüringen in Weimar]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02057/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede am Gauparteitag Thüringen in Weimar]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02057/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl00678> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Nationalsozialistische Schulung der preußischen Beamten"@en ;
@@ -67220,11 +66570,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Rede im Berliner Sportpalast]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02163/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede im Berliner Sportpalast]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02163/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl00692> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Der Kampf ums Recht"@en ;
@@ -67922,11 +67267,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Rede vor Amtswaltern im Berliner Sportpalast]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl00704/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede vor Amtswaltern im Berliner Sportpalast]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00704/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl02259> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Das Programm der N.S.D.A.P. und seine weltanschaulichen Grundgedanken"@en ;
@@ -67983,11 +67323,6 @@
   rdf:value "[Erklärung vor einer Tagung deutschnationaler
 						Industrieller]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02240/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Erklärung vor einer Tagung deutschnationaler Industrieller]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02240/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl03133> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Das 25-Punkte-Programm der Nationalsozialistischen Deutschen Arbeiterpartei"@en ;
@@ -68131,11 +67466,6 @@
   rdf:value "[Rede am Kongress der Sozialistischen Arbeiter-Internationale
 						in Paris]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02108/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede am Kongress der Sozialistischen Arbeiter-Internationale in Paris]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02108/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl00706> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Göring war im Irrenhaus!"@en ;
@@ -71464,11 +70794,6 @@
   rdf:value "[Rede vor einer nationalsozialistischen Versammlung in
 						Graz]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03499/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede vor einer nationalsozialistischen Versammlung in Graz]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03499/published-expression> .
-
 #F22
 <https://sk.acdh.oeaw.ac.at/DWbibl02590> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: [Stellungnahme zur Ankunft der nationalsozialistischen Minister und Funktionäre]"@en ;
@@ -73040,11 +72365,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Rede vor der Hauptversammlung der Kaiser-Wilhelm-Gesellschaft]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03590/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede vor der Hauptversammlung der Kaiser-Wilhelm-Gesellschaft]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03590/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl00765> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Die Reichenhaller Rede Hitlers"@en ;
@@ -73154,11 +72474,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Rede auf einer Führertagung von SA, SS und Stahlhelm in Reichenhall]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02196/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede auf einer Führertagung von SA, SS und Stahlhelm in Reichenhall]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02196/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl02099> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Der kategorische Imperativ in der Politik"@en ;
@@ -73853,11 +73168,6 @@
   rdf:value "[Ansprache vor den Vertretern des Offizierskorps und der
 						Beamtenschaft der Schutzpolizei]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03160/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Ansprache vor den Vertretern des Offizierskorps und der Beamtenschaft der Schutzpolizei]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03160/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl03354> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Deutschland ist nicht Italien ... "@en ;
@@ -74051,11 +73361,6 @@
   rdf:value "[Rede zur Wirtschaftspolitik vor Gauleitern,
 						NSBO-Landesobleuten und „Treuhändern der Arbeit“ in Berlin]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl03191/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Rede zur Wirtschaftspolitik vor Gauleitern, NSBO-Landesobleuten und „Treuhändern der Arbeit“ in Berlin]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl03191/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl00783> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Vermögenseinziehung und Aberkennung der deutschen Staatsangehörigkeit"@en ;
@@ -75088,11 +74393,6 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Ansprache vor Vertretern der ausländischen Presse]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl02209/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Ansprache vor Vertretern der ausländischen Presse]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl02209/published-expression> .
-
 #F22 art-issue
 <https://sk.acdh.oeaw.ac.at/DWbibl02324> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Expression: Aufdeckung nationalsozialistischer Betätigung in Baden"@en ;
@@ -77308,8 +76608,3 @@
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   rdf:value "[Wortmeldung]" .
     
-#F30
-<https://sk.acdh.oeaw.ac.at/DWbibl04134/publication> a frbroo:F30_Publication_Event ;
-  rdfs:label "Publication of: [Wortmeldung]"@en ;
-  cidoc:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl04134/published-expression> .
-

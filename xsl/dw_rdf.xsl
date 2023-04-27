@@ -687,6 +687,7 @@
   </xsl:template>
   
   <xsl:template name="create-F30">
+    <xsl:if test="not(tei:date/tei:note/text()='UA' or tei:date/tei:note/text()='Entst.')">
       <xsl:variable name="title">
         <xsl:call-template name="get-F22-title"/>
       </xsl:variable>
@@ -698,15 +699,13 @@
 </xsl:text>
       <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/publication&gt; a frbroo:F30_Publication_Event ;
   rdfs:label &quot;Publication of: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
-  cidoc:R24_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/published-expression&gt;</xsl:text>
-    <xsl:if test="not(tei:date/tei:note/text()='UA' or tei:date/tei:note/text()='Entst.')">
-      <xsl:text> ;
-  cidoc:P4_has_time-span &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/publication/time-span&gt;</xsl:text>
-    </xsl:if>
-    <xsl:text> .
+  cidoc:R24_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/published-expression&gt; ;
+  cidoc:P4_has_time-span &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/publication/time-span&gt; .
 
 </xsl:text>
+    </xsl:if>
   </xsl:template>
+  
   <xsl:template name="create-F30-issue">
       <xsl:variable name="title">
         <xsl:call-template name="get-F24-title"/>
