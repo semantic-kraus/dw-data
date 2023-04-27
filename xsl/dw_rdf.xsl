@@ -197,7 +197,6 @@
 </xsl:text>
     <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-period"/><xsl:text>&gt; a frbroo:F24_Publication_Expression ;
   rdfs:label &quot;Periodical: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
-  cidoc:P1_is_identified_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-period"/><xsl:text>/appellation/0&gt; ;
   frbroo:R5_has_component &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-issue"/><xsl:text>/published-expression&gt; .
 
 </xsl:text>
