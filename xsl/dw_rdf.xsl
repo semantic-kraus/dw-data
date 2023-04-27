@@ -17,6 +17,7 @@
     <xsl:choose>
       <xsl:when test="tei:title[@level = 'a']">
         <xsl:call-template name="create-bibl-F22-art-issue"/>
+        <xsl:call-template name="create-bibl-INT16-segment"/>
         <xsl:call-template name="create-F28"/>
         <xsl:call-template name="create-E52-creation-timespan"/>
         <xsl:call-template name="create-F22-title-art-issue"/>
@@ -127,6 +128,32 @@
     </xsl:if>
     <xsl:text> ;  
   cidoc:P165i_is_incorporated_in &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-issue"/><xsl:text>&gt; .
+    
+</xsl:text>
+  </xsl:template>
+  
+  <xsl:template name="create-bibl-INT16-segment">
+    <xsl:variable name="title">
+      <xsl:call-template name="get-F22-title"/>
+    </xsl:variable>
+    <xsl:variable name="uri-f22">
+      <xsl:call-template name="get-F22-uri"/>
+    </xsl:variable>
+    <xsl:variable name="uri-issue">
+      <xsl:call-template name="get-issue-uri"/>
+    </xsl:variable>
+
+    <xsl:text>#INT16 segment
+</xsl:text>
+    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>/segment&gt; a ns1:INT16_Segment ;
+  rdfs:label &quot;Segment: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
+  ns1:R16_incorporates &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>&gt;</xsl:text>    
+    <xsl:if test="tei:biblScope">
+      <xsl:text> ;
+  ns1:R41_has_location &quot;</xsl:text><xsl:value-of select="biblScope"/><xsl:text>&quot;^^xsd:string ;</xsl:text>   
+    </xsl:if>
+    <xsl:text> ;  
+  ns1:R25_is_segment_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-issue"/><xsl:text>/published-expression&gt; .
     
 </xsl:text>
   </xsl:template>
