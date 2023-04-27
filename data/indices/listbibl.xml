@@ -10351,10 +10351,10 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 				
 				<bibl source="_" xml:id="DWbibl03562" sortKey="Kraus_Karl#Offenbach_Jacques">
-					<title level="s">[Offenbach-Zyklus, Textfassung und Wortregie: Karl Kraus]</title>
+					<title level="a">[Offenbach-Zyklus, Textfassung und Wortregie: Karl Kraus]</title>
 					<title level="j" key="#DWbibl04294">Funk-Stunde Berlin</title>
-					<date notBefore="1930-03-09" notAfter="1932-01-14" key="#DWbibl04966">9. 3. 1930 – 14. 1. 1932<note>UA</note></date>
-					<citedRange xml:id="DWbibl03563" wholePeriodical="yes"/>
+					<date notBefore="1930-03-09" notAfter="1932-01-14" key="#DWbibl04966">9. 3. 1930 – 14. 1. 1932</date>
+					<citedRange xml:id="DWbibl03563" wholeText="yes"/>
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl01936" sortKey="Freud_Sigmund">
