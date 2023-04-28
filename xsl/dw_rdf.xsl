@@ -227,7 +227,7 @@ R41_has_location wird immer aus citedRange/text() befüllt - und wenn kein Text 
   ns1:R10_is_Text_Passage_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>&gt;</xsl:text>    
       <xsl:if test="not(starts-with($citedRange, 'S. '))">
         <xsl:text> ;
-  ns1:R41_has_location &quot;</xsl:text><xsl:value-of select="$citedRange"/><xsl:text>&quot;^^xsd:string</xsl:text>   
+  ns1:R41_has_location &quot;</xsl:text><xsl:value-of select="$citedRange"/><xsl:text>&quot;</xsl:text>   
       </xsl:if>
       <xsl:text> ;  
   ns1:R44_has_wording &quot;</xsl:text><xsl:value-of select="tei:note[@type='context']/text()"/><xsl:text>&quot;@und .   
@@ -559,7 +559,7 @@ R41_has_location wird immer aus citedRange/text() befüllt - und wenn kein Text 
     <xsl:text>#F24 appellation title0
 </xsl:text>
     <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation-title/0&gt; a cidoc:E90_Symbolic_Object ;
-  rdfs:label &quot;Appellation Part: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en 
+  rdfs:label &quot;Appellation Part: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
   cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation/0&gt; ;  
   cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/title/main&gt; ;
   rdf:value &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot; .
