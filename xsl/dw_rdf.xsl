@@ -171,7 +171,7 @@
       <xsl:variable name="uri-issue">
         <xsl:call-template name="get-issue-uri"/>
       </xsl:variable>
-      <xsl:for-each select="tei:citedRange[count(node()) &gt; 0 and count(*)!=count(node())]">
+      <xsl:for-each select="tei:citedRange[not(@wholeText) and not(@wholePeriodical)]">
         <xsl:variable name="citedRange" select="replace(translate(text(), '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>  
         
         <xsl:text>#INT1-INT16 textpassage segment
@@ -184,56 +184,52 @@
         </xsl:if>
         <xsl:text> ;
   ns1:R16_incorporates &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>/passage/</xsl:text><xsl:value-of select="position() - 1"/><xsl:text>&gt;</xsl:text>
-    
-       
-        <xsl:text> ;  
-  ns1:R25_is_segment_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-issue"/><xsl:text>/published-expression&gt; .
+        <xsl:if test="$citedRange!=''">
+          <xsl:text> ;
+  ns1:R41_has_location &quot;</xsl:text><xsl:value-of select="$citedRange"/><xsl:text>&quot;^^xsd:string</xsl:text>   
+        </xsl:if>
+        <xsl:if test="tei:note[@type='context']">
+          <xsl:text> ;
+  ns1:R44_has_wording &quot;</xsl:text><xsl:value-of select="tei:note[@type='context']/text()"/><xsl:text>&quot;@und</xsl:text>
+        </xsl:if>
+        <xsl:text> .
     
 </xsl:text>
       </xsl:for-each>
     </xsl:if>
   </xsl:template>
-  
-  <!-- 
-Basis-URI]/segment/[n] a ns1:INT16_Segment ;
-    rdfs:label "Text segment from: [title[@level="a, sonst m"]/text()]"@en ;
-    schema:pagination "S. 1" ;
-    ns1:R16_incorporates [Basis-URI]/passage/[n] ;
-    ns1:R41_has_location "S. 1" ;
-    ns1:R44_has_wording "citedRange/note[@type="context"]/text()"@und .
 
-Zweites Achtung: schema:pagination wird nur erstellt, wenn citedRange/text() mit "S." beginnt. 
-R41_has_location wird immer aus citedRange/text() befüllt - und wenn kein Text drin steht, nicht erstellt.  
-  -->
+  <xsl:template name="create-INT1-textpassage">    
+      <xsl:variable name="title">
+        <xsl:call-template name="get-F22-title"/>
+      </xsl:variable>
+      <xsl:variable name="uri-f22">
+        <xsl:call-template name="get-F22-uri"/>
+      </xsl:variable>
+      <xsl:variable name="uri-issue">
+        <xsl:call-template name="get-issue-uri"/>
+      </xsl:variable>
   
-  <xsl:template name="create-INT1-textpassage">      
-    <xsl:variable name="title">
-      <xsl:call-template name="get-F22-title"/>
-    </xsl:variable>
-    <xsl:variable name="uri-f22">
-      <xsl:call-template name="get-F22-uri"/>
-    </xsl:variable>
-    <xsl:variable name="uri-issue">
-      <xsl:call-template name="get-issue-uri"/>
-    </xsl:variable>
-
-    <xsl:for-each select="tei:citedRange[count(node()) &gt; 0 and count(*)!=count(node())]">
-      <xsl:variable name="citedRange" select="replace(translate(text(), '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>  
-      
-      <xsl:text>#INT1 textpassage 
+      <xsl:for-each select="tei:citedRange[not(@wholeText) and not(@wholePeriodical)]">
+        <xsl:variable name="citedRange" select="replace(translate(text(), '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>  
+        
+        <xsl:text>#INT1 textpassage 
 </xsl:text>
-      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>/passage/</xsl:text><xsl:value-of select="position() - 1"/><xsl:text>&gt; a ns1:INT1_TextPassage ;
+        <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>/passage/</xsl:text><xsl:value-of select="position() - 1"/><xsl:text>&gt; a ns1:INT1_TextPassage ;
   rdfs:label &quot;Text passage from: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
   ns1:R10_is_Text_Passage_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>&gt;</xsl:text>    
-      <xsl:if test="not(starts-with($citedRange, 'S. '))">
-        <xsl:text> ;
-  ns1:R41_has_location &quot;</xsl:text><xsl:value-of select="$citedRange"/><xsl:text>&quot;</xsl:text>   
-      </xsl:if>
-      <xsl:text> ;  
-  ns1:R44_has_wording &quot;</xsl:text><xsl:value-of select="tei:note[@type='context']/text()"/><xsl:text>&quot;@und .   
+        <xsl:if test="not(starts-with($citedRange, 'S. '))">
+          <xsl:text> ;
+  ns1:R41_has_location &quot;</xsl:text><xsl:value-of select="$citedRange"/><xsl:text>&quot;^^xsd:string</xsl:text>   
+        </xsl:if>
+        <xsl:if test="tei:note[@type='context']">
+          <xsl:text> ;
+  ns1:R44_has_wording &quot;</xsl:text><xsl:value-of select="tei:note[@type='context']/text()"/><xsl:text>&quot;@und</xsl:text>
+        </xsl:if>
+        <xsl:text> .
     
 </xsl:text>
-    </xsl:for-each>
+      </xsl:for-each>
   </xsl:template>
   
   <xsl:template name="create-bibl-F22-issue">
@@ -559,7 +555,7 @@ R41_has_location wird immer aus citedRange/text() befüllt - und wenn kein Text 
     <xsl:text>#F24 appellation title0
 </xsl:text>
     <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation-title/0&gt; a cidoc:E90_Symbolic_Object ;
-  rdfs:label &quot;Appellation Part: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
+  rdfs:label &quot;Appellation Part: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en 
   cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/appellation/0&gt; ;  
   cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/title/main&gt; ;
   rdf:value &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot; .
