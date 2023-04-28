@@ -25,16 +25,12 @@
         <xsl:call-template name="create-bibl-F22-issue"/>
         <xsl:call-template name="create-F22-title-issue"/>
         <xsl:call-template name="create-bibl-F24-issue"/>
-        <xsl:call-template name="create-F30-issue"/>
-        <xsl:call-template name="create-E52-publication-timespan"/>
       </xsl:when>
       <xsl:when test="tei:editor">
         <xsl:call-template name="create-bibl-F22-art-edissue"/>
         <xsl:call-template name="create-F22-title-art-edissue"/>
         <xsl:call-template name="create-F22-subtitle-art-edissue"/>
         <xsl:call-template name="create-bibl-F24-issue"/>
-        <xsl:call-template name="create-F30-issue"/>
-        <xsl:call-template name="create-E52-publication-timespan-issue"/>
       </xsl:when>
       <xsl:otherwise>
         <xsl:call-template name="create-bibl-F22"/>
@@ -43,10 +39,14 @@
         <xsl:call-template name="create-F22-title"/>
         <xsl:call-template name="create-F22-subtitle"/>
         <xsl:call-template name="create-bibl-F24"/>
-        <xsl:call-template name="create-F30"/>
-        <xsl:call-template name="create-E52-publication-timespan"/>
       </xsl:otherwise>
     </xsl:choose>    
+    
+    <xsl:call-template name="create-F30-issue"/>
+    <xsl:call-template name="create-E52-publication-timespan"/>
+    <xsl:call-template name="create-F31"/>
+    <xsl:call-template name="create-E52-performance-timespan"/>
+    
     <xsl:choose>
       <xsl:when test="tei:title[@level = 'j'] and tei:date">
           <xsl:call-template name="create-bibl-F24-periodical"/>
@@ -896,6 +896,54 @@
     
 </xsl:text>      
       </xsl:if>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template name="create-F31">
+    <xsl:if test="tei:date/tei:note/text()='UA'">
+      <xsl:variable name="title">
+        <xsl:call-template name="get-F22-title"/>
+      </xsl:variable>
+      <xsl:variable name="uri">
+        <xsl:call-template name="get-F22-uri"/>      
+      </xsl:variable>
+      
+      <xsl:text>#F31 performance for F22
+</xsl:text>
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/performance&gt; a frbroo:F31_Performance ;
+  rdfs:label &quot;Performance / Recital of: </xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
+  frbroo:R66_included_performed_version_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>&gt; ;
+  cidoc:P4_has_time-span &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/performance/time-span&gt; ;
+  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/event/first&gt; .
+
+</xsl:text>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template name="create-E52-performance-timespan">
+    <xsl:if test="tei:date/tei:note/text()='UA' and tei:date[@when or (@notBefore and @notAfter)]">
+        <xsl:variable name="uri">
+          <xsl:call-template name="get-F22-uri"/>      
+        </xsl:variable>
+        <xsl:variable name="title">
+          <xsl:call-template name="get-timespan-title"/>
+        </xsl:variable>
+        <xsl:variable name="begin-date">
+          <xsl:call-template name="get-timespan-begin"/>          
+        </xsl:variable>
+        <xsl:variable name="end-date">
+          <xsl:call-template name="get-timespan-end"/>          
+        </xsl:variable>
+        
+        <xsl:text>#E52 performance time-span
+</xsl:text>
+        <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/performance/time-span&gt; a cidoc:E52_Time-Span ;
+  rdfs:label &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
+  cidoc:P4i_is_time-span_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri"/><xsl:text>/performance&gt; ;
+  cidoc:P82a_begin_of_the_begin </xsl:text><xsl:value-of select="$begin-date"/><xsl:text> ;
+  cidoc:P82b_end_of_the_end </xsl:text><xsl:value-of select="$end-date"/><xsl:text> .  
+    
+</xsl:text>      
     </xsl:if>
   </xsl:template>
 
