@@ -10,7 +10,9 @@ jobs:
     - name: Perform Checkout
       uses: actions/checkout@v3
     - name: xslt
-      run: apt-get update && apt-get install openjdk-11-jre-headless -y --no-install-recommend
+      run: |
+        apt-get update && apt-get install openjdk-11-jre-headless -y --no-install-recommend
+        echo "hallo"
     - name: pip
       run: pip install -r requirements.txt
     - name: build
