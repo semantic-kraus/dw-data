@@ -12,11 +12,12 @@ jobs:
     - name: xslt
       run: |
         apt-get update && apt-get install openjdk-11-jre-headless -y --no-install-recommend
-        ./dl_saxon_and_transform.sh
     - name: pip
       run: pip install -r requirements.txt
     - name: build
       run: ./build.sh
+    - name: xslt
+      run: ./dl_saxon_and_transform.sh
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
