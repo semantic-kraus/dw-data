@@ -272,7 +272,7 @@
       </xsl:variable>
       
       <xsl:text>#F24
-  </xsl:text>
+</xsl:text>
       <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f24"/><xsl:text>/published-expression&gt; a frbroo:F24_Publication_Expression ;
   rdfs:label &quot;</xsl:text><xsl:value-of select="$title"/><xsl:text>&quot;@en ;
   cidoc:P1_is_identified_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text><xsl:value-of select="$uri-f22"/><xsl:text>/appellation/0&gt; ;
