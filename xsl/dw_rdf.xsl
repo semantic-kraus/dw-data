@@ -48,7 +48,7 @@
       </xsl:otherwise>
     </xsl:choose>    
     <xsl:choose>
-      <xsl:when test="tei:title[@level = 'j']">
+      <xsl:when test="tei:title[@level = 'j'] and tei:date">
           <xsl:call-template name="create-bibl-F24-periodical"/>
           <xsl:call-template name="create-bibl-F24-appellation-periodical"/>
           <xsl:call-template name="create-F24-appellation-title0-periodical"/>
@@ -59,7 +59,7 @@
           <xsl:call-template name="create-F24-appellation-num-periodical"/>
           <xsl:call-template name="create-F24-appellation-edition-periodical"/>
       </xsl:when>
-      <xsl:when test="tei:date/tei:note/text()='UA' or tei:date/tei:note/text()='Entst.'"></xsl:when>
+      <xsl:when test="not(tei:date) or tei:date/tei:note/text()='UA' or tei:date/tei:note/text()='Entst.'"></xsl:when>
       <xsl:otherwise>
         <xsl:call-template name="create-F24-appellation"/>
         <xsl:call-template name="create-F24-appellation-title0"/>
