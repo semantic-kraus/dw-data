@@ -6862,7 +6862,7 @@ den Kampf -->
 					<title level="j" type="subtitle">Unterhaltungen für kleine Knaben und Mädchen zur Herzensbildung und Entwickelung der Begriffe</title>
 					<title level="j" type="short">Herzblättchens Zeitvertreib</title>
 					<pubPlace key="#DWplace00316">Düsseldorf</pubPlace>
-					<date notBefore="1856" notAfter="1950" key="#DWbibl04854">1856–1950</date>
+					<date notBefore="1856" notAfter="1950">1856–1950</date>
 					<citedRange xml:id="DWbibl03641" wholePeriodical="yes"/><!-- Nennung -->
 				</bibl>
 				
