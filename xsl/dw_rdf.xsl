@@ -607,6 +607,10 @@
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/title/main&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
+    <xsl:if test="starts-with($title, '[') and ends-with($title, ']')">
+      <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/title/prov&gt;</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>        
+    </xsl:if>
     <xsl:text>  rdf:value &quot;</xsl:text>
     <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
     <xsl:text>&quot;</xsl:text>
@@ -633,6 +637,10 @@
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/title/sub&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
+    <xsl:if test="starts-with($title, '[') and ends-with($title, ']')">
+      <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/title/prov&gt;</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>        
+    </xsl:if>
     <xsl:text>  rdf:value &quot;</xsl:text>
     <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
     <xsl:text>&quot;</xsl:text>
@@ -659,6 +667,10 @@
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/title/sub&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
+    <xsl:if test="starts-with($title, '[') and ends-with($title, ']')">
+      <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/title/prov&gt;</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>        
+    </xsl:if>
     <xsl:text>  rdf:value &quot;</xsl:text>
     <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
     <xsl:text>&quot;</xsl:text>
@@ -1086,6 +1098,10 @@
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/title/sub&gt;</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
+      <xsl:if test="starts-with($title, '[') and ends-with($title, ']')">
+        <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/title/prov&gt;</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>        
+      </xsl:if>
       <xsl:text>  rdf:value &quot;</xsl:text>
       <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       <xsl:text>&quot;</xsl:text>
