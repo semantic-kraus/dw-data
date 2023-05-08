@@ -113,7 +113,7 @@
     <xsl:text>&gt; a frbroo:F22_Self-Contained_Expression</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  rdfs:label &quot;Expression: </xsl:text>
-    <xsl:value-of select="$title"/>
+    <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
     <xsl:text>&quot;@en</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  cidoc:P102_has_title &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -147,7 +147,7 @@
     <xsl:text>&gt; a frbroo:F22_Self-Contained_Expression</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  rdfs:label &quot;Expression: </xsl:text>
-    <xsl:value-of select="$title"/>
+    <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
     <xsl:text>&quot;@en</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  cidoc:P102_has_title &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -185,7 +185,7 @@
     <xsl:text>/segment&gt; a ns1:INT16_Segment</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  rdfs:label &quot;Segment: </xsl:text>
-    <xsl:value-of select="$title"/>
+    <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
     <xsl:text>&quot;@en</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  ns1:R16_incorporates &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -214,7 +214,8 @@
       </xsl:variable>
       <xsl:variable name="uri-issue">
         <xsl:call-template name="get-issue-uri"/>
-      </xsl:variable>
+      </xsl:variable>      
+      <xsl:variable name="pagination" select="tei:biblScope/text()"/>      
       <xsl:for-each select="tei:citedRange[not(@wholeText) and not(@wholePeriodical)]">
         <xsl:variable name="citedRange"
           select="replace(translate(text(), '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
@@ -229,12 +230,12 @@
         <xsl:text>&gt; a ns1:INT16_Segment</xsl:text>
         <xsl:call-template name="newline-semicolon"/>
         <xsl:text>  rdfs:label &quot;Text segment from: </xsl:text>
-        <xsl:value-of select="$title"/>
+        <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
         <xsl:text>&quot;@en</xsl:text>
         <xsl:if test="starts-with($citedRange, 'S. ')">
           <xsl:call-template name="newline-semicolon"/>
           <xsl:text>  schema:pagination &quot;</xsl:text>
-          <xsl:value-of select="tei:biblScope/text()"/>
+          <xsl:value-of select="$pagination"/>
           <xsl:text>&quot;</xsl:text>
         </xsl:if>
         <xsl:call-template name="newline-semicolon"/>
@@ -252,7 +253,8 @@
         <xsl:if test="tei:note[@type = 'context']">
           <xsl:call-template name="newline-semicolon"/>
           <xsl:text>   ns1:R44_has_wording &quot;</xsl:text>
-          <xsl:value-of select="tei:note[@type = 'context']/text()"/>
+          <xsl:value-of
+            select="replace(translate(tei:note[@type = 'context']/text(), '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
           <xsl:text>&quot;@und</xsl:text>
         </xsl:if>
         <xsl:call-template name="newline-dot-newline"/>
@@ -285,7 +287,7 @@
       <xsl:text>&gt; a ns1:INT1_TextPassage</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  rdfs:label &quot;Text passage from: </xsl:text>
-      <xsl:value-of select="$title"/>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       <xsl:text>&quot;@en</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  ns1:R10_is_Text_Passage_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -300,7 +302,8 @@
       <xsl:if test="tei:note[@type = 'context']">
         <xsl:call-template name="newline-semicolon"/>
         <xsl:text>  ns1:R44_has_wording &quot;</xsl:text>
-        <xsl:value-of select="tei:note[@type = 'context']/text()"/>
+        <xsl:value-of
+          select="replace(translate(tei:note[@type = 'context'], '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
         <xsl:text>&quot;@und</xsl:text>
       </xsl:if>
       <xsl:call-template name="newline-dot-newline"/>
@@ -327,7 +330,7 @@
     <xsl:text>&gt; a frbroo:F22_Self-Contained_Expression</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  rdfs:label &quot;</xsl:text>
-    <xsl:value-of select="$title"/>
+    <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
     <xsl:text>&quot;@en</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  cidoc:P102_has_title &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -367,7 +370,7 @@
       <xsl:text>/published-expression&gt; a frbroo:F24_Publication_Expressio</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  rdfs:label &quot;</xsl:text>
-      <xsl:value-of select="$title"/>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       <xsl:text>&quot;@en</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  cidoc:P1_is_identified_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -404,7 +407,7 @@
       <xsl:text>&gt; a frbroo:F24_Publication_Expression</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  rdfs:label &quot;Periodical: </xsl:text>
-      <xsl:value-of select="$title"/>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       <xsl:text>&quot;@en</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  frbroo:R5_has_component &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -438,7 +441,7 @@
       <xsl:text>/published-expression&gt; a frbroo:F24_Publication_Expression</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  rdfs:label &quot;</xsl:text>
-      <xsl:value-of select="$title"/>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       <xsl:text>&quot;@en </xsl:text>
       <xsl:if test="tei:title[level = 'j']">
         <xsl:variable name="uri-period">
@@ -480,7 +483,8 @@
         <xsl:with-param name="text" select="'#F22 subtitle art-issue'"/>
       </xsl:call-template>
       <xsl:call-template name="create-F22-subtitle-art-issue-param">
-        <xsl:with-param name="title" select="tei:title[@level = 'a' and @type = 'subtitle']/text()" />
+        <xsl:with-param name="title" select="tei:title[@level = 'a' and @type = 'subtitle']/text()"
+        />
       </xsl:call-template>
     </xsl:if>
   </xsl:template>
@@ -514,7 +518,8 @@
         <xsl:with-param name="text" select="'#F22 subtitle'"/>
       </xsl:call-template>
       <xsl:call-template name="create-F22-subtitle-param">
-        <xsl:with-param name="title" select="tei:title[@level = 'm' and @type = 'subtitle']/text()" />
+        <xsl:with-param name="title" select="tei:title[@level = 'm' and @type = 'subtitle']/text()"
+        />
       </xsl:call-template>
     </xsl:if>
   </xsl:template>
@@ -536,7 +541,7 @@
     <xsl:text>&gt; a frbroo:F22_Self-Contained_Expression</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  rdfs:label &quot;Expression: </xsl:text>
-    <xsl:value-of select="$title"/>
+    <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
     <xsl:text>&quot;@en</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  cidoc:P102_has_title &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -597,13 +602,13 @@
     <xsl:text>&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  rdfs:label &quot;Title: </xsl:text>
-    <xsl:value-of select="$title"/>
+    <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
     <xsl:text>&quot;@en</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/title/main&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  rdf:value &quot;</xsl:text>
-    <xsl:value-of select="$title"/>
+    <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
     <xsl:text>&quot;</xsl:text>
     <xsl:call-template name="newline-dot-newline"/>
   </xsl:template>
@@ -623,13 +628,13 @@
     <xsl:text>&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  rdfs:label &quot;Title: </xsl:text>
-    <xsl:value-of select="$title"/>
+    <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
     <xsl:text>&quot;@en</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/title/sub&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  rdf:value &quot;</xsl:text>
-    <xsl:value-of select="$title"/>
+    <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
     <xsl:text>&quot;</xsl:text>
     <xsl:call-template name="newline-dot-newline"/>
   </xsl:template>
@@ -649,13 +654,13 @@
     <xsl:text>&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  rdfs:label &quot;Title: </xsl:text>
-    <xsl:value-of select="$title"/>
+    <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
     <xsl:text>&quot;@en</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/title/sub&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  rdf:value &quot;</xsl:text>
-    <xsl:value-of select="$title"/>
+    <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
     <xsl:text>&quot;</xsl:text>
     <xsl:call-template name="newline-dot-newline"/>
   </xsl:template>
@@ -674,7 +679,7 @@
     <xsl:text>/appellation/0&gt; a cidoc:E33_E41_Linguistic_Appellation</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  rdfs:label &quot;Appellation for: </xsl:text>
-    <xsl:value-of select="$title"/>
+    <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
     <xsl:text>&quot;@en</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  cidoc:P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -694,68 +699,70 @@
   </xsl:template>
 
   <xsl:template name="create-bibl-F24-appellation-periodical">
-    <xsl:variable name="uri-f24">
-      <xsl:call-template name="get-F24-uri"/>
-    </xsl:variable>
-    <xsl:variable name="title" select="tei:title[@level = 'j']/text()"/>
+    <xsl:if test="not(tei:citedRange[@wholePeriodical])">
+      <xsl:variable name="uri-f24">
+        <xsl:call-template name="get-F24-uri"/>
+      </xsl:variable>
+      <xsl:variable name="title" select="tei:title[@level = 'j' and not(@type)]/text()"/>
 
-    <xsl:call-template name="comment">
-      <xsl:with-param name="text" select="'#F24 appellation periodical'"/>
-    </xsl:call-template>
-    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-    <xsl:value-of select="$uri-f24"/>
-    <xsl:text>/appellation/0&gt; a cidoc:E33_E41_Linguistic_Appellation</xsl:text>
-    <xsl:call-template name="newline-semicolon"/>
-    <xsl:text>  rdfs:label &quot;Appellation for: </xsl:text>
-    <xsl:value-of select="$title"/>
-    <xsl:text>&quot;@en</xsl:text>
-    <xsl:call-template name="newline-semicolon"/>
-    <xsl:text>  cidoc:P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-    <xsl:value-of select="$uri-f24"/>
-    <xsl:text>/published-expression&gt;</xsl:text>
-    <xsl:call-template name="newline-semicolon"/>
-    <xsl:text>  cidoc:P106_is_composed_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-    <xsl:value-of select="$uri-f24"/>
-    <xsl:text>/appellation-title/0&gt;</xsl:text>
-    <xsl:if test="tei:title[@level = 'm' and @type = 'subtitle']">
+      <xsl:call-template name="comment">
+        <xsl:with-param name="text" select="'#F24 appellation periodical'"/>
+      </xsl:call-template>
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri-f24"/>
+      <xsl:text>/appellation/0&gt; a cidoc:E33_E41_Linguistic_Appellation</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+      <xsl:text>  rdfs:label &quot;Appellation for: </xsl:text>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+      <xsl:text>&quot;@en</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+      <xsl:text>  cidoc:P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri-f24"/>
+      <xsl:text>/published-expression&gt;</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  cidoc:P106_is_composed_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
       <xsl:value-of select="$uri-f24"/>
-      <xsl:text>/appellation-title/1&gt;</xsl:text>
-    </xsl:if>
+      <xsl:text>/appellation-title/0&gt;</xsl:text>
+      <xsl:if test="tei:title[@level = 'm' and @type = 'subtitle']">
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P106_is_composed_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f24"/>
+        <xsl:text>/appellation-title/1&gt;</xsl:text>
+      </xsl:if>
 
-    <xsl:if test="tei:date">
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:P106_is_composed_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f24"/>
-      <xsl:text>/appellation-date/0&gt;</xsl:text>
-    </xsl:if>
+      <xsl:if test="tei:date">
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P106_is_composed_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f24"/>
+        <xsl:text>/appellation-date/0&gt;</xsl:text>
+      </xsl:if>
 
-    <xsl:if test="tei:date/tei:note">
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:P106_is_composed_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f24"/>
-      <xsl:text>/appellation-ed/0&gt;</xsl:text>
+      <xsl:if test="tei:date/tei:note">
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P106_is_composed_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f24"/>
+        <xsl:text>/appellation-ed/0&gt;</xsl:text>
+      </xsl:if>
+      <xsl:if test="tei:pubPlace">
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P106_is_composed_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f24"/>
+        <xsl:text>/appellation-place/0&gt;</xsl:text>
+      </xsl:if>
+      <xsl:if test="tei:num">
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P106_is_composed_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f24"/>
+        <xsl:text>/appellation-num/0&gt;</xsl:text>
+      </xsl:if>
+      <xsl:if test="tei:edition">
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P106_is_composed_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f24"/>
+        <xsl:text>/appellation-ed/1&gt;</xsl:text>
+      </xsl:if>
+      <xsl:call-template name="newline-dot-newline"/>
     </xsl:if>
-    <xsl:if test="tei:pubPlace">
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:P106_is_composed_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f24"/>
-      <xsl:text>/appellation-place/0&gt;</xsl:text>
-    </xsl:if>
-    <xsl:if test="tei:num">
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:P106_is_composed_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f24"/>
-      <xsl:text>/appellation-num/0&gt;</xsl:text>
-    </xsl:if>
-    <xsl:if test="tei:edition">
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:P106_is_composed_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f24"/>
-      <xsl:text>/appellation-ed/1&gt;</xsl:text>
-    </xsl:if>
-    <xsl:call-template name="newline-dot-newline"/>
   </xsl:template>
 
   <xsl:template name="create-F24-appellation-title0">
@@ -772,7 +779,7 @@
     <xsl:text>/appellation-title/0&gt; a cidoc:E90_Symbolic_Object</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  rdfs:label &quot;Appellation Part: </xsl:text>
-    <xsl:value-of select="$title"/>
+    <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
     <xsl:text>&quot;@en</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -782,7 +789,7 @@
     <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/title/main&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  rdf:value &quot;</xsl:text>
-    <xsl:value-of select="$title"/>
+    <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
     <xsl:text>&quot;</xsl:text>
     <xsl:call-template name="newline-dot-newline"/>
   </xsl:template>
@@ -804,7 +811,7 @@
       <xsl:text>/appellation-title/1&gt; a cidoc:E90_Symbolic_Object</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  rdfs:label &quot;Appellation Part: </xsl:text>
-      <xsl:value-of select="$title"/>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       <xsl:text>&quot;@en</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -814,226 +821,243 @@
       <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/title/sub&gt;</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  rdf:value &quot;</xsl:text>
-      <xsl:value-of select="$title"/>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       <xsl:text>&quot;</xsl:text>
       <xsl:call-template name="newline-dot-newline"/>
     </xsl:if>
   </xsl:template>
 
   <xsl:template name="create-F24-appellation-title0-periodical">
-    <xsl:variable name="uri-f24">
-      <xsl:call-template name="get-F24-uri"/>
-    </xsl:variable>
-    <xsl:variable name="title" select="tei:title[@level = 'j' and not(@type)]"/>
+    <xsl:if test="not(tei:citedRange[@wholePeriodical])">
+      <xsl:variable name="uri-f24">
+        <xsl:call-template name="get-F24-uri"/>
+      </xsl:variable>
+      <xsl:variable name="title" select="tei:title[@level = 'j' and not(@type)]"/>
 
-    <xsl:call-template name="comment">
-      <xsl:with-param name="text" select="'#F24 appellation title0 periodical issue'"/>
-    </xsl:call-template>
-    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-    <xsl:value-of select="$uri-f24"/>
-    <xsl:text>/appellation-title/0&gt; a cidoc:E90_Symbolic_Object</xsl:text>
-    <xsl:call-template name="newline-semicolon"/>
-    <xsl:text>  rdfs:label &quot;Appellation Part: </xsl:text>
-    <xsl:value-of select="$title"/>
-    <xsl:text>&quot;@en</xsl:text>
-    <xsl:call-template name="newline-semicolon"/>
-    <xsl:text>  cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-    <xsl:value-of select="$uri-f24"/>
-    <xsl:text>/appellation/0&gt;</xsl:text>
-    <xsl:call-template name="newline-semicolon"/>
-    <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/title/main&gt;</xsl:text>
-    <xsl:call-template name="newline-semicolon"/>
-    <xsl:text>  rdf:value &quot;</xsl:text>
-    <xsl:value-of select="$title"/>
-    <xsl:text>&quot;</xsl:text>
-    <xsl:call-template name="newline-dot-newline"/>
+      <xsl:call-template name="comment">
+        <xsl:with-param name="text" select="'#F24 appellation title0 periodical issue'"/>
+      </xsl:call-template>
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri-f24"/>
+      <xsl:text>/appellation-title/0&gt; a cidoc:E90_Symbolic_Object</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+      <xsl:text>  rdfs:label &quot;Appellation Part: </xsl:text>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+      <xsl:text>&quot;@en</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+      <xsl:text>  cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri-f24"/>
+      <xsl:text>/appellation/0&gt;</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+      <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/title/main&gt;</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+      <xsl:text>  rdf:value &quot;</xsl:text>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+      <xsl:text>&quot;</xsl:text>
+      <xsl:call-template name="newline-dot-newline"/>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template name="create-F24-appellation-title1-periodical">
     <xsl:if test="tei:title[@level = 'j' and @type = 'subtitle']">
+      <xsl:if test="not(tei:citedRange[@wholePeriodical])">
+        <xsl:variable name="uri-f24">
+          <xsl:call-template name="get-F24-uri"/>
+        </xsl:variable>
+        <xsl:variable name="title"
+          select="replace(translate(tei:title[@level = 'j' and @type = 'subtitle'], '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
 
-      <xsl:variable name="uri-f24">
-        <xsl:call-template name="get-F24-uri"/>
-      </xsl:variable>
-      <xsl:variable name="title"
-        select="replace(translate(tei:title[@level = 'j' and @type = 'subtitle'], '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
-
-      <xsl:call-template name="comment">
-        <xsl:with-param name="text" select="'#F24 appellation title1 periodical issue'"/>
-      </xsl:call-template>
-      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f24"/>
-      <xsl:text>/appellation-title/1&gt; a cidoc:E90_Symbolic_Object</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  rdfs:label &quot;Appellation Part: </xsl:text>
-      <xsl:value-of select="$title"/>
-      <xsl:text>&quot;@en </xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f24"/>
-      <xsl:text>/appellation/0&gt;</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/title/sub&gt;</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  rdf:value &quot;</xsl:text>
-      <xsl:value-of select="$title"/>
-      <xsl:text>&quot;</xsl:text>
-      <xsl:call-template name="newline-dot-newline"/>
+        <xsl:call-template name="comment">
+          <xsl:with-param name="text" select="'#F24 appellation title1 periodical issue'"/>
+        </xsl:call-template>
+        <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f24"/>
+        <xsl:text>/appellation-title/1&gt; a cidoc:E90_Symbolic_Object</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  rdfs:label &quot;Appellation Part: </xsl:text>
+        <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+        <xsl:text>&quot;@en </xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f24"/>
+        <xsl:text>/appellation/0&gt;</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/title/sub&gt;</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  rdf:value &quot;</xsl:text>
+        <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+        <xsl:text>&quot;</xsl:text>
+        <xsl:call-template name="newline-dot-newline"/>
+      </xsl:if>
     </xsl:if>
   </xsl:template>
 
   <xsl:template name="create-F24-appellation-date-periodical">
-    <xsl:if test="tei:date">
-      <xsl:variable name="uri-f24">
-        <xsl:call-template name="get-F24-uri"/>
-      </xsl:variable>
-      <xsl:variable name="title" select="tei:date/text()"/>
+    <xsl:if test="not(tei:citedRange[@wholePeriodical])">
+      <xsl:if test="tei:date">
+        <xsl:variable name="uri-f24">
+          <xsl:call-template name="get-F24-uri"/>
+        </xsl:variable>
+        <xsl:variable name="title" select="tei:date/text()"/>
 
-      <xsl:call-template name="comment">
-        <xsl:with-param name="text" select="'#F24 appellation date periodical issue'"/>
-      </xsl:call-template>
-      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f24"/>
-      <xsl:text>/appellation-date/0&gt; a cidoc:E90_Symbolic_Object</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  rdfs:label &quot;Appellation Part: </xsl:text>
-      <xsl:value-of select="$title"/>
-      <xsl:text>&quot;@en</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f24"/>
-      <xsl:text>/appellation/0&gt;</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/date&gt;</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  rdf:value &quot;</xsl:text>
-      <xsl:value-of select="$title"/>
-      <xsl:text>&quot;</xsl:text>
-      <xsl:call-template name="newline-dot-newline"/>
+        <xsl:call-template name="comment">
+          <xsl:with-param name="text" select="'#F24 appellation date periodical issue'"/>
+        </xsl:call-template>
+        <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f24"/>
+        <xsl:text>/appellation-date/0&gt; a cidoc:E90_Symbolic_Object</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  rdfs:label &quot;Appellation Part: </xsl:text>
+        <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+        <xsl:text>&quot;@en</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f24"/>
+        <xsl:text>/appellation/0&gt;</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/date&gt;</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  rdf:value &quot;</xsl:text>
+        <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+        <xsl:text>&quot;</xsl:text>
+        <xsl:call-template name="newline-dot-newline"/>
+      </xsl:if>
     </xsl:if>
   </xsl:template>
 
   <xsl:template name="create-F24-appellation-datenote-periodical">
-    <xsl:if test="tei:date/tei:note">
-      <xsl:variable name="uri-f24">
-        <xsl:call-template name="get-F24-uri"/>
-      </xsl:variable>
-      <xsl:variable name="title" select="tei:date/tei:note/text()"/>
+    <xsl:if test="not(tei:citedRange[@wholePeriodical])">
+      <xsl:if test="tei:date/tei:note">
+        <xsl:variable name="uri-f24">
+          <xsl:call-template name="get-F24-uri"/>
+        </xsl:variable>
+        <xsl:variable name="title" select="tei:date/tei:note/text()"/>
 
-      <xsl:call-template name="comment">
-        <xsl:with-param name="text" select="'#F24 appellation date/note periodical issue'"/>
-      </xsl:call-template>
-      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f24"/>
-      <xsl:text>/appellation-ed/0&gt; a cidoc:E90_Symbolic_Object</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  rdfs:label &quot;Appellation Part: </xsl:text>
-      <xsl:value-of select="$title"/>
-      <xsl:text>&quot;@en</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f24"/>
-      <xsl:text>/appellation/0&gt;</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/ed&gt;</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  rdf:value &quot;</xsl:text>
-      <xsl:value-of select="$title"/>
-      <xsl:text>&quot;</xsl:text>
-      <xsl:call-template name="newline-dot-newline"/>
+        <xsl:call-template name="comment">
+          <xsl:with-param name="text" select="'#F24 appellation date/note periodical issue'"/>
+        </xsl:call-template>
+        <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f24"/>
+        <xsl:text>/appellation-ed/0&gt; a cidoc:E90_Symbolic_Object</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  rdfs:label &quot;Appellation Part: </xsl:text>
+        <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+        <xsl:text>&quot;@en</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f24"/>
+        <xsl:text>/appellation/0&gt;</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/ed&gt;</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  rdf:value &quot;</xsl:text>
+        <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+        <xsl:text>&quot;</xsl:text>
+        <xsl:call-template name="newline-dot-newline"/>
+      </xsl:if>
     </xsl:if>
   </xsl:template>
 
   <xsl:template name="create-F24-appellation-place-periodical">
-    <xsl:if test="tei:pubPlace">
-      <xsl:variable name="uri-f24">
-        <xsl:call-template name="get-F24-uri"/>
-      </xsl:variable>
-      <xsl:variable name="title" select="tei:pubPlace/text()"/>
+    <xsl:if test="not(tei:citedRange[@wholePeriodical])">
+      <xsl:if test="tei:pubPlace">
+        <xsl:variable name="uri-f24">
+          <xsl:call-template name="get-F24-uri"/>
+        </xsl:variable>
+        <xsl:variable name="title" select="tei:pubPlace/text()"/>
 
-      <xsl:call-template name="comment">
-        <xsl:with-param name="text" select="'#F24 appellation place periodical issue'"/>
-      </xsl:call-template>
-      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f24"/>
-      <xsl:text>/appellation-place/0&gt; a cidoc:E90_Symbolic_Object</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  rdfs:label &quot;Appellation Part: </xsl:text>
-      <xsl:value-of select="$title"/>
-      <xsl:text>&quot;@en</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f24"/>
-      <xsl:text>/appellation/0&gt;</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/place&gt;</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  rdf:value &quot;</xsl:text>
-      <xsl:value-of select="$title"/>
-      <xsl:text>&quot;</xsl:text>
-      <xsl:call-template name="newline-dot-newline"/>
+        <xsl:call-template name="comment">
+          <xsl:with-param name="text" select="'#F24 appellation place periodical issue'"/>
+        </xsl:call-template>
+        <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f24"/>
+        <xsl:text>/appellation-place/0&gt; a cidoc:E90_Symbolic_Object</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  rdfs:label &quot;Appellation Part: </xsl:text>
+        <!--       <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/> 
+         -->
+        <xsl:value-of select="$title"/>
+        <xsl:text>&quot;@en</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f24"/>
+        <xsl:text>/appellation/0&gt;</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/place&gt;</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  rdf:value &quot;</xsl:text>
+        <!-- <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+      -->
+        <xsl:value-of select="$title"/>
+        <xsl:text>&quot;</xsl:text>
+        <xsl:call-template name="newline-dot-newline"/>
+      </xsl:if>
     </xsl:if>
   </xsl:template>
 
   <xsl:template name="create-F24-appellation-num-periodical">
-    <xsl:if test="tei:num">
-      <xsl:variable name="uri-f24">
-        <xsl:call-template name="get-F24-uri"/>
-      </xsl:variable>
-      <xsl:variable name="title" select="tei:num/text()"/>
+    <xsl:if test="not(tei:citedRange[@wholePeriodical])">
+      <xsl:if test="tei:num">
+        <xsl:variable name="uri-f24">
+          <xsl:call-template name="get-F24-uri"/>
+        </xsl:variable>
+        <xsl:variable name="title" select="tei:num/text()"/>
 
-      <xsl:call-template name="comment">
-        <xsl:with-param name="text" select="'#F24 appellation num periodical issue'"/>
-      </xsl:call-template>
-      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f24"/>
-      <xsl:text>/appellation-num/0&gt; a cidoc:E90_Symbolic_Object</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  rdfs:label &quot;Appellation Part: </xsl:text>
-      <xsl:value-of select="$title"/>
-      <xsl:text>&quot;@en </xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f24"/>
-      <xsl:text>/appellation/0&gt;</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/num&gt;</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  rdf:value &quot;</xsl:text>
-      <xsl:value-of select="$title"/>
-      <xsl:text>&quot;</xsl:text>
-      <xsl:call-template name="newline-dot-newline"/>
+        <xsl:call-template name="comment">
+          <xsl:with-param name="text" select="'#F24 appellation num periodical issue'"/>
+        </xsl:call-template>
+        <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f24"/>
+        <xsl:text>/appellation-num/0&gt; a cidoc:E90_Symbolic_Object</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  rdfs:label &quot;Appellation Part: </xsl:text>
+        <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+        <xsl:text>&quot;@en </xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f24"/>
+        <xsl:text>/appellation/0&gt;</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/num&gt;</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  rdf:value &quot;</xsl:text>
+        <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+        <xsl:text>&quot;</xsl:text>
+        <xsl:call-template name="newline-dot-newline"/>
+      </xsl:if>
     </xsl:if>
   </xsl:template>
 
   <xsl:template name="create-F24-appellation-edition-periodical">
-    <xsl:if test="tei:edition">
-      <xsl:variable name="uri-f24">
-        <xsl:call-template name="get-F24-uri"/>
-      </xsl:variable>
-      <xsl:variable name="title" select="tei:edition/text()"/>
+    <xsl:if test="not(tei:citedRange[@wholePeriodical])">
+      <xsl:if test="tei:edition">
+        <xsl:variable name="uri-f24">
+          <xsl:call-template name="get-F24-uri"/>
+        </xsl:variable>
+        <xsl:variable name="title" select="tei:edition/text()"/>
 
-      <xsl:call-template name="comment">
-        <xsl:with-param name="text" select="'#F24 appellation edition periodical issue'"/>
-      </xsl:call-template>
-      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f24"/>
-      <xsl:text>/appellation-ed/1&gt; a cidoc:E90_Symbolic_Object</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  rdfs:label &quot;Appellation Part: </xsl:text>
-      <xsl:value-of select="$title"/>
-      <xsl:text>&quot;@en </xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f24"/>
-      <xsl:text>/appellation/0&gt;</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/ed&gt;</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  rdf:value &quot;</xsl:text>
-      <xsl:value-of select="$title"/>
-      <xsl:text>&quot;</xsl:text>
-      <xsl:call-template name="newline-dot-newline"/>
+        <xsl:call-template name="comment">
+          <xsl:with-param name="text" select="'#F24 appellation edition periodical issue'"/>
+        </xsl:call-template>
+        <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f24"/>
+        <xsl:text>/appellation-ed/1&gt; a cidoc:E90_Symbolic_Object</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  rdfs:label &quot;Appellation Part: </xsl:text>
+        <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+        <xsl:text>&quot;@en </xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P106i_forms_part_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f24"/>
+        <xsl:text>/appellation/0&gt;</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/ed&gt;</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  rdf:value &quot;</xsl:text>
+        <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+        <xsl:text>&quot;</xsl:text>
+        <xsl:call-template name="newline-dot-newline"/>
+      </xsl:if>
     </xsl:if>
   </xsl:template>
 
@@ -1056,13 +1080,13 @@
       <xsl:text>&gt;</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  rdfs:label &quot;Title: </xsl:text>
-      <xsl:value-of select="$title"/>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       <xsl:text>&quot;@en</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/title/sub&gt;</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  rdf:value &quot;</xsl:text>
-      <xsl:value-of select="$title"/>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       <xsl:text>&quot;</xsl:text>
       <xsl:call-template name="newline-dot-newline"/>
     </xsl:if>
@@ -1085,7 +1109,7 @@
       <xsl:text>/creation&gt; a frbroo:F28_Expression_Creation</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  rdfs:label &quot;Creation of: </xsl:text>
-      <xsl:value-of select="$title"/>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       <xsl:text>&quot;@en</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  frbroo:R17_created &lt;https://sk.acdh.oeaw.ac.at/t</xsl:text>
@@ -1125,7 +1149,7 @@
         <xsl:text>/creation/time-span&gt; a cidoc:E52_Time-Span</xsl:text>
         <xsl:call-template name="newline-semicolon"/>
         <xsl:text>  rdfs:label &quot;</xsl:text>
-        <xsl:value-of select="$title"/>
+        <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
         <xsl:text>&quot;@en</xsl:text>
         <xsl:call-template name="newline-semicolon"/>
         <xsl:text>  cidoc:P4i_is_time-span_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -1160,7 +1184,7 @@
       <xsl:text>/publication&gt; a frbroo:F30_Publication_Event</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  rdfs:label &quot;Publication of: </xsl:text>
-      <xsl:value-of select="$title"/>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       <xsl:text>&quot;@en</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  cidoc:R24_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -1168,7 +1192,7 @@
       <xsl:text>/published-expression&gt;</xsl:text>
       <xsl:for-each select="tei:pubPlace">
         <xsl:call-template name="newline-semicolon"/>
-        <xsl:text>  cidoc:P7_took_place_a t&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:text>  cidoc:P7_took_place_at&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
         <xsl:value-of select="translate(@key, '#', '')"/>
         <xsl:text>&gt;</xsl:text>
       </xsl:for-each>
@@ -1198,7 +1222,7 @@
       <xsl:text>/publication&gt; a frbroo:F30_Publication_Event</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  rdfs:label &quot;Publication of: </xsl:text>
-      <xsl:value-of select="$title"/>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       <xsl:text>&quot;@en</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  cidoc:R24_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -1206,7 +1230,7 @@
       <xsl:text>/published-expression&gt;</xsl:text>
       <xsl:for-each select="tei:pubPlace">
         <xsl:call-template name="newline-semicolon"/>
-        <xsl:text>  cidoc:P7_took_place_a t&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:text>  cidoc:P7_took_place_at&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
         <xsl:value-of select="translate(@key, '#', '')"/>
         <xsl:text>&gt;</xsl:text>
       </xsl:for-each>
@@ -1244,7 +1268,7 @@
         <xsl:text>/publication/time-span&gt; a cidoc:E52_Time-Span</xsl:text>
         <xsl:call-template name="newline-semicolon"/>
         <xsl:text>  rdfs:label &quot;</xsl:text>
-        <xsl:value-of select="$title"/>
+        <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
         <xsl:text>&quot;@en</xsl:text>
         <xsl:call-template name="newline-semicolon"/>
         <xsl:text>  cidoc:P4i_is_time-span_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -1285,7 +1309,7 @@
         <xsl:text>/publication/time-span&gt; a cidoc:E52_Time-Span</xsl:text>
         <xsl:call-template name="newline-semicolon"/>
         <xsl:text>  rdfs:label &quot;</xsl:text>
-        <xsl:value-of select="$title"/>
+        <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
         <xsl:text>&quot;@en</xsl:text>
         <xsl:call-template name="newline-semicolon"/>
         <xsl:text>  cidoc:P4i_is_time-span_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -1319,7 +1343,7 @@
       <xsl:text>/performance&gt; a frbroo:F31_Performance</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  rdfs:label &quot;Performance / Recital of: </xsl:text>
-      <xsl:value-of select="$title"/>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       <xsl:text>&quot;@en</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  frbroo:R66_included_performed_version_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -1358,7 +1382,7 @@
       <xsl:text>/performance/time-span&gt; a cidoc:E52_Time-Span</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  rdfs:label &quot;</xsl:text>
-      <xsl:value-of select="$title"/>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       <xsl:text>&quot;@en</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  cidoc:P4i_is_time-span_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -1557,12 +1581,12 @@
       <xsl:when
         test="string-length($date) = 10 and substring($date, 5, 1) = '-' and substring($date, 8, 1) = '-'">
         <!-- YYYY-MM-DD -->
-        <xsl:value-of select="concat('&quot;', $date, '&quot;^^xs:date')"/>
+        <xsl:value-of select="concat('&quot;', $date, '&quot;^^xsd:date')"/>
       </xsl:when>
       <xsl:when
         test="string-length($date) = 11 and substring($date, 1, 1) = '-' and substring($date, 6, 1) = '-' and substring($date, 9, 1) = '-'">
         <!-- -YYYY-MM-DD -->
-        <xsl:value-of select="concat('&quot;', $date, '&quot;^^xs:date')"/>
+        <xsl:value-of select="concat('&quot;', $date, '&quot;^^xsd:date')"/>
       </xsl:when>
     </xsl:choose>
   </xsl:template>
