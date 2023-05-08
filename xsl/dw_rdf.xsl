@@ -964,7 +964,12 @@
         <xsl:variable name="uri-f24">
           <xsl:call-template name="get-F24-uri"/>
         </xsl:variable>
-        <xsl:variable name="title" select="tei:pubPlace/text()"/>
+        <xsl:variable name="title">
+          <xsl:for-each select="tei:pubPlace/text()">
+            <xsl:value-of select="."/>
+            <xsl:if test="not(position() = last())"><xsl:text>, </xsl:text></xsl:if>
+          </xsl:for-each>
+        </xsl:variable> 
 
         <xsl:call-template name="comment">
           <xsl:with-param name="text" select="'#F24 appellation place periodical issue'"/>
@@ -974,8 +979,6 @@
         <xsl:text>/appellation-place/0&gt; a cidoc:E90_Symbolic_Object</xsl:text>
         <xsl:call-template name="newline-semicolon"/>
         <xsl:text>  rdfs:label &quot;Appellation Part: </xsl:text>
-        <!--       <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/> 
-         -->
         <xsl:value-of select="$title"/>
         <xsl:text>&quot;@en</xsl:text>
         <xsl:call-template name="newline-semicolon"/>
@@ -986,8 +989,6 @@
         <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/appellation/place&gt;</xsl:text>
         <xsl:call-template name="newline-semicolon"/>
         <xsl:text>  rdf:value &quot;</xsl:text>
-        <!-- <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
-      -->
         <xsl:value-of select="$title"/>
         <xsl:text>&quot;</xsl:text>
         <xsl:call-template name="newline-dot-newline"/>
