@@ -293,7 +293,7 @@
       <xsl:text>  ns1:R10_is_Text_Passage_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
       <xsl:value-of select="$uri-f22"/>
       <xsl:text>&gt;</xsl:text>
-      <xsl:if test="not(starts-with($citedRange, 'S. '))">
+      <xsl:if test="not($citedRange = '') and not(starts-with($citedRange, 'S. '))">
         <xsl:call-template name="newline-semicolon"/>
         <xsl:text>  ns1:R41_has_location &quot;</xsl:text>
         <xsl:value-of select="$citedRange"/>
