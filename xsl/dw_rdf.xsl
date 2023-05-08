@@ -1193,7 +1193,7 @@
       <xsl:text>/published-expression&gt;</xsl:text>
       <xsl:for-each select="tei:pubPlace">
         <xsl:call-template name="newline-semicolon"/>
-        <xsl:text>  cidoc:P7_took_place_at&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:text>  cidoc:P7_took_place_at &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
         <xsl:value-of select="translate(@key, '#', '')"/>
         <xsl:text>&gt;</xsl:text>
       </xsl:for-each>
@@ -1231,7 +1231,7 @@
       <xsl:text>/published-expression&gt;</xsl:text>
       <xsl:for-each select="tei:pubPlace">
         <xsl:call-template name="newline-semicolon"/>
-        <xsl:text>  cidoc:P7_took_place_at&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:text>  cidoc:P7_took_place_at &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
         <xsl:value-of select="translate(@key, '#', '')"/>
         <xsl:text>&gt;</xsl:text>
       </xsl:for-each>
