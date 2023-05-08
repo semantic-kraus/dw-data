@@ -1564,20 +1564,20 @@
     <xsl:choose>
       <xsl:when test="string-length($date) = 4">
         <!-- YYYY -->
-        <xsl:value-of select="concat('&quot;', $date, '&quot;^^xs:gYear')"/>
+        <xsl:value-of select="concat('&quot;', $date, '&quot;^^xsd:gYear')"/>
       </xsl:when>
       <xsl:when test="string-length($date) = 5 and substring($date, 1, 1) = '-'">
         <!-- YYYY -->
-        <xsl:value-of select="concat('&quot;', $date, '&quot;^^xs:gYear')"/>
+        <xsl:value-of select="concat('&quot;', $date, '&quot;^^xsd:gYear')"/>
       </xsl:when>
       <xsl:when test="string-length($date) = 7 and substring($date, 5, 1) = '-'">
         <!-- YYYY-MM -->
-        <xsl:value-of select="concat('&quot;', $date, '&quot;^^xs:gYearMonth')"/>
+        <xsl:value-of select="concat('&quot;', $date, '&quot;^^xsd:gYearMonth')"/>
       </xsl:when>
       <xsl:when
         test="string-length($date) = 8 and substring($date, 1, 1) = '-' and substring($date, 6, 1) = '-'">
         <!-- -YYYY-MM -->
-        <xsl:value-of select="concat('&quot;', $date, '&quot;^^xs:gYearMonth')"/>
+        <xsl:value-of select="concat('&quot;', $date, '&quot;^^xsd:gYearMonth')"/>
       </xsl:when>
       <xsl:when
         test="string-length($date) = 10 and substring($date, 5, 1) = '-' and substring($date, 8, 1) = '-'">
