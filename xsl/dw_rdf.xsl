@@ -1129,12 +1129,12 @@
       <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       <xsl:text>&quot;@en</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  frbroo:R17_created &lt;https://sk.acdh.oeaw.ac.at/t</xsl:text>
+      <xsl:text>  frbroo:R17_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
       <xsl:value-of select="$uri"/>
       <xsl:text>&gt;</xsl:text>
       <xsl:if test="contains(tei:date/tei:note/text(), 'Entst.')">
         <xsl:call-template name="newline-semicolon"/>
-        <xsl:text>  cidoc:P4_has_time-span &lt;https://sk.acdh.oeaw.ac.at/t</xsl:text>
+        <xsl:text>  cidoc:P4_has_time-span &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
         <xsl:value-of select="$uri"/>
         <xsl:text>/creation/time-span&gt;</xsl:text>
       </xsl:if>
