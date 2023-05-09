@@ -42,6 +42,15 @@
       </xsl:otherwise>
     </xsl:choose>
 
+    <xsl:call-template name="create-bibl-F22-orig"/>
+    <!-- 
+      something is mssing here
+      
+      [Basis-ID]/creation cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/event/translation> .
+      WTF?
+    -->
+    <xsl:call-template name="create-F28-orig"/>
+
     <xsl:call-template name="create-F30-issue"/>
     <xsl:call-template name="create-E52-publication-timespan"/>
     <xsl:call-template name="create-F31"/>
@@ -166,6 +175,46 @@
     <xsl:call-template name="newline-dot-newline"/>
   </xsl:template>
 
+  <!-- 
+So, jetzt etwas, das nicht sehr zentral, sondern eher ein Wurmfortsatz ist - gehört aber auch gemacht. 
+(Übrigens auch in den Fackel-Daten, die werde ich dazu aber noch um eine Spalte bereichern müssen ...)
+
+Übersetzungen
+Für jede bibl mit einem author[@role="pretext"] bitte folgende triples anlegen:
+
+
+  -->
+
+  <xsl:template name="create-bibl-F22-orig">
+    <xsl:if test="tei:author[@role = 'pretext']">
+      <xsl:variable name="title">
+        <xsl:call-template name="get-F22-title"/>
+      </xsl:variable>
+      <xsl:variable name="uri-f22">
+        <xsl:call-template name="get-F22-uri"/>
+      </xsl:variable>
+
+      <xsl:call-template name="comment">
+        <xsl:with-param name="text" select="'#F22'"/>
+      </xsl:call-template>
+
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri-f22"/>
+      <xsl:text>/orig&gt; a frbroo:F22_Self-Contained_Expression</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+
+      <xsl:text>  rdfs:label &quot;Original Expression: </xsl:text>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+      <xsl:text>&quot;@en</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+
+      <xsl:text>  cidoc:P16i_was_used_for &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri-f22"/>
+      <xsl:text>/creation&gt;</xsl:text>
+      <xsl:call-template name="newline-dot-newline"/>
+    </xsl:if>
+  </xsl:template>
+
   <xsl:template name="create-INT16-segment">
     <xsl:variable name="title">
       <xsl:call-template name="get-F22-title"/>
@@ -214,8 +263,8 @@
       </xsl:variable>
       <xsl:variable name="uri-issue">
         <xsl:call-template name="get-issue-uri"/>
-      </xsl:variable>      
-      <xsl:variable name="pagination" select="tei:biblScope/text()"/>      
+      </xsl:variable>
+      <xsl:variable name="pagination" select="tei:biblScope/text()"/>
       <xsl:for-each select="tei:citedRange[not(@wholeText) and not(@wholePeriodical)]">
         <xsl:variable name="citedRange"
           select="replace(translate(text(), '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
@@ -609,7 +658,7 @@
     <xsl:call-template name="newline-semicolon"/>
     <xsl:if test="starts-with($title, '[') and ends-with($title, ']')">
       <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/title/prov&gt;</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>        
+      <xsl:call-template name="newline-semicolon"/>
     </xsl:if>
     <xsl:text>  rdf:value &quot;</xsl:text>
     <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
@@ -639,7 +688,7 @@
     <xsl:call-template name="newline-semicolon"/>
     <xsl:if test="starts-with($title, '[') and ends-with($title, ']')">
       <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/title/prov&gt;</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>        
+      <xsl:call-template name="newline-semicolon"/>
     </xsl:if>
     <xsl:text>  rdf:value &quot;</xsl:text>
     <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
@@ -669,7 +718,7 @@
     <xsl:call-template name="newline-semicolon"/>
     <xsl:if test="starts-with($title, '[') and ends-with($title, ']')">
       <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/title/prov&gt;</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>        
+      <xsl:call-template name="newline-semicolon"/>
     </xsl:if>
     <xsl:text>  rdf:value &quot;</xsl:text>
     <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
@@ -979,9 +1028,11 @@
         <xsl:variable name="title">
           <xsl:for-each select="tei:pubPlace/text()">
             <xsl:value-of select="."/>
-            <xsl:if test="not(position() = last())"><xsl:text>, </xsl:text></xsl:if>
+            <xsl:if test="not(position() = last())">
+              <xsl:text>, </xsl:text>
+            </xsl:if>
           </xsl:for-each>
-        </xsl:variable> 
+        </xsl:variable>
 
         <xsl:call-template name="comment">
           <xsl:with-param name="text" select="'#F24 appellation place periodical issue'"/>
@@ -1100,7 +1151,7 @@
       <xsl:call-template name="newline-semicolon"/>
       <xsl:if test="starts-with($title, '[') and ends-with($title, ']')">
         <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/title/prov&gt;</xsl:text>
-        <xsl:call-template name="newline-semicolon"/>        
+        <xsl:call-template name="newline-semicolon"/>
       </xsl:if>
       <xsl:text>  rdf:value &quot;</xsl:text>
       <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
@@ -1110,7 +1161,7 @@
   </xsl:template>
 
   <xsl:template name="create-F28">
-    <xsl:if test="tei:bibl/tei:author or contains(tei:date/tei:note/text(), 'Entst.')">
+    <xsl:if test="tei:author or contains(tei:date/tei:note/text(), 'Entst.')">
       <xsl:variable name="title">
         <xsl:call-template name="get-F22-title"/>
       </xsl:variable>
@@ -1138,6 +1189,45 @@
         <xsl:value-of select="$uri"/>
         <xsl:text>/creation/time-span&gt;</xsl:text>
       </xsl:if>
+      <xsl:if test="tei:author[not(@role = 'pretext')]">
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P14_carried_out_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="tei:author[not(@role = 'pretext')]/@key"/>
+      </xsl:if>
+      <xsl:call-template name="newline-dot-newline"/>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template name="create-F28-orig">
+    <xsl:if test="tei:author[@role = 'pretext']">
+      <xsl:variable name="title">
+        <xsl:call-template name="get-F22-title"/>
+      </xsl:variable>
+      <xsl:variable name="uri">
+        <xsl:call-template name="get-F22-uri"/>
+      </xsl:variable>
+
+      <xsl:call-template name="comment">
+        <xsl:with-param name="text" select="'#F28'"/>
+      </xsl:call-template>
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri"/>
+      <xsl:text>/creation&gt; a frbroo:F28_Expression_Creation</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+
+      <xsl:text>  rdfs:label &quot;Creation of original: </xsl:text>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+      <xsl:text>&quot;@en</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+
+      <xsl:text>  frbroo:R17_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri"/>
+      <xsl:text>&gt;</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+
+      <xsl:text>  cidoc:P14_carried_out_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="tei:author[@role = 'pretext']/@key"/>
+
       <xsl:call-template name="newline-dot-newline"/>
     </xsl:if>
   </xsl:template>
