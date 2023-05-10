@@ -43,12 +43,6 @@
     </xsl:choose>
 
     <xsl:call-template name="create-bibl-F22-orig"/>
-    <!-- 
-      something is mssing here
-      
-      [Basis-ID]/creation cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/event/translation> .
-      WTF?
-    -->
     <xsl:call-template name="create-F28-orig"/>
 
     <xsl:call-template name="create-F30-issue"/>
@@ -175,16 +169,6 @@
     <xsl:call-template name="newline-dot-newline"/>
   </xsl:template>
 
-  <!-- 
-So, jetzt etwas, das nicht sehr zentral, sondern eher ein Wurmfortsatz ist - gehört aber auch gemacht. 
-(Übrigens auch in den Fackel-Daten, die werde ich dazu aber noch um eine Spalte bereichern müssen ...)
-
-Übersetzungen
-Für jede bibl mit einem author[@role="pretext"] bitte folgende triples anlegen:
-
-
-  -->
-
   <xsl:template name="create-bibl-F22-orig">
     <xsl:if test="tei:author[@role = 'pretext']">
       <xsl:variable name="title">
@@ -200,7 +184,7 @@ Für jede bibl mit einem author[@role="pretext"] bitte folgende triples anlegen:
 
       <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
       <xsl:value-of select="$uri-f22"/>
-      <xsl:text>/orig&gt; a frbroo:F22_Self-Contained_Expression</xsl:text>
+      <xsl:text>orig&gt; a frbroo:F22_Self-Contained_Expression</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
 
       <xsl:text>  rdfs:label &quot;Original Expression: </xsl:text>
@@ -211,6 +195,11 @@ Für jede bibl mit einem author[@role="pretext"] bitte folgende triples anlegen:
       <xsl:text>  cidoc:P16i_was_used_for &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
       <xsl:value-of select="$uri-f22"/>
       <xsl:text>/creation&gt;</xsl:text>
+      <xsl:call-template name="newline-dot-newline"/>
+
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri-f22"/>
+      <xsl:text>/creation&gt; cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/event/translation&gt;</xsl:text>
       <xsl:call-template name="newline-dot-newline"/>
     </xsl:if>
   </xsl:template>
@@ -1189,11 +1178,11 @@ Für jede bibl mit einem author[@role="pretext"] bitte folgende triples anlegen:
         <xsl:value-of select="$uri"/>
         <xsl:text>/creation/time-span&gt;</xsl:text>
       </xsl:if>
-      <xsl:if test="tei:author[not(@role = 'pretext')]">
+      <xsl:for-each select="tei:author[not(@role = 'pretext')]">
         <xsl:call-template name="newline-semicolon"/>
         <xsl:text>  cidoc:P14_carried_out_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-        <xsl:value-of select="tei:author[not(@role = 'pretext')]/@key"/>
-      </xsl:if>
+        <xsl:value-of select="translate(@key, '#', '')"/>
+      </xsl:for-each>
       <xsl:call-template name="newline-dot-newline"/>
     </xsl:if>
   </xsl:template>
@@ -1208,11 +1197,11 @@ Für jede bibl mit einem author[@role="pretext"] bitte folgende triples anlegen:
       </xsl:variable>
 
       <xsl:call-template name="comment">
-        <xsl:with-param name="text" select="'#F28'"/>
+        <xsl:with-param name="text" select="'#F28 orig'"/>
       </xsl:call-template>
       <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
       <xsl:value-of select="$uri"/>
-      <xsl:text>/creation&gt; a frbroo:F28_Expression_Creation</xsl:text>
+      <xsl:text>orig/creation&gt; a frbroo:F28_Expression_Creation</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
 
       <xsl:text>  rdfs:label &quot;Creation of original: </xsl:text>
@@ -1222,11 +1211,11 @@ Für jede bibl mit einem author[@role="pretext"] bitte folgende triples anlegen:
 
       <xsl:text>  frbroo:R17_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
       <xsl:value-of select="$uri"/>
-      <xsl:text>&gt;</xsl:text>
+      <xsl:text>orig&gt;</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
 
       <xsl:text>  cidoc:P14_carried_out_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="tei:author[@role = 'pretext']/@key"/>
+      <xsl:value-of select="translate(tei:author[@role = 'pretext']/@key, '#', '')"/>
 
       <xsl:call-template name="newline-dot-newline"/>
     </xsl:if>
