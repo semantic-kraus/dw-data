@@ -405,7 +405,7 @@
       </xsl:call-template>
       <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
       <xsl:value-of select="$uri-f24"/>
-      <xsl:text>/published-expression&gt; a frbroo:F24_Publication_Expressio</xsl:text>
+      <xsl:text>/published-expression&gt; a frbroo:F24_Publication_Expression</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  rdfs:label &quot;</xsl:text>
       <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
