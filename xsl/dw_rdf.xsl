@@ -411,7 +411,7 @@
       <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       <xsl:text>&quot;@en</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
-      <xsl:if test="tei:title[@level = 'j' or @level = 's']">
+      <xsl:if test="tei:title[@level = 'j' or @level = 's'] or tei:pubPlace">
         <xsl:text>  cidoc:P1_is_identified_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
         <xsl:value-of select="$uri-f22"/>
         <xsl:text>/appellation/0&gt;</xsl:text>
@@ -718,7 +718,7 @@
   </xsl:template>
 
   <xsl:template name="create-F24-appellation">
-    <xsl:if test="tei:title[@level = 'j' or @level = 's']">
+    <xsl:if test="tei:title[@level = 'j' or @level = 's'] or tei:pubPlace">
       <xsl:variable name="uri-f24">
         <xsl:call-template name="get-F24-uri"/>
       </xsl:variable>
@@ -820,7 +820,7 @@
   </xsl:template>
 
   <xsl:template name="create-F24-appellation-title0">
-    <xsl:if test="tei:title[@level = 'j' or @level = 's']">
+    <xsl:if test="tei:title[@level = 'j' or @level = 's'] or tei:pubPlace">
       <xsl:variable name="uri-f24">
         <xsl:call-template name="get-F24-uri"/>
       </xsl:variable>
