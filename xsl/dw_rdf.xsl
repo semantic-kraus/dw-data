@@ -44,6 +44,7 @@
 
     <xsl:call-template name="create-bibl-F22-orig"/>
     <xsl:call-template name="create-F28-orig"/>
+    <xsl:call-template name="create-F28-not-role"/>
 
     <xsl:call-template name="create-F30-issue"/>
     <xsl:call-template name="create-E52-publication-timespan"/>
@@ -1187,6 +1188,53 @@
         <xsl:call-template name="newline-semicolon"/>
         <xsl:text>  cidoc:P14_carried_out_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
         <xsl:value-of select="translate(@key, '#', '')"/>
+        <xsl:text>&gt;</xsl:text>
+      </xsl:for-each>
+      <xsl:for-each
+        select="tei:author[not(@role) or (@role != 'pretext' and @role != 'Gründerin' and @role != 'Herausgeber')]">
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P14_carried_out_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri"/>
+        <xsl:text>/</xsl:text>
+        <xsl:value-of select="translate(@key, '#', '')"/>
+        <xsl:text>&gt;</xsl:text>
+      </xsl:for-each>
+      <xsl:call-template name="newline-dot-newline"/>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template name="create-F28-not-role">
+    <xsl:if
+      test="tei:author[not(@role) or (@role != 'pretext' and @role != 'Gründerin' and @role != 'Herausgeber')]">
+      <xsl:variable name="title">
+        <xsl:call-template name="get-F22-title"/>
+      </xsl:variable>
+      <xsl:variable name="uri">
+        <xsl:call-template name="get-F22-uri"/>
+      </xsl:variable>
+
+      <xsl:call-template name="comment">
+        <xsl:with-param name="text" select="'#F28 not role'"/>
+      </xsl:call-template>
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri"/>
+      <xsl:text>/creation&gt; a frbroo:F28_Expression_Creation</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+      <xsl:text>  rdfs:label &quot;Creation of: </xsl:text>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+      <xsl:text>&quot;@en</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+      <xsl:text>  frbroo:R17_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri"/>
+      <xsl:text>&gt;</xsl:text>
+      <xsl:for-each
+        select="tei:author[not(@role) or (@role != 'pretext' and @role != 'Gründerin' and @role != 'Herausgeber')]">
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P14_carried_out_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri"/>
+        <xsl:text>/</xsl:text>
+        <xsl:value-of select="translate(@key, '#', '')"/>
+        <xsl:text>&gt;</xsl:text>
       </xsl:for-each>
       <xsl:call-template name="newline-dot-newline"/>
     </xsl:if>
@@ -1221,7 +1269,8 @@
 
       <xsl:text>  cidoc:P14_carried_out_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
       <xsl:value-of select="translate(tei:author[@role = 'pretext']/@key, '#', '')"/>
-
+      <xsl:text>&gt;</xsl:text>
+      
       <xsl:call-template name="newline-dot-newline"/>
     </xsl:if>
   </xsl:template>
