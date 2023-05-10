@@ -14,6 +14,8 @@
   <xsl:template match="tei:facsimile"/>
 
   <xsl:template match="tei:bibl">
+    <xsl:call-template name="create-bibl-F22"/>
+    <xsl:call-template name="create-F22-title"/>
     <xsl:choose>
       <xsl:when test="tei:title[@level = 'a']">
         <xsl:call-template name="create-bibl-F22-art-issue"/>
@@ -33,10 +35,8 @@
         <xsl:call-template name="create-bibl-F24-issue"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:call-template name="create-bibl-F22"/>
         <xsl:call-template name="create-F28"/>
         <xsl:call-template name="create-E52-creation-timespan"/>
-        <xsl:call-template name="create-F22-title"/>
         <xsl:call-template name="create-F22-subtitle"/>
         <xsl:call-template name="create-bibl-F24"/>
       </xsl:otherwise>
@@ -571,7 +571,7 @@
     </xsl:variable>
     <xsl:variable name="uri-f22ed" select="translate(tei:title[@level = 'm']/@key, '#', '')"/>
     <xsl:variable name="uri-issue">
-      <xsl:call-template name="get-issue-uri"/>
+      <xsl:call-template name="get-F22-uri"/>
     </xsl:variable>
 
     <xsl:call-template name="comment">
@@ -1270,7 +1270,7 @@
       <xsl:text>  cidoc:P14_carried_out_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
       <xsl:value-of select="translate(tei:author[@role = 'pretext']/@key, '#', '')"/>
       <xsl:text>&gt;</xsl:text>
-      
+
       <xsl:call-template name="newline-dot-newline"/>
     </xsl:if>
   </xsl:template>
