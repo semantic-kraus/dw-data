@@ -29,9 +29,11 @@
         <xsl:call-template name="create-bibl-F24-issue"/>
       </xsl:when>
       <xsl:when test="tei:editor">
-        <xsl:call-template name="create-bibl-F22-art-edissue"/>
-        <xsl:call-template name="create-F22-title-art-edissue"/>
-        <xsl:call-template name="create-F22-subtitle-art-edissue"/>
+        <xsl:call-template name="create-bibl-F22-edText"/>
+        <xsl:call-template name="create-F28-edText"/>
+        <xsl:call-template name="create-F28-ed"/>
+        <xsl:call-template name="create-F22-title-edText"/>
+        <xsl:call-template name="create-F22-subtitle-edText"/>
         <xsl:call-template name="create-bibl-F24-issue"/>
       </xsl:when>
       <xsl:otherwise>
@@ -469,9 +471,6 @@
       <xsl:variable name="uri-f24">
         <xsl:call-template name="get-F24-uri"/>
       </xsl:variable>
-      <xsl:variable name="uri-issue">
-        <xsl:call-template name="get-issue-uri"/>
-      </xsl:variable>
 
       <xsl:call-template name="comment">
         <xsl:with-param name="text" select="'#F24 issue'"/>
@@ -498,7 +497,7 @@
       <xsl:text>/appellation/0&gt;</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  cidoc:P165_incorporates &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-issue"/>
+      <xsl:value-of select="$uri-f24"/>
       <xsl:text>&gt;</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  cidoc:R24i_was_created_through &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -564,7 +563,7 @@
     </xsl:if>
   </xsl:template>
 
-  <xsl:template name="create-bibl-F22-art-edissue">
+  <xsl:template name="create-bibl-F22-edText">
     <xsl:variable name="title">
       <xsl:call-template name="get-F22-title"/>
     </xsl:variable>
@@ -574,7 +573,7 @@
     </xsl:variable>
 
     <xsl:call-template name="comment">
-      <xsl:with-param name="text" select="'#F22 art-edissue'"/>
+      <xsl:with-param name="text" select="'#F22 edText'"/>
     </xsl:call-template>
     <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
     <xsl:value-of select="$uri-f22ed"/>
@@ -600,9 +599,9 @@
     <xsl:call-template name="newline-dot-newline"/>
   </xsl:template>
 
-  <xsl:template name="create-F22-title-art-edissue">
+  <xsl:template name="create-F22-title-edText">
     <xsl:call-template name="comment">
-      <xsl:with-param name="text" select="'#F22 title art-edissue'"/>
+      <xsl:with-param name="text" select="'#F22 title edText'"/>
     </xsl:call-template>
     <xsl:call-template name="create-F22-title-param">
       <xsl:with-param name="title">
@@ -613,10 +612,10 @@
 
   </xsl:template>
 
-  <xsl:template name="create-F22-subtitle-art-edissue">
+  <xsl:template name="create-F22-subtitle-edText">
     <xsl:if test="tei:title[@level = 'm' and @type = 'subtitle']">
       <xsl:call-template name="comment">
-        <xsl:with-param name="text" select="'#F22 subtitle art-edissue'"/>
+        <xsl:with-param name="text" select="'#F22 subtitle edText'"/>
       </xsl:call-template>
       <xsl:call-template name="create-F22-subtitle-art-issue-param">
         <xsl:with-param name="uri-f22" select="translate(tei:title[@level = 'm']/@key, '#', '')"/>
@@ -1155,7 +1154,8 @@
   </xsl:template>
 
   <xsl:template name="create-F28">
-    <xsl:if test="tei:author[not(@role) or (@role != 'pretext' and @role != 'Gründerin' and @role != 'Herausgeber')] or contains(tei:date/tei:note/text(), 'Entst.')">
+    <xsl:if
+      test="tei:author[not(@role) or (@role != 'pretext' and @role != 'Gründerin' and @role != 'Herausgeber')] or contains(tei:date/tei:note/text(), 'Entst.')">
       <xsl:variable name="title">
         <xsl:call-template name="get-F22-title"/>
       </xsl:variable>
@@ -1170,12 +1170,12 @@
       <xsl:value-of select="$uri"/>
       <xsl:text>/creation&gt; a frbroo:F28_Expression_Creation</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
-      
+
       <xsl:text>  rdfs:label &quot;Creation of: </xsl:text>
       <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       <xsl:text>&quot;@en</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
-      
+
       <xsl:text>  frbroo:R17_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
       <xsl:value-of select="$uri"/>
       <xsl:text>&gt;</xsl:text>
@@ -1185,13 +1185,81 @@
         <xsl:value-of select="$uri"/>
         <xsl:text>/creation/time-span&gt;</xsl:text>
       </xsl:if>
-      
+
       <xsl:for-each
         select="tei:author[not(@role) or (@role != 'pretext' and @role != 'Gründerin' and @role != 'Herausgeber')]">
         <xsl:call-template name="newline-semicolon"/>
         <xsl:text>  cidoc:P14_carried_out_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-        <xsl:value-of select="$uri"/>
-        <xsl:text>/</xsl:text>
+        <xsl:value-of select="translate(@key, '#', '')"/>
+        <xsl:text>&gt;</xsl:text>
+      </xsl:for-each>
+      <xsl:call-template name="newline-dot-newline"/>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template name="create-F28-edText">
+    <xsl:if test="tei:author and tei:editor">
+      <xsl:variable name="title">
+        <xsl:call-template name="get-F22-title"/>
+      </xsl:variable>
+      <xsl:variable name="uri-f22ed" select="translate(tei:title[@level = 'm']/@key, '#', '')"/>
+
+      <xsl:call-template name="comment">
+        <xsl:with-param name="text" select="'#F28 edText'"/>
+      </xsl:call-template>
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri-f22ed"/>
+      <xsl:text>/creation&gt; a frbroo:F28_Expression_Creation</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+
+      <xsl:text>  rdfs:label &quot;Creation: </xsl:text>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+      <xsl:text>&quot;@en</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+
+      <xsl:text>  frbroo:R17_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri-f22ed"/>
+      <xsl:text>&gt;</xsl:text>
+
+      <xsl:for-each select="tei:author">
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P14_carried_out_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="translate(@key, '#', '')"/>
+        <xsl:text>&gt;</xsl:text>
+      </xsl:for-each>
+      <xsl:call-template name="newline-dot-newline"/>
+    </xsl:if>
+  </xsl:template>
+
+  <xsl:template name="create-F28-ed">
+    <xsl:if test="tei:editor">
+      <xsl:variable name="title">
+        <xsl:call-template name="get-F22-title"/>
+      </xsl:variable>
+      <xsl:variable name="uri">
+        <xsl:call-template name="get-F22-uri"/>
+      </xsl:variable>
+
+      <xsl:call-template name="comment">
+        <xsl:with-param name="text" select="'#F28 ed'"/>
+      </xsl:call-template>
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri"/>
+      <xsl:text>/creation&gt; a frbroo:F28_Expression_Creation</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+
+      <xsl:text>  rdfs:label &quot;Edition: </xsl:text>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+      <xsl:text>&quot;@en</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+
+      <xsl:text>  frbroo:R17_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri"/>
+      <xsl:text>&gt;</xsl:text>
+
+      <xsl:for-each select="tei:editor">
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P14_carried_out_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
         <xsl:value-of select="translate(@key, '#', '')"/>
         <xsl:text>&gt;</xsl:text>
       </xsl:for-each>
