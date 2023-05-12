@@ -3973,7 +3973,7 @@ den Kampf -->
 
 				<bibl source="_" xml:id="DWbibl01931" sortKey="Abraham_Paul#Gruenwald_Alfred#Loehner-Beda_Fritz">
 					<author role="Komposition" key="#DWpers0001">Paul Abraham</author>
-					<author role="Libretto" key="# DWpers0088">Alfred Grünwald</author>
+					<author role="Libretto" key="#DWpers0088">Alfred Grünwald</author>
 					<author role="Libretto" key="#nDWpers1312">Fritz Löhner-Beda</author>
 					<title level="m">Ball im Savoy</title>
 					<date when="1932">1932<note>UA</note></date>
