@@ -548,7 +548,7 @@
 
 				<bibl source="_" xml:id="DWbibl00011" sortKey="Goethe_Johann_Wolfgang_von">
 					<author key="#DWpers0080">Johann Wolfgang von Goethe</author>
-					<title level="m">Gespräch mit Heinrich Luden</title>
+					<title level="m">[Gespräch mit Heinrich Luden]</title>
 					<date when="1813-12-13">13. 12. 1813<note>UA</note></date>
 					<citedRange xml:id="DWbibl03574"/><!-- Eine Vergleichung … erwacht? -->
 				</bibl>
@@ -2060,7 +2060,7 @@ den Kampf -->
 				<bibl source="_" xml:id="DWbibl03757" sortKey="Nietzsche_Friedrich#Oehler_Richard">
 					<ref type="gen" target="https://archive.org/details/gesammeltewerke16niet/page/iv/mode/2up" subtype="specific"/>
 					<author key="#DWpers0178">Friedrich Nietzsche</author>
-					<editor role="Hg.">Richard Oehler u. a.</editor>
+					<editor role="Hg." key="#nDWpers1427">Richard Oehler u. a.</editor>
 					<title level="m"  key="#DWbibl05097">Aus dem Nachlass: Studien aus der Umwerthungszeit
 						1882–1888</title>
 					<title level="s" key="#DWbibl04602">Gesammelte Werke</title>
@@ -2078,7 +2078,7 @@ den Kampf -->
 				<bibl source="_" xml:id="DWbibl03748" sortKey="Nietzsche_Friedrich#Oehler_Richard">
 					<ref type="gen" target="https://archive.org/details/gesammeltewerke00niet/page/n5/mode/2up" subtype="specific"/>
 					<author key="#DWpers0178">Friedrich Nietzsche</author>
-					<editor role="Hg.">Richard Oehler u. a.</editor>
+					<editor role="Hg." key="#nDWpers1427">Richard Oehler u. a.</editor>
 					<title level="m" key="#DWbibl05098">Der Wille zur Macht. Versuch einer Umwerthung aller
 						Werte</title>
 					<title level="m" type="subtitle">Erstes und zweites Buch: Plane und Entwürfe
@@ -2093,7 +2093,7 @@ den Kampf -->
 				<bibl source="_" xml:id="DWbibl03750" sortKey="Nietzsche_Friedrich#Oehler_Richard">
 					<ref type="gen" target="https://archive.org/details/gesammeltewerke11niet/page/n7/mode/2up" subtype="specific"/>
 					<author key="#DWpers0178">Friedrich Nietzsche</author>
-					<editor role="Hg.">Richard Oehler u. a.</editor>
+					<editor role="Hg." key="#nDWpers1427">Richard Oehler u. a.</editor>
 					<title level="m" key="#DWbibl05098">Aus dem Nachlass: Aufzeichnungen aus der Zeit der Morgenröthe
 						und der Fröhlichen Wissenschaft 1880–1882</title>
 					<title level="s" key="#DWbibl04602">Gesammelte Werke</title>
@@ -2107,7 +2107,7 @@ den Kampf -->
 				<bibl xml:id="DWbibl03557" sortKey="Nietzsche_Friedrich#Oehler_Richard">
 					<ref type="gen" target="https://archive.org/details/gesammeltewerke19niet/page/n9/mode/2up" subtype="specific"/>
 					<author key="#DWpers0178">Friedrich Nietzsche</author>
-					<editor role="Hg.">Richard Oehler u. a.</editor>
+					<editor role="Hg." key="#nDWpers1427">Richard Oehler u. a.</editor>
 					<title level="m" key="#DWbibl05098">Der Wille zur Macht. Versuch einer Umwerthung aller
 						Werte</title>
 					<title level="m" type="subtitle">Drittes und viertes Buch: Nachträge</title>
@@ -5688,7 +5688,7 @@ den Kampf -->
 					<num>Nr. 474–483</num>
 					<date key="#DWbibl04527" when="1918-05">Mai 1918</date>
 					<biblScope>S. 82</biblScope>
-					<citedRange xml:id="DWbibl02276"><ref target="https://fackel.oeaw.ac.at/F/474,082" subtype="specific" type="ext"/></citedRange><!-- Labé-Sonett -->
+					<citedRange xml:id="DWbibl02276" wholeText="yes"><ref target="https://fackel.oeaw.ac.at/F/474,082" subtype="specific" type="ext"/></citedRange><!-- Labé-Sonett -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03215" sortKey="Kraus_Karl">
@@ -6908,7 +6908,7 @@ den Kampf -->
 				<bibl source="_" xml:id="DWbibl03912" sortKey="Goering_Hermann">
 					<author key="#DWpers0084">Hermann Göring</author>
 					<title level="m">[Interview]</title>
-					<date when="1933-06-06">6. 6. 1933<note>UA</note></date>
+					<date when="1933-06-06">6. 6. 1933<note>Entst.</note></date>
 					<citedRange xml:id="DWbibl03913"/><!-- man müsse das Reich mehr nach den Taten beurteilen -->
 					<citedRange xml:id="DWbibl03916"/><!-- sei eine Evolution in Aussicht genommen -->
 				</bibl>
