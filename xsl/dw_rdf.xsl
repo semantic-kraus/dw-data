@@ -1621,10 +1621,6 @@ Für jedes citedRange/ref[@type="int"] wird das folgende - scheinbar simple! - S
         <xsl:call-template name="get-ref-uri">
           <xsl:with-param name="selector" select="."/>
           <xsl:with-param name="n" select="$n"/>
-          <xsl:with-param name="uri" select="$uri"/>
-          <xsl:with-param name="uri-f24">
-            <xsl:call-template name="get-F24-uri"/>
-          </xsl:with-param>
         </xsl:call-template>
       </xsl:variable>
 
@@ -1633,10 +1629,6 @@ Für jedes citedRange/ref[@type="int"] wird das folgende - scheinbar simple! - S
           <xsl:with-param name="selector"
             select="//tei:citedRange[@xml:id = translate(tei:ref[@type = 'int']/@target, '#', '')]"/>
           <xsl:with-param name="n" select="$n"/>
-          <xsl:with-param name="uri" select="$uri"/>
-          <xsl:with-param name="uri-f24">
-            <xsl:call-template name="get-F24-uri"/>
-          </xsl:with-param>
         </xsl:call-template>
       </xsl:variable>
 
@@ -1657,8 +1649,17 @@ Für jedes citedRange/ref[@type="int"] wird das folgende - scheinbar simple! - S
   <xsl:template name="get-ref-uri">
     <xsl:param name="selector"/>
     <xsl:param name="n"/>
-    <xsl:param name="uri"/>
-    <xsl:param name="uri-f24"/>
+    <xsl:variable name="uri">
+      <xsl:call-template name="get-F22-uri">
+        <xsl:with-param name="base" select="$selector"/>
+      </xsl:call-template>
+    </xsl:variable>
+    <xsl:variable name="uri-f24">      
+      <xsl:call-template name="get-F24-uri">
+        <xsl:with-param name="base" select="$selector"/>
+      </xsl:call-template>
+    </xsl:variable>
+    
     <xsl:choose>
       <xsl:when test="not($selector/@wholeText = 'yes') and not($selector/@wholePeriodical = 'yes')">
         <xsl:value-of select="$uri"/>
@@ -1717,37 +1718,42 @@ Für jedes citedRange/ref[@type="int"] wird das folgende - scheinbar simple! - S
   </xsl:template>
 
   <xsl:template name="get-F22-uri">
+    <xsl:param name="base" select="."/>
+    <xsl:variable name="bibl" select="$base/ancestor-or-self::tei:bibl"/>
     <xsl:choose>
       <xsl:when
-        test="tei:citedRange[@wholePeriodical = 'yes'] or tei:citedRange[@wholeText = 'yes']">
-        <xsl:value-of select="tei:citedRange[@wholeText = 'yes']/@xml:id"/>
+        test="$bibl/tei:citedRange[@wholePeriodical = 'yes'] or $bibl/tei:citedRange[@wholeText = 'yes']">
+        <xsl:value-of select="$bibl/tei:citedRange[@wholeText = 'yes']/@xml:id"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:value-of select="@xml:id"/>
+        <xsl:value-of select="$bibl/@xml:id"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
 
   <xsl:template name="get-F24-uri">
+    <xsl:param name="base" select="."/>
+    <xsl:variable name="bibl" select="$base/ancestor-or-self::tei:bibl"/>
+
     <xsl:variable name="uri">
       <xsl:choose>
-        <xsl:when test="tei:title[@level = 'a']">
+        <xsl:when test="$bibl/tei:title[@level = 'a']">
           <xsl:choose>
-            <xsl:when test="tei:date[@key]">
-              <xsl:value-of select="tei:date/@key"/>
+            <xsl:when test="$bibl/tei:date[@key]">
+              <xsl:value-of select="$bibl/tei:date/@key"/>
             </xsl:when>
             <xsl:otherwise>
-              <xsl:value-of select="tei:title[@level = 'm']/@key"/>
+              <xsl:value-of select="$bibl/tei:title[@level = 'm']/@key"/>
             </xsl:otherwise>
           </xsl:choose>
         </xsl:when>
         <xsl:otherwise>
           <xsl:choose>
-            <xsl:when test="tei:citedRange[@wholeText = 'yes']">
-              <xsl:value-of select="tei:citedRange[@wholeText = 'yes']/@xml:id"/>
+            <xsl:when test="$bibl/tei:citedRange[@wholeText = 'yes']">
+              <xsl:value-of select="$bibl/tei:citedRange[@wholeText = 'yes']/@xml:id"/>
             </xsl:when>
             <xsl:otherwise>
-              <xsl:value-of select="@xml:id"/>
+              <xsl:value-of select="$bibl/@xml:id"/>
             </xsl:otherwise>
           </xsl:choose>
         </xsl:otherwise>
