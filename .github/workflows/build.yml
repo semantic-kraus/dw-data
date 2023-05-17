@@ -19,6 +19,8 @@ jobs:
       run: ./build.sh
     - name: xslt
       run: ./dl_saxon_and_transform.sh
+    - name: triggify scripts/triggify.py
+      run: python 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
