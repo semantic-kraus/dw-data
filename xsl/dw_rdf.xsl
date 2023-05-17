@@ -1598,10 +1598,10 @@
     <xsl:text>&quot;@en</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
 
-    <xsl:text>  ns1:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/idno/xml-id&gt;</xsl:text>
+    <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/idno/xml-id&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
 
-    <xsl:text>  P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+    <xsl:text>  cidoc:P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
     <xsl:value-of select="$uri-f22"/>
     <xsl:text>&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
@@ -1635,10 +1635,10 @@
     <xsl:text>&quot;@en</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
 
-    <xsl:text>  ns1:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/idno/URL/dritte-walpurgisnacht&gt;</xsl:text>
+    <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/idno/URL/dritte-walpurgisnacht&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
 
-    <xsl:text>  P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+    <xsl:text>  cidoc:P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
     <xsl:value-of select="$uri-f22"/>
     <xsl:text>&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
@@ -1700,12 +1700,12 @@
       <xsl:text>&quot;@en</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
 
-      <xsl:text>  ns1:P2_has_type &lt;</xsl:text>
+      <xsl:text>  cidoc:P2_has_type &lt;</xsl:text>
       <xsl:value-of select="$type"/>
       <xsl:text>&gt;</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
 
-      <xsl:text>  P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:text>  cidoc:P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
       <xsl:value-of select="$uri-f22"/>
       <xsl:text>&gt;</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
