@@ -17,8 +17,8 @@ g = Graph()
 doc = TeiReader("./data/indices/listbibl.xml")
 nsmap = doc.nsmap
 
-main_title_type = URIRef('https://sk.acdh.oeaw.ac.at/types/main-title')
-sub_title_type = URIRef('https://sk.acdh.oeaw.ac.at/types/sub-title')
+main_title_type = URIRef("https://sk.acdh.oeaw.ac.at/types/main-title")
+sub_title_type = URIRef("https://sk.acdh.oeaw.ac.at/types/sub-title")
 
 items = doc.any_xpath(".//tei:bibl")
 for x in tqdm(items, total=len(items)):
@@ -38,25 +38,17 @@ for x in tqdm(items, total=len(items)):
     g.add((title_uri, CIDOC["P102i_is_title_of"], subj))
     # creation F28
     subj_creation = URIRef(f"{subj}/F28")
-    g.add((
-        subj_creation, RDF.type, FRBROO["F28"]
-    )),
+    g.add((subj_creation, RDF.type, FRBROO["F28"])),
     g.add((subj, FRBROO["R17i"], subj_creation))
     try:
-        creation_date = x.xpath('.//tei:date[@when]/@when', namespaces=nsmap)[0]
+        creation_date = x.xpath(".//tei:date[@when]/@when", namespaces=nsmap)[0]
     except IndexError:
         creation_date = None
     if creation_date:
         b_timestamp = URIRef(f"{SK}timestamp/{creation_date}")
-        g.add((
-            b_timestamp, RDF.type, CIDOC["E52_Time-Span"]
-        ))
+        g.add((b_timestamp, RDF.type, CIDOC["E52_Time-Span"]))
 
-g.add((
-    main_title_type, RDF.type, CIDOC["E55_Type"]
-))
-g.add((
-    sub_title_type, RDF.type, CIDOC["E55_Type"]
-))
+g.add((main_title_type, RDF.type, CIDOC["E55_Type"]))
+g.add((sub_title_type, RDF.type, CIDOC["E55_Type"]))
 
 g.serialize(f"{rdf_dir}/texts.ttl")
