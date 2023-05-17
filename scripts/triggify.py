@@ -29,7 +29,10 @@ g.bind("frbroo", FRBROO)
 g.bind("sk", SK)
 g.bind("dw", DW)
 
-g.parse("./html/texts.ttl")
+try:
+    g.parse("./html/texts.ttl")
+except Exception as e:
+    print(e)
 
 g_all = ConjunctiveGraph(store=project_store)
 g_all.serialize(f"./html/texts.trig", format="trig")
