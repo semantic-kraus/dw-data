@@ -5,6 +5,7 @@ from acdh_tei_pyutils.tei import TeiReader
 
 print("runs some search and replace things over listperson.xml")
 
+
 def gsheet_to_df(sheet_id):
     GDRIVE_BASE_URL = "https://docs.google.com/spreadsheet/ccc?key="
     url = f"{GDRIVE_BASE_URL}{sheet_id}&output=csv"
@@ -18,7 +19,7 @@ def gsheet_to_df(sheet_id):
 df = gsheet_to_df("1wpoZJPKj4CjEuwyVYahGVST9tPKR1aohAJBq4w49Kq0")
 print(df)
 
-with open('./data/indices/listperson.xml', 'r') as f:
+with open("./data/indices/listperson.xml", "r") as f:
     data = f.read()
 
 for i, row in df.iterrows():
@@ -29,4 +30,4 @@ for i, row in df.iterrows():
 data = data.replace("&", "&amp;")
 doc = TeiReader(data)
 
-doc.tree_to_file('./data/indices/listperson.xml')
+doc.tree_to_file("./data/indices/listperson.xml")

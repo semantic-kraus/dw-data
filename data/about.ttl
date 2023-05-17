@@ -1,0 +1,7 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dw: <https://sk.acdh.oeaw.ac.at/project/dritte-walpurgisnacht> .
+@prefix sk: <https://sk.acdh.oeaw.ac.at/> .
+
+
+dw: dct:title "Dritte Walpurgisnacht"@de ;
+    dct:bibliographicCitation """Karl Kraus: Dritte Walpurgisnacht, hg. v. Bernahrd Oberreiter (ein Zitiervorschlag auf https://kraus1933.ace.oeaw.ac.at wäre schön)"""@de  .

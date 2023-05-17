@@ -7,20 +7,41 @@ from acdh_cidoc_pyutils import (
     make_occupations,
     make_affiliations,
 )
-from acdh_cidoc_pyutils.namespaces import CIDOC
+from acdh_cidoc_pyutils.namespaces import CIDOC, FRBROO
 from acdh_tei_pyutils.tei import TeiReader
-from rdflib import Graph, Namespace, URIRef
-from rdflib.namespace import RDF
+from rdflib import Graph, Namespace, URIRef, plugin, ConjunctiveGraph
+from rdflib.namespace import RDF, VOID, DCTERMS
+from rdflib.store import Store
 
 
 domain = "https://sk.acdh.oeaw.ac.at/"
 SK = Namespace(domain)
+DW = Namespace("https://sk.acdh.oeaw.ac.at/project/dritte-walpurgisnacht")
+
+store = plugin.get("Memory", Store)()
+project_store = plugin.get("Memory", Store)()
+
+project_uri = URIRef(f"{DW}")
+g_prov = Graph(store=project_store, identifier=URIRef(f"{SK}provenance"))
+g_prov.bind("dct", DCTERMS)
+g_prov.bind("void", VOID)
+g_prov.bind("sk", SK)
+g_prov.bind("dw", DW)
+g_prov.bind("cidoc", CIDOC)
+g_prov.bind("frbroo", FRBROO)
+g_prov.parse("./data/about.ttl")
+
+g = Graph(identifier=project_uri, store=project_store)
+g.bind("cidoc", CIDOC)
+g.bind("frbroo", FRBROO)
+g.bind("sk", SK)
+g.bind("dw", DW)
+
 
 rdf_dir = "./rdf"
 
 os.makedirs(rdf_dir, exist_ok=True)
 
-g = Graph()
 doc = TeiReader("./data/indices/listperson.xml")
 nsmap = doc.nsmap
 items = doc.any_xpath(".//tei:person")
@@ -35,7 +56,9 @@ for x in tqdm(items, total=len(items)):
         )[0]
     except IndexError:
         label = None
-    g += make_e42_identifiers(subj, x, type_domain=f"{SK}types", default_lang="und", same_as=False)
+    g += make_e42_identifiers(
+        subj, x, type_domain=f"{SK}types", default_lang="und", same_as=False
+    )
     g += make_appellations(subj, x, type_domain=f"{SK}types", default_lang="und")
     g += make_occupations(subj, x, default_lang="und", id_xpath="@n")[0]
     for y in x.xpath(".//tei:affiliation[@ref]", namespaces=nsmap):
@@ -86,4 +109,5 @@ for x in doc.any_xpath(".//tei:org"):
     g.add((subj, RDF.type, CIDOC["E74_Group"]))
     g += make_appellations(subj, x, type_domain=f"{SK}types/", default_lang="und")
     g += make_e42_identifiers(subj, x, type_domain=f"{SK}types", default_lang="und")
-g.serialize(f"{rdf_dir}/data.ttl")
+g_all = ConjunctiveGraph(store=project_store)
+g_all.serialize(f"{rdf_dir}/data.trig", format="trig")
