@@ -16,6 +16,10 @@
   <xsl:template match="tei:bibl">
     <xsl:call-template name="create-bibl-F22"/>
     <xsl:call-template name="create-F22-title"/>
+    <xsl:call-template name="create-E42-xmlid-identifier"/>
+    <xsl:call-template name="create-E42-permalink-identifier"/>
+    <xsl:call-template name="create-E42-url-identifier"/>
+    
     <xsl:choose>
       <xsl:when test="tei:title[@level = 'a']">
         <xsl:call-template name="create-bibl-F22-art-issue"/>
@@ -1576,26 +1580,143 @@
     </xsl:if>
   </xsl:template>
 
-  <!-- 
-So: Verweise in citedRange auf citedRange - Intertextuelle Verweise
+  <xsl:template name="create-E42-xmlid-identifier">
+    <xsl:variable name="uri-f22">
+      <xsl:call-template name="get-F22-uri"/>
+    </xsl:variable>
 
-Für jedes citedRange/ref[@type="int"] wird das folgende - scheinbar simple! - Statement angelegt:
+    <xsl:call-template name="comment">
+      <xsl:with-param name="text" select="'#E42 xml:id identifier'"/>
+    </xsl:call-template>
+    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+    <xsl:value-of select="$uri-f22"/>
+    <xsl:text>/identifier/idno/0&gt; a ns1:E42_Identifier</xsl:text>
+    <xsl:call-template name="newline-semicolon"/>
 
-<[relation-URI]> a ns1:INT3_IntertextualRelationship ;
-    rdfs:label "Intertextual relation"@en ;
-    ns1:R12_has_referred_to_entity <[referring Entity]> ;
-    ns1:R13_has_referring_entity <[referred to Entity]> .
+    <xsl:text>  rdfs:label &quot;Identifier: </xsl:text>
+    <xsl:value-of select="$uri-f22"/>
+    <xsl:text>&quot;@en</xsl:text>
+    <xsl:call-template name="newline-semicolon"/>
 
-- relation-URI: Wird gebaut wie die der Passage, also mit der Basis-ID, bloß statt der "passage" ein "relation"; die Nummer nach dem "/" bleibt gleich, also wie die der Passage.
-- referring Entity:
-  - Wenn die citedRange kein @wholeText="yes" und kein @wholePeriodical="yes" hat, dann ist das die URI der Textpassage, also Basis-URI/passage/[n].
-  - Wenn die citedRange @wholeText ist, dann ist es die URI der F22, also nur die Basis-URI (in dem Fall aufbauend auf der xml:id des citedRange).
-  - Wenn die citedRange @wholePeriodical ist, dann ist es die der Periodical-F24, also Basis-URI (aufbauend auf der xml:id des citedRange) + "published-expression"
-- referred to Entity: Hier dasselbe Spielchen, bloß auf eine andere citedRange bezogen, nämlich die, deren ID im @target steht. Zuerst also prüfen, ob die dort referenzierte citedRange ein @wholeText="yes" oder ein @wholePeriodical="yes" hat oder nichts davon, und dann 
-  - wenn die referenzierte citedRange kein @wholeText="yes" und kein @wholePeriodical="yes" hat, dann ist das die URI der Textpassage, also Basis-URI (des parent::bibl des angesteuerten citedRange - aus bibl/@xml:id oder einem citedRange[@wholeText="yes"]/@xml:id) + "/passage/[n]".
-  - Wenn die referenzierte citedRange @wholeText ist, dann wird hier die URI der F22 gebildet, also nur die Basis-URI (in dem Fall aufbauend auf der xml:id des referenzierte citedRange).
-  - Wenn die referenzierte citedRange @wholePeriodical ist, dann ist es die der Periodical-F24, also die Basis-URI (aufbauend auf der xml:id des referenzierten citedRange) + "published-expression"
-  -->
+    <xsl:text>  ns1:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/idno/xml-id&gt;</xsl:text>
+    <xsl:call-template name="newline-semicolon"/>
+
+    <xsl:text>  P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+    <xsl:value-of select="$uri-f22"/>
+    <xsl:text>&gt;</xsl:text>
+    <xsl:call-template name="newline-semicolon"/>
+
+    <xsl:text>  rdf:value &quot;</xsl:text>
+    <xsl:value-of select="$uri-f22"/>
+    <xsl:text>&quot;</xsl:text>
+    <xsl:call-template name="newline-dot-newline"/>
+  </xsl:template>
+
+  <xsl:template name="create-E42-permalink-identifier">
+    <xsl:variable name="uri-f22">
+      <xsl:call-template name="get-F22-uri"/>
+    </xsl:variable>
+    <xsl:variable name="permalink">
+      <xsl:text>https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_intertexte.html&amp;letter=</xsl:text>
+      <xsl:value-of select="substring(@sortKey, 1, 1)"/>
+      <xsl:value-of select="@xml:id"/>
+    </xsl:variable>
+
+    <xsl:call-template name="comment">
+      <xsl:with-param name="text" select="'#E42 permalink identifier'"/>
+    </xsl:call-template>
+    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+    <xsl:value-of select="$uri-f22"/>
+    <xsl:text>/identifier/idno/2&gt; a ns1:E42_Identifier</xsl:text>
+    <xsl:call-template name="newline-semicolon"/>
+
+    <xsl:text>  rdfs:label &quot;Identifier: </xsl:text>
+    <xsl:value-of select="$permalink"/>
+    <xsl:text>&quot;@en</xsl:text>
+    <xsl:call-template name="newline-semicolon"/>
+
+    <xsl:text>  ns1:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/idno/URL/dritte-walpurgisnacht&gt;</xsl:text>
+    <xsl:call-template name="newline-semicolon"/>
+
+    <xsl:text>  P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+    <xsl:value-of select="$uri-f22"/>
+    <xsl:text>&gt;</xsl:text>
+    <xsl:call-template name="newline-semicolon"/>
+
+    <xsl:text>  rdf:value &quot;</xsl:text>
+    <xsl:value-of select="$permalink"/>
+    <xsl:text>&quot;</xsl:text>
+    <xsl:call-template name="newline-dot-newline"/>
+  </xsl:template>
+
+  <xsl:template name="create-E42-url-identifier">
+    <xsl:variable name="uri-f22">
+      <xsl:call-template name="get-F22-uri"/>
+    </xsl:variable>
+
+    <xsl:for-each select="tei:ref[@type = 'gen']">
+      <xsl:call-template name="comment">
+        <xsl:with-param name="text" select="'#E42 url type identifier'"/>
+      </xsl:call-template>
+
+      <xsl:variable name="type">
+        <xsl:text>https://sk.acdh.oeaw.ac.at/types/idno/URL</xsl:text>
+        <xsl:choose>
+          <xsl:when test="contains(@target, '://anno.onb')">
+            <xsl:text>/anno</xsl:text>
+          </xsl:when>
+          <xsl:when test="contains(@target, '://faustedition')">
+            <xsl:text>/faust-edition</xsl:text>
+          </xsl:when>
+          <xsl:when test="contains(@target, '://nietzschesource')">
+            <xsl:text>/nietzsche-source</xsl:text>
+          </xsl:when>
+          <xsl:when test="contains(@target, '://archive.org')">
+            <xsl:text>/archive-org</xsl:text>
+          </xsl:when>
+          <xsl:when
+            test="contains(@target, '://de.wikisource') or contains(@target, '://la.wikisource')">
+            <xsl:text>/wikisource</xsl:text>
+          </xsl:when>
+          <xsl:when test="contains(@target, '://fackel')">
+            <xsl:text>/fackel</xsl:text>
+          </xsl:when>
+          <xsl:when test="contains(@target, '://gallica')">
+            <xsl:text>/gallica</xsl:text>
+          </xsl:when>
+          <xsl:when test="contains(@target, '://textgridrep')">
+            <xsl:text>/textgrid</xsl:text>
+          </xsl:when>
+        </xsl:choose>
+      </xsl:variable>
+
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri-f22"/>
+      <xsl:text>/identifier/idno/3&gt; a ns1:E42_Identifier</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+
+      <xsl:text>  rdfs:label &quot;Identifier: </xsl:text>
+      <xsl:value-of select="@target"/>
+      <xsl:text>&quot;@en</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+
+      <xsl:text>  ns1:P2_has_type &lt;</xsl:text>
+      <xsl:value-of select="$type"/>
+      <xsl:text>&gt;</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+
+      <xsl:text>  P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri-f22"/>
+      <xsl:text>&gt;</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+
+      <xsl:text>  rdf:value &quot;</xsl:text>
+      <xsl:value-of select="@target"/>
+      <xsl:text>&quot;</xsl:text>
+      <xsl:call-template name="newline-dot-newline"/>
+    </xsl:for-each>
+  </xsl:template>
+
   <xsl:template name="create-INT3">
     <xsl:variable name="uri">
       <xsl:call-template name="get-F22-uri"/>
@@ -1654,12 +1775,12 @@ Für jedes citedRange/ref[@type="int"] wird das folgende - scheinbar simple! - S
         <xsl:with-param name="base" select="$selector"/>
       </xsl:call-template>
     </xsl:variable>
-    <xsl:variable name="uri-f24">      
+    <xsl:variable name="uri-f24">
       <xsl:call-template name="get-F24-uri">
         <xsl:with-param name="base" select="$selector"/>
       </xsl:call-template>
     </xsl:variable>
-    
+
     <xsl:choose>
       <xsl:when test="not($selector/@wholeText = 'yes') and not($selector/@wholePeriodical = 'yes')">
         <xsl:value-of select="$uri"/>
