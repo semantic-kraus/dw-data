@@ -137,6 +137,12 @@
       <xsl:value-of select="$uri-f22"/>
       <xsl:text>/title/1&gt;</xsl:text>
     </xsl:if>
+    <xsl:if test="tei:title[@level = 'm' and @key]">
+      <xsl:call-template name="newline-semicolon"/>
+      <xsl:text>  cidoc:P165i_is_incorporated_in &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="translate(tei:title[@level = 'm']/@key, '#', '')"/>
+      <xsl:text>&gt;</xsl:text>
+    </xsl:if>
     <xsl:call-template name="newline-dot-newline"/>
   </xsl:template>
 
@@ -270,12 +276,14 @@
         <xsl:call-template name="comment">
           <xsl:with-param name="text" select="'#INT1-INT16 textpassage segment'"/>
         </xsl:call-template>
+
         <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
         <xsl:value-of select="$uri-f22"/>
         <xsl:text>/segment/</xsl:text>
         <xsl:value-of select="position() - 1"/>
         <xsl:text>&gt; a ns1:INT16_Segment</xsl:text>
         <xsl:call-template name="newline-semicolon"/>
+
         <xsl:text>  rdfs:label &quot;Text segment from: </xsl:text>
         <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
         <xsl:text>&quot;@en</xsl:text>
@@ -286,23 +294,35 @@
           <xsl:text>&quot;</xsl:text>
         </xsl:if>
         <xsl:call-template name="newline-semicolon"/>
+
         <xsl:text>  ns1:R16_incorporates &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
         <xsl:value-of select="$uri-f22"/>
         <xsl:text>/passage/</xsl:text>
         <xsl:value-of select="position() - 1"/>
         <xsl:text>&gt;</xsl:text>
+
         <xsl:if test="$citedRange != ''">
           <xsl:call-template name="newline-semicolon"/>
           <xsl:text>  ns1:R41_has_location &quot;</xsl:text>
           <xsl:value-of select="$citedRange"/>
           <xsl:text>&quot;^^xsd:string</xsl:text>
         </xsl:if>
+
         <xsl:if test="tei:note[@type = 'context']">
           <xsl:call-template name="newline-semicolon"/>
           <xsl:text>   ns1:R44_has_wording &quot;</xsl:text>
           <xsl:value-of
             select="replace(translate(tei:note[@type = 'context']/text(), '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
           <xsl:text>&quot;@und</xsl:text>
+        </xsl:if>
+        <xsl:if test="tei:title[@level = 'm']">
+          <xsl:variable name="uri-m">
+            <xsl:call-template name="get-F24-uri-m"/>
+          </xsl:variable>
+          <xsl:call-template name="newline-semicolon"/>
+          <xsl:text>   ns1:R25_is_segment_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+          <xsl:value-of select="$uri-m"/>
+          <xsl:text>/published-expression&gt;</xsl:text>
         </xsl:if>
         <xsl:call-template name="newline-dot-newline"/>
       </xsl:for-each>
@@ -476,7 +496,14 @@
         <xsl:call-template name="get-F22-uri"/>
       </xsl:variable>
       <xsl:variable name="uri-f24">
-        <xsl:call-template name="get-F24-uri"/>
+        <xsl:choose>
+          <xsl:when test="tei:title[@level = 'm']">
+            <xsl:call-template name="get-F24-uri-m"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:call-template name="get-F24-uri"/>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:variable>
 
       <xsl:call-template name="comment">
@@ -599,10 +626,6 @@
       <xsl:value-of select="$uri-f22ed"/>
       <xsl:text>/title/1&gt;</xsl:text>
     </xsl:if>
-    <xsl:call-template name="newline-semicolon"/>
-    <xsl:text>  cidoc:P165i_is_incorporated_in &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-    <xsl:value-of select="$uri-issue"/>
-    <xsl:text>&gt;</xsl:text>
     <xsl:call-template name="newline-dot-newline"/>
   </xsl:template>
 
@@ -726,7 +749,14 @@
   <xsl:template name="create-F24-appellation">
     <xsl:if test="tei:title[@level = 'j' or @level = 's'] or tei:pubPlace">
       <xsl:variable name="uri-f24">
-        <xsl:call-template name="get-F24-uri"/>
+        <xsl:choose>
+          <xsl:when test="tei:title[@level = 'm']">
+            <xsl:call-template name="get-F24-uri-m"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:call-template name="get-F24-uri"/>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:variable>
       <xsl:variable name="title" select="tei:title[@level = 'm' and not(@type)]/text()"/>
 
@@ -828,7 +858,14 @@
   <xsl:template name="create-F24-appellation-title0">
     <xsl:if test="tei:title[@level = 'j' or @level = 's'] or tei:pubPlace">
       <xsl:variable name="uri-f24">
-        <xsl:call-template name="get-F24-uri"/>
+        <xsl:choose>
+          <xsl:when test="tei:title[@level = 'm']">
+            <xsl:call-template name="get-F24-uri-m"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:call-template name="get-F24-uri"/>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:variable>
       <xsl:variable name="title" select="tei:title[@level = 'm' and not(@type)]"/>
 
@@ -1205,7 +1242,7 @@
   </xsl:template>
 
   <xsl:template name="create-F28-edText">
-    <xsl:if test="tei:author and tei:editor">
+    <xsl:if test="tei:editor">
       <xsl:variable name="title">
         <xsl:call-template name="get-F22-title"/>
       </xsl:variable>
@@ -1228,7 +1265,7 @@
       <xsl:value-of select="$uri-f22ed"/>
       <xsl:text>&gt;</xsl:text>
 
-      <xsl:for-each select="tei:author">
+      <xsl:for-each select="tei:editor">
         <xsl:call-template name="newline-semicolon"/>
         <xsl:text>  cidoc:P14_carried_out_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
         <xsl:value-of select="translate(@key, '#', '')"/>
@@ -1239,7 +1276,7 @@
   </xsl:template>
 
   <xsl:template name="create-F28-ed">
-    <xsl:if test="tei:editor">
+    <xsl:if test="tei:author">
       <xsl:variable name="title">
         <xsl:call-template name="get-F22-title"/>
       </xsl:variable>
@@ -1264,7 +1301,7 @@
       <xsl:value-of select="$uri"/>
       <xsl:text>&gt;</xsl:text>
 
-      <xsl:for-each select="tei:editor">
+      <xsl:for-each select="tei:author">
         <xsl:call-template name="newline-semicolon"/>
         <xsl:text>  cidoc:P14_carried_out_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
         <xsl:value-of select="translate(@key, '#', '')"/>
@@ -1395,7 +1432,14 @@
         <xsl:call-template name="get-F24-title"/>
       </xsl:variable>
       <xsl:variable name="uri">
-        <xsl:call-template name="get-F24-uri"/>
+        <xsl:choose>
+          <xsl:when test="tei:title[@level = 'm']">
+            <xsl:call-template name="get-F24-uri-m"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:call-template name="get-F24-uri"/>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:variable>
 
       <xsl:call-template name="comment">
@@ -1432,7 +1476,14 @@
     <xsl:if test="not(tei:date/tei:note/text() = 'UA' or tei:date/tei:note/text() = 'Entst.')">
       <xsl:if test="tei:date[@when or (@notBefore and @notAfter)]">
         <xsl:variable name="uri">
-          <xsl:call-template name="get-F24-uri"/>
+          <xsl:choose>
+            <xsl:when test="tei:title[@level = 'm']">
+              <xsl:call-template name="get-F24-uri-m"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:call-template name="get-F24-uri"/>
+            </xsl:otherwise>
+          </xsl:choose>
         </xsl:variable>
         <xsl:variable name="title">
           <xsl:call-template name="get-timespan-title"/>
@@ -1992,6 +2043,24 @@
               <xsl:value-of select="$bibl/@xml:id"/>
             </xsl:otherwise>
           </xsl:choose>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+
+    <xsl:value-of select="translate($uri, '#', '')"/>
+  </xsl:template>
+
+  <xsl:template name="get-F24-uri-m">
+    <xsl:param name="base" select="."/>
+    <xsl:variable name="bibl" select="$base/ancestor-or-self::tei:bibl"/>
+
+    <xsl:variable name="uri">
+      <xsl:choose>
+        <xsl:when test="$bibl/tei:title[@level = 'm']">
+          <xsl:value-of select="$bibl/tei:title[@level = 'm']/@key"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="$bibl/@xml:id"/>
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
