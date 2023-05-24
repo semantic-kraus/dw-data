@@ -70,12 +70,12 @@
 
     <xsl:text>  cidoc:P1_is_identified_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
     <xsl:value-of select="id"/>
-    <xsl:text>/identifier/idno/0;&gt;</xsl:text>
+    <xsl:text>/identifier/idno/0&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
 
     <xsl:text>  cidoc:P1_is_identified_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
     <xsl:value-of select="id"/>
-    <xsl:text>/identifier/idno/1;&gt;</xsl:text>
+    <xsl:text>/identifier/idno/1&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
 
     <xsl:text>  ns1:R10_is_Text_Passage_of &lt;https://sk.acdh.oeaw.ac.at/DWbibl00000&gt;</xsl:text>
@@ -99,12 +99,12 @@
       <xsl:with-param name="text" select="'#INT16 segment'"/>
     </xsl:call-template>
 
-    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/DWbibl00000/segment</xsl:text>
+    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/DWbibl00000/segment/</xsl:text>
     <xsl:value-of select="$n"/>
     <xsl:text>&gt; a ns1:INT16_Segment</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
 
-    <xsl:text>  rdfs:label &quot;Segment from: Dritte Walpurgisnacht"@en ;</xsl:text>
+    <xsl:text>  rdfs:label &quot;Segment from: Dritte Walpurgisnacht"@en</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
 
     <xsl:text>  ns1:R16_incorporates &lt;https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/</xsl:text>
@@ -113,6 +113,7 @@
     <xsl:call-template name="newline-semicolon"/>
 
     <xsl:text>  ns1:R25_is_segment_of &lt;https://sk.acdh.oeaw.ac.at/DWbibl00000/published-expression&gt;</xsl:text>
+    <xsl:call-template name="newline-semicolon"/>
     
     <xsl:text>  ns1:R41_has_location &quot;</xsl:text>
     <xsl:value-of select="paragraph"/>
