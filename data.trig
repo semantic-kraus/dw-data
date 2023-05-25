@@ -8,12 +8,6 @@
 @prefix sk: <https://sk.acdh.oeaw.ac.at/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-sk:provenance {
-    dw: dcterms:bibliographicCitation "Karl Kraus: Dritte Walpurgisnacht. Annotated reader's edition. Ed. by Bernhard Oberreither at Austrian Corpora and Editions at ACDH-CH. 2021. URL: https://kraus1933.ace.oeaw.ac.at"@en ;
-        dcterms:contributor "Research – concerning persons mentioned and intertexts – was conducted by Bernhard Oberreither, Hanno Biber, David Treffinger, Laura Untner, with the assistance of Gerhard Wolff; interns: Constance Quinlan, Mira Krall. Research findings build on preliminary work done at the predecessor institutions of the ACE at the Austrian Academy of Sciences as well as on numerous publications. For a list see https://kraus1933.ace.oeaw.ac.at/annotierte_lesefassung.html. For a list of biographical and bibliographical sources see https://kraus1933.ace.oeaw.ac.at/register.html."@en ;
-        dcterms:title "Dritte Walpurgisnacht"@de .
-}
-
 dw: {
     <https://sk.acdh.oeaw.ac.at/DWpers0000/birth> a cidoc:E67_Birth ;
         rdfs:label "Geburt von Kraus, Karl"@de ;
@@ -35736,5 +35730,11 @@ dw: {
         rdfs:label "sk" .
 
     <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> a cidoc:E55_Type .
+}
+
+sk:provenance {
+    dw: dcterms:bibliographicCitation "Karl Kraus: Dritte Walpurgisnacht. Annotated reader's edition. Ed. by Bernhard Oberreither at Austrian Corpora and Editions at ACDH-CH. 2021. URL: https://kraus1933.ace.oeaw.ac.at"@en ;
+        dcterms:contributor "Research – concerning persons mentioned and intertexts – was conducted by Bernhard Oberreither, Hanno Biber, David Treffinger, Laura Untner, with the assistance of Gerhard Wolff; interns: Constance Quinlan, Mira Krall. Research findings build on preliminary work done at the predecessor institutions of the ACE at the Austrian Academy of Sciences as well as on numerous publications. For a list see https://kraus1933.ace.oeaw.ac.at/annotierte_lesefassung.html. For a list of biographical and bibliographical sources see https://kraus1933.ace.oeaw.ac.at/register.html."@en ;
+        dcterms:title "Dritte Walpurgisnacht"@de .
 }
 
