@@ -73,9 +73,13 @@ for x in tqdm(items, total=len(items)):
         birth = x.xpath(".//tei:birth[@when]/@when", namespaces=doc.nsmap)[0]
     except IndexError:
         birth = None
+    try:
+        birth_type = x.xpath(".//tei:birth[@type]/@type", namespaces=doc.nsmap)[0]
+    except IndexError:
+        birth_type = None
     if birth:
         birth_g, b_uri, birth_timestamp = make_birth_death_entities(
-            subj, x, domain=SK, event_type="birth", verbose=True
+            subj, x, domain=SK, event_type="birth", verbose=True, time_span_type=birth_type
         )
         g += birth_g
     # death
