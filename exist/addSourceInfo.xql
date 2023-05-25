@@ -28,7 +28,7 @@ return
                                                     "yes"
                                                 else
                                                     "no"
-                            let $posCitedRange :=  count( $bibl/tei:citedRange[@xml:id=$source]/preceding-sibling::tei:citedRange) +1
+                            let $posCitedRange :=  count( $bibl/tei:citedRange[@xml:id=$source]/preceding-sibling::tei:citedRange)
                                 
                             return 
                                     <info source="{$source}" wholeText="{$wholeText}" wholePeriodical="{$wholePeriodical}" hasRefInt="{$hasRefInt}" posCitedRange="{$posCitedRange}"/>
