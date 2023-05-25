@@ -549,7 +549,7 @@
 				<bibl source="_" xml:id="DWbibl00011" sortKey="Goethe_Johann_Wolfgang_von">
 					<author key="#DWpers0080">Johann Wolfgang von Goethe</author>
 					<title level="m">[Gespräch mit Heinrich Luden]</title>
-					<date when="1813-12-13">13. 12. 1813<note>UA</note></date>
+					<date when="1813-12-13">13. 12. 1813<note>Entst.</note></date>
 					<citedRange xml:id="DWbibl03574"/><!-- Eine Vergleichung … erwacht? -->
 				</bibl>
 				
