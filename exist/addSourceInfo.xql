@@ -24,11 +24,11 @@ return
                                                 else
                                                     "no"
                                                     
-                            let $hasRefInt :=   if (exists($bibl/tei:citedRange[@xml:id=$source and ref[type='int']])) then
+                            let $hasRefInt :=   if (exists($bibl/tei:citedRange[@xml:id=$source and tei:ref[@type='int']])) then
                                                     "yes"
                                                 else
                                                     "no"
-                            let $posCitedRange :=  count( $bibl/tei:citedRange[@xml:id=$source]/preceding-sibling::tei:citedRange)
+                            let $posCitedRange :=  count($bibl/tei:citedRange[@xml:id=$source]/preceding-sibling::tei:citedRange)
                                 
                             return 
                                     <info source="{$source}" wholeText="{$wholeText}" wholePeriodical="{$wholePeriodical}" hasRefInt="{$hasRefInt}" posCitedRange="{$posCitedRange}"/>
