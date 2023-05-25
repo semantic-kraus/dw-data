@@ -1904,14 +1904,14 @@
       <xsl:text>  rdfs:label &quot;Intertextual relation&quot;@en</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
 
-      <xsl:variable name="r12-uri">
+      <xsl:variable name="r13-uri">
         <xsl:call-template name="get-ref-uri">
           <xsl:with-param name="selector" select="."/>
           <xsl:with-param name="n" select="$n"/>
         </xsl:call-template>
       </xsl:variable>
 
-      <xsl:variable name="r13-uri">
+      <xsl:variable name="r12-uri">
         <xsl:call-template name="get-ref-uri">
           <xsl:with-param name="selector"
             select="//tei:citedRange[@xml:id = translate(tei:ref[@type = 'int']/@target, '#', '')]"/>
@@ -1930,6 +1930,23 @@
       <xsl:call-template name="newline-dot-newline"/>
     </xsl:for-each>
   </xsl:template>
+
+<!-- 
+Intertextuelle Relation
+
+Da ist noch ein Wurm drin:
+
+<https://sk.acdh.oeaw.ac.at/DWbibl04009/relation/0> a ns1:INT3_IntertextualRelationship ;
+        rdfs:label "Intertextual relation"@en ;
+        ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl04009/passage/0> ;
+        ns1:R13_has_referring_entity <https://sk.acdh.oeaw.ac.at//passage/0> .
+
+ * Die URI der referred to entity sollte eigentlich unten bei der referring entity stehen.
+ * Die URI der (wirklichen) referred to entity richtet sich danach, ob im in @target anvisierten citedRange ein @wholeText, ein @wholePeriodical oder nichts davon befindet
+    * Fall 1: @wholeText="yes": referred-to-URI baut auf ref[@type="int"/@target auf, ohne "#", einfach https://sk.acdh.oeaw.ac.at/DWbibl01075
+    * Fall 2: @wholePeriodical="yes": referred-to-URI baut auf ref[@type="int"/@target auf, ohne "#", und hängt ein "/published-expression" dran - also https://sk.acdh.oeaw.ac.at/DWbibl01075/published-expression
+    * Fall 3: nichts davon: referred-to-URI ist eine Textpassage und baut auf der Basis-ID des bibls auf, in dem das citedRange steckt, auf das das ref[@type="int"]/@target verweist, und hängt "/" und den Zähler hinten dran. Hier also: https://sk.acdh.oeaw.ac.at/DWbibl00025/passage/5
+  -->
 
   <!-- helpers -->
 
