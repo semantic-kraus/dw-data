@@ -268,8 +268,7 @@
       <xsl:variable name="uri-issue">
         <xsl:call-template name="get-issue-uri"/>
       </xsl:variable>
-      <xsl:variable name="pagination" select="tei:biblScope/text()"/>
-      <xsl:for-each select="tei:citedRange[not(@wholeText) and not(@wholePeriodical)]">
+      <xsl:for-each select="tei:citedRange[not(@wholeText) and not(@wholePeriodical)]">        
         <xsl:variable name="citedRange"
           select="replace(translate(text(), '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
 
@@ -290,7 +289,7 @@
         <xsl:if test="starts-with($citedRange, 'S. ')">
           <xsl:call-template name="newline-semicolon"/>
           <xsl:text>  schema:pagination &quot;</xsl:text>
-          <xsl:value-of select="$pagination"/>
+          <xsl:value-of select="$citedRange"/>
           <xsl:text>&quot;</xsl:text>
         </xsl:if>
         <xsl:call-template name="newline-semicolon"/>
