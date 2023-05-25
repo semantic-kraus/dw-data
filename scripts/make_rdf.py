@@ -87,6 +87,10 @@ for x in tqdm(items, total=len(items)):
         death = x.xpath(".//tei:death[@when]/@when", namespaces=doc.nsmap)[0]
     except IndexError:
         death = None
+    try:
+        death_type = x.xpath(".//tei:death[@type]/@type", namespaces=doc.nsmap)[0]
+    except IndexError:
+        death_type = None
     if death:
         death_g, b_uri, death_timestamp = make_birth_death_entities(
             subj,
@@ -95,6 +99,7 @@ for x in tqdm(items, total=len(items)):
             event_type="death",
             verbose=True,
             default_prefix="Tod von",
+            time_span_type=death_type,
         )
         g += death_g
 doc = TeiReader("./data/indices/listplace.xml")
