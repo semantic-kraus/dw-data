@@ -70,9 +70,13 @@ for x in tqdm(items, total=len(items)):
             person_label=f"{label}",
         )
     # event
-    g += make_events(subj, x, type_domain=f"{SK}types", event_type_xpath=".//tei:event[@type]/@type", 
-                     default_lang="und", date_node_xpath=".//tei:desc/tei:date[@when]/when", 
-                     place_id_xpath=".//tei:desc/tei:placeName/@key", note_literal_xpath=".//tei:note/text()")
+    g += make_events(
+            subj,
+            x,
+            type_domain=f"{SK}types",
+            default_lang="und",
+            domain=domain
+        )
     # birth
     try:
         birth = x.xpath(".//tei:birth[@when]/@when", namespaces=doc.nsmap)[0]
