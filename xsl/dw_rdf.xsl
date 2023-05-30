@@ -268,8 +268,7 @@
       <xsl:variable name="uri-issue">
         <xsl:call-template name="get-issue-uri"/>
       </xsl:variable>
-      <xsl:variable name="pagination" select="tei:biblScope/text()"/>
-      <xsl:for-each select="tei:citedRange[not(@wholeText) and not(@wholePeriodical)]">
+      <xsl:for-each select="tei:citedRange[not(@wholeText) and not(@wholePeriodical)]">        
         <xsl:variable name="citedRange"
           select="replace(translate(text(), '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
 
@@ -290,7 +289,7 @@
         <xsl:if test="starts-with($citedRange, 'S. ')">
           <xsl:call-template name="newline-semicolon"/>
           <xsl:text>  schema:pagination &quot;</xsl:text>
-          <xsl:value-of select="$pagination"/>
+          <xsl:value-of select="$citedRange"/>
           <xsl:text>&quot;</xsl:text>
         </xsl:if>
         <xsl:call-template name="newline-semicolon"/>
@@ -1816,72 +1815,73 @@
     <xsl:for-each select="tei:citedRange[not(@wholeText) and not(@wholePeriodical)]">
       <xsl:variable name="uri-citedrange" select="@xml:id"/>
 
-      <xsl:variable name="target" select="tei:ref[@type = 'gen']/@target"/>
-      <xsl:call-template name="comment">
-        <xsl:with-param name="text" select="'#E42 url type identifier'"/>
-      </xsl:call-template>
+      <xsl:for-each select="tei:ref[@type = 'ext']">
+        <xsl:call-template name="comment">
+          <xsl:with-param name="text" select="'#E42 url type identifier'"/>
+        </xsl:call-template>
 
-      <xsl:variable name="type">
-        <xsl:text>https://sk.acdh.oeaw.ac.at/types/idno/URL</xsl:text>
-        <xsl:choose>
-          <xsl:when test="contains($target, '://anno.onb')">
-            <xsl:text>/anno</xsl:text>
-          </xsl:when>
-          <xsl:when test="contains($target, '://faustedition')">
-            <xsl:text>/faust-edition</xsl:text>
-          </xsl:when>
-          <xsl:when test="contains($target, '://nietzschesource')">
-            <xsl:text>/nietzsche-source</xsl:text>
-          </xsl:when>
-          <xsl:when test="contains($target, '://archive.org')">
-            <xsl:text>/archive-org</xsl:text>
-          </xsl:when>
-          <xsl:when
-            test="contains($target, '://de.wikisource') or contains($target, '://la.wikisource')">
-            <xsl:text>/wikisource</xsl:text>
-          </xsl:when>
-          <xsl:when test="contains($target, '://fackel')">
-            <xsl:text>/fackel</xsl:text>
-          </xsl:when>
-          <xsl:when test="contains($target, '://gallica')">
-            <xsl:text>/gallica</xsl:text>
-          </xsl:when>
-          <xsl:when test="contains($target, '://textgridrep')">
-            <xsl:text>/textgrid</xsl:text>
-          </xsl:when>
-        </xsl:choose>
-      </xsl:variable>
+        <xsl:variable name="type">
+          <xsl:text>https://sk.acdh.oeaw.ac.at/types/idno/URL</xsl:text>
+          <xsl:choose>
+            <xsl:when test="contains(@target, '://anno.onb')">
+              <xsl:text>/anno</xsl:text>
+            </xsl:when>
+            <xsl:when test="contains(@target, '://faustedition')">
+              <xsl:text>/faust-edition</xsl:text>
+            </xsl:when>
+            <xsl:when test="contains(@target, '://nietzschesource')">
+              <xsl:text>/nietzsche-source</xsl:text>
+            </xsl:when>
+            <xsl:when test="contains(@target, '://archive.org')">
+              <xsl:text>/archive-org</xsl:text>
+            </xsl:when>
+            <xsl:when
+              test="contains(@target, '://de.wikisource') or contains(@target, '://la.wikisource')">
+              <xsl:text>/wikisource</xsl:text>
+            </xsl:when>
+            <xsl:when test="contains(@target, '://fackel')">
+              <xsl:text>/fackel</xsl:text>
+            </xsl:when>
+            <xsl:when test="contains(@target, '://gallica')">
+              <xsl:text>/gallica</xsl:text>
+            </xsl:when>
+            <xsl:when test="contains(@target, '://textgridrep')">
+              <xsl:text>/textgrid</xsl:text>
+            </xsl:when>
+          </xsl:choose>
+        </xsl:variable>
 
-      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f22"/>
-      <xsl:text>/identifier/idno/1&gt; a cidoc:E42_Identifier</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-citedrange"/>
+        <xsl:text>/identifier/idno/</xsl:text>
+        <xsl:value-of select="position()"/>
+        <xsl:text>&gt; a cidoc:E42_Identifier</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
 
-      <xsl:text>  rdfs:label &quot;Identifier: </xsl:text>
-      <xsl:value-of select="$target"/>
-      <xsl:text>&quot;@en</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  rdfs:label &quot;Identifier: </xsl:text>
+        <xsl:value-of select="@target"/>
+        <xsl:text>&quot;@en</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
 
-      <xsl:text>  cidoc:P2_has_type &lt;</xsl:text>
-      <xsl:value-of select="$type"/>
-      <xsl:text>&gt;</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P2_has_type &lt;</xsl:text>
+        <xsl:value-of select="$type"/>
+        <xsl:text>&gt;</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
 
-      <xsl:text>  cidoc:P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f22"/>
-      <xsl:text>/passage/</xsl:text>
-      <xsl:value-of select="position() - 1"/>
-      <xsl:text>&gt;</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f22"/>
+        <xsl:text>/passage/</xsl:text>
+        <xsl:value-of select="position() - 1"/>
+        <xsl:text>&gt;</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
 
-      <xsl:text>  rdf:value &quot;</xsl:text>
-      <xsl:value-of select="$target"/>
-      <xsl:text>&quot;</xsl:text>
-      <xsl:call-template name="newline-dot-newline"/>
-
+        <xsl:text>  rdf:value &quot;</xsl:text>
+        <xsl:value-of select="@target"/>
+        <xsl:text>&quot;</xsl:text>
+        <xsl:call-template name="newline-dot-newline"/>
+      </xsl:for-each>
     </xsl:for-each>
   </xsl:template>
-
 
   <xsl:template name="create-INT3">
     <xsl:variable name="uri">
@@ -1904,14 +1904,14 @@
       <xsl:text>  rdfs:label &quot;Intertextual relation&quot;@en</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
 
-      <xsl:variable name="r12-uri">
+      <xsl:variable name="r13-uri">
         <xsl:call-template name="get-ref-uri">
           <xsl:with-param name="selector" select="."/>
           <xsl:with-param name="n" select="$n"/>
         </xsl:call-template>
       </xsl:variable>
 
-      <xsl:variable name="r13-uri">
+      <xsl:variable name="r12-uri">
         <xsl:call-template name="get-ref-uri">
           <xsl:with-param name="selector"
             select="//tei:citedRange[@xml:id = translate(tei:ref[@type = 'int']/@target, '#', '')]"/>
@@ -1930,6 +1930,23 @@
       <xsl:call-template name="newline-dot-newline"/>
     </xsl:for-each>
   </xsl:template>
+
+<!-- 
+Intertextuelle Relation
+
+Da ist noch ein Wurm drin:
+
+<https://sk.acdh.oeaw.ac.at/DWbibl04009/relation/0> a ns1:INT3_IntertextualRelationship ;
+        rdfs:label "Intertextual relation"@en ;
+        ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl04009/passage/0> ;
+        ns1:R13_has_referring_entity <https://sk.acdh.oeaw.ac.at//passage/0> .
+
+ * Die URI der referred to entity sollte eigentlich unten bei der referring entity stehen.
+ * Die URI der (wirklichen) referred to entity richtet sich danach, ob im in @target anvisierten citedRange ein @wholeText, ein @wholePeriodical oder nichts davon befindet
+    * Fall 1: @wholeText="yes": referred-to-URI baut auf ref[@type="int"/@target auf, ohne "#", einfach https://sk.acdh.oeaw.ac.at/DWbibl01075
+    * Fall 2: @wholePeriodical="yes": referred-to-URI baut auf ref[@type="int"/@target auf, ohne "#", und hängt ein "/published-expression" dran - also https://sk.acdh.oeaw.ac.at/DWbibl01075/published-expression
+    * Fall 3: nichts davon: referred-to-URI ist eine Textpassage und baut auf der Basis-ID des bibls auf, in dem das citedRange steckt, auf das das ref[@type="int"]/@target verweist, und hängt "/" und den Zähler hinten dran. Hier also: https://sk.acdh.oeaw.ac.at/DWbibl00025/passage/5
+  -->
 
   <!-- helpers -->
 
