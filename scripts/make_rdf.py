@@ -53,14 +53,16 @@ for x in tqdm(items, total=len(items)):
     g.add((subj, RDF.type, CIDOC["E21_Person"]))
     try:
         label = x.xpath(
-            './/tei:persName[@type="sk"][@subtype="pref"]/text()', namespaces=doc.nsmap
+            './/tei:persName[@type="sk"][@subtype="pref"]/text()',
+            namespaces=doc.nsmap
         )[0]
     except IndexError:
         label = None
     g += make_e42_identifiers(
         subj, x, type_domain=f"{SK}types", default_lang="und", same_as=False
     )
-    g += make_appellations(subj, x, type_domain=f"{SK}types", default_lang="und")
+    g += make_appellations(subj, x, type_domain=f"{SK}types",
+                           default_lang="und")
     g += make_occupations(subj, x, default_lang="und", id_xpath="@n")[0]
     for y in x.xpath(".//tei:affiliation[@ref]", namespaces=nsmap):
         g += make_affiliations(
@@ -79,25 +81,34 @@ for x in tqdm(items, total=len(items)):
         )
     # birth
     try:
-        birth = x.xpath(".//tei:birth[@when]/@when", namespaces=doc.nsmap)[0]
+        birth = x.xpath(".//tei:birth[@when]/@when",
+                        namespaces=doc.nsmap)[0]
     except IndexError:
         birth = None
     try:
-        birth_type = x.xpath(".//tei:birth[@type]/@type", namespaces=doc.nsmap)[0]
+        birth_type = x.xpath(".//tei:birth[@type]/@type",
+                             namespaces=doc.nsmap)[0]
     except IndexError:
         birth_type = None
     if birth:
         birth_g, b_uri, birth_timestamp = make_birth_death_entities(
-            subj, x, domain=SK, event_type="birth", verbose=True, time_span_type=birth_type
+            subj,
+            x,
+            domain=SK,
+            event_type="birth",
+            verbose=True,
+            time_span_type=birth_type
         )
         g += birth_g
     # death
     try:
-        death = x.xpath(".//tei:death[@when]/@when", namespaces=doc.nsmap)[0]
+        death = x.xpath(".//tei:death[@when]/@when",
+                        namespaces=doc.nsmap)[0]
     except IndexError:
         death = None
     try:
-        death_type = x.xpath(".//tei:death[@type]/@type", namespaces=doc.nsmap)[0]
+        death_type = x.xpath(".//tei:death[@type]/@type",
+                             namespaces=doc.nsmap)[0]
     except IndexError:
         death_type = None
     if death:
@@ -117,15 +128,20 @@ for x in doc.any_xpath(".//tei:place"):
     item_id = f"{SK}{xml_id}"
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E53_Place"]))
-    g += make_appellations(subj, x, type_domain=f"{SK}types/", default_lang="und")
-    g += make_e42_identifiers(subj, x, type_domain=f"{SK}types", default_lang="und")
+    g += make_appellations(subj, x, type_domain=f"{SK}types/",
+                           default_lang="und")
+    g += make_e42_identifiers(subj, x, type_domain=f"{SK}types",
+                              default_lang="und")
 doc = TeiReader("./data/indices/listorg.xml")
 for x in doc.any_xpath(".//tei:org"):
     xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"]
     item_id = f"{SK}{xml_id}"
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E74_Group"]))
-    g += make_appellations(subj, x, type_domain=f"{SK}types/", default_lang="und")
-    g += make_e42_identifiers(subj, x, type_domain=f"{SK}types", default_lang="und")
+    g += make_appellations(subj, x, type_domain=f"{SK}types/",
+                           default_lang="und")
+    g += make_e42_identifiers(subj, x, type_domain=f"{SK}types",
+                              default_lang="und")
 g_all = ConjunctiveGraph(store=project_store)
 g_all.serialize(f"{rdf_dir}/data.trig", format="trig")
+g_all.serialize(f"{rdf_dir}/data.ttl", format="ttl")
