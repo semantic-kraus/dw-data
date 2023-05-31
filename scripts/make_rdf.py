@@ -63,7 +63,7 @@ for x in tqdm(items, total=len(items)):
     )
     g += make_appellations(subj, x, type_domain=f"{SK}types",
                            default_lang="und",
-                           special_regex="[@type='sk']")
+                           special_xpath="[@type='sk']")
     g += make_occupations(subj, x, default_lang="und", id_xpath="@n")[0]
     for y in x.xpath(".//tei:affiliation[@ref]", namespaces=nsmap):
         g += make_affiliations(
