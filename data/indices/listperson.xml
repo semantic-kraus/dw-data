@@ -276,7 +276,7 @@
 						<occupation n="02">SS-Mitglied</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">Zeitgenössische Berichterstattung</note>
-						<note type="source" subtype="publ">Friedhöfe Wien</note>
+						<note type="source" subtype="publ">Friedhöfe Wien: Verstorbenensuche. URL: https://www.friedhoefewien.at/ (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -296,8 +296,8 @@
 							SS-Haupsturmführer</occupation>
 						<occupation notBefore="1933" n="02">Aufseher in Dachau</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
-						<note type="source" subtype="publ">Rothländer 2012</note>
-						<note type="source" subtype="publ">Friedhöfe Wien</note>
+						<note type="source" subtype="publ">Christiane Rothländer: Die Anfänge der Wiener SS. Wien, Köln u. Weimar 2012.</note>
+						<note type="source" subtype="publ">Friedhöfe Wien: Verstorbenensuche. URL: https://www.friedhoefewien.at/ (22. 3. 2021).</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -330,8 +330,8 @@
 						<occupation type="prim" n="01">Maschinentechniker</occupation>
 						<occupation n="02">SA- und SS-Mitglied</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
-						<note type="source" subtype="publ">Wien-Geschichte-Wiki</note>
-							<note type="source" subtype="publ">volksbund.de</note>
+						<note type="source" subtype="publ">Wiener Stadt- und Landesarchiv (MA 8) und die Wienbibliothek im Rathaus (MA 9): Wien Geschichte Wiki. URL: https://www.geschichtewiki.wien.gv.at/Wien_Geschichte_Wiki (22. 3. 2021).</note>
+							<note type="source" subtype="publ">Volksbund Deutsche Kriegsgräberfürsorge e. V.: Gräbersuche online. URL: https://www.volksbund.de/erinnern-gedenken/graebersuche-online (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -359,7 +359,7 @@
 						<death when="1933-06-12">12. 6. 1933<placeName key="#DWplace00085">Wien</placeName></death>
 						<persName type="sk" subtype="pref">Hodik, Johann</persName>
 						<occupation type="prim" n="01">Anstreicher, Angestellter</occupation>
-						<note type="source" subtype="publ">WStLA</note>
+						<note type="source" subtype="publ">Wiener Stadt- und Landesarchiv (MA 8).</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -378,8 +378,8 @@
 						<persName type="sk" subtype="born">Sichl, Maria Anna</persName>
 						<persName type="sk" subtype="married">Scheuch, Maria Anna</persName>
 						<occupation type="prim" n="01">Ladenmädchen</occupation>
-						<note type="source" subtype="publ">WStLA</note>
-						<note type="source" subtype="publ">Friedhöfe Wien</note>
+						<note type="source" subtype="publ">Wiener Stadt- und Landesarchiv (MA 8).</note>
+						<note type="source" subtype="publ">Friedhöfe Wien: Verstorbenensuche. URL: https://www.friedhoefewien.at/ (22. 3. 2021).</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -406,8 +406,8 @@
 						<death when="1990-01-12">12. 1. 1990<placeName key="#DWplace00085">Wien</placeName></death>
 						<persName type="sk" subtype="pref">Hodik [jun.], Johann</persName>
 						<occupation type="prim" n="01">Postangestellter</occupation>
-						<note type="source" subtype="publ">WStLA</note>
-						<note type="source" subtype="publ">Friedhöfe Wien</note>
+						<note type="source" subtype="publ">Wiener Stadt- und Landesarchiv (MA 8).</note>
+						<note type="source" subtype="publ">Friedhöfe Wien: Verstorbenensuche. URL: https://www.friedhoefewien.at/ (22. 3. 2021).</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -423,7 +423,7 @@
 						<persName type="sk" subtype="pref">Högl, Aloisia</persName>
 						<persName type="sk" subtype="alt">Högl, Luise</persName>
 						<occupation type="prim" n="01">Private</occupation>
-						<note type="source" subtype="publ">WStLA</note>
+						<note type="source" subtype="publ">Wiener Stadt- und Landesarchiv (MA 8).</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -443,8 +443,8 @@
 						<occupation type="prim" n="01">Schuhmachergehilfe, Werkschutzführer</occupation>
 						<occupation n="02">SS-Hauptsturmführer</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
-						<note type="source" subtype="publ">Rothländer 2012</note>
-						<note type="source" subtype="publ">Taufbuch Unterdürnbach</note>
+						<note type="source" subtype="publ">Christiane Rothländer: Die Anfänge der Wiener SS. Wien, Köln u. Weimar 2012.</note>
+						<note type="source" subtype="publ">ICARUS – International Centre for Archival Research: Matricula-online. Unterduernbach. URL: https://data.matricula-online.eu/de/oesterreich/wien/unterduernbach/ (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -462,7 +462,7 @@
 						<occupation type="prim" n="01">Sportartikelarbeiter</occupation>
 						<occupation n="02">SS-Truppführer</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
-						<note type="source" subtype="publ">Stadt Mannheim</note>
+						<note type="source" subtype="publ">Stadt Mannheim, Fachbereich Bürgerdienste.</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -494,7 +494,7 @@
 						<occupation type="prim" n="01">Handelsangestellter</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno/>
-						<note type="source" subtype="publ">WStLA</note>
+						<note type="source" subtype="publ">Wiener Stadt- und Landesarchiv (MA 8).</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -511,7 +511,7 @@
 						<occupation type="prim" n="01">Elektrotechniker</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno/>
-						<note type="source" subtype="publ">WStLA</note>
+						<note type="source" subtype="publ">Wiener Stadt- und Landesarchiv (MA 8).</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -528,7 +528,7 @@
 						<occupation n="02">SS-Wachmann</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno/>
-						<note type="source" subtype="publ">Rothländer 2012</note>
+						<note type="source" subtype="publ">Christiane Rothländer: Die Anfänge der Wiener SS. Wien, Köln u. Weimar 2012.</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -561,8 +561,8 @@
 						<occupation when="1933" n="02">Bannschulführer für Niederösterreich des
 							NS-Schülerbundes, SS-Hauptsturmführer</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
-						<note type="source" subtype="publ">Zumr 2017</note>
-						<note type="source" subtype="publ">volksbund.de</note>
+						<note type="source" subtype="publ">Jan Zumr: Analýza činnosti Allgemeine-SS v Dolních Rakousích v letech 1932–1945 / Analysis of the activities of Allgemeine-SS in Lower Austria in the years 1932–1945. Univ.-Diss., Prag 2017.</note>
+						<note type="source" subtype="publ">Volksbund Deutsche Kriegsgräberfürsorge e. V.: Gräbersuche online. URL: https://www.volksbund.de/erinnern-gedenken/graebersuche-online (22. 3. 2021).</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -609,7 +609,7 @@
 						<occupation type="prim" n="01">Student, Techniker</occupation>
 						<occupation n="02">HJ-Kameradschaftsführer</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
-						<note type="source" subtype="publ">ÖStA – AdR</note>
+						<note type="source" subtype="publ">Österreichisches Staatsarchiv – Archiv der Republik.</note>
 						<note type="source" subtype="publ">Taufbuch St. Margareta/Berndorf</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
@@ -676,7 +676,7 @@
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">104527730</idno>
 						<note type="status" subtype="final"/>
-						<note type="source" subtype="publ">iuvsta.org</note>
+						<note type="source" subtype="publ">Rudolf Dobrozemsky: Obituary: Dr. Hermann Adam. In: IUVSTA: The International Union for Vacuum Science, Technique and Applications. URL: https://iuvsta.org/bulletin/obit141.html (22. 3. 2021).</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 					</person>
 
@@ -691,8 +691,8 @@
 						<occupation type="prim" n="01">Student, Kameradschaftsführer der HJ in
 							Perchtoldsdorf</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
-						<note type="source" subtype="publ">Zumr 2017</note>
-						<note type="source" subtype="publ">moedling.msgis.net</note>
+						<note type="source" subtype="publ">Jan Zumr: Analýza činnosti Allgemeine-SS v Dolních Rakousích v letech 1932–1945 / Analysis of the activities of Allgemeine-SS in Lower Austria in the years 1932–1945. Univ.-Diss., Prag 2017.</note>
+						<note type="source" subtype="publ">Stadtgemeinde Mödling. Online-Verstorbenen- bzw. Gräbersuche. URL: https://moedling.msgis.net/fhf/#/suche/friedhof (22. 3. 2021).</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -707,7 +707,7 @@
 						<death when="1991-05-27">27. 5. 1991<placeName key="#DWplace00130">Ebbs</placeName></death>
 						<occupation type="prim" n="01">Hilfspolizist, Angehöriger des
 							Schutzkorps</occupation>
-						<note type="source" subtype="publ">Taufbuch Kirchbichl</note>
+						<note type="source" subtype="publ">ICARUS – International Centre for Archival Research: Matricula-online. Unterduernbach. URL: https://data.matricula-online.eu/de/oesterreich/tirol/kirchbichl-erzdioezese-salzburg/ (22. 3. 2021).</note>
 						<note type="source" subtype="publ">Stadtarchiv Kufstein</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
@@ -725,7 +725,7 @@
 						<occupation type="prim" n="01">Hilfsarbeiter, Heimatschutzangehöriger,
 							Hilfspolizist</occupation>
 						<affiliation ref="#DWorg00005" n="01">CSP</affiliation>
-						<note type="source" subtype="publ">Kastner 2019</note>
+						<note type="source" subtype="publ">Georg Kastner: Gruß aus Hitler-Deutschland. Der NS-Terror in Österreich 1933-1938 und seine Opfer. Wien 2019.</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -745,8 +745,8 @@
 						<occupation type="prim" n="01">Kaufmann, Safariunternehmer</occupation>
 						<occupation n="02">SA- und SS-Mitglied</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
-						<note type="source" subtype="publ">Schober 2012</note>
-						<note type="source" subtype="publ">familie-von-alvensleben.de</note>
+						<note type="source" subtype="publ">Richard Schober: „Ein politisch verführter junger Mann?“ Werner von Alvensleben und das Attentat auf Richard Steidle (11. Juni 1933). In: Tiroler Heimat. Jahrbuch für Geschichte und Volkskunde Nord-, Ost- und Südtirols 76 (2012), S. 399–414.</note>
+						<note type="source" subtype="publ">Haus Neugattersleben. URL: https://www.familie-von-alvensleben.de/index.php/familiengeschichte-1800-1930-mainmenu-32/neugattersleben-mainmenu-264 (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -765,8 +765,8 @@
 							Freistaates Braunschweig</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">116288493</idno>
-						<note type="source" subtype="publ">Klee 2007</note>
-						<note type="source" subtype="publ">vernetztes-gedaechtnis.de</note>
+						<note type="source" subtype="publ">Ernst Klee: Das Personenlexikon zum Dritten Reich. Wer war was vor und nach 1945. 2. Aufl. Frankfurt am Main 2007.</note>
+						<note type="source" subtype="publ">Vernetztes Gedächtnis. Topographie der nationalsozialistischen Gewaltherrschaft in Braunschweig. URL: http://www.vernetztes-gedaechtnis.de (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -785,7 +785,7 @@
 						<occupation notAfter="1933-03" n="02">Assistenzarzt der HNO-Abteilung im
 							Städtischen Krankenhaus Neukölln</occupation>
 						<idno type="GND">116311088</idno>
-						<note type="source" subtype="publ">geschichte.charite.de/verfolgte-aerzte</note>
+						<note type="source" subtype="publ">Susanne Doetz und Christoph Kopke: Verfolgte Ärztinnen und Ärzte des Berliner Städtischen Gesundheitswesens (1933–1945). Eine biografische Datenbank. URL: https://geschichte.charite.de/verfolgte-aerzte/index.html (22. 3. 2021).</note>
 						<note type="source" subtype="publ">New York Times (Todesanzeige)</note>
 						<note type="status" subtype="prefinal"/>
 					</person>
@@ -804,8 +804,8 @@
 						<persName type="sk" subtype="pref">Angeluscheff, Helene</persName>
 						<persName type="sk" subtype="married">Angeluscheff, Helene</persName>
 						<occupation type="prim" n="01">Zahnärztin</occupation>
-						<note type="source" subtype="publ">health.data.ny.gov</note>
-						<note type="source" subtype="publ">Kesaris 1979</note>
+						<note type="source" subtype="publ">Genealogical Research Death Index: Beginning 1957. In: New York State. URL: https://health.data.ny.gov/Health/Genealogical-Research-Death-Index-Beginning-1957/vafa-pf2s/data (22. 3. 2021).</note>
+						<note type="source" subtype="publ">Paul L. Kesaris: The Rote Kapelle. The CIA’s History of Soviet Intelligence and Espionage Networks in Western Europe, 1936–1945. Washington D.C. 1979.</note>
 						<note type="status" subtype="prefinal"/>
 					</person>
 
@@ -865,7 +865,7 @@
 								(Bayern) (?)</placeName></death>
 						<occupation type="prim" n="01">Wehrmann des Infanterie-Regiments Nr. 6</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
-						<note type="source" subtype="publ">findagrave.com</note>
+						<note type="source" subtype="publ">Die größte Grabsammlung weltweit. Über 190 Millionen Gedenkstätten, die von der Community seit 1995 erfasst wurden. URL: https://de.findagrave.com (22. 3. 2021).</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -884,7 +884,7 @@
 						<occupation type="prim" n="01">Elektriker, Handelsangestellter</occupation>
 						<occupation n="02">SA-Scharführer</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
-						<note type="source" subtype="publ">Taufbuch St. Marein bei Knittelfeld</note>
+						<note type="source" subtype="publ">ICARUS – International Centre for Archival Research: Matricula-online. St. Marein bei Knittelfeld. URL: https://data.matricula-online.eu/de/oesterreich/graz-seckau/st-marein-bei-knittelfeld/ (22. 3. 2021).</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -920,7 +920,7 @@
 						<occupation type="prim" n="01">SA-Lagerverwalter im KZ Oranienburg,
 							SA-Kassenführer</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
-						<note type="source" subtype="publ">Hoover Institution Library &amp; Archives: Theodore Fred Abel Papers – Nazi Biograms. 1934. URL: https://digitalcollections.hoover.org/objects/58226/nazi-biograms (22. 3. 2021).</note>
+						<note type="source" subtype="publ">Hoover Institution Library &amp;amp; Archives: Theodore Fred Abel Papers – Nazi Biograms. 1934. URL: https://digitalcollections.hoover.org/objects/58226/nazi-biograms (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -950,7 +950,7 @@
 								Angeles CA</placeName></death>
 						<persName type="sk" subtype="pref">Diamant, Harry</persName>
 						<occupation type="prim" n="01">Feuerwehrmann und Sprachlehrer</occupation>
-						<note type="source" subtype="publ">findagrave.com</note>
+						<note type="source" subtype="publ">Die größte Grabsammlung weltweit. Über 190 Millionen Gedenkstätten, die von der Community seit 1995 erfasst wurden. URL: https://de.findagrave.com (22. 3. 2021).</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -1010,7 +1010,7 @@
 						<occupation n="02">Tochter des Botschafters der USA in Berlin
 							1933–1937</occupation>
 						<idno type="GND">123489288</idno>
-						<note type="source" subtype="publ">dla-marbach.de</note>
+						<note type="source" subtype="publ">Katalog: Namen. In: Deutsches Literaturarchiv Marbarch. URL: https://www.dla-marbach.de/katalog/namen/ (22. 3. 2021).</note>
 						<note type="source" subtype="publ">en.wikipedia.org</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -1060,7 +1060,7 @@
 						<occupation n="02">Mutter von Ernst Eckstein</occupation>
 						<note type="source" subtype="publ">Knut Bergbauer</note>
 						<note type="source" subtype="publ">Simon Goodman</note>
-						<note type="source" subtype="publ">Yad Vashem</note>
+						<note type="source" subtype="publ">The Central Database of Shoah Victims’ Names. In: Yad Vashem – The World Holocaust Remembrance Center. URL: https://yvng.yadvashem.org (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -1093,7 +1093,7 @@
 						<occupation notBefore="1933" notAfter="1934" n="03">Polizeipräsident von
 							Krefeld–Uerdingen</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
-						<note type="source" subtype="publ">Müller 1988</note>
+						<note type="source" subtype="publ">Manfred Müller: Neuss unterm Hakenkreuz. Die NSDAP und ihre Gegner in einer katholischen Stadt des Rheinlandes. Essen 1988.</note>
 						<note type="source" subtype="publ"> de.wikipedia.org</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -1125,8 +1125,8 @@
 						<persName type="sk" subtype="pref">Grünwald, Max</persName>
 						<death when="1933-04-08">8. 4. 1933<placeName key="#DWplace00313">Berlin</placeName></death>
 						<occupation type="prim" n="01">Apotheker</occupation>
-						<note type="source" subtype="publ">stolpersteine-berlin.de</note>
-						<note type="source" subtype="publ">Yad Vashem</note>
+						<note type="source" subtype="publ">Stolpersteine in Berlin. URL: stolpersteine-berlin.de (22. 3. 2021).</note>
+						<note type="source" subtype="publ">The Central Database of Shoah Victims’ Names. In: Yad Vashem – The World Holocaust Remembrance Center. URL: https://yvng.yadvashem.org (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -1147,8 +1147,8 @@
 								/ Węgorzyno</placeName></birth>
 						<death when="1933-04-08">8. 4. 1933<placeName key="#DWplace00313">Berlin</placeName></death>
 						<occupation type="prim" n="01">Apothekersfrau</occupation>
-						<note type="source" subtype="publ">stolpersteine-berlin.de</note>
-						<note type="source" subtype="publ">Yad Vashem</note>
+						<note type="source" subtype="publ">Stolpersteine in Berlin. URL: stolpersteine-berlin.de (22. 3. 2021).</note>
+						<note type="source" subtype="publ">The Central Database of Shoah Victims’ Names. In: Yad Vashem – The World Holocaust Remembrance Center. URL: https://yvng.yadvashem.org (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -1349,7 +1349,7 @@
 						<occupation type="prim" n="01">Jurist, Politiker</occupation>
 						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">11952886X</idno>
-						<note type="source" subtype="publ">sozialdemokratie-rlp.de</note>
+						<note type="source" subtype="publ">Laura Jung und Lea Sophie Preußer: Biographien. In: Sozialdemokratie in Rheinland-Pfalz. Dokumente aus drei Jahrhunderten. Ein Studierendenprojekt an der JGU Mainz. URL: https://www.sozialdemokratie-rlp.de/biographien.html (22. 3. 2021).</note>
 						<note type="source" subtype="publ">Ruth Ludwig</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -1398,7 +1398,7 @@
 						<persName type="sk" subtype="pref">Müller, Jørgen Peter</persName>
 						<occupation type="prim" n="01">Gymnastiklehrer, Buchautor</occupation>
 						<idno type="GND">126462070</idno>
-						<note type="source" subtype="publ">GND</note>
+						<note type="source" subtype="publ">Gemeinsame Normdatei der Deutschen Nationalbibliothek. (Durchsuchbar z. B. über: Bibliotheksservice-Zentrum Baden-Württemberg: Online-GND. URL: https://swb.bsz-bw.de (22. 3. 2021)).</note>
 						<note type="source" subtype="publ">de.wikipedia.org</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -1447,7 +1447,7 @@
 						<occupation n="02">SS-Mitglied</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
-						<note type="source" subtype="publ">Taufbuch Salzburg–St. Andrä</note>
+						<note type="source" subtype="publ">ICARUS – International Centre for Archival Research: Matricula-online. Salzburg-St. Andrae. URL: https://data.matricula-online.eu/de/oesterreich/salzburg/salzburg-st-andrae/ (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -1522,7 +1522,7 @@
 						<occupation notBefore="1931-03-30" notAfter="1934-08" n="02">Gesandter des
 							deutschen Auswärtigen Amts in Wien</occupation>
 						<idno type="GND">129413119</idno>
-						<note type="source" subtype="publ">Auswärtiges Amt</note>
+						<note type="source" subtype="publ">Auswärtiges Amt (Hg.): Biographisches Handbuch des deutschen Auswärtigen Dienstes 1871–1945. 3 Bde. Paderborn u. a. 2000–2008.</note>
 						<note type="source" subtype="publ">de.wikipedia.org</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -1678,7 +1678,7 @@
 						<occupation notBefore="1933" notAfter="1934" n="02">Lagerleiter des KZ
 							Oranienburg</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
-						<note type="source" subtype="publ">stiftung-bg.de</note>
+						<note type="source" subtype="publ">Die politischen Häftlinge des Konzentrationslagers Oranienburg. In: Stiftung Brandenburgische Gedenkstätten. URL: http://www.stiftung-bg.de/kz-oranienburg/index.php?id=460 (4. 3. 2016) bzw. https://web.archive.org/web/20160304095929/http:/www.stiftung-bg.de/kz-oranienburg/index.php?id=460 (22. 3. 2021).</note>
 						<note type="source" subtype="publ">Friedhof Düsseldorf-Heerdt</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -1789,7 +1789,7 @@
 						<persName type="sk" subtype="pref">Volkert, Ernst</persName>
 						<occupation type="prim" n="01">Medizinstudent, Arzt</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
-						<note type="source" subtype="publ">WStLA</note>
+						<note type="source" subtype="publ">Wiener Stadt- und Landesarchiv (MA 8).</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -1831,8 +1831,8 @@
 							Reichsverbands der deutschen Presse</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">128558873</idno>
-						<note type="source" subtype="publ">Klee 2007</note>
-						<note type="source" subtype="publ">Stockhorst 1967</note>
+						<note type="source" subtype="publ">Ernst Klee: Das Personenlexikon zum Dritten Reich. Wer war was vor und nach 1945. 2. Aufl. Frankfurt am Main 2007.</note>
+						<note type="source" subtype="publ">Erich Stockhorst: Fünftausend Köpfe. Wer war was im Dritten Reich. Verlbert und Kettwig 1967.</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -1881,8 +1881,8 @@
 						<occupation type="prim" n="01">Journalist, Ökonom</occupation>
 						<affiliation ref="#DWorg00007" n="01">SDAP</affiliation>
 						<idno type="GND">118888749</idno>
-						<note type="source" subtype="publ">Hagemann u. Krohn 1999</note>
-						<note type="source" subtype="publ">Friedhöfe Wien</note>
+						<note type="source" subtype="publ">Harald Hagemann, ‎Claus-Dieter Krohn (Hg.): Biographisches Handbuch der deutschsprachigen wirtschaftswissenschaftlichen Emigration nach 1933. München 1999.</note>
+						<note type="source" subtype="publ">Friedhöfe Wien: Verstorbenensuche. URL: https://www.friedhoefewien.at/ (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -1921,8 +1921,8 @@
 							Wien</occupation>
 						<affiliation ref="#DWorg00007" n="01">SDAP</affiliation>
 						<idno type="GND">119184745</idno>
-						<note type="source" subtype="publ">dasrotewien.at</note>
-						<note type="source" subtype="publ">parlament.gv.at</note>
+						<note type="source" subtype="publ">SPÖ Wien: dasrotewien.at. Weblexikon der Wiener Sozialdemokratie. URL: http://www.dasrotewien.at (22. 3. 2021).</note>
+						<note type="source" subtype="publ">Wer ist wer. In: Republik Österreich. Parlament. URL: https://www.parlament.gv.at/WWER/ (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -1947,8 +1947,8 @@
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">133534227</idno>
 						<note type="status" subtype="final"/>
-						<note type="source" subtype="publ">Kluke 1957</note>
-						<note type="source" subtype="publ">volksbund.de</note>
+						<note type="source" subtype="publ">Paul Kluke: Der Fall Potempa. In: Vierteljahrshefte für Zeitgeschichte 5 (1957), H. 3, S. 279–297. URL: https://www.ifz-muenchen.de/heftarchiv/1957_3.pdf (22. 3. 2021).</note>
+						<note type="source" subtype="publ">Volksbund Deutsche Kriegsgräberfürsorge e. V.: Gräbersuche online. URL: https://www.volksbund.de/erinnern-gedenken/graebersuche-online (22. 3. 2021).</note>
 					</person>
 
 					<person xml:id="DWpers2020" sortKey="Wolnitza_Rufin">
@@ -1964,8 +1964,8 @@
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">133794725</idno>
 						<note type="status" subtype="final"/>
-						<note type="source" subtype="publ">Kluke 1957</note>
-						<note type="source" subtype="publ">volksbund.de</note>
+						<note type="source" subtype="publ">Paul Kluke: Der Fall Potempa. In: Vierteljahrshefte für Zeitgeschichte 5 (1957), H. 3, S. 279–297. URL: https://www.ifz-muenchen.de/heftarchiv/1957_3.pdf (22. 3. 2021).</note>
+						<note type="source" subtype="publ">Volksbund Deutsche Kriegsgräberfürsorge e. V.: Gräbersuche online. URL: https://www.volksbund.de/erinnern-gedenken/graebersuche-online (22. 3. 2021).</note>
 					</person>
 
 					<person xml:id="DWpers2021" sortKey="Graeupner_August">
@@ -2036,8 +2036,8 @@
 						<occupation n="02">SA-Sturmführer</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="status" subtype="final"/>
-						<note type="source" subtype="publ">Kluke 1957</note>
-						<note type="source" subtype="publ">volksbund.de</note>
+						<note type="source" subtype="publ">Paul Kluke: Der Fall Potempa. In: Vierteljahrshefte für Zeitgeschichte 5 (1957), H. 3, S. 279–297. URL: https://www.ifz-muenchen.de/heftarchiv/1957_3.pdf (22. 3. 2021).</note>
+						<note type="source" subtype="publ">Volksbund Deutsche Kriegsgräberfürsorge e. V.: Gräbersuche online. URL: https://www.volksbund.de/erinnern-gedenken/graebersuche-online (22. 3. 2021).</note>
 					</person>
 
 					<person xml:id="DWpers1136" sortKey="Hohenstatter_Ernst">
@@ -2057,8 +2057,8 @@
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">116956658</idno>
 						<note type="status" subtype="final"/>
-						<note type="source" subtype="publ">historisches-lexikon-bayerns.de</note>
-						<note type="source" subtype="publ">Ebnet 2016</note>
+						<note type="source" subtype="publ">Matthias Bader u. a. (Red.): Historisches Lexikon Bayerns. URL: https://www.historisches-lexikon-bayerns.de (22. 3. 2021)</note>
+						<note type="source" subtype="publ">Werner Ebnet: Sie haben in München gelebt. Biographien aus acht Jahrhunderten. München 2016.</note>
 					</person>
 
 					<person xml:id="DWpers1137" sortKey="Schardt_Oskar_Franz">
@@ -2306,7 +2306,7 @@
 						<persName type="sk" subtype="full">Fischer, Alois Andreas</persName>
 						
 						<affiliation ref="#DWorg00005" n="01">CSP</affiliation>
-						<note type="source" subtype="publ">Taufbuch Mittergrabern</note>
+						<note type="source" subtype="publ">ICARUS – International Centre for Archival Research: Matricula-online. Mittergrabern. URL: https://data.matricula-online.eu/de/oesterreich/wien/mittergrabern/ (22. 3. 2021).</note>
 						<note type="source" subtype="publ">NÖ Landesarchiv</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -2808,8 +2808,8 @@
 						<occupation type="prim" n="01">Schriftsteller</occupation>
 						<occupation n="02">Übersetzer, Bibliothekar</occupation>
 						<idno type="GND">116184043</idno>
-						<note type="source" subtype="publ">Pfäfflin 2005</note>
-						<note type="source" subtype="publ">GND</note>
+						<note type="source" subtype="publ">Karl Kraus: Briefe an Sidonie Nádherný von Borutin. 1913–1936. Dokumente und Anmerkungen von Friedrich Pfäfflin. 2 Bde. Göttingen 2005 (= Bibliothek Janowitz).</note>
+						<note type="source" subtype="publ">Gemeinsame Normdatei der Deutschen Nationalbibliothek. (Durchsuchbar z. B. über: Bibliotheksservice-Zentrum Baden-Württemberg: Online-GND. URL: https://swb.bsz-bw.de (22. 3. 2021)).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -2983,8 +2983,8 @@
 							preußischer Staatsrat</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">121383970</idno>
-						<note type="source" subtype="publ">Korfmacher 2012</note>
-						<note type="source" subtype="publ">Klee 2007</note>
+						<note type="source" subtype="publ">Norbert Korfmacher: Vorläufiges Mitgliederverzeichnis der Stadtverordnetenversammlung Breslau 1919 bis 1933. 2012 (online unter: http://www.abgeordneten.info/schlesien/Breslau19.pdf).</note>
+						<note type="source" subtype="publ">Ernst Klee: Das Personenlexikon zum Dritten Reich. Wer war was vor und nach 1945. 2. Aufl. Frankfurt am Main 2007.</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -3771,7 +3771,7 @@
 						<occupation type="prim" n="01">Schauspieler</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118955160</idno>
-						<note type="source" subtype="publ">Deutsches Filminstitut &amp; Filmmuseum e.V.: Gesichter des deutschen Films. URL: https://www.filmportal.de/people (22. 3. 2021).</note>
+						<note type="source" subtype="publ">Deutsches Filminstitut &amp;amp; Filmmuseum e.V.: Gesichter des deutschen Films. URL: https://www.filmportal.de/people (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -3867,8 +3867,8 @@
 							Volksaufklärung und Propaganda</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118540041</idno>
-						<note type="source" subtype="publ">Longerich 2010</note>
-						<note type="source" subtype="publ">Klee 2007</note>
+						<note type="source" subtype="publ">Peter Longerich: Joseph Goebbels. Biographie. München 2010.</note>
+						<note type="source" subtype="publ">Ernst Klee: Das Personenlexikon zum Dritten Reich. Wer war was vor und nach 1945. 2. Aufl. Frankfurt am Main 2007.</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -4047,8 +4047,8 @@
 							Reichstags</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">123565529</idno>
-						<note type="source" subtype="publ">lagis-hessen.de</note>
-						<note type="source" subtype="publ">Klee 2007</note>
+						<note type="source" subtype="publ">Hessisches Landesamt für geschichtliche Landeskunde: Landesgeschichtliches Informationssystem Hessen (LAGIS). URL: https://www.lagis-hessen.de (22. 3. 2021).</note>
+						<note type="source" subtype="publ">Ernst Klee: Das Personenlexikon zum Dritten Reich. Wer war was vor und nach 1945. 2. Aufl. Frankfurt am Main 2007.</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -4209,8 +4209,8 @@
 						<occupation notBefore="1933" n="03">Polizeipräsident in Potsdam</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">119528789</idno>
-						<note type="source" subtype="publ">Klee 2007</note>
-						<note type="source" subtype="publ">Deutsche Biographie</note>
+						<note type="source" subtype="publ">Ernst Klee: Das Personenlexikon zum Dritten Reich. Wer war was vor und nach 1945. 2. Aufl. Frankfurt am Main 2007.</note>
+						<note type="source" subtype="publ">Historische Kommission bei der Bayerischen Akademie der Wissenschaften und Bayerische Staatsbibliothek: Deutsche Biographie. URL: https://www.deutsche-biographie.de/home (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -4370,8 +4370,8 @@
 							für deutsche Kultur</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">116897007</idno>
-						<note type="source" subtype="publ">Klee 2007</note>
-						<note type="source" subtype="publ">Klee 2009</note>
+						<note type="source" subtype="publ">Ernst Klee: Das Personenlexikon zum Dritten Reich. Wer war was vor und nach 1945. 2. Aufl. Frankfurt am Main 2007.</note>
+						<note type="source" subtype="publ">Ernst Klee: Das Kulturlexikon zum Dritten Reich. Wer war was vor und nach 1945. Überarb. Ausg. Frankfurt am Main 2009.</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -4571,8 +4571,8 @@
 						<death when="1933-03-29">29. 3. 1933<placeName key="#DWplace00313">Berlin</placeName></death>
 						<persName type="sk" subtype="pref">Joachim, Günther</persName>
 						<occupation type="prim" n="01">Rechtsanwalt</occupation>
-						<note type="source" subtype="publ">Benz und Distel</note>
-						<note type="source" subtype="publ">Kopke und Treß 2013</note>
+						<note type="source" subtype="publ">Wolfgang Benz und Barbara Distel (Hg.): Der Ort des Terrors. Geschichte der nationalsozialistischen Konzentrationslager. München 2005–2009.</note>
+						<note type="source" subtype="publ">Christoph Kopke und Werner Treß: Der Tag von Potsdam: Der 21. März 1933 und die Errichtung der Nationalsozialistischen Diktatur. Berlin und Boston 2013.</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -4681,8 +4681,8 @@
 							Sachsen</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">121673626</idno>
-						<note type="source" subtype="publ">Klee 2007</note>
-						<note type="source" subtype="publ">AdR</note>
+						<note type="source" subtype="publ">Ernst Klee: Das Personenlexikon zum Dritten Reich. Wer war was vor und nach 1945. 2. Aufl. Frankfurt am Main 2007.</note>
+						<note type="source" subtype="publ">Historische Kommission der Bayerischen Akademie der Wissenschaften und Bundesarchiv: „Akten der Reichskanzlei. Weimarer Republik“ online. Biographien. URL: https://www.bundesarchiv.de/aktenreichskanzlei/1919-1933/0000/adr/index.html (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -4789,7 +4789,7 @@
 						<occupation notBefore="1932-11" notAfter="1933-05" n="02">Gauinspekteur von
 							Kärnten</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
-						<note type="source" subtype="publ">Höffkes 1986</note>
+						<note type="source" subtype="publ">Karl Höffkes: Hitlers politische Generale. Die Gauleiter des Dritten Reiches. Ein biographisches Nachschlagewerk. Tübingen 1986.</note>
 						<note type="source" subtype="publ">Stadtarchiv Neuss</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -4806,7 +4806,7 @@
 						<occupation notBefore="1933" notAfter="1935" n="02">stellvertretender Präsident der
 							Reichstheaterkammer</occupation>
 						<idno type="GND">118715828</idno>
-						<note type="source" subtype="publ">Deutsches Filminstitut &amp; Filmmuseum e.V.: Gesichter des deutschen Films. URL: https://www.filmportal.de/people (22. 3. 2021).</note>
+						<note type="source" subtype="publ">Deutsches Filminstitut &amp;amp; Filmmuseum e.V.: Gesichter des deutschen Films. URL: https://www.filmportal.de/people (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -5406,8 +5406,8 @@
 							Schulungsamtes im Rasse- und Siedlungshauptamt</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">1131595378</idno>
-						<note type="source" subtype="publ">GND</note>
-						<note type="source" subtype="publ">Hein 2012</note>
+						<note type="source" subtype="publ">Gemeinsame Normdatei der Deutschen Nationalbibliothek. (Durchsuchbar z. B. über: Bibliotheksservice-Zentrum Baden-Württemberg: Online-GND. URL: https://swb.bsz-bw.de (22. 3. 2021)).</note>
+						<note type="source" subtype="publ">Bastian Hein: Elite für Volk und Führer? Die allgemeine SS und ihre Mitglieder 1925–1945. München 2012.</note>
 						<note type="status" subtype="ok-ish"/>
 					</person>
 
@@ -5624,7 +5624,7 @@
 						<persName type="sk" subtype="pref">Paudler, Maria</persName>
 						<occupation type="prim" n="01">Theater- und Filmschauspielerin</occupation>
 						<idno type="GND">118592041</idno>
-						<note type="source" subtype="publ">Deutsches Filminstitut &amp; Filmmuseum e.V.: Gesichter des deutschen Films. URL: https://www.filmportal.de/people (22. 3. 2021).</note>
+						<note type="source" subtype="publ">Deutsches Filminstitut &amp;amp; Filmmuseum e.V.: Gesichter des deutschen Films. URL: https://www.filmportal.de/people (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -5983,8 +5983,8 @@
 							Außenpolitischen Amts der NSDAP</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118602691</idno>
-						<note type="source" subtype="publ">Klee 2007</note>
-						<note type="source" subtype="publ">AdR</note>
+						<note type="source" subtype="publ">Ernst Klee: Das Personenlexikon zum Dritten Reich. Wer war was vor und nach 1945. 2. Aufl. Frankfurt am Main 2007.</note>
+						<note type="source" subtype="publ">Historische Kommission der Bayerischen Akademie der Wissenschaften und Bundesarchiv: „Akten der Reichskanzlei. Weimarer Republik“ online. Biographien. URL: https://www.bundesarchiv.de/aktenreichskanzlei/1919-1933/0000/adr/index.html (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -6065,8 +6065,8 @@
 							SA-Oberführer</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">1035135000</idno>
-						<note type="source" subtype="publ">Klee 2007</note>
-						<note type="source" subtype="publ">GND</note>
+						<note type="source" subtype="publ">Ernst Klee: Das Personenlexikon zum Dritten Reich. Wer war was vor und nach 1945. 2. Aufl. Frankfurt am Main 2007.</note>
+						<note type="source" subtype="publ">Gemeinsame Normdatei der Deutschen Nationalbibliothek. (Durchsuchbar z. B. über: Bibliotheksservice-Zentrum Baden-Württemberg: Online-GND. URL: https://swb.bsz-bw.de (22. 3. 2021)).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -6246,8 +6246,8 @@
 							Landbundes</occupation>
 						<affiliation ref="#DWorg00004" n="01">Landbund</affiliation>
 						<idno type="GND">118762656</idno>
-						<note type="source" subtype="publ">parlament.gv.at</note>
-						<note type="source" subtype="publ">Deutsche Biographie</note>
+						<note type="source" subtype="publ">Wer ist wer. In: Republik Österreich. Parlament. URL: https://www.parlament.gv.at/WWER/ (22. 3. 2021).</note>
+						<note type="source" subtype="publ">Historische Kommission bei der Bayerischen Akademie der Wissenschaften und Bayerische Staatsbibliothek: Deutsche Biographie. URL: https://www.deutsche-biographie.de/home (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -6270,8 +6270,8 @@
 								Beobachter</title> und anderer NS-Zeitungen</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">120146657</idno>
-						<note type="source" subtype="publ">Früh 2007</note>
-						<note type="source" subtype="publ">ÖBL</note>
+						<note type="source" subtype="publ">Eckart Früh: Valentin Schuster. In: Spuren und Überbleibsel. Bio-bibliographische Blätter 16 (erw. Fassung 2007).</note>
+						<note type="source" subtype="publ">Österreichische Akademie der Wissenschaften (Hrsg.), Christine Gruber (Red.): Österreichisches Biographisches Lexikon. URL: http://www.biographien.ac.at/ (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -6380,7 +6380,7 @@
 						<occupation type="prim" n="01">Polizist und Politiker</occupation>
 						<occupation notBefore="1933-04-11" notAfter="1934-09-28" n="02">Polizeivizepräsident von Wien</occupation>
 						<idno type="GND">1019648775</idno>
-						<note type="source" subtype="publ">parlament.gv.at</note>
+						<note type="source" subtype="publ">Wer ist wer. In: Republik Österreich. Parlament. URL: https://www.parlament.gv.at/WWER/ (22. 3. 2021).</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -6574,8 +6574,8 @@
 							Greuel- und Boykotthetze</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<idno type="GND">118619233</idno>
-						<note type="source" subtype="publ">Klee 2007</note>
-						<note type="source" subtype="publ">Deutsche Biographie</note>
+						<note type="source" subtype="publ">Ernst Klee: Das Personenlexikon zum Dritten Reich. Wer war was vor und nach 1945. 2. Aufl. Frankfurt am Main 2007.</note>
+						<note type="source" subtype="publ">Historische Kommission bei der Bayerischen Akademie der Wissenschaften und Bayerische Staatsbibliothek: Deutsche Biographie. URL: https://www.deutsche-biographie.de/home (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -6708,8 +6708,8 @@
 						<occupation notBefore="1913" notAfter="1934" n="03">Redakteur und Theaterreferent
 							der <title level="j">Wiener Allgemeinen Zeitung</title></occupation>
 						<idno type="GND">119505606</idno>
-						<note type="source" subtype="publ">GND</note>
-						<note type="source" subtype="publ">Lunzer 1988</note>
+						<note type="source" subtype="publ">Gemeinsame Normdatei der Deutschen Nationalbibliothek. (Durchsuchbar z. B. über: Bibliotheksservice-Zentrum Baden-Württemberg: Online-GND. URL: https://swb.bsz-bw.de (22. 3. 2021)).</note>
+						<note type="source" subtype="publ">Heinz Lunzer: Ludwig Ullmann. In: Medien und Zeit 3 (1988), H. 4, S. 14–16.</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -6942,8 +6942,8 @@
 							Landbunds</occupation>
 						<affiliation ref="#DWorg00004" n="01">Landbund</affiliation>
 						<idno type="GND">117403946</idno>
-						<note type="source" subtype="publ">parlament.gv.at</note>
-						<note type="source" subtype="publ">Austria-Forum</note>
+						<note type="source" subtype="publ">Wer ist wer. In: Republik Österreich. Parlament. URL: https://www.parlament.gv.at/WWER/ (22. 3. 2021).</note>
+						<note type="source" subtype="publ">Freunde des Austria-Forums – Verein zur Förderung der digitalen Erfassung von Daten mit Österreichbezug: Austria-Forum – das Wissensnetz aus Österreich. URL: https://austria-forum.org (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -7018,8 +7018,8 @@
 						<occupation type="prim" n="01">Katholischer Priester</occupation>
 						<occupation notBefore="1930" notAfter="1963" n="02">Bischof von Nizza</occupation>
 						<idno type="GND">121700577</idno>
-						<note type="source" subtype="publ">BnF</note>
-						<note type="source" subtype="publ">catholic-hierarchy.org</note>
+						<note type="source" subtype="publ">Bibliothèque nationale de France: BnF Data. Des fiches de référence sur les auteurs, les œuvres et les thèmes. URL: https://data.bnf.fr/ (22. 3. 2021).</note>
+						<note type="source" subtype="publ">David M. Cheney: The Hierarchy of the Catholic Church. Current and historical information about its bishops and dioceses. URL: http://www.catholic-hierarchy.org (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -7085,8 +7085,8 @@
 						<affiliation ref="#DWorg00012" n="01">KPD</affiliation>
 						<affiliation ref="#DWorg00017" n="02">KJVD</affiliation>
 						<idno type="GND">124791891</idno>
-						<note type="source" subtype="publ">stolpersteine-hamburg.de</note>
-						<note type="source" subtype="publ">Hochmuth 2005</note>
+						<note type="source" subtype="publ">Landeszentrale für politische Bildung und Erinnerungs-Projekt "Stolpersteine in Hamburg": Stolpersteine in Hamburg. URL: https://www.stolpersteine-hamburg.de (22. 3. 2021).</note>
+						<note type="source" subtype="publ">Ursel Hochmuth: Niemand und nichts wird vergessen. Biogramme und Briefe Hamburger Widerstandskämpfer 1933–1945. Eine Ehrenhain-Dokumentation in Text und Bild. Hamburg 2005.</note>
 						<note type="status" subtype="final"/>
 					</person>
 
