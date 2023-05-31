@@ -1,1 +1,1 @@
-acdh-cidoc-pyutils
+acdh-cidoc-pyutils>=0.18

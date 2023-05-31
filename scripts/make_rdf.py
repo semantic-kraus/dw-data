@@ -6,13 +6,13 @@ from acdh_cidoc_pyutils import (
     make_birth_death_entities,
     make_occupations,
     make_affiliations,
-    make_events,
 )
 from acdh_cidoc_pyutils.namespaces import CIDOC, FRBROO
 from acdh_tei_pyutils.tei import TeiReader
 from rdflib import Graph, Namespace, URIRef, plugin, ConjunctiveGraph
 from rdflib.namespace import RDF, VOID, DCTERMS
 from rdflib.store import Store
+from utils import make_events
 
 
 domain = "https://sk.acdh.oeaw.ac.at/"
@@ -62,7 +62,8 @@ for x in tqdm(items, total=len(items)):
         subj, x, type_domain=f"{SK}types", default_lang="und", same_as=False
     )
     g += make_appellations(subj, x, type_domain=f"{SK}types",
-                           default_lang="und")
+                           default_lang="und",
+                           special_regex="[@type='sk']")
     g += make_occupations(subj, x, default_lang="und", id_xpath="@n")[0]
     for y in x.xpath(".//tei:affiliation[@ref]", namespaces=nsmap):
         g += make_affiliations(
@@ -73,12 +74,11 @@ for x in tqdm(items, total=len(items)):
         )
     # event
     g += make_events(
-            subj,
-            x,
-            type_domain=f"{SK}types",
-            default_lang="und",
-            domain=domain
-        )
+        subj,
+        x,
+        type_domain=f"{SK}types",
+        default_lang="und",
+        domain=domain)
     # birth
     try:
         birth = x.xpath(".//tei:birth[@when]/@when",
@@ -88,16 +88,17 @@ for x in tqdm(items, total=len(items)):
     try:
         birth_type = x.xpath(".//tei:birth[@type]/@type",
                              namespaces=doc.nsmap)[0]
+        birth_type_uri = URIRef(f"{SK}types/date/{birth_type}")
     except IndexError:
-        birth_type = None
+        birth_type_uri = None
     if birth:
         birth_g, b_uri, birth_timestamp = make_birth_death_entities(
             subj,
             x,
             domain=SK,
+            type_uri=birth_type_uri,
             event_type="birth",
-            verbose=True,
-            time_span_type=birth_type
+            verbose=True
         )
         g += birth_g
     # death
@@ -116,10 +117,10 @@ for x in tqdm(items, total=len(items)):
             subj,
             x,
             domain=SK,
+            type_uri=birth_type_uri,
             event_type="death",
             verbose=True,
-            default_prefix="Tod von",
-            time_span_type=death_type,
+            default_prefix="Tod von"
         )
         g += death_g
 doc = TeiReader("./data/indices/listplace.xml")
