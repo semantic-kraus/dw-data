@@ -2139,7 +2139,7 @@
         <source>#DWbibl01959</source>
         <type/>
         <content>ehrlichen Makler</content>
-        <info source="DWbibl01958" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl01961" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl01960" refInt2="no" refIntSubtype2="no" refLevel2="none" refPos2="no" refBase2="no"/>
+        <info source="DWbibl01958" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl01961" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl01960" refInt2="DWbibl02842" refIntSubtype2="specific" refLevel2="none" refPos2="0" refBase2="DWbibl02841"/>
     </item>
     <item>
         <id>DWquote0243</id>
@@ -3417,7 +3417,7 @@
         <source>#DWbibl02730</source>
         <type/>
         <content>Das Lager war in verschiedene Klassen eingeteilt. Am schlechtesten hatten es die Kommunisten und radikalen Sozialisten in der dritten Klasse. Die Juden wurden zwar von der jüdischen Gemeinde verköstigt, mußten aber die niedrigsten Dienste verrichten, die Klosette reinigen, den SA.-Leuten die Stiefel putzen, auf Befehl die Füße küssen oder die Stiefel lecken. Wollten sie nicht, so half der Gummiknüttel. Ich sah, wie ihnen die Haare ausgerissen wurden, daß Stücke der Kopfhaut mitgingen. Sie wurden auch gezwungen, sich selbst in das Gesicht zu schlagen oder gegeneinander zu boxen⁠ ⁠: »Haut euch, Hunde⁠ ⁠!« Sonst tat der Knüttel seine Arbeit, bis das Blut spritzte. Viele bekamen Nervenzusammenbrüche, andere wurden krank. Ärztliche Visite war wöchentlich einmal. Es ging aber nur immer⁠ ⁠: Der nächste, der nächste, ohne jemand anzuhören. Jemand neben mir sagte⁠ ⁠: »Die Lunge ist nicht in Ordnung, ich spucke Blut«⁠ ⁠; die Antwort war⁠ ⁠: »Rizinusöl«.</content>
-        <info source="DWbibl02729" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02732" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl02731" refInt2="no" refIntSubtype2="no" refLevel2="none" refPos2="no" refBase2="no"/>
+        <info source="DWbibl02729" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02732" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl02731" refInt2="DWbibl03486" refIntSubtype2="specific" refLevel2="none" refPos2="0" refBase2="DWbibl03485"/>
     </item>
     <item>
         <id>DWquote0378</id>
@@ -3552,7 +3552,7 @@
         <source>#DWbibl00091</source>
         <type/>
         <content>ein englischer Gelehrter weist auf das Unpassende der Verbindung mit einem Autor hin, der gerade mit dem Deutschtum seine bedenklichsten Wortspiele trieb, wie jenes »Horneo und Borneo« zum Rassenproblem</content>
-        <info source="DWbibl00085" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03756" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl03757" refInt2="no" refIntSubtype2="no" refLevel2="none" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00085" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03756" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl03757" refInt2="DWbibl03577" refIntSubtype2="nonexcl" refLevel2="none" refPos2="0" refBase2="DWbibl03576"/>
     </item>
     <item>
         <id>DWquote0394</id>
@@ -3561,7 +3561,7 @@
         <source>#DWbibl01317</source>
         <type/>
         <content>der geradezu als »Maxime« aufstellte⁠ ⁠: Mit keinem Menschen umgehen, der an dem verlogenen Rassenschwindel Anteil hat⁠ ⁠!</content>
-        <info source="DWbibl00251" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03754" refIntSubtype="nonexcl" refLevel="none" refPos="1" refBase="DWbibl03757" refInt2="no" refIntSubtype2="no" refLevel2="none" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00251" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03754" refIntSubtype="nonexcl" refLevel="none" refPos="1" refBase="DWbibl03757" refInt2="DWbibl03760" refIntSubtype2="nonexcl" refLevel2="none" refPos2="0" refBase2="DWbibl03759"/>
     </item>
     <item>
         <id>DWquote1916</id>
@@ -4677,7 +4677,7 @@
         <source>#DWbibl02041</source>
         <type/>
         <content>Si vis bellum, para pacem.</content>
-        <info source="DWbibl02036" wholeText="no" wholePeriodical="no" posCitedRange="1" refInt="DWbibl02040" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02041" refInt2="no" refIntSubtype2="no" refLevel2="none" refPos2="no" refBase2="no"/>
+        <info source="DWbibl02036" wholeText="no" wholePeriodical="no" posCitedRange="1" refInt="DWbibl02040" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02041" refInt2="DWbibl01519" refIntSubtype2="specific" refLevel2="none" refPos2="0" refBase2="DWbibl00440"/>
     </item>
     <item>
         <id>DWquote0518</id>
@@ -4722,7 +4722,7 @@
         <source>#DWbibl02796</source>
         <type/>
         <content>wo mit diesen Burschen aufgeräumt wird</content>
-        <info source="DWbibl02795" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02051" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl02050" refInt2="no" refIntSubtype2="no" refLevel2="none" refPos2="no" refBase2="no"/>
+        <info source="DWbibl02795" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02051" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl02050" refInt2="DWbibl02053" refIntSubtype2="nonexcl" refLevel2="none" refPos2="0" refBase2="DWbibl02052"/>
     </item>
     <item>
         <id>DWquote2017</id>
@@ -5640,7 +5640,7 @@
         <source>#DWbibl02117</source>
         <type/>
         <content>Am 16. d. M. ging mein lieber Mann still dahin. Das Begräbnis wurde in aller Stille durchgeführt.</content>
-        <info source="DWbibl02116" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03488" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl03487" refInt2="no" refIntSubtype2="no" refLevel2="none" refPos2="no" refBase2="no"/>
+        <info source="DWbibl02116" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03488" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl03487" refInt2="DWbibl02119" refIntSubtype2="nonexcl" refLevel2="none" refPos2="0" refBase2="DWbibl02118"/>
     </item>
     <item>
         <id>DWquote0622</id>
@@ -6972,7 +6972,7 @@
         <source>#DWbibl02797</source>
         <type/>
         <content>Darum gibt es nur eines⁠ ⁠: Kampf bis aufs Messer. Wir können noch weitere Nadelstiche vertragen.</content>
-        <info source="DWbibl02795" wholeText="no" wholePeriodical="no" posCitedRange="1" refInt="DWbibl02202" refIntSubtype="nonexcl" refLevel="none" refPos="1" refBase="DWbibl02050" refInt2="no" refIntSubtype2="no" refLevel2="none" refPos2="no" refBase2="no"/>
+        <info source="DWbibl02795" wholeText="no" wholePeriodical="no" posCitedRange="1" refInt="DWbibl02202" refIntSubtype="nonexcl" refLevel="none" refPos="1" refBase="DWbibl02050" refInt2="DWbibl02798" refIntSubtype2="nonexcl" refLevel2="none" refPos2="1" refBase2="DWbibl02052"/>
     </item>
     <item>
         <id>DWquote0771</id>
@@ -8034,7 +8034,7 @@
         <source>#DWbibl01635</source>
         <type/>
         <content>Da kommen sie daher mit ihrem Parteiprogramm und mit dem Hitler-Buch »Mein Kampf« und fragen⁠ ⁠: Warum ist das noch nicht durchgeführt⁠ ⁠? Warum sind die Banken noch nicht sozialisiert⁠ ⁠? und meinen, damit können sie uns imponieren⁠ ⁠!</content>
-        <info source="DWbibl00699" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02239" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl03678" refInt2="no" refIntSubtype2="no" refLevel2="none" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00699" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02239" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl03678" refInt2="DWbibl03677" refIntSubtype2="nonexcl" refLevel2="none" refPos2="0" refBase2="DWbibl00704"/>
     </item>
     <item>
         <id>DWquote0879</id>
@@ -8259,7 +8259,7 @@
         <source>#DWbibl01469</source>
         <type/>
         <content>1. Sämtliche Deutschland aufgezwungenen Verpflichtungen des Schandvertrages von Versailles werden aufgehoben. 2. Der französische Raubstaat verpflichtet sich, für seine von seinen weißen und farbigen Horden im Rheinland, im Ruhrgebiet, in Oberschlesien und sonst begangenen Schandtaten Reparationen an Deutschland zu zahlen. 3. Die deutschen Minderheiten in Polen, der Tschechoslowakei, Dänemark, Belgien, Italien und Jugoslawien erhalten das Recht, sich durch Volksabstimmung zu Großdeutschland zu bekennen. 4. Deutschösterreich, Elsaß-Lothringen, die deutsche Schweiz, Liechtenstein, Luxemburg, Danzig und das sogenannte Memelland werden entsprechend der Zusammensetzung ihrer Bevölkerung, mit Deutschland wieder vereinigt. 5. Das niederdeutsche Flandern wird von den romanischen Wallonen getrennt und erhält das Recht, sich Holland anzuschließen. 6. Den Vorsitz in diesem europäischen Staatenbund übernimmt das Volk, das auf Grund seiner Zahl, seiner Geschichte und seiner Kultur allein den Anspruch darauf erheben kann⁠ ⁠: Deutschland. 7. Der Dawes-Plan wird mit sofortiger Wirkung aufgehoben und die Deutschland von den sogenannten »Siegerstaaten« (besser Raubstaaten) abgepreßten Beträge werden Deutschland zurückgezahlt.</content>
-        <info source="DWbibl00493" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02256" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl02257" refInt2="no" refIntSubtype2="no" refLevel2="none" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00493" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02256" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl02257" refInt2="DWbibl03482" refIntSubtype2="specific" refLevel2="none" refPos2="0" refBase2="DWbibl03481"/>
     </item>
     <item>
         <id>DWquote0902</id>
@@ -8934,7 +8934,7 @@
         <source>#DWbibl03909</source>
         <type>exemp</type>
         <content>so wird ihr die Antwort, man müsse das Reich mehr nach den Taten beurteilen</content>
-        <info source="DWbibl03908" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03911" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl03910" refInt2="no" refIntSubtype2="no" refLevel2="none" refPos2="no" refBase2="no"/>
+        <info source="DWbibl03908" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03911" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl03910" refInt2="DWbibl03913" refIntSubtype2="specific" refLevel2="none" refPos2="0" refBase2="DWbibl03912"/>
     </item>
     <item>
         <id>DWquote0972</id>
@@ -8961,7 +8961,7 @@
         <source>#DWbibl03914</source>
         <type>exemp</type>
         <content>sei eine Evolution in Aussicht genommen</content>
-        <info source="DWbibl03908" wholeText="no" wholePeriodical="no" posCitedRange="1" refInt="DWbibl03915" refIntSubtype="nonexcl" refLevel="none" refPos="1" refBase="DWbibl03910" refInt2="no" refIntSubtype2="no" refLevel2="none" refPos2="no" refBase2="no"/>
+        <info source="DWbibl03908" wholeText="no" wholePeriodical="no" posCitedRange="1" refInt="DWbibl03915" refIntSubtype="nonexcl" refLevel="none" refPos="1" refBase="DWbibl03910" refInt2="DWbibl03916" refIntSubtype2="specific" refLevel2="none" refPos2="1" refBase2="DWbibl03912"/>
     </item>
     <item>
         <id>DWquote2033</id>
@@ -12075,7 +12075,7 @@
         <source>#DWbibl01608</source>
         <type/>
         <content>. . Welcher Gottgesegnete ist er⁠ ⁠! . . Welch ein Liebling Gottes ist er⁠ ⁠!⁠ ⁠! . . Und dieser Größte aller Vergangenheit, Gegenwart und Zukunft gehört — uns⁠ ⁠! Uns⁠ ⁠!⁠ ⁠!⁠ ⁠! Ist es nicht zu viel des Glücks⁠ ⁠? Haben wir es verdient⁠ ⁠? Ist es nicht lauter Gnade⁠ ⁠? Vielleicht lachen Sie mich aus — tut nichts, lachen Sie nur⁠ ⁠! Wir lachen auch wieder und blühen und grünen in seligem Vertrauen auf den Einzigen, den Retter und Befreier — unseren, unseren Kanzler, unseren Helden⁠ ⁠!</content>
-        <info source="DWbibl00666" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02580" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl02579" refInt2="no" refIntSubtype2="no" refLevel2="none" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00666" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02580" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl02579" refInt2="DWbibl02582" refIntSubtype2="specific" refLevel2="none" refPos2="0" refBase2="DWbibl02581"/>
     </item>
     <item>
         <id>DWquote1319</id>
@@ -12192,7 +12192,7 @@
         <source>#DWbibl01441</source>
         <type/>
         <content>Der Nationalsozialismus bekennt sich zum Menschheitsgedanken⁠ ⁠!</content>
-        <info source="DWbibl00406" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03716" refIntSubtype="specific" refLevel="none" refPos="0" refBase="DWbibl03715" refInt2="no" refIntSubtype2="no" refLevel2="none" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00406" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03716" refIntSubtype="specific" refLevel="none" refPos="0" refBase="DWbibl03715" refInt2="DWbibl02593" refIntSubtype2="nonexcl" refLevel2="text" refPos2="0" refBase2="DWbibl01441"/>
     </item>
     <item>
         <id>DWquote1952</id>
@@ -12210,7 +12210,7 @@
         <source>#DWbibl01442</source>
         <type/>
         <content>Alle Juden müssen restlos aus jeder Form des Rechtlebens hinaus⁠ ⁠!</content>
-        <info source="DWbibl00406" wholeText="no" wholePeriodical="no" posCitedRange="1" refInt="DWbibl03764" refIntSubtype="specific" refLevel="none" refPos="0" refBase="DWbibl03763" refInt2="no" refIntSubtype2="no" refLevel2="none" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00406" wholeText="no" wholePeriodical="no" posCitedRange="1" refInt="DWbibl03764" refIntSubtype="specific" refLevel="none" refPos="0" refBase="DWbibl03763" refInt2="DWbibl02595" refIntSubtype2="nonexcl" refLevel2="none" refPos2="0" refBase2="DWbibl02594"/>
     </item>
     <item>
         <id>DWquote1332</id>
@@ -13704,7 +13704,7 @@
         <source>#DWbibl02945</source>
         <type/>
         <content>glücklicher Formulierung politischen Täuscherwesens</content>
-        <info source="DWbibl02944" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02947" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl02946" refInt2="no" refIntSubtype2="no" refLevel2="none" refPos2="no" refBase2="no"/>
+        <info source="DWbibl02944" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02947" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl02946" refInt2="DWbibl03943" refIntSubtype2="specific" refLevel2="none" refPos2="0" refBase2="DWbibl03942"/>
     </item>
     <item>
         <id>DWquote1507</id>
@@ -14226,7 +14226,7 @@
         <source>#DWbibl02975</source>
         <type/>
         <content>sich in Treue »von niemand übertreffen zu lassen«</content>
-        <info source="DWbibl02974" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02977" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl02976" refInt2="no" refIntSubtype2="no" refLevel2="none" refPos2="no" refBase2="no"/>
+        <info source="DWbibl02974" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02977" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl02976" refInt2="DWbibl03693" refIntSubtype2="nonexcl" refLevel2="none" refPos2="0" refBase2="DWbibl03694"/>
     </item>
     <item>
         <id>DWquote1558</id>
@@ -15846,7 +15846,7 @@
         <source>#DWbibl01616</source>
         <type/>
         <content>die nationale Revolution ziehe ihre Kräfte aus dem fanatischen Gefängnis zum eigenen Volk . . . .</content>
-        <info source="DWbibl00675" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03163" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl03162" refInt2="no" refIntSubtype2="no" refLevel2="none" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00675" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03163" refIntSubtype="nonexcl" refLevel="none" refPos="0" refBase="DWbibl03162" refInt2="DWbibl03672" refIntSubtype2="nonexcl" refLevel2="none" refPos2="0" refBase2="DWbibl03671"/>
     </item>
     <item>
         <id>DWquote1718</id>
@@ -17358,7 +17358,7 @@
         <source>#DWbibl01252</source>
         <type/>
         <content>ein neuer Geschichtsraum hat begonnen, der sich — es mag vielleicht lächerlich klingen — über 20.000 bis 30.000 Jahre ausdehnen wird.</content>
-        <info source="DWbibl00751" wholeText="no" wholePeriodical="no" posCitedRange="1" refInt="DWbibl03277" refIntSubtype="nonexcl" refLevel="none" refPos="1" refBase="DWbibl03275" refInt2="no" refIntSubtype2="no" refLevel2="none" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00751" wholeText="no" wholePeriodical="no" posCitedRange="1" refInt="DWbibl03277" refIntSubtype="nonexcl" refLevel="none" refPos="1" refBase="DWbibl03275" refInt2="DWbibl03279" refIntSubtype2="nonexcl" refLevel2="none" refPos2="0" refBase2="DWbibl03278"/>
     </item>
     <item>
         <id>DWquote1881</id>
@@ -17367,7 +17367,7 @@
         <source>#DWbibl01693</source>
         <type/>
         <content>auf der Erkenntnis vom Wert des Blutes</content>
-        <info source="DWbibl00751" wholeText="no" wholePeriodical="no" posCitedRange="2" refInt="DWbibl03280" refIntSubtype="nonexcl" refLevel="none" refPos="2" refBase="DWbibl03275" refInt2="no" refIntSubtype2="no" refLevel2="none" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00751" wholeText="no" wholePeriodical="no" posCitedRange="2" refInt="DWbibl03280" refIntSubtype="nonexcl" refLevel="none" refPos="2" refBase="DWbibl03275" refInt2="DWbibl03281" refIntSubtype2="nonexcl" refLevel2="none" refPos2="1" refBase2="DWbibl03278"/>
     </item>
     <item>
         <id>DWquote1882</id>

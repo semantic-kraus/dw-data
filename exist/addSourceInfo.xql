@@ -7,7 +7,7 @@ let $listBibl := doc("/db/dw/xml/listbibl.xml")//tei:listBibl
 return 
     <result>
          {
-            for $item in subsequence($items, 1, 2200)
+            for $item in subsequence($items, 1, 2211)
                 return 
                     <item>
                         {$item/*}
@@ -81,16 +81,16 @@ return
                                     dann gibt's das Attribut nicht und diese nächsten auch nicht:)
                             let $refInt2 := if ($refInt = "no") then
                                                 "no"
-                                            else if (exists($bibl/tei:citedRange[@xml:id=$refInt and tei:ref[@type='int']])) then
-                                                translate($bibl/tei:citedRange[@xml:id=$refInt]/tei:ref[@type='int']/@target, '#', '')
+                                            else if (exists($listBibl/tei:bibl/tei:citedRange[@xml:id=$refInt and tei:ref[@type='int']])) then
+                                                translate($listBibl/tei:bibl/tei:citedRange[@xml:id=$refInt]/tei:ref[@type='int']/@target, '#', '')
                                             else
                                                 "no"
                                                 
                             (:  - "@refIntSubtype2" für den @subtype aus dem ref[@type="int"] im in @refInt referenzierten citedRange :)
                             let $refIntSubtype2 :=  if ($refInt = "no") then
                                                         "no"
-                                                    else if (exists($bibl/tei:citedRange[@xml:id=$refInt and tei:ref[@type='int']])) then
-                                                        $bibl/tei:citedRange[@xml:id=$refInt]/tei:ref[@type='int']/@subtype
+                                                    else if (exists($listBibl/tei:bibl/tei:citedRange[@xml:id=$refInt and tei:ref[@type='int']])) then
+                                                        $listBibl/tei:bibl/tei:citedRange[@xml:id=$refInt]/tei:ref[@type='int']/@subtype
                                                     else
                                                         "no" 
                             (:  - "@refLevel2" für @wholeText bzw. @wholePeriodical in dem citedRange, das in @refInt2 referenziert wird :)
@@ -130,7 +130,7 @@ return
                                                 )
 
                             return 
-                                    <info source="{$source}" wholeText="{$wholeText}" wholePeriodical="{$wholePeriodical}"  posCitedRange="{$posCitedRange}" refInt="{$refInt}" refIntSubtype="{$refIntSubtype}" refLevel="{$refLevel}"refPos="{$refPos}" refBase="{$refBase}" refInt2="{$refInt2}" refIntSubtype2="{$refIntSubtype2}" refLevel2="{$refLevel2}"refPos2="{$refPos2}" refBase2="{$refBase2}"/>
+                                    <info source="{$source}" wholeText="{$wholeText}" wholePeriodical="{$wholePeriodical}"  posCitedRange="{$posCitedRange}" refInt="{$refInt}" refIntSubtype="{$refIntSubtype}" refLevel="{$refLevel}" refPos="{$refPos}" refBase="{$refBase}" refInt2="{$refInt2}" refIntSubtype2="{$refIntSubtype2}" refLevel2="{$refLevel2}" refPos2="{$refPos2}" refBase2="{$refBase2}"/>
                         }
                     </item>
          }
