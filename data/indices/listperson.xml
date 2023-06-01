@@ -275,7 +275,7 @@
 						<occupation type="prim" n="01">Buchbindergehilfe</occupation>
 						<occupation n="02">SS-Mitglied</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
-						<note type="source" subtype="publ">Zeitgenössische Berichterstattung</note>
+						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="source" subtype="publ">Friedhöfe Wien: Verstorbenensuche. URL: https://www.friedhoefewien.at/ (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -6723,7 +6723,10 @@
 						<persName type="sk" subtype="pref">Undset, Sigrid</persName>
 						<occupation type="prim" n="01">Schriftstellerin</occupation>
 						<idno type="GND">11880314X</idno>
-						<note type="source" subtype="publ">Verbannte und Verbrannte</note>
+						<note type="source" subtype="publ">Daniel Burckhardt u. a.: Verbrannte und Verbannte. Die Liste
+							der im Nationalsozialismus verbotenen Publikationen, Autoren und Verlage. URL:
+							https://verbrannte-und-verbannte.de
+							(22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -6821,7 +6824,9 @@
 						<persName type="sk" subtype="pref">Wagner, Richard</persName>
 						<occupation type="prim" n="01">Komponist</occupation>
 						<idno type="GND">118594117</idno>
-						<note type="source" subtype="publ">ÖML</note>
+						<note type="source" subtype="publ">Austrian Centre for Digital Humanities and Cultural Heritage,
+							Abteilung Musikwissenschaft: Oesterreichisches Musiklexikon online. URL: https://www.musiklexikon.ac.at
+							(22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -7157,7 +7162,10 @@
 						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">13359081X</idno>
 						<note type="status" subtype="final"/>
-						<note type="source" subtype="publ">BIOSOP–Online</note>
+						<note type="source" subtype="publ">GESIS – Leibniz-Institut für Sozialwissenschaften in
+							Mannheim: Sozialdemokratische Parlamentarier in den deutschen Reichs- und
+							Landtagen 1876-1933 (BIOSOP). URL: http://zhsf.gesis.org/biosop.htm
+							(22. 3. 2021).</note>
 					</person>
 
 					<person xml:id="DWpers0404" sortKey="Scheidemann_Philipp">
@@ -7199,7 +7207,7 @@
 						<affiliation ref="#DWorg00006" n="02">Bund der Antisemiten</affiliation>
 						<idno type="GND">1011385708</idno>
 						<note type="status" subtype="final"/>
-						<note type="source" subtype="publ">Krause [2005]</note>
+						<note type="source" subtype="publ">Otto Krause: Biographisches Handbuch des niederösterreichischen Landtages 1861–1921. [2005] (online unter: https://noe-landtag.gv.at/fileadmin/sites/noe-landtag/dokumente/biographisches_handbuch/1861-1921.pdf).</note>
 					</person>
 				</listPerson>
 			</div>

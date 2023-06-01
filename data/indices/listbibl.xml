@@ -9433,7 +9433,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 					<num>Nr. 7/1932</num>
 					<date when="1932-09" key="#DWbibl04938">September 1932</date>
 					<biblScope>S. 194–198</biblScope>
-					<citedRange xml:id="DWbibl02256">S. 195<ref type="int" subtype="specific" target="#DWbibl03482"/></citedRange><!-- 1. Sämtliche … Deutschland zurückgezahlt -->
+					<citedRange xml:id="DWbibl02256">S. 195<ref type="int" subtype="nonexcl" target="#DWbibl03482"/></citedRange><!-- 1. Sämtliche … Deutschland zurückgezahlt -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03481" sortKey="Kube_Wilhelm">
@@ -10642,7 +10642,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 					<title level="j" key="#DWbibl04258">St. Pöltner Zeitung</title>
 					<pubPlace key="#DWplace00087">St. Pölten</pubPlace>
 					<date when="1933-07-20" key="#DWbibl04979">20. 7. 1933</date>
-					<citedRange xml:id="DWbibl02732" corresp="#DWfacs2217 #DWfacs2218"><ref type="int" target="#DWbibl03486" subtype="specific"/><ref type="ext" subtype="specific" target="https://anno.onb.ac.at/cgi-content/anno?aid=dsp%26datum=19330720%26seite=3%26zoom=33"/></citedRange>
+					<citedRange xml:id="DWbibl02732" corresp="#DWfacs2217 #DWfacs2218"><ref type="int" target="#DWbibl03486" subtype="nonexcl"/><ref type="ext" subtype="specific" target="https://anno.onb.ac.at/cgi-content/anno?aid=dsp%26datum=19330720%26seite=3%26zoom=33"/></citedRange>
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03485" sortKey="Takacs_Desider">
@@ -11735,7 +11735,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 					<pubPlace key="#DWplace00361">Basel</pubPlace>
 					<date when="1933-08-07" key="#DWbibl05012">7. 8. 1933</date>
 					<biblScope>1. Beilage, S. 2</biblScope>
-					<citedRange xml:id="DWbibl02580" corresp="#DWfacs1395"><ref target="#DWbibl02582" type="int" subtype="specific"/></citedRange><!-- Welcher Gottgesegnete … unseren Helden! -->
+					<citedRange xml:id="DWbibl02580" corresp="#DWfacs1395"><ref target="#DWbibl02582" type="int" subtype="nonexcl"/></citedRange><!-- Welcher Gottgesegnete … unseren Helden! -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02581" sortKey="Eine_deutsche_Patriotin">
