@@ -63,7 +63,7 @@
       <xsl:with-param name="text" select="'#INT1 textpassage'"/>
     </xsl:call-template>
 
-    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/</xsl:text>
+    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/DWbibl0000/passage/</xsl:text>
     <xsl:value-of select="$n"/>
     <xsl:text>&gt; a ns1:INT1_TextPassage</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
@@ -81,7 +81,7 @@
     <xsl:text>/identifier/idno/1&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
 
-    <xsl:text>  ns1:R10_is_Text_Passage_of &lt;https://sk.acdh.oeaw.ac.at/DWbibl00000&gt;</xsl:text>
+    <xsl:text>  ns1:R10_is_Text_Passage_of &lt;https://sk.acdh.oeaw.ac.at/DWbibl0000&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
 
     <xsl:text>  ns1:R41_has_location &quot;</xsl:text>
@@ -102,7 +102,9 @@
   ns1:R12_has_referred_to_entity [referred-to-URI] ;
   ns1:R13_has_referring_entity <https://sk.acdh.oeaw.ac.at/DWbibl0000/passage/[n]> .
 
- <info source="DWbibl00906" wholeText="no" wholePeriodical="no" refInt="no" refIntSubtype="no" refLevel="none" posCitedRange="1"/>
+ <info source="DWbibl00666" wholeText="no" wholePeriodical="no" posCitedRange="0" 
+       refInt="DWbibl02580" refIntSubtype="nonexcl" refLevel="no" refPos="0" refBase="DWbibl02579" 
+       refInt2="DWbibl02582" refIntSubtype2="specific" refLevel2="no" refPos2="0" refBase2="DWbibl02581"/>
   -->
 
   <xsl:template name="create-INT3">
@@ -117,6 +119,7 @@
             > Verweis auf simple Textstelle; referred-to-URI ist die der Textpassage: aus der Basis-URI + "/passage/" plus 
             Ordinalzahl aus Zählung der citedRange-Elemente
           -->
+          <xsl:value-of select="info/@source"/>
           <xsl:text>/passage/</xsl:text>
           <xsl:value-of select="info/@posCitedRange"/>
         </xsl:when>
@@ -147,13 +150,13 @@
             
             Dann ist die referred-to URI auf Grundlage des Wertes aus @refInt zu bauen, und zwar: 
           -->
-        <xsl:when test="info[@refIntSubtype='nonexcl' and @refInt = 'yes' and @refIntSubtype='specific' and @refLevel='text'] and type/text() != 'exemp'">
+        <xsl:when test="info[@refIntSubtype='nonexcl' and @refInt != 'no' and @refIntSubtype='specific' and @refLevel='text'] and type/text() != 'exemp'">
           <!-- 
             wenn @refLevel="text" als F22-URI, also https://sk.acdh.oeaw.ac.at/[@refInt]
           -->
           <xsl:value-of select="info/@refInt"/>
         </xsl:when>
-        <xsl:when test="info[@refIntSubtype='nonexcl' and @refInt = 'yes' and @refIntSubtype='specific' and @refLevel='none'] and type/text() != 'exemp'">
+        <xsl:when test="info[@refIntSubtype='nonexcl' and @refInt  != 'no' and @refIntSubtype='specific' and @refLevel='no'] and type/text() != 'exemp'">
           <!-- 
             wenn @refLevel="none" als Textpassagen-URI, das heißt: 
             
@@ -186,7 +189,7 @@
       <xsl:with-param name="text" select="'#INT3 intertext relationship'"/>
     </xsl:call-template>
 
-    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/DWbibl00000/relation/</xsl:text>
+    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/DWbibl0000/relation/</xsl:text>
     <xsl:value-of select="$n"/>
     <xsl:text>&gt; a ns1:INT3_IntertextualRelationship</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
@@ -199,7 +202,7 @@
     <xsl:text>&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
 
-    <xsl:text>  ns1:R13_has_referring_entity &lt;https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/</xsl:text>
+    <xsl:text>  ns1:R13_has_referring_entity &lt;https://sk.acdh.oeaw.ac.at/DWbibl0000/passage/</xsl:text>
     <xsl:value-of select="$n"/>
     <xsl:text>&gt;</xsl:text>
     <xsl:call-template name="newline-dot-newline"/>
@@ -212,7 +215,7 @@
       <xsl:with-param name="text" select="'#INT16 segment'"/>
     </xsl:call-template>
 
-    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/DWbibl00000/segment/</xsl:text>
+    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/DWbibl0000/segment/</xsl:text>
     <xsl:value-of select="$n"/>
     <xsl:text>&gt; a ns1:INT16_Segment</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
@@ -220,12 +223,12 @@
     <xsl:text>  rdfs:label &quot;Segment from: Dritte Walpurgisnacht"@en</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
 
-    <xsl:text>  ns1:R16_incorporates &lt;https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/</xsl:text>
+    <xsl:text>  ns1:R16_incorporates &lt;https://sk.acdh.oeaw.ac.at/DWbibl0000/passage/</xsl:text>
     <xsl:value-of select="$n"/>
     <xsl:text>&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
 
-    <xsl:text>  ns1:R25_is_segment_of &lt;https://sk.acdh.oeaw.ac.at/DWbibl00000/published-expression&gt;</xsl:text>
+    <xsl:text>  ns1:R25_is_segment_of &lt;https://sk.acdh.oeaw.ac.at/DWbibl0000/published-expression&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
 
     <xsl:text>  ns1:R41_has_location &quot;</xsl:text>
@@ -260,7 +263,7 @@
     <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/idno/xml-id&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
 
-    <xsl:text>  cidoc:P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/</xsl:text>
+    <xsl:text>  cidoc:P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/DWbibl0000/passage/</xsl:text>
     <xsl:value-of select="$n"/>
     <xsl:text>&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
@@ -291,7 +294,7 @@
     <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/idno/URL/dritte-walpurgisnacht&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
 
-    <xsl:text>  cidoc:P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/</xsl:text>
+    <xsl:text>  cidoc:P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/DWbibl0000/passage/</xsl:text>
     <xsl:value-of select="$n"/>
     <xsl:text>&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>

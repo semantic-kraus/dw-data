@@ -42,7 +42,7 @@ return
                                                     else
                                                         "no" 
                             let $refLevel :=    if ($refInt = 'no') then
-                                                    "none"
+                                                    "no"
                                                 else (
                                                     let $citedRange := $listBibl/tei:bibl/tei:citedRange[@xml:id=$refInt]
                                                     return if ($citedRange[@wholeText="yes"]) then
@@ -50,7 +50,7 @@ return
                                                             else if ($citedRange[@wholePeriodical="yes"]) then
                                                                 "periodical"
                                                             else
-                                                                "none"
+                                                                "no"
                                                 )
                                                     
                             let $posCitedRange :=  count($bibl/tei:citedRange[@xml:id=$sourceId]/preceding-sibling::tei:citedRange)
@@ -95,7 +95,7 @@ return
                                                         "no" 
                             (:  - "@refLevel2" für @wholeText bzw. @wholePeriodical in dem citedRange, das in @refInt2 referenziert wird :)
                             let $refLevel2 :=   if ($refInt2 = 'no') then
-                                                    "none"
+                                                    "no"
                                                 else (
                                                     let $citedRange := $listBibl/tei:bibl/tei:citedRange[@xml:id=$refInt2]
                                                     return if ($citedRange[@wholeText="yes"]) then
@@ -103,7 +103,7 @@ return
                                                             else if ($citedRange[@wholePeriodical="yes"]) then
                                                                 "periodical"
                                                             else
-                                                                "none"
+                                                                "no"
                                                 )
 
                             (:  - "@refPos2" für die Position des citedRange, das in @refInt2 referenziert wird :)
