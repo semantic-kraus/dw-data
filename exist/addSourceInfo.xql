@@ -70,7 +70,7 @@ return
                                                 let $refBibl := $listBibl/tei:bibl[tei:citedRange[@xml:id=$refInt]]
                                                 let $citedRange := $refBibl/tei:citedRange[@xml:id=$refInt]
                                                 return  if ($citedRange[@wholeText = "yes"]) then
-                                                            $sourceId
+                                                            $refInt
                                                         else if ($citedRange[@wholePeriodical = "yes"]) then(
                                                             translate($refBibl/tei:title[@level="j"]/@key, '#', ''))
                                                         else 
@@ -122,7 +122,7 @@ return
                                                     let $refBibl := $listBibl/tei:bibl[tei:citedRange[@xml:id=$refInt2]]
                                                     let $citedRange := $refBibl/tei:citedRange[@xml:id=$refInt2]
                                                     return  if ($citedRange[@wholeText = "yes"]) then
-                                                                $sourceId
+                                                                $refInt2
                                                             else if ($citedRange[@wholePeriodical = "yes"]) then(
                                                                 translate($refBibl/tei:title[@level="j"]/@key, '#', ''))
                                                             else 

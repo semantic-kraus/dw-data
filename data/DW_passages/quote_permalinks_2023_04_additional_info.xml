@@ -1014,7 +1014,7 @@
         <source>#DWbibl02724</source>
         <type/>
         <content>daß ich es nicht gewollt habe</content>
-        <info source="DWbibl01911" wholeText="no" wholePeriodical="no" posCitedRange="13" refInt="DWbibl02721" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02724" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl01911" wholeText="no" wholePeriodical="no" posCitedRange="13" refInt="DWbibl02721" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02721" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0126</id>
@@ -1221,7 +1221,7 @@
         <source>#DWbibl01914</source>
         <type/>
         <content>Ich habe ihm eine Visitenkarte als Empfehlung ausgestellt, die schon eine Landkarte war</content>
-        <info source="DWbibl01912" wholeText="no" wholePeriodical="no" posCitedRange="1" refInt="DWbibl01947" refIntSubtype="specific" refLevel="text" refPos="0" refBase="DWbibl01914" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl01912" wholeText="no" wholePeriodical="no" posCitedRange="1" refInt="DWbibl01947" refIntSubtype="specific" refLevel="text" refPos="0" refBase="DWbibl01947" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0148</id>
@@ -2247,7 +2247,7 @@
         <source>#DWbibl00195</source>
         <type>exemp</type>
         <content>an jüdischen Schaufenstern ausgegeben haben</content>
-        <info source="DWbibl00658" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl01600" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl00195" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00658" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl01600" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01600" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0253</id>
@@ -2616,7 +2616,7 @@
         <source>#DWbibl00195</source>
         <type/>
         <content>wie der brave SA-Mann in Ausübung seiner harten Pflicht vor dem Laden stand, auf dessen Fenster geschrieben war⁠ ⁠: Dir Judensau sollen die Hände abfaulen⁠ ⁠!</content>
-        <info source="DWbibl00658" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl01600" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl00195" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00658" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl01600" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01600" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0289</id>
@@ -2634,7 +2634,7 @@
         <source>#DWbibl01490</source>
         <type/>
         <content>wie ein Münchner Anwalt, der bei der Polizei wegen der Verschleppung seines Klienten angefragt hatte, mit abgeschnittenen Hosen und einer Tafel an der Brust⁠ ⁠: Ich bin Jude, aber ich will mich nicht über die Nazis beschweren von radfahrenden Spukgestalten eskortiert wird.</content>
-        <info source="DWbibl00576" wholeText="no" wholePeriodical="no" posCitedRange="2" refInt="DWbibl03567" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01490" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00576" wholeText="no" wholePeriodical="no" posCitedRange="2" refInt="DWbibl03567" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl03567" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0290</id>
@@ -2652,7 +2652,7 @@
         <source>#DWbibl01974</source>
         <type>exemp</type>
         <content>Ins Konzentrationslager, wo dann die Erschießung auf der Flucht erfolgte.</content>
-        <info source="DWbibl01974" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl01976" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01974" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl01974" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl01976" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01976" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0293</id>
@@ -2670,7 +2670,7 @@
         <source>#DWbibl01977</source>
         <type/>
         <content>Gruppenbildes derer um den Battisti-Leichnam</content>
-        <info source="DWbibl01911" wholeText="no" wholePeriodical="no" posCitedRange="7" refInt="DWbibl01979" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01977" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl01911" wholeText="no" wholePeriodical="no" posCitedRange="7" refInt="DWbibl01979" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01979" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0295</id>
@@ -3543,7 +3543,7 @@
         <source>#DWbibl02002</source>
         <type/>
         <content>ihn im Weimarer Kreise neben der Büste zu photographieren. Eine französische Zeitung hat die Aufnahme veröffentlicht</content>
-        <info source="DWbibl02002" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03478" refIntSubtype="specific" refLevel="text" refPos="0" refBase="DWbibl02002" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl02002" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03478" refIntSubtype="specific" refLevel="text" refPos="0" refBase="DWbibl03478" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0393</id>
@@ -3633,7 +3633,7 @@
         <source>#DWbibl02002</source>
         <type/>
         <content>die Büste auf der Photographie</content>
-        <info source="DWbibl02002" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03478" refIntSubtype="specific" refLevel="text" refPos="0" refBase="DWbibl02002" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl02002" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03478" refIntSubtype="specific" refLevel="text" refPos="0" refBase="DWbibl03478" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0411</id>
@@ -4029,7 +4029,7 @@
         <source>#DWbibl00289</source>
         <type/>
         <content>durch jenen machthabenden Buben, der wirklich so aussieht wie das, was man sich unter dem Typ Rotzlöffel vorstellt, und der doch in der Szene groß photographiert ist, wie er Maul und Karabiner sieben kalkweißen Männern vorhält</content>
-        <info source="DWbibl00576" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03551" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl00289" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00576" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03551" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl03551" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0453</id>
@@ -4641,7 +4641,7 @@
         <source>#DWbibl01821</source>
         <type/>
         <content>jene eindrucksvolle Erklärung</content>
-        <info source="DWbibl01821" wholeText="yes" wholePeriodical="no" posCitedRange="2" refInt="DWbibl02831" refIntSubtype="nonexcl" refLevel="text" refPos="1" refBase="DWbibl01821" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl01821" wholeText="yes" wholePeriodical="no" posCitedRange="2" refInt="DWbibl02831" refIntSubtype="nonexcl" refLevel="text" refPos="1" refBase="DWbibl02831" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0513</id>
@@ -4677,7 +4677,7 @@
         <source>#DWbibl02041</source>
         <type/>
         <content>Si vis bellum, para pacem.</content>
-        <info source="DWbibl02036" wholeText="no" wholePeriodical="no" posCitedRange="1" refInt="DWbibl02040" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02041" refInt2="DWbibl01519" refIntSubtype2="specific" refLevel2="no" refPos2="0" refBase2="DWbibl00440"/>
+        <info source="DWbibl02036" wholeText="no" wholePeriodical="no" posCitedRange="1" refInt="DWbibl02040" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02040" refInt2="DWbibl01519" refIntSubtype2="specific" refLevel2="no" refPos2="0" refBase2="DWbibl00440"/>
     </item>
     <item>
         <id>DWquote0518</id>
@@ -4956,7 +4956,7 @@
         <source>#DWbibl02071</source>
         <type/>
         <content>Die Greuelpropaganda ist eine Lügenpropaganda⁠ ⁠!</content>
-        <info source="DWbibl00242" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl01308" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02071" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00242" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl01308" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01308" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0549</id>
@@ -5190,7 +5190,7 @@
         <source>#DWbibl02071</source>
         <type/>
         <content>daß die Greuelpropaganda eine Lügenpropaganda sei</content>
-        <info source="DWbibl00242" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl01308" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02071" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00242" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl01308" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01308" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0576</id>
@@ -5829,7 +5829,7 @@
         <source>#DWbibl00397</source>
         <type>exemp</type>
         <content>Planck</content>
-        <info source="DWbibl02097" wholeText="no" wholePeriodical="no" posCitedRange="1" refInt="DWbibl03590" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl00397" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl02097" wholeText="no" wholePeriodical="no" posCitedRange="1" refInt="DWbibl03590" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl03590" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0645</id>
@@ -5838,7 +5838,7 @@
         <source>#DWbibl01667</source>
         <type/>
         <content>Koehler</content>
-        <info source="DWbibl01667" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02126" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01667" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl01667" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02126" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02126" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0646</id>
@@ -5856,7 +5856,7 @@
         <source>#DWbibl01122</source>
         <type>exemp</type>
         <content>Ricarda Huch</content>
-        <info source="DWbibl01122" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02128" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01122" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl01122" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02128" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02128" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0648</id>
@@ -6072,7 +6072,7 @@
         <source>#DWbibl01490</source>
         <type>exemp</type>
         <content>die manch einer, der weniger Glück hatte, auf der Brust tragen mußte</content>
-        <info source="DWbibl00576" wholeText="no" wholePeriodical="no" posCitedRange="2" refInt="DWbibl03567" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01490" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00576" wholeText="no" wholePeriodical="no" posCitedRange="2" refInt="DWbibl03567" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl03567" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0672</id>
@@ -6252,7 +6252,7 @@
         <source>#DWbibl02166</source>
         <type/>
         <content>die sechs Gequälten, umstellt von Wölfen des Konzentrationslagers, Trophäe einer schmutzigen Gewalt, mit der jene paktierten</content>
-        <info source="DWbibl02166" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03538" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02166" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl02166" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03538" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl03538" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0690</id>
@@ -6261,7 +6261,7 @@
         <source>#DWbibl01446</source>
         <type/>
         <content>der mit einem Satz das Deutschtum rehabilitiert hat, indem er in Verbundenheit mit ihnen seine Person der Barbarei darbot, die es entehrt</content>
-        <info source="DWbibl00468" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03594" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01446" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00468" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03594" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl03594" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0691</id>
@@ -7098,7 +7098,7 @@
         <source>#DWbibl02800</source>
         <type>exemp</type>
         <content>der sich mit dem Anschluß übereilt hat</content>
-        <info source="DWbibl02800" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02802" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02800" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl02800" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02802" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02802" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0784</id>
@@ -7503,7 +7503,7 @@
         <source>#DWbibl01576</source>
         <type/>
         <content>Universität Johann Wolfgang Goethe, Frankfurt. Frankfurt, den Mai 1933 Das Studentenfreikorps lädt die Gesamtheit des Professorenkollegiums zu der Verbrennung der marxistischen und korruptionistischen Schriften ein, die Mittwoch abend, den 10. Mai auf dem Römerberg stattfinden wird. Die Studenten würden es im Hinblick auf die große symbolische Bedeutung dieser Zeremonie begrüßen, die Gesamtheit der Professorenschaft dort zu sehen. Ich lade daher die Kollegen ein, zahlreich daran teilzunehmen. Abmarsch⁠ ⁠: von der Universität auf den Römerberg Mittwoch abend um 20 Uhr, mit Musik. Die Korporationen werden in Uniformen daran teilnehmen, ebenso die SA-Bataillone. Der Rektor⁠ ⁠: Krieck.</content>
-        <info source="DWbibl00626" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02217" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01576" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00626" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02217" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02217" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0827</id>
@@ -7953,7 +7953,7 @@
         <source>#DWbibl02339</source>
         <type>exemp</type>
         <content>Wenn im deutschen Lehrplan die Geschichte der Opferung Isaaks als undeutsch gestrichen wird, das Buch Josua dürfte aus diesem Gesichtspunkt unbeanstandet bleiben.</content>
-        <info source="DWbibl02339" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03412" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02339" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl02339" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03412" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl03412" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0874</id>
@@ -8088,7 +8088,7 @@
         <source>#DWbibl02807</source>
         <type>exemp</type>
         <content>Wenn 500.000 Bauern ausgerechnet in Hameln hinters Licht von 50 Scheinwerfern geführt werden sollen und zu diesem Zweck sogar ein Bergplateau gleichgeschaltet wird,</content>
-        <info source="DWbibl02806" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl01505" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02807" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl02806" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl01505" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01505" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0885</id>
@@ -9159,7 +9159,7 @@
         <source>#DWbibl02294</source>
         <type/>
         <content>Verklärung des Schlachtentodes</content>
-        <info source="DWbibl02294" wholeText="yes" wholePeriodical="no" posCitedRange="4" refInt="DWbibl02295" refIntSubtype="nonexcl" refLevel="text" refPos="5" refBase="DWbibl02294" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl02294" wholeText="yes" wholePeriodical="no" posCitedRange="4" refInt="DWbibl02295" refIntSubtype="nonexcl" refLevel="text" refPos="5" refBase="DWbibl02295" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0981</id>
@@ -9645,7 +9645,7 @@
         <source>#DWbibl01579</source>
         <type/>
         <content>Gleichzeitig verlangt der General Epp die Kolonien und ergänzt die pazifistische Einsicht, daß die Regierung wegen Versailles diesen Kampf nicht unterstützen könne, durch die Feststellung⁠ ⁠: Die nationalen Verbände sind aber an die vorsichtige Behandlung der Frage durch die Regierung nicht gebunden.</content>
-        <info source="DWbibl00629" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02353" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01579" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00629" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02353" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02353" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote1033</id>
@@ -9951,7 +9951,7 @@
         <source>#DWbibl01236</source>
         <type>exemp</type>
         <content>der im Rundfunk noch zu hörenden</content>
-        <info source="DWbibl00175" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02376" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01236" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00175" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02376" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02376" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote1070</id>
@@ -10176,7 +10176,7 @@
         <source>#DWbibl01101</source>
         <type/>
         <content>Als eine Frau Jankowski unter der Behandlung durch SA-Männer zusammenbrach — was doch kein Wunder ist, wenn ein Dutzend Bewaffnete einer einzigen Frau gegenüberstehn —, da rührte sich die ‚Times‘ mit einem Artikel.</content>
-        <info source="DWbibl01101" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02408" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01101" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl01101" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02408" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02408" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote1095</id>
@@ -10239,7 +10239,7 @@
         <source>#DWbibl02415</source>
         <type>exemp</type>
         <content>Eingriffen ins Wirtschaftsleben entgegentritt</content>
-        <info source="DWbibl02415" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02417" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02415" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl02415" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02417" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02417" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote1102</id>
@@ -10545,7 +10545,7 @@
         <source>#DWbibl03692</source>
         <type/>
         <content>kordial mit Göring, der, als Hias verkleidet, sich mit ihm freut</content>
-        <info source="DWbibl03696" wholeText="no" wholePeriodical="no" posCitedRange="2" refInt="DWbibl03901" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl03692" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl03696" wholeText="no" wholePeriodical="no" posCitedRange="2" refInt="DWbibl03901" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl03901" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote1138</id>
@@ -11094,7 +11094,7 @@
         <source>#DWbibl02491</source>
         <type/>
         <content>Wohl aber durften sie nach einer Kostprobe aus der Gefangenhausküche noch Zeugen der Freilassung einiger Gefangener sein.</content>
-        <info source="DWbibl02490" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02893" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02491" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl02490" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02893" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02893" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote1203</id>
@@ -12102,7 +12102,7 @@
         <source>#DWbibl04107</source>
         <type>else</type>
         <content>zwanglosen Unterhaltung mit Schutzhäftlingen</content>
-        <info source="DWbibl04107" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02726" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl04107" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl04107" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02726" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02726" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote1322</id>
@@ -12174,7 +12174,7 @@
         <source>#DWbibl02586</source>
         <type/>
         <content>indem doch eines Mannes Rede heute zwei bedeutet, weshalb man alle beede hören muß</content>
-        <info source="DWbibl02585" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02588" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02586" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl02585" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02588" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02588" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote2054</id>
@@ -12192,7 +12192,7 @@
         <source>#DWbibl01441</source>
         <type/>
         <content>Der Nationalsozialismus bekennt sich zum Menschheitsgedanken⁠ ⁠!</content>
-        <info source="DWbibl00406" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03716" refIntSubtype="specific" refLevel="no" refPos="0" refBase="DWbibl03715" refInt2="DWbibl02593" refIntSubtype2="nonexcl" refLevel2="text" refPos2="0" refBase2="DWbibl01441"/>
+        <info source="DWbibl00406" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03716" refIntSubtype="specific" refLevel="no" refPos="0" refBase="DWbibl03715" refInt2="DWbibl02593" refIntSubtype2="nonexcl" refLevel2="text" refPos2="0" refBase2="DWbibl02593"/>
     </item>
     <item>
         <id>DWquote1952</id>
@@ -13713,7 +13713,7 @@
         <source>#DWbibl01439</source>
         <type/>
         <content>Ich klage an</content>
-        <info source="DWbibl00404" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02949" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01439" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl00404" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02949" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02949" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote2058</id>
@@ -14280,7 +14280,7 @@
         <source>#DWbibl03398</source>
         <type/>
         <content>Gut und Blut</content>
-        <info source="DWbibl03397" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03400" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl03398" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl03397" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03400" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl03400" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote1565</id>
@@ -14460,7 +14460,7 @@
         <source>#DWbibl02999</source>
         <type/>
         <content>jenen Schlachtfelder-Rundfahrten</content>
-        <info source="DWbibl02998" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03000" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02999" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl02998" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03000" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl03000" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote1956</id>
@@ -14631,7 +14631,7 @@
         <source>#DWbibl01642</source>
         <type>exemp</type>
         <content>in die Schlageter-Ausstellung geht kein Mensch</content>
-        <info source="DWbibl01642" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03023" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01642" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl01642" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03023" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl03023" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote1597</id>
@@ -16800,7 +16800,7 @@
         <source>#DWbibl03221</source>
         <type>exemp</type>
         <content>wenn’s keine Parteien mehr gibt</content>
-        <info source="DWbibl03221" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03219" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl03221" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl03221" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03219" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl03219" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote2074</id>
