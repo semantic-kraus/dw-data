@@ -166,23 +166,33 @@
 
     <xsl:variable name="uri">
       <xsl:choose>
-        <xsl:when test="info[@wholeText = 'no' and @wholePeriodical = 'no' and @refInt='no']">
+        <xsl:when test="info[@wholeText = 'no' and @wholePeriodical = 'no' and @refInt = 'no']">
           <xsl:value-of select="$uri-id"/>
           <xsl:text>/passage/</xsl:text>
           <xsl:value-of select="info/@posCitedRange"/>
         </xsl:when>
-        <xsl:when test="info[@wholePeriodical = 'yes' and @refInt='no']">
+        <xsl:when test="info[@wholePeriodical = 'yes' and @refInt = 'no']">
           <xsl:value-of select="$uri-id"/>
           <xsl:text>/published-expression</xsl:text>
         </xsl:when>
-        <xsl:when test="info[@wholeText = 'yes' and @refInt='no']">
+        <xsl:when test="info[@wholeText = 'yes' and @refInt = 'no']">
           <xsl:value-of select="$uri-id"/>
         </xsl:when>
-        
+
         <xsl:when test="info[@refLevel = 'no']">
           <xsl:value-of select="$uri-id"/>
           <xsl:text>/passage/</xsl:text>
-          <xsl:value-of select="info/@refPos"/>
+          <xsl:choose>
+            <xsl:when test="$uri-id = info/@source">
+              <xsl:value-of select="info/@posCitedRange"/>
+            </xsl:when>
+            <xsl:when test="$uri-id = info/@refInt">
+              <xsl:value-of select="info/@refPos"/>
+            </xsl:when>
+            <xsl:when test="$uri-id = info/@refInt2">
+              <xsl:value-of select="info/@refPos2"/>
+            </xsl:when>
+          </xsl:choose>
         </xsl:when>
         <xsl:when test="info[@refLevel = 'periodical']">
           <xsl:value-of select="$uri-id"/>
@@ -191,11 +201,21 @@
         <xsl:when test="info[@refLevel = 'text']">
           <xsl:value-of select="$uri-id"/>
         </xsl:when>
-        
+
         <xsl:when test="info[@refLevel2 = 'no']">
           <xsl:value-of select="$uri-id"/>
           <xsl:text>/passage/</xsl:text>
-          <xsl:value-of select="info/@refPos2"/>
+          <xsl:choose>
+            <xsl:when test="$uri-id = info/@source">
+              <xsl:value-of select="info/@posCitedRange"/>
+            </xsl:when>
+            <xsl:when test="$uri-id = info/@refInt">
+              <xsl:value-of select="info/@refPos"/>
+            </xsl:when>
+            <xsl:when test="$uri-id = info/@refInt2">
+              <xsl:value-of select="info/@refPos2"/>
+            </xsl:when>
+          </xsl:choose>
         </xsl:when>
         <xsl:when test="info[@refLevel2 = 'periodical']">
           <xsl:value-of select="$uri-id"/>
