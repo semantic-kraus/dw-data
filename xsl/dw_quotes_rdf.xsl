@@ -104,54 +104,66 @@
           Erster Fall: URI baut auf info/@source auf, anwenden bei
         -->
         <!-- //item[type="exemp" and info/@refInt="no"] -->
-        <xsl:when test="type/text()='exemp' and info[@refInt='no']">
+        <xsl:when test="type/text() = 'exemp' and info[@refInt = 'no']">
           <xsl:value-of select="info/@source"/>
         </xsl:when>
         <!-- //item[type!="exemp" and info/@refInt="no"] -->
-        <xsl:when test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refInt='no']">
-          <xsl:value-of select="info/@source"/>          
+        <xsl:when
+          test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refInt = 'no']">
+          <xsl:value-of select="info/@source"/>
         </xsl:when>
         <!-- //item[type!="exemp" and info/@refIntSubtype="specific" and info/@refIntSubtype2="no"] -->
-        <xsl:when test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refIntSubtype='specific' and @refIntSubtype2='no']">
+        <xsl:when
+          test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refIntSubtype = 'specific' and @refIntSubtype2 = 'no']">
           <xsl:value-of select="info/@source"/>
         </xsl:when>
         <!-- //item[type="exemp" and info/@refIntSubtype="nonexcl" and info/@refIntSubtype2="no"] -->
-        <xsl:when test="type/text() = 'exemp' and info[@refIntSubtype='nonexcl' and @refIntSubtype2='no']">
-          <xsl:value-of select="info/@source"/>          
+        <xsl:when
+          test="type/text() = 'exemp' and info[@refIntSubtype = 'nonexcl' and @refIntSubtype2 = 'no']">
+          <xsl:value-of select="info/@source"/>
         </xsl:when>
         <!-- //item[type="exemp" and info/@refIntSubtype="specific" and info/@refIntSubtype2="no"] -->
-        <xsl:when test="type/text() = 'exemp' and info[@refIntSubtype='specific' and @refIntSubtype2='no']">
+        <xsl:when
+          test="type/text() = 'exemp' and info[@refIntSubtype = 'specific' and @refIntSubtype2 = 'no']">
           <xsl:value-of select="info/@source"/>
         </xsl:when>
         <!--  
           Zweiter Fall: URI baut auf info/@refBase auf, anwenden bei 
         -->
         <!-- //item[type!="exemp" and info/@refIntSubtype="nonexcl" and info/@refIntSubtype2="no"] -->
-        <xsl:when test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refIntSubtype='nonexcl' and @refIntSubtype2='no']">
+        <xsl:when
+          test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refIntSubtype = 'nonexcl' and @refIntSubtype2 = 'no']">
           <xsl:value-of select="info/@refBase"/>
         </xsl:when>
         <!-- //item[type!="exemp" and info/@refIntSubtype="nonexcl" and info/@refIntSubtype2="specific"] -->
-        <xsl:when test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refIntSubtype='nonexcl' and @refIntSubtype2='specific']">
-          <xsl:value-of select="info/@refBase"/>          
+        <xsl:when
+          test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refIntSubtype = 'nonexcl' and @refIntSubtype2 = 'specific']">
+          <xsl:value-of select="info/@refBase"/>
         </xsl:when>
         <!-- 
           Dritter Fall: URI baut auf info/@refBase2 auf, anwenden bei
         -->
         <!-- //item[type!="exemp" and info/@refIntSubtype="nonexcl" and info/@refIntSubtype2="nonexcl"] -->
-        <xsl:when test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refIntSubtype='nonexcl' and @refIntSubtype2='nonexcl']">
+        <xsl:when
+          test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refIntSubtype = 'nonexcl' and @refIntSubtype2 = 'nonexcl']">
           <xsl:value-of select="info/@refBase2"/>
         </xsl:when>
         <!-- //item[type!="exemp" and info/@refIntSubtype="specific" and info/@refIntSubtype2="nonexcl"] -->
-        <xsl:when test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refIntSubtype='specific' and @refIntSubtype2='nonexcl']">
+        <xsl:when
+          test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refIntSubtype = 'specific' and @refIntSubtype2 = 'nonexcl']">
           <xsl:value-of select="info/@refBase2"/>
         </xsl:when>
         <!-- //item[type="exemp" and info/@refIntSubtype="nonexcl" and info/@refIntSubtype2="specific"] -->
-        <xsl:when test="type/text() = 'exemp' and info[@refIntSubtype='nonexcl' and @refIntSubtype2='specific']">
+        <xsl:when
+          test="type/text() = 'exemp' and info[@refIntSubtype = 'nonexcl' and @refIntSubtype2 = 'specific']">
           <xsl:value-of select="info/@refBase2"/>
         </xsl:when>
-      </xsl:choose>      
+        <xsl:otherwise>
+          <xsl:text>id-error</xsl:text>
+        </xsl:otherwise>
+      </xsl:choose>
     </xsl:variable>
-    
+
     <xsl:variable name="uri">
       <xsl:choose>
         <xsl:when test="info[@wholeText = 'no' and @wholePeriodical = 'no']">
@@ -169,7 +181,7 @@
           <xsl:text>/passage/</xsl:text>
           <xsl:value-of select="info/@refPos2"/>
         </xsl:when>
-        
+
         <xsl:when test="info[@wholePeriodical = 'yes']">
           <xsl:value-of select="$uri-id"/>
           <xsl:text>/published-expression</xsl:text>
@@ -182,16 +194,20 @@
           <xsl:value-of select="$uri-id"/>
           <xsl:text>/published-expression</xsl:text>
         </xsl:when>
-        
+
         <xsl:when test="info[@wholeText = 'yes']">
-          <xsl:value-of select="$uri-id"/>          
+          <xsl:value-of select="$uri-id"/>
         </xsl:when>
         <xsl:when test="info[@refLevel = 'text']">
-          <xsl:value-of select="$uri-id"/>         
+          <xsl:value-of select="$uri-id"/>
         </xsl:when>
         <xsl:when test="info[@refLevel2 = 'text']">
           <xsl:value-of select="$uri-id"/>
         </xsl:when>
+
+        <xsl:otherwise>
+          <xsl:text>uri-error</xsl:text>
+        </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
 
