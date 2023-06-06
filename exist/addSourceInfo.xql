@@ -23,11 +23,13 @@ return
                                                     "yes"
                                                 else
                                                     "no"
-                                                    
+
                             let $source :=  if ($wholeText = "yes") then
                                                 $sourceId
                                             else if ($wholePeriodical = "yes") then
                                                 translate($bibl/tei:title[@level="j"]/@key, '#', '')
+                                            else if (exists($bibl/tei:citedRange[@wholeText='yes'])) then
+                                                $bibl/tei:citedRange[@wholeText='yes']/@xml:id
                                             else
                                                 $bibl/@xml:id
                                                     
@@ -73,7 +75,9 @@ return
                                                             $refInt
                                                         else if ($citedRange[@wholePeriodical = "yes"]) then(
                                                             translate($refBibl/tei:title[@level="j"]/@key, '#', ''))
-                                                        else 
+                                                        else if (exists($refBibl/tei:citedRange[@wholeText='yes'])) then
+                                                            $refBibl/tei:citedRange[@wholeText='yes']/@xml:id
+                                                        else
                                                             $refBibl/@xml:id
                                             )
 
@@ -125,6 +129,8 @@ return
                                                                 $refInt2
                                                             else if ($citedRange[@wholePeriodical = "yes"]) then(
                                                                 translate($refBibl/tei:title[@level="j"]/@key, '#', ''))
+                                                            else if (exists($refBibl/tei:citedRange[@wholeText='yes'])) then
+                                                                $refBibl/tei:citedRange[@wholeText='yes']/@xml:id
                                                             else 
                                                                 $refBibl/@xml:id
                                                 )
