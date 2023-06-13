@@ -11,21 +11,26 @@
   </xsl:template>
 
   <xsl:template match="result">
+    <xsl:variable name="count-quotes" select="number(1947)"/>
+
     <xsl:for-each select="item">
       <xsl:call-template name="create-INT1-textpassage">
-        <xsl:with-param name="n" select="position() - 1"/>
-      </xsl:call-template>
-      <xsl:call-template name="create-INT3">
-        <xsl:with-param name="n" select="position() - 1"/>
-      </xsl:call-template>
-      <xsl:call-template name="create-INT16-segment">
-        <xsl:with-param name="n" select="position() - 1"/>
+        <xsl:with-param name="n" select="position() + $count-quotes"/>
       </xsl:call-template>
       <xsl:call-template name="create-E42-id-identifier">
-        <xsl:with-param name="n" select="position() - 1"/>
+        <xsl:with-param name="n" select="position() + $count-quotes"/>
       </xsl:call-template>
       <xsl:call-template name="create-E42-permalink-identifier">
-        <xsl:with-param name="n" select="position() - 1"/>
+        <xsl:with-param name="n" select="position() + $count-quotes"/>
+      </xsl:call-template>
+      <xsl:call-template name="create-INT16-segment">
+        <xsl:with-param name="n" select="position() + $count-quotes"/>
+      </xsl:call-template>
+      <xsl:call-template name="create-INT2-actualized-feature">
+        <xsl:with-param name="n" select="position() + $count-quotes"/>
+      </xsl:call-template>
+      <xsl:call-template name="create-INT18-reference">
+        <xsl:with-param name="n" select="position() + $count-quotes"/>
       </xsl:call-template>
     </xsl:for-each>
 
@@ -95,167 +100,6 @@
     <xsl:call-template name="newline-dot-newline"/>
   </xsl:template>
 
-  <xsl:template name="create-INT3">
-    <xsl:param name="n"/>
-
-    <xsl:variable name="uri-id">
-      <xsl:choose>
-        <!-- 
-          Erster Fall: URI baut auf info/@source auf, anwenden bei
-        -->
-        <!-- //item[type="exemp" and info/@refInt="no"] -->
-        <xsl:when test="type/text() = 'exemp' and info[@refInt = 'no']">
-          <xsl:value-of select="info/@source"/>
-        </xsl:when>
-        <!-- //item[type!="exemp" and info/@refInt="no"] -->
-        <xsl:when
-          test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refInt = 'no']">
-          <xsl:value-of select="info/@source"/>
-        </xsl:when>
-        <!-- //item[type!="exemp" and info/@refIntSubtype="specific" and info/@refIntSubtype2="no"] -->
-        <xsl:when
-          test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refIntSubtype = 'specific' and @refIntSubtype2 = 'no']">
-          <xsl:value-of select="info/@source"/>
-        </xsl:when>
-        <!-- //item[type="exemp" and info/@refIntSubtype="nonexcl" and info/@refIntSubtype2="no"] -->
-        <xsl:when
-          test="type/text() = 'exemp' and info[@refIntSubtype = 'nonexcl' and @refIntSubtype2 = 'no']">
-          <xsl:value-of select="info/@source"/>
-        </xsl:when>
-        <!-- //item[type="exemp" and info/@refIntSubtype="specific" and info/@refIntSubtype2="no"] -->
-        <xsl:when
-          test="type/text() = 'exemp' and info[@refIntSubtype = 'specific' and @refIntSubtype2 = 'no']">
-          <xsl:value-of select="info/@source"/>
-        </xsl:when>
-        <!--  
-          Zweiter Fall: URI baut auf info/@refBase auf, anwenden bei 
-        -->
-        <!-- //item[type!="exemp" and info/@refIntSubtype="nonexcl" and info/@refIntSubtype2="no"] -->
-        <xsl:when
-          test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refIntSubtype = 'nonexcl' and @refIntSubtype2 = 'no']">
-          <xsl:value-of select="info/@refBase"/>
-        </xsl:when>
-        <!-- //item[type!="exemp" and info/@refIntSubtype="nonexcl" and info/@refIntSubtype2="specific"] -->
-        <xsl:when
-          test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refIntSubtype = 'nonexcl' and @refIntSubtype2 = 'specific']">
-          <xsl:value-of select="info/@refBase"/>
-        </xsl:when>
-        <!-- 
-          Dritter Fall: URI baut auf info/@refBase2 auf, anwenden bei
-        -->
-        <!-- //item[type!="exemp" and info/@refIntSubtype="nonexcl" and info/@refIntSubtype2="nonexcl"] -->
-        <xsl:when
-          test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refIntSubtype = 'nonexcl' and @refIntSubtype2 = 'nonexcl']">
-          <xsl:value-of select="info/@refBase2"/>
-        </xsl:when>
-        <!-- //item[type!="exemp" and info/@refIntSubtype="specific" and info/@refIntSubtype2="nonexcl"] -->
-        <xsl:when
-          test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refIntSubtype = 'specific' and @refIntSubtype2 = 'nonexcl']">
-          <xsl:value-of select="info/@refBase2"/>
-        </xsl:when>
-        <!-- //item[type="exemp" and info/@refIntSubtype="nonexcl" and info/@refIntSubtype2="specific"] -->
-        <xsl:when
-          test="type/text() = 'exemp' and info[@refIntSubtype = 'nonexcl' and @refIntSubtype2 = 'specific']">
-          <xsl:value-of select="info/@refBase2"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:text>id-error</xsl:text>
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
-
-    <xsl:variable name="uri">
-      <xsl:choose>
-        <xsl:when test="info[@wholeText = 'no' and @wholePeriodical = 'no' and @refInt = 'no']">
-          <xsl:value-of select="$uri-id"/>
-          <xsl:text>/passage/</xsl:text>
-          <xsl:value-of select="info/@posCitedRange"/>
-        </xsl:when>
-        <xsl:when test="info[@wholePeriodical = 'yes' and @refInt = 'no']">
-          <xsl:value-of select="$uri-id"/>
-          <xsl:text>/published-expression</xsl:text>
-        </xsl:when>
-        <xsl:when test="info[@wholeText = 'yes' and @refInt = 'no']">
-          <xsl:value-of select="$uri-id"/>
-        </xsl:when>
-
-        <xsl:when test="info[@refLevel = 'no']">
-          <xsl:value-of select="$uri-id"/>
-          <xsl:text>/passage/</xsl:text>
-          <xsl:choose>
-            <xsl:when test="$uri-id = info/@source">
-              <xsl:value-of select="info/@posCitedRange"/>
-            </xsl:when>
-            <xsl:when test="$uri-id = info/@refInt or $uri-id = info/@refBase">
-              <xsl:value-of select="info/@refPos"/>
-            </xsl:when>
-            <xsl:when test="$uri-id = info/@refInt2 or $uri-id = info/@refBase2">
-              <xsl:value-of select="info/@refPos2"/>
-            </xsl:when>
-          </xsl:choose>
-        </xsl:when>
-        <xsl:when test="info[@refLevel = 'periodical']">
-          <xsl:value-of select="$uri-id"/>
-          <xsl:text>/published-expression</xsl:text>
-        </xsl:when>
-        <xsl:when test="info[@refLevel = 'text']">
-          <xsl:value-of select="$uri-id"/>
-        </xsl:when>
-
-        <xsl:when test="info[@refLevel2 = 'no']">
-          <xsl:value-of select="$uri-id"/>
-          <xsl:text>/passage/</xsl:text>
-          <xsl:choose>
-            <xsl:when test="$uri-id = info/@source">
-              <xsl:value-of select="info/@posCitedRange"/>
-            </xsl:when>
-            <xsl:when test="$uri-id = info/@refInt">
-              <xsl:value-of select="info/@refPos"/>
-            </xsl:when>
-            <xsl:when test="$uri-id = info/@refInt2">
-              <xsl:value-of select="info/@refPos2"/>
-            </xsl:when>
-          </xsl:choose>
-        </xsl:when>
-        <xsl:when test="info[@refLevel2 = 'periodical']">
-          <xsl:value-of select="$uri-id"/>
-          <xsl:text>/published-expression</xsl:text>
-        </xsl:when>
-        <xsl:when test="info[@refLevel2 = 'text']">
-          <xsl:value-of select="$uri-id"/>
-        </xsl:when>
-
-        <xsl:otherwise>
-          <xsl:text>uri-error</xsl:text>
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
-
-
-
-    <xsl:call-template name="comment">
-      <xsl:with-param name="text" select="'#INT3 intertext relationship'"/>
-    </xsl:call-template>
-
-    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/DWbibl00000/relation/</xsl:text>
-    <xsl:value-of select="$n"/>
-    <xsl:text>&gt; a ns1:INT3_IntertextualRelationship</xsl:text>
-    <xsl:call-template name="newline-semicolon"/>
-
-    <xsl:text>  rdfs:label &quot;Intertextual relation&quot;@en</xsl:text>
-    <xsl:call-template name="newline-semicolon"/>
-
-    <xsl:text>  ns1:R12_has_referred_to_entity &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-    <xsl:value-of select="$uri"/>
-    <xsl:text>&gt;</xsl:text>
-    <xsl:call-template name="newline-semicolon"/>
-
-    <xsl:text>  ns1:R13_has_referring_entity &lt;https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/</xsl:text>
-    <xsl:value-of select="$n"/>
-    <xsl:text>&gt;</xsl:text>
-    <xsl:call-template name="newline-dot-newline"/>
-  </xsl:template>
-
   <xsl:template name="create-INT16-segment">
     <xsl:param name="n"/>
 
@@ -288,7 +132,6 @@
     <xsl:value-of select="replace(translate(content, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
     <xsl:text>&quot;</xsl:text>
     <xsl:call-template name="newline-dot-newline"/>
-
   </xsl:template>
 
   <xsl:template name="create-E42-id-identifier">
@@ -353,7 +196,65 @@
     <xsl:call-template name="newline-dot-newline"/>
   </xsl:template>
 
+  <xsl:template name="create-INT2-actualized-feature">
+    <xsl:param name="n"/>
 
+    <xsl:call-template name="comment">
+      <xsl:with-param name="text" select="'#INT2 Actualized Feature'"/>
+    </xsl:call-template>
+
+    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/DWbibl00000/actualization/</xsl:text>
+    <xsl:value-of select="$n"/>
+    <xsl:text>&gt; a ns1:INT2_ActualizationOfFeature</xsl:text>
+    <xsl:call-template name="newline-semicolon"/>
+
+    <xsl:text>  rdfs:label &quot;Actualization on: Dritte Walpurgisnacht&quot;@en</xsl:text>
+    <xsl:call-template name="newline-semicolon"/>
+
+    <xsl:text>  ns1:R17_actualizes_feature &lt;https://sk.acdh.oeaw.ac.at/DWbibl00000/reference/</xsl:text>
+    <xsl:value-of select="$n"/>
+    <xsl:text>&gt;</xsl:text>
+    <xsl:call-template name="newline-dot-newline"/>
+  </xsl:template>
+
+  <xsl:template name="create-INT18-reference">
+    <xsl:param name="n"/>
+
+    <xsl:call-template name="comment">
+      <xsl:with-param name="text" select="'#INT18 Reference'"/>
+    </xsl:call-template>
+
+    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/DWbibl00000/reference/</xsl:text>
+    <xsl:value-of select="$n"/>
+    <xsl:text>&gt; a ns1:INT18_Reference</xsl:text>
+    <xsl:call-template name="newline-semicolon"/>
+
+    <xsl:text>  rdfs:label &quot;Reference on: Dritte Walpurgisnacht&quot;@en</xsl:text>
+
+    <xsl:if test="subtype = 'exemp'">
+      <xsl:call-template name="newline-semicolon"/>
+      <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/reference/exemp&gt;</xsl:text>
+    </xsl:if>
+
+    <xsl:for-each select="tokenize(key, ' ')">
+      <xsl:call-template name="newline-semicolon"/>
+      <xsl:text>  cidoc:P67_refers_to &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="translate(., '#', '')"/>
+      <xsl:text>&gt;</xsl:text>
+    </xsl:for-each>
+
+    <xsl:call-template name="newline-dot-newline"/>
+  </xsl:template>
+
+
+  <!-- 
+# Reference
+<https://sk.acdh.oeaw.ac.at/DWbibl00000/reference/[x+643]> a ns1:INT18_Reference ;
+        rdfs:label "Reference on: Dritte Walpurgisnacht"@en ;
+        cidoc:P67_refers_to <https://sk.acdh.oeaw.ac.at/DWpers1016> ;
+        cidoc:P67_refers_to <https://sk.acdh.oeaw.ac.at/DWpers1098> ;
+        cidoc:P67_refers_to <https://sk.acdh.oeaw.ac.at/DWpers0205> .
+  -->
   <!-- helpers -->
 
   <xsl:template name="comment">
