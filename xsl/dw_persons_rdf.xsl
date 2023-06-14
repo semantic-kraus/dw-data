@@ -88,7 +88,12 @@
 
     <xsl:text>  ns1:R10_is_Text_Passage_of &lt;https://sk.acdh.oeaw.ac.at/DWbibl00000&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
-
+    
+    <xsl:text>  ns1:R18_shows_actualization &lt;https://sk.acdh.oeaw.ac.at/DWbibl00000/actualization/</xsl:text>
+    <xsl:value-of select="$n"/>
+    <xsl:text>&gt;</xsl:text>
+    <xsl:call-template name="newline-semicolon"/>
+    
     <xsl:text>  ns1:R41_has_location &quot;</xsl:text>
     <xsl:value-of select="paragraph"/>
     <xsl:text>&quot;^^xsd:string</xsl:text>
@@ -246,15 +251,6 @@
     <xsl:call-template name="newline-dot-newline"/>
   </xsl:template>
 
-
-  <!-- 
-# Reference
-<https://sk.acdh.oeaw.ac.at/DWbibl00000/reference/[x+643]> a ns1:INT18_Reference ;
-        rdfs:label "Reference on: Dritte Walpurgisnacht"@en ;
-        cidoc:P67_refers_to <https://sk.acdh.oeaw.ac.at/DWpers1016> ;
-        cidoc:P67_refers_to <https://sk.acdh.oeaw.ac.at/DWpers1098> ;
-        cidoc:P67_refers_to <https://sk.acdh.oeaw.ac.at/DWpers0205> .
-  -->
   <!-- helpers -->
 
   <xsl:template name="comment">
