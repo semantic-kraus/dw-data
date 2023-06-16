@@ -2068,10 +2068,10 @@ den Kampf -->
 					<pubPlace key="#DWplace00383">München</pubPlace>
 					<date when="1920">1920</date>
 					<citedRange xml:id="DWbibl03756">S. 374
-						<ref subtype="nonexcl" type="int" target="#DWbibl03577"/>
+						<ref subtype="specific" type="int" target="#DWbibl03577"/>
 						<ref type="ext" subtype="specific" target="https://archive.org/details/gesammeltewerke16niet/page/374/mode/2up"/>
 					</citedRange><!-- der gerade … Rassenproblem -->
-					<citedRange xml:id="DWbibl03754">S. 374<ref target="#DWbibl03760" type="int" subtype="nonexcl"/><ref type="ext" subtype="specific" target="https://archive.org/details/gesammeltewerke16niet/page/374/mode/2up"/></citedRange><!-- Maxime … Mit keinem Menschen umgehen, der an dem verlogenen Rassenschwindel Anteil hat! -->
+					<citedRange xml:id="DWbibl03754">S. 374<ref target="#DWbibl03760" type="int" subtype="specific"/><ref type="ext" subtype="specific" target="https://archive.org/details/gesammeltewerke16niet/page/374/mode/2up"/></citedRange><!-- Maxime … Mit keinem Menschen umgehen, der an dem verlogenen Rassenschwindel Anteil hat! -->
 					<citedRange xml:id="DWbibl03751"><ref target="#DWbibl02003" type="int" subtype="nonexcl"/><ref type="ext" subtype="specific" target="https://archive.org/details/gesammeltewerke16niet/page/402/mode/2up"/></citedRange><!-- einem Juden zu begegnen …  -->
 				</bibl>
 
@@ -6852,7 +6852,7 @@ den Kampf -->
 					<author key="#DWpers0146">Jörg Lanz von Liebenfels</author>
 					<title level="j" key="#DWbibl04277">Ostara</title>
 					<pubPlace key="#DWplace00085">Wien</pubPlace>
-					<date notBefore="1905" notAfter="1917" key="#DWbibl04853">1905–1917<note>Neuauflagen bis 1931</note></date>
+					<date notBefore="1905" notAfter="1917">1905–1917<note>Neuauflagen bis 1931</note></date>
 					<citedRange xml:id="DWbibl03237" wholePeriodical="yes"/><!-- [Nennung der Zeitschrift] -->
 				</bibl>
 				
@@ -6869,7 +6869,7 @@ den Kampf -->
 				<bibl source="_" xml:id="DWbibl03904" sortKey="N._N.">
 					<title level="j" key="#DWbibl04279">Fridericus</title>
 					<pubPlace key="#DWplace00224">Berlin u. a.</pubPlace>
-					<date notBefore="1922" notAfter="1943" key="#DWbibl04855">1922–1943</date>
+					<date notBefore="1922" notAfter="1943">1922–1943</date>
 					<citedRange xml:id="DWbibl03905" wholePeriodical="yes"/><!-- [Nennung der Zeitschrift] -->
 				</bibl>
 				
@@ -6877,7 +6877,7 @@ den Kampf -->
 					<author role="Herausgeber">Deutschösterreichischer Schutzverein Antisemitenbund</author>
 					<title level="j" key="#DWbibl04280">Der eiserne Besen</title>
 					<pubPlace key="#DWplace00085">Wien</pubPlace>
-					<date notBefore="1919" notAfter="1932" key="#DWbibl04856">1919–1932</date>
+					<date notBefore="1919" notAfter="1932">1919–1932</date>
 					<citedRange xml:id="DWbibl03907" wholePeriodical="yes"/><!-- [Nennung der Zeitschrift] -->
 				</bibl>
 				
@@ -8021,7 +8021,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03494" sortKey="N._N.">
-					<title level="s">Cook’s Handbook [Reiseführer-Reihe]</title>
+					<title level="j" key="#DWbibl05099">Cook’s Handbook [Reiseführer-Reihe]</title>
 					<date notBefore="1845">ab 1845</date>
 					<citedRange xml:id="DWbibl03495" wholePeriodical="yes"/><!-- cook -->
 				</bibl>

@@ -296,7 +296,7 @@
 							SS-Haupsturmführer</occupation>
 						<occupation notBefore="1933" n="02">Aufseher in Dachau</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
-						<note type="source" subtype="publ">Christiane Rothländer: Die Anfänge der Wiener SS. Wien, Köln u. Weimar 2012.</note>
+							<note type="source" subtype="publ">Christiane Rothländer: Die Anfänge der Wiener SS. Wien, Köln u. Weimar 2012.</note>
 						<note type="source" subtype="publ">Friedhöfe Wien: Verstorbenensuche. URL: https://www.friedhoefewien.at/ (22. 3. 2021).</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
@@ -610,7 +610,7 @@
 						<occupation n="02">HJ-Kameradschaftsführer</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
 						<note type="source" subtype="publ">Österreichisches Staatsarchiv – Archiv der Republik.</note>
-						<note type="source" subtype="publ">Taufbuch St. Margareta/Berndorf</note>
+						<note type="source" subtype="publ">ICARUS – International Centre for Archival Research: Matricula-online. St. Margareta/Berndorf. URL: https://data.matricula-online.eu/de/oesterreich/wien/berndorf-st-margareta/ (22. 3. 2021)</note>
 						<note type="source" subtype="publ">zeitgen. Berichterstattung</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -1058,8 +1058,8 @@
 						<death when="1945-07-21">21. 7. 1945<placeName key="#DWplace00249">Haifa</placeName></death>
 						<occupation type="prim" n="01">Köchin</occupation>
 						<occupation n="02">Mutter von Ernst Eckstein</occupation>
-						<note type="source" subtype="publ">Knut Bergbauer</note>
-						<note type="source" subtype="publ">Simon Goodman</note>
+						<note type="source" subtype="publ">[Auskunft Knut Bergbauer]</note>
+						<note type="source" subtype="publ">[Auskunft Simon Goodman]</note>
 						<note type="source" subtype="publ">The Central Database of Shoah Victims’ Names. In: Yad Vashem – The World Holocaust Remembrance Center. URL: https://yvng.yadvashem.org (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -1350,7 +1350,7 @@
 						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">11952886X</idno>
 						<note type="source" subtype="publ">Laura Jung und Lea Sophie Preußer: Biographien. In: Sozialdemokratie in Rheinland-Pfalz. Dokumente aus drei Jahrhunderten. Ein Studierendenprojekt an der JGU Mainz. URL: https://www.sozialdemokratie-rlp.de/biographien.html (22. 3. 2021).</note>
-						<note type="source" subtype="publ">Ruth Ludwig</note>
+						<note type="source" subtype="publ">[Auskunft Ruth Ludwig]</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -1865,7 +1865,7 @@
 						<occupation notBefore="1933" notAfter="1938" n="04">Direktor der Wiener
 							Scala</occupation>
 						<idno type="GND">11610841X</idno>
-						<note type="source" subtype="publ">Wien Geschichte Wiki</note>
+						<note type="source" subtype="publ">Wiener Stadt- und Landesarchiv (MA 8) und die Wienbibliothek im Rathaus (MA 9): Wien Geschichte Wiki. URL: https://www.geschichtewiki.wien.gv.at/Wien_Geschichte_Wiki (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
@@ -3017,7 +3017,7 @@
 						<persName type="sk" subtype="pref">Bruno, Giordano</persName>
 						<occupation type="prim" n="01">Philosoph, Theologe</occupation>
 						<idno type="GND">118516221</idno>
-						<note type="source" subtype="publ">Blum 1999</note>
+						<note type="source" subtype="publ">Dilwyn Knox: Giordano Bruno. In: Stanford Encyclopedia of Philosophy. Hg. v. Edward N. Zalta u. Uri Nodelman. 2019. URL: https://plato.stanford.edu/entries/bruno/ (22. 3. 2021)</note>
 						<note type="status" subtype="prefinal"/>
 					</person>
 
@@ -4909,7 +4909,7 @@
 							Reichstages</occupation>
 						<affiliation ref="#DWorg00010" n="01">SPD</affiliation>
 						<idno type="GND">130011711</idno>
-						<note type="source" subtype="publ">BIOSOP-online</note>
+						<note type="source" subtype="publ">GESIS – Leibniz-Institut für Sozialwissenschaften in Mannheim: Sozialdemokratische Parlamentarier in den deutschen Reichs- und Landtagen 1876-1933 (BIOSOP). URL: http://zhsf.gesis.org/biosop.htm (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
 
