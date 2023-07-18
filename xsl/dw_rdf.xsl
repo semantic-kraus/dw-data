@@ -2029,7 +2029,11 @@ Da ist noch ein Wurm drin:
     <xsl:variable name="bibl" select="$base/ancestor-or-self::tei:bibl"/>
     <xsl:choose>
       <xsl:when
-        test="$bibl/tei:citedRange[@wholePeriodical = 'yes'] or $bibl/tei:citedRange[@wholeText = 'yes']">
+        test="$bibl/tei:citedRange[@wholePeriodical = 'yes']">
+        <xsl:value-of select="$bibl/tei:citedRange[@wholePeriodical = 'yes']/@xml:id"/>
+      </xsl:when>
+      <xsl:when
+        test="$bibl/tei:citedRange[@wholeText = 'yes']">
         <xsl:value-of select="$bibl/tei:citedRange[@wholeText = 'yes']/@xml:id"/>
       </xsl:when>
       <xsl:otherwise>
