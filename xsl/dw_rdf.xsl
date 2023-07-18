@@ -268,7 +268,7 @@
       <xsl:variable name="uri-issue">
         <xsl:call-template name="get-issue-uri"/>
       </xsl:variable>
-      <xsl:for-each select="tei:citedRange[not(@wholeText) and not(@wholePeriodical)]">        
+      <xsl:for-each select="tei:citedRange[not(@wholeText) and not(@wholePeriodical)]">
         <xsl:variable name="citedRange"
           select="replace(translate(text(), '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
 
@@ -477,10 +477,12 @@
       <xsl:text>  rdfs:label &quot;Periodical: </xsl:text>
       <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       <xsl:text>&quot;@en</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  frbroo:R5_has_component &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-issue"/>
-      <xsl:text>/published-expression&gt;</xsl:text>
+      <xsl:if test="tei:date[@key]">
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  frbroo:R5_has_component &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-issue"/>
+        <xsl:text>/published-expression&gt;</xsl:text>
+      </xsl:if>
       <xsl:call-template name="newline-dot-newline"/>
     </xsl:if>
   </xsl:template>
@@ -1932,7 +1934,7 @@
     </xsl:for-each>
   </xsl:template>
 
-<!-- 
+  <!-- 
 Intertextuelle Relation
 
 Da ist noch ein Wurm drin:
