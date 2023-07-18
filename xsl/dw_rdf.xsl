@@ -1671,6 +1671,7 @@
     <xsl:variable name="permalink">
       <xsl:text>https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_intertexte.html&amp;letter=</xsl:text>
       <xsl:value-of select="substring(@sortKey, 1, 1)"/>
+      <xsl:text>#</xsl:text>
       <xsl:value-of select="@xml:id"/>
     </xsl:variable>
 
