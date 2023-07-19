@@ -391,17 +391,21 @@
     <xsl:call-template name="comment">
       <xsl:with-param name="text" select="'#F22 issue'"/>
     </xsl:call-template>
+    
     <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
     <xsl:value-of select="$uri-issue"/>
     <xsl:text>&gt; a frbroo:F22_Self-Contained_Expression</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
+    
     <xsl:text>  rdfs:label &quot;</xsl:text>
     <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
     <xsl:text>&quot;@en</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
+    
     <xsl:text>  cidoc:P102_has_title &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
     <xsl:value-of select="$uri-issue"/>
     <xsl:text>/title/0&gt;</xsl:text>
+    
     <xsl:if test="tei:title[@level = 'a' and @type = 'subtitle']">
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  cidoc:P102_has_title &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -409,6 +413,7 @@
       <xsl:text>/title/1&gt;</xsl:text>
     </xsl:if>
     <xsl:call-template name="newline-semicolon"/>
+    
     <xsl:text>  cidoc:P165_incorporates &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
     <xsl:value-of select="$uri-f22"/>
     <xsl:text>&gt;</xsl:text>
@@ -1434,7 +1439,7 @@
       </xsl:variable>
       <xsl:variable name="uri">
         <xsl:choose>
-          <xsl:when test="tei:title[@level = 'm']">
+          <xsl:when test="tei:title[@level = 'm'][@key]">
             <xsl:call-template name="get-F24-uri-m"/>
           </xsl:when>
           <xsl:otherwise>
@@ -1915,11 +1920,19 @@
       </xsl:variable>
 
       <xsl:variable name="r12-uri">
-        <xsl:call-template name="get-ref-uri">
-          <xsl:with-param name="selector"
-            select="//tei:citedRange[@xml:id = translate(tei:ref[@type = 'int']/@target, '#', '')]"/>
-          <xsl:with-param name="n" select="$n"/>
-        </xsl:call-template>
+        <xsl:variable name="xmlid" select="translate(tei:ref[@type = 'int']/@target, '#', '')"/>
+        <xsl:variable name="selector" select="//tei:citedRange[@xml:id = $xmlid]"/>
+        <xsl:variable name="bibl" select="$selector/parent::tei:bibl"/>
+        <xsl:choose>
+          <xsl:when test="$selector[@wholeText = 'yes']">
+            <xsl:value-of select="$selector/@xml:id"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="$bibl/@xml:id"/>
+          </xsl:otherwise>
+        </xsl:choose>
+        <xsl:text>/passage/</xsl:text>
+        <xsl:value-of select="count($selector/preceding-sibling::tei:citedRange)"/>
       </xsl:variable>
 
       <xsl:text>  ns1:R12_has_referred_to_entity &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -2028,12 +2041,10 @@ Da ist noch ein Wurm drin:
     <xsl:param name="base" select="."/>
     <xsl:variable name="bibl" select="$base/ancestor-or-self::tei:bibl"/>
     <xsl:choose>
-      <xsl:when
-        test="$bibl/tei:citedRange[@wholePeriodical = 'yes']">
+      <xsl:when test="$bibl/tei:citedRange[@wholePeriodical = 'yes']">
         <xsl:value-of select="$bibl/tei:citedRange[@wholePeriodical = 'yes']/@xml:id"/>
       </xsl:when>
-      <xsl:when
-        test="$bibl/tei:citedRange[@wholeText = 'yes']">
+      <xsl:when test="$bibl/tei:citedRange[@wholeText = 'yes']">
         <xsl:value-of select="$bibl/tei:citedRange[@wholeText = 'yes']/@xml:id"/>
       </xsl:when>
       <xsl:otherwise>
@@ -2080,7 +2091,7 @@ Da ist noch ein Wurm drin:
 
     <xsl:variable name="uri">
       <xsl:choose>
-        <xsl:when test="$bibl/tei:title[@level = 'm']">
+        <xsl:when test="$bibl/tei:title[@level = 'm'][@key]">
           <xsl:value-of select="$bibl/tei:title[@level = 'm']/@key"/>
         </xsl:when>
         <xsl:otherwise>
