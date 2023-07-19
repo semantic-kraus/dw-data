@@ -222,7 +222,7 @@
 					<title level="a">Das klassische Italien als Reiseland [Reklame]</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date when="1932-02-14" key="#DWbibl04601">14. 2. 1932</date>
 					<biblScope>S. 9</biblScope>
 					<citedRange xml:id="DWbibl01947" wholeText="yes"/><!-- ganzes "Werk" -->
@@ -233,7 +233,7 @@
 					<title level="a">Und die Kultur?</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date when="1933-04-16" key="#DWbibl04602">16. 4. 1933<note>Oster-Ausgabe</note></date>
 					<biblScope>S. 5</biblScope>
 					<citedRange xml:id="DWbibl00904" corresp="#DWfacs1230" wholeText="yes"/><!-- Titel -->
@@ -1832,7 +1832,7 @@ den Kampf -->
 					<title level="a"/>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<citedRange xml:id="DWbibl02128" wholeText="yes"/><!-- Ricarda Huch -->
 				</bibl>
 
@@ -2696,7 +2696,7 @@ den Kampf -->
 					<title level="a">Frontkämpfer nach dem Krieg</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date when="1928-04-13" key="#DWbibl04667">13. 4. 1928<note>Express Abendblatt Ausgabe</note></date>
 					<biblScope>S. 3</biblScope>
 					<citedRange xml:id="DWbibl03241" corresp="#DWfacs2068 #DWfacs2069"/><!-- nichts mache die geistige Situation … verhöhnt fühlten" ... sich gemeldet  -->
@@ -6190,7 +6190,7 @@ den Kampf -->
 					<title level="a">„Der Wanderer.“</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date when="1933-06-11" key="#DWbibl04834">11. 6. 1933<note>Abendblatt und Erstes Morgenblatt</note></date>
 					<biblScope>S. 3</biblScope>
 					<citedRange xml:id="DWbibl01379" corresp="#DWfacs1270"/><!-- Kunst als objektive … erstrebt. -->
@@ -6201,7 +6201,7 @@ den Kampf -->
 					<title level="a">Englische Gereiztheit</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date key="#DWbibl04532" when="1933-08-05">5. 8. 1933<note>zweites Morgenblatt</note></date>
 					<biblScope>S. 2</biblScope>
 					<citedRange xml:id="DWbibl03739" corresp="#DWfacs1277"/><!-- »die Verschlechterung der englischen Stimmung ist wohl darauf zurückzuführen, daß die englische Öffentlichkeit die Absichten Deutschlands gegenüber Österreich nicht versteht« -->
@@ -6217,7 +6217,7 @@ den Kampf -->
 						Oesterreich</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date key="#DWbibl04532" when="1933-08-05">5. 8. 1933<note>zweites Morgenblatt</note></date>
 					<biblScope>S. 1</biblScope>
 					<citedRange xml:id="DWbibl03737" corresp="#DWfacs1274"/><!-- Daß die Unabhängigkeit Österreichs gesichert werden muß — erklärt das Wolffbüro dem Schafbüro —, ist klar -->
@@ -6229,7 +6229,7 @@ den Kampf -->
 					<title level="a">Der Reichskanzler gegen das Angebertum</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date when="1933-07-05" key="#DWbibl04835">5. 7. 1933<note>zweites Morgenblatt</note></date>
 					<biblScope>S. [2]</biblScope>
 					<citedRange xml:id="DWbibl03729" corresp="#DWfacs1281"><ref type="int" subtype="nonexcl" target="#DWbibl03629"/></citedRange><!-- Der Reichskanzler konnte sich eines Tages … niedrigen Instinkten, am Ende gar der Rachsucht, zu entspringen. -->
@@ -6246,7 +6246,7 @@ den Kampf -->
 						Goebbels</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date when="1933-09-22" key="#DWbibl04836">22. 9. 1933<note>zweites Morgenblatt</note></date>
 					<biblScope>S. 2</biblScope>
 					<citedRange xml:id="DWbibl03723" corresp="#DWfacs1226"><ref type="int" subtype="nonexcl" target="#DWbibl03725"/></citedRange><!-- »Wir haben nicht die geringste kriegerische Absicht« --><!-- wird die Reichstagsrede zitiert -->
@@ -6319,7 +6319,7 @@ den Kampf -->
 					<title level="a">Auftakt in Nürnberg</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date when="1933-08-31" key="#DWbibl04840">31. 8. 1933<note>zweites Morgenblatt</note></date>
 					<biblScope>S. 1</biblScope>
 					<citedRange xml:id="DWbibl03509" corresp="#DWfacs1224"/><!-- Lebensstil der Unerbittlichkeit -->
@@ -6409,7 +6409,7 @@ den Kampf -->
 					<title level="a" type="subtitle">Aufführung im Schauspielhaus am 17. Mai</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date when="1933-05-19" key="#DWbibl04843">19. 5. 1933<note>Abendblatt und Erstes Morgenblatt</note></date>
 					<biblScope>S. 2–3</biblScope>
 					<citedRange xml:id="DWbibl01382" corresp="#DWfacs1229">S. 3</citedRange><!-- Verkündigung -->
@@ -6868,7 +6868,7 @@ den Kampf -->
 				
 				<bibl source="_" xml:id="DWbibl03904" sortKey="N._N.">
 					<title level="j" key="#DWbibl04279">Fridericus</title>
-					<pubPlace key="#DWplace00224">Berlin u. a.</pubPlace>
+					<pubPlace key="#DWplace00313">Berlin u. a.</pubPlace>
 					<date notBefore="1922" notAfter="1943">1922–1943</date>
 					<citedRange xml:id="DWbibl03905" wholePeriodical="yes"/><!-- [Nennung der Zeitschrift] -->
 				</bibl>
@@ -9529,7 +9529,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 						gewerblichen Mittelstand</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date when="1933-08-09" key="#DWbibl04944">9. 8. 1933<note>Abendblatt / Erstes Morgenblatt</note></date>
 					<biblScope>S. 1</biblScope>
 					<citedRange xml:id="DWbibl02990" corresp="#DWfacs1272"/>
@@ -12940,7 +12940,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 					<title level="a">Das Rasseamt der SS.</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date when="1933-07-13" key="#DWbibl05064">13. 7. 1933<note>Abendblatt / Erstes Morgenblatt</note></date>
 					<biblScope>S. 3</biblScope>
 					<citedRange xml:id="DWbibl03276" corresp="#DWfacs1266"/><!-- Der Reichsführer … Jahre gepachtet. -->
