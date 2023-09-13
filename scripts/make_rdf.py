@@ -148,7 +148,7 @@ for x in doc.any_xpath(".//tei:place"):
     g += make_appellations(subj, x, type_domain=f"{SK}types/",
                            default_lang="und")
     g += make_e42_identifiers(subj, x, type_domain=f"{SK}types",
-                              default_lang="en", set_lang=False)
+                              default_lang="en", set_lang=True, same_as=False)
 doc = TeiReader("./data/indices/listorg.xml")
 for x in doc.any_xpath(".//tei:org"):
     xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"]
@@ -158,7 +158,7 @@ for x in doc.any_xpath(".//tei:org"):
     g += make_appellations(subj, x, type_domain=f"{SK}types/",
                            default_lang="und")
     g += make_e42_identifiers(subj, x, type_domain=f"{SK}types",
-                              default_lang="en", set_lang=False)
+                              default_lang="en", set_lang=True, same_as=False)
 g_all = ConjunctiveGraph(store=project_store)
 g_all.serialize(f"{rdf_dir}/data.trig", format="trig")
 g_all.serialize(f"{rdf_dir}/data.ttl", format="ttl")
