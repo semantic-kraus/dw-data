@@ -32,6 +32,7 @@
       <xsl:call-template name="create-INT18-reference">
         <xsl:with-param name="n" select="position() + $count-quotes"/>
       </xsl:call-template>
+      <xsl:call-template name="create-entities"/>
     </xsl:for-each>
 
   </xsl:template>
@@ -58,6 +59,8 @@
     <xsl:text>@prefix sk: &lt;https://sk.acdh.oeaw.ac.at/&gt;</xsl:text>
     <xsl:call-template name="newline-dot"/>
     <xsl:text>@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;</xsl:text>
+    <xsl:call-template name="newline-dot"/>
+    <xsl:text>@prefix prov: &lt;http://www.w3.org/ns/prov#&gt;</xsl:text>
     <xsl:call-template name="newline-dot-newline"/>
   </xsl:template>
 
@@ -87,6 +90,11 @@
     <xsl:call-template name="newline-semicolon"/>
 
     <xsl:text>  ns1:R10_is_Text_Passage_of &lt;https://sk.acdh.oeaw.ac.at/DWbibl00000&gt;</xsl:text>
+    <xsl:call-template name="newline-semicolon"/>
+
+    <xsl:text>  ns1:R18_shows_actualization &lt;https://sk.acdh.oeaw.ac.at/DWbibl00000/actualization/</xsl:text>
+    <xsl:value-of select="$n"/>
+    <xsl:text>&gt;</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
 
     <xsl:text>  ns1:R41_has_location &quot;</xsl:text>
@@ -236,6 +244,19 @@
       <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/reference/exemp&gt;</xsl:text>
     </xsl:if>
 
+    <xsl:if test="source[@n]">
+      <xsl:call-template name="newline-semicolon"/>
+      <xsl:text>  prov:wasDerivedFrom </xsl:text>
+      <xsl:for-each select="source/@n">
+        <xsl:if test="position() &gt; 1">
+          <xsl:text>, </xsl:text>
+        </xsl:if>
+        <xsl:text> &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="."/>
+        <xsl:text>&gt;</xsl:text>
+      </xsl:for-each>
+    </xsl:if>
+
     <xsl:for-each select="tokenize(key, ' ')">
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  cidoc:P67_refers_to &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -246,15 +267,24 @@
     <xsl:call-template name="newline-dot-newline"/>
   </xsl:template>
 
+<xsl:template name="create-entities">
+  <xsl:for-each select="source[@n]">
+    <xsl:call-template name="comment">
+      <xsl:with-param name="text" select="'#Entity'"/>
+    </xsl:call-template>
+    
+    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+    <xsl:value-of select="@n"/>    
+    <xsl:text>&gt; a prov:Entity, dcterms:BibliographicResource</xsl:text>
+    <xsl:call-template name="newline-semicolon"/>
+    
+    <xsl:text>  dcterms:bibliographicCitation &quot;</xsl:text>
+    <xsl:value-of select="."/>
+    <xsl:text>&quot;</xsl:text> 
+    <xsl:call-template name="newline-dot-newline"/>
+  </xsl:for-each>
+</xsl:template>
 
-  <!-- 
-# Reference
-<https://sk.acdh.oeaw.ac.at/DWbibl00000/reference/[x+643]> a ns1:INT18_Reference ;
-        rdfs:label "Reference on: Dritte Walpurgisnacht"@en ;
-        cidoc:P67_refers_to <https://sk.acdh.oeaw.ac.at/DWpers1016> ;
-        cidoc:P67_refers_to <https://sk.acdh.oeaw.ac.at/DWpers1098> ;
-        cidoc:P67_refers_to <https://sk.acdh.oeaw.ac.at/DWpers0205> .
-  -->
   <!-- helpers -->
 
   <xsl:template name="comment">

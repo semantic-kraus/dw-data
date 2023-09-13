@@ -222,7 +222,7 @@
 					<title level="a">Das klassische Italien als Reiseland [Reklame]</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date when="1932-02-14" key="#DWbibl04601">14. 2. 1932</date>
 					<biblScope>S. 9</biblScope>
 					<citedRange xml:id="DWbibl01947" wholeText="yes"/><!-- ganzes "Werk" -->
@@ -233,7 +233,7 @@
 					<title level="a">Und die Kultur?</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date when="1933-04-16" key="#DWbibl04602">16. 4. 1933<note>Oster-Ausgabe</note></date>
 					<biblScope>S. 5</biblScope>
 					<citedRange xml:id="DWbibl00904" corresp="#DWfacs1230" wholeText="yes"/><!-- Titel -->
@@ -1716,6 +1716,7 @@ den Kampf -->
 					<title level="j" key="#DWbibl04211">Nationale Zeitung</title>
 					<pubPlace key="#DWplace00448">Essen</pubPlace>
 					<citedRange xml:id="DWbibl03209"/>
+					<date key="#DWbibl05100"/>
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02694" sortKey="N._N.">
@@ -1832,8 +1833,9 @@ den Kampf -->
 					<title level="a"/>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<citedRange xml:id="DWbibl02128" wholeText="yes"/><!-- Ricarda Huch -->
+					<date key="#DWbibl05101"/>
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl00059" sortKey="N._N.">
@@ -2068,10 +2070,10 @@ den Kampf -->
 					<pubPlace key="#DWplace00383">München</pubPlace>
 					<date when="1920">1920</date>
 					<citedRange xml:id="DWbibl03756">S. 374
-						<ref subtype="nonexcl" type="int" target="#DWbibl03577"/>
+						<ref subtype="specific" type="int" target="#DWbibl03577"/>
 						<ref type="ext" subtype="specific" target="https://archive.org/details/gesammeltewerke16niet/page/374/mode/2up"/>
 					</citedRange><!-- der gerade … Rassenproblem -->
-					<citedRange xml:id="DWbibl03754">S. 374<ref target="#DWbibl03760" type="int" subtype="nonexcl"/><ref type="ext" subtype="specific" target="https://archive.org/details/gesammeltewerke16niet/page/374/mode/2up"/></citedRange><!-- Maxime … Mit keinem Menschen umgehen, der an dem verlogenen Rassenschwindel Anteil hat! -->
+					<citedRange xml:id="DWbibl03754">S. 374<ref target="#DWbibl03760" type="int" subtype="specific"/><ref type="ext" subtype="specific" target="https://archive.org/details/gesammeltewerke16niet/page/374/mode/2up"/></citedRange><!-- Maxime … Mit keinem Menschen umgehen, der an dem verlogenen Rassenschwindel Anteil hat! -->
 					<citedRange xml:id="DWbibl03751"><ref target="#DWbibl02003" type="int" subtype="nonexcl"/><ref type="ext" subtype="specific" target="https://archive.org/details/gesammeltewerke16niet/page/402/mode/2up"/></citedRange><!-- einem Juden zu begegnen …  -->
 				</bibl>
 
@@ -2696,7 +2698,7 @@ den Kampf -->
 					<title level="a">Frontkämpfer nach dem Krieg</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date when="1928-04-13" key="#DWbibl04667">13. 4. 1928<note>Express Abendblatt Ausgabe</note></date>
 					<biblScope>S. 3</biblScope>
 					<citedRange xml:id="DWbibl03241" corresp="#DWfacs2068 #DWfacs2069"/><!-- nichts mache die geistige Situation … verhöhnt fühlten" ... sich gemeldet  -->
@@ -3243,6 +3245,7 @@ den Kampf -->
 					<pubPlace key="#DWplace00313">Berlin</pubPlace>
 					<num>H. 20</num>
 					<citedRange xml:id="DWbibl03071"/>
+					<date key="#DWbibl05102"/>
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02982" sortKey="x">
@@ -3837,6 +3840,7 @@ den Kampf -->
 					<title level="j" key="#DWbibl04235">Aufruf</title>
 					<pubPlace key="#DWplace00194">Prag</pubPlace>
 					<citedRange xml:id="DWbibl04123"/>
+					<date key="#DWbibl05103"/>
 				</bibl>
 				
 				<bibl source="_" xml:id="DWbibl03587" sortKey="N._N.">
@@ -4184,6 +4188,7 @@ den Kampf -->
 					<title level="j" key="#DWbibl04249">Aerzteblatt der Provinzen Brandenburg, Grenzmark und Pommern</title>
 					<pubPlace key="#DWplace00322">Oldenburg</pubPlace>
 					<citedRange xml:id="DWbibl01280"/><!-- die jüdischen … Inkarnation … des Betruges -->
+					<date key="#DWbibl05104"/>
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl00209" sortKey="N._N." corresp="#DWfacs1369">
@@ -4493,6 +4498,7 @@ den Kampf -->
 					<title level="j" key="#DWbibl04268">Volksstimme</title>
 					<pubPlace key="#DWplace00015">Saarbrücken</pubPlace>
 					<citedRange xml:id="DWbibl03410"/><!-- [bloßes Faktum übernommen] daß Gefangene … rupfen müssen -->
+					<date key="#DWbibl05105"/>
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03489" sortKey="N._N.">
@@ -5107,6 +5113,7 @@ den Kampf -->
 					<citedRange xml:id="DWbibl02994"/><!-- Deutschland genieße … Land zu sein -->
 					<citedRange xml:id="DWbibl02995"/><!-- daß selbstverständlich … aufsteigen werden -->
 					<citedRange xml:id="DWbibl02996"/><!-- Die luft … verwirklichen -->
+					<date key="#DWbibl05106"/>
 				</bibl>
 
 
@@ -5365,6 +5372,7 @@ den Kampf -->
 					<title level="j" type="short">VB</title>
 					<citedRange xml:id="DWbibl03085"/><!-- Daß er als Denker von eigentümlicher Schärfe und Klarheit zu den großen deutschen Staatsphilosophen … Hinsicht auch den Gebildeten eine gewaltige Überraschung. -->
 					<citedRange xml:id="DWbibl03095"/><!--Mit dieser Rede ist auch gedanklich ein neues Blatt der deutschen Geistesgeschichte aufgeschlagen.  -->
+					<date key="#DWbibl05107"/>
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02146" sortKey="Stefan_Paul">
@@ -6190,7 +6198,7 @@ den Kampf -->
 					<title level="a">„Der Wanderer.“</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date when="1933-06-11" key="#DWbibl04834">11. 6. 1933<note>Abendblatt und Erstes Morgenblatt</note></date>
 					<biblScope>S. 3</biblScope>
 					<citedRange xml:id="DWbibl01379" corresp="#DWfacs1270"/><!-- Kunst als objektive … erstrebt. -->
@@ -6201,7 +6209,7 @@ den Kampf -->
 					<title level="a">Englische Gereiztheit</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date key="#DWbibl04532" when="1933-08-05">5. 8. 1933<note>zweites Morgenblatt</note></date>
 					<biblScope>S. 2</biblScope>
 					<citedRange xml:id="DWbibl03739" corresp="#DWfacs1277"/><!-- »die Verschlechterung der englischen Stimmung ist wohl darauf zurückzuführen, daß die englische Öffentlichkeit die Absichten Deutschlands gegenüber Österreich nicht versteht« -->
@@ -6217,7 +6225,7 @@ den Kampf -->
 						Oesterreich</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date key="#DWbibl04532" when="1933-08-05">5. 8. 1933<note>zweites Morgenblatt</note></date>
 					<biblScope>S. 1</biblScope>
 					<citedRange xml:id="DWbibl03737" corresp="#DWfacs1274"/><!-- Daß die Unabhängigkeit Österreichs gesichert werden muß — erklärt das Wolffbüro dem Schafbüro —, ist klar -->
@@ -6229,7 +6237,7 @@ den Kampf -->
 					<title level="a">Der Reichskanzler gegen das Angebertum</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date when="1933-07-05" key="#DWbibl04835">5. 7. 1933<note>zweites Morgenblatt</note></date>
 					<biblScope>S. [2]</biblScope>
 					<citedRange xml:id="DWbibl03729" corresp="#DWfacs1281"><ref type="int" subtype="nonexcl" target="#DWbibl03629"/></citedRange><!-- Der Reichskanzler konnte sich eines Tages … niedrigen Instinkten, am Ende gar der Rachsucht, zu entspringen. -->
@@ -6246,7 +6254,7 @@ den Kampf -->
 						Goebbels</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date when="1933-09-22" key="#DWbibl04836">22. 9. 1933<note>zweites Morgenblatt</note></date>
 					<biblScope>S. 2</biblScope>
 					<citedRange xml:id="DWbibl03723" corresp="#DWfacs1226"><ref type="int" subtype="nonexcl" target="#DWbibl03725"/></citedRange><!-- »Wir haben nicht die geringste kriegerische Absicht« --><!-- wird die Reichstagsrede zitiert -->
@@ -6319,7 +6327,7 @@ den Kampf -->
 					<title level="a">Auftakt in Nürnberg</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date when="1933-08-31" key="#DWbibl04840">31. 8. 1933<note>zweites Morgenblatt</note></date>
 					<biblScope>S. 1</biblScope>
 					<citedRange xml:id="DWbibl03509" corresp="#DWfacs1224"/><!-- Lebensstil der Unerbittlichkeit -->
@@ -6409,7 +6417,7 @@ den Kampf -->
 					<title level="a" type="subtitle">Aufführung im Schauspielhaus am 17. Mai</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date when="1933-05-19" key="#DWbibl04843">19. 5. 1933<note>Abendblatt und Erstes Morgenblatt</note></date>
 					<biblScope>S. 2–3</biblScope>
 					<citedRange xml:id="DWbibl01382" corresp="#DWfacs1229">S. 3</citedRange><!-- Verkündigung -->
@@ -6852,7 +6860,7 @@ den Kampf -->
 					<author key="#DWpers0146">Jörg Lanz von Liebenfels</author>
 					<title level="j" key="#DWbibl04277">Ostara</title>
 					<pubPlace key="#DWplace00085">Wien</pubPlace>
-					<date notBefore="1905" notAfter="1917" key="#DWbibl04853">1905–1917<note>Neuauflagen bis 1931</note></date>
+					<date notBefore="1905" notAfter="1917">1905–1917<note>Neuauflagen bis 1931</note></date>
 					<citedRange xml:id="DWbibl03237" wholePeriodical="yes"/><!-- [Nennung der Zeitschrift] -->
 				</bibl>
 				
@@ -6868,8 +6876,8 @@ den Kampf -->
 				
 				<bibl source="_" xml:id="DWbibl03904" sortKey="N._N.">
 					<title level="j" key="#DWbibl04279">Fridericus</title>
-					<pubPlace key="#DWplace00224">Berlin u. a.</pubPlace>
-					<date notBefore="1922" notAfter="1943" key="#DWbibl04855">1922–1943</date>
+					<pubPlace key="#DWplace00313">Berlin u. a.</pubPlace>
+					<date notBefore="1922" notAfter="1943">1922–1943</date>
 					<citedRange xml:id="DWbibl03905" wholePeriodical="yes"/><!-- [Nennung der Zeitschrift] -->
 				</bibl>
 				
@@ -6877,7 +6885,7 @@ den Kampf -->
 					<author role="Herausgeber">Deutschösterreichischer Schutzverein Antisemitenbund</author>
 					<title level="j" key="#DWbibl04280">Der eiserne Besen</title>
 					<pubPlace key="#DWplace00085">Wien</pubPlace>
-					<date notBefore="1919" notAfter="1932" key="#DWbibl04856">1919–1932</date>
+					<date notBefore="1919" notAfter="1932">1919–1932</date>
 					<citedRange xml:id="DWbibl03907" wholePeriodical="yes"/><!-- [Nennung der Zeitschrift] -->
 				</bibl>
 				
@@ -7081,6 +7089,7 @@ den Kampf -->
 					<title level="a">Die Welt im Buch [Sendereihe]</title>
 					<title level="j" key="#DWbibl04282">Sender Langenberg (Westdeutscher Rundfunk)</title>
 					<citedRange xml:id="DWbibl03979" wholeText="yes"/>
+					<date key="#DWbibl05108"/>
 				</bibl>
 				
 				<bibl source="_" xml:id="DWbibl03980" sortKey="N._N." corresp="#DWfacs2148">
@@ -8021,7 +8030,7 @@ den Kampf -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03494" sortKey="N._N.">
-					<title level="s">Cook’s Handbook [Reiseführer-Reihe]</title>
+					<title level="j" key="#DWbibl05099">Cook’s Handbook [Reiseführer-Reihe]</title>
 					<date notBefore="1845">ab 1845</date>
 					<citedRange xml:id="DWbibl03495" wholePeriodical="yes"/><!-- cook -->
 				</bibl>
@@ -8918,6 +8927,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 					<citedRange xml:id="DWbibl02455"/>
 					<citedRange xml:id="DWbibl02456"/>
 					<citedRange xml:id="DWbibl02457"/>
+					<date key="#DWbibl05109"/>
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl00476" sortKey="N._N." corresp="#DWfacs1219">
@@ -8967,6 +8977,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 					<title level="j" key="#DWbibl04262">Nachtausgabe</title>
 					<pubPlace key="#DWplace00313">Berlin</pubPlace>
 					<citedRange xml:id="DWbibl03023" wholeText="yes"/><!-- in die Schlageter-Ausstellung geht kein Mensch -->
+					<date key="#DWbibl05110"/>
 				</bibl>
 
 
@@ -9529,7 +9540,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 						gewerblichen Mittelstand</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date when="1933-08-09" key="#DWbibl04944">9. 8. 1933<note>Abendblatt / Erstes Morgenblatt</note></date>
 					<biblScope>S. 1</biblScope>
 					<citedRange xml:id="DWbibl02990" corresp="#DWfacs1272"/>
@@ -10575,6 +10586,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 					<title level="j" key="#DWbibl04297">Nationalzeitung</title>
 					<pubPlace key="#DWplace00313">Berlin</pubPlace>
 					<citedRange xml:id="DWbibl03437"/>
+					<date key="#DWbibl05111"/>
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02523" sortKey="N._N.">
@@ -10622,6 +10634,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 					<title level="j" type="short">WAZ</title>
 					<pubPlace key="#DWplace00085">Wien</pubPlace>
 					<citedRange xml:id="DWbibl00569" wholePeriodical="yes"><ref target="http://anno.onb.ac.at/cgi-content/anno?aid=waz" subtype="specific" type="ext"/></citedRange><!-- Spät-Abendblatt - Verweis auf die Zeitung allgemein -->
+					
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02729" sortKey="N._N.">
@@ -11041,6 +11054,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 					<title level="j" key="#DWbibl04299">Hessische Volkswacht</title>
 					<pubPlace key="#DWplace00343">Kassel</pubPlace>
 					<citedRange xml:id="DWbibl02571"/><!-- Die Mutter … Straßen Kassels -->
+					<date key="#DWbibl05112"/>
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02567" sortKey="N._N.">
@@ -11048,6 +11062,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 					<title level="j" key="#DWbibl04259">Hakenkreuzbanner</title>
 					<pubPlace key="#DWplace00464">Mannheim</pubPlace>
 					<citedRange xml:id="DWbibl02568"/><!-- die Erregung darüber ist  …geduldet werden wird. -->
+					<date key="#DWbibl05113"/>
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02565" sortKey="N._N.">
@@ -11055,6 +11070,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 					<title level="j" key="#DWbibl04300">Der Donaubote</title>
 					<pubPlace key="#DWplace00313">Berlin</pubPlace>
 					<citedRange xml:id="DWbibl02566"/><!-- ‥ angedroht, solche Frauen öffentlich anzuprangern, …  Juden, einschließlich des Tatbestandes, mitzuteilen.  -->
+					<date key="#DWbibl05114"/>
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02560" sortKey="N._N.">
@@ -11065,6 +11081,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 					<citedRange xml:id="DWbibl02562"/><!-- ‥ machte in Begleitung des Talmudjuden weite Reisen. -->
 					<citedRange xml:id="DWbibl02563"/><!-- ‥ Was ihr und dem Juden passiert, wenn sie nochmals dabei ertappt wird, kann sie sich ausmalen. -->
 					<citedRange xml:id="DWbibl02564"/><!-- ‥ Wir würden sie nicht beim Namen nennen, … ins Gesicht sagt und der dem Juden ebenfalls das Nötige klarmacht. -->
+					<date key="#DWbibl05115"/>
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02556" sortKey="N._N.">
@@ -11461,6 +11478,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 					<citedRange xml:id="DWbibl02545"/>
 					<!--<citedRange xml:id="DWbibl02546"/>-->
 					<citedRange xml:id="DWbibl02547"/>
+					<date key="#DWbibl05116"/>
 				</bibl>
 
 				<bibl source="Frueh" xml:id="DWbibl03713" sortKey="N._N.">
@@ -12324,6 +12342,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 					<title level="j" key="#DWbibl04262">Nachtausgabe</title>
 					<pubPlace key="#DWplace00313">Berlin</pubPlace>
 					<citedRange xml:id="DWbibl03408"/><!-- [bloßes Faktum übernommen] einen richtiggehenden Prinzen zum Adjuntanten -->
+					<date key="#DWbibl05117"/>
 				</bibl>
 
 
@@ -12430,6 +12449,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 					<title level="j" key="#DWbibl04313">Pravda</title>
 					<pubPlace key="#DWplace00372">Belgrad</pubPlace>
 					<citedRange xml:id="DWbibl02141"/>
+					<date key="#DWbibl05118"/>
 				</bibl>
 
 				<bibl source="Frueh" xml:id="DWbibl00718" sortKey="N._N.">
@@ -12588,6 +12608,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 					<pubPlace key="#DWplace00409">Klagenfurt</pubPlace>
 					<citedRange xml:id="DWbibl03149"/><!-- lachend erwiderte … zu zahlen -->
 					<citedRange xml:id="DWbibl03234"/><!-- Die Lebensmittel … reichlich gespendet. -->
+					<date key="#DWbibl05119"/>
 				</bibl>
 
 				<bibl source="Frueh" xml:id="DWbibl00594" sortKey="N._N.">
@@ -12940,7 +12961,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 					<title level="a">Das Rasseamt der SS.</title>
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
-					<pubPlace key="#DWplace00189">Frankfurt</pubPlace>
+					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
 					<date when="1933-07-13" key="#DWbibl05064">13. 7. 1933<note>Abendblatt / Erstes Morgenblatt</note></date>
 					<biblScope>S. 3</biblScope>
 					<citedRange xml:id="DWbibl03276" corresp="#DWfacs1266"/><!-- Der Reichsführer … Jahre gepachtet. -->
@@ -13041,6 +13062,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 					<title level="j" key="#DWbibl04315">Semaine Religieuse</title>
 					<pubPlace key="#DWplace00077">Paris</pubPlace>
 					<citedRange xml:id="DWbibl03405" wholeText="yes"/>
+					<date key="#DWbibl05120"/>
 				</bibl>
 				
 				<bibl source="_" xml:id="DWbibl03582" sortKey="N._N.">

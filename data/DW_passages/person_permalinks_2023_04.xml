@@ -4218,7 +4218,7 @@
         <paragraph>absatz_25</paragraph>
         <type>personGroup</type>
         <key>#DWpers0160 #DWpers0060 #DWpers0077 #DWpers0024 #DWpers2043 #DWpers2044</key>
-        <source>Das interessante Blatt, 17. 8. 1933</source>
+    	<source  n="DWsource0207">Das interessante Blatt, 17. 8. 1933</source>
         <subtype/>
         <cert/>
         <content>sechs Gequälten</content>
@@ -5241,7 +5241,8 @@
         <paragraph>absatz_37</paragraph>
         <type>personGroup</type>
         <key>#DWpers1010 #DWpers2031</key>
-        <source>F 868–872, S. 1; Brod: Im Kampf um das Judentum (1920), S. 56.</source>
+    	<source n="DWsource0210">F 868–872, S. 1</source>
+    	<source n="DWsource0211">Brod: Im Kampf um das Judentum (1920), S. 56.</source>
         <subtype/>
         <cert/>
         <content>Schwachköpfen</content>
@@ -6352,7 +6353,7 @@
         <paragraph>absatz_44</paragraph>
         <type>personGroup</type>
         <key>#DWpers1073 #DWpers2008 #DWpers1175</key>
-        <source>Neue Freie Presse vom 17. 8. 1933</source>
+    	<source n="DWsource0212">Neue Freie Presse vom 17. 8. 1933</source>
         <subtype/>
         <cert/>
         <content>Bombenwerfer, die doch nur Kurse abgehalten haben</content>
@@ -6451,7 +6452,7 @@
         <paragraph>absatz_44</paragraph>
         <type>personGroup</type>
         <key>#DWpers1004 #DWpers9999</key>
-        <source>Schober 2012</source>
+    	<source n="DWsource0214">Richard Schober: „Ein politisch verführter junger Mann?“ Werner von Alvensleben und das Attentat auf Richard Steidle (11. Juni 1933). In: Tiroler Heimat. Jahrbuch für Geschichte und Volkskunde Nord-, Ost- und Südtirols 76 (2012), S. 399–414.</source>
         <subtype/>
         <cert/>
         <content>Täter</content>
@@ -6473,7 +6474,7 @@
         <paragraph>absatz_44</paragraph>
         <type>personGroup</type>
         <key>#DWpers2017 #DWpers2018</key>
-        <source>Arbeiter-Zeitung vom 14. 9. 1933, S. 8</source>
+    	<source  n="DWsource0206">Arbeiter-Zeitung vom 14. 9. 1933, S. 8</source>
         <subtype/>
         <cert/>
         <content>Täter</content>
@@ -6484,7 +6485,9 @@
         <paragraph>absatz_44</paragraph>
         <type>personGroup</type>
         <key>#DWpers1116 #DWpers1049 #DWpers1027 #DWpers2001 #DWpers2002 #DWpers2003 #DWpers2005 #DWpers0265</key>
-        <source>AZ, 17. und 18. 8. 1933, 27. 9. 1933</source>
+    	<source n="DWsource0201">AZ, 17. 8. 1933</source>
+    	<source n="DWsource0202">AZ, 18. 8. 1933</source>
+    	<source n="DWsource0203">AZ, 27. 9. 1933</source>
         <subtype/>
         <cert/>
         <content>Täter</content>
@@ -6517,7 +6520,13 @@
         <paragraph>absatz_44</paragraph>
         <type>personGroup</type>
         <key>#DWpers1139 #DWpers1105 #DWpers1135 #DWpers2333 #DWpers0265 #DWpers0262 #DWpers0263 #DWpers0264 #DWpers1116 #DWpers1049 #DWpers1027 #DWpers2001 #DWpers2002 #DWpers2003 #DWpers2005 #DWpers0265</key>
-        <source>Die Stunde, 1. 9. und 20. 9. 1933 Wr. Tag, 29. und 30. 8. 1933 AZ, 17. und 18. 8. 1933, 27. 9. 1933</source>
+    	<source n="DWsource0208">Die Stunde, 1. 9. 1933</source>
+    	<source n="DWsource0209">Die Stunde, 20. 9. 1933</source>
+    	<source n="DWsource0216">Wr. Tag, 29. 8. 1933</source>
+    	<source n="DWsource0217">Wr. Tag, 30. 8. 1933</source>
+    	<source n="DWsource0201">AZ, 17. 8. 1933</source>
+    	<source n="DWsource0202">AZ, 18. 8. 1933</source>
+    	<source n="DWsource0203">AZ, 27. 9. 1933</source>
         <subtype>exemp</subtype>
         <cert/>
         <content>parteiamtlicher Bombenwerfer</content>
@@ -7496,7 +7505,7 @@
         <paragraph>absatz_50</paragraph>
         <type>personGroup</type>
         <key>#DWpers2025 #DWpers2026 #DWpers1152 #DWpers2027 #DWpers2028 #DWpers2029 #DWpers1150</key>
-        <source>Salzburger Wacht vom 22. 4. 1933, S. 6–7</source>
+    	<source n="DWsource0213">Salzburger Wacht vom 22. 4. 1933, S. 6–7</source>
         <subtype/>
         <cert/>
         <content>Gefangenen, zumeist einstigen badensischen Ministern</content>
@@ -8354,7 +8363,7 @@
         <paragraph>absatz_57</paragraph>
         <type>personGroup</type>
         <key>#DWpers0401 #DWpers0402</key>
-        <source>Stieg 2019</source>
+    	<source n="DWsource0215">Gerald Stieg: Karl Kraus in Frankreich. Ein Rezeptionsprozess mit Hindernissen. In: Mitteilungen aus dem Brenner-Archiv (2019–2020), H. 38–39, S. 145–153 (online unter: https://diglib.uibk.ac.at/download/pdf/4585168?name=Stieg%20Gerald%20Karl%20Kraus%20in%20Frankreich). </source>
         <subtype/>
         <cert/>
         <content>französische Geistesführer</content>
@@ -8783,7 +8792,7 @@
         <paragraph>absatz_60</paragraph>
         <type>personGroup</type>
         <key>#DWpers1038 #DWpers0074</key>
-        <source>Arbeiter-Zeitung vom 13. 6. 1933, S. 1–3</source>
+    	<source  n="DWsource0205">Arbeiter-Zeitung vom 13. 6. 1933, S. 1–3</source>
         <subtype/>
         <cert/>
         <content>Getöteten</content>
@@ -8794,7 +8803,7 @@
         <paragraph>absatz_60</paragraph>
         <type>personGroup</type>
         <key>#DWpers1100 #DWpers2013 #DWpers2014 #DWpers1121</key>
-        <source>Arbeiter-Zeitung vom 13. 6. 1933, S. 1–3</source>
+    	<source  n="DWsource0205">Arbeiter-Zeitung vom 13. 6. 1933, S. 1–3</source>
         <subtype/>
         <cert/>
         <content>Verstümmelten</content>
@@ -9223,7 +9232,7 @@
         <paragraph>absatz_63</paragraph>
         <type>personGroup</type>
         <key>#DWpers2019 #DWpers2020 #DWpers2021 #DWpers2022 #DWpers2023 #DWpers2024</key>
-        <source>Kluke 1957</source>
+    	<source n="DWsource0200">Paul Kluke: Der Fall Potempa. In: Vierteljahrshefte für Zeitgeschichte 5 (1957), H. 3, S. 279–297. URL: https://www.ifz-muenchen.de/heftarchiv/1957_3.pdf (22. 3. 2021).</source>
         <subtype/>
         <cert/>
         <content>Mördern von Potempa</content>
@@ -9608,7 +9617,7 @@
         <paragraph>absatz_63</paragraph>
         <type>personGroup</type>
         <key>#DWpers2010 #DWpers1003 #DWpers1081 #DWpers2008</key>
-        <source>AZ, 21. 7. 1933</source>
+    	<source n="DWsource0204">AZ, 21. 7. 1933</source>
         <subtype/>
         <cert/>
         <content>Lehrer</content>
@@ -9619,7 +9628,7 @@
         <paragraph>absatz_63</paragraph>
         <type>personGroup</type>
         <key>#DWpers1073 #DWpers2009 #DWpers1043 #DWpers2011</key>
-        <source>AZ, 21. 7. 1933</source>
+    	<source  n="DWsource0204">AZ, 21. 7. 1933</source>
         <subtype/>
         <cert/>
         <content>Schüler</content>
@@ -9630,7 +9639,9 @@
         <paragraph>absatz_63</paragraph>
         <type>personGroup</type>
         <key>#DWpers1116 #DWpers1049 #DWpers1027 #DWpers2001 #DWpers2002 #DWpers2003 #DWpers2005 #DWpers0265</key>
-        <source>AZ, 17. und 18. 8. 1933, 27. 9. 1933</source>
+    	<source n="DWsource0201">AZ, 17. 8. 1933</source>
+    	<source n="DWsource0202">AZ, 18. 8. 1933</source>
+    	<source n="DWsource0203">AZ, 27. 9. 1933</source>
         <subtype/>
         <cert/>
         <content>Scharführer</content>
