@@ -1,7 +1,10 @@
 from lxml.etree import Element
-from rdflib import Graph, Literal, URIRef, RDF, RDFS
+from rdflib import Graph, Literal, URIRef, RDF, RDFS, Namespace
 from acdh_cidoc_pyutils.namespaces import CIDOC, NSMAP
 from acdh_cidoc_pyutils import normalize_string, extract_begin_end, create_e52
+
+
+PROV = Namespace("http://www.w3.org/ns/prov#")
 
 
 def make_events(
@@ -73,4 +76,37 @@ def make_events(
             label = date_node.attrib["when"]
             g.add((ts_uri, RDFS.label, Literal(label, lang=default_lang)))
             g += create_e52(ts_uri, begin_of_begin=end, end_of_end=end)
+    return g
+
+
+def create_provenance_props(
+    subj: URIRef,
+    node: Element,
+    xpath: str | bool = False,
+    domain: URIRef = URIRef("https://sk.acdh.oeaw.ac.at/"),
+    attribute: str | bool = False
+) -> Graph():
+    g = Graph()
+    if xpath:
+        try:
+            node = node.xpath(xpath, namespaces=NSMAP)
+        except (SyntaxError, IndexError):
+            node = None
+        if isinstance(node, list):
+            for i, n in enumerate(node):
+                try:
+                    object_uri_id = n.attrib["n"]
+                except KeyError:
+                    object_uri_id = None
+                if object_uri_id is not None:
+                    object_uri = URIRef(f"{domain}/{object_uri_id}")
+                    g.add((subj, PROV["wasDerivedFrom"], object_uri))
+    else:
+        try:
+            object_uri_id = node.attrib[attribute]
+        except KeyError:
+            object_uri_id = None
+        if object_uri_id is not None:
+            object_uri = URIRef(f"{domain}/{object_uri_id}")
+            g.add((subj, PROV["wasDerivedFrom"], object_uri))
     return g

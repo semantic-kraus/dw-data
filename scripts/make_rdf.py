@@ -12,7 +12,7 @@ from acdh_tei_pyutils.tei import TeiReader
 from rdflib import Graph, Namespace, URIRef, plugin, ConjunctiveGraph
 from rdflib.namespace import RDF, VOID, DCTERMS
 from rdflib.store import Store
-from utils import make_events
+from utils import make_events, create_provenance_props, PROV
 
 
 domain = "https://sk.acdh.oeaw.ac.at/"
@@ -37,6 +37,7 @@ g.bind("cidoc", CIDOC)
 g.bind("frbroo", FRBROO)
 g.bind("sk", SK)
 g.bind("dw", DW)
+g.bind("prov", PROV)
 
 
 rdf_dir = "./rdf"
@@ -73,6 +74,14 @@ for x in tqdm(items, total=len(items)):
             domain,
             person_label=f"{label}",
         )
+    # create provenance properties
+    g += create_provenance_props(
+        subj,
+        x,
+        xpath="./tei:note[@type='source' and @subtype='publ']",
+        domain=SK,
+        attribute="n"        
+    )
     # event
     g += make_events(
         subj,
