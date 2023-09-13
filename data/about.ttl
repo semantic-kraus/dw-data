@@ -2,6 +2,7 @@
 @prefix dw: <https://sk.acdh.oeaw.ac.at/project/dritte-walpurgisnacht> .
 @prefix sk: <https://sk.acdh.oeaw.ac.at/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 
 
 dw: dct:title "Dritte Walpurgisnacht"@de ;
@@ -437,7 +438,7 @@ dw: dct:title "Dritte Walpurgisnacht"@de ;
   dcterms:bibliographicCitation "Karoline Kühnelt: Goebbels’ Propagandisten für die Ostmark: Journalisten, die mit dem „Anschluss“nach Österreich kamen, um in Presse und Propaganda tätig zu werden. Eine kollektivbiographische Studie über den Berufsverlauf 1938–1945 und nach dem Ende des NS-Regimes. Univ. Dipl.-Arb., Wien 2004." .
 
 <https://sk.acdh.oeaw.ac.at/DWsource0014> a prov:Entity, dcterms:BibliographicResource ;
-  dcterms:bibliographicCitation "Landeszentrale für politische Bildung und Erinnerungs-Projekt "Stolpersteine in Hamburg": Stolpersteine in Hamburg. URL: https://www.stolpersteine-hamburg.de (22. 3. 2021)." .
+  dcterms:bibliographicCitation "Landeszentrale für politische Bildung und Erinnerungs-Projekt 'Stolpersteine in Hamburg': Stolpersteine in Hamburg. URL: https://www.stolpersteine-hamburg.de (22. 3. 2021)." .
 
 <https://sk.acdh.oeaw.ac.at/DWsource0013> a prov:Entity, dcterms:BibliographicResource ;
   dcterms:bibliographicCitation "Ursel Hochmuth: Niemand und nichts wird vergessen. Biogramme und Briefe Hamburger Widerstandskämpfer 1933–1945. Eine Ehrenhain-Dokumentation in Text und Bild. Hamburg 2005." .
