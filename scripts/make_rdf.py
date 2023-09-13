@@ -59,13 +59,13 @@ for x in tqdm(items, total=len(items)):
     except IndexError:
         label = None
     g += make_e42_identifiers(
-        subj, x, type_domain=f"{SK}types", default_lang="und", same_as=False
+        subj, x, type_domain=f"{SK}types", default_lang="en", same_as=False, set_lang=True
     )
     g += make_appellations(subj, x, type_domain=f"{SK}types",
                            default_lang="und",
                            type_attribute="subtype",
                            special_xpath="[@type='sk']")
-    g += make_occupations(subj, x, default_lang="und", id_xpath="@n")[0]
+    g += make_occupations(subj, x, default_lang="de", id_xpath="@n")[0]
     for y in x.xpath(".//tei:affiliation[@ref]", namespaces=nsmap):
         g += make_affiliations(
             subj,
@@ -133,7 +133,7 @@ for x in doc.any_xpath(".//tei:place"):
     g += make_appellations(subj, x, type_domain=f"{SK}types/",
                            default_lang="und")
     g += make_e42_identifiers(subj, x, type_domain=f"{SK}types",
-                              default_lang="und")
+                              default_lang="en", set_lang=True)
 doc = TeiReader("./data/indices/listorg.xml")
 for x in doc.any_xpath(".//tei:org"):
     xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"]
@@ -143,7 +143,7 @@ for x in doc.any_xpath(".//tei:org"):
     g += make_appellations(subj, x, type_domain=f"{SK}types/",
                            default_lang="und")
     g += make_e42_identifiers(subj, x, type_domain=f"{SK}types",
-                              default_lang="und")
+                              default_lang="en", set_lang=True)
 g_all = ConjunctiveGraph(store=project_store)
 g_all.serialize(f"{rdf_dir}/data.trig", format="trig")
 g_all.serialize(f"{rdf_dir}/data.ttl", format="ttl")
