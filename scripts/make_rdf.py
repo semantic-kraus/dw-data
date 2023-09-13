@@ -88,8 +88,13 @@ for x in tqdm(items, total=len(items)):
         subj,
         x,
         type_domain=f"{SK}types",
-        default_lang="und",
-        domain=domain)
+        default_lang="en",
+        domain=domain,
+        date_node_xpath= "./tei:desc/tei:date[@when]",
+        place_id_xpath= "./tei:desc/tei:placeName[@key]/@key",
+        note_literal_xpath= "./tei:note/text()",
+        event_type_xpath= "@type"
+    )
     # birth
     try:
         birth = x.xpath(".//tei:birth[@when]/@when",
