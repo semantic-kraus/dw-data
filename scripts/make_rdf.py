@@ -31,6 +31,7 @@ g_prov.bind("dw", DW)
 g_prov.bind("cidoc", CIDOC)
 g_prov.bind("frbroo", FRBROO)
 g_prov.parse("./data/about.ttl")
+g_prov.bind("prov", PROV)
 
 g = Graph(identifier=project_uri, store=project_store)
 g.bind("cidoc", CIDOC)

@@ -99,7 +99,7 @@ def create_provenance_props(
                 except KeyError:
                     object_uri_id = None
                 if object_uri_id is not None:
-                    object_uri = URIRef(f"{domain}/{object_uri_id}")
+                    object_uri = URIRef(f"{domain}{object_uri_id}")
                     g.add((subj, PROV["wasDerivedFrom"], object_uri))
     else:
         try:
@@ -107,6 +107,6 @@ def create_provenance_props(
         except KeyError:
             object_uri_id = None
         if object_uri_id is not None:
-            object_uri = URIRef(f"{domain}/{object_uri_id}")
+            object_uri = URIRef(f"{domain}{object_uri_id}")
             g.add((subj, PROV["wasDerivedFrom"], object_uri))
     return g
