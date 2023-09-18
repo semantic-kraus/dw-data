@@ -81,7 +81,7 @@ for x in tqdm(items, total=len(items)):
         x,
         xpath="./tei:note[@type='source' and @subtype='publ']",
         domain=SK,
-        attribute="n"        
+        attribute="n"
     )
     # event
     g += make_events(
@@ -90,10 +90,10 @@ for x in tqdm(items, total=len(items)):
         type_domain=f"{SK}types",
         default_lang="en",
         domain=domain,
-        date_node_xpath= "./tei:desc/tei:date[@when]",
-        place_id_xpath= "./tei:desc/tei:placeName[@key]/@key",
-        note_literal_xpath= "./tei:note/text()",
-        event_type_xpath= "@type"
+        date_node_xpath="./tei:desc/tei:date[@when]",
+        place_id_xpath="./tei:desc/tei:placeName[@key]/@key",
+        note_literal_xpath="./tei:note/text()",
+        event_type_xpath="@type"
     )
     # birth
     try:
@@ -114,7 +114,9 @@ for x in tqdm(items, total=len(items)):
             domain=SK,
             type_uri=birth_type_uri,
             event_type="birth",
-            verbose=True
+            verbose=True,
+            default_prefix="Birth of",
+            default_lang="en"
         )
         g += birth_g
     # death
@@ -136,7 +138,8 @@ for x in tqdm(items, total=len(items)):
             type_uri=birth_type_uri,
             event_type="death",
             verbose=True,
-            default_prefix="Tod von"
+            default_prefix="Death of",
+            default_lang="en",
         )
         g += death_g
 doc = TeiReader("./data/indices/listplace.xml")
