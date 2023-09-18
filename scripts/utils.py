@@ -52,7 +52,7 @@ def make_events(
             if event_type == "burial":
                 # create event as E5_type
                 g.add((event_uri, RDF.type, CIDOC["E5_Event"]))
-                event_label = normalize_string(f"{default_prefix} {note_label}")
+                event_label = normalize_string(note_label)
                 g.add((event_uri, CIDOC["P12_occurred_in_the_presence_of"], subj))
             elif event_type == "missing" or "decl-dead":
                 g.add((event_uri, RDF.type, CIDOC["E13_Attribute_Assignment"]))
