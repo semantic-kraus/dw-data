@@ -7901,7 +7901,7 @@ den Kampf -->
 					<citedRange xml:id="DWbibl02398" corresp="#DWfacs1198"/>
 					<citedRange xml:id="DWbibl02399" corresp="#DWfacs1199"/>
 					<citedRange xml:id="DWbibl02400" corresp="#DWfacs1200"/>
-					<!--<citedRange xml:id="DWbibl03235" corresp="#DWfacs1201"/>-->
+					<citedRange xml:id="DWbibl03235" corresp="#DWfacs1201"/>
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl02394" sortKey="N._N.">
