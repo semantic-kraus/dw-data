@@ -265,6 +265,7 @@
 						</persName>
 						<persName type="sk" subtype="pref">Thayer, Johann</persName>
 						<birth when="1911-07-25">25. 7. 1911<placeName key="#DWplace00085">Wien</placeName></birth>
+						<death when="1990">1990</death>
 						<event type="burial">
 							<desc>
 								<date when="1990-07-04">4. 7. 1990</date>
@@ -275,7 +276,7 @@
 						<occupation type="prim" n="01">Buchbindergehilfe</occupation>
 						<occupation n="02">SS-Mitglied</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
-						<note type="source" subtype="publ" n="DWsource0002">zeitgen. Berichterstattung</note>
+						<note type="source" subtype="publ" n="DWsource0035">zeitgen. Berichterstattung</note>
 						<note type="source" subtype="publ" n="DWsource0003">Friedhöfe Wien: Verstorbenensuche. URL: https://www.friedhoefewien.at/ (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -1881,7 +1882,7 @@
 						<occupation type="prim" n="01">Journalist, Ökonom</occupation>
 						<affiliation ref="#DWorg00007" n="01">SDAP</affiliation>
 						<idno type="GND">118888749</idno>
-						<note type="source" subtype="publ" n="DWsource0068">Harald Hagemann, ‎Claus-Dieter Krohn (Hg.): Biographisches Handbuch der deutschsprachigen wirtschaftswissenschaftlichen Emigration nach 1933. München 1999.</note>
+						<note type="source" subtype="publ" n="DWsource0068">Harald Hagemann, Claus-Dieter Krohn (Hg.): Biographisches Handbuch der deutschsprachigen wirtschaftswissenschaftlichen Emigration nach 1933. München 1999.</note>
 						<note type="source" subtype="publ" n="DWsource0003">Friedhöfe Wien: Verstorbenensuche. URL: https://www.friedhoefewien.at/ (22. 3. 2021).</note>
 						<note type="status" subtype="final"/>
 					</person>
@@ -2884,6 +2885,7 @@
 							<surname>Bosch</surname>
 						</persName>
 						<birth when="1450" type="approx">ca. 1450<placeName key="#DWplace00214">’s-Hertogenbosch</placeName></birth>
+						<death when="1516">1516</death>
 						<event type="burial">
 							<desc>
 								<date when="1516-08-08">8. 8. 1516</date>
@@ -3539,6 +3541,7 @@
 							<surname>Flesch</surname>
 						</persName>
 						<birth when="1896-12-18">18. 12. 1896<placeName key="#DWplace00239">Frankfurt am Main</placeName></birth>
+						<death when="1945">1945</death>
 						<event type="missing">
 							<desc>
 								<date when="1945-03">März 1945</date>
@@ -3550,7 +3553,7 @@
 							<desc>
 								<date when="1945-12-31">31. 12. 1945</date>
 							</desc>
-							<note>Event type: Declared Dead</note>
+							<note>Declared Dead</note>
 						</event>
 						<persName type="sk" subtype="pref">Flesch, Hans</persName>
 						<persName type="sk" subtype="born">Flesch, Johannes Georg Julius
