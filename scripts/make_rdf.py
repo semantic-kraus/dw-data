@@ -149,7 +149,8 @@ for x in doc.any_xpath(".//tei:place"):
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E53_Place"]))
     g += make_appellations(subj, x, type_domain=f"{SK}types/",
-                           default_lang="und")
+                           default_lang="und", type_attribute="type",
+                           woke_type="pref")
     g += make_e42_identifiers(subj, x, type_domain=f"{SK}types",
                               default_lang="en", set_lang=True, same_as=False)
 doc = TeiReader("./data/indices/listorg.xml")
@@ -159,7 +160,8 @@ for x in doc.any_xpath(".//tei:org"):
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E74_Group"]))
     g += make_appellations(subj, x, type_domain=f"{SK}types/",
-                           default_lang="und")
+                           type_attribute="type", default_lang="und",
+                           woke_type="pref")
     g += make_e42_identifiers(subj, x, type_domain=f"{SK}types",
                               default_lang="en", set_lang=True, same_as=False)
 g_all = ConjunctiveGraph(store=project_store)
