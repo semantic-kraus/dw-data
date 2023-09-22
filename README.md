@@ -20,3 +20,9 @@ Bei jedem Push ins Repo wird eine einfache [GitHub-Page](https://semantic-kraus.
 All code unless otherwise noted is licensed under the terms [MIT License](https://opensource.org/licenses/MIT).
 
 For licensing information of the data in this repository, please look into the individual folders/files for further information.
+
+
+### notes
+
+`curl -X POST -H "Content-Type:application/trig" -T data.trig  http://localhost:7200/repositories/play/statements -u "admin:root"`
+(to post data into graphdh repo called `play`)
