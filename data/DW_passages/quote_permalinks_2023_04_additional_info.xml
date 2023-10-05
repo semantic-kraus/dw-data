@@ -354,10 +354,11 @@
         <id>DWquote0044</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_1#DWquote0044</permalink>
         <paragraph>absatz_1</paragraph>
-        <source>#DWbibl01259 #DWbibl03936</source>
+        <source>#DWbibl01259</source>
         <type/>
         <content>vom Grunde kam es, zu Grunde geht es</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl00192" wholeText="no" wholePeriodical="no" posCitedRange="4" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>https://sk.acdh.oeaw.ac.at/DWbibl03935/passage/0</info2>
     </item>
     <item>
         <id>DWquote0045</id>
@@ -552,10 +553,11 @@
         <id>DWquote0073</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_4#DWquote0073</permalink>
         <paragraph>absatz_4</paragraph>
-        <source>#DWbibl01352 #DWbibl01368</source>
+        <source>#DWbibl01352</source>
         <type/>
         <content>die sich zwischen den bunten Parolen »Wachsstreichhelza⁠ ⁠!«, »Bezetammittach⁠ ⁠!« und »Die ersten duftenden Frühlingsboten⁠ ⁠!« mit »Fridericus⁠ ⁠! Der eiserne Besen⁠ ⁠!« durchrang und Bahn brach mit der unverdrossenen Frage⁠ ⁠: »Warum vadient der Jude schnellerundmehr Jeld als der Christ⁠ ⁠?«</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl00294" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>https://sk.acdh.oeaw.ac.at/DWbibl00309/passage/0</info2>
     </item>
     <item>
         <id>DWquote2001</id>
@@ -633,10 +635,11 @@
         <id>DWquote0080</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_6#DWquote0080</permalink>
         <paragraph>absatz_6</paragraph>
-        <source>#DWbibl00357 #DWbibl02715</source>
+        <source>#DWbibl00357</source>
         <type/>
         <content>Denn sie können schlafen, wenn die Geister wieder wach werden und es eine Lust ist zu leben.</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl00609" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>https://sk.acdh.oeaw.ac.at/DWbibl03446/passage/0</info2>
     </item>
     <item>
         <id>DWquote0081</id>
@@ -768,10 +771,11 @@
         <id>DWquote0096</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_8#DWquote0096</permalink>
         <paragraph>absatz_8</paragraph>
-        <source>#DWbibl02706 #DWbibl02708</source>
+        <source>#DWbibl02706</source>
         <type>exemp</type>
         <content>jener Schönheitspflege</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl02706" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>sk:DWbibl02708</info2>
     </item>
     <item>
         <id>DWquote0097</id>
@@ -1083,10 +1087,11 @@
         <id>DWquote0133</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_10#DWquote0133</permalink>
         <paragraph>absatz_10</paragraph>
-        <source>#DWbibl01216 #DWbibl03600</source>
+        <source>#DWbibl01216</source>
         <type>exemp</type>
         <content>schwarze Liste</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl01216" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl01905" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01905" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>sk:DWbibl03600</info2>
     </item>
     <item>
         <id>DWquote0134</id>
@@ -1137,10 +1142,11 @@
         <id>DWquote0139</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_10#DWquote0139</permalink>
         <paragraph>absatz_10</paragraph>
-        <source>#DWbibl01216 #DWbibl03600</source>
+        <source>#DWbibl01216</source>
         <type/>
         <content>schwarze Liste</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl01216" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl01905" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl01905" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>sk:DWbibl03600</info2>
     </item>
     <item>
         <id>DWquote2107</id>
@@ -2199,10 +2205,10 @@
         <id>DWquote0249</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_13#DWquote0249</permalink>
         <paragraph>absatz_13</paragraph>
-        <source>#DWbibl01503</source>
+    	<source>#DWbibl01500</source>
         <type>exemp</type>
         <content>jener Kampfruf »gegen den Kitsch«</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl01500" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0250</id>
@@ -2883,10 +2889,11 @@
         <id>DWquote0318</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_17#DWquote0318</permalink>
         <paragraph>absatz_17</paragraph>
-        <source>#DWbibl01424 #DWbibl01206</source>
+        <source>#DWbibl01424</source>
         <type/>
         <content>man den Musen und dem Tee huldigt</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl00384" wholeText="no" wholePeriodical="no" posCitedRange="1" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>sk:DWbibl01206</info2>
     </item>
     <item>
         <id>DWquote0319</id>
@@ -3045,10 +3052,11 @@
         <id>DWquote0339</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_18#DWquote0339</permalink>
         <paragraph>absatz_18</paragraph>
-        <source>#DWbibl03403 #DWbibl01983</source>
+        <source>#DWbibl03403</source>
         <type>exemp</type>
         <content>mit der Verwandlung nackter, auch weiblicher Körper in blutige Fleischklumpen</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl01101" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02408" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02408" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>https://sk.acdh.oeaw.ac.at/DWbibl02471/passage/0</info2>
     </item>
     <item>
         <id>DWquote0340</id>
@@ -3552,7 +3560,7 @@
         <source>#DWbibl00091</source>
         <type/>
         <content>ein englischer Gelehrter weist auf das Unpassende der Verbindung mit einem Autor hin, der gerade mit dem Deutschtum seine bedenklichsten Wortspiele trieb, wie jenes »Horneo und Borneo« zum Rassenproblem</content>
-        <info source="DWbibl00085" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03756" refIntSubtype="nonexcl" refLevel="no" refPos="0" refBase="DWbibl03757" refInt2="DWbibl03577" refIntSubtype2="nonexcl" refLevel2="no" refPos2="0" refBase2="DWbibl03576"/>
+        <info source="DWbibl00085" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03756" refIntSubtype="specific" refLevel="no" refPos="0" refBase="DWbibl03757" refInt2="DWbibl03577" refIntSubtype2="nonexcl" refLevel2="no" refPos2="0" refBase2="DWbibl03576"/>
     </item>
     <item>
         <id>DWquote0394</id>
@@ -3999,10 +4007,11 @@
         <id>DWquote0449</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_19#DWquote0449</permalink>
         <paragraph>absatz_19</paragraph>
-        <source>#DWbibl01805 #DWbibl02026</source>
+        <source>#DWbibl01805</source>
         <type/>
         <content>Es handelt sich</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl04118" wholeText="no" wholePeriodical="no" posCitedRange="17" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>https://sk.acdh.oeaw.ac.at/DWbibl00294/passage/2</info2>
     </item>
     <item>
         <id>DWquote0450</id>
@@ -4791,10 +4800,11 @@
         <id>DWquote0529</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_21#DWquote0529</permalink>
         <paragraph>absatz_21</paragraph>
-        <source>#DWbibl02751 #DWbibl03676</source>
+        <source>#DWbibl02751</source>
         <type>exemp</type>
         <content>der von der ersten Walpurgisnacht kam, der harzburgischen</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl02751" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>https://sk.acdh.oeaw.ac.at/DWbibl00008/passage/36</info2>
     </item>
     <item>
         <id>DWquote0530</id>
@@ -5196,10 +5206,11 @@
         <id>DWquote0576</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_22#DWquote0576</permalink>
         <paragraph>absatz_22</paragraph>
-        <source>#DWbibl02090 #DWbibl03583</source>
+        <source>#DWbibl02090</source>
         <type>exemp</type>
         <content>daß die französischen Bischöfe das Zeugnis deutscher Juden nicht als Entkräftung werten</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl02090" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03405" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl03405" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>sk:DWbibl03583</info2>
     </item>
     <item>
         <id>DWquote0577</id>
@@ -5232,10 +5243,11 @@
         <id>DWquote0579</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_23#DWquote0579</permalink>
         <paragraph>absatz_23</paragraph>
-        <source>#DWbibl01669 #DWbibl01670</source>
+        <source>#DWbibl01669</source>
         <type>exemp</type>
         <content>Ruhe und Ordnung herrscht</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl00753" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>https://sk.acdh.oeaw.ac.at/DWbibl03414/passage/0</info2>
     </item>
     <item>
         <id>DWquote0580</id>
@@ -5961,10 +5973,11 @@
         <id>DWquote0660</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_25#DWquote0660</permalink>
         <paragraph>absatz_25</paragraph>
-        <source>#DWbibl02775 #DWbibl02777</source>
+        <source>#DWbibl02775</source>
         <type>exemp</type>
         <content>weiß man denn, was im Herbst unter Preminger sein wird⁠ ⁠?</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl02775" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>sk:DWbibl02777</info2>
     </item>
     <item>
         <id>DWquote0661</id>
@@ -5988,10 +6001,11 @@
         <id>DWquote0663</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_25#DWquote0663</permalink>
         <paragraph>absatz_25</paragraph>
-        <source>#DWbibl02137 #DWbibl02139</source>
+        <source>#DWbibl02137</source>
         <type>exemp</type>
         <content>Geraun von »Führergenialität«</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl02136" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>https://sk.acdh.oeaw.ac.at/DWbibl02138/passage/0</info2>
     </item>
     <item>
         <id>DWquote0659</id>
@@ -7788,10 +7802,11 @@
         <id>DWquote0855</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_36#DWquote0855</permalink>
         <paragraph>absatz_36</paragraph>
-        <source>#DWbibl02848 #DWbibl03558</source>
+        <source>#DWbibl02848</source>
         <type/>
         <content>daß ein Vertrag ein Fetzen Papier sei</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl02847" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>https://sk.acdh.oeaw.ac.at/DWbibl00294/passage/8</info2>
     </item>
     <item>
         <id>DWquote1928</id>
@@ -7896,10 +7911,11 @@
         <id>DWquote0865</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_37#DWquote0865</permalink>
         <paragraph>absatz_37</paragraph>
-        <source>#DWbibl03745 #DWbibl03747</source>
+        <source>#DWbibl03745</source>
         <type>exemp</type>
         <content>Mein von Schwachköpfen mißdeutetes »Gebet an die Sonne von Gibeon«, 1916 erschienen, stellt das Absurdum einer Machtwelt aus der unheimlichen Identität heraus, die sich zwischen der pangermanischen Gegenwart und einer Greuelpartie des alten Testaments ergab.</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl03744" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>https://sk.acdh.oeaw.ac.at/DWbibl03746/passage/0</info2>
     </item>
     <item>
         <id>DWquote0866</id>
@@ -8481,10 +8497,11 @@
         <id>DWquote0913</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_39#DWquote0913</permalink>
         <paragraph>absatz_39</paragraph>
-        <source>#DWbibl02274 #DWbibl02276</source>
+        <source>#DWbibl02274</source>
         <type/>
         <content>seinen Versuch, mir das Triptychon jenes Sonetts der Louize Labé nachzubilden</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl02274" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>sk:DWbibl02276</info2>
     </item>
     <item>
         <id>DWquote0929</id>
@@ -10515,10 +10532,11 @@
         <id>DWquote1134</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_46#DWquote1134</permalink>
         <paragraph>absatz_46</paragraph>
-        <source>#DWbibl02444 #DWbibl02876</source>
+        <source>#DWbibl02444</source>
         <type/>
         <content>mit allem, was da kreucht und fleucht</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl00579" wholeText="no" wholePeriodical="no" posCitedRange="3" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>https://sk.acdh.oeaw.ac.at/DWbibl00192/passage/2</info2>
     </item>
     <item>
         <id>DWquote1135</id>
@@ -11514,10 +11532,11 @@
         <id>DWquote1249</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_48#DWquote1249</permalink>
         <paragraph>absatz_48</paragraph>
-        <source>#DWbibl02524 #DWbibl02520</source>
+        <source>#DWbibl02524</source>
         <type>exemp</type>
         <content>den Qualentod der Anwälte Günter Joachim und Alfred Strauß</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl02524" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02526" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl02526" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>sk:DWbibl02522</info2>
     </item>
     <item>
         <id>DWquote1251</id>
@@ -11739,10 +11758,11 @@
         <id>DWquote1277</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_49#DWquote1277</permalink>
         <paragraph>absatz_49</paragraph>
-        <source>#DWbibl01594 #DWbibl03364</source>
+        <source>#DWbibl01594</source>
         <type/>
         <content>muß der Rassenwart mit Überraschung feststellen, daß es immer noch deutsche Mädchen gibt, die sich nicht schämen, sich öffentlich mit Juden zu zeigen.</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl00648" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03367" refIntSubtype="nonexcl" refLevel="no" refPos="0" refBase="DWbibl03366" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>https://sk.acdh.oeaw.ac.at/DWbibl03366/passage/0</info2>
     </item>
     <item>
         <id>DWquote1278</id>
@@ -12342,10 +12362,11 @@
         <id>DWquote1347</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_52#DWquote1347</permalink>
         <paragraph>absatz_52</paragraph>
-        <source>#DWbibl02603 #DWbibl02605</source>
+        <source>#DWbibl02603</source>
         <type/>
         <content>ob die drei Pfeile nach außen und oben oder nach innen und unten zu tragen sind</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl02603" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>sk:DWbibl02605</info2>
     </item>
     <item>
         <id>DWquote1351</id>
@@ -12558,10 +12579,11 @@
         <id>DWquote1372</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_53#DWquote1372</permalink>
         <paragraph>absatz_53</paragraph>
-        <source>#DWbibl02626 #DWbibl03382</source>
+        <source>#DWbibl02626</source>
         <type/>
         <content>dem schlechten Schauspieler, den der große Kollege in der Weinstube Lutter &amp; Wegner über die Ursache seiner Mißerfolge aufzuklären suchte⁠ ⁠; sie liege darin, daß er zwar ganz gut spreche, daß man jedoch »es ihm nicht glaubt«⁠ ⁠: »Machen Sie mal einen Versuch, und bestellen Sie einen Schoppen — der Kellner hört Sie an, er geht, aber er kommt nicht mit dem Schoppen⁠ ⁠; er bringt ihn Ihnen nicht — er glaubt’s Ihnen nicht⁠ ⁠!«</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl02625" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl02628" refIntSubtype="nonexcl" refLevel="no" refPos="0" refBase="DWbibl02627" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>https://sk.acdh.oeaw.ac.at/DWbibl02627/passage/1</info2>
     </item>
     <item>
         <id>DWquote1954</id>
@@ -13071,10 +13093,11 @@
         <id>DWquote1424</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_55#DWquote1424</permalink>
         <paragraph>absatz_55</paragraph>
-        <source>#DWbibl04010 #DWbibl04008</source>
+        <source>#DWbibl04010</source>
         <type/>
         <content>Wittern der Morgenluft</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl04009" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl01075" refIntSubtype="nonexcl" refLevel="no" refPos="5" refBase="DWbibl00025" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>https://sk.acdh.oeaw.ac.at/DWbibl04108/passage/0</info2>
     </item>
     <item>
         <id>DWquote1425</id>
@@ -14586,7 +14609,7 @@
         <source>#DWbibl03495</source>
         <type/>
         <content>Cook</content>
-        <info source="" wholeText="no" wholePeriodical="yes" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl05099" wholeText="no" wholePeriodical="yes" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote1587</id>
@@ -15492,10 +15515,11 @@
         <id>DWquote1683</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_62#DWquote1683</permalink>
         <paragraph>absatz_62</paragraph>
-        <source>#DWbibl03688 #DWbibl03684</source>
+        <source>#DWbibl03688</source>
         <type/>
         <content>eine aufgehende, strahlende Sonne mit Hakenkreuz, davor als Hüter ein sitzender Adler</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl03688" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03686" refIntSubtype="nonexcl" refLevel="text" refPos="0" refBase="DWbibl03686" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>https://sk.acdh.oeaw.ac.at/DWbibl03685/passage/0</info2>
     </item>
     <item>
         <id>DWquote1684</id>
@@ -16887,10 +16911,11 @@
         <id>DWquote1828</id>
         <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_64#DWquote1828</permalink>
         <paragraph>absatz_64</paragraph>
-        <source>#DWbibl02706 #DWbibl02708</source>
+        <source>#DWbibl02706</source>
         <type>exemp</type>
         <content>annoncierende Schönheitspflegerinnen</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info source="DWbibl02706" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+    	<info2>sk:DWbibl02708</info2>
     </item>
     <item>
         <id>DWquote1831</id>

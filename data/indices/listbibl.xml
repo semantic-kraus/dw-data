@@ -234,7 +234,7 @@
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
 					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
-					<date when="1933-04-16" key="#DWbibl04602">16. 4. 1933<note>Oster-Ausgabe</note></date>
+					<date when="1933-04-16" key="#DWbibl05121">16. 4. 1933<note>Oster-Ausgabe</note></date>
 					<biblScope>S. 5</biblScope>
 					<citedRange xml:id="DWbibl00904" corresp="#DWfacs1230" wholeText="yes"/><!-- Titel -->
 					<citedRange xml:id="DWbibl00575" corresp="#DWfacs1231"/><!-- dieses theatrealische Genie .. neugestaltet hat -->
@@ -2039,7 +2039,7 @@ den Kampf -->
 					<num>Nr. 3</num>
 					<date when="1933-07-15" key="#DWbibl04635">15. 7. 1933</date>
 					<biblScope>S. 73</biblScope>
-					<citedRange xml:id="DWbibl00091" corresp="#DWfacs1499"><ref subtype="nonexcl" type="int" target="#DWbibl03756"/></citedRange><!-- der gerade … Rassenproblem -->
+					<citedRange xml:id="DWbibl00091" corresp="#DWfacs1499"><ref subtype="specific" type="int" target="#DWbibl03756"/></citedRange><!-- der gerade … Rassenproblem -->
 					<citedRange xml:id="DWbibl00252" corresp="#DWfacs1500"><ref subtype="nonexcl" type="int" target="#DWbibl03824"/></citedRange><!-- Alle Verbrechen … Gewissen. -->
 					<citedRange xml:id="DWbibl01778" corresp="#DWfacs1501 #DWfacs1502"><ref subtype="specific" type="int" target="#DWbibl03823"/></citedRange><!-- Die Deutschen … frequentiert -->
 				</bibl>
@@ -7722,7 +7722,7 @@ den Kampf -->
 					<ref type="gen" target="https://www.thelatinlibrary.com/juvenal/1.shtml" subtype="example"/>
 					<author key="#nDWpers1350">Juvenal</author>
 					<title level="m">Saturae / Satiren</title>
-					<date type="approx" notBefore="0101" notAfter="0200">2. Jh. n. Chr.</date>
+					<date type="approx" notBefore="0101" notAfter="0200">2. Jh. n. Chr.<note>Entst.</note></date>
 					<citedRange xml:id="DWbibl01399">Erste Satire, Vers 79<note type="context"><lg><l>si
 							natura negat, facit indignatio uersum</l><l>/</l><l>Wenn die Natur ihn versagt,
 							macht die Entrüstung den Vers</l></lg></note>
@@ -10989,14 +10989,13 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03172" sortKey="Preussischer_Pressedienst">
-					<author key="#DWpers0070">Preußischer Pressedienst</author>
 					<title level="m">[Amtliche Mitteilung]</title>
 					<citedRange xml:id="DWbibl03173"/><!-- der preußische Innenminister feststellt, daß »ganz Deutschland 18.000 und Preußen davon 12.000 habe« -->
 				</bibl>
 
 
 				<bibl source="_" xml:id="DWbibl02534" sortKey="Fritsch_Karl">
-					<author key="#nDWpers1391">Karl Fritsch</author>
+					<author key="#DWpers0070">Karl Fritsch</author>
 					<title level="m">[Rede in der Chemnitzer Stadthalle]</title>
 					<date when="1933-06-29">29. 6. 1933<note>UA</note></date>
 					<citedRange xml:id="DWbibl02535"/><!-- So haben wir … Unzufriedenheit verbreitet -->
