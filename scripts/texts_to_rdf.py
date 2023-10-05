@@ -1,9 +1,9 @@
 import os
-from slugify import slugify
 from tqdm import tqdm
 from acdh_tei_pyutils.tei import TeiReader
 from rdflib import Graph, Namespace, URIRef, Literal
-from rdflib.namespace import RDF, RDFS, OWL, XSD
+from rdflib.namespace import RDF
+
 
 SK = Namespace("https://sk.acdh.oeaw.ac.at/")
 CIDOC = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
