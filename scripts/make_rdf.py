@@ -9,8 +9,8 @@ from acdh_cidoc_pyutils import (
 )
 from acdh_cidoc_pyutils.namespaces import CIDOC, FRBROO
 from acdh_tei_pyutils.tei import TeiReader
-from rdflib import Graph, Namespace, URIRef, plugin, ConjunctiveGraph
-from rdflib.namespace import RDF, VOID, DCTERMS
+from rdflib import Graph, Namespace, URIRef, plugin, ConjunctiveGraph, Literal
+from rdflib.namespace import RDF, VOID, DCTERMS, RDFS
 from rdflib.store import Store
 from utils import make_events, create_provenance_props, PROV
 
@@ -63,6 +63,17 @@ for x in tqdm(items, total=len(items)):
     g += make_e42_identifiers(
         subj, x, type_domain=f"{SK}types", default_lang="en", same_as=False, set_lang=True
     )
+    subject = f"{SK}{xml_id}/identifier/idno/1"
+    label_url = "https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&letter="
+    try:
+        label_key = x.attrib["sortKey"][0]
+    except KeyError:
+        label_key = ""
+    g.add((URIRef(subject), RDF.type, CIDOC["E42_Identifier"]))
+    g.add((URIRef(subject), CIDOC["P1i_identifies"], URIRef(subj)))
+    g.add((URIRef(subject), CIDOC["P2_has_type"], URIRef(f"{SK}types/idno/URL/dritte-walpurgisnacht")))
+    g.add((URIRef(subject), RDF.value, Literal(f"{label_url}{label_key}#{xml_id}")))
+    g.add((URIRef(subject), RDFS.label, Literal(f"Identifier: {label_url}{label_key}#{xml_id}", lang="en")))
     g += make_appellations(subj, x, type_domain=f"{SK}types",
                            default_lang="und",
                            type_attribute="subtype",
