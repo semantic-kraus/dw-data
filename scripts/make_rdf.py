@@ -39,7 +39,9 @@ g.bind("frbroo", FRBROO)
 g.bind("sk", SK)
 g.bind("dw", DW)
 g.bind("prov", PROV)
-
+g.bind("dct", DCTERMS)
+# adding constants
+g.parse("./data/additions.ttl", format="ttl")
 
 rdf_dir = "./rdf"
 
