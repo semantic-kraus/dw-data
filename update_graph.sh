@@ -1,14 +1,8 @@
 # bin/bash
 
-# bin/bash
-
 curl -D- -X DELETE \
     -u $R_USER \
-    --data-urlencode 'c=<https://sk.acdh.oeaw.ac.at/project/dritte-walpurgisnacht>' \
-    --data-urlencode 'c=<https://sk.acdh.oeaw.ac.at/provenance>' \
-    --data-urlencode 'c=<https://sk.acdh.oeaw.ac.at/model>' \
-    --data-urlencode 'c=<https://sk.acdh.oeaw.ac.at/general>' \
-    $R_ENDPOINT
+    'https://sk-blazegraph.acdh-dev.oeaw.ac.at/blazegraph/sparql?c=<https://sk.acdh.oeaw.ac.at/project/dritte-walpurgisnacht>&c=<https://sk.acdh.oeaw.ac.at/provenance>&c=<https://sk.acdh.oeaw.ac.at/model>&c=<https://sk.acdh.oeaw.ac.at/general>'
 
 curl -u $R_USER \
     $R_ENDPOINT \
