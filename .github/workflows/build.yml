@@ -6,6 +6,10 @@ jobs:
   build_pages:
     name: Publish Edition as GitHub Pages Website
     runs-on: ubuntu-latest
+    env:
+      NO_LIMIT: nolimit
+      R_USER: ${{secrets.R_USER}}
+      R_ENDPOINT: ${{secrets.R_ENDPOINT}}
     steps:
     - name: Perform Checkout
       uses: actions/checkout@v3
@@ -22,8 +26,9 @@ jobs:
     - name: triggify 
       run: |
         python scripts/triggify.py
+    - name: create inverse triples 
+      run: |
+        python scripts/owl_inverse_props.py
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{secrets.GITHUB_TOKEN}}
-        publish_dir: ./html
+      run: |
+        ./update_graph.sh

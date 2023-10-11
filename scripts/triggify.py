@@ -28,12 +28,12 @@ g.bind("sk", SK)
 g.bind("dw", DW)
 
 try:
-    g.parse("./html/texts.ttl")
+    g.parse("./rdf/texts.ttl")
 except Exception as e:
     print(e)
 
 g_all = ConjunctiveGraph(store=project_store)
-g_all.serialize("./html/texts.trig", format="trig")
+g_all.serialize("./rdf/texts.trig", format="trig")
 
 store = plugin.get("Memory", Store)()
 project_store = plugin.get("Memory", Store)()
@@ -47,12 +47,12 @@ g.bind("sk", SK)
 g.bind("dw", DW)
 
 try:
-    g.parse("./html/persons.ttl")
+    g.parse("./rdf/persons.ttl")
 except Exception as e:
     print(e)
 
 g_all = ConjunctiveGraph(store=project_store)
-g_all.serialize("./html/persons.trig", format="trig")
+g_all.serialize("./rdf/persons.trig", format="trig")
 
 store = plugin.get("Memory", Store)()
 project_store = plugin.get("Memory", Store)()
@@ -66,9 +66,9 @@ g.bind("sk", SK)
 g.bind("dw", DW)
 
 try:
-    g.parse("./html/quotes.ttl")
+    g.parse("./rdf/quotes.ttl")
 except Exception as e:
     print(e)
 
 g_all = ConjunctiveGraph(store=project_store)
-g_all.serialize("./html/quotes.trig", format="trig")
+g_all.serialize("./rdf/quotes.trig", format="trig")
