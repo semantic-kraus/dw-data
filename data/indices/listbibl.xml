@@ -223,7 +223,7 @@
 					<title level="j" key="#DWbibl04201">Frankfurter Zeitung</title>
 					<title level="j" type="short">FZ</title>
 					<pubPlace key="#DWplace00239">Frankfurt am Main</pubPlace>
-					<date when="1932-02-14" key="#DWbibl04601">14. 2. 1932</date>
+					<date when="1932-02-14" key="#DWbibl05122">14. 2. 1932</date>
 					<biblScope>S. 9</biblScope>
 					<citedRange xml:id="DWbibl01947" wholeText="yes"/><!-- ganzes "Werk" -->
 				</bibl>
