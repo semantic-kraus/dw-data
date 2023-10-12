@@ -466,7 +466,7 @@
       <xsl:value-of select="$uri-f22"/>
       <xsl:text>&gt;</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:R24i_was_created_through &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:text>  frbroo:R24i_was_created_through &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
       <xsl:value-of select="$uri-f22"/>
       <xsl:text>/publication&gt;</xsl:text>
       <xsl:call-template name="newline-dot-newline"/>
@@ -552,7 +552,7 @@
       <xsl:value-of select="$uri-f24"/>
       <xsl:text>&gt;</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:R24i_was_created_through &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:text>  frbroo:R24i_was_created_through &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
       <xsl:value-of select="$uri-f24"/>
       <xsl:text>/publication&gt;</xsl:text>
       <xsl:call-template name="newline-dot-newline"/>
