@@ -42,7 +42,7 @@
     <xsl:call-template name="newline-dot"/>
     <xsl:text>@prefix lk: &lt;https://sk.acdh.oeaw.ac.at/project/legal-kraus&gt;</xsl:text>
     <xsl:call-template name="newline-dot"/>
-    <xsl:text>@prefix ns1: &lt;https://w3id.org/lso/intro/Vx/#&gt;</xsl:text>
+    <xsl:text>@prefix ns1: &lt;https://w3id.org/lso/intro/beta202304#&gt;</xsl:text>
     <xsl:call-template name="newline-dot"/>
     <xsl:text>@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</xsl:text>
     <xsl:call-template name="newline-dot"/>
