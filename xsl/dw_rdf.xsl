@@ -318,25 +318,25 @@
           <xsl:value-of select="$citedRange"/>
           <xsl:text>&quot;^^xsd:string</xsl:text>
         </xsl:if>
-        
+
         <xsl:variable name="segmentOf">
           <xsl:choose>
             <xsl:when test="../tei:date/@key">
               <xsl:value-of select="substring-after(../tei:date/@key, '#')"/>
             </xsl:when>
-            <xsl:when test="../tei:title[@level='m']/@key">
-              <xsl:value-of select="substring-after(../tei:title[@level='m']/@key, '#')"/>
-            </xsl:when>            
+            <xsl:when test="../tei:title[@level = 'm']/@key">
+              <xsl:value-of select="substring-after(../tei:title[@level = 'm']/@key, '#')"/>
+            </xsl:when>
           </xsl:choose>
         </xsl:variable>
-        
+
         <xsl:if test="$segmentOf != ''">
           <xsl:call-template name="newline-semicolon"/>
           <xsl:text>  ns1:R25_is_segment_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
           <xsl:value-of select="$segmentOf"/>
           <xsl:text>/published-expression&gt;</xsl:text>
         </xsl:if>
-        
+
         <xsl:if test="tei:note[@type = 'context']">
           <xsl:call-template name="newline-semicolon"/>
           <xsl:text>   ns1:R44_has_wording &quot;</xsl:text>
@@ -453,14 +453,22 @@
   <xsl:template name="create-bibl-F24">
     <xsl:if
       test="tei:date and not(tei:date/tei:note/text() = 'UA' or tei:date/tei:note/text() = 'Entst.')">
-      <xsl:variable name="title">
-        <xsl:call-template name="get-F24-title"/>
-      </xsl:variable>
       <xsl:variable name="uri-f22">
         <xsl:call-template name="get-F22-uri"/>
       </xsl:variable>
       <xsl:variable name="uri-f24">
         <xsl:call-template name="get-F24-uri"/>
+      </xsl:variable>
+      <xsl:variable name="title">
+        <xsl:choose>
+          <xsl:when test="$uri-f24 = @xml:id">
+            <xsl:text>Publication carrying: </xsl:text>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:text>Published Expression: </xsl:text>
+          </xsl:otherwise>
+        </xsl:choose>
+        <xsl:call-template name="get-F24-title"/>
       </xsl:variable>
 
       <xsl:call-template name="comment">
@@ -526,6 +534,7 @@
     <xsl:if
       test="tei:date and not(tei:date/tei:note/text() = 'UA' or tei:date/tei:note/text() = 'Entst.')">
       <xsl:variable name="title">
+        <xsl:text>Published Expression: </xsl:text>
         <xsl:call-template name="get-F24-title"/>
       </xsl:variable>
       <xsl:variable name="uri-f22">
@@ -1474,6 +1483,7 @@
     <xsl:if
       test="tei:date and not(tei:date/tei:note/text() = 'UA' or tei:date/tei:note/text() = 'Entst.')">
       <xsl:variable name="title">
+        <xsl:text>Published Expression: </xsl:text>
         <xsl:call-template name="get-F24-title"/>
       </xsl:variable>
       <xsl:variable name="uri">
@@ -2171,9 +2181,7 @@ Da ist noch ein Wurm drin:
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-    <xsl:value-of
-      select="concat('Published Expression: ', replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' '))"
-    />
+    <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
   </xsl:template>
 
   <xsl:template name="get-timespan-title">
