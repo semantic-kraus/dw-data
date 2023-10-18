@@ -318,7 +318,25 @@
           <xsl:value-of select="$citedRange"/>
           <xsl:text>&quot;^^xsd:string</xsl:text>
         </xsl:if>
-
+        
+        <xsl:variable name="segmentOf">
+          <xsl:choose>
+            <xsl:when test="../tei:date/@key">
+              <xsl:value-of select="substring-after(../tei:date/@key, '#')"/>
+            </xsl:when>
+            <xsl:when test="../tei:title[@level='m']/@key">
+              <xsl:value-of select="substring-after(../tei:title[@level='m']/@key, '#')"/>
+            </xsl:when>            
+          </xsl:choose>
+        </xsl:variable>
+        
+        <xsl:if test="$segmentOf != ''">
+          <xsl:call-template name="newline-semicolon"/>
+          <xsl:text>  ns1:R25_is_segment_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+          <xsl:value-of select="$segmentOf"/>
+          <xsl:text>/published-expression&gt;</xsl:text>
+        </xsl:if>
+        
         <xsl:if test="tei:note[@type = 'context']">
           <xsl:call-template name="newline-semicolon"/>
           <xsl:text>   ns1:R44_has_wording &quot;</xsl:text>
