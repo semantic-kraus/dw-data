@@ -1974,16 +1974,23 @@
         <xsl:variable name="xmlid" select="translate(tei:ref[@type = 'int']/@target, '#', '')"/>
         <xsl:variable name="selector" select="//tei:citedRange[@xml:id = $xmlid]"/>
         <xsl:variable name="bibl" select="$selector/parent::tei:bibl"/>
-        <xsl:choose>
-          <xsl:when test="$selector[@wholeText = 'yes']">
-            <xsl:value-of select="$selector/@xml:id"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="$bibl/@xml:id"/>
-          </xsl:otherwise>
-        </xsl:choose>
-        <xsl:text>/passage/</xsl:text>
-        <xsl:value-of select="count($selector/preceding-sibling::tei:citedRange)"/>
+        <xsl:variable name="id">
+          <xsl:choose>
+            <xsl:when test="$selector[@wholeText = 'yes']">
+              <xsl:value-of select="$selector/@xml:id"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="$bibl/@xml:id"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
+        
+        <xsl:value-of select="$id"/>
+        
+        <xsl:if test="not(//tei:citedRange[@xml:id = $id and @wholeText = 'yes'])">
+          <xsl:text>/passage/</xsl:text>
+          <xsl:value-of select="count($selector/preceding-sibling::tei:citedRange)"/>
+        </xsl:if>
       </xsl:variable>
 
       <xsl:text>  ns1:R12_has_referred_to_entity &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
