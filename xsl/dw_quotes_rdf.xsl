@@ -95,143 +95,189 @@
     <xsl:call-template name="newline-dot-newline"/>
   </xsl:template>
 
+  <xsl:template name="create-INT3-uri-id">
+    <xsl:param name="type-elem"/>
+    <xsl:param name="info-elem"/>
+
+    <xsl:variable name="type" select="$type-elem"/>
+    <xsl:variable name="info" select="$info-elem"/>
+
+    <xsl:choose>
+      <!-- 
+          Erster Fall: URI baut auf info/@source auf, anwenden bei
+        -->
+      <!-- //item[type="exemp" and info/@refInt="no"] -->
+      <xsl:when test="$type/text() = 'exemp' and $info[@refInt = 'no']">
+        <xsl:value-of select="$info/@source"/>
+      </xsl:when>
+      <!-- //item[type!="exemp" and info/@refInt="no"] -->
+      <xsl:when
+        test="(count($type/child::text()) = 0 or $type/text() != 'exemp') and $info[@refInt = 'no']">
+        <xsl:value-of select="$info/@source"/>
+      </xsl:when>
+      <!-- //item[type!="exemp" and info/@refIntSubtype="specific" and info/@refIntSubtype2="no"] -->
+      <xsl:when
+        test="(count($type/child::text()) = 0 or $type/text() != 'exemp') and $info[@refIntSubtype = 'specific' and @refIntSubtype2 = 'no']">
+        <xsl:value-of select="$info/@source"/>
+      </xsl:when>
+      <!-- //item[type="exemp" and info/@refIntSubtype="nonexcl" and info/@refIntSubtype2="no"] -->
+      <xsl:when
+        test="$type/text() = 'exemp' and $info[@refIntSubtype = 'nonexcl' and @refIntSubtype2 = 'no']">
+        <xsl:value-of select="$info/@source"/>
+      </xsl:when>
+      <!-- //item[type="exemp" and info/@refIntSubtype="specific" and info/@refIntSubtype2="no"] -->
+      <xsl:when
+        test="$type/text() = 'exemp' and $info[@refIntSubtype = 'specific' and @refIntSubtype2 = 'no']">
+        <xsl:value-of select="$info/@source"/>
+      </xsl:when>
+      <!--  
+          Zweiter Fall: URI baut auf info/@refBase auf, anwenden bei 
+        -->
+      <!-- //item[type!="exemp" and info/@refIntSubtype="nonexcl" and info/@refIntSubtype2="no"] -->
+      <xsl:when
+        test="(count($type/child::text()) = 0 or $type/text() != 'exemp') and $info[@refIntSubtype = 'nonexcl' and @refIntSubtype2 = 'no']">
+        <xsl:value-of select="$info/@refBase"/>
+      </xsl:when>
+      <!-- //item[type!="exemp" and info/@refIntSubtype="nonexcl" and info/@refIntSubtype2="specific"] -->
+      <xsl:when
+        test="(count($type/child::text()) = 0 or $type/text() != 'exemp') and $info[@refIntSubtype = 'nonexcl' and @refIntSubtype2 = 'specific']">
+        <xsl:value-of select="$info/@refBase"/>
+      </xsl:when>
+      <!-- 
+          Dritter Fall: URI baut auf info/@refBase2 auf, anwenden bei
+        -->
+      <!-- //item[type!="exemp" and info/@refIntSubtype="nonexcl" and info/@refIntSubtype2="nonexcl"] -->
+      <xsl:when
+        test="(count($type/child::text()) = 0 or $type/text() != 'exemp') and $info[@refIntSubtype = 'nonexcl' and @refIntSubtype2 = 'nonexcl']">
+        <xsl:value-of select="$info/@refBase2"/>
+      </xsl:when>
+      <!-- //item[type!="exemp" and info/@refIntSubtype="specific" and info/@refIntSubtype2="nonexcl"] -->
+      <xsl:when
+        test="(count($type/child::text()) = 0 or $type/text() != 'exemp') and $info[@refIntSubtype = 'specific' and @refIntSubtype2 = 'nonexcl']">
+        <xsl:value-of select="$info/@refBase2"/>
+      </xsl:when>
+      <!-- //item[type="exemp" and info/@refIntSubtype="nonexcl" and info/@refIntSubtype2="specific"] -->
+      <xsl:when
+        test="$type/text() = 'exemp' and $info[@refIntSubtype = 'nonexcl' and @refIntSubtype2 = 'specific']">
+        <xsl:value-of select="$info/@refBase2"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:text>id-error</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+
+  </xsl:template>
+
+  <xsl:template name="create-INT3-uri">
+    <xsl:param name="type-elem"/>
+    <xsl:param name="info-elem"/>
+    <xsl:param name="uri-id"/>
+
+    <xsl:variable name="type" select="$type-elem"/>
+    <xsl:variable name="info" select="$info-elem"/>
+
+    <xsl:choose>
+      <xsl:when test="$info[@wholeText = 'no' and @wholePeriodical = 'no' and @refInt = 'no']">
+        <xsl:value-of select="$uri-id"/>
+        <xsl:text>/passage/</xsl:text>
+        <xsl:value-of select="$info/@posCitedRange"/>
+      </xsl:when>
+      <xsl:when test="$info[@wholePeriodical = 'yes' and @refInt = 'no']">
+        <xsl:value-of select="$uri-id"/>
+        <xsl:text>/published-expression</xsl:text>
+      </xsl:when>
+      <xsl:when test="$info[@wholeText = 'yes' and @refInt = 'no']">
+        <xsl:value-of select="$uri-id"/>
+      </xsl:when>
+
+      <xsl:when test="$info[@refLevel = 'no']">
+        <xsl:value-of select="$uri-id"/>
+        <xsl:text>/passage/</xsl:text>
+        <xsl:choose>
+          <xsl:when test="$uri-id = $info/@source">
+            <xsl:value-of select="$info/@posCitedRange"/>
+          </xsl:when>
+          <xsl:when test="$uri-id = $info/@refInt or $uri-id = $info/@refBase">
+            <xsl:value-of select="$info/@refPos"/>
+          </xsl:when>
+          <xsl:when test="$uri-id = $info/@refInt2 or $uri-id = $info/@refBase2">
+            <xsl:value-of select="$info/@refPos2"/>
+          </xsl:when>
+        </xsl:choose>
+      </xsl:when>
+      <xsl:when test="$info[@refLevel = 'periodical']">
+        <xsl:value-of select="$uri-id"/>
+        <xsl:text>/published-expression</xsl:text>
+      </xsl:when>
+      <xsl:when test="$info[@refLevel = 'text']">
+        <xsl:value-of select="$uri-id"/>
+      </xsl:when>
+
+      <xsl:when test="$info[@refLevel2 = 'no']">
+        <xsl:value-of select="$uri-id"/>
+        <xsl:text>/passage/</xsl:text>
+        <xsl:choose>
+          <xsl:when test="$uri-id = $info/@source">
+            <xsl:value-of select="$info/@posCitedRange"/>
+          </xsl:when>
+          <xsl:when test="$uri-id = $info/@refInt">
+            <xsl:value-of select="$info/@refPos"/>
+          </xsl:when>
+          <xsl:when test="$uri-id = $info/@refInt2">
+            <xsl:value-of select="$info/@refPos2"/>
+          </xsl:when>
+        </xsl:choose>
+      </xsl:when>
+      <xsl:when test="$info[@refLevel2 = 'periodical']">
+        <xsl:value-of select="$uri-id"/>
+        <xsl:text>/published-expression</xsl:text>
+      </xsl:when>
+      <xsl:when test="$info[@refLevel2 = 'text']">
+        <xsl:value-of select="$uri-id"/>
+      </xsl:when>
+
+      <xsl:otherwise>
+        <xsl:text>uri-error</xsl:text>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
   <xsl:template name="create-INT3">
     <xsl:param name="n"/>
 
     <xsl:variable name="uri-id">
-      <xsl:choose>
-        <!-- 
-          Erster Fall: URI baut auf info/@source auf, anwenden bei
-        -->
-        <!-- //item[type="exemp" and info/@refInt="no"] -->
-        <xsl:when test="type/text() = 'exemp' and info[@refInt = 'no']">
-          <xsl:value-of select="info/@source"/>
-        </xsl:when>
-        <!-- //item[type!="exemp" and info/@refInt="no"] -->
-        <xsl:when
-          test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refInt = 'no']">
-          <xsl:value-of select="info/@source"/>
-        </xsl:when>
-        <!-- //item[type!="exemp" and info/@refIntSubtype="specific" and info/@refIntSubtype2="no"] -->
-        <xsl:when
-          test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refIntSubtype = 'specific' and @refIntSubtype2 = 'no']">
-          <xsl:value-of select="info/@source"/>
-        </xsl:when>
-        <!-- //item[type="exemp" and info/@refIntSubtype="nonexcl" and info/@refIntSubtype2="no"] -->
-        <xsl:when
-          test="type/text() = 'exemp' and info[@refIntSubtype = 'nonexcl' and @refIntSubtype2 = 'no']">
-          <xsl:value-of select="info/@source"/>
-        </xsl:when>
-        <!-- //item[type="exemp" and info/@refIntSubtype="specific" and info/@refIntSubtype2="no"] -->
-        <xsl:when
-          test="type/text() = 'exemp' and info[@refIntSubtype = 'specific' and @refIntSubtype2 = 'no']">
-          <xsl:value-of select="info/@source"/>
-        </xsl:when>
-        <!--  
-          Zweiter Fall: URI baut auf info/@refBase auf, anwenden bei 
-        -->
-        <!-- //item[type!="exemp" and info/@refIntSubtype="nonexcl" and info/@refIntSubtype2="no"] -->
-        <xsl:when
-          test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refIntSubtype = 'nonexcl' and @refIntSubtype2 = 'no']">
-          <xsl:value-of select="info/@refBase"/>
-        </xsl:when>
-        <!-- //item[type!="exemp" and info/@refIntSubtype="nonexcl" and info/@refIntSubtype2="specific"] -->
-        <xsl:when
-          test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refIntSubtype = 'nonexcl' and @refIntSubtype2 = 'specific']">
-          <xsl:value-of select="info/@refBase"/>
-        </xsl:when>
-        <!-- 
-          Dritter Fall: URI baut auf info/@refBase2 auf, anwenden bei
-        -->
-        <!-- //item[type!="exemp" and info/@refIntSubtype="nonexcl" and info/@refIntSubtype2="nonexcl"] -->
-        <xsl:when
-          test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refIntSubtype = 'nonexcl' and @refIntSubtype2 = 'nonexcl']">
-          <xsl:value-of select="info/@refBase2"/>
-        </xsl:when>
-        <!-- //item[type!="exemp" and info/@refIntSubtype="specific" and info/@refIntSubtype2="nonexcl"] -->
-        <xsl:when
-          test="(count(type/child::text()) = 0 or type/text() != 'exemp') and info[@refIntSubtype = 'specific' and @refIntSubtype2 = 'nonexcl']">
-          <xsl:value-of select="info/@refBase2"/>
-        </xsl:when>
-        <!-- //item[type="exemp" and info/@refIntSubtype="nonexcl" and info/@refIntSubtype2="specific"] -->
-        <xsl:when
-          test="type/text() = 'exemp' and info[@refIntSubtype = 'nonexcl' and @refIntSubtype2 = 'specific']">
-          <xsl:value-of select="info/@refBase2"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:text>id-error</xsl:text>
-        </xsl:otherwise>
-      </xsl:choose>
+      <xsl:call-template name="create-INT3-uri-id">
+        <xsl:with-param name="info-elem" select="info[1]"/>
+        <xsl:with-param name="type-elem" select="type"/>
+      </xsl:call-template>
     </xsl:variable>
 
     <xsl:variable name="uri">
-      <xsl:choose>
-        <xsl:when test="info[@wholeText = 'no' and @wholePeriodical = 'no' and @refInt = 'no']">
-          <xsl:value-of select="$uri-id"/>
-          <xsl:text>/passage/</xsl:text>
-          <xsl:value-of select="info/@posCitedRange"/>
-        </xsl:when>
-        <xsl:when test="info[@wholePeriodical = 'yes' and @refInt = 'no']">
-          <xsl:value-of select="$uri-id"/>
-          <xsl:text>/published-expression</xsl:text>
-        </xsl:when>
-        <xsl:when test="info[@wholeText = 'yes' and @refInt = 'no']">
-          <xsl:value-of select="$uri-id"/>
-        </xsl:when>
-
-        <xsl:when test="info[@refLevel = 'no']">
-          <xsl:value-of select="$uri-id"/>
-          <xsl:text>/passage/</xsl:text>
-          <xsl:choose>
-            <xsl:when test="$uri-id = info/@source">
-              <xsl:value-of select="info/@posCitedRange"/>
-            </xsl:when>
-            <xsl:when test="$uri-id = info/@refInt or $uri-id = info/@refBase">
-              <xsl:value-of select="info/@refPos"/>
-            </xsl:when>
-            <xsl:when test="$uri-id = info/@refInt2 or $uri-id = info/@refBase2">
-              <xsl:value-of select="info/@refPos2"/>
-            </xsl:when>
-          </xsl:choose>
-        </xsl:when>
-        <xsl:when test="info[@refLevel = 'periodical']">
-          <xsl:value-of select="$uri-id"/>
-          <xsl:text>/published-expression</xsl:text>
-        </xsl:when>
-        <xsl:when test="info[@refLevel = 'text']">
-          <xsl:value-of select="$uri-id"/>
-        </xsl:when>
-
-        <xsl:when test="info[@refLevel2 = 'no']">
-          <xsl:value-of select="$uri-id"/>
-          <xsl:text>/passage/</xsl:text>
-          <xsl:choose>
-            <xsl:when test="$uri-id = info/@source">
-              <xsl:value-of select="info/@posCitedRange"/>
-            </xsl:when>
-            <xsl:when test="$uri-id = info/@refInt">
-              <xsl:value-of select="info/@refPos"/>
-            </xsl:when>
-            <xsl:when test="$uri-id = info/@refInt2">
-              <xsl:value-of select="info/@refPos2"/>
-            </xsl:when>
-          </xsl:choose>
-        </xsl:when>
-        <xsl:when test="info[@refLevel2 = 'periodical']">
-          <xsl:value-of select="$uri-id"/>
-          <xsl:text>/published-expression</xsl:text>
-        </xsl:when>
-        <xsl:when test="info[@refLevel2 = 'text']">
-          <xsl:value-of select="$uri-id"/>
-        </xsl:when>
-
-        <xsl:otherwise>
-          <xsl:text>uri-error</xsl:text>
-        </xsl:otherwise>
-      </xsl:choose>
+      <xsl:call-template name="create-INT3-uri">
+        <xsl:with-param name="info-elem" select="info[1]"/>
+        <xsl:with-param name="type-elem" select="type"/>
+        <xsl:with-param name="uri-id" select="$uri-id"/>
+      </xsl:call-template>
     </xsl:variable>
 
+    <xsl:variable name="uri-id2">
+      <xsl:if test="count(info) &gt; 1">
+        <xsl:call-template name="create-INT3-uri-id">
+          <xsl:with-param name="info-elem" select="info[2]"/>
+          <xsl:with-param name="type-elem" select="type"/>
+        </xsl:call-template>
+      </xsl:if>
+    </xsl:variable>
 
+    <xsl:variable name="uri2">
+      <xsl:if test="count(info) &gt; 1">
+        <xsl:call-template name="create-INT3-uri">
+          <xsl:with-param name="info-elem" select="info[2]"/>
+          <xsl:with-param name="type-elem" select="type"/>
+          <xsl:with-param name="uri-id" select="$uri-id2"/>
+        </xsl:call-template>
+      </xsl:if>
+    </xsl:variable>
 
     <xsl:call-template name="comment">
       <xsl:with-param name="text" select="'#INT3 intertext relationship'"/>
@@ -248,6 +294,11 @@
     <xsl:text>  ns1:R12_has_referred_to_entity &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
     <xsl:value-of select="$uri"/>
     <xsl:text>&gt;</xsl:text>
+    <xsl:if test="count(info) &gt; 1">
+      <xsl:text>, &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri2"/>
+      <xsl:text>&gt;</xsl:text>
+    </xsl:if>
     <xsl:call-template name="newline-semicolon"/>
 
     <xsl:text>  ns1:R13_has_referring_entity &lt;https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/</xsl:text>
