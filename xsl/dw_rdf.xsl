@@ -117,45 +117,52 @@
       <xsl:call-template name="get-F22-uri"/>
     </xsl:variable>
 
-    <xsl:call-template name="comment">
-      <xsl:with-param name="text" select="'#F22'"/>
-    </xsl:call-template>
-    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-    <xsl:value-of select="$uri-f22"/>
-    <xsl:text>&gt; a frbroo:F22_Self-Contained_Expression</xsl:text>
-    <xsl:call-template name="newline-semicolon"/>
+    <xsl:variable name="uri-origin">
+      <xsl:call-template name="get-F24-uri-origin"/>
+    </xsl:variable>
 
-    <xsl:text>  rdfs:label &quot;Expression: </xsl:text>
-    <xsl:choose>
-      <xsl:when test="$title != ''">
-        <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:text>[Expression]</xsl:text>
-      </xsl:otherwise>
-    </xsl:choose>
-    <xsl:text>&quot;@en</xsl:text>
+    <xsl:if test="not($uri-origin = 'id' or $uri-origin = 'cited-wholetext-id')">
 
-    <xsl:if test="$title != ''">
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:P102_has_title &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:call-template name="comment">
+        <xsl:with-param name="text" select="'#F22'"/>
+      </xsl:call-template>
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
       <xsl:value-of select="$uri-f22"/>
-      <xsl:text>/title/0&gt;</xsl:text>
-    </xsl:if>
+      <xsl:text>&gt; a frbroo:F22_Self-Contained_Expression</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
 
-    <xsl:if test="tei:title[@level = 'm' and @type = 'subtitle']">
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:P102_has_title &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f22"/>
-      <xsl:text>/title/1&gt;</xsl:text>
+      <xsl:text>  rdfs:label &quot;Expression: </xsl:text>
+      <xsl:choose>
+        <xsl:when test="$title != ''">
+          <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:text>[Expression]</xsl:text>
+        </xsl:otherwise>
+      </xsl:choose>
+      <xsl:text>&quot;@en</xsl:text>
+
+      <xsl:if test="$title != ''">
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P102_has_title &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f22"/>
+        <xsl:text>/title/0&gt;</xsl:text>
+      </xsl:if>
+
+      <xsl:if test="tei:title[@level = 'm' and @type = 'subtitle']">
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P102_has_title &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f22"/>
+        <xsl:text>/title/1&gt;</xsl:text>
+      </xsl:if>
+      <xsl:if test="tei:title[@level = 'm' and @key]">
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:P165i_is_incorporated_in &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="translate(tei:title[@level = 'm']/@key, '#', '')"/>
+        <xsl:text>&gt;</xsl:text>
+      </xsl:if>
+      <xsl:call-template name="newline-dot-newline"/>
     </xsl:if>
-    <xsl:if test="tei:title[@level = 'm' and @key]">
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:P165i_is_incorporated_in &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="translate(tei:title[@level = 'm']/@key, '#', '')"/>
-      <xsl:text>&gt;</xsl:text>
-    </xsl:if>
-    <xsl:call-template name="newline-dot-newline"/>
   </xsl:template>
 
   <xsl:template name="create-bibl-F22-art-issue">
@@ -470,32 +477,37 @@
         </xsl:choose>
         <xsl:call-template name="get-F24-title"/>
       </xsl:variable>
+      <xsl:variable name="uri-origin">
+        <xsl:call-template name="get-F24-uri-origin"/>
+      </xsl:variable>
 
-      <xsl:call-template name="comment">
-        <xsl:with-param name="text" select="'#F24'"/>
-      </xsl:call-template>
-      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f24"/>
-      <xsl:text>/published-expression&gt; a frbroo:F24_Publication_Expression</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  rdfs:label &quot;</xsl:text>
-      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
-      <xsl:text>&quot;@en</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:if test="tei:title[@level = 'j' or @level = 's'] or tei:pubPlace">
-        <xsl:text>  cidoc:P1_is_identified_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-        <xsl:value-of select="$uri-f22"/>
-        <xsl:text>/appellation/0&gt;</xsl:text>
+      <xsl:if test="not($uri-origin = 'id' or $uri-origin = 'cited-wholetext-id')">
+        <xsl:call-template name="comment">
+          <xsl:with-param name="text" select="'#F24'"/>
+        </xsl:call-template>
+        <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f24"/>
+        <xsl:text>/published-expression&gt; a frbroo:F24_Publication_Expression</xsl:text>
         <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  rdfs:label &quot;</xsl:text>
+        <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+        <xsl:text>&quot;@en</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:if test="tei:title[@level = 'j' or @level = 's'] or tei:pubPlace">
+          <xsl:text>  cidoc:P1_is_identified_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+          <xsl:value-of select="$uri-f22"/>
+          <xsl:text>/appellation/0&gt;</xsl:text>
+          <xsl:call-template name="newline-semicolon"/>
+        </xsl:if>
+        <xsl:text>  cidoc:P165_incorporates &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f22"/>
+        <xsl:text>&gt;</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  frbroo:R24i_was_created_through &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f22"/>
+        <xsl:text>/publication&gt;</xsl:text>
+        <xsl:call-template name="newline-dot-newline"/>
       </xsl:if>
-      <xsl:text>  cidoc:P165_incorporates &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f22"/>
-      <xsl:text>&gt;</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  frbroo:R24i_was_created_through &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f22"/>
-      <xsl:text>/publication&gt;</xsl:text>
-      <xsl:call-template name="newline-dot-newline"/>
     </xsl:if>
   </xsl:template>
 
@@ -1496,33 +1508,39 @@
         </xsl:choose>
       </xsl:variable>
 
-      <xsl:call-template name="comment">
-        <xsl:with-param name="text" select="'#F30 issue'"/>
-      </xsl:call-template>
-      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri"/>
-      <xsl:text>/publication&gt; a frbroo:F30_Publication_Event</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  rdfs:label &quot;Publication of: </xsl:text>
-      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
-      <xsl:text>&quot;@en</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:R24_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri"/>
-      <xsl:text>/published-expression&gt;</xsl:text>
-      <xsl:for-each select="tei:pubPlace">
-        <xsl:call-template name="newline-semicolon"/>
-        <xsl:text>  cidoc:P7_took_place_at &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-        <xsl:value-of select="translate(@key, '#', '')"/>
-        <xsl:text>&gt;</xsl:text>
-      </xsl:for-each>
-      <xsl:if test="not(tei:date/tei:note/text() = 'UA' or tei:date/tei:note/text() = 'Entst.')">
-        <xsl:call-template name="newline-semicolon"/>
-        <xsl:text>  cidoc:P4_has_time-span &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:variable name="uri-origin">
+        <xsl:call-template name="get-F24-uri-origin"/>
+      </xsl:variable>
+
+      <xsl:if test="not($uri-origin = 'id' or $uri-origin = 'cited-wholetext-id')">
+        <xsl:call-template name="comment">
+          <xsl:with-param name="text" select="'#F30 issue'"/>
+        </xsl:call-template>
+        <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
         <xsl:value-of select="$uri"/>
-        <xsl:text>/publication/time-span&gt;</xsl:text>
+        <xsl:text>/publication&gt; a frbroo:F30_Publication_Event</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  rdfs:label &quot;Publication of: </xsl:text>
+        <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+        <xsl:text>&quot;@en</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  cidoc:R24_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri"/>
+        <xsl:text>/published-expression&gt;</xsl:text>
+        <xsl:for-each select="tei:pubPlace">
+          <xsl:call-template name="newline-semicolon"/>
+          <xsl:text>  cidoc:P7_took_place_at &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+          <xsl:value-of select="translate(@key, '#', '')"/>
+          <xsl:text>&gt;</xsl:text>
+        </xsl:for-each>
+        <xsl:if test="not(tei:date/tei:note/text() = 'UA' or tei:date/tei:note/text() = 'Entst.')">
+          <xsl:call-template name="newline-semicolon"/>
+          <xsl:text>  cidoc:P4_has_time-span &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+          <xsl:value-of select="$uri"/>
+          <xsl:text>/publication/time-span&gt;</xsl:text>
+        </xsl:if>
+        <xsl:call-template name="newline-dot-newline"/>
       </xsl:if>
-      <xsl:call-template name="newline-dot-newline"/>
     </xsl:if>
   </xsl:template>
 
@@ -1549,27 +1567,33 @@
           <xsl:call-template name="get-timespan-end"/>
         </xsl:variable>
 
-        <xsl:call-template name="comment">
-          <xsl:with-param name="text" select="'#E52 publication time-span'"/>
-        </xsl:call-template>
-        <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-        <xsl:value-of select="$uri"/>
-        <xsl:text>/publication/time-span&gt; a cidoc:E52_Time-Span</xsl:text>
-        <xsl:call-template name="newline-semicolon"/>
-        <xsl:text>  rdfs:label &quot;</xsl:text>
-        <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
-        <xsl:text>&quot;@en</xsl:text>
-        <xsl:call-template name="newline-semicolon"/>
-        <xsl:text>  cidoc:P4i_is_time-span_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-        <xsl:value-of select="$uri"/>
-        <xsl:text>/publication&gt;</xsl:text>
-        <xsl:call-template name="newline-semicolon"/>
-        <xsl:text>  cidoc:P82a_begin_of_the_begin </xsl:text>
-        <xsl:value-of select="$begin-date"/>
-        <xsl:call-template name="newline-semicolon"/>
-        <xsl:text>  cidoc:P82b_end_of_the_end </xsl:text>
-        <xsl:value-of select="$end-date"/>
-        <xsl:call-template name="newline-dot-newline"/>
+        <xsl:variable name="uri-origin">
+          <xsl:call-template name="get-F24-uri-origin"/>
+        </xsl:variable>
+
+        <xsl:if test="not($uri-origin = 'id' or $uri-origin = 'cited-wholetext-id')">
+          <xsl:call-template name="comment">
+            <xsl:with-param name="text" select="'#E52 publication time-span'"/>
+          </xsl:call-template>
+          <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+          <xsl:value-of select="$uri"/>
+          <xsl:text>/publication/time-span&gt; a cidoc:E52_Time-Span</xsl:text>
+          <xsl:call-template name="newline-semicolon"/>
+          <xsl:text>  rdfs:label &quot;</xsl:text>
+          <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+          <xsl:text>&quot;@en</xsl:text>
+          <xsl:call-template name="newline-semicolon"/>
+          <xsl:text>  cidoc:P4i_is_time-span_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+          <xsl:value-of select="$uri"/>
+          <xsl:text>/publication&gt;</xsl:text>
+          <xsl:call-template name="newline-semicolon"/>
+          <xsl:text>  cidoc:P82a_begin_of_the_begin </xsl:text>
+          <xsl:value-of select="$begin-date"/>
+          <xsl:call-template name="newline-semicolon"/>
+          <xsl:text>  cidoc:P82b_end_of_the_end </xsl:text>
+          <xsl:value-of select="$end-date"/>
+          <xsl:call-template name="newline-dot-newline"/>
+        </xsl:if>
       </xsl:if>
     </xsl:if>
   </xsl:template>
@@ -1983,9 +2007,9 @@
             </xsl:otherwise>
           </xsl:choose>
         </xsl:variable>
-        
+
         <xsl:value-of select="$id"/>
-        
+
         <xsl:if test="not(//tei:citedRange[@xml:id = $id and @wholeText = 'yes'])">
           <xsl:text>/passage/</xsl:text>
           <xsl:value-of select="count($selector/preceding-sibling::tei:citedRange)"/>
@@ -2133,6 +2157,38 @@ Da ist noch ein Wurm drin:
             </xsl:when>
             <xsl:otherwise>
               <xsl:value-of select="$bibl/@xml:id"/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
+
+    <xsl:value-of select="translate($uri, '#', '')"/>
+  </xsl:template>
+
+  <xsl:template name="get-F24-uri-origin">
+    <xsl:param name="base" select="."/>
+    <xsl:variable name="bibl" select="$base/ancestor-or-self::tei:bibl"/>
+
+    <xsl:variable name="uri">
+      <xsl:choose>
+        <xsl:when test="$bibl/tei:title[@level = 'a']">
+          <xsl:choose>
+            <xsl:when test="$bibl/tei:date[@key]">
+              <xsl:text>date-key</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>title-m-key</xsl:text>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:choose>
+            <xsl:when test="$bibl/tei:citedRange[@wholeText = 'yes']">
+              <xsl:text>cited-wholetext-id</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text>id</xsl:text>
             </xsl:otherwise>
           </xsl:choose>
         </xsl:otherwise>
