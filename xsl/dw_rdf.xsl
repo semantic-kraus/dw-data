@@ -1483,7 +1483,6 @@
     <xsl:if
       test="tei:date and not(tei:date/tei:note/text() = 'UA' or tei:date/tei:note/text() = 'Entst.')">
       <xsl:variable name="title">
-        <xsl:text>Published Expression: </xsl:text>
         <xsl:call-template name="get-F24-title"/>
       </xsl:variable>
       <xsl:variable name="uri">
