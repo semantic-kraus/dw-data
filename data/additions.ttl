@@ -3,6 +3,59 @@
 @prefix sk: <https://sk.acdh.oeaw.ac.at/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix frbroo: <https://cidoc-crm.org/frbroo/sites/default/files/FRBR2.4-draft.rdfs#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://sk.acdh.oeaw.ac.at/DWbibl00000> a frbroo:F22_Self-Contained_Expression ;
+  rdfs:label "Dritte Walpurgisnacht"@und ;
+  crm:P102_has_title <https://sk.acdh.oeaw.ac.at/DWbibl00000/title/0> ;
+  frbroo:R17i_was_created_by <https://sk.acdh.oeaw.ac.at/DWbibl00000/creation> ;
+  crm:P165i_is_incorporated_in <https://sk.acdh.oeaw.ac.at/DWbibl00000/published-expression> ;
+  crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWbibl00000/identifier/0> ,
+    <https://sk.acdh.oeaw.ac.at/DWbibl00000/identifier/1> .
+  
+<https://sk.acdh.oeaw.ac.at/DWbibl00000/creation> a frbroo:F28_Expression_Creation ;
+  rdfs:label "Creation of: Dritte Walpurgisnacht"@en ;
+  crm:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWbibl00000/creation/time-span> ;
+  crm:P14_carried_out_by <https://sk.acdh.oeaw.ac.at/DWpers0000> .
+  
+<https://sk.acdh.oeaw.ac.at/DWbibl00000/published-expression> a frbroo:F24_Publication_Expression ;
+  rdfs:label: "Publication carrying: Dritte Walpurgisnacht"@en ;
+  crm:P165_incorporates <https://sk.acdh.oeaw.ac.at/DWbibl00000> ;
+  frbroo:R24i_was_created_through <https://sk.acdh.oeaw.ac.at/DWbibl00000/publication> .
+
+<https://sk.acdh.oeaw.ac.at/DWbibl00000/creation/time-span> a crm:E52_Time-Span ;
+  rdfs:label "1933"@und ;
+  crm:P4i_is_time-span_of <https://sk.acdh.oeaw.ac.at/DWbibl00000/creation> ;
+  crm:P82a_begin_of_the_begin "1933"^^xsd:gYear ;
+  crm:P82b_end_of_the_end "1933"^^xsd:gYear .
+
+<https://sk.acdh.oeaw.ac.at/DWbibl00000/identifier/0> a crm:E42_Identifier ;
+  rdfs:label "Identifier: DWbibl00000"@en ;
+  crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
+  rdf:value "DWbibl00000" .
+  
+<https://sk.acdh.oeaw.ac.at/DWbibl00000/identifier/1> a crm:E42_Identifier ;
+  rdfs:label "Identifier: https://kraus1933.ace.oeaw.ac.at"@en ;
+  crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/URL/dritte-walpurgisnacht> ;
+  rdf:value "https://kraus1933.ace.oeaw.ac.at" .
+
+<https://sk.acdh.oeaw.ac.at/DWbibl00000/title/0> a crm:E35_Title ;
+  rdfs:label "Dritte Walpurgisnacht"@und ;
+  crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
+  crm:P102i_is_title_of <https://sk.acdh.oeaw.ac.at/DWbibl00000> .
+
+<https://sk.acdh.oeaw.ac.at/DWbibl00000/publication> a frbroo:F30_Publication_Event ;
+  rdfs:label "Publication of: Dritte Walpurgisnacht" ;
+  frbroo:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00000/published-expression> ;
+  crm:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWbibl00000/publication/time-span> .
+  
+<https://sk.acdh.oeaw.ac.at/DWbibl00000/publication/time-span> a a crm:E52_Time-Span ;
+  rdfs:label "2021"@und ;
+  crm:P4i_is_time-span_of <https://sk.acdh.oeaw.ac.at/DWbibl00000/publication> ;
+  crm:P82a_begin_of_the_begin "2021"^^xsd:gYear ;
+  crm:P82b_end_of_the_end "2021"^^xsd:gYear .
+
 
 <https://sk.acdh.oeaw.ac.at/DWsource0001> a prov:Entity, dcterms:BibliographicResource ;
   dcterms:bibliographicCitation "Claudia Kuretsidis-Haider: Todesurteile und lebenslange Haftstrafen der Volksgerichte 1947. [Ohne Jahr]. URL: http://www.nachkriegsjustiz.at/prozesse/volksg/hoechst_1947.php (22. 3. 2021)." .
