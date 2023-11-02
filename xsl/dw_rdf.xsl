@@ -267,6 +267,10 @@
       <xsl:text>  ns1:R41_has_location &quot;</xsl:text>
       <xsl:value-of select="tei:biblScope/text()"/>
       <xsl:text>&quot;^^xsd:string</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
+      <xsl:text>  schema:pagination &quot;</xsl:text>
+      <xsl:value-of select="tei:biblScope/text()"/>
+      <xsl:text>&quot;^^xsd:string</xsl:text>
     </xsl:if>
     <xsl:call-template name="newline-semicolon"/>
     <xsl:text>  ns1:R25_is_segment_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -322,6 +326,10 @@
           <xsl:if test="$citedRange != ''">
             <xsl:call-template name="newline-semicolon"/>
             <xsl:text>  ns1:R41_has_location &quot;</xsl:text>
+            <xsl:value-of select="$citedRange"/>
+            <xsl:text>&quot;^^xsd:string</xsl:text>
+            <xsl:call-template name="newline-semicolon"/>
+            <xsl:text>  schema:pagination &quot;</xsl:text>
             <xsl:value-of select="$citedRange"/>
             <xsl:text>&quot;^^xsd:string</xsl:text>
           </xsl:if>
