@@ -12,21 +12,23 @@
 
   <xsl:template match="result">
     <xsl:for-each select="item">
-      <xsl:call-template name="create-INT1-textpassage">
-        <xsl:with-param name="n" select="position() - 1"/>
-      </xsl:call-template>
-      <xsl:call-template name="create-INT3">
-        <xsl:with-param name="n" select="position() - 1"/>
-      </xsl:call-template>
-      <xsl:call-template name="create-INT16-segment">
-        <xsl:with-param name="n" select="position() - 1"/>
-      </xsl:call-template>
-      <xsl:call-template name="create-E42-id-identifier">
-        <xsl:with-param name="n" select="position() - 1"/>
-      </xsl:call-template>
-      <xsl:call-template name="create-E42-permalink-identifier">
-        <xsl:with-param name="n" select="position() - 1"/>
-      </xsl:call-template>
+      <xsl:if test="source/text() != '#DWbibl00211'">
+        <xsl:call-template name="create-INT1-textpassage">
+          <xsl:with-param name="n" select="position() - 1"/>
+        </xsl:call-template>
+        <xsl:call-template name="create-INT3">
+          <xsl:with-param name="n" select="position() - 1"/>
+        </xsl:call-template>
+        <xsl:call-template name="create-INT16-segment">
+          <xsl:with-param name="n" select="position() - 1"/>
+        </xsl:call-template>
+        <xsl:call-template name="create-E42-id-identifier">
+          <xsl:with-param name="n" select="position() - 1"/>
+        </xsl:call-template>
+        <xsl:call-template name="create-E42-permalink-identifier">
+          <xsl:with-param name="n" select="position() - 1"/>
+        </xsl:call-template>
+      </xsl:if>
     </xsl:for-each>
 
   </xsl:template>
