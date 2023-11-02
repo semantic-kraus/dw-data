@@ -6,6 +6,7 @@
 @prefix frbroo: <https://cidoc-crm.org/frbroo/sites/default/files/FRBR2.4-draft.rdfs#> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://sk.acdh.oeaw.ac.at/DWbibl00000> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Dritte Walpurgisnacht"@und ;
@@ -51,7 +52,7 @@
   frbroo:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00000/published-expression> ;
   crm:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWbibl00000/publication/time-span> .
   
-<https://sk.acdh.oeaw.ac.at/DWbibl00000/publication/time-span> a a crm:E52_Time-Span ;
+<https://sk.acdh.oeaw.ac.at/DWbibl00000/publication/time-span> a crm:E52_Time-Span ;
   rdfs:label "2021"@und ;
   crm:P4i_is_time-span_of <https://sk.acdh.oeaw.ac.at/DWbibl00000/publication> ;
   crm:P82a_begin_of_the_begin "2021"^^xsd:gYear ;
