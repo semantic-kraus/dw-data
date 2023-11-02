@@ -313,7 +313,7 @@
             <xsl:call-template name="newline-semicolon"/>
             <xsl:text>  schema:pagination &quot;</xsl:text>
             <xsl:value-of select="$citedRange"/>
-            <xsl:text>&quot;</xsl:text>
+            <xsl:text>&quot;^^xsd:string</xsl:text>
           </xsl:if>
           <xsl:call-template name="newline-semicolon"/>
 
@@ -326,10 +326,6 @@
           <xsl:if test="$citedRange != ''">
             <xsl:call-template name="newline-semicolon"/>
             <xsl:text>  ns1:R41_has_location &quot;</xsl:text>
-            <xsl:value-of select="$citedRange"/>
-            <xsl:text>&quot;^^xsd:string</xsl:text>
-            <xsl:call-template name="newline-semicolon"/>
-            <xsl:text>  schema:pagination &quot;</xsl:text>
             <xsl:value-of select="$citedRange"/>
             <xsl:text>&quot;^^xsd:string</xsl:text>
           </xsl:if>
@@ -1567,7 +1563,7 @@
     <xsl:if test="not(tei:date/tei:note/text() = 'UA' or tei:date/tei:note/text() = 'Entst.')">
       <xsl:if test="tei:date[@when or @notBefore or @notAfter]">
         <xsl:if
-          test="not(tei:title[@level = 'm']/@key) and not(tei:date/@key) and tei:citedRange[@wholeText = 'yes']">
+          test="(not(tei:title[@level = 'm']/@key) and not(tei:date/@key) and tei:citedRange[@wholeText = 'yes']) or (not(tei:date/@key) and not(tei:title/@key) and not(tei:citedRange/@wholeText) and not(tei:citedRange/@wholePeriodical))">
           <xsl:variable name="uri">
             <xsl:choose>
               <xsl:when test="tei:citedRange[@wholeText = 'yes']">
