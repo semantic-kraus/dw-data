@@ -2299,6 +2299,9 @@ Da ist noch ein Wurm drin:
       <xsl:when test="tei:date/@when">
         <xsl:value-of select="tei:date/@when"/>
       </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="tei:date/text()"/>
+      </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
 
