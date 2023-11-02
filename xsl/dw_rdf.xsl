@@ -286,80 +286,82 @@
       <xsl:variable name="uri-issue">
         <xsl:call-template name="get-issue-uri"/>
       </xsl:variable>
-      <xsl:for-each select="tei:citedRange[not(@wholeText) and not(@wholePeriodical)]">
-        <xsl:variable name="citedRange"
-          select="replace(translate(text(), '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+      <xsl:for-each select="tei:citedRange">
+        <xsl:if test="not(@wholeText) and not(@wholePeriodical)">
+          <xsl:variable name="citedRange"
+            select="replace(translate(text(), '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
 
-        <xsl:call-template name="comment">
-          <xsl:with-param name="text" select="'#INT1-INT16 textpassage segment'"/>
-        </xsl:call-template>
+          <xsl:call-template name="comment">
+            <xsl:with-param name="text" select="'#INT1-INT16 textpassage segment'"/>
+          </xsl:call-template>
 
-        <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-        <xsl:value-of select="$uri-f22"/>
-        <xsl:text>/segment/</xsl:text>
-        <xsl:value-of select="position() - 1"/>
-        <xsl:text>&gt; a ns1:INT16_Segment</xsl:text>
-        <xsl:call-template name="newline-semicolon"/>
-
-        <xsl:text>  rdfs:label &quot;Text segment from: </xsl:text>
-        <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
-        <xsl:text>&quot;@en</xsl:text>
-        <xsl:if test="starts-with($citedRange, 'S. ')">
+          <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+          <xsl:value-of select="$uri-f22"/>
+          <xsl:text>/segment/</xsl:text>
+          <xsl:value-of select="position() - 1"/>
+          <xsl:text>&gt; a ns1:INT16_Segment</xsl:text>
           <xsl:call-template name="newline-semicolon"/>
-          <xsl:text>  schema:pagination &quot;</xsl:text>
-          <xsl:value-of select="$citedRange"/>
-          <xsl:text>&quot;</xsl:text>
-        </xsl:if>
-        <xsl:call-template name="newline-semicolon"/>
 
-        <xsl:text>  ns1:R16_incorporates &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-        <xsl:value-of select="$uri-f22"/>
-        <xsl:text>/passage/</xsl:text>
-        <xsl:value-of select="position() - 1"/>
-        <xsl:text>&gt;</xsl:text>
-
-        <xsl:if test="$citedRange != ''">
+          <xsl:text>  rdfs:label &quot;Text segment from: </xsl:text>
+          <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+          <xsl:text>&quot;@en</xsl:text>
+          <xsl:if test="starts-with($citedRange, 'S. ')">
+            <xsl:call-template name="newline-semicolon"/>
+            <xsl:text>  schema:pagination &quot;</xsl:text>
+            <xsl:value-of select="$citedRange"/>
+            <xsl:text>&quot;</xsl:text>
+          </xsl:if>
           <xsl:call-template name="newline-semicolon"/>
-          <xsl:text>  ns1:R41_has_location &quot;</xsl:text>
-          <xsl:value-of select="$citedRange"/>
-          <xsl:text>&quot;^^xsd:string</xsl:text>
-        </xsl:if>
 
-        <xsl:variable name="segmentOf">
-          <xsl:choose>
-            <xsl:when test="../tei:date/@key">
-              <xsl:value-of select="substring-after(../tei:date/@key, '#')"/>
-            </xsl:when>
-            <xsl:when test="../tei:title[@level = 'm']/@key">
-              <xsl:value-of select="substring-after(../tei:title[@level = 'm']/@key, '#')"/>
-            </xsl:when>
-          </xsl:choose>
-        </xsl:variable>
+          <xsl:text>  ns1:R16_incorporates &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+          <xsl:value-of select="$uri-f22"/>
+          <xsl:text>/passage/</xsl:text>
+          <xsl:value-of select="position() - 1"/>
+          <xsl:text>&gt;</xsl:text>
 
-        <xsl:if test="$segmentOf != ''">
-          <xsl:call-template name="newline-semicolon"/>
-          <xsl:text>  ns1:R25_is_segment_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-          <xsl:value-of select="$segmentOf"/>
-          <xsl:text>/published-expression&gt;</xsl:text>
-        </xsl:if>
+          <xsl:if test="$citedRange != ''">
+            <xsl:call-template name="newline-semicolon"/>
+            <xsl:text>  ns1:R41_has_location &quot;</xsl:text>
+            <xsl:value-of select="$citedRange"/>
+            <xsl:text>&quot;^^xsd:string</xsl:text>
+          </xsl:if>
 
-        <xsl:if test="tei:note[@type = 'context']">
-          <xsl:call-template name="newline-semicolon"/>
-          <xsl:text>   ns1:R44_has_wording &quot;</xsl:text>
-          <xsl:value-of
-            select="replace(translate(tei:note[@type = 'context']/text(), '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
-          <xsl:text>&quot;@und</xsl:text>
-        </xsl:if>
-        <xsl:if test="tei:title[@level = 'm']">
-          <xsl:variable name="uri-m">
-            <xsl:call-template name="get-F24-uri-m"/>
+          <xsl:variable name="segmentOf">
+            <xsl:choose>
+              <xsl:when test="../tei:date/@key">
+                <xsl:value-of select="substring-after(../tei:date/@key, '#')"/>
+              </xsl:when>
+              <xsl:when test="../tei:title[@level = 'm']/@key">
+                <xsl:value-of select="substring-after(../tei:title[@level = 'm']/@key, '#')"/>
+              </xsl:when>
+            </xsl:choose>
           </xsl:variable>
-          <xsl:call-template name="newline-semicolon"/>
-          <xsl:text>   ns1:R25_is_segment_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-          <xsl:value-of select="$uri-m"/>
-          <xsl:text>/published-expression&gt;</xsl:text>
+
+          <xsl:if test="$segmentOf != ''">
+            <xsl:call-template name="newline-semicolon"/>
+            <xsl:text>  ns1:R25_is_segment_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+            <xsl:value-of select="$segmentOf"/>
+            <xsl:text>/published-expression&gt;</xsl:text>
+          </xsl:if>
+
+          <xsl:if test="tei:note[@type = 'context']">
+            <xsl:call-template name="newline-semicolon"/>
+            <xsl:text>   ns1:R44_has_wording &quot;</xsl:text>
+            <xsl:value-of
+              select="replace(translate(tei:note[@type = 'context']/text(), '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+            <xsl:text>&quot;@und</xsl:text>
+          </xsl:if>
+          <xsl:if test="tei:title[@level = 'm']">
+            <xsl:variable name="uri-m">
+              <xsl:call-template name="get-F24-uri-m"/>
+            </xsl:variable>
+            <xsl:call-template name="newline-semicolon"/>
+            <xsl:text>   ns1:R25_is_segment_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+            <xsl:value-of select="$uri-m"/>
+            <xsl:text>/published-expression&gt;</xsl:text>
+          </xsl:if>
+          <xsl:call-template name="newline-dot-newline"/>
         </xsl:if>
-        <xsl:call-template name="newline-dot-newline"/>
       </xsl:for-each>
     </xsl:if>
   </xsl:template>
@@ -375,40 +377,42 @@
       <xsl:call-template name="get-issue-uri"/>
     </xsl:variable>
 
-    <xsl:for-each select="tei:citedRange[not(@wholeText) and not(@wholePeriodical)]">
-      <xsl:variable name="citedRange"
-        select="replace(translate(text(), '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+    <xsl:for-each select="tei:citedRange">
+      <xsl:if test="not(@wholeText) and not(@wholePeriodical)">
+        <xsl:variable name="citedRange"
+          select="replace(translate(text(), '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
 
-      <xsl:call-template name="comment">
-        <xsl:with-param name="text" select="'#INT1 textpassage'"/>
-      </xsl:call-template>
-      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f22"/>
-      <xsl:text>/passage/</xsl:text>
-      <xsl:value-of select="position() - 1"/>
-      <xsl:text>&gt; a ns1:INT1_TextPassage</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  rdfs:label &quot;Text passage from: </xsl:text>
-      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
-      <xsl:text>&quot;@en</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  ns1:R10_is_Text_Passage_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f22"/>
-      <xsl:text>&gt;</xsl:text>
-      <xsl:if test="not($citedRange = '') and not(starts-with($citedRange, 'S. '))">
+        <xsl:call-template name="comment">
+          <xsl:with-param name="text" select="'#INT1 textpassage'"/>
+        </xsl:call-template>
+        <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f22"/>
+        <xsl:text>/passage/</xsl:text>
+        <xsl:value-of select="position() - 1"/>
+        <xsl:text>&gt; a ns1:INT1_TextPassage</xsl:text>
         <xsl:call-template name="newline-semicolon"/>
-        <xsl:text>  ns1:R41_has_location &quot;</xsl:text>
-        <xsl:value-of select="$citedRange"/>
-        <xsl:text>&quot;^^xsd:string</xsl:text>
-      </xsl:if>
-      <xsl:if test="tei:note[@type = 'context']">
+        <xsl:text>  rdfs:label &quot;Text passage from: </xsl:text>
+        <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+        <xsl:text>&quot;@en</xsl:text>
         <xsl:call-template name="newline-semicolon"/>
-        <xsl:text>  ns1:R44_has_wording &quot;</xsl:text>
-        <xsl:value-of
-          select="replace(translate(tei:note[@type = 'context'], '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
-        <xsl:text>&quot;@und</xsl:text>
+        <xsl:text>  ns1:R10_is_Text_Passage_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri-f22"/>
+        <xsl:text>&gt;</xsl:text>
+        <xsl:if test="not($citedRange = '') and not(starts-with($citedRange, 'S. '))">
+          <xsl:call-template name="newline-semicolon"/>
+          <xsl:text>  ns1:R41_has_location &quot;</xsl:text>
+          <xsl:value-of select="$citedRange"/>
+          <xsl:text>&quot;^^xsd:string</xsl:text>
+        </xsl:if>
+        <xsl:if test="tei:note[@type = 'context']">
+          <xsl:call-template name="newline-semicolon"/>
+          <xsl:text>  ns1:R44_has_wording &quot;</xsl:text>
+          <xsl:value-of
+            select="replace(translate(tei:note[@type = 'context'], '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+          <xsl:text>&quot;@und</xsl:text>
+        </xsl:if>
+        <xsl:call-template name="newline-dot-newline"/>
       </xsl:if>
-      <xsl:call-template name="newline-dot-newline"/>
     </xsl:for-each>
   </xsl:template>
 
@@ -1854,99 +1858,25 @@
       <xsl:call-template name="get-F22-uri"/>
     </xsl:variable>
 
-    <xsl:for-each select="tei:citedRange[not(@wholeText) and not(@wholePeriodical)]">
-      <xsl:variable name="uri-citedrange" select="@xml:id"/>
+    <xsl:for-each select="tei:citedRange">
+      <xsl:if test="not(@wholeText) and not(@wholePeriodical)">
+        <xsl:variable name="uri-citedrange" select="@xml:id"/>
 
-      <xsl:call-template name="comment">
-        <xsl:with-param name="text" select="'#E42 textpassage xml:id identifier'"/>
-      </xsl:call-template>
-
-      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-citedrange"/>
-      <xsl:text>/identifier/idno/0&gt; a cidoc:E42_Identifier</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-
-      <xsl:text>  rdfs:label &quot;Identifier: </xsl:text>
-      <xsl:value-of select="$uri-citedrange"/>
-      <xsl:text>&quot;@en</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-
-      <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/idno/xml-id&gt;</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-
-      <xsl:text>  cidoc:P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri-f22"/>
-      <xsl:text>/passage/</xsl:text>
-      <xsl:value-of select="position() - 1"/>
-      <xsl:text>&gt;</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-
-      <xsl:text>  rdf:value &quot;</xsl:text>
-      <xsl:value-of select="$uri-citedrange"/>
-      <xsl:text>&quot;</xsl:text>
-      <xsl:call-template name="newline-dot-newline"/>
-    </xsl:for-each>
-  </xsl:template>
-
-  <xsl:template name="create-E42-INT1-url-identifier">
-    <xsl:variable name="uri-f22">
-      <xsl:call-template name="get-F22-uri"/>
-    </xsl:variable>
-
-    <xsl:for-each select="tei:citedRange[not(@wholeText) and not(@wholePeriodical)]">
-      <xsl:variable name="uri-citedrange" select="@xml:id"/>
-
-      <xsl:for-each select="tei:ref[@type = 'ext']">
         <xsl:call-template name="comment">
-          <xsl:with-param name="text" select="'#E42 url type identifier'"/>
+          <xsl:with-param name="text" select="'#E42 textpassage xml:id identifier'"/>
         </xsl:call-template>
-
-        <xsl:variable name="type">
-          <xsl:text>https://sk.acdh.oeaw.ac.at/types/idno/URL</xsl:text>
-          <xsl:choose>
-            <xsl:when test="contains(@target, '://anno.onb')">
-              <xsl:text>/anno</xsl:text>
-            </xsl:when>
-            <xsl:when test="contains(@target, '://faustedition')">
-              <xsl:text>/faust-edition</xsl:text>
-            </xsl:when>
-            <xsl:when test="contains(@target, '://nietzschesource')">
-              <xsl:text>/nietzsche-source</xsl:text>
-            </xsl:when>
-            <xsl:when test="contains(@target, '://archive.org')">
-              <xsl:text>/archive-org</xsl:text>
-            </xsl:when>
-            <xsl:when
-              test="contains(@target, '://de.wikisource') or contains(@target, '://la.wikisource')">
-              <xsl:text>/wikisource</xsl:text>
-            </xsl:when>
-            <xsl:when test="contains(@target, '://fackel')">
-              <xsl:text>/fackel</xsl:text>
-            </xsl:when>
-            <xsl:when test="contains(@target, '://gallica')">
-              <xsl:text>/gallica</xsl:text>
-            </xsl:when>
-            <xsl:when test="contains(@target, '://textgridrep')">
-              <xsl:text>/textgrid</xsl:text>
-            </xsl:when>
-          </xsl:choose>
-        </xsl:variable>
 
         <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
         <xsl:value-of select="$uri-citedrange"/>
-        <xsl:text>/identifier/idno/</xsl:text>
-        <xsl:value-of select="position()"/>
-        <xsl:text>&gt; a cidoc:E42_Identifier</xsl:text>
+        <xsl:text>/identifier/idno/0&gt; a cidoc:E42_Identifier</xsl:text>
         <xsl:call-template name="newline-semicolon"/>
 
         <xsl:text>  rdfs:label &quot;Identifier: </xsl:text>
-        <xsl:value-of select="@target"/>
+        <xsl:value-of select="$uri-citedrange"/>
         <xsl:text>&quot;@en</xsl:text>
         <xsl:call-template name="newline-semicolon"/>
 
-        <xsl:text>  cidoc:P2_has_type &lt;</xsl:text>
-        <xsl:value-of select="$type"/>
-        <xsl:text>&gt;</xsl:text>
+        <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/idno/xml-id&gt;</xsl:text>
         <xsl:call-template name="newline-semicolon"/>
 
         <xsl:text>  cidoc:P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -1957,10 +1887,88 @@
         <xsl:call-template name="newline-semicolon"/>
 
         <xsl:text>  rdf:value &quot;</xsl:text>
-        <xsl:value-of select="@target"/>
+        <xsl:value-of select="$uri-citedrange"/>
         <xsl:text>&quot;</xsl:text>
         <xsl:call-template name="newline-dot-newline"/>
-      </xsl:for-each>
+      </xsl:if>
+    </xsl:for-each>
+  </xsl:template>
+
+  <xsl:template name="create-E42-INT1-url-identifier">
+    <xsl:variable name="uri-f22">
+      <xsl:call-template name="get-F22-uri"/>
+    </xsl:variable>
+
+    <xsl:for-each select="tei:citedRange">
+      <xsl:if test="not(@wholeText) and not(@wholePeriodical)">
+        <xsl:variable name="uri-citedrange" select="@xml:id"/>
+
+        <xsl:for-each select="tei:ref[@type = 'ext']">
+          <xsl:call-template name="comment">
+            <xsl:with-param name="text" select="'#E42 url type identifier'"/>
+          </xsl:call-template>
+
+          <xsl:variable name="type">
+            <xsl:text>https://sk.acdh.oeaw.ac.at/types/idno/URL</xsl:text>
+            <xsl:choose>
+              <xsl:when test="contains(@target, '://anno.onb')">
+                <xsl:text>/anno</xsl:text>
+              </xsl:when>
+              <xsl:when test="contains(@target, '://faustedition')">
+                <xsl:text>/faust-edition</xsl:text>
+              </xsl:when>
+              <xsl:when test="contains(@target, '://nietzschesource')">
+                <xsl:text>/nietzsche-source</xsl:text>
+              </xsl:when>
+              <xsl:when test="contains(@target, '://archive.org')">
+                <xsl:text>/archive-org</xsl:text>
+              </xsl:when>
+              <xsl:when
+                test="contains(@target, '://de.wikisource') or contains(@target, '://la.wikisource')">
+                <xsl:text>/wikisource</xsl:text>
+              </xsl:when>
+              <xsl:when test="contains(@target, '://fackel')">
+                <xsl:text>/fackel</xsl:text>
+              </xsl:when>
+              <xsl:when test="contains(@target, '://gallica')">
+                <xsl:text>/gallica</xsl:text>
+              </xsl:when>
+              <xsl:when test="contains(@target, '://textgridrep')">
+                <xsl:text>/textgrid</xsl:text>
+              </xsl:when>
+            </xsl:choose>
+          </xsl:variable>
+
+          <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+          <xsl:value-of select="$uri-citedrange"/>
+          <xsl:text>/identifier/idno/</xsl:text>
+          <xsl:value-of select="position()"/>
+          <xsl:text>&gt; a cidoc:E42_Identifier</xsl:text>
+          <xsl:call-template name="newline-semicolon"/>
+
+          <xsl:text>  rdfs:label &quot;Identifier: </xsl:text>
+          <xsl:value-of select="@target"/>
+          <xsl:text>&quot;@en</xsl:text>
+          <xsl:call-template name="newline-semicolon"/>
+
+          <xsl:text>  cidoc:P2_has_type &lt;</xsl:text>
+          <xsl:value-of select="$type"/>
+          <xsl:text>&gt;</xsl:text>
+          <xsl:call-template name="newline-semicolon"/>
+
+          <xsl:text>  cidoc:P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+          <xsl:value-of select="$uri-f22"/>
+          <xsl:text>/passage/</xsl:text>
+          <xsl:value-of select="position() - 1"/>
+          <xsl:text>&gt;</xsl:text>
+          <xsl:call-template name="newline-semicolon"/>
+
+          <xsl:text>  rdf:value &quot;</xsl:text>
+          <xsl:value-of select="@target"/>
+          <xsl:text>&quot;</xsl:text>
+          <xsl:call-template name="newline-dot-newline"/>
+        </xsl:for-each>
+      </xsl:if>
     </xsl:for-each>
   </xsl:template>
 
@@ -1969,61 +1977,62 @@
       <xsl:call-template name="get-F22-uri"/>
     </xsl:variable>
 
-    <xsl:for-each select="tei:citedRange[tei:ref[@type = 'int']]">
+    <xsl:for-each select="tei:citedRange">
       <xsl:variable name="n" select="position() - 1"/>
-
-      <xsl:call-template name="comment">
-        <xsl:with-param name="text" select="'#INT3 intertext relationship'"/>
-      </xsl:call-template>
-      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri"/>
-      <xsl:text>/relation/</xsl:text>
-      <xsl:value-of select="$n"/>
-      <xsl:text>&gt; a ns1:INT3_IntertextualRelationship </xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-
-      <xsl:text>  rdfs:label &quot;Intertextual relation&quot;@en</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-
-      <xsl:variable name="r13-uri">
-        <xsl:call-template name="get-ref-uri">
-          <xsl:with-param name="selector" select="."/>
-          <xsl:with-param name="n" select="$n"/>
+      <xsl:if test="tei:ref[@type = 'int']">
+        <xsl:call-template name="comment">
+          <xsl:with-param name="text" select="'#INT3 intertext relationship'"/>
         </xsl:call-template>
-      </xsl:variable>
+        <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri"/>
+        <xsl:text>/relation/</xsl:text>
+        <xsl:value-of select="$n"/>
+        <xsl:text>&gt; a ns1:INT3_IntertextualRelationship </xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
 
-      <xsl:variable name="r12-uri">
-        <xsl:variable name="xmlid" select="translate(tei:ref[@type = 'int']/@target, '#', '')"/>
-        <xsl:variable name="selector" select="//tei:citedRange[@xml:id = $xmlid]"/>
-        <xsl:variable name="bibl" select="$selector/parent::tei:bibl"/>
-        <xsl:variable name="id">
-          <xsl:choose>
-            <xsl:when test="$selector[@wholeText = 'yes']">
-              <xsl:value-of select="$selector/@xml:id"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="$bibl/@xml:id"/>
-            </xsl:otherwise>
-          </xsl:choose>
+        <xsl:text>  rdfs:label &quot;Intertextual relation&quot;@en</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+
+        <xsl:variable name="r13-uri">
+          <xsl:call-template name="get-ref-uri">
+            <xsl:with-param name="selector" select="."/>
+            <xsl:with-param name="n" select="$n"/>
+          </xsl:call-template>
         </xsl:variable>
 
-        <xsl:value-of select="$id"/>
+        <xsl:variable name="r12-uri">
+          <xsl:variable name="xmlid" select="translate(tei:ref[@type = 'int']/@target, '#', '')"/>
+          <xsl:variable name="selector" select="//tei:citedRange[@xml:id = $xmlid]"/>
+          <xsl:variable name="bibl" select="$selector/parent::tei:bibl"/>
+          <xsl:variable name="id">
+            <xsl:choose>
+              <xsl:when test="$selector[@wholeText = 'yes']">
+                <xsl:value-of select="$selector/@xml:id"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:value-of select="$bibl/@xml:id"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
 
-        <xsl:if test="not(//tei:citedRange[@xml:id = $id and @wholeText = 'yes'])">
-          <xsl:text>/passage/</xsl:text>
-          <xsl:value-of select="count($selector/preceding-sibling::tei:citedRange)"/>
-        </xsl:if>
-      </xsl:variable>
+          <xsl:value-of select="$id"/>
 
-      <xsl:text>  ns1:R12_has_referred_to_entity &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$r12-uri"/>
-      <xsl:text>&gt;</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
+          <xsl:if test="not(//tei:citedRange[@xml:id = $id and @wholeText = 'yes'])">
+            <xsl:text>/passage/</xsl:text>
+            <xsl:value-of select="count($selector/preceding-sibling::tei:citedRange)"/>
+          </xsl:if>
+        </xsl:variable>
 
-      <xsl:text>  ns1:R13_has_referring_entity &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$r13-uri"/>
-      <xsl:text>&gt;</xsl:text>
-      <xsl:call-template name="newline-dot-newline"/>
+        <xsl:text>  ns1:R12_has_referred_to_entity &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$r12-uri"/>
+        <xsl:text>&gt;</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+
+        <xsl:text>  ns1:R13_has_referring_entity &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$r13-uri"/>
+        <xsl:text>&gt;</xsl:text>
+        <xsl:call-template name="newline-dot-newline"/>
+      </xsl:if>
     </xsl:for-each>
   </xsl:template>
 
