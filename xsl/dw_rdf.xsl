@@ -1474,7 +1474,7 @@
       <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
       <xsl:text>&quot;@en</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  cidoc:R24_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:text>  frbroo:R24_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
       <xsl:value-of select="$uri"/>
       <xsl:text>/published-expression&gt;</xsl:text>
       <xsl:for-each select="tei:pubPlace">
@@ -1524,7 +1524,7 @@
         <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
         <xsl:text>&quot;@en</xsl:text>
         <xsl:call-template name="newline-semicolon"/>
-        <xsl:text>  cidoc:R24_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:text>  frbroo:R24_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
         <xsl:value-of select="$uri"/>
         <xsl:text>/published-expression&gt;</xsl:text>
         <xsl:for-each select="tei:pubPlace">
