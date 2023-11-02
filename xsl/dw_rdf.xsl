@@ -479,7 +479,7 @@
       </xsl:variable>
       <xsl:variable name="title">
         <xsl:choose>
-          <xsl:when test="$uri-f24 = @xml:id">
+          <xsl:when test="$uri-f24 = @xml:id or $uri-f24=tei:citedRange[@wholeText='yes']/@xml:id">
             <xsl:text>Publication carrying: </xsl:text>
           </xsl:when>
           <xsl:otherwise>
