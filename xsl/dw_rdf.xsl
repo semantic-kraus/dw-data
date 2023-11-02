@@ -1560,6 +1560,9 @@
       <xsl:if test="tei:date[@when or @notBefore or @notAfter]">
         <xsl:variable name="uri">
           <xsl:choose>
+            <xsl:when test="tei:citedRange[@wholeText='yes']">
+              <xsl:value-of select="tei:citedRange[@wholeText='yes']/@xml:id"/>
+            </xsl:when>
             <xsl:when test="tei:title[@level = 'm']">
               <xsl:call-template name="get-F24-uri-m"/>
             </xsl:when>
