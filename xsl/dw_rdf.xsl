@@ -1449,13 +1449,13 @@
           <xsl:call-template name="newline-semicolon"/>
           <xsl:text>  cidoc:P82a_begin_of_the_begin </xsl:text>
           <xsl:value-of select="$begin-date"/>
-        </xsl:if>        
+        </xsl:if>
         <xsl:if test="$end-date != ''">
           <xsl:call-template name="newline-semicolon"/>
           <xsl:text>  cidoc:P82b_end_of_the_end </xsl:text>
           <xsl:value-of select="$end-date"/>
         </xsl:if>
-        <xsl:if test="tei:date[@type='approx']">
+        <xsl:if test="tei:date[@type = 'approx'] or $begin-date = '' or $end-date = ''">
           <xsl:call-template name="newline-semicolon"/>
           <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/date/approx&gt;</xsl:text>
         </xsl:if>
@@ -1560,8 +1560,8 @@
       <xsl:if test="tei:date[@when or @notBefore or @notAfter]">
         <xsl:variable name="uri">
           <xsl:choose>
-            <xsl:when test="tei:citedRange[@wholeText='yes']">
-              <xsl:value-of select="tei:citedRange[@wholeText='yes']/@xml:id"/>
+            <xsl:when test="tei:citedRange[@wholeText = 'yes']">
+              <xsl:value-of select="tei:citedRange[@wholeText = 'yes']/@xml:id"/>
             </xsl:when>
             <xsl:when test="tei:title[@level = 'm']">
               <xsl:call-template name="get-F24-uri-m"/>
@@ -1604,13 +1604,13 @@
             <xsl:call-template name="newline-semicolon"/>
             <xsl:text>  cidoc:P82a_begin_of_the_begin </xsl:text>
             <xsl:value-of select="$begin-date"/>
-          </xsl:if>          
+          </xsl:if>
           <xsl:if test="$end-date != ''">
             <xsl:call-template name="newline-semicolon"/>
             <xsl:text>  cidoc:P82b_end_of_the_end </xsl:text>
             <xsl:value-of select="$end-date"/>
           </xsl:if>
-          <xsl:if test="tei:date[@type='approx']">
+          <xsl:if test="tei:date[@type = 'approx'] or $begin-date = '' or $end-date = ''">
             <xsl:call-template name="newline-semicolon"/>
             <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/date/approx&gt;</xsl:text>
           </xsl:if>
@@ -1654,13 +1654,13 @@
           <xsl:call-template name="newline-semicolon"/>
           <xsl:text>  cidoc:P82a_begin_of_the_begin </xsl:text>
           <xsl:value-of select="$begin-date"/>
-        </xsl:if>        
+        </xsl:if>
         <xsl:if test="$end-date != ''">
           <xsl:call-template name="newline-semicolon"/>
           <xsl:text>  cidoc:P82b_end_of_the_end </xsl:text>
           <xsl:value-of select="$end-date"/>
         </xsl:if>
-        <xsl:if test="tei:date[@type='approx']">
+        <xsl:if test="tei:date[@type = 'approx'] or $begin-date = '' or $end-date = ''">
           <xsl:call-template name="newline-semicolon"/>
           <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/date/approx&gt;</xsl:text>
         </xsl:if>
@@ -1741,7 +1741,7 @@
         <xsl:text>  cidoc:P82b_end_of_the_end </xsl:text>
         <xsl:value-of select="$end-date"/>
       </xsl:if>
-      <xsl:if test="tei:date[@type='approx']">
+      <xsl:if test="tei:date[@type = 'approx'] or $begin-date = '' or $end-date = ''">
         <xsl:call-template name="newline-semicolon"/>
         <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/date/approx&gt;</xsl:text>
       </xsl:if>
