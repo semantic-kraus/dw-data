@@ -45,14 +45,14 @@ declare function local:getInfo($sourceId as xs:string, $item as node(), $listBib
                                         "no"
                         )
                             
-    let $posCitedRange :=  count($bibl/tei:citedRange[@xml:id=$sourceId]/preceding-sibling::tei:citedRange) + 1
+    let $posCitedRange :=  count($bibl/tei:citedRange[@xml:id=$sourceId]/preceding-sibling::tei:citedRange)
     
     (:  - "@refPos" für die Position des citedRange, das in @refInt referenziert wird. :)
     let $refPos :=  if ($refInt = "no") then
                         "no"
                     else (
                         let $refBibl := $listBibl/tei:bibl[tei:citedRange[@xml:id=$refInt]]
-                        return count($refBibl/tei:citedRange[@xml:id=$refInt]/preceding-sibling::tei:citedRange) + 1
+                        return count($refBibl/tei:citedRange[@xml:id=$refInt]/preceding-sibling::tei:citedRange)
                     )
     
     (:  - "@refBase" für die Basis-ID des in @refInt referenzierten citedRange. :)
@@ -106,7 +106,7 @@ declare function local:getInfo($sourceId as xs:string, $item as node(), $listBib
                         "no"
                     else (
                         let $refBibl := $listBibl/tei:bibl[tei:citedRange[@xml:id=$refInt2]]
-                        return count($refBibl/tei:citedRange[@xml:id=$refInt2]/preceding-sibling::tei:citedRange) + 1  
+                        return count($refBibl/tei:citedRange[@xml:id=$refInt2]/preceding-sibling::tei:citedRange)  
                     )
 
     (:  - "@refBase2" für die Basis-ID des im @refInt2 referenzierten citedRange :)

@@ -121,8 +121,7 @@
       <xsl:call-template name="get-F24-uri-origin"/>
     </xsl:variable>
 
-    <xsl:if test="not($uri-origin = 'id' or $uri-origin = 'cited-wholetext-id')">
-
+    <xsl:if test="not(tei:citedRange[@wholePeriodical = 'yes'] and $uri-origin = 'id')">
       <xsl:call-template name="comment">
         <xsl:with-param name="text" select="'#F22'"/>
       </xsl:call-template>
@@ -481,7 +480,7 @@
         <xsl:call-template name="get-F24-uri-origin"/>
       </xsl:variable>
 
-      <xsl:if test="not($uri-origin = 'id' or $uri-origin = 'cited-wholetext-id')">
+      <xsl:if test="not(tei:citedRange[@wholePeriodical = 'yes'] and $uri-origin = 'id')">
         <xsl:call-template name="comment">
           <xsl:with-param name="text" select="'#F24'"/>
         </xsl:call-template>
@@ -1512,7 +1511,7 @@
         <xsl:call-template name="get-F24-uri-origin"/>
       </xsl:variable>
 
-      <xsl:if test="not($uri-origin = 'id' or $uri-origin = 'cited-wholetext-id')">
+      <xsl:if test="not(tei:citedRange[@wholePeriodical = 'yes'] and $uri-origin = 'id')">
         <xsl:call-template name="comment">
           <xsl:with-param name="text" select="'#F30 issue'"/>
         </xsl:call-template>
@@ -1571,7 +1570,7 @@
           <xsl:call-template name="get-F24-uri-origin"/>
         </xsl:variable>
 
-        <xsl:if test="not($uri-origin = 'id' or $uri-origin = 'cited-wholetext-id')">
+        <xsl:if test="not(tei:citedRange[@wholePeriodical = 'yes'] and $uri-origin = 'id')">
           <xsl:call-template name="comment">
             <xsl:with-param name="text" select="'#E52 publication time-span'"/>
           </xsl:call-template>
