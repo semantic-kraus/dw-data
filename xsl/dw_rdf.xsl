@@ -1558,63 +1558,66 @@
   <xsl:template name="create-E52-publication-timespan">
     <xsl:if test="not(tei:date/tei:note/text() = 'UA' or tei:date/tei:note/text() = 'Entst.')">
       <xsl:if test="tei:date[@when or @notBefore or @notAfter]">
-        <xsl:variable name="uri">
-          <xsl:choose>
-            <xsl:when test="tei:citedRange[@wholeText = 'yes']">
-              <xsl:value-of select="tei:citedRange[@wholeText = 'yes']/@xml:id"/>
-            </xsl:when>
-            <xsl:when test="tei:title[@level = 'm']">
-              <xsl:call-template name="get-F24-uri-m"/>
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:call-template name="get-F24-uri"/>
-            </xsl:otherwise>
-          </xsl:choose>
-        </xsl:variable>
-        <xsl:variable name="title">
-          <xsl:call-template name="get-timespan-title"/>
-        </xsl:variable>
-        <xsl:variable name="begin-date">
-          <xsl:call-template name="get-timespan-begin"/>
-        </xsl:variable>
-        <xsl:variable name="end-date">
-          <xsl:call-template name="get-timespan-end"/>
-        </xsl:variable>
+        <xsl:if
+          test="not(tei:title[@level = 'm']/@key) and not(tei:date/@key) and tei:citedRange[@wholeText = 'yes']">
+          <xsl:variable name="uri">
+            <xsl:choose>
+              <xsl:when test="tei:citedRange[@wholeText = 'yes']">
+                <xsl:value-of select="tei:citedRange[@wholeText = 'yes']/@xml:id"/>
+              </xsl:when>
+              <xsl:when test="tei:title[@level = 'm']">
+                <xsl:call-template name="get-F24-uri-m"/>
+              </xsl:when>
+              <xsl:otherwise>
+                <xsl:call-template name="get-F24-uri"/>
+              </xsl:otherwise>
+            </xsl:choose>
+          </xsl:variable>
+          <xsl:variable name="title">
+            <xsl:call-template name="get-timespan-title"/>
+          </xsl:variable>
+          <xsl:variable name="begin-date">
+            <xsl:call-template name="get-timespan-begin"/>
+          </xsl:variable>
+          <xsl:variable name="end-date">
+            <xsl:call-template name="get-timespan-end"/>
+          </xsl:variable>
 
-        <xsl:variable name="uri-origin">
-          <xsl:call-template name="get-F24-uri-origin"/>
-        </xsl:variable>
+          <xsl:variable name="uri-origin">
+            <xsl:call-template name="get-F24-uri-origin"/>
+          </xsl:variable>
 
-        <xsl:if test="not(tei:citedRange[@wholePeriodical = 'yes'] and $uri-origin = 'id')">
-          <xsl:call-template name="comment">
-            <xsl:with-param name="text" select="'#E52 publication time-span'"/>
-          </xsl:call-template>
-          <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-          <xsl:value-of select="$uri"/>
-          <xsl:text>/publication/time-span&gt; a cidoc:E52_Time-Span</xsl:text>
-          <xsl:call-template name="newline-semicolon"/>
-          <xsl:text>  rdfs:label &quot;</xsl:text>
-          <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
-          <xsl:text>&quot;@en</xsl:text>
-          <xsl:call-template name="newline-semicolon"/>
-          <xsl:text>  cidoc:P4i_is_time-span_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-          <xsl:value-of select="$uri"/>
-          <xsl:text>/publication&gt;</xsl:text>
-          <xsl:if test="$begin-date != ''">
+          <xsl:if test="not(tei:citedRange[@wholePeriodical = 'yes'] and $uri-origin = 'id')">
+            <xsl:call-template name="comment">
+              <xsl:with-param name="text" select="'#E52 publication time-span'"/>
+            </xsl:call-template>
+            <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+            <xsl:value-of select="$uri"/>
+            <xsl:text>/publication/time-span&gt; a cidoc:E52_Time-Span</xsl:text>
             <xsl:call-template name="newline-semicolon"/>
-            <xsl:text>  cidoc:P82a_begin_of_the_begin </xsl:text>
-            <xsl:value-of select="$begin-date"/>
-          </xsl:if>
-          <xsl:if test="$end-date != ''">
+            <xsl:text>  rdfs:label &quot;</xsl:text>
+            <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+            <xsl:text>&quot;@en</xsl:text>
             <xsl:call-template name="newline-semicolon"/>
-            <xsl:text>  cidoc:P82b_end_of_the_end </xsl:text>
-            <xsl:value-of select="$end-date"/>
+            <xsl:text>  cidoc:P4i_is_time-span_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+            <xsl:value-of select="$uri"/>
+            <xsl:text>/publication&gt;</xsl:text>
+            <xsl:if test="$begin-date != ''">
+              <xsl:call-template name="newline-semicolon"/>
+              <xsl:text>  cidoc:P82a_begin_of_the_begin </xsl:text>
+              <xsl:value-of select="$begin-date"/>
+            </xsl:if>
+            <xsl:if test="$end-date != ''">
+              <xsl:call-template name="newline-semicolon"/>
+              <xsl:text>  cidoc:P82b_end_of_the_end </xsl:text>
+              <xsl:value-of select="$end-date"/>
+            </xsl:if>
+            <xsl:if test="tei:date[@type = 'approx'] or $begin-date = '' or $end-date = ''">
+              <xsl:call-template name="newline-semicolon"/>
+              <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/date/approx&gt;</xsl:text>
+            </xsl:if>
+            <xsl:call-template name="newline-dot-newline"/>
           </xsl:if>
-          <xsl:if test="tei:date[@type = 'approx'] or $begin-date = '' or $end-date = ''">
-            <xsl:call-template name="newline-semicolon"/>
-            <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/date/approx&gt;</xsl:text>
-          </xsl:if>
-          <xsl:call-template name="newline-dot-newline"/>
         </xsl:if>
       </xsl:if>
     </xsl:if>
