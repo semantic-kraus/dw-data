@@ -22,10 +22,7 @@
     <text>
 		<body>
 			<listBibl>
-				<bibl source="_" xml:id="_">
-					<title level="m">[Nicht ermittelt]</title>
-					<citedRange xml:id="DWbibl00211" wholeText="yes"/>
-				</bibl>
+				
 
 				<bibl source="_" xml:id="DWbibl02015" sortKey="N._N." corresp="#DWfacs1292">
 					<title level="a">[Motto]</title>
@@ -7003,7 +7000,7 @@ den Kampf -->
 				
 				<bibl source="_" xml:id="DWbibl03953" sortKey="N._N.">
 					<title level="m">Edda [altisländische Textsammlungen]</title>
-					<date notBefore="1220" type="approx">~1220 („Snorra-Edda“) bzw. ~1270 („Lieder-Edda“)</date>
+					<date notBefore="1220" notAfter="1270" type="approx">~1220 („Snorra-Edda“) bzw. ~1270 („Lieder-Edda“)<note>Entst.</note></date>
 					<citedRange xml:id="DWbibl03954" wholeText="yes"/>
 				</bibl>
 				
@@ -7696,7 +7693,7 @@ den Kampf -->
 					<ref type="gen" target="https://archive.org/details/operaquaereperir01huttuoft/page/194/mode/2up" subtype="example"/>
 					<author key="#nDWpers1349">Ulrich von Hutten</author>
 					<title level="m">[Brief an Willibald Birckheimer]</title>
-					<date when="1518-10-25">25. 10. 1518</date>
+					<date when="1518-10-25">25. 10. 1518<note>Entst.</note></date>
 					<citedRange xml:id="DWbibl00357">
 						<note type="context">O seculum! o literae! Iuvat vivere, etsi quiescere
 							nundum iuvat, Bilibalde. Vigent studia, florent ingenia. [O Jahrhundert!
@@ -8782,7 +8779,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 					<author key="#nDWpers1364">Plato</author>
 					<title level="m">Nomoi / Gesetze</title>
 					<num>Buch 7</num>
-					<date when="-0350" type="approx">~ 350 v. Chr.</date>
+					<date when="-0350" type="approx">~ 350 v. Chr.<note>Entst.</note></date>
 					<citedRange xml:id="DWbibl01519"/><!-- Si vis … pacem  -->
 				</bibl>
 

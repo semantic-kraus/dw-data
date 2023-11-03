@@ -1394,7 +1394,7 @@
 							<surname>Puttkamer</surname>
 						</persName>
 						<birth when="1828-05-05">5. 5. 1828<placeName key="#DWplace00183">Frankfurt an der Oder</placeName></birth>
-						<death when="1900-03-15">15. 3. 1900<placeName key="#DWplace00275">Karzin bei Stolp</placeName></death>
+						<death when="1900-03-15">15. 3. 1900<placeName key="#DWplace00275">Gut Karzin bei Stolp</placeName></death>
 						<persName type="sk" subtype="pref">Puttkamer, Robert Viktor von</persName>
 						<occupation type="prim" n="01">Politiker, preußischer Staatsminister</occupation>
 						<occupation notBefore="1881" notAfter="1888" n="02">Preußischer Innenminister</occupation>
@@ -1838,7 +1838,7 @@
 							<forename>Rufin</forename>
 							<surname>Wolnitza</surname>
 						</persName>
-						<birth when="1907-05-10">10. 5. 1907<placeName key="#DWplace00299">Eichenau (Dąbrówka MałaKatowice)</placeName></birth>
+						<birth when="1907-05-10">10. 5. 1907<placeName key="#DWplace00299">Eichenau (Dąbrówka Mała, Katowice)</placeName></birth>
 						<death when="1941-12-13" type="approx">wahrsch. 13. 12. 1941<placeName key="#DWplace00137">Tschudowo</placeName></death>
 						<persName type="sk" subtype="pref">Wolnitza, Rufin</persName>
 						<occupation type="prim" n="01">Grubenarbeiter</occupation>
