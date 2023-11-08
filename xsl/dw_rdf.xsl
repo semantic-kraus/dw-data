@@ -2047,8 +2047,8 @@
           <xsl:variable name="bibl" select="$selector/parent::tei:bibl"/>
           <xsl:variable name="id">
             <xsl:choose>
-              <xsl:when test="$selector[@wholeText = 'yes']">
-                <xsl:value-of select="$selector/@xml:id"/>
+              <xsl:when test="$bibl/tei:citedRange[@wholeText = 'yes']">
+                <xsl:value-of select="$bibl/tei:citedRange/@xml:id"/>
               </xsl:when>
               <xsl:otherwise>
                 <xsl:value-of select="$bibl/@xml:id"/>
