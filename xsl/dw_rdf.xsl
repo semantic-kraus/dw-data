@@ -1563,17 +1563,20 @@
   </xsl:template>
 
   <xsl:template name="create-E52-publication-timespan">
-    <xsl:if test="not(tei:date/tei:note/text() = 'UA' or tei:date/tei:note/text() = 'Entst.')">
+    <xsl:if test="not(tei:date/tei:note/text() = 'UA' or tei:date/tei:note/text() = 'Entst.') and not(tei:citedRange[@wholePeriodical])">
       <xsl:if test="tei:date[@when or @notBefore or @notAfter]">
         <xsl:if
-          test="(not(tei:title[@level = 'm']/@key) and not(tei:date/@key) and tei:citedRange[@wholeText = 'yes']) or (not(tei:date/@key) and not(tei:title/@key) and not(tei:citedRange/@wholeText) and not(tei:citedRange/@wholePeriodical))">
+          test="(not(tei:title[@level = 'm']/@key) and not(tei:date/@key) and tei:citedRange[@wholeText = 'yes']) or (not(tei:date/@key) and not(tei:title/@key) and not(tei:citedRange/@wholeText) and not(tei:citedRange/@wholePeriodical))or (tei:title[@level = 'm']/@key) or (tei:date/@key and tei:title[@level = 'j'])">
           <xsl:variable name="uri">
             <xsl:choose>
               <xsl:when test="tei:citedRange[@wholeText = 'yes']">
                 <xsl:value-of select="tei:citedRange[@wholeText = 'yes']/@xml:id"/>
               </xsl:when>
-              <xsl:when test="tei:title[@level = 'm']">
+              <xsl:when test="tei:title[@level = 'm']/@key">
                 <xsl:call-template name="get-F24-uri-m"/>
+              </xsl:when>
+              <xsl:when test="tei:title[@level = 'j'] and tei:date/@key">
+                <xsl:value-of select="tei:date/@key"/>
               </xsl:when>
               <xsl:otherwise>
                 <xsl:call-template name="get-F24-uri"/>
