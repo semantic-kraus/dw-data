@@ -536,9 +536,9 @@
       <xsl:value-of select="$uri-period"/>
       <xsl:text>&gt; a frbroo:F24_Publication_Expression</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  rdfs:label &quot;Periodical: </xsl:text>
+      <xsl:text>  rdfs:label &quot;</xsl:text>
       <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
-      <xsl:text>&quot;@en</xsl:text>
+      <xsl:text> (Periodical/Series)&quot;@en</xsl:text>
       <xsl:if test="tei:date[@key]">
         <xsl:call-template name="newline-semicolon"/>
         <xsl:text>  frbroo:R5_has_component &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
@@ -553,7 +553,6 @@
     <xsl:if
       test="tei:date and not(tei:date/tei:note/text() = 'UA' or tei:date/tei:note/text() = 'Entst.')">
       <xsl:variable name="title">
-        <xsl:text>Published Expression: </xsl:text>
         <xsl:call-template name="get-F24-title"/>
       </xsl:variable>
       <xsl:variable name="uri-f22">
@@ -579,7 +578,7 @@
       <xsl:call-template name="newline-semicolon"/>
       <xsl:text>  rdfs:label &quot;</xsl:text>
       <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
-      <xsl:text>&quot;@en </xsl:text>
+      <xsl:text> (Published Issue)&quot;@en </xsl:text>
       <xsl:if test="tei:title[level = 'j']">
         <xsl:variable name="uri-period">
           <xsl:call-template name="get-periodical-uri"/>
@@ -2155,10 +2154,10 @@ Da ist noch ein Wurm drin:
   <xsl:template name="get-issue-title-text">
     <xsl:choose>
       <xsl:when test="tei:title[@level = 'j']">
-        <xsl:value-of select="concat('Issue: ', tei:title[@level = 'j'][1]/text())"/>
+        <xsl:value-of select="concat(tei:title[@level = 'j'][1]/text(), ' (Issue)')"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:value-of select="concat('Expression: ', tei:title[@level = 'm'][1]/text())"/>
+        <xsl:value-of select="tei:title[@level = 'm'][1]/text()"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
