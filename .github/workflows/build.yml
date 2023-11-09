@@ -31,6 +31,14 @@ jobs:
     - name: create inverse triples 
       run: |
         python scripts/owl_inverse_props.py
-    - name: Deploy
+    - name: Deploy Graph
       run: |
         ./update_graph.sh
+    - name: Create Pages
+      run: |
+        ./create_pages.sh
+    - name: Deploy Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./html
