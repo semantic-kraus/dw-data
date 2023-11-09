@@ -475,7 +475,8 @@
       </xsl:variable>
       <xsl:variable name="title">
         <xsl:choose>
-          <xsl:when test="$uri-f24 = @xml:id or $uri-f24=tei:citedRange[@wholeText='yes']/@xml:id">
+          <xsl:when
+            test="$uri-f24 = @xml:id or $uri-f24 = tei:citedRange[@wholeText = 'yes']/@xml:id">
             <xsl:text>Publication carrying: </xsl:text>
           </xsl:when>
           <xsl:otherwise>
@@ -1272,44 +1273,47 @@
   <xsl:template name="create-F28">
     <xsl:if
       test="tei:author[not(@role) or (@role != 'pretext' and @role != 'Gründerin' and @role != 'Herausgeber')] or contains(tei:date/tei:note/text(), 'Entst.')">
-      <xsl:variable name="title">
-        <xsl:call-template name="get-F22-title"/>
-      </xsl:variable>
-      <xsl:variable name="uri">
-        <xsl:call-template name="get-F22-uri"/>
-      </xsl:variable>
+      <xsl:if test="not(tei:citedRange[@wholePeriodical = 'yes'])">
 
-      <xsl:call-template name="comment">
-        <xsl:with-param name="text" select="'#F28'"/>
-      </xsl:call-template>
-      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri"/>
-      <xsl:text>/creation&gt; a frbroo:F28_Expression_Creation</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
+        <xsl:variable name="title">
+          <xsl:call-template name="get-F22-title"/>
+        </xsl:variable>
+        <xsl:variable name="uri">
+          <xsl:call-template name="get-F22-uri"/>
+        </xsl:variable>
 
-      <xsl:text>  rdfs:label &quot;Creation of: </xsl:text>
-      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
-      <xsl:text>&quot;@en</xsl:text>
-      <xsl:call-template name="newline-semicolon"/>
-
-      <xsl:text>  frbroo:R17_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-      <xsl:value-of select="$uri"/>
-      <xsl:text>&gt;</xsl:text>
-      <xsl:if test="contains(tei:date/tei:note/text(), 'Entst.')">
-        <xsl:call-template name="newline-semicolon"/>
-        <xsl:text>  cidoc:P4_has_time-span &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:call-template name="comment">
+          <xsl:with-param name="text" select="'#F28'"/>
+        </xsl:call-template>
+        <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
         <xsl:value-of select="$uri"/>
-        <xsl:text>/creation/time-span&gt;</xsl:text>
-      </xsl:if>
-
-      <xsl:for-each
-        select="tei:author[not(@role) or (@role != 'pretext' and @role != 'Gründerin' and @role != 'Herausgeber')]">
+        <xsl:text>/creation&gt; a frbroo:F28_Expression_Creation</xsl:text>
         <xsl:call-template name="newline-semicolon"/>
-        <xsl:text>  cidoc:P14_carried_out_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-        <xsl:value-of select="translate(@key, '#', '')"/>
+
+        <xsl:text>  rdfs:label &quot;Creation of: </xsl:text>
+        <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+        <xsl:text>&quot;@en</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+
+        <xsl:text>  frbroo:R17_created &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+        <xsl:value-of select="$uri"/>
         <xsl:text>&gt;</xsl:text>
-      </xsl:for-each>
-      <xsl:call-template name="newline-dot-newline"/>
+        <xsl:if test="contains(tei:date/tei:note/text(), 'Entst.')">
+          <xsl:call-template name="newline-semicolon"/>
+          <xsl:text>  cidoc:P4_has_time-span &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+          <xsl:value-of select="$uri"/>
+          <xsl:text>/creation/time-span&gt;</xsl:text>
+        </xsl:if>
+
+        <xsl:for-each
+          select="tei:author[not(@role) or (@role != 'pretext' and @role != 'Gründerin' and @role != 'Herausgeber')]">
+          <xsl:call-template name="newline-semicolon"/>
+          <xsl:text>  cidoc:P14_carried_out_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+          <xsl:value-of select="translate(@key, '#', '')"/>
+          <xsl:text>&gt;</xsl:text>
+        </xsl:for-each>
+        <xsl:call-template name="newline-dot-newline"/>
+      </xsl:if>
     </xsl:if>
   </xsl:template>
 
@@ -1559,17 +1563,20 @@
   </xsl:template>
 
   <xsl:template name="create-E52-publication-timespan">
-    <xsl:if test="not(tei:date/tei:note/text() = 'UA' or tei:date/tei:note/text() = 'Entst.')">
+    <xsl:if test="not(tei:date/tei:note/text() = 'UA' or tei:date/tei:note/text() = 'Entst.') and not(tei:citedRange[@wholePeriodical])">
       <xsl:if test="tei:date[@when or @notBefore or @notAfter]">
         <xsl:if
-          test="(not(tei:title[@level = 'm']/@key) and not(tei:date/@key) and tei:citedRange[@wholeText = 'yes']) or (not(tei:date/@key) and not(tei:title/@key) and not(tei:citedRange/@wholeText) and not(tei:citedRange/@wholePeriodical))">
+          test="(not(tei:title[@level = 'm']/@key) and not(tei:date/@key) and tei:citedRange[@wholeText = 'yes']) or (not(tei:date/@key) and not(tei:title/@key) and not(tei:citedRange/@wholeText) and not(tei:citedRange/@wholePeriodical))or (tei:title[@level = 'm']/@key) or (tei:date/@key and tei:title[@level = 'j'])">
           <xsl:variable name="uri">
             <xsl:choose>
               <xsl:when test="tei:citedRange[@wholeText = 'yes']">
                 <xsl:value-of select="tei:citedRange[@wholeText = 'yes']/@xml:id"/>
               </xsl:when>
-              <xsl:when test="tei:title[@level = 'm']">
+              <xsl:when test="tei:title[@level = 'm']/@key">
                 <xsl:call-template name="get-F24-uri-m"/>
+              </xsl:when>
+              <xsl:when test="tei:title[@level = 'j'] and tei:date/@key">
+                <xsl:value-of select="tei:date/@key"/>
               </xsl:when>
               <xsl:otherwise>
                 <xsl:call-template name="get-F24-uri"/>
@@ -1756,73 +1763,77 @@
   </xsl:template>
 
   <xsl:template name="create-E42-xmlid-identifier">
-    <xsl:variable name="uri-f22">
-      <xsl:call-template name="get-F22-uri"/>
-    </xsl:variable>
+    <xsl:if test="not(tei:citedRange[@wholePeriodical = 'yes'])">
+      <xsl:variable name="uri-f22">
+        <xsl:call-template name="get-F22-uri"/>
+      </xsl:variable>
 
-    <xsl:call-template name="comment">
-      <xsl:with-param name="text" select="'#E42 xml:id identifier'"/>
-    </xsl:call-template>
-    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-    <xsl:value-of select="$uri-f22"/>
-    <xsl:text>/identifier/idno/0&gt; a cidoc:E42_Identifier</xsl:text>
-    <xsl:call-template name="newline-semicolon"/>
+      <xsl:call-template name="comment">
+        <xsl:with-param name="text" select="'#E42 xml:id identifier'"/>
+      </xsl:call-template>
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri-f22"/>
+      <xsl:text>/identifier/idno/0&gt; a cidoc:E42_Identifier</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
 
-    <xsl:text>  rdfs:label &quot;Identifier: </xsl:text>
-    <xsl:value-of select="$uri-f22"/>
-    <xsl:text>&quot;@en</xsl:text>
-    <xsl:call-template name="newline-semicolon"/>
+      <xsl:text>  rdfs:label &quot;Identifier: </xsl:text>
+      <xsl:value-of select="$uri-f22"/>
+      <xsl:text>&quot;@en</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
 
-    <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/idno/xml-id&gt;</xsl:text>
-    <xsl:call-template name="newline-semicolon"/>
+      <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/idno/xml-id&gt;</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
 
-    <xsl:text>  cidoc:P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-    <xsl:value-of select="$uri-f22"/>
-    <xsl:text>&gt;</xsl:text>
-    <xsl:call-template name="newline-semicolon"/>
+      <xsl:text>  cidoc:P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri-f22"/>
+      <xsl:text>&gt;</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
 
-    <xsl:text>  rdf:value &quot;</xsl:text>
-    <xsl:value-of select="$uri-f22"/>
-    <xsl:text>&quot;</xsl:text>
-    <xsl:call-template name="newline-dot-newline"/>
+      <xsl:text>  rdf:value &quot;</xsl:text>
+      <xsl:value-of select="$uri-f22"/>
+      <xsl:text>&quot;</xsl:text>
+      <xsl:call-template name="newline-dot-newline"/>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template name="create-E42-permalink-identifier">
-    <xsl:variable name="uri-f22">
-      <xsl:call-template name="get-F22-uri"/>
-    </xsl:variable>
-    <xsl:variable name="permalink">
-      <xsl:text>https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_intertexte.html&amp;letter=</xsl:text>
-      <xsl:value-of select="substring(@sortKey, 1, 1)"/>
-      <xsl:text>#</xsl:text>
-      <xsl:value-of select="@xml:id"/>
-    </xsl:variable>
+    <xsl:if test="not(tei:citedRange[@wholePeriodical = 'yes'])">
+      <xsl:variable name="uri-f22">
+        <xsl:call-template name="get-F22-uri"/>
+      </xsl:variable>
+      <xsl:variable name="permalink">
+        <xsl:text>https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_intertexte.html&amp;letter=</xsl:text>
+        <xsl:value-of select="substring(@sortKey, 1, 1)"/>
+        <xsl:text>#</xsl:text>
+        <xsl:value-of select="@xml:id"/>
+      </xsl:variable>
 
-    <xsl:call-template name="comment">
-      <xsl:with-param name="text" select="'#E42 permalink identifier'"/>
-    </xsl:call-template>
-    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-    <xsl:value-of select="$uri-f22"/>
-    <xsl:text>/identifier/idno/2&gt; a cidoc:E42_Identifier</xsl:text>
-    <xsl:call-template name="newline-semicolon"/>
+      <xsl:call-template name="comment">
+        <xsl:with-param name="text" select="'#E42 permalink identifier'"/>
+      </xsl:call-template>
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri-f22"/>
+      <xsl:text>/identifier/idno/2&gt; a cidoc:E42_Identifier</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
 
-    <xsl:text>  rdfs:label &quot;Identifier: </xsl:text>
-    <xsl:value-of select="$permalink"/>
-    <xsl:text>&quot;@en</xsl:text>
-    <xsl:call-template name="newline-semicolon"/>
+      <xsl:text>  rdfs:label &quot;Identifier: </xsl:text>
+      <xsl:value-of select="$permalink"/>
+      <xsl:text>&quot;@en</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
 
-    <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/idno/URL/dritte-walpurgisnacht&gt;</xsl:text>
-    <xsl:call-template name="newline-semicolon"/>
+      <xsl:text>  cidoc:P2_has_type &lt;https://sk.acdh.oeaw.ac.at/types/idno/URL/dritte-walpurgisnacht&gt;</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
 
-    <xsl:text>  cidoc:P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-    <xsl:value-of select="$uri-f22"/>
-    <xsl:text>&gt;</xsl:text>
-    <xsl:call-template name="newline-semicolon"/>
+      <xsl:text>  cidoc:P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri-f22"/>
+      <xsl:text>&gt;</xsl:text>
+      <xsl:call-template name="newline-semicolon"/>
 
-    <xsl:text>  rdf:value &quot;</xsl:text>
-    <xsl:value-of select="$permalink"/>
-    <xsl:text>&quot;</xsl:text>
-    <xsl:call-template name="newline-dot-newline"/>
+      <xsl:text>  rdf:value &quot;</xsl:text>
+      <xsl:value-of select="$permalink"/>
+      <xsl:text>&quot;</xsl:text>
+      <xsl:call-template name="newline-dot-newline"/>
+    </xsl:if>
   </xsl:template>
 
   <xsl:template name="create-E42-url-identifier">
