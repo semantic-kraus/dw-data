@@ -1250,7 +1250,7 @@
 							<surname type="maiden">Sprenger</surname>
 						</persName>
 						<birth when="1893-11-14">14. 11. 1893<placeName key="#DWplace00209">Pirmasens</placeName></birth>
-						<death when="1972-05-29">29. 5. 1972<placeName key="#DWplace00438">Ludwigshafen am Rhein</placeName></death>
+						<death when="1972-05-29">29. 5. 1972<placeName key="#DWplace00389">Ludwigshafen am Rhein</placeName></death>
 						<persName type="sk" subtype="pref">Ludwig, Helena Magdalena</persName>
 						<persName type="sk" subtype="born">Sprenger, Helena Magdalena</persName>
 						<occupation type="prim" n="01">Putzfrau</occupation>
@@ -5065,7 +5065,7 @@
 							<forename>Benito</forename>
 							<surname>Mussolini</surname>
 						</persName>
-						<birth when="1883-07-29">29. 7. 1883<placeName key="#DWplace00374">Dovia di Predappio</placeName></birth>
+						<birth when="1883-07-29">29. 7. 1883<placeName key="#DWplace00374">Predappio</placeName></birth>
 						<death when="1945-04-28">28. 4. 1945<placeName key="#DWplace00124">Giulino di Mezzegra</placeName></death>
 						<persName type="sk" subtype="pref">Mussolini, Benito</persName>
 						<occupation n="01">Begründer des italienischen Faschismus</occupation>
@@ -5755,7 +5755,7 @@
 							<surname>Schober</surname>
 						</persName>
 						<birth when="1874-11-14">14. 11. 1874<placeName key="#DWplace00060">Perg</placeName></birth>
-						<death when="1932-08-19">19. 8. 1932<placeName key="#DWplace00465">Baden</placeName></death>
+						<death when="1932-08-19">19. 8. 1932<placeName key="#DWplace00107">Baden</placeName></death>
 						<persName type="sk" subtype="pref">Schober, Johannes</persName>
 						<occupation type="prim" n="01">Polizeipräsident und Politker</occupation>
 						<occupation notBefore="1918-11-30" notAfter="1929-09" n="02">Polizeipräsident von Wien</occupation>
