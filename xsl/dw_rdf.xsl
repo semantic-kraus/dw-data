@@ -1306,7 +1306,7 @@
         </xsl:if>
 
         <xsl:for-each
-          select="tei:author[not(@role) or (@role != 'pretext' and @role != 'Gründerin' and @role != 'Herausgeber')]">
+          select="tei:author[not(@role) or (@role != 'pretext' and @role != 'Gründerin' and @role != 'Herausgeber')][@key]">
           <xsl:call-template name="newline-semicolon"/>
           <xsl:text>  cidoc:P14_carried_out_by &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
           <xsl:value-of select="translate(@key, '#', '')"/>
@@ -1569,14 +1569,14 @@
           test="(not(tei:title[@level = 'm']/@key) and not(tei:date/@key) and tei:citedRange[@wholeText = 'yes']) or (not(tei:date/@key) and not(tei:title/@key) and not(tei:citedRange/@wholeText) and not(tei:citedRange/@wholePeriodical))or (tei:title[@level = 'm']/@key) or (tei:date/@key and tei:title[@level = 'j'])">
           <xsl:variable name="uri">
             <xsl:choose>
-              <xsl:when test="tei:citedRange[@wholeText = 'yes']">
-                <xsl:value-of select="tei:citedRange[@wholeText = 'yes']/@xml:id"/>
+              <xsl:when test="tei:title[@level = 'j'] and tei:date/@key">
+                <xsl:value-of select="tei:date/@key"/>
               </xsl:when>
               <xsl:when test="tei:title[@level = 'm']/@key">
                 <xsl:call-template name="get-F24-uri-m"/>
               </xsl:when>
-              <xsl:when test="tei:title[@level = 'j'] and tei:date/@key">
-                <xsl:value-of select="tei:date/@key"/>
+              <xsl:when test="tei:citedRange[@wholeText = 'yes']">
+                <xsl:value-of select="tei:citedRange[@wholeText = 'yes']/@xml:id"/>
               </xsl:when>
               <xsl:otherwise>
                 <xsl:call-template name="get-F24-uri"/>
@@ -2039,7 +2039,7 @@
         <xsl:value-of select="$uri"/>
         <xsl:text>/relation/</xsl:text>
         <xsl:value-of select="$n"/>
-        <xsl:text>&gt; a ns1:INT3_IntertextualRelationship </xsl:text>
+        <xsl:text>&gt; a ns1:INT3_IntertextualRelationship</xsl:text>
         <xsl:call-template name="newline-semicolon"/>
 
         <xsl:text>  rdfs:label &quot;Intertextual relation&quot;@en</xsl:text>
@@ -2059,7 +2059,7 @@
           <xsl:variable name="id">
             <xsl:choose>
               <xsl:when test="$bibl/tei:citedRange[@wholeText = 'yes']">
-                <xsl:value-of select="$bibl/tei:citedRange/@xml:id"/>
+                <xsl:value-of select="$bibl/tei:citedRange[@wholeText = 'yes']/@xml:id"/>
               </xsl:when>
               <xsl:otherwise>
                 <xsl:value-of select="$bibl/@xml:id"/>
