@@ -12,7 +12,13 @@ from acdh_tei_pyutils.tei import TeiReader
 from rdflib import Graph, Namespace, URIRef, plugin, ConjunctiveGraph, Literal
 from rdflib.namespace import RDF, VOID, DCTERMS, RDFS
 from rdflib.store import Store
-from utils import make_events, create_provenance_props, PROV
+from utilities.utilities import (
+    make_events,
+    create_provenance_props,
+    create_triple_from_node,
+    create_object_literal_graph,
+    PROV
+)
 
 
 domain = "https://sk.acdh.oeaw.ac.at/"
@@ -55,11 +61,23 @@ for x in tqdm(items, total=len(items)):
     item_id = f"{SK}{xml_id}"
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E21_Person"]))
+    # try:
+    #     label = x.xpath(
+    #         './/tei:persName[@type="sk"][@subtype="pref"]/text()',
+    #         namespaces=doc.nsmap
+    #     )[0]
+    # except IndexError:
+    #     label = None
     try:
-        label = x.xpath(
-            './/tei:persName[@type="sk"][@subtype="pref"]/text()',
-            namespaces=doc.nsmap
-        )[0]
+        obj = x.xpath('.//tei:persName[@type="sk"][@subtype="pref"]', namespaces=doc.nsmap)[0]
+        gl1, label = create_object_literal_graph(
+            node=obj,
+            subject_uri=subj,
+            l_prefix="",
+            default_lang="und",
+            predicate=RDFS.label
+        )
+        g += gl1
     except IndexError:
         label = None
     g += make_e42_identifiers(
@@ -76,10 +94,44 @@ for x in tqdm(items, total=len(items)):
     g.add((URIRef(subject), CIDOC["P2_has_type"], URIRef(f"{SK}types/idno/URL/dritte-walpurgisnacht")))
     g.add((URIRef(subject), RDF.value, Literal(f"{label_url}{label_key}#{xml_id}")))
     g.add((URIRef(subject), RDFS.label, Literal(f"Identifier: {label_url}{label_key}#{xml_id}", lang="en")))
-    g += make_appellations(subj, x, type_domain=f"{SK}types",
-                           default_lang="und",
-                           type_attribute="subtype",
-                           special_xpath="[@type='sk']")
+    # g += make_appellations(subj, x, type_domain=f"{SK}types",
+    #                        default_lang="und",
+    #                        type_attribute="subtype",
+    #                        special_xpath="[@type='sk']")
+    # add appellations
+    g += create_triple_from_node(
+        node=x,
+        subj=subj,
+        subj_suffix="appellation",
+        pred=CIDOC["P2_has_type"],
+        sbj_class=CIDOC["E33_E41_Linguistic_Appellation"],
+        obj_class=CIDOC["E55_Type"],
+        obj_node_xpath="./tei:persName[@type='sk']",
+        obj_node_value_xpath="./@subtype",
+        obj_node_value_alt_xpath_or_str="pref",
+        obj_prefix=f"{SK}types",
+        default_lang="und",
+        value_literal=True,
+        identifier=CIDOC["P1_is_identified_by"],
+        special_sorting=True,
+    )
+    # add additional type for appellations
+    g += create_triple_from_node(
+        node=x,
+        subj=subj,
+        subj_suffix="appellation",
+        sbj_class=CIDOC["E33_E41_Linguistic_Appellation"],
+        pred=CIDOC["P2_has_type"],
+        default_lang="und",
+        obj_class=CIDOC["E55_Type"],
+        obj_node_xpath="./tei:persName",
+        obj_node_value_xpath="./@sex",
+        obj_node_value_alt_xpath_or_str="./parent::tei:person/tei:sex/@value",
+        obj_prefix=f"{SK}types",
+        skip_value="not-set",
+        identifier=CIDOC["P1_is_identified_by"],
+        special_sorting=True,
+    )
     g += make_occupations(subj, x, default_lang="de", id_xpath="@n")[0]
     for y in x.xpath(".//tei:affiliation[@ref]", namespaces=nsmap):
         g += make_affiliations(
