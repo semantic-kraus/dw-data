@@ -130,8 +130,9 @@ for file in rdf_files:
         trig_path = file.replace(".ttl", ".trig")
         ds = parse_rdf_trig(trig_path)
         g = ds.graph(project_uri)
-        g.parse(SK_MODEL_TRIG, format="trig")
-        g.parse(SK_GENERAL_TRIG, format="trig")
+        if "data.trig" in trig_path:
+            g.parse(SK_MODEL_TRIG, format="trig")
+            g.parse(SK_GENERAL_TRIG, format="trig")
         for triple in unique_triples:
             s = URIRef(triple["sbj"])
             p = URIRef(triple["pred"])
