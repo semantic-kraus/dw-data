@@ -2072,7 +2072,7 @@
 
           <xsl:value-of select="$id"/>
 
-          <xsl:if test="not(//tei:citedRange[@xml:id = $id and @wholeText = 'yes'])">
+          <xsl:if test="not($bibl/tei:citedRange[@xml:id = $xmlid and @wholeText = 'yes'])">
             <xsl:text>/passage/</xsl:text>
             <xsl:value-of select="count($selector/preceding-sibling::tei:citedRange)"/>
           </xsl:if>
