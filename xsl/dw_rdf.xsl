@@ -248,35 +248,37 @@
       <xsl:call-template name="get-issue-uri"/>
     </xsl:variable>
 
-    <xsl:call-template name="comment">
-      <xsl:with-param name="text" select="'#INT16 segment'"/>
-    </xsl:call-template>
-    <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-    <xsl:value-of select="$uri-f22"/>
-    <xsl:text>/segment&gt; a ns1:INT16_Segment</xsl:text>
-    <xsl:call-template name="newline-semicolon"/>
-    <xsl:text>  rdfs:label &quot;Segment: </xsl:text>
-    <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
-    <xsl:text>&quot;@en</xsl:text>
-    <xsl:call-template name="newline-semicolon"/>
-    <xsl:text>  ns1:R16_incorporates &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-    <xsl:value-of select="$uri-f22"/>
-    <xsl:text>&gt;</xsl:text>
-    <xsl:if test="tei:biblScope">
+    <xsl:if test="$uri-issue != ''">
+      <xsl:call-template name="comment">
+        <xsl:with-param name="text" select="'#INT16 segment'"/>
+      </xsl:call-template>
+      <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri-f22"/>
+      <xsl:text>/segment&gt; a ns1:INT16_Segment</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  ns1:R41_has_location &quot;</xsl:text>
-      <xsl:value-of select="tei:biblScope/text()"/>
-      <xsl:text>&quot;^^xsd:string</xsl:text>
+      <xsl:text>  rdfs:label &quot;Segment: </xsl:text>
+      <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
+      <xsl:text>&quot;@en</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
-      <xsl:text>  schema:pagination &quot;</xsl:text>
-      <xsl:value-of select="tei:biblScope/text()"/>
-      <xsl:text>&quot;^^xsd:string</xsl:text>
+      <xsl:text>  ns1:R16_incorporates &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri-f22"/>
+      <xsl:text>&gt;</xsl:text>
+      <xsl:if test="tei:biblScope">
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  ns1:R41_has_location &quot;</xsl:text>
+        <xsl:value-of select="tei:biblScope/text()"/>
+        <xsl:text>&quot;^^xsd:string</xsl:text>
+        <xsl:call-template name="newline-semicolon"/>
+        <xsl:text>  schema:pagination &quot;</xsl:text>
+        <xsl:value-of select="tei:biblScope/text()"/>
+        <xsl:text>&quot;^^xsd:string</xsl:text>
+      </xsl:if>
+      <xsl:call-template name="newline-semicolon"/>
+      <xsl:text>  ns1:R25_is_segment_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
+      <xsl:value-of select="$uri-issue"/>
+      <xsl:text>/published-expression&gt;</xsl:text>
+      <xsl:call-template name="newline-dot-newline"/>
     </xsl:if>
-    <xsl:call-template name="newline-semicolon"/>
-    <xsl:text>  ns1:R25_is_segment_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-    <xsl:value-of select="$uri-issue"/>
-    <xsl:text>/published-expression&gt;</xsl:text>
-    <xsl:call-template name="newline-dot-newline"/>
   </xsl:template>
 
   <xsl:template name="create-INT1-INT16-segment">
@@ -1563,10 +1565,11 @@
   </xsl:template>
 
   <xsl:template name="create-E52-publication-timespan">
-    <xsl:if test="not(tei:date/tei:note/text() = 'UA' or tei:date/tei:note/text() = 'Entst.') and not(tei:citedRange[@wholePeriodical])">
+    <xsl:if
+      test="not(tei:date/tei:note/text() = 'UA' or tei:date/tei:note/text() = 'Entst.') and not(tei:citedRange[@wholePeriodical])">
       <xsl:if test="tei:date[@when or @notBefore or @notAfter]">
         <xsl:if
-          test="(not(tei:title[@level = 'm']/@key) and not(tei:date/@key) and tei:citedRange[@wholeText = 'yes']) or (not(tei:date/@key) and not(tei:title/@key) and not(tei:citedRange/@wholeText) and not(tei:citedRange/@wholePeriodical))or (tei:title[@level = 'm']/@key) or (tei:date/@key and tei:title[@level = 'j'])">
+          test="(not(tei:title[@level = 'm']/@key) and not(tei:date/@key) and tei:citedRange[@wholeText = 'yes']) or (not(tei:date/@key) and not(tei:title/@key) and not(tei:citedRange/@wholeText) and not(tei:citedRange/@wholePeriodical)) or (tei:title[@level = 'm']/@key) or (tei:date/@key and tei:title[@level = 'j'])">
           <xsl:variable name="uri">
             <xsl:choose>
               <xsl:when test="tei:title[@level = 'j'] and tei:date/@key">
@@ -2143,8 +2146,11 @@ Da ist noch ein Wurm drin:
         <xsl:when test="tei:title[@level = 'j']">
           <xsl:value-of select="tei:date/@key"/>
         </xsl:when>
-        <xsl:otherwise>
+        <xsl:when test="tei:title[@level = 'm']/@key and not(tei:date/tei:note/text() = 'Entst.')">
           <xsl:value-of select="tei:title[@level = 'm']/@key"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:text/>
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
