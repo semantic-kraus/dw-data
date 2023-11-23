@@ -2,7 +2,6 @@ import os
 from tqdm import tqdm
 from acdh_cidoc_pyutils import (
     make_appellations,
-    make_e42_identifiers,
     make_birth_death_entities,
     make_occupations,
     make_affiliations,
@@ -17,6 +16,7 @@ from utilities.utilities import (
     create_provenance_props,
     create_triple_from_node,
     create_object_literal_graph,
+    create_e42_or_custom_class,
     PROV
 )
 
@@ -53,6 +53,11 @@ rdf_dir = "./rdf"
 
 os.makedirs(rdf_dir, exist_ok=True)
 
+
+def normalize_string(string: str) -> str:
+    return " ".join(" ".join(string.split()).split())
+
+
 doc = TeiReader("./data/indices/listperson.xml")
 nsmap = doc.nsmap
 items = doc.any_xpath(".//tei:person")
@@ -60,6 +65,22 @@ for x in tqdm(items, total=len(items)):
     xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"]
     item_id = f"{SK}{xml_id}"
     subj = URIRef(item_id)
+    type_domain = f"{SK}types/"
+    app_uri = URIRef(f"{subj}/identifier/{xml_id}")
+    type_uri = URIRef(f"{type_domain}idno/xml-id")
+    approx_uri = URIRef(f"{type_domain}date/approx")
+    xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+    label_prefix = "Identifier: "
+    label_value = normalize_string(f"{label_prefix}{xml_id}")
+    lang = "en"
+    g.add((approx_uri, RDF.type, CIDOC["E55_Type"]))
+    g.add((approx_uri, RDFS.label, Literal("approx")))
+    g.add((type_uri, RDF.type, CIDOC["E55_Type"]))
+    g.add((subj, CIDOC["P1_is_identified_by"], app_uri))
+    g.add((app_uri, RDF.type, CIDOC["E42_Identifier"]))
+    g.add((app_uri, RDFS.label, Literal(label_value, lang=lang)))
+    g.add((app_uri, RDF.value, Literal(normalize_string(xml_id))))
+    g.add((app_uri, CIDOC["P2_has_type"], type_uri))
     g.add((subj, RDF.type, CIDOC["E21_Person"]))
     # try:
     #     label = x.xpath(
@@ -80,9 +101,29 @@ for x in tqdm(items, total=len(items)):
         g += gl1
     except IndexError:
         label = None
-    g += make_e42_identifiers(
-        subj, x, type_domain=f"{SK}types", default_lang="en", same_as=False, set_lang=True
+    g += create_e42_or_custom_class(
+        subj,
+        x,
+        default_lang="en",
+        uri_prefix=type_domain,
+        xpath=".//tei:idno",
+        attribute="type",
+        label_prefix=label_prefix,
+        type_suffix="idno/URL"
     )
+    g += create_e42_or_custom_class(
+        subj,
+        x,
+        default_lang="en",
+        uri_prefix=type_domain,
+        xpath=".//tei:idno",
+        attribute="subtype",
+        label_prefix=label_prefix,
+        type_suffix="idno/URL"
+    )
+    # g += make_e42_identifiers(
+    #     subj, x, type_domain=f"{SK}types", default_lang="en", same_as=False, set_lang=True
+    # )
     subject = f"{SK}{xml_id}/identifier/idno/1"
     label_url = "https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&letter="
     try:
@@ -216,19 +257,61 @@ for x in doc.any_xpath(".//tei:place"):
     g += make_appellations(subj, x, type_domain=f"{SK}types/",
                            default_lang="und", type_attribute="type",
                            woke_type="pref")
-    g += make_e42_identifiers(subj, x, type_domain=f"{SK}types",
-                              default_lang="en", set_lang=True, same_as=False)
+    type_domain = f"{SK}types/"
+    label_prefix = "Identifier: "
+    g += create_e42_or_custom_class(
+        subj,
+        x,
+        default_lang="en",
+        uri_prefix=type_domain,
+        xpath=".//tei:idno",
+        attribute="type",
+        label_prefix=label_prefix,
+        type_suffix="idno/URL"
+    )
+    g += create_e42_or_custom_class(
+        subj,
+        x,
+        default_lang="en",
+        uri_prefix=type_domain,
+        xpath=".//tei:idno",
+        attribute="subtype",
+        label_prefix=label_prefix,
+        type_suffix="idno/URL"
+    )
 doc = TeiReader("./data/indices/listorg.xml")
 for x in doc.any_xpath(".//tei:org"):
     xml_id = x.attrib["{http://www.w3.org/XML/1998/namespace}id"]
     item_id = f"{SK}{xml_id}"
     subj = URIRef(item_id)
     g.add((subj, RDF.type, CIDOC["E74_Group"]))
+    app_uri = URIRef(f"{subj}/identifier/{xml_id}")
+    g.add((subj, CIDOC["P1_is_identified_by"], app_uri))
     g += make_appellations(subj, x, type_domain=f"{SK}types/",
                            type_attribute="type", default_lang="und",
                            woke_type="pref")
-    g += make_e42_identifiers(subj, x, type_domain=f"{SK}types",
-                              default_lang="en", set_lang=True, same_as=False)
+    type_domain = f"{SK}types/"
+    label_prefix = "Identifier: "
+    g += create_e42_or_custom_class(
+        subj,
+        x,
+        default_lang="en",
+        uri_prefix=type_domain,
+        xpath=".//tei:idno",
+        attribute="type",
+        label_prefix=label_prefix,
+        type_suffix="idno/URL"
+    )
+    g += create_e42_or_custom_class(
+        subj,
+        x,
+        default_lang="en",
+        uri_prefix=type_domain,
+        xpath=".//tei:idno",
+        attribute="subtype",
+        label_prefix=label_prefix,
+        type_suffix="idno/URL"
+    )
 g_all = ConjunctiveGraph(store=project_store)
 g_all.serialize(f"{rdf_dir}/data.trig", format="trig")
 g_all.serialize(f"{rdf_dir}/data.ttl", format="ttl")

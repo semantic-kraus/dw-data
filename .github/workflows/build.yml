@@ -22,10 +22,10 @@ jobs:
         echo "hallo"
     - name: pip
       run: pip install -r requirements.txt
-    - name: build
-      run: ./build.sh
     - name: xslt
       run: ./dl_saxon_and_transform.sh
+    - name: build
+      run: ./build.sh
     - name: triggify 
       run: |
         python scripts/triggify.py

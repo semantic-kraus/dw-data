@@ -477,10 +477,26 @@ def create_e42_or_custom_class(
                 else:
                     g.add((identifier_uri, RDF.type, CIDOC["E42_Identifier"]))
                 if attribute:
+                    try:
+                        attr = ident.attrib[attribute].lower()
+                    except KeyError:
+                        attr = False
+                        break
                     g.add((identifier_uri, CIDOC["P2_has_type"],
-                           URIRef(f"{uri_prefix}{type_suffix}/{ident.attrib[attribute]}")))
+                           URIRef(f"{uri_prefix}{type_suffix}/{attr}")))
                 else:
                     g.add((identifier_uri, CIDOC["P2_has_type"], URIRef(f"{uri_prefix}{type_suffix}")))
+                label_prefix_value = ""
+                # if attr:
+                #     if attr == "gnd" and not attr.startswith("http"):
+                #         label_prefix = f"{label_prefix}https://d-nb.info/gnd/"
+                #         label_prefix_value = "https://d-nb.info/gnd/"
+                #     elif attr == "geonames" and not attr.startswith("http"):
+                #         label_prefix = f"{label_prefix}https://sws.geonames.org/"
+                #         label_prefix_value = "https://sws.geonames.org/"
+                #     else:
+                #         label_prefix = label_prefix
+                #         label_prefix_value = label_prefix_value
                 gl, literal = create_object_literal_graph(
                     node=ident,
                     subject_uri=identifier_uri,
@@ -492,7 +508,7 @@ def create_e42_or_custom_class(
                 gl, literal = create_object_literal_graph(
                     node=ident,
                     subject_uri=identifier_uri,
-                    l_prefix="",
+                    l_prefix=label_prefix_value,
                     default_lang=default_lang,
                     predicate=RDF.value
                 )
