@@ -9,7 +9,7 @@ from acdh_cidoc_pyutils import (
 from acdh_cidoc_pyutils.namespaces import CIDOC, FRBROO
 from acdh_tei_pyutils.tei import TeiReader
 from rdflib import Graph, Namespace, URIRef, plugin, ConjunctiveGraph, Literal
-from rdflib.namespace import RDF, VOID, DCTERMS, RDFS
+from rdflib.namespace import RDF, DCTERMS, RDFS
 from rdflib.store import Store
 from utilities.utilities import (
     make_events,
@@ -29,15 +29,15 @@ store = plugin.get("Memory", Store)()
 project_store = plugin.get("Memory", Store)()
 
 project_uri = URIRef(f"{DW}")
-g_prov = Graph(store=project_store, identifier=URIRef(f"{SK}provenance"))
-g_prov.bind("dct", DCTERMS)
-g_prov.bind("void", VOID)
-g_prov.bind("sk", SK)
-g_prov.bind("dw", DW)
-g_prov.bind("cidoc", CIDOC)
-g_prov.bind("frbroo", FRBROO)
-g_prov.parse("./data/about.ttl")
-g_prov.bind("prov", PROV)
+# g_prov = Graph(store=project_store, identifier=URIRef(f"{SK}provenance"))
+# g_prov.bind("dct", DCTERMS)
+# g_prov.bind("void", VOID)
+# g_prov.bind("sk", SK)
+# g_prov.bind("dw", DW)
+# g_prov.bind("cidoc", CIDOC)
+# g_prov.bind("frbroo", FRBROO)
+# g_prov.parse("./data/about.ttl")
+# g_prov.bind("prov", PROV)
 
 g = Graph(identifier=project_uri, store=project_store)
 g.bind("cidoc", CIDOC)
