@@ -8929,8 +8929,8 @@
 #INT1 textpassage
 <https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/266> a ns1:INT1_TextPassage ;
   rdfs:label "Text passage from: Dritte Walpurgisnacht"@en ;
-  cidoc:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWbibl2108/identifier/idno/0> ;
-  cidoc:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWbibl2108/identifier/idno/1> ;
+  cidoc:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWquote2108/identifier/idno/0> ;
+  cidoc:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWquote2108/identifier/idno/1> ;
   ns1:R10_is_Text_Passage_of <https://sk.acdh.oeaw.ac.at/DWbibl00000> ;
   ns1:R41_has_location "absatz_14"^^xsd:string ;
   ns1:R44_has_wording "aber die Willensbildung, die zweifellos angestrebt wird, setzt sich nur mit einem freiwilligen Verzicht auf höchste geistige Formung durch" .
@@ -8950,18 +8950,18 @@
   ns1:R44_has_wording "aber die Willensbildung, die zweifellos angestrebt wird, setzt sich nur mit einem freiwilligen Verzicht auf höchste geistige Formung durch" .
 
 #E42 id identifier
-<https://sk.acdh.oeaw.ac.at/DWbibl2108/identifier/idno/0> a cidoc:E42_Identifier ;
-  rdfs:label "Identifier: DWbibl2108"@en ;
+<https://sk.acdh.oeaw.ac.at/DWquote2108/identifier/idno/0> a cidoc:E42_Identifier ;
+  rdfs:label "Identifier: DWquote2108"@en ;
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
   cidoc:P1i_identifies <https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/266> ;
-  rdf:value "DWbibl2108" .
+  rdf:value "DWquote2108" .
 
 #E42 permalink identifier
-<https://sk.acdh.oeaw.ac.at/DWbibl2108/identifier/idno/1> a cidoc:E42_Identifier ;
-  rdfs:label "Identifier: https://kraus1933.ace.oeaw.ac.at/absatz_14#DWbibl2108"@en ;
+<https://sk.acdh.oeaw.ac.at/DWquote2108/identifier/idno/1> a cidoc:E42_Identifier ;
+  rdfs:label "Identifier: https://kraus1933.ace.oeaw.ac.at/absatz_14#DWquote2108"@en ;
   cidoc:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/URL/dritte-walpurgisnacht> ;
   cidoc:P1i_identifies <https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/266> ;
-  rdf:value "https://kraus1933.ace.oeaw.ac.at/absatz_14#DWbibl2108" .
+  rdf:value "https://kraus1933.ace.oeaw.ac.at/absatz_14#DWquote2108" .
 
 #INT1 textpassage
 <https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/278> a ns1:INT1_TextPassage ;
