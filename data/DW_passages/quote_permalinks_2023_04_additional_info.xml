@@ -2400,8 +2400,8 @@
         <info source="DWbibl00904" wholeText="no" wholePeriodical="no" posCitedRange="27" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
-        <id>DWbibl2108</id>
-        <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_14#DWbibl2108</permalink>
+        <id>DWquote2108</id>
+        <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_14#DWquote2108</permalink>
         <paragraph>absatz_14</paragraph>
         <source>#DWbibl01741</source>
         <type/>
@@ -10719,8 +10719,8 @@
         <info source="DWbibl00211" wholeText="yes" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
-        <id>DWbibl04106</id>
-        <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_47#DWbibl04106</permalink>
+        <id>DWquote04106</id>
+        <permalink>https://kraus1933.ace.oeaw.ac.at/absatz_47#DWquote04106</permalink>
         <paragraph>absatz_47</paragraph>
         <source>#DWbibl00211</source>
         <type/>

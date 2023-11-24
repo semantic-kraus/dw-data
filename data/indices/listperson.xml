@@ -4058,7 +4058,7 @@
 							<surname>Hindenburg</surname>
 						</persName>
 						<persName type="sk" subtype="pref">Hindenburg, Paul von</persName>
-						<persName full="yes">Paul von Beneckendorff und von Hindenburg</persName>
+						<persName type="sk" subtype="full">Paul von Beneckendorff und von Hindenburg</persName>
 						<birth when="1847-10-02">2. 10. 1847<placeName key="#DWplace00408">Posen</placeName></birth>
 						<death when="1934-08-02">2. 8. 1934<placeName key="#DWplace00441">Neudeck</placeName></death>
 						<occupation type="prim" n="01">Generalfeldmarschall und Politiker</occupation>
