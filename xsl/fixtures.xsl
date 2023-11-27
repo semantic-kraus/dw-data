@@ -18,5 +18,11 @@
       <xsl:value-of select="concat('https://d-nb.info/gnd/', .)"/>
     </xsl:copy>
   </xsl:template>
+  <xsl:template match="//tei:idno[@type='VIAF']">
+    <xsl:copy>
+      <xsl:attribute name="type">VIAF</xsl:attribute>
+      <xsl:value-of select="concat('https://viaf.org/viaf/', .)"/>
+    </xsl:copy>
+  </xsl:template>
 
 </xsl:stylesheet>
