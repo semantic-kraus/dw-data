@@ -109,7 +109,8 @@ for x in tqdm(items, total=len(items)):
         xpath=".//tei:idno",
         attribute="type",
         label_prefix=label_prefix,
-        type_suffix="idno/URL"
+        type_suffix="idno/URL",
+        obj_class=CIDOC["E55_Type"],
     )
     g += create_e42_or_custom_class(
         subj,
@@ -119,7 +120,8 @@ for x in tqdm(items, total=len(items)):
         xpath=".//tei:idno",
         attribute="subtype",
         label_prefix=label_prefix,
-        type_suffix="idno/URL"
+        type_suffix="idno/URL",
+        obj_class=CIDOC["E55_Type"],
     )
     # g += make_e42_identifiers(
     #     subj, x, type_domain=f"{SK}types", default_lang="en", same_as=False, set_lang=True
@@ -267,7 +269,8 @@ for x in doc.any_xpath(".//tei:place"):
         xpath=".//tei:idno",
         attribute="type",
         label_prefix=label_prefix,
-        type_suffix="idno/URL"
+        type_suffix="idno/URL",
+        obj_class=CIDOC["E55_Type"],
     )
     g += create_e42_or_custom_class(
         subj,
@@ -277,7 +280,8 @@ for x in doc.any_xpath(".//tei:place"):
         xpath=".//tei:idno",
         attribute="subtype",
         label_prefix=label_prefix,
-        type_suffix="idno/URL"
+        type_suffix="idno/URL",
+        obj_class=CIDOC["E55_Type"],
     )
 doc = TeiReader("./data/indices/listorg.xml")
 for x in doc.any_xpath(".//tei:org"):
@@ -300,7 +304,8 @@ for x in doc.any_xpath(".//tei:org"):
         xpath=".//tei:idno",
         attribute="type",
         label_prefix=label_prefix,
-        type_suffix="idno/URL"
+        type_suffix="idno/URL",
+        obj_class=CIDOC["E55_Type"],
     )
     g += create_e42_or_custom_class(
         subj,
@@ -310,7 +315,8 @@ for x in doc.any_xpath(".//tei:org"):
         xpath=".//tei:idno",
         attribute="subtype",
         label_prefix=label_prefix,
-        type_suffix="idno/URL"
+        type_suffix="idno/URL",
+        obj_class=CIDOC["E55_Type"],
     )
 g_all = ConjunctiveGraph(store=project_store)
 g_all.serialize(f"{rdf_dir}/data.trig", format="trig")
