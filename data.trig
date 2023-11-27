@@ -1,6 +1,5 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dw: <https://sk.acdh.oeaw.ac.at/project/dritte-walpurgisnacht> .
 @prefix frbroo: <https://cidoc-crm.org/frbroo/sites/default/files/FRBR2.4-draft.rdfs#> .
 @prefix ns1: <https://sk.acdh.oeaw.ac.at/project/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -8,13 +7,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sk: <https://sk.acdh.oeaw.ac.at/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-sk:provenance {
-    ns1:dritte-walpurgisnacht a <http://www.w3.org/ns/sparql-service-description#NamedGraph> ;
-        dcterms:bibliographicCitation "Karl Kraus: Dritte Walpurgisnacht. Annotated reader's edition. Ed. by Bernhard Oberreither at Austrian Corpora and Editions at ACDH-CH. 2021. URL: https://kraus1933.ace.oeaw.ac.at"@en ;
-        dcterms:contributor "Research – concerning persons mentioned and intertexts – was conducted by Bernhard Oberreither, Hanno Biber, David Treffinger, Laura Untner, with the assistance of Gerhard Wolff; interns: Constance Quinlan, Mira Krall. Research findings build on preliminary work done at the predecessor institutions of the ACE at the Austrian Academy of Sciences as well as on numerous publications. For a list see https://kraus1933.ace.oeaw.ac.at/annotierte_lesefassung.html. For a list of biographical and bibliographical sources see https://kraus1933.ace.oeaw.ac.at/register.html."@en ;
-        dcterms:title "Dritte Walpurgisnacht"@de .
-}
 
 ns1:dritte-walpurgisnacht {
     <https://sk.acdh.oeaw.ac.at/DWbibl00000/creation/time-span> a crm:E52_Time-Span ;
@@ -47474,5 +47466,12 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/nDWpers1425/appellation/0>,
             <https://sk.acdh.oeaw.ac.at/nDWpers1426/appellation/0>,
             <https://sk.acdh.oeaw.ac.at/nDWpers1427/appellation/0> .
+}
+
+sk:provenance {
+    ns1:dritte-walpurgisnacht a <http://www.w3.org/ns/sparql-service-description#NamedGraph> ;
+        dcterms:bibliographicCitation "Karl Kraus: Dritte Walpurgisnacht. Annotated reader's edition. Ed. by Bernhard Oberreither at Austrian Corpora and Editions at ACDH-CH. 2021. URL: https://kraus1933.ace.oeaw.ac.at"@en ;
+        dcterms:contributor "Research – concerning persons mentioned and intertexts – was conducted by Bernhard Oberreither, Hanno Biber, David Treffinger, Laura Untner, with the assistance of Gerhard Wolff; interns: Constance Quinlan, Mira Krall. Research findings build on preliminary work done at the predecessor institutions of the ACE at the Austrian Academy of Sciences as well as on numerous publications. For a list see https://kraus1933.ace.oeaw.ac.at/annotierte_lesefassung.html. For a list of biographical and bibliographical sources see https://kraus1933.ace.oeaw.ac.at/register.html."@en ;
+        dcterms:title "Dritte Walpurgisnacht"@de .
 }
 
