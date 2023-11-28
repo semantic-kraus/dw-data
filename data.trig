@@ -1,5 +1,6 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dw: <https://sk.acdh.oeaw.ac.at/project/dritte-walpurgisnacht> .
 @prefix frbroo: <https://cidoc-crm.org/frbroo/sites/default/files/FRBR2.4-draft.rdfs#> .
 @prefix ns1: <https://sk.acdh.oeaw.ac.at/project/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -7,6 +8,13 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sk: <https://sk.acdh.oeaw.ac.at/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sk:provenance {
+    ns1:dritte-walpurgisnacht a <http://www.w3.org/ns/sparql-service-description#NamedGraph> ;
+        dcterms:bibliographicCitation "Karl Kraus: Dritte Walpurgisnacht. Annotated reader's edition. Ed. by Bernhard Oberreither at Austrian Corpora and Editions at ACDH-CH. 2021. URL: https://kraus1933.ace.oeaw.ac.at"@en ;
+        dcterms:contributor "Research – concerning persons mentioned and intertexts – was conducted by Bernhard Oberreither, Hanno Biber, David Treffinger, Laura Untner, with the assistance of Gerhard Wolff; interns: Constance Quinlan, Mira Krall. Research findings build on preliminary work done at the predecessor institutions of the ACE at the Austrian Academy of Sciences as well as on numerous publications. For a list see https://kraus1933.ace.oeaw.ac.at/annotierte_lesefassung.html. For a list of biographical and bibliographical sources see https://kraus1933.ace.oeaw.ac.at/register.html."@en ;
+        dcterms:title "Dritte Walpurgisnacht"@de .
+}
 
 ns1:dritte-walpurgisnacht {
     <https://sk.acdh.oeaw.ac.at/DWbibl00000/creation/time-span> a crm:E52_Time-Span ;
@@ -8702,9 +8710,11 @@ ns1:dritte-walpurgisnacht {
 
     <https://sk.acdh.oeaw.ac.at/types/event/decl-dead> crm:P2i_is_type_of <https://sk.acdh.oeaw.ac.at/DWpers0060/event/1> .
 
-    <https://sk.acdh.oeaw.ac.at/types/idno/URL/geonames> crm:P2i_is_type_of <https://sk.acdh.oeaw.ac.at/DWplace00038/identifier/idno/1> .
+    <https://sk.acdh.oeaw.ac.at/types/idno/URL/geonames> a crm:E55_Type ;
+        crm:P2i_is_type_of <https://sk.acdh.oeaw.ac.at/DWplace00038/identifier/idno/1> .
 
-    <https://sk.acdh.oeaw.ac.at/types/idno/URL/viaf> crm:P2i_is_type_of <https://sk.acdh.oeaw.ac.at/DWpers0010/identifier/idno/0> .
+    <https://sk.acdh.oeaw.ac.at/types/idno/URL/viaf> a crm:E55_Type ;
+        crm:P2i_is_type_of <https://sk.acdh.oeaw.ac.at/DWpers0010/identifier/idno/0> .
 
     <https://sk.acdh.oeaw.ac.at/types/title/main> crm:P2i_is_type_of <https://sk.acdh.oeaw.ac.at/DWbibl00000/title/0> .
 
@@ -9610,10 +9620,10 @@ ns1:dritte-walpurgisnacht {
         rdf:value "DWpers0010" .
 
     <https://sk.acdh.oeaw.ac.at/DWpers0010/identifier/idno/0> a crm:E42_Identifier ;
-        rdfs:label "Identifier: 120699038"@en ;
+        rdfs:label "Identifier: https://viaf.org/viaf/120699038"@en ;
         crm:P1i_identifies sk:DWpers0010 ;
         crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/URL/viaf> ;
-        rdf:value "120699038" .
+        rdf:value "https://viaf.org/viaf/120699038" .
 
     <https://sk.acdh.oeaw.ac.at/DWpers0010/identifier/idno/1> a crm:E42_Identifier ;
         rdfs:label "Identifier: https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&letter=B#DWpers0010"@en ;
@@ -37203,7 +37213,8 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/nDWpers1427/identifier/idno/1>,
             <https://sk.acdh.oeaw.ac.at/nDWpers1427/identifier/nDWpers1427> .
 
-    <https://sk.acdh.oeaw.ac.at/types/idno/URL/wikidata> crm:P2i_is_type_of <https://sk.acdh.oeaw.ac.at/DWorg00006/identifier/idno/2>,
+    <https://sk.acdh.oeaw.ac.at/types/idno/URL/wikidata> a crm:E55_Type ;
+        crm:P2i_is_type_of <https://sk.acdh.oeaw.ac.at/DWorg00006/identifier/idno/2>,
             <https://sk.acdh.oeaw.ac.at/DWorg00008/identifier/idno/2>,
             <https://sk.acdh.oeaw.ac.at/DWorg00013/identifier/idno/2> .
 
@@ -44695,7 +44706,8 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/DWplace00467/appellation/1>,
             <https://sk.acdh.oeaw.ac.at/DWplace00470/appellation/1> .
 
-    <https://sk.acdh.oeaw.ac.at/types/idno/URL/gnd> crm:P2i_is_type_of <https://sk.acdh.oeaw.ac.at/DWorg00001/identifier/idno/1>,
+    <https://sk.acdh.oeaw.ac.at/types/idno/URL/gnd> a crm:E55_Type ;
+        crm:P2i_is_type_of <https://sk.acdh.oeaw.ac.at/DWorg00001/identifier/idno/1>,
             <https://sk.acdh.oeaw.ac.at/DWorg00002/identifier/idno/1>,
             <https://sk.acdh.oeaw.ac.at/DWorg00003/identifier/idno/1>,
             <https://sk.acdh.oeaw.ac.at/DWorg00004/identifier/idno/1>,
@@ -45469,7 +45481,8 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/DWplace00470/appellation/0>,
             <https://sk.acdh.oeaw.ac.at/DWplace00471/appellation/0> .
 
-    <https://sk.acdh.oeaw.ac.at/types/idno/URL/pmb> crm:P2i_is_type_of <https://sk.acdh.oeaw.ac.at/DWorg00001/identifier/idno/0>,
+    <https://sk.acdh.oeaw.ac.at/types/idno/URL/pmb> a crm:E55_Type ;
+        crm:P2i_is_type_of <https://sk.acdh.oeaw.ac.at/DWorg00001/identifier/idno/0>,
             <https://sk.acdh.oeaw.ac.at/DWorg00002/identifier/idno/0>,
             <https://sk.acdh.oeaw.ac.at/DWorg00003/identifier/idno/0>,
             <https://sk.acdh.oeaw.ac.at/DWorg00004/identifier/idno/0>,
@@ -47466,12 +47479,5 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/nDWpers1425/appellation/0>,
             <https://sk.acdh.oeaw.ac.at/nDWpers1426/appellation/0>,
             <https://sk.acdh.oeaw.ac.at/nDWpers1427/appellation/0> .
-}
-
-sk:provenance {
-    ns1:dritte-walpurgisnacht a <http://www.w3.org/ns/sparql-service-description#NamedGraph> ;
-        dcterms:bibliographicCitation "Karl Kraus: Dritte Walpurgisnacht. Annotated reader's edition. Ed. by Bernhard Oberreither at Austrian Corpora and Editions at ACDH-CH. 2021. URL: https://kraus1933.ace.oeaw.ac.at"@en ;
-        dcterms:contributor "Research – concerning persons mentioned and intertexts – was conducted by Bernhard Oberreither, Hanno Biber, David Treffinger, Laura Untner, with the assistance of Gerhard Wolff; interns: Constance Quinlan, Mira Krall. Research findings build on preliminary work done at the predecessor institutions of the ACE at the Austrian Academy of Sciences as well as on numerous publications. For a list see https://kraus1933.ace.oeaw.ac.at/annotierte_lesefassung.html. For a list of biographical and bibliographical sources see https://kraus1933.ace.oeaw.ac.at/register.html."@en ;
-        dcterms:title "Dritte Walpurgisnacht"@de .
 }
 

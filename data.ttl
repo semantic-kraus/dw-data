@@ -9545,9 +9545,9 @@ sk:DWorg00018 a crm:E74_Group ;
     rdf:value "DWpers0010" .
 
 <https://sk.acdh.oeaw.ac.at/DWpers0010/identifier/idno/0> a crm:E42_Identifier ;
-    rdfs:label "Identifier: 120699038"@en ;
+    rdfs:label "Identifier: https://viaf.org/viaf/120699038"@en ;
     crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/URL/viaf> ;
-    rdf:value "120699038" .
+    rdf:value "https://viaf.org/viaf/120699038" .
 
 <https://sk.acdh.oeaw.ac.at/DWpers0010/occupation/01> a frbroo:F51_Pursuit ;
     rdfs:label "Journalist und Schriftsteller"@de .
@@ -33132,6 +33132,10 @@ sk:nDWpers1427 a crm:E21_Person ;
     crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
     rdf:value "nDWpers1427" .
 
+<https://sk.acdh.oeaw.ac.at/types/idno/URL/geonames> a crm:E55_Type .
+
+<https://sk.acdh.oeaw.ac.at/types/idno/URL/viaf> a crm:E55_Type .
+
 sk:DWbibl00000 a frbroo:F22_Self-Contained_Expression ;
     rdfs:label "Dritte Walpurgisnacht"@und ;
     crm:P102_has_title <https://sk.acdh.oeaw.ac.at/DWbibl00000/title/0> ;
@@ -35508,6 +35512,8 @@ sk:DWsource0140 a dcterms:BibliographicResource,
         prov:Entity ;
     dcterms:bibliographicCitation "The Central Database of Shoah Victims’ Names. In: Yad Vashem – The World Holocaust Remembrance Center. URL: https://yvng.yadvashem.org (22. 3. 2021)." .
 
+<https://sk.acdh.oeaw.ac.at/types/idno/URL/wikidata> a crm:E55_Type .
+
 <https://sk.acdh.oeaw.ac.at/types/person/persname/alt> a crm:E55_Type .
 
 sk:DWorg00012 a crm:E74_Group ;
@@ -37346,8 +37352,12 @@ sk:DWorg00011 a crm:E74_Group ;
 <https://sk.acdh.oeaw.ac.at/types/place/placename/simple-name> a crm:E55_Type ;
     rdfs:label "simple_name" .
 
+<https://sk.acdh.oeaw.ac.at/types/idno/URL/gnd> a crm:E55_Type .
+
 <https://sk.acdh.oeaw.ac.at/types/place/placename/pref> a crm:E55_Type ;
     rdfs:label "pref" .
+
+<https://sk.acdh.oeaw.ac.at/types/idno/URL/pmb> a crm:E55_Type .
 
 <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> a crm:E55_Type .
 
