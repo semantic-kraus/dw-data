@@ -2440,7 +2440,7 @@
                         <placeName xml:lang="de" type="pref">Posen</placeName>
                         
                         
-                    	<idno type="pmb"> 	https://pmb.acdh.oeaw.ac.at/entity/2222/</idno>
+                    	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/2222/</idno>
                     </place>
                     <place xml:id="DWplace00409">
                         <placeName xml:lang="de" type="pref">Klagenfurt</placeName>
@@ -2476,7 +2476,7 @@
                         <placeName xml:lang="de" type="pref">Erdmannshain (Polnisch Oberschlesien)</placeName>
                         <placeName xml:lang="de" type="simple_name">Erdmannshain</placeName>
                         <placeName xml:lang="und" type="alt">Polnisch Oberschlesien</placeName>
-                    	<idno type="pmb">https://sws.geonames.org/3095488/</idno>
+                    	<idno type="geonames">https://sws.geonames.org/3095488/</idno>
                     </place>
                     <place xml:id="DWplace00415">
                         <placeName xml:lang="de" type="pref">Airolo</placeName>
@@ -2542,7 +2542,7 @@
                     	<placeName xml:lang="de" type="pref">Smolkau (Smolkov Háj ve Slezsku)</placeName>
                         
                         
-                    	<idno type="pmb">https://sws.geonames.org/3065723/</idno>
+                    	<idno type="geonames">https://sws.geonames.org/3065723/</idno>
                     </place>
                     <place xml:id="DWplace00426">
                         <placeName xml:lang="de" type="pref">Homburg am Main (Triefenstein-Homburg a. Main)</placeName>
@@ -2572,7 +2572,7 @@
                         <placeName xml:lang="de" type="pref">Evanston IL</placeName>
                         
                         
-                    	<idno type="pmb">https://sws.geonames.org/4891382/</idno>
+                    	<idno type="geonames">https://sws.geonames.org/4891382/</idno>
                     </place>
                     <place xml:id="DWplace00431">
                         <placeName xml:lang="de" type="pref">Solingen</placeName>
@@ -2696,7 +2696,7 @@
                         <placeName xml:lang="de" type="pref">Pfaffenhofen</placeName>
                         
                         
-                    	<idno type="pmb">https://sws.geonames.org/2987431/</idno>
+                    	<idno type="geonames">https://sws.geonames.org/2987431/</idno>
                     </place>
                     <place xml:id="DWplace00453">
                         <placeName xml:lang="de" type="pref">Ottmachau (Otmuchów)</placeName>
