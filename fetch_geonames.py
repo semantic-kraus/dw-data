@@ -24,7 +24,7 @@ for x in tqdm(
     try:
         place_doc = TeiReader(pmb_uri)
     except Exception as e:
-        failed.append(x, e)
+        failed.append([x, e])
     try:
         geonames = place_doc.any_xpath(".//idno[@subtype='geonames']")[0]
     except IndexError:
