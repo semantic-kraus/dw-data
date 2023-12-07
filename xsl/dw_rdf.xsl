@@ -130,7 +130,7 @@
       <xsl:text>&gt; a frbroo:F22_Self-Contained_Expression</xsl:text>
       <xsl:call-template name="newline-semicolon"/>
 
-      <xsl:text>  rdfs:label &quot;Expression: </xsl:text>
+      <xsl:text>  rdfs:label &quot;</xsl:text>
       <xsl:choose>
         <xsl:when test="$title != ''">
           <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
@@ -182,7 +182,7 @@
     <xsl:value-of select="$uri-f22"/>
     <xsl:text>&gt; a frbroo:F22_Self-Contained_Expression</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
-    <xsl:text>  rdfs:label &quot;Expression: </xsl:text>
+    <xsl:text>  rdfs:label &quot;</xsl:text>
     <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
     <xsl:text>&quot;@en</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
@@ -684,7 +684,7 @@
     <xsl:value-of select="$uri-f22ed"/>
     <xsl:text>&gt; a frbroo:F22_Self-Contained_Expression</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
-    <xsl:text>  rdfs:label &quot;Expression: </xsl:text>
+    <xsl:text>  rdfs:label &quot;</xsl:text>
     <xsl:value-of select="replace(translate($title, '&#x9;&#xa;&#xd;', ' '), '(\s)+', ' ')"/>
     <xsl:text>&quot;@en</xsl:text>
     <xsl:call-template name="newline-semicolon"/>
@@ -1605,7 +1605,7 @@
               <xsl:with-param name="text" select="'#E52 publication time-span'"/>
             </xsl:call-template>
             <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-            <xsl:value-of select="$uri"/>
+            <xsl:value-of select="translate($uri, '#', '')"/>
             <xsl:text>/publication/time-span&gt; a cidoc:E52_Time-Span</xsl:text>
             <xsl:call-template name="newline-semicolon"/>
             <xsl:text>  rdfs:label &quot;</xsl:text>
