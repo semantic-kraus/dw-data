@@ -9215,9 +9215,9 @@ sk:DWorg00018 a crm:E74_Group ;
     crm:P82b_end_of_the_end "1874-04-28"^^xsd:date .
 
 <https://sk.acdh.oeaw.ac.at/DWpers0000/death/time-span> a crm:E52_Time-Span ;
-    rdfs:label "1936-12-06"^^xsd:string ;
-    crm:P82a_begin_of_the_begin "1936-12-06"^^xsd:date ;
-    crm:P82b_end_of_the_end "1936-12-06"^^xsd:date .
+    rdfs:label "1936-06-12"^^xsd:string ;
+    crm:P82a_begin_of_the_begin "1936-06-12"^^xsd:date ;
+    crm:P82b_end_of_the_end "1936-06-12"^^xsd:date .
 
 <https://sk.acdh.oeaw.ac.at/DWpers0000/identifier/DWpers0000> a crm:E42_Identifier ;
     rdfs:label "Identifier: DWpers0000"@en ;

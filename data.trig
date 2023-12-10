@@ -73,10 +73,10 @@ ns1:dritte-walpurgisnacht {
         crm:P82b_end_of_the_end "1874-04-28"^^xsd:date .
 
     <https://sk.acdh.oeaw.ac.at/DWpers0000/death/time-span> a crm:E52_Time-Span ;
-        rdfs:label "1936-12-06"^^xsd:string ;
+        rdfs:label "1936-06-12"^^xsd:string ;
         crm:P4i_is_time-span_of <https://sk.acdh.oeaw.ac.at/DWpers0000/death> ;
-        crm:P82a_begin_of_the_begin "1936-12-06"^^xsd:date ;
-        crm:P82b_end_of_the_end "1936-12-06"^^xsd:date .
+        crm:P82a_begin_of_the_begin "1936-06-12"^^xsd:date ;
+        crm:P82b_end_of_the_end "1936-06-12"^^xsd:date .
 
     <https://sk.acdh.oeaw.ac.at/DWpers0000/occupation/01> a frbroo:F51_Pursuit ;
         rdfs:label "Schriftsteller"@de ;
