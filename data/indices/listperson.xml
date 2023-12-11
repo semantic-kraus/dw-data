@@ -1816,13 +1816,13 @@
 							<surname>Kottisch</surname>
 						</persName>
 						<birth when="1906-11-19">19. 11. 1906<placeName key="#DWplace00375">Eichenau (Wójcice)</placeName></birth>
-						<event type="missing">
+						<!--<event type="missing">
 							<desc>
 								<date when="1943-07-01">1. 7. 1943</date>
 								<placeName key="#DWplace00240">Charkow/Ljubotin/Merefa/Olschany bei Charkow</placeName>
 							</desc>
 							<note>Declared/Gone Missing</note>
-						</event>
+						</event>-->
 						<persName type="sk" subtype="pref">Kottisch, Reinhold</persName>
 						<occupation type="prim" n="01">Elektriker</occupation>
 						<occupation n="02">SA-Mitglied</occupation>
@@ -1906,12 +1906,12 @@
 						</persName>
 						<birth when="1889-09-17">17. 9. 1889<placeName key="#DWplace00276">Koszinnen (Kozin)</placeName></birth>
 						<persName type="sk" subtype="pref">Hoppe, Georg</persName>
-						<event type="missing">
+						<!--<event type="missing">
 							<desc>
 								<date when="1945-01-01">1. 1. 1945</date>
 							</desc>
 							<note>Declared/Gone Missing</note>
-						</event>
+						</event>-->
 						<occupation type="prim" n="01">Gastwirt</occupation>
 						<occupation n="02">SA-Sturmführer</occupation>
 						<affiliation ref="#DWorg00011" n="01">NSDAP</affiliation>
@@ -3316,19 +3316,19 @@
 						</persName>
 						<birth when="1896-12-18">18. 12. 1896<placeName key="#DWplace00239">Frankfurt am Main</placeName></birth>
 						<death when="1945">1945</death>
-						<event type="missing">
+						<!--<event type="missing">
 							<desc>
 								<date when="1945-03">März 1945</date>
 								<placeName key="#DWplace00313">Berlin</placeName>
 							</desc>
 							<note>Declared/Gone Missing</note>
-						</event>
-						<event type="decl-dead">
+						</event>-->
+						<!-- <event type="decl-dead">
 							<desc>
 								<date when="1945-12-31">31. 12. 1945</date>
 							</desc>
 							<note>Declared Dead</note>
-						</event>
+						</event>-->
 						<persName type="sk" subtype="pref">Flesch, Hans</persName>
 						<persName type="sk" subtype="born">Flesch, Johannes Georg Julius Jakob</persName>
 						<occupation type="prim" n="01">Rundfunkpionier, Arzt</occupation>
@@ -4921,12 +4921,12 @@
 						</persName>
 						<birth when="1892-01-29">29. 1. 1892<placeName key="#DWplace00266">Csantavér (Čantavir)</placeName></birth>
 						<persName type="sk" subtype="pref">Matuška, Szilveszter</persName>
-						<event type="missing">
+						<!-- <event type="missing">
 							<desc>
 								<date when="1944">1944</date>
 							</desc>
 							<note>Declared/Gone Missing</note>
-						</event>
+						</event> -->
 						<occupation type="prim" n="01">Eisenbahnattentäter</occupation>
 						<idno type="GND">1112956344</idno>
 						<note type="source" subtype="publ" n="DWsource0011">Gemeinsame Normdatei der Deutschen Nationalbibliothek. (Durchsuchbar z. B. über: Bibliotheksservice-Zentrum Baden-Württemberg: Online-GND. URL: https://swb.bsz-bw.de (22. 3. 2021)).</note>
