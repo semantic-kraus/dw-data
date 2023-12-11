@@ -45,6 +45,7 @@
 
 <https://sk.acdh.oeaw.ac.at/DWbibl00000/title/0> a crm:E35_Title ;
   rdfs:label "Dritte Walpurgisnacht"@und ;
+  rdf:value "Dritte Walpurgisnacht" ;
   crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
   crm:P102i_is_title_of <https://sk.acdh.oeaw.ac.at/DWbibl00000> .
 
