@@ -1,6 +1,5 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix dw: <https://sk.acdh.oeaw.ac.at/project/dritte-walpurgisnacht> .
 @prefix frbroo: <https://cidoc-crm.org/frbroo/sites/default/files/FRBR2.4-draft.rdfs#> .
 @prefix ns1: <https://sk.acdh.oeaw.ac.at/project/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -8,14 +7,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sk: <https://sk.acdh.oeaw.ac.at/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-sk:provenance {
-    ns1:dritte-walpurgisnacht a <http://www.w3.org/ns/sparql-service-description#NamedGraph> ;
-        rdfs:label "Dritte Walpurgisnacht"@en ;
-        dcterms:bibliographicCitation "Karl Kraus: Dritte Walpurgisnacht. Annotated reader's edition. Ed. by Bernhard Oberreither at Austrian Corpora and Editions at ACDH-CH. 2021. URL: https://kraus1933.ace.oeaw.ac.at"@en ;
-        dcterms:contributor "Research – concerning persons mentioned and intertexts – was conducted by Bernhard Oberreither, Hanno Biber, David Treffinger, Laura Untner, with the assistance of Gerhard Wolff; interns: Constance Quinlan, Mira Krall. Research findings build on preliminary work done at the predecessor institutions of the ACE at the Austrian Academy of Sciences as well as on numerous publications. For a list see https://kraus1933.ace.oeaw.ac.at/annotierte_lesefassung.html. For a list of biographical and bibliographical sources see https://kraus1933.ace.oeaw.ac.at/register.html."@en ;
-        dcterms:title "Dritte Walpurgisnacht"@de .
-}
 
 ns1:dritte-walpurgisnacht {
     <https://sk.acdh.oeaw.ac.at/DWbibl00000/creation/time-span> a crm:E52_Time-Span ;
@@ -1344,20 +1335,6 @@ ns1:dritte-walpurgisnacht {
         crm:P4i_is_time-span_of <https://sk.acdh.oeaw.ac.at/DWpers0060/death> ;
         crm:P82a_begin_of_the_begin "1945"^^xsd:gYear ;
         crm:P82b_end_of_the_end "1945"^^xsd:gYear .
-
-    <https://sk.acdh.oeaw.ac.at/DWpers0060/event/0/time-span> a crm:E52_Time-Span ;
-        rdfs:label "1945-03"^^xsd:string,
-            "1945-03"@en ;
-        crm:P4i_is_time-span_of <https://sk.acdh.oeaw.ac.at/DWpers0060/event/0> ;
-        crm:P82a_begin_of_the_begin "1945-03"^^xsd:gYearMonth ;
-        crm:P82b_end_of_the_end "1945-03"^^xsd:gYearMonth .
-
-    <https://sk.acdh.oeaw.ac.at/DWpers0060/event/1/time-span> a crm:E52_Time-Span ;
-        rdfs:label "1945-12-31"^^xsd:string,
-            "1945-12-31"@en ;
-        crm:P4i_is_time-span_of <https://sk.acdh.oeaw.ac.at/DWpers0060/event/1> ;
-        crm:P82a_begin_of_the_begin "1945-12-31"^^xsd:date ;
-        crm:P82b_end_of_the_end "1945-12-31"^^xsd:date .
 
     <https://sk.acdh.oeaw.ac.at/DWpers0060/occupation/01> a frbroo:F51_Pursuit ;
         rdfs:label "Rundfunkpionier, Arzt"@de ;
@@ -3486,13 +3463,6 @@ ns1:dritte-walpurgisnacht {
         crm:P4i_is_time-span_of <https://sk.acdh.oeaw.ac.at/DWpers0164/birth> ;
         crm:P82a_begin_of_the_begin "1892-01-29"^^xsd:date ;
         crm:P82b_end_of_the_end "1892-01-29"^^xsd:date .
-
-    <https://sk.acdh.oeaw.ac.at/DWpers0164/event/0/time-span> a crm:E52_Time-Span ;
-        rdfs:label "1944"^^xsd:string,
-            "1944"@en ;
-        crm:P4i_is_time-span_of <https://sk.acdh.oeaw.ac.at/DWpers0164/event/0> ;
-        crm:P82a_begin_of_the_begin "1944"^^xsd:gYear ;
-        crm:P82b_end_of_the_end "1944"^^xsd:gYear .
 
     <https://sk.acdh.oeaw.ac.at/DWpers0164/occupation/01> a frbroo:F51_Pursuit ;
         rdfs:label "Eisenbahnattentäter"@de ;
@@ -7939,13 +7909,6 @@ ns1:dritte-walpurgisnacht {
         crm:P82a_begin_of_the_begin "1906-11-19"^^xsd:date ;
         crm:P82b_end_of_the_end "1906-11-19"^^xsd:date .
 
-    <https://sk.acdh.oeaw.ac.at/DWpers2019/event/0/time-span> a crm:E52_Time-Span ;
-        rdfs:label "1943-07-01"^^xsd:string,
-            "1943-07-01"@en ;
-        crm:P4i_is_time-span_of <https://sk.acdh.oeaw.ac.at/DWpers2019/event/0> ;
-        crm:P82a_begin_of_the_begin "1943-07-01"^^xsd:date ;
-        crm:P82b_end_of_the_end "1943-07-01"^^xsd:date .
-
     <https://sk.acdh.oeaw.ac.at/DWpers2019/occupation/01> a frbroo:F51_Pursuit ;
         rdfs:label "Elektriker"@de ;
         crm:P14_carried_out_by sk:DWpers2019 .
@@ -8023,13 +7986,6 @@ ns1:dritte-walpurgisnacht {
         crm:P4i_is_time-span_of <https://sk.acdh.oeaw.ac.at/DWpers2024/birth> ;
         crm:P82a_begin_of_the_begin "1889-09-17"^^xsd:date ;
         crm:P82b_end_of_the_end "1889-09-17"^^xsd:date .
-
-    <https://sk.acdh.oeaw.ac.at/DWpers2024/event/0/time-span> a crm:E52_Time-Span ;
-        rdfs:label "1945-01-01"^^xsd:string,
-            "1945-01-01"@en ;
-        crm:P4i_is_time-span_of <https://sk.acdh.oeaw.ac.at/DWpers2024/event/0> ;
-        crm:P82a_begin_of_the_begin "1945-01-01"^^xsd:date ;
-        crm:P82b_end_of_the_end "1945-01-01"^^xsd:date .
 
     <https://sk.acdh.oeaw.ac.at/DWpers2024/occupation/01> a frbroo:F51_Pursuit ;
         rdfs:label "Gastwirt"@de ;
@@ -8280,6 +8236,10 @@ ns1:dritte-walpurgisnacht {
         crm:P82b_end_of_the_end "undefined"@en .
 
     sk:DWplace00150 crm:P7i_witnessed <https://sk.acdh.oeaw.ac.at/DWpers0403/death> .
+
+    sk:DWplace00240 a crm:E53_Place ;
+        rdfs:label "Charkow/Ljubotin/Merefa/Olschany bei Charkow"@de ;
+        crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00240/appellation/0> .
 
     sk:DWsource0001 a dcterms:BibliographicResource,
             prov:Entity ;
@@ -8709,8 +8669,6 @@ ns1:dritte-walpurgisnacht {
             prov:Entity ;
         dcterms:bibliographicCitation "telegraph.co.uk (Todesanzeige)" .
 
-    <https://sk.acdh.oeaw.ac.at/types/event/decl-dead> crm:P2i_is_type_of <https://sk.acdh.oeaw.ac.at/DWpers0060/event/1> .
-
     <https://sk.acdh.oeaw.ac.at/types/idno/URL/viaf> a crm:E55_Type ;
         crm:P2i_is_type_of <https://sk.acdh.oeaw.ac.at/DWpers0010/identifier/idno/0> .
 
@@ -8735,13 +8693,14 @@ ns1:dritte-walpurgisnacht {
 
     <https://sk.acdh.oeaw.ac.at/DWbibl00000/published-expression> a frbroo:F24_Publication_Expression ;
         crm:P165_incorporates sk:DWbibl00000 ;
-        <http://www.w3.org/2000/01/rdf-schema#label:> "Publication carrying: Dritte Walpurgisnacht"@en ;
+        <http://www.w3.org/2000/01/rdf-schema#label:> "Dritte Walpurgisnacht (Digital Edition)"@en ;
         frbroo:R24i_was_created_through <https://sk.acdh.oeaw.ac.at/DWbibl00000/publication> .
 
     <https://sk.acdh.oeaw.ac.at/DWbibl00000/title/0> a crm:E35_Title ;
         rdfs:label "Dritte Walpurgisnacht"@und ;
         crm:P102i_is_title_of sk:DWbibl00000 ;
-        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> .
+        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
+        rdf:value "Dritte Walpurgisnacht" .
 
     <https://sk.acdh.oeaw.ac.at/DWorg00001/appellation/0> a crm:E33_E41_Linguistic_Appellation ;
         rdfs:label "Stahlhelm"@de ;
@@ -25665,11 +25624,6 @@ ns1:dritte-walpurgisnacht {
         crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/URL/geonames> ;
         rdf:value "https://sws.geonames.org/2925533/" .
 
-    sk:DWplace00240 a crm:E53_Place ;
-        rdfs:label "Charkow/Ljubotin/Merefa/Olschany bei Charkow"@de ;
-        crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00240/appellation/0> ;
-        crm:P7i_witnessed <https://sk.acdh.oeaw.ac.at/DWpers2019/event/0> .
-
     <https://sk.acdh.oeaw.ac.at/DWplace00240/appellation/0> a crm:E33_E41_Linguistic_Appellation ;
         rdfs:label "Charkow/Ljubotin/Merefa/Olschany bei Charkow"@de ;
         crm:P1i_identifies sk:DWplace00240 ;
@@ -32932,12 +32886,6 @@ ns1:dritte-walpurgisnacht {
         crm:P7_took_place_at sk:DWplace00239 ;
         crm:P98_brought_into_life sk:DWpers0060 .
 
-    <https://sk.acdh.oeaw.ac.at/DWpers0060/event/1> a crm:E13_Attribute_Assignment ;
-        rdfs:label "Declared Dead"@en ;
-        crm:P140_assigned_attribute_to sk:DWpers0060 ;
-        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/event/decl-dead> ;
-        crm:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers0060/event/1/time-span> .
-
     <https://sk.acdh.oeaw.ac.at/DWpers0061/birth> a crm:E67_Birth ;
         rdfs:label "Birth of Franck, James"@en ;
         crm:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers0061/birth/time-span> ;
@@ -34100,12 +34048,6 @@ ns1:dritte-walpurgisnacht {
         crm:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers0164/birth/time-span> ;
         crm:P7_took_place_at sk:DWplace00266 ;
         crm:P98_brought_into_life sk:DWpers0164 .
-
-    <https://sk.acdh.oeaw.ac.at/DWpers0164/event/0> a crm:E13_Attribute_Assignment ;
-        rdfs:label "Declared/Gone Missing"@en ;
-        crm:P140_assigned_attribute_to sk:DWpers0164 ;
-        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/event/missing> ;
-        crm:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers0164/event/0/time-span> .
 
     <https://sk.acdh.oeaw.ac.at/DWpers0165/birth> a crm:E67_Birth ;
         rdfs:label "Birth of May, Karl"@en ;
@@ -36551,12 +36493,6 @@ ns1:dritte-walpurgisnacht {
         crm:P7_took_place_at sk:DWplace00276 ;
         crm:P98_brought_into_life sk:DWpers2024 .
 
-    <https://sk.acdh.oeaw.ac.at/DWpers2024/event/0> a crm:E13_Attribute_Assignment ;
-        rdfs:label "Declared/Gone Missing"@en ;
-        crm:P140_assigned_attribute_to sk:DWpers2024 ;
-        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/event/missing> ;
-        crm:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers2024/event/0/time-span> .
-
     <https://sk.acdh.oeaw.ac.at/DWpers2025/birth> a crm:E67_Birth ;
         rdfs:label "Birth of Stenz, Hermann"@en ;
         crm:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers2025/birth/time-span> ;
@@ -38187,13 +38123,6 @@ ns1:dritte-walpurgisnacht {
         crm:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers0023/event/0/time-span> ;
         crm:P7_took_place_at sk:DWplace00162 .
 
-    <https://sk.acdh.oeaw.ac.at/DWpers0060/event/0> a crm:E13_Attribute_Assignment ;
-        rdfs:label "Declared/Gone Missing"@en ;
-        crm:P140_assigned_attribute_to sk:DWpers0060 ;
-        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/event/missing> ;
-        crm:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers0060/event/0/time-span> ;
-        crm:P7_took_place_at sk:DWplace00313 .
-
     sk:DWpers1008 a crm:E21_Person ;
         rdfs:label "Bäcker, Hermann"@und ;
         crm:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers1008/occupation/01> ;
@@ -38224,13 +38153,6 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/DWpers1121/identifier/idno/1> ;
         crm:P98i_was_born <https://sk.acdh.oeaw.ac.at/DWpers1121/birth> ;
         prov:wasDerivedFrom sk:DWsource0035 .
-
-    <https://sk.acdh.oeaw.ac.at/DWpers2019/event/0> a crm:E13_Attribute_Assignment ;
-        rdfs:label "Declared/Gone Missing"@en ;
-        crm:P140_assigned_attribute_to sk:DWpers2019 ;
-        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/event/missing> ;
-        crm:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers2019/event/0/time-span> ;
-        crm:P7_took_place_at sk:DWplace00240 .
 
     sk:DWplace00000 a crm:E53_Place ;
         rdfs:label "Fulda"@de ;
@@ -39491,11 +39413,6 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/nDWpers1422/identifier/idno/1>,
             <https://sk.acdh.oeaw.ac.at/nDWpers1422/identifier/nDWpers1422> .
 
-    <https://sk.acdh.oeaw.ac.at/types/event/missing> crm:P2i_is_type_of <https://sk.acdh.oeaw.ac.at/DWpers0060/event/0>,
-            <https://sk.acdh.oeaw.ac.at/DWpers0164/event/0>,
-            <https://sk.acdh.oeaw.ac.at/DWpers2019/event/0>,
-            <https://sk.acdh.oeaw.ac.at/DWpers2024/event/0> .
-
     sk:DWbibl00000 a frbroo:F22_Self-Contained_Expression ;
         rdfs:label "Dritte Walpurgisnacht"@und ;
         crm:P102_has_title <https://sk.acdh.oeaw.ac.at/DWbibl00000/title/0> ;
@@ -40214,6 +40131,16 @@ ns1:dritte-walpurgisnacht {
         crm:P98i_was_born <https://sk.acdh.oeaw.ac.at/DWpers0122/birth> ;
         prov:wasDerivedFrom sk:DWsource0048,
             sk:DWsource0146 .
+
+    sk:DWpers0164 a crm:E21_Person ;
+        rdfs:label "Matuška, Szilveszter"@und ;
+        crm:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers0164/occupation/01> ;
+        crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers0164/appellation/0>,
+            <https://sk.acdh.oeaw.ac.at/DWpers0164/identifier/DWpers0164>,
+            <https://sk.acdh.oeaw.ac.at/DWpers0164/identifier/idno/0>,
+            <https://sk.acdh.oeaw.ac.at/DWpers0164/identifier/idno/1> ;
+        crm:P98i_was_born <https://sk.acdh.oeaw.ac.at/DWpers0164/birth> ;
+        prov:wasDerivedFrom sk:DWsource0011 .
 
     sk:DWpers0207 a crm:E21_Person ;
         rdfs:label "Schiller, Friedrich von"@und ;
@@ -41346,17 +41273,6 @@ ns1:dritte-walpurgisnacht {
         crm:P98i_was_born <https://sk.acdh.oeaw.ac.at/DWpers0163/birth> ;
         prov:wasDerivedFrom sk:DWsource0008 .
 
-    sk:DWpers0164 a crm:E21_Person ;
-        rdfs:label "Matuška, Szilveszter"@und ;
-        crm:P140i_was_attributed_by <https://sk.acdh.oeaw.ac.at/DWpers0164/event/0> ;
-        crm:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers0164/occupation/01> ;
-        crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers0164/appellation/0>,
-            <https://sk.acdh.oeaw.ac.at/DWpers0164/identifier/DWpers0164>,
-            <https://sk.acdh.oeaw.ac.at/DWpers0164/identifier/idno/0>,
-            <https://sk.acdh.oeaw.ac.at/DWpers0164/identifier/idno/1> ;
-        crm:P98i_was_born <https://sk.acdh.oeaw.ac.at/DWpers0164/birth> ;
-        prov:wasDerivedFrom sk:DWsource0011 .
-
     sk:DWpers0165 a crm:E21_Person ;
         rdfs:label "May, Karl"@und ;
         crm:P100i_died_in <https://sk.acdh.oeaw.ac.at/DWpers0165/death> ;
@@ -41973,6 +41889,18 @@ ns1:dritte-walpurgisnacht {
         crm:P98i_was_born <https://sk.acdh.oeaw.ac.at/DWpers2014/birth> ;
         prov:wasDerivedFrom sk:DWsource0035,
             sk:DWsource0145 .
+
+    sk:DWpers2024 a crm:E21_Person ;
+        rdfs:label "Hoppe, Georg"@und ;
+        crm:P143i_was_joined_by <https://sk.acdh.oeaw.ac.at/DWpers2024/joining/DWorg00011/0> ;
+        crm:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers2024/occupation/01>,
+            <https://sk.acdh.oeaw.ac.at/DWpers2024/occupation/02> ;
+        crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers2024/appellation/0>,
+            <https://sk.acdh.oeaw.ac.at/DWpers2024/identifier/DWpers2024>,
+            <https://sk.acdh.oeaw.ac.at/DWpers2024/identifier/idno/1> ;
+        crm:P98i_was_born <https://sk.acdh.oeaw.ac.at/DWpers2024/birth> ;
+        prov:wasDerivedFrom sk:DWsource0117,
+            sk:DWsource0142 .
 
     sk:DWpers2027 a crm:E21_Person ;
         rdfs:label "Marx, Erich"@und ;
@@ -43283,6 +43211,19 @@ ns1:dritte-walpurgisnacht {
         crm:P98i_was_born <https://sk.acdh.oeaw.ac.at/DWpers2018/birth> ;
         prov:wasDerivedFrom sk:DWsource0004 .
 
+    sk:DWpers2019 a crm:E21_Person ;
+        rdfs:label "Kottisch, Reinhold"@und ;
+        crm:P143i_was_joined_by <https://sk.acdh.oeaw.ac.at/DWpers2019/joining/DWorg00011/0> ;
+        crm:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers2019/occupation/01>,
+            <https://sk.acdh.oeaw.ac.at/DWpers2019/occupation/02> ;
+        crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers2019/appellation/0>,
+            <https://sk.acdh.oeaw.ac.at/DWpers2019/identifier/DWpers2019>,
+            <https://sk.acdh.oeaw.ac.at/DWpers2019/identifier/idno/0>,
+            <https://sk.acdh.oeaw.ac.at/DWpers2019/identifier/idno/1> ;
+        crm:P98i_was_born <https://sk.acdh.oeaw.ac.at/DWpers2019/birth> ;
+        prov:wasDerivedFrom sk:DWsource0117,
+            sk:DWsource0142 .
+
     sk:DWpers2021 a crm:E21_Person ;
         rdfs:label "Gräupner, August"@und ;
         crm:P143i_was_joined_by <https://sk.acdh.oeaw.ac.at/DWpers2021/joining/DWorg00011/0> ;
@@ -43318,19 +43259,6 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/DWpers2023/identifier/idno/1> ;
         crm:P98i_was_born <https://sk.acdh.oeaw.ac.at/DWpers2023/birth> ;
         prov:wasDerivedFrom sk:DWsource0117 .
-
-    sk:DWpers2024 a crm:E21_Person ;
-        rdfs:label "Hoppe, Georg"@und ;
-        crm:P140i_was_attributed_by <https://sk.acdh.oeaw.ac.at/DWpers2024/event/0> ;
-        crm:P143i_was_joined_by <https://sk.acdh.oeaw.ac.at/DWpers2024/joining/DWorg00011/0> ;
-        crm:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers2024/occupation/01>,
-            <https://sk.acdh.oeaw.ac.at/DWpers2024/occupation/02> ;
-        crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers2024/appellation/0>,
-            <https://sk.acdh.oeaw.ac.at/DWpers2024/identifier/DWpers2024>,
-            <https://sk.acdh.oeaw.ac.at/DWpers2024/identifier/idno/1> ;
-        crm:P98i_was_born <https://sk.acdh.oeaw.ac.at/DWpers2024/birth> ;
-        prov:wasDerivedFrom sk:DWsource0117,
-            sk:DWsource0142 .
 
     sk:DWpers2333 a crm:E21_Person ;
         rdfs:label "Bedenik, Franz"@und ;
@@ -44382,20 +44310,6 @@ ns1:dritte-walpurgisnacht {
         crm:P98i_was_born <https://sk.acdh.oeaw.ac.at/DWpers1300/birth> ;
         prov:wasDerivedFrom sk:DWsource0008 .
 
-    sk:DWpers2019 a crm:E21_Person ;
-        rdfs:label "Kottisch, Reinhold"@und ;
-        crm:P140i_was_attributed_by <https://sk.acdh.oeaw.ac.at/DWpers2019/event/0> ;
-        crm:P143i_was_joined_by <https://sk.acdh.oeaw.ac.at/DWpers2019/joining/DWorg00011/0> ;
-        crm:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers2019/occupation/01>,
-            <https://sk.acdh.oeaw.ac.at/DWpers2019/occupation/02> ;
-        crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers2019/appellation/0>,
-            <https://sk.acdh.oeaw.ac.at/DWpers2019/identifier/DWpers2019>,
-            <https://sk.acdh.oeaw.ac.at/DWpers2019/identifier/idno/0>,
-            <https://sk.acdh.oeaw.ac.at/DWpers2019/identifier/idno/1> ;
-        crm:P98i_was_born <https://sk.acdh.oeaw.ac.at/DWpers2019/birth> ;
-        prov:wasDerivedFrom sk:DWsource0117,
-            sk:DWsource0142 .
-
     sk:DWpers2020 a crm:E21_Person ;
         rdfs:label "Wolnitza, Rufin"@und ;
         crm:P100i_died_in <https://sk.acdh.oeaw.ac.at/DWpers2020/death> ;
@@ -44610,6 +44524,20 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/DWpers0042/identifier/idno/1> ;
         crm:P98i_was_born <https://sk.acdh.oeaw.ac.at/DWpers0042/birth> ;
         prov:wasDerivedFrom sk:DWsource0040 .
+
+    sk:DWpers0060 a crm:E21_Person ;
+        rdfs:label "Flesch, Hans"@und ;
+        crm:P100i_died_in <https://sk.acdh.oeaw.ac.at/DWpers0060/death> ;
+        crm:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers0060/occupation/01>,
+            <https://sk.acdh.oeaw.ac.at/DWpers0060/occupation/02>,
+            <https://sk.acdh.oeaw.ac.at/DWpers0060/occupation/03> ;
+        crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers0060/appellation/0>,
+            <https://sk.acdh.oeaw.ac.at/DWpers0060/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWpers0060/identifier/DWpers0060>,
+            <https://sk.acdh.oeaw.ac.at/DWpers0060/identifier/idno/0>,
+            <https://sk.acdh.oeaw.ac.at/DWpers0060/identifier/idno/1> ;
+        crm:P98i_was_born <https://sk.acdh.oeaw.ac.at/DWpers0060/birth> ;
+        prov:wasDerivedFrom sk:DWsource0026 .
 
     sk:DWpers0067 a crm:E21_Person ;
         rdfs:label "Frick, Wilhelm"@und ;
@@ -45635,22 +45563,6 @@ ns1:dritte-walpurgisnacht {
         crm:P98i_was_born <https://sk.acdh.oeaw.ac.at/DWpers0052/birth> ;
         prov:wasDerivedFrom sk:DWsource0025 .
 
-    sk:DWpers0060 a crm:E21_Person ;
-        rdfs:label "Flesch, Hans"@und ;
-        crm:P100i_died_in <https://sk.acdh.oeaw.ac.at/DWpers0060/death> ;
-        crm:P140i_was_attributed_by <https://sk.acdh.oeaw.ac.at/DWpers0060/event/0>,
-            <https://sk.acdh.oeaw.ac.at/DWpers0060/event/1> ;
-        crm:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers0060/occupation/01>,
-            <https://sk.acdh.oeaw.ac.at/DWpers0060/occupation/02>,
-            <https://sk.acdh.oeaw.ac.at/DWpers0060/occupation/03> ;
-        crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers0060/appellation/0>,
-            <https://sk.acdh.oeaw.ac.at/DWpers0060/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWpers0060/identifier/DWpers0060>,
-            <https://sk.acdh.oeaw.ac.at/DWpers0060/identifier/idno/0>,
-            <https://sk.acdh.oeaw.ac.at/DWpers0060/identifier/idno/1> ;
-        crm:P98i_was_born <https://sk.acdh.oeaw.ac.at/DWpers0060/birth> ;
-        prov:wasDerivedFrom sk:DWsource0026 .
-
     sk:DWpers0065 a crm:E21_Person ;
         rdfs:label "Freisler, Roland"@und ;
         crm:P100i_died_in <https://sk.acdh.oeaw.ac.at/DWpers0065/death> ;
@@ -46284,7 +46196,6 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/DWpers0025/death>,
             <https://sk.acdh.oeaw.ac.at/DWpers0054/death>,
             <https://sk.acdh.oeaw.ac.at/DWpers0058/death>,
-            <https://sk.acdh.oeaw.ac.at/DWpers0060/event/0>,
             <https://sk.acdh.oeaw.ac.at/DWpers0064/death>,
             <https://sk.acdh.oeaw.ac.at/DWpers0065/death>,
             <https://sk.acdh.oeaw.ac.at/DWpers0068/birth>,
@@ -49968,5 +49879,13 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/nDWpers1425/appellation/0>,
             <https://sk.acdh.oeaw.ac.at/nDWpers1426/appellation/0>,
             <https://sk.acdh.oeaw.ac.at/nDWpers1427/appellation/0> .
+}
+
+sk:provenance {
+    ns1:dritte-walpurgisnacht a <http://www.w3.org/ns/sparql-service-description#NamedGraph> ;
+        rdfs:label "Dritte Walpurgisnacht"@en ;
+        dcterms:bibliographicCitation "Karl Kraus: Dritte Walpurgisnacht. Annotated reader's edition. Ed. by Bernhard Oberreither at Austrian Corpora and Editions at ACDH-CH. 2021. URL: https://kraus1933.ace.oeaw.ac.at"@en ;
+        dcterms:contributor "Research – concerning persons mentioned and intertexts – was conducted by Bernhard Oberreither, Hanno Biber, David Treffinger, Laura Untner, with the assistance of Gerhard Wolff; interns: Constance Quinlan, Mira Krall. Research findings build on preliminary work done at the predecessor institutions of the ACE at the Austrian Academy of Sciences as well as on numerous publications. For a list see https://kraus1933.ace.oeaw.ac.at/annotierte_lesefassung.html. For a list of biographical and bibliographical sources see https://kraus1933.ace.oeaw.ac.at/register.html."@en ;
+        dcterms:title "Dritte Walpurgisnacht"@de .
 }
 

@@ -1154,19 +1154,6 @@
     crm:P100_was_death_of sk:DWpers0060 ;
     crm:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers0060/death/time-span> .
 
-<https://sk.acdh.oeaw.ac.at/DWpers0060/event/0> a crm:E13_Attribute_Assignment ;
-    rdfs:label "Declared/Gone Missing"@en ;
-    crm:P140_assigned_attribute_to sk:DWpers0060 ;
-    crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/event/missing> ;
-    crm:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers0060/event/0/time-span> ;
-    crm:P7_took_place_at sk:DWplace00313 .
-
-<https://sk.acdh.oeaw.ac.at/DWpers0060/event/1> a crm:E13_Attribute_Assignment ;
-    rdfs:label "Declared Dead"@en ;
-    crm:P140_assigned_attribute_to sk:DWpers0060 ;
-    crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/event/decl-dead> ;
-    crm:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers0060/event/1/time-span> .
-
 <https://sk.acdh.oeaw.ac.at/DWpers0060/identifier/idno/1> a crm:E42_Identifier ;
     rdfs:label "Identifier: https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&letter=F#DWpers0060"@en ;
     crm:P1i_identifies sk:DWpers0060 ;
@@ -3011,12 +2998,6 @@
     crm:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers0164/birth/time-span> ;
     crm:P7_took_place_at sk:DWplace00266 ;
     crm:P98_brought_into_life sk:DWpers0164 .
-
-<https://sk.acdh.oeaw.ac.at/DWpers0164/event/0> a crm:E13_Attribute_Assignment ;
-    rdfs:label "Declared/Gone Missing"@en ;
-    crm:P140_assigned_attribute_to sk:DWpers0164 ;
-    crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/event/missing> ;
-    crm:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers0164/event/0/time-span> .
 
 <https://sk.acdh.oeaw.ac.at/DWpers0164/identifier/idno/1> a crm:E42_Identifier ;
     rdfs:label "Identifier: https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&letter=M#DWpers0164"@en ;
@@ -7252,13 +7233,6 @@
     crm:P7_took_place_at sk:DWplace00375 ;
     crm:P98_brought_into_life sk:DWpers2019 .
 
-<https://sk.acdh.oeaw.ac.at/DWpers2019/event/0> a crm:E13_Attribute_Assignment ;
-    rdfs:label "Declared/Gone Missing"@en ;
-    crm:P140_assigned_attribute_to sk:DWpers2019 ;
-    crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/event/missing> ;
-    crm:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers2019/event/0/time-span> ;
-    crm:P7_took_place_at sk:DWplace00240 .
-
 <https://sk.acdh.oeaw.ac.at/DWpers2019/identifier/idno/1> a crm:E42_Identifier ;
     rdfs:label "Identifier: https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&letter=K#DWpers2019"@en ;
     crm:P1i_identifies sk:DWpers2019 ;
@@ -7349,12 +7323,6 @@
     crm:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers2024/birth/time-span> ;
     crm:P7_took_place_at sk:DWplace00276 ;
     crm:P98_brought_into_life sk:DWpers2024 .
-
-<https://sk.acdh.oeaw.ac.at/DWpers2024/event/0> a crm:E13_Attribute_Assignment ;
-    rdfs:label "Declared/Gone Missing"@en ;
-    crm:P140_assigned_attribute_to sk:DWpers2024 ;
-    crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/event/missing> ;
-    crm:P4_has_time-span <https://sk.acdh.oeaw.ac.at/DWpers2024/event/0/time-span> .
 
 <https://sk.acdh.oeaw.ac.at/DWpers2024/identifier/idno/1> a crm:E42_Identifier ;
     rdfs:label "Identifier: https://kraus1933.ace.oeaw.ac.at/Gesamt.xml?template=register_personen.html&letter=H#DWpers2024"@en ;
@@ -7745,6 +7713,10 @@ sk:DWplace00237 a crm:E53_Place ;
         <https://sk.acdh.oeaw.ac.at/DWplace00237/appellation/2>,
         <https://sk.acdh.oeaw.ac.at/DWplace00237/identifier/idno/0>,
         <https://sk.acdh.oeaw.ac.at/DWplace00237/identifier/idno/1> .
+
+sk:DWplace00240 a crm:E53_Place ;
+    rdfs:label "Charkow/Ljubotin/Merefa/Olschany bei Charkow"@de ;
+    crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00240/appellation/0> .
 
 sk:DWplace00246 a crm:E53_Place ;
     rdfs:label "Karlsbad"@de ;
@@ -8666,7 +8638,8 @@ dw: a <http://www.w3.org/ns/sparql-service-description#NamedGraph> ;
 <https://sk.acdh.oeaw.ac.at/DWbibl00000/title/0> a crm:E35_Title ;
     rdfs:label "Dritte Walpurgisnacht"@und ;
     crm:P102i_is_title_of sk:DWbibl00000 ;
-    crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> .
+    crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/title/main> ;
+    rdf:value "Dritte Walpurgisnacht" .
 
 <https://sk.acdh.oeaw.ac.at/DWorg00001/appellation/0> a crm:E33_E41_Linguistic_Appellation ;
     rdfs:label "Stahlhelm"@de ;
@@ -11453,18 +11426,6 @@ sk:DWorg00018 a crm:E74_Group ;
     rdfs:label "1945"^^xsd:string ;
     crm:P82a_begin_of_the_begin "1945"^^xsd:gYear ;
     crm:P82b_end_of_the_end "1945"^^xsd:gYear .
-
-<https://sk.acdh.oeaw.ac.at/DWpers0060/event/0/time-span> a crm:E52_Time-Span ;
-    rdfs:label "1945-03"^^xsd:string,
-        "1945-03"@en ;
-    crm:P82a_begin_of_the_begin "1945-03"^^xsd:gYearMonth ;
-    crm:P82b_end_of_the_end "1945-03"^^xsd:gYearMonth .
-
-<https://sk.acdh.oeaw.ac.at/DWpers0060/event/1/time-span> a crm:E52_Time-Span ;
-    rdfs:label "1945-12-31"^^xsd:string,
-        "1945-12-31"@en ;
-    crm:P82a_begin_of_the_begin "1945-12-31"^^xsd:date ;
-    crm:P82b_end_of_the_end "1945-12-31"^^xsd:date .
 
 <https://sk.acdh.oeaw.ac.at/DWpers0060/identifier/DWpers0060> a crm:E42_Identifier ;
     rdfs:label "Identifier: DWpers0060"@en ;
@@ -15218,12 +15179,6 @@ sk:DWpers0069 a crm:E21_Person ;
     rdfs:label "1892-01-29"^^xsd:string ;
     crm:P82a_begin_of_the_begin "1892-01-29"^^xsd:date ;
     crm:P82b_end_of_the_end "1892-01-29"^^xsd:date .
-
-<https://sk.acdh.oeaw.ac.at/DWpers0164/event/0/time-span> a crm:E52_Time-Span ;
-    rdfs:label "1944"^^xsd:string,
-        "1944"@en ;
-    crm:P82a_begin_of_the_begin "1944"^^xsd:gYear ;
-    crm:P82b_end_of_the_end "1944"^^xsd:gYear .
 
 <https://sk.acdh.oeaw.ac.at/DWpers0164/identifier/DWpers0164> a crm:E42_Identifier ;
     rdfs:label "Identifier: DWpers0164"@en ;
@@ -22838,12 +22793,6 @@ sk:DWpers1054 a crm:E21_Person ;
     crm:P82a_begin_of_the_begin "1906-11-19"^^xsd:date ;
     crm:P82b_end_of_the_end "1906-11-19"^^xsd:date .
 
-<https://sk.acdh.oeaw.ac.at/DWpers2019/event/0/time-span> a crm:E52_Time-Span ;
-    rdfs:label "1943-07-01"^^xsd:string,
-        "1943-07-01"@en ;
-    crm:P82a_begin_of_the_begin "1943-07-01"^^xsd:date ;
-    crm:P82b_end_of_the_end "1943-07-01"^^xsd:date .
-
 <https://sk.acdh.oeaw.ac.at/DWpers2019/identifier/DWpers2019> a crm:E42_Identifier ;
     rdfs:label "Identifier: DWpers2019"@en ;
     crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/xml-id> ;
@@ -22984,12 +22933,6 @@ sk:DWpers1054 a crm:E21_Person ;
     rdfs:label "1889-09-17"^^xsd:string ;
     crm:P82a_begin_of_the_begin "1889-09-17"^^xsd:date ;
     crm:P82b_end_of_the_end "1889-09-17"^^xsd:date .
-
-<https://sk.acdh.oeaw.ac.at/DWpers2024/event/0/time-span> a crm:E52_Time-Span ;
-    rdfs:label "1945-01-01"^^xsd:string,
-        "1945-01-01"@en ;
-    crm:P82a_begin_of_the_begin "1945-01-01"^^xsd:date ;
-    crm:P82b_end_of_the_end "1945-01-01"^^xsd:date .
 
 <https://sk.acdh.oeaw.ac.at/DWpers2024/identifier/DWpers2024> a crm:E42_Identifier ;
     rdfs:label "Identifier: DWpers2024"@en ;
@@ -27943,10 +27886,6 @@ sk:DWplace00238 a crm:E53_Place ;
     rdfs:label "Identifier: https://sws.geonames.org/2925533/"@en ;
     crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/idno/URL/geonames> ;
     rdf:value "https://sws.geonames.org/2925533/" .
-
-sk:DWplace00240 a crm:E53_Place ;
-    rdfs:label "Charkow/Ljubotin/Merefa/Olschany bei Charkow"@de ;
-    crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00240/appellation/0> .
 
 <https://sk.acdh.oeaw.ac.at/DWplace00240/appellation/0> a crm:E33_E41_Linguistic_Appellation ;
     rdfs:label "Charkow/Ljubotin/Merefa/Olschany bei Charkow"@de ;
@@ -34955,7 +34894,7 @@ sk:DWbibl00000 a frbroo:F22_Self-Contained_Expression ;
 
 <https://sk.acdh.oeaw.ac.at/DWbibl00000/published-expression> a frbroo:F24_Publication_Expression ;
     crm:P165_incorporates sk:DWbibl00000 ;
-    <http://www.w3.org/2000/01/rdf-schema#label:> "Publication carrying: Dritte Walpurgisnacht"@en ;
+    <http://www.w3.org/2000/01/rdf-schema#label:> "Dritte Walpurgisnacht (Digital Edition)"@en ;
     frbroo:R24i_was_created_through <https://sk.acdh.oeaw.ac.at/DWbibl00000/publication> .
 
 sk:DWorg00004 a crm:E74_Group ;
@@ -35001,6 +34940,14 @@ sk:DWpers0095 a crm:E21_Person ;
     crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers0095/appellation/0>,
         <https://sk.acdh.oeaw.ac.at/DWpers0095/identifier/DWpers0095> ;
     prov:wasDerivedFrom sk:DWsource0100 .
+
+sk:DWpers0164 a crm:E21_Person ;
+    rdfs:label "Matuška, Szilveszter"@und ;
+    crm:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers0164/occupation/01> ;
+    crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers0164/appellation/0>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0164/identifier/DWpers0164>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0164/identifier/idno/0> ;
+    prov:wasDerivedFrom sk:DWsource0011 .
 
 sk:DWpers0246 a crm:E21_Person ;
     rdfs:label "Vorlauf, Konrad"@und ;
@@ -35666,6 +35613,17 @@ sk:DWpers0059 a crm:E21_Person ;
         <https://sk.acdh.oeaw.ac.at/DWpers0059/identifier/DWpers0059> ;
     prov:wasDerivedFrom sk:DWsource0145 .
 
+sk:DWpers0060 a crm:E21_Person ;
+    rdfs:label "Flesch, Hans"@und ;
+    crm:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers0060/occupation/01>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0060/occupation/02>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0060/occupation/03> ;
+    crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers0060/appellation/0>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0060/appellation/1>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0060/identifier/DWpers0060>,
+        <https://sk.acdh.oeaw.ac.at/DWpers0060/identifier/idno/0> ;
+    prov:wasDerivedFrom sk:DWsource0026 .
+
 sk:DWpers0061 a crm:E21_Person ;
     rdfs:label "Franck, James"@und ;
     crm:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers0061/occupation/01>,
@@ -36157,14 +36115,6 @@ sk:DWpers0163 a crm:E21_Person ;
         <https://sk.acdh.oeaw.ac.at/DWpers0163/identifier/DWpers0163>,
         <https://sk.acdh.oeaw.ac.at/DWpers0163/identifier/idno/0> ;
     prov:wasDerivedFrom sk:DWsource0008 .
-
-sk:DWpers0164 a crm:E21_Person ;
-    rdfs:label "Matuška, Szilveszter"@und ;
-    crm:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers0164/occupation/01> ;
-    crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers0164/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0164/identifier/DWpers0164>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0164/identifier/idno/0> ;
-    prov:wasDerivedFrom sk:DWsource0011 .
 
 sk:DWpers0165 a crm:E21_Person ;
     rdfs:label "May, Karl"@und ;
@@ -37233,6 +37183,16 @@ sk:DWpers2018 a crm:E21_Person ;
         <https://sk.acdh.oeaw.ac.at/DWpers2018/identifier/DWpers2018> ;
     prov:wasDerivedFrom sk:DWsource0004 .
 
+sk:DWpers2019 a crm:E21_Person ;
+    rdfs:label "Kottisch, Reinhold"@und ;
+    crm:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers2019/occupation/01>,
+        <https://sk.acdh.oeaw.ac.at/DWpers2019/occupation/02> ;
+    crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers2019/appellation/0>,
+        <https://sk.acdh.oeaw.ac.at/DWpers2019/identifier/DWpers2019>,
+        <https://sk.acdh.oeaw.ac.at/DWpers2019/identifier/idno/0> ;
+    prov:wasDerivedFrom sk:DWsource0117,
+        sk:DWsource0142 .
+
 sk:DWpers2021 a crm:E21_Person ;
     rdfs:label "Gräupner, August"@und ;
     crm:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers2021/occupation/01>,
@@ -37259,6 +37219,15 @@ sk:DWpers2023 a crm:E21_Person ;
         <https://sk.acdh.oeaw.ac.at/DWpers2023/identifier/DWpers2023>,
         <https://sk.acdh.oeaw.ac.at/DWpers2023/identifier/idno/0> ;
     prov:wasDerivedFrom sk:DWsource0117 .
+
+sk:DWpers2024 a crm:E21_Person ;
+    rdfs:label "Hoppe, Georg"@und ;
+    crm:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers2024/occupation/01>,
+        <https://sk.acdh.oeaw.ac.at/DWpers2024/occupation/02> ;
+    crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers2024/appellation/0>,
+        <https://sk.acdh.oeaw.ac.at/DWpers2024/identifier/DWpers2024> ;
+    prov:wasDerivedFrom sk:DWsource0117,
+        sk:DWsource0142 .
 
 sk:DWpers2031 a crm:E21_Person ;
     rdfs:label "Brod, Max"@und ;
@@ -38712,16 +38681,6 @@ sk:DWpers2011 a crm:E21_Person ;
         sk:DWsource0085,
         sk:DWsource0151 .
 
-sk:DWpers2019 a crm:E21_Person ;
-    rdfs:label "Kottisch, Reinhold"@und ;
-    crm:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers2019/occupation/01>,
-        <https://sk.acdh.oeaw.ac.at/DWpers2019/occupation/02> ;
-    crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers2019/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWpers2019/identifier/DWpers2019>,
-        <https://sk.acdh.oeaw.ac.at/DWpers2019/identifier/idno/0> ;
-    prov:wasDerivedFrom sk:DWsource0117,
-        sk:DWsource0142 .
-
 sk:DWpers2020 a crm:E21_Person ;
     rdfs:label "Wolnitza, Rufin"@und ;
     crm:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers2020/occupation/01>,
@@ -38729,15 +38688,6 @@ sk:DWpers2020 a crm:E21_Person ;
     crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers2020/appellation/0>,
         <https://sk.acdh.oeaw.ac.at/DWpers2020/identifier/DWpers2020>,
         <https://sk.acdh.oeaw.ac.at/DWpers2020/identifier/idno/0> ;
-    prov:wasDerivedFrom sk:DWsource0117,
-        sk:DWsource0142 .
-
-sk:DWpers2024 a crm:E21_Person ;
-    rdfs:label "Hoppe, Georg"@und ;
-    crm:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers2024/occupation/01>,
-        <https://sk.acdh.oeaw.ac.at/DWpers2024/occupation/02> ;
-    crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers2024/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWpers2024/identifier/DWpers2024> ;
     prov:wasDerivedFrom sk:DWsource0117,
         sk:DWsource0142 .
 
@@ -38884,17 +38834,6 @@ sk:DWsource0042 a dcterms:BibliographicResource,
 sk:DWsource0074 a dcterms:BibliographicResource,
         prov:Entity ;
     dcterms:bibliographicCitation "Hessisches Landesamt für geschichtliche Landeskunde: Landesgeschichtliches Informationssystem Hessen (LAGIS). URL: https://www.lagis-hessen.de (22. 3. 2021)." .
-
-sk:DWpers0060 a crm:E21_Person ;
-    rdfs:label "Flesch, Hans"@und ;
-    crm:P14i_performed <https://sk.acdh.oeaw.ac.at/DWpers0060/occupation/01>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0060/occupation/02>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0060/occupation/03> ;
-    crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWpers0060/appellation/0>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0060/appellation/1>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0060/identifier/DWpers0060>,
-        <https://sk.acdh.oeaw.ac.at/DWpers0060/identifier/idno/0> ;
-    prov:wasDerivedFrom sk:DWsource0026 .
 
 sk:DWpers0218 a crm:E21_Person ;
     rdfs:label "Seldte, Franz"@und ;
