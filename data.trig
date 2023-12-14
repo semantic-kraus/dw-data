@@ -8701,8 +8701,8 @@ ns1:dritte-walpurgisnacht {
         frbroo:R24_created <https://sk.acdh.oeaw.ac.at/DWbibl00000/published-expression> .
 
     <https://sk.acdh.oeaw.ac.at/DWbibl00000/published-expression> a frbroo:F24_Publication_Expression ;
+        rdfs:label "Dritte Walpurgisnacht (Digital Edition)"@en ;
         crm:P165_incorporates sk:DWbibl00000 ;
-        <http://www.w3.org/2000/01/rdf-schema#label:> "Dritte Walpurgisnacht (Digital Edition)"@en ;
         frbroo:R24i_was_created_through <https://sk.acdh.oeaw.ac.at/DWbibl00000/publication> .
 
     <https://sk.acdh.oeaw.ac.at/DWbibl00000/title/0> a crm:E35_Title ;
