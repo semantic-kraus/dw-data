@@ -1613,7 +1613,7 @@
             <xsl:text>&quot;@en</xsl:text>
             <xsl:call-template name="newline-semicolon"/>
             <xsl:text>  cidoc:P4i_is_time-span_of &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
-            <xsl:value-of select="$uri"/>
+            <xsl:value-of select="translate($uri, '#', '')"/>
             <xsl:text>/publication&gt;</xsl:text>
             <xsl:if test="$begin-date != ''">
               <xsl:call-template name="newline-semicolon"/>
