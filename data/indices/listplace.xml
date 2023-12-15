@@ -112,9 +112,7 @@
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/38711/</idno>
                     <idno type="geonames">https://sws.geonames.org/2765581/</idno></place>
                     <place xml:id="DWplace00013">
-                        <placeName xml:lang="de" type="pref">Radebeul (?)</placeName>
-                        <placeName xml:lang="de" type="simple_name">Radebeul</placeName>
-                        <placeName xml:lang="und" type="alt">?</placeName>
+                        <placeName xml:lang="de" type="pref">Radebeul</placeName>
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/45569/</idno>
                     <idno type="geonames">https://sws.geonames.org/2851077/</idno></place>
                     <place xml:id="DWplace00014">
@@ -431,9 +429,8 @@
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/864/</idno>
                     <idno type="geonames">https://sws.geonames.org/2879139/</idno></place>
                     <place xml:id="DWplace00066">
-                        <placeName xml:lang="de" type="pref">Wien (Best.)</placeName>
-                        <placeName xml:lang="de" type="simple_name">Wien</placeName>
-                        <placeName xml:lang="und" type="alt">Best.</placeName>
+                        <placeName xml:lang="de" type="pref">Wien</placeName>
+                        
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
                     <idno type="geonames">https://sws.geonames.org/2761369/</idno></place>
                     <place xml:id="DWplace00067">
@@ -696,9 +693,8 @@
                     	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143276/</idno>
                     </place>
                     <place xml:id="DWplace00111">
-                        <placeName xml:lang="de" type="pref">Kieslingswalde (?)</placeName>
-                        <placeName xml:lang="de" type="simple_name">Kieslingswalde</placeName>
-                    	
+                        <placeName xml:lang="de" type="pref">Kieslingswalde</placeName>
+                        
                     	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143277/</idno>
                     </place>
                     <place xml:id="DWplace00112">
@@ -708,7 +704,7 @@
                     	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143278/</idno>
                     </place>
                     <place xml:id="DWplace00113">
-                        <placeName xml:lang="de" type="pref">Sewsk (UDSSR) (?)</placeName>
+                        <placeName xml:lang="de" type="pref">Sewsk (UDSSR)</placeName>
                         <placeName xml:lang="de" type="simple_name">Sewsk</placeName>
                         
                     	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/143279/</idno>
@@ -977,8 +973,8 @@
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/631/</idno>
                     <idno type="geonames">https://sws.geonames.org/2925177/</idno></place>
                     <place xml:id="DWplace00162">
-                        <placeName xml:lang="de" type="pref">’s-Hertogenbosch (Best.)</placeName>
-                        <placeName xml:lang="de" type="simple_name">’s-Hertogenbosch</placeName>
+                        <placeName xml:lang="de" type="pref">’s-Hertogenbosch</placeName>
+                        
                     	
                     	<idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/24996/</idno>
                     <idno type="geonames">https://sws.geonames.org/2747351/</idno></place>
@@ -2071,9 +2067,7 @@
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/249/</idno>
                     <idno type="geonames">https://sws.geonames.org/732800/</idno></place>
                     <place xml:id="DWplace00347">
-                        <placeName xml:lang="de" type="pref">Wien (?)</placeName>
-                        <placeName xml:lang="de" type="simple_name">Wien</placeName>
-                        <placeName xml:lang="und" type="alt">?</placeName>
+                        <placeName xml:lang="de" type="pref">Wien</placeName>
                         <idno type="pmb">https://pmb.acdh.oeaw.ac.at/entity/50/</idno>
                     <idno type="geonames">https://sws.geonames.org/2761369/</idno></place>
                     <place xml:id="DWplace00348">
