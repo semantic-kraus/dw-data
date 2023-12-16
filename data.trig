@@ -1,5 +1,6 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dw: <https://sk.acdh.oeaw.ac.at/project/dritte-walpurgisnacht> .
 @prefix frbroo: <https://cidoc-crm.org/frbroo/sites/default/files/FRBR2.4-draft.rdfs#> .
 @prefix ns1: <https://sk.acdh.oeaw.ac.at/project/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -7,6 +8,14 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sk: <https://sk.acdh.oeaw.ac.at/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sk:provenance {
+    ns1:dritte-walpurgisnacht a <http://www.w3.org/ns/sparql-service-description#NamedGraph> ;
+        rdfs:label "Dritte Walpurgisnacht"@en ;
+        dcterms:bibliographicCitation "Karl Kraus: Dritte Walpurgisnacht. Annotated reader's edition. Ed. by Bernhard Oberreither at Austrian Corpora and Editions at ACDH-CH. 2021. URL: https://kraus1933.ace.oeaw.ac.at"@en ;
+        dcterms:contributor "Research – concerning persons mentioned and intertexts – was conducted by Bernhard Oberreither, Hanno Biber, David Treffinger, Laura Untner, with the assistance of Gerhard Wolff; interns: Constance Quinlan, Mira Krall. Research findings build on preliminary work done at the predecessor institutions of the ACE at the Austrian Academy of Sciences as well as on numerous publications. For a list see https://kraus1933.ace.oeaw.ac.at/annotierte_lesefassung.html. For a list of biographical and bibliographical sources see https://kraus1933.ace.oeaw.ac.at/register.html."@en ;
+        dcterms:title "Dritte Walpurgisnacht"@de .
+}
 
 ns1:dritte-walpurgisnacht {
     <https://sk.acdh.oeaw.ac.at/DWbibl00000/creation/time-span> a crm:E52_Time-Span ;
@@ -21616,22 +21625,10 @@ ns1:dritte-walpurgisnacht {
         rdf:value "https://sws.geonames.org/2765581/" .
 
     <https://sk.acdh.oeaw.ac.at/DWplace00013/appellation/0> a crm:E33_E41_Linguistic_Appellation ;
-        rdfs:label "Radebeul (?)"@de ;
-        crm:P1i_identifies sk:DWplace00013 ;
-        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/pref> ;
-        rdf:value "Radebeul (?)" .
-
-    <https://sk.acdh.oeaw.ac.at/DWplace00013/appellation/1> a crm:E33_E41_Linguistic_Appellation ;
         rdfs:label "Radebeul"@de ;
         crm:P1i_identifies sk:DWplace00013 ;
-        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/simple-name> ;
+        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/pref> ;
         rdf:value "Radebeul" .
-
-    <https://sk.acdh.oeaw.ac.at/DWplace00013/appellation/2> a crm:E33_E41_Linguistic_Appellation ;
-        rdfs:label "?"@und ;
-        crm:P1i_identifies sk:DWplace00013 ;
-        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/alt> ;
-        rdf:value "?" .
 
     <https://sk.acdh.oeaw.ac.at/DWplace00013/identifier/idno/0> a crm:E42_Identifier ;
         rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/45569/"@en ;
@@ -22629,22 +22626,10 @@ ns1:dritte-walpurgisnacht {
         rdf:value "https://sws.geonames.org/2879139/" .
 
     <https://sk.acdh.oeaw.ac.at/DWplace00066/appellation/0> a crm:E33_E41_Linguistic_Appellation ;
-        rdfs:label "Wien (Best.)"@de ;
-        crm:P1i_identifies sk:DWplace00066 ;
-        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/pref> ;
-        rdf:value "Wien (Best.)" .
-
-    <https://sk.acdh.oeaw.ac.at/DWplace00066/appellation/1> a crm:E33_E41_Linguistic_Appellation ;
         rdfs:label "Wien"@de ;
         crm:P1i_identifies sk:DWplace00066 ;
-        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/simple-name> ;
+        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/pref> ;
         rdf:value "Wien" .
-
-    <https://sk.acdh.oeaw.ac.at/DWplace00066/appellation/2> a crm:E33_E41_Linguistic_Appellation ;
-        rdfs:label "Best."@und ;
-        crm:P1i_identifies sk:DWplace00066 ;
-        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/alt> ;
-        rdf:value "Best." .
 
     <https://sk.acdh.oeaw.ac.at/DWplace00066/identifier/idno/0> a crm:E42_Identifier ;
         rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/50/"@en ;
@@ -23401,15 +23386,9 @@ ns1:dritte-walpurgisnacht {
         rdf:value "https://pmb.acdh.oeaw.ac.at/entity/143276/" .
 
     <https://sk.acdh.oeaw.ac.at/DWplace00111/appellation/0> a crm:E33_E41_Linguistic_Appellation ;
-        rdfs:label "Kieslingswalde (?)"@de ;
-        crm:P1i_identifies sk:DWplace00111 ;
-        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/pref> ;
-        rdf:value "Kieslingswalde (?)" .
-
-    <https://sk.acdh.oeaw.ac.at/DWplace00111/appellation/1> a crm:E33_E41_Linguistic_Appellation ;
         rdfs:label "Kieslingswalde"@de ;
         crm:P1i_identifies sk:DWplace00111 ;
-        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/simple-name> ;
+        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/pref> ;
         rdf:value "Kieslingswalde" .
 
     <https://sk.acdh.oeaw.ac.at/DWplace00111/identifier/idno/0> a crm:E42_Identifier ;
@@ -23437,10 +23416,10 @@ ns1:dritte-walpurgisnacht {
         rdf:value "https://pmb.acdh.oeaw.ac.at/entity/143278/" .
 
     <https://sk.acdh.oeaw.ac.at/DWplace00113/appellation/0> a crm:E33_E41_Linguistic_Appellation ;
-        rdfs:label "Sewsk (UDSSR) (?)"@de ;
+        rdfs:label "Sewsk (UDSSR)"@de ;
         crm:P1i_identifies sk:DWplace00113 ;
         crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/pref> ;
-        rdf:value "Sewsk (UDSSR) (?)" .
+        rdf:value "Sewsk (UDSSR)" .
 
     <https://sk.acdh.oeaw.ac.at/DWplace00113/appellation/1> a crm:E33_E41_Linguistic_Appellation ;
         rdfs:label "Sewsk"@de ;
@@ -24217,15 +24196,9 @@ ns1:dritte-walpurgisnacht {
         rdf:value "https://sws.geonames.org/2925177/" .
 
     <https://sk.acdh.oeaw.ac.at/DWplace00162/appellation/0> a crm:E33_E41_Linguistic_Appellation ;
-        rdfs:label "’s-Hertogenbosch (Best.)"@de ;
-        crm:P1i_identifies sk:DWplace00162 ;
-        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/pref> ;
-        rdf:value "’s-Hertogenbosch (Best.)" .
-
-    <https://sk.acdh.oeaw.ac.at/DWplace00162/appellation/1> a crm:E33_E41_Linguistic_Appellation ;
         rdfs:label "’s-Hertogenbosch"@de ;
         crm:P1i_identifies sk:DWplace00162 ;
-        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/simple-name> ;
+        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/pref> ;
         rdf:value "’s-Hertogenbosch" .
 
     <https://sk.acdh.oeaw.ac.at/DWplace00162/identifier/idno/0> a crm:E42_Identifier ;
@@ -27627,22 +27600,10 @@ ns1:dritte-walpurgisnacht {
         rdf:value "https://sws.geonames.org/732800/" .
 
     <https://sk.acdh.oeaw.ac.at/DWplace00347/appellation/0> a crm:E33_E41_Linguistic_Appellation ;
-        rdfs:label "Wien (?)"@de ;
-        crm:P1i_identifies sk:DWplace00347 ;
-        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/pref> ;
-        rdf:value "Wien (?)" .
-
-    <https://sk.acdh.oeaw.ac.at/DWplace00347/appellation/1> a crm:E33_E41_Linguistic_Appellation ;
         rdfs:label "Wien"@de ;
         crm:P1i_identifies sk:DWplace00347 ;
-        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/simple-name> ;
+        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/pref> ;
         rdf:value "Wien" .
-
-    <https://sk.acdh.oeaw.ac.at/DWplace00347/appellation/2> a crm:E33_E41_Linguistic_Appellation ;
-        rdfs:label "?"@und ;
-        crm:P1i_identifies sk:DWplace00347 ;
-        crm:P2_has_type <https://sk.acdh.oeaw.ac.at/types/place/placename/alt> ;
-        rdf:value "?" .
 
     <https://sk.acdh.oeaw.ac.at/DWplace00347/identifier/idno/0> a crm:E42_Identifier ;
         rdfs:label "Identifier: https://pmb.acdh.oeaw.ac.at/entity/50/"@en ;
@@ -36643,6 +36604,12 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/DWplace00011/identifier/idno/0> ;
         crm:P7i_witnessed <https://sk.acdh.oeaw.ac.at/DWpers1089/death> .
 
+    sk:DWplace00013 a crm:E53_Place ;
+        rdfs:label "Radebeul"@de ;
+        crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00013/appellation/0>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00013/identifier/idno/0>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00013/identifier/idno/1> .
+
     sk:DWplace00022 a crm:E53_Place ;
         rdfs:label "Dortmund"@de ;
         crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00022/appellation/0>,
@@ -36792,6 +36759,12 @@ ns1:dritte-walpurgisnacht {
         crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00110/appellation/0>,
             <https://sk.acdh.oeaw.ac.at/DWplace00110/identifier/idno/0> ;
         crm:P7i_witnessed <https://sk.acdh.oeaw.ac.at/DWpers0142/death> .
+
+    sk:DWplace00111 a crm:E53_Place ;
+        rdfs:label "Kieslingswalde"@de ;
+        crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00111/appellation/0>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00111/identifier/idno/0> ;
+        crm:P7i_witnessed <https://sk.acdh.oeaw.ac.at/DWpers0405/birth> .
 
     sk:DWplace00112 a crm:E53_Place ;
         rdfs:label "Berghausen (Rhein-Lahn-Kreis)"@de ;
@@ -37062,6 +37035,12 @@ ns1:dritte-walpurgisnacht {
         crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00341/appellation/0>,
             <https://sk.acdh.oeaw.ac.at/DWplace00341/identifier/idno/0> ;
         crm:P7i_witnessed <https://sk.acdh.oeaw.ac.at/DWpers1099/birth> .
+
+    sk:DWplace00347 a crm:E53_Place ;
+        rdfs:label "Wien"@de ;
+        crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00347/appellation/0>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00347/identifier/idno/0>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00347/identifier/idno/1> .
 
     sk:DWplace00351 a crm:E53_Place ;
         rdfs:label "Leobersdorf"@de ;
@@ -38287,6 +38266,13 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/DWplace00060/identifier/idno/1> ;
         crm:P7i_witnessed <https://sk.acdh.oeaw.ac.at/DWpers0213/birth> .
 
+    sk:DWplace00066 a crm:E53_Place ;
+        rdfs:label "Wien"@de ;
+        crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00066/appellation/0>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00066/identifier/idno/0>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00066/identifier/idno/1> ;
+        crm:P7i_witnessed <https://sk.acdh.oeaw.ac.at/DWpers1105/event/0> .
+
     sk:DWplace00067 a crm:E53_Place ;
         rdfs:label "Troyes"@de ;
         crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00067/appellation/0>,
@@ -38427,15 +38413,8 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/DWplace00109/identifier/idno/1> ;
         crm:P7i_witnessed <https://sk.acdh.oeaw.ac.at/DWpers0114/birth> .
 
-    sk:DWplace00111 a crm:E53_Place ;
-        rdfs:label "Kieslingswalde (?)"@de ;
-        crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00111/appellation/0>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00111/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00111/identifier/idno/0> ;
-        crm:P7i_witnessed <https://sk.acdh.oeaw.ac.at/DWpers0405/birth> .
-
     sk:DWplace00113 a crm:E53_Place ;
-        rdfs:label "Sewsk (UDSSR) (?)"@de ;
+        rdfs:label "Sewsk (UDSSR)"@de ;
         crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00113/appellation/0>,
             <https://sk.acdh.oeaw.ac.at/DWplace00113/appellation/1>,
             <https://sk.acdh.oeaw.ac.at/DWplace00113/identifier/idno/0> ;
@@ -38545,6 +38524,13 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/DWplace00161/identifier/idno/0>,
             <https://sk.acdh.oeaw.ac.at/DWplace00161/identifier/idno/1> ;
         crm:P7i_witnessed <https://sk.acdh.oeaw.ac.at/DWpers0099/death> .
+
+    sk:DWplace00162 a crm:E53_Place ;
+        rdfs:label "’s-Hertogenbosch"@de ;
+        crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00162/appellation/0>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00162/identifier/idno/0>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00162/identifier/idno/1> ;
+        crm:P7i_witnessed <https://sk.acdh.oeaw.ac.at/DWpers0023/event/0> .
 
     sk:DWplace00164 a crm:E53_Place ;
         rdfs:label "Dublin"@de ;
@@ -39446,14 +39432,6 @@ ns1:dritte-walpurgisnacht {
         crm:P7i_witnessed <https://sk.acdh.oeaw.ac.at/DWpers0248/death>,
             <https://sk.acdh.oeaw.ac.at/DWpers0251/death> .
 
-    sk:DWplace00013 a crm:E53_Place ;
-        rdfs:label "Radebeul (?)"@de ;
-        crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00013/appellation/0>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00013/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00013/appellation/2>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00013/identifier/idno/0>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00013/identifier/idno/1> .
-
     sk:DWplace00019 a crm:E53_Place ;
         rdfs:label "Astapovo (Lev Tolstoj)"@ru ;
         crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00019/appellation/0>,
@@ -39621,14 +39599,6 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/DWplace00159/identifier/idno/1> ;
         crm:P7i_witnessed <https://sk.acdh.oeaw.ac.at/DWpers0196/death>,
             <https://sk.acdh.oeaw.ac.at/DWpers1111/death> .
-
-    sk:DWplace00162 a crm:E53_Place ;
-        rdfs:label "’s-Hertogenbosch (Best.)"@de ;
-        crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00162/appellation/0>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00162/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00162/identifier/idno/0>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00162/identifier/idno/1> ;
-        crm:P7i_witnessed <https://sk.acdh.oeaw.ac.at/DWpers0023/event/0> .
 
     sk:DWplace00178 a crm:E53_Place ;
         rdfs:label "Kolberg (Kołobrzeg)"@de ;
@@ -39821,14 +39791,6 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/DWplace00343/identifier/idno/1> ;
         crm:P7i_witnessed <https://sk.acdh.oeaw.ac.at/DWpers0160/birth>,
             <https://sk.acdh.oeaw.ac.at/DWpers0404/birth> .
-
-    sk:DWplace00347 a crm:E53_Place ;
-        rdfs:label "Wien (?)"@de ;
-        crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00347/appellation/0>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00347/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00347/appellation/2>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00347/identifier/idno/0>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00347/identifier/idno/1> .
 
     sk:DWplace00348 a crm:E53_Place ;
         rdfs:label "Braunschweig"@de ;
@@ -40445,15 +40407,6 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/DWplace00063/identifier/idno/0>,
             <https://sk.acdh.oeaw.ac.at/DWplace00063/identifier/idno/1> ;
         crm:P7i_witnessed <https://sk.acdh.oeaw.ac.at/DWpers0126/birth> .
-
-    sk:DWplace00066 a crm:E53_Place ;
-        rdfs:label "Wien (Best.)"@de ;
-        crm:P1_is_identified_by <https://sk.acdh.oeaw.ac.at/DWplace00066/appellation/0>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00066/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00066/appellation/2>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00066/identifier/idno/0>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00066/identifier/idno/1> ;
-        crm:P7i_witnessed <https://sk.acdh.oeaw.ac.at/DWpers1105/event/0> .
 
     sk:DWplace00079 a crm:E53_Place ;
         rdfs:label "Ambach (Münsing-Ambach)"@de ;
@@ -46454,8 +46407,7 @@ ns1:dritte-walpurgisnacht {
 
     <https://sk.acdh.oeaw.ac.at/types/place/placename/alt> a crm:E55_Type ;
         rdfs:label "alt" ;
-        crm:P2i_is_type_of <https://sk.acdh.oeaw.ac.at/DWplace00013/appellation/2>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00014/appellation/2>,
+        crm:P2i_is_type_of <https://sk.acdh.oeaw.ac.at/DWplace00014/appellation/2>,
             <https://sk.acdh.oeaw.ac.at/DWplace00018/appellation/2>,
             <https://sk.acdh.oeaw.ac.at/DWplace00019/appellation/2>,
             <https://sk.acdh.oeaw.ac.at/DWplace00020/appellation/2>,
@@ -46472,7 +46424,6 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/DWplace00058/appellation/2>,
             <https://sk.acdh.oeaw.ac.at/DWplace00063/appellation/2>,
             <https://sk.acdh.oeaw.ac.at/DWplace00064/appellation/2>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00066/appellation/2>,
             <https://sk.acdh.oeaw.ac.at/DWplace00068/appellation/2>,
             <https://sk.acdh.oeaw.ac.at/DWplace00079/appellation/2>,
             <https://sk.acdh.oeaw.ac.at/DWplace00092/appellation/2>,
@@ -46530,7 +46481,6 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/DWplace00335/appellation/2>,
             <https://sk.acdh.oeaw.ac.at/DWplace00338/appellation/2>,
             <https://sk.acdh.oeaw.ac.at/DWplace00342/appellation/2>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00347/appellation/2>,
             <https://sk.acdh.oeaw.ac.at/DWplace00354/appellation/2>,
             <https://sk.acdh.oeaw.ac.at/DWplace00356/appellation/2>,
             <https://sk.acdh.oeaw.ac.at/DWplace00357/appellation/2>,
@@ -46561,6 +46511,117 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/DWplace00463/appellation/2>,
             <https://sk.acdh.oeaw.ac.at/DWplace00467/appellation/2>,
             <https://sk.acdh.oeaw.ac.at/DWplace00470/appellation/2> .
+
+    <https://sk.acdh.oeaw.ac.at/types/place/placename/simple-name> a crm:E55_Type ;
+        rdfs:label "simple_name" ;
+        crm:P2i_is_type_of <https://sk.acdh.oeaw.ac.at/DWplace00014/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00018/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00019/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00020/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00023/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00024/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00028/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00033/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00039/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00041/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00042/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00043/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00049/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00051/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00055/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00058/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00063/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00064/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00068/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00079/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00080/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00092/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00093/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00102/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00106/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00112/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00113/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00114/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00119/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00120/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00125/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00135/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00138/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00139/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00154/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00155/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00166/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00173/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00174/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00178/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00180/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00184/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00185/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00190/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00191/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00192/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00202/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00212/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00223/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00227/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00234/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00244/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00245/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00258/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00259/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00265/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00266/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00267/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00278/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00280/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00288/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00294/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00295/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00302/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00303/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00307/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00310/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00311/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00312/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00315/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00323/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00327/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00333/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00335/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00338/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00342/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00354/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00356/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00357/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00358/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00362/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00366/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00370/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00375/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00381/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00382/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00386/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00387/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00390/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00392/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00393/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00399/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00405/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00414/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00423/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00426/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00433/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00437/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00444/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00445/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00446/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00447/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00453/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00459/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00461/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00463/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00467/appellation/1>,
+            <https://sk.acdh.oeaw.ac.at/DWplace00470/appellation/1> .
 
     sk:DWorg00011 a crm:E74_Group ;
         rdfs:label "NSDAP"@de ;
@@ -46675,122 +46736,6 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/DWorg00011/identifier/DWorg00011>,
             <https://sk.acdh.oeaw.ac.at/DWorg00011/identifier/idno/0>,
             <https://sk.acdh.oeaw.ac.at/DWorg00011/identifier/idno/1> .
-
-    <https://sk.acdh.oeaw.ac.at/types/place/placename/simple-name> a crm:E55_Type ;
-        rdfs:label "simple_name" ;
-        crm:P2i_is_type_of <https://sk.acdh.oeaw.ac.at/DWplace00013/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00014/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00018/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00019/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00020/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00023/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00024/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00028/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00033/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00039/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00041/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00042/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00043/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00049/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00051/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00055/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00058/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00063/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00064/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00066/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00068/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00079/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00080/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00092/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00093/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00102/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00106/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00111/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00112/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00113/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00114/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00119/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00120/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00125/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00135/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00138/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00139/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00154/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00155/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00162/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00166/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00173/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00174/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00178/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00180/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00184/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00185/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00190/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00191/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00192/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00202/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00212/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00223/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00227/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00234/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00244/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00245/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00258/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00259/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00265/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00266/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00267/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00278/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00280/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00288/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00294/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00295/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00302/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00303/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00307/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00310/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00311/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00312/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00315/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00323/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00327/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00333/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00335/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00338/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00342/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00347/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00354/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00356/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00357/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00358/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00362/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00366/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00370/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00375/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00381/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00382/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00386/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00387/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00390/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00392/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00393/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00399/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00405/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00414/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00423/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00426/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00433/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00437/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00444/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00445/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00446/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00447/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00453/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00459/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00461/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00463/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00467/appellation/1>,
-            <https://sk.acdh.oeaw.ac.at/DWplace00470/appellation/1> .
 
     <https://sk.acdh.oeaw.ac.at/types/idno/URL/geonames> a crm:E55_Type ;
         crm:P2i_is_type_of <https://sk.acdh.oeaw.ac.at/DWplace00000/identifier/idno/1>,
@@ -49879,13 +49824,5 @@ ns1:dritte-walpurgisnacht {
             <https://sk.acdh.oeaw.ac.at/nDWpers1425/appellation/0>,
             <https://sk.acdh.oeaw.ac.at/nDWpers1426/appellation/0>,
             <https://sk.acdh.oeaw.ac.at/nDWpers1427/appellation/0> .
-}
-
-sk:provenance {
-    ns1:dritte-walpurgisnacht a <http://www.w3.org/ns/sparql-service-description#NamedGraph> ;
-        rdfs:label "Dritte Walpurgisnacht"@en ;
-        dcterms:bibliographicCitation "Karl Kraus: Dritte Walpurgisnacht. Annotated reader's edition. Ed. by Bernhard Oberreither at Austrian Corpora and Editions at ACDH-CH. 2021. URL: https://kraus1933.ace.oeaw.ac.at"@en ;
-        dcterms:contributor "Research – concerning persons mentioned and intertexts – was conducted by Bernhard Oberreither, Hanno Biber, David Treffinger, Laura Untner, with the assistance of Gerhard Wolff; interns: Constance Quinlan, Mira Krall. Research findings build on preliminary work done at the predecessor institutions of the ACE at the Austrian Academy of Sciences as well as on numerous publications. For a list see https://kraus1933.ace.oeaw.ac.at/annotierte_lesefassung.html. For a list of biographical and bibliographical sources see https://kraus1933.ace.oeaw.ac.at/register.html."@en ;
-        dcterms:title "Dritte Walpurgisnacht"@de .
 }
 
