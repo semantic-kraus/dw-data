@@ -14,7 +14,9 @@ sk:provenance {
         rdfs:label "Dritte Walpurgisnacht"@en ;
         dcterms:bibliographicCitation "Karl Kraus: Dritte Walpurgisnacht. Annotated reader's edition. Ed. by Bernhard Oberreither at Austrian Corpora and Editions at ACDH-CH. 2021. URL: https://kraus1933.ace.oeaw.ac.at"@en ;
         dcterms:contributor "Research – concerning persons mentioned and intertexts – was conducted by Bernhard Oberreither, Hanno Biber, David Treffinger, Laura Untner, with the assistance of Gerhard Wolff; interns: Constance Quinlan, Mira Krall. Research findings build on preliminary work done at the predecessor institutions of the ACE at the Austrian Academy of Sciences as well as on numerous publications. For a list see https://kraus1933.ace.oeaw.ac.at/annotierte_lesefassung.html. For a list of biographical and bibliographical sources see https://kraus1933.ace.oeaw.ac.at/register.html."@en ;
-        dcterms:title "Dritte Walpurgisnacht"@de .
+        dcterms:source "https://kraus1933.ace.oeaw.ac.at" ;
+        dcterms:title "Dritte Walpurgisnacht"@de ;
+        rdfs:comment "The digital edition of 'Dritte Walpurgisnacht' consists of one TEI-XML file containing the transcription of the text as well as annotations referencing entries in an index file containing 400 person and 1,900 bibliographical entries." .
 }
 
 ns1:dritte-walpurgisnacht {
@@ -8252,430 +8254,537 @@ ns1:dritte-walpurgisnacht {
 
     sk:DWsource0001 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Kuretsidis-Haider [o. J.]"@und ;
         dcterms:bibliographicCitation "Claudia Kuretsidis-Haider: Todesurteile und lebenslange Haftstrafen der Volksgerichte 1947. [Ohne Jahr]. URL: http://www.nachkriegsjustiz.at/prozesse/volksg/hoechst_1947.php (22. 3. 2021)." .
 
     sk:DWsource0005 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Landesarchiv Liechtenstein"@und ;
         dcterms:bibliographicCitation "Landesarchiv Liechtenstein" .
 
     sk:DWsource0006 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Pusch 2018"@und ;
         dcterms:bibliographicCitation "Peter Pusch: Der braune Kreis Ruppin. In: Märkische Allgemeine vom 16. 5. 2018 (online unter: https://www.maz-online.de/Lokales/Ostprignitz-Ruppin/Neuruppin/Machtergreifung-der-Nazis-in-Neuruppin-1933)." .
 
     sk:DWsource0007 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Standesamt Bevensen"@und ;
         dcterms:bibliographicCitation "Standesamt Bevensen" .
 
     sk:DWsource0009 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "BIOSOP"@und ;
         dcterms:bibliographicCitation "GESIS – Leibniz-Institut für Sozialwissenschaften in Mannheim: Sozialdemokratische Parlamentarier in den deutschen Reichs- und Landtagen 1876-1933 (BIOSOP). URL: http://zhsf.gesis.org/biosop.htm (22. 3. 2021)." .
 
     sk:DWsource0010 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "wikipedia.org"@und ;
         dcterms:bibliographicCitation "wikipedia.org" .
 
     sk:DWsource0012 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Staatsarchiv Rijeka"@und ;
         dcterms:bibliographicCitation "Staatsarchiv Rijeka" .
 
     sk:DWsource0013 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Hochmuth 2005"@und ;
         dcterms:bibliographicCitation "Ursel Hochmuth: Niemand und nichts wird vergessen. Biogramme und Briefe Hamburger Widerstandskämpfer 1933–1945. Eine Ehrenhain-Dokumentation in Text und Bild. Hamburg 2005." .
 
     sk:DWsource0014 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "stolpersteine-hamburg.de"@und ;
         dcterms:bibliographicCitation "Landeszentrale für politische Bildung und Erinnerungs-Projekt 'Stolpersteine in Hamburg': Stolpersteine in Hamburg. URL: https://www.stolpersteine-hamburg.de (22. 3. 2021)." .
 
     sk:DWsource0015 a dcterms:BibliographicResource,
             prov:Entity ;
-        dcterms:bibliographicCitation "Karoline Kühnelt: Goebbels’ Propagandisten für die Ostmark: Journalisten, die mit dem „Anschluss“nach Österreich kamen, um in Presse und Propaganda tätig zu werden. Eine kollektivbiographische Studie über den Berufsverlauf 1938–1945 und nach dem Ende des NS-Regimes. Univ. Dipl.-Arb., Wien 2004." .
+        rdfs:label "Kühnelt 2004"@und ;
+        dcterms:bibliographicCitation "Karoline Kühnelt: Goebbels’ Propagandisten für die Ostmark: Journalisten, die mit dem „Anschluss“ nach Österreich kamen, um in Presse und Propaganda tätig zu werden. Eine kollektivbiographische Studie über den Berufsverlauf 1938–1945 und nach dem Ende des NS-Regimes. Univ. Dipl.-Arb., Wien 2004." .
 
     sk:DWsource0016 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Brandenburgisches Landeshauptarchiv"@und ;
         dcterms:bibliographicCitation "Brandenburgisches Landeshauptarchiv" .
 
     sk:DWsource0017 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Australian Dictionary of Biography"@und ;
         dcterms:bibliographicCitation "National Centre of Biography und Australian National University: Australian Dictionary of Biography. URL: https://adb.anu.edu.au (22. 3. 2021)." .
 
     sk:DWsource0018 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "BnF"@und ;
         dcterms:bibliographicCitation "Bibliothèque nationale de France: BnF Data. Des fiches de référence sur les auteurs, les œuvres et les thèmes. URL: https://data.bnf.fr/ (22. 3. 2021)." .
 
     sk:DWsource0021 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Staatl. Bezirksarchiv Olomouc"@und ;
         dcterms:bibliographicCitation "Staatl. Bezirksarchiv Olomouc" .
 
     sk:DWsource0027 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Maurer Zenck [o. J.]"@und ;
         dcterms:bibliographicCitation "Claudia Maurer Zenck u. a. (Hg.): Lexikon verfolgter Musiker und Musikerinnen der NS-Zeit. URL: https://www.lexm.uni-hamburg.de (22. 3. 2021)." .
 
     sk:DWsource0028 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "ÖML"@und ;
         dcterms:bibliographicCitation "Austrian Centre for Digital Humanities and Cultural Heritage, Abteilung Musikwissenschaft: Oesterreichisches Musiklexikon online. URL: https://www.musiklexikon.ac.at (22. 3. 2021)." .
 
     sk:DWsource0032 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Früh 2007"@und ;
         dcterms:bibliographicCitation "Eckart Früh: Valentin Schuster. In: Spuren und Überbleibsel. Bio-bibliographische Blätter 16 (erw. Fassung 2007)." .
 
     sk:DWsource0036 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Universität Würzburg 2011"@und ;
         dcterms:bibliographicCitation "Universität Würzburg (Hg.): Die geraubte Würde. Die Aberkennung des Doktorgrads an der Universität Würzburg 1933–1945. Würzburg 2011." .
 
     sk:DWsource0039 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Wagner 2004"@und ;
         dcterms:bibliographicCitation "Andreas Wagner: „Machtergreifung“ in Sachsen. NSDAP und staatliche Verwaltung 1930–1935. Köln u. a. 2004." .
 
     sk:DWsource0040 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Akademie der Künste"@und ;
         dcterms:bibliographicCitation "Archiv der Akademie der Künste: Archivdatenbank. URL: https://archiv.adk.de (22. 3. 2021)." .
 
     sk:DWsource0041 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Archives d'Etat de Genève"@und ;
         dcterms:bibliographicCitation "Archives d'Etat de Genève" .
 
     sk:DWsource0044 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Hein 2012"@und ;
         dcterms:bibliographicCitation "Bastian Hein: Elite für Volk und Führer? Die allgemeine SS und ihre Mitglieder 1925–1945. München 2012." .
 
     sk:DWsource0045 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Stadtwiki Karlsruhe"@und ;
         dcterms:bibliographicCitation "Bildungsverein Region Karlsruhe e.V.: Stadtwiki Karlsruhe. URL: https://ka.stadtwiki.net/Hauptseite (22. 3. 2021)." .
 
     sk:DWsource0046 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Bundesarchiv Deutschland"@und ;
         dcterms:bibliographicCitation "Bundesarchiv Deutschland" .
 
     sk:DWsource0047 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Bürger- und Geschichtsverein Wildeshausen e. V."@und ;
         dcterms:bibliographicCitation "Bürger- und Geschichtsverein Wildeshausen e. V." .
 
     sk:DWsource0048 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Kopke u. Treß 2013"@und ;
         dcterms:bibliographicCitation "Christoph Kopke und Werner Treß: Der Tag von Potsdam: Der 21. März 1933 und die Errichtung der Nationalsozialistischen Diktatur. Berlin und Boston 2013." .
 
     sk:DWsource0050 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Robin, Larsen u. Levin 2007"@und ;
         dcterms:bibliographicCitation "Diana Maury Robin, Anne R. Larsen und Carole Levin: Encyclopedia of Women in the Renaissance: Italy, France, and England. Santa Barbara, CA. 2007." .
 
     sk:DWsource0052 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Stiftung Brandenburgische Gedenkstätten"@und ;
         dcterms:bibliographicCitation "Die politischen Häftlinge des Konzentrationslagers Oranienburg. In: Stiftung Brandenburgische Gedenkstätten. URL: http://www.stiftung-bg.de/kz-oranienburg/index.php?id=460 (4. 3. 2016) bzw. https://web.archive.org/web/20160304095929/http:/www.stiftung-bg.de/kz-oranienburg/index.php?id=460 (22. 3. 2021)." .
 
     sk:DWsource0053 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Knox 2019"@und ;
         dcterms:bibliographicCitation "Dilwyn Knox: Giordano Bruno. In: Stanford Encyclopedia of Philosophy. Hg. v. Edward N. Zalta u. Uri Nodelman. 2019. URL: https://plato.stanford.edu/entries/bruno/ (22. 3. 2021)" .
 
     sk:DWsource0054 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "DÖW"@und ;
         dcterms:bibliographicCitation "Dokumentationsarchiv des österreichischen Widerstandes. URL: https://www.doew.at (22. 3. 2021)." .
 
     sk:DWsource0055 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Guggenberger 1962"@und ;
         dcterms:bibliographicCitation "Edmund Guggenberger: Oberösterreichische Ärztechronik. Wien [1962]." .
 
     sk:DWsource0056 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Stockhorst 1967"@und ;
         dcterms:bibliographicCitation "Erich Stockhorst: Fünftausend Köpfe. Wer war was im Dritten Reich. Verlbert und Kettwig 1967." .
 
     sk:DWsource0058 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "deutsches-martyrologium.de"@und ;
         dcterms:bibliographicCitation "Erzbistum Köln: Zeugen für Christus. Das deutsche Martyrologium des 20. Jahrhunderts. URL: https://www.deutsches-martyrologium.de/start/ (22. 3. 2021)." .
 
     sk:DWsource0059 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Friedhof Düsseldorf-Heerdt"@und ;
         dcterms:bibliographicCitation "Friedhof Düsseldorf-Heerdt" .
 
     sk:DWsource0061 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Gedenkbuch"@und ;
         dcterms:bibliographicCitation "Gedenkbuch. Opfer der Verfolgung der Juden unter der nationalsozialistischen Gewaltherrschaft in Deutschland 1933–1945. In: Das Bundesarchiv. URL: https://www.bundesarchiv.de/gedenkbuch/ (22. 3. 2021)." .
 
     sk:DWsource0062 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "gedenktafeln-in-berlin.de"@und ;
         dcterms:bibliographicCitation "Gedenkstätte Deutscher Widerstand (Hg.), Holger Hübner, Petra Behrens und Johannes Tuchel: Gedenktafeln in Berlin. URL: https://gedenktafeln-in-berlin.de (22. 3. 2021)." .
 
     sk:DWsource0063 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Genealogical Research Death Index"@und ;
         dcterms:bibliographicCitation "Genealogical Research Death Index: Beginning 1957. In: New York State. URL: https://health.data.ny.gov/Health/Genealogical-Research-Death-Index-Beginning-1957/vafa-pf2s/data (22. 3. 2021)." .
 
     sk:DWsource0064 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Kastner 2019"@und ;
         dcterms:bibliographicCitation "Georg Kastner: Gruß aus Hitler-Deutschland. Der NS-Terror in Österreich 1933-1938 und seine Opfer. Wien 2019." .
 
     sk:DWsource0065 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Stumm 2005"@und ;
         dcterms:bibliographicCitation "Gerhard Stumm u. a. (Hg.): Personenlexikon der Psychotherapie. Wien 2005." .
 
     sk:DWsource0066 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Bavariathek"@und ;
         dcterms:bibliographicCitation "Geschichte des Bayerischen Parlaments: Die Personen-Datenbank. In: Bavariathek. Haus der Bayerischen Geschichte. URL: https://www.bavariathek.bayern/medien-themen/portale/geschichte-des-bayerischen-parlaments/personen/ (22. 3. 2021)." .
 
     sk:DWsource0067 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Klein 1996"@und ;
         dcterms:bibliographicCitation "Gotthard Klein: Der Volksverein für das Katholische Deutschland 1890–1933. Geschichte, Bedeutung, Untergang. Paderborn 1996 (= Publikationen der Gesellschaft für Rheinische Geschichtskunde 69)." .
 
     sk:DWsource0068 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Hagemann u. Krohn 1999"@und ;
         dcterms:bibliographicCitation "Harald Hagemann, ‎Claus-Dieter Krohn (Hg.): Biographisches Handbuch der deutschsprachigen wirtschaftswissenschaftlichen Emigration nach 1933. München 1999." .
 
     sk:DWsource0069 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Harry Ransom Center"@und ;
         dcterms:bibliographicCitation "Harry Ransom Humanities Research Center: John Leonard Beevers: An Inventory of His Papers at the Harry Ransom Center. URL: https://legacy.lib.utexas.edu/taro/uthrc/00387/hrc-00387.html (22. 3. 2021)." .
 
     sk:DWsource0070 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Haus Neugattersleben"@und ;
         dcterms:bibliographicCitation "Haus Neugattersleben. URL: https://www.familie-von-alvensleben.de/index.php/familiengeschichte-1800-1930-mainmenu-32/neugattersleben-mainmenu-264 (22. 3. 2021)." .
 
     sk:DWsource0071 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Lunzer 1988"@und ;
         dcterms:bibliographicCitation "Heinz Lunzer: Ludwig Ullmann. In: Medien und Zeit 3 (1988), H. 4, S. 14–16." .
 
     sk:DWsource0072 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Pfoertner 2001–2005"@und ;
         dcterms:bibliographicCitation "Helga Pfoertner: Mit der Geschichte leben. Mahnmale, Gedenkstätten, Erinnerungsorte für die Opfer des Nationalsozialismus in München 1933–1945. München 2001–2005." .
 
     sk:DWsource0073 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Böhm 1995–1997"@und ;
         dcterms:bibliographicCitation "Hermann Böhm: Karl Kraus contra … Die Prozeßakten der Kanzlei Oskar Samek in der Wiener Stadt- und Landesbibliothek. 4 Bde. Wien 1995–1997." .
 
     sk:DWsource0078 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "ns-reichsministerien.de"@und ;
         dcterms:bibliographicCitation "Historisches Seminar der Universität Heidelberg: Beamte Nationalsozialistischer Reichsministerien. URL: https://ns-reichsministerien.de (22. 3. 2021)." .
 
     sk:DWsource0079 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Hohenzollerische Heimatbücherei"@und ;
         dcterms:bibliographicCitation "Hohenzollerische Heimatbücherei" .
 
     sk:DWsource0080 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Theodore Fred Abel Papers"@und ;
         dcterms:bibliographicCitation "Hoover Institution Library &amp; Archives: Theodore Fred Abel Papers – Nazi Biograms. 1934. URL: https://digitalcollections.hoover.org/objects/58226/nazi-biograms (22. 3. 2021)." .
 
     sk:DWsource0081 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Gold 1934"@und ;
         dcterms:bibliographicCitation "Hugo Gold (Hg.): Die Juden und Judengemeinden Böhmens in Vergangenheit und Gegenwart. Brünn 1934." .
 
     sk:DWsource0082 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Matricula-online"@und ;
         dcterms:bibliographicCitation "ICARUS – International Centre for Archival Research: Matricula-online. Mittergrabern. URL: https://data.matricula-online.eu/de/oesterreich/wien/mittergrabern/ (22. 3. 2021)." .
 
     sk:DWsource0083 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Matricula-online"@und ;
         dcterms:bibliographicCitation "ICARUS – International Centre for Archival Research: Matricula-online. Salzburg-St. Andrae. URL: https://data.matricula-online.eu/de/oesterreich/salzburg/salzburg-st-andrae/ (22. 3. 2021)." .
 
     sk:DWsource0084 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Matricula-online"@und ;
         dcterms:bibliographicCitation "ICARUS – International Centre for Archival Research: Matricula-online. St. Marein bei Knittelfeld. URL: https://data.matricula-online.eu/de/oesterreich/graz-seckau/st-marein-bei-knittelfeld/ (22. 3. 2021)." .
 
     sk:DWsource0085 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Matricula-online"@und ;
         dcterms:bibliographicCitation "ICARUS – International Centre for Archival Research: Matricula-online. St. Margareta/Berndorf. URL: https://data.matricula-online.eu/de/oesterreich/wien/berndorf-st-margareta/ (22. 3. 2021)" .
 
     sk:DWsource0086 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Matricula-online"@und ;
         dcterms:bibliographicCitation "ICARUS – International Centre for Archival Research: Matricula-online. Unterduernbach. URL: https://data.matricula-online.eu/de/oesterreich/tirol/kirchbichl-erzdioezese-salzburg/ (22. 3. 2021)." .
 
     sk:DWsource0087 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Matricula-online"@und ;
         dcterms:bibliographicCitation "ICARUS – International Centre for Archival Research: Matricula-online. Unterduernbach. URL: https://data.matricula-online.eu/de/oesterreich/wien/unterduernbach/ (22. 3. 2021)." .
 
     sk:DWsource0088 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "biografiA"@und ;
         dcterms:bibliographicCitation "Ilse Korotin (Hg.): biografiA. Lexikon österreichischer Frauen. 3 Bde. Wien, Köln, Weimar 2016." .
 
     sk:DWsource0089 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Heiber 1983"@und ;
         dcterms:bibliographicCitation "Institut für Zeitgeschichte: Akten der Partei-Kanzlei der NSDAP. Rekonstruktion eines verlorengegangenen Bestandes. Regesten, Band 2. Bearb. von Helmut Heiber unter Mitwirkung von Gerhard Weiher und Hildegard von Kotze. München u. a. 1983." .
 
     sk:DWsource0091 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Steiner 1975"@und ;
         dcterms:bibliographicCitation "John M. Steiner: Power, Politics and Social Change in National Socialist Germany. A Process of Escalation into Mass Destruction. Den Haag u. a. 1975." .
 
     sk:DWsource0092 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Dictionary of Virginia Biography"@und ;
         dcterms:bibliographicCitation "John T. Kneebone u. a.: Dictionary of Virginia Biography. URL: https://www.lva.virginia.gov/public/dvb/ (22. 3. 2021)." .
 
     sk:DWsource0093 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "juedisches-unterfranken.de"@und ;
         dcterms:bibliographicCitation "Jüdisches Leben in Unterfranken: Biographische Datenbank jüdisches Unterfranken. URL: https://juedisches-unterfranken.de (22. 3. 2021)." .
 
     sk:DWsource0094 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Höffkes 1986"@und ;
         dcterms:bibliographicCitation "Karl Höffkes: Hitlers politische Generale. Die Gauleiter des Dritten Reiches. Ein biographisches Nachschlagewerk. Tübingen 1986." .
 
     sk:DWsource0095 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Pfäfflin 2005"@und ;
         dcterms:bibliographicCitation "Karl Kraus: Briefe an Sidonie Nádherný von Borutin. 1913–1936. Dokumente und Anmerkungen von Friedrich Pfäfflin. 2 Bde. Göttingen 2005 (= Bibliothek Janowitz)." .
 
     sk:DWsource0097 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Bergbauer 2013"@und ;
         dcterms:bibliographicCitation "Knut Bergbauer: Ernst Eckstein (1897–1933). In: Neue Gesellschaft. Frankfurter Hefte (2013), H. 5, S. 32–33 (online unter: https://www.frankfurter-hefte.de/media/Archiv/2013/Heft_05/2013-05_bergbauer.pdf)." .
 
     sk:DWsource0098 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Landesarchiv Baden-Württemberg"@und ;
         dcterms:bibliographicCitation "Landesarchiv Baden-Württemberg" .
 
     sk:DWsource0100 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Landesarchiv Nordrhein-Westfalen"@und ;
         dcterms:bibliographicCitation "Landesarchiv Nordrhein-Westfalen" .
 
     sk:DWsource0101 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Landesarchiv Steiermark"@und ;
         dcterms:bibliographicCitation "Landesarchiv Steiermark" .
 
     sk:DWsource0102 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "noe-landtag.gv.at"@und ;
         dcterms:bibliographicCitation "Landtag Niederösterreich: Personensuche. URL: https://noe-landtag.gv.at/personen (22. 3. 2021)." .
 
     sk:DWsource0103 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Gedenkbuch BW"@und ;
         dcterms:bibliographicCitation "Landtag von Baden-Württemberg: Gedenkbuch politisch verfolgte Abgeordnete von 1933 bis 1945. URL: https://www.landtag-bw.de/home/besucher/gedenkbuch.html (22. 3. 2021)." .
 
     sk:DWsource0104 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Jung u. Preußer [o. J.]"@und ;
         dcterms:bibliographicCitation "Laura Jung und Lea Sophie Preußer: Biographien. In: Sozialdemokratie in Rheinland-Pfalz. Dokumente aus drei Jahrhunderten. Ein Studierendenprojekt an der JGU Mainz. URL: https://www.sozialdemokratie-rlp.de/biographien.html (22. 3. 2021)." .
 
     sk:DWsource0105 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Hans-Bredow-Institut"@und ;
         dcterms:bibliographicCitation "Leibniz-Institut für Medienforschung / Hans-Bredow-Institut: HANS BREDOW: LEBENSDATEN. URL: https://www.hans-bredow-institut.de/de/institut/organisation_finanzierung_geschichte/hans-bredow-lebensdaten (22. 3. 2021)." .
 
     sk:DWsource0106 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Dictionary of Welsh Biography"@und ;
         dcterms:bibliographicCitation "Llyfrgell Genedlaethol Cymru / The National Library of Wales: Y Bywgraffiadur Cymreig / Dictionary of Welsh Biography. URL: https://biography.wales (22. 3. 2021)." .
 
     sk:DWsource0107 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Müller 1994"@und ;
         dcterms:bibliographicCitation "Manfred Müller: Im Schatten „Grandgoschiers“ – Generaldirektor Hans Goebbels. Aschau im Chiemgau 1994." .
 
     sk:DWsource0108 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Müller 1988"@und ;
         dcterms:bibliographicCitation "Manfred Müller: Neuss unterm Hakenkreuz. Die NSDAP und ihre Gegner in einer katholischen Stadt des Rheinlandes. Essen 1988." .
 
     sk:DWsource0109 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Historisches Lexikon Bayerns"@und ;
         dcterms:bibliographicCitation "Matthias Bader u. a. (Red.): Historisches Lexikon Bayerns. URL: https://www.historisches-lexikon-bayerns.de (22. 3. 2021)" .
 
     sk:DWsource0110 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "verlagsgeschichte.murrayhall.com"@und ;
         dcterms:bibliographicCitation "Murray G. Hall: Österreichische Verlagsgeschichte. URL: http://verlagsgeschichte.murrayhall.com (22. 3. 2021)." .
 
     sk:DWsource0111 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "NZZ"@und ;
         dcterms:bibliographicCitation "NZZ (Nachruf)" .
 
     sk:DWsource0112 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "New York Times"@und ;
         dcterms:bibliographicCitation "New York Times (Todesanzeige)" .
 
     sk:DWsource0113 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Korfmacher 2012"@und ;
         dcterms:bibliographicCitation "Norbert Korfmacher: Vorläufiges Mitgliederverzeichnis der Stadtverordnetenversammlung Breslau 1919 bis 1933. 2012 (online unter: http://www.abgeordneten.info/schlesien/Breslau19.pdf)." .
 
     sk:DWsource0114 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "NÖ Landesarchiv"@und ;
         dcterms:bibliographicCitation "NÖ Landesarchiv" .
 
     sk:DWsource0115 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Národní archiv, Praha"@und ;
         dcterms:bibliographicCitation "Národní archiv, Praha" .
 
     sk:DWsource0116 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Krause [2005]"@und ;
         dcterms:bibliographicCitation "Otto Krause: Biographisches Handbuch des niederösterreichischen Landtages 1861–1921. [2005] (online unter: https://noe-landtag.gv.at/fileadmin/sites/noe-landtag/dokumente/biographisches_handbuch/1861-1921.pdf)." .
 
     sk:DWsource0119 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Kesaris 1979"@und ;
         dcterms:bibliographicCitation "Paul L. Kesaris: The Rote Kapelle. The CIA’s History of Soviet Intelligence and Espionage Networks in Western Europe, 1936–1945. Washington D.C. 1979." .
 
     sk:DWsource0120 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Longerich 2010"@und ;
         dcterms:bibliographicCitation "Peter Longerich: Joseph Goebbels. Biographie. München 2010." .
 
     sk:DWsource0121 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Graf 2008"@und ;
         dcterms:bibliographicCitation "Philipp Graf: Die Bernheim-Petition 1933. Jüdische Politik in der Zwischenkriegszeit. Göttingen 2008 (= Schriften des Simon-Dubnow-Instituts 10)." .
 
     sk:DWsource0123 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Weber 2006"@und ;
         dcterms:bibliographicCitation "Reinhard Weber: Das Schicksal der jüdischen Rechtsanwälte in Bayern nach 1933. München 2006." .
 
     sk:DWsource0124 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Schober 2012"@und ;
         dcterms:bibliographicCitation "Richard Schober: „Ein politisch verführter junger Mann?“ Werner von Alvensleben und das Attentat auf Richard Steidle (11. Juni 1933). In: Tiroler Heimat. Jahrbuch für Geschichte und Volkskunde Nord-, Ost- und Südtirols 76 (2012), S. 399–414." .
 
     sk:DWsource0125 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Hoffmann 2008"@und ;
         dcterms:bibliographicCitation "Robert Hoffmann: Wer war Heinrich Damisch? Versuch einer biographischen Annäherung. In: Musicologica Austriaca 27 (2008), S. 181–209." .
 
     sk:DWsource0126 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Dobrozemsky 2021"@und ;
         dcterms:bibliographicCitation "Rudolf Dobrozemsky: Obituary: Dr. Hermann Adam. In: IUVSTA: The International Union for Vacuum Science, Technique and Applications. URL: https://iuvsta.org/bulletin/obit141.html (22. 3. 2021)." .
 
     sk:DWsource0127 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Vierhaus 2005–2008"@und ;
         dcterms:bibliographicCitation "Rudolf Vierhaus: Deutsche Biographische Enzyklopädie. 12 Bde. 2. Aufl. München 2005–2008." .
 
     sk:DWsource0129 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Stadt Mannheim"@und ;
         dcterms:bibliographicCitation "Stadt Mannheim, Fachbereich Bürgerdienste." .
 
     sk:DWsource0131 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Stadtarchiv Kufstein"@und ;
         dcterms:bibliographicCitation "Stadtarchiv Kufstein" .
 
     sk:DWsource0132 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Stadtarchiv Leipzig"@und ;
         dcterms:bibliographicCitation "Stadtarchiv Leipzig" .
 
     sk:DWsource0133 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Stadtarchiv Ludwigshafen"@und ;
         dcterms:bibliographicCitation "Stadtarchiv Ludwigshafen" .
 
     sk:DWsource0134 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Stadtarchiv Neumarkt i. d. Opf. u. Präger 2020"@und ;
         dcterms:bibliographicCitation "Stadtarchiv Neumarkt i. d. Opf., Frank Präger: Dichtung und Wahrheit. Anmerkungen zu Käthe Dorschs Herkunft, Eltern und Geschwistern. 2020. In: Stadtarchive in der Metropolregion Nürnberg. URL: https://stadtarchive-metropolregion-nuernberg.de/dichtung-und-wahrheit-anmerkungen-zu-kaethe-dorschs-herkunft-eltern-und-geschwistern/ (22. 3. 2021)." .
 
     sk:DWsource0135 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Stadtarchiv Neuss"@und ;
         dcterms:bibliographicCitation "Stadtarchiv Neuss" .
 
     sk:DWsource0136 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Stadtgemeinde Mödling"@und ;
         dcterms:bibliographicCitation "Stadtgemeinde Mödling. Online-Verstorbenen- bzw. Gräbersuche. URL: https://moedling.msgis.net/fhf/#/suche/friedhof (22. 3. 2021)." .
 
     sk:DWsource0137 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Breuer u. Schmidt 2010"@und ;
         dcterms:bibliographicCitation "Stefan Breuer und Ina Schmidt: Die Kommenden. Eine Zeitschrift der Bündischen Jugend (1926–1933). Schwalbach am Taunus 2010 (= Edition Archiv der Deutschen Jugendbewegung 15)." .
 
     sk:DWsource0139 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Doetz u. Kopke [o. J.]"@und ;
         dcterms:bibliographicCitation "Susanne Doetz und Christoph Kopke: Verfolgte Ärztinnen und Ärzte des Berliner Städtischen Gesundheitswesens (1933–1945). Eine biografische Datenbank. URL: https://geschichte.charite.de/verfolgte-aerzte/index.html (22. 3. 2021)." .
 
     sk:DWsource0143 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Ebnet 2016"@und ;
         dcterms:bibliographicCitation "Werner Ebnet: Sie haben in München gelebt. Biographien aus acht Jahrhunderten. München 2016." .
 
     sk:DWsource0144 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Röder u. Strauss 1999"@und ;
         dcterms:bibliographicCitation "Werner Röder und Herbert A. Strauss: Biographisches Handbuch der deutschsprachigen Emigration nach 1933. 2 Bde. München 1999." .
 
     sk:DWsource0146 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Benz u. Distel 2005–2009"@und ;
         dcterms:bibliographicCitation "Wolfgang Benz und Barbara Distel (Hg.): Der Ort des Terrors. Geschichte der nationalsozialistischen Konzentrationslager. München 2005–2009." .
 
     sk:DWsource0147 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Knut Bergbauer"@und ;
         dcterms:bibliographicCitation "[Auskunft Knut Bergbauer]" .
 
     sk:DWsource0148 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Ruth Ludwig"@und ;
         dcterms:bibliographicCitation "[Auskunft Ruth Ludwig]" .
 
     sk:DWsource0149 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Simon Goodman"@und ;
         dcterms:bibliographicCitation "[Auskunft Simon Goodman]" .
 
     sk:DWsource0150 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "telegraph.co.uk"@und ;
         dcterms:bibliographicCitation "telegraph.co.uk (Todesanzeige)" .
 
     <https://sk.acdh.oeaw.ac.at/types/idno/URL/viaf> a crm:E55_Type ;
@@ -29947,54 +30056,67 @@ ns1:dritte-walpurgisnacht {
 
     sk:DWsource0019 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "catholic-hierarchy.org"@und ;
         dcterms:bibliographicCitation "David M. Cheney: The Hierarchy of the Catholic Church. Current and historical information about its bishops and dioceses. URL: http://www.catholic-hierarchy.org (22. 3. 2021)." .
 
     sk:DWsource0023 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Austria-Forum"@und ;
         dcterms:bibliographicCitation "Freunde des Austria-Forums – Verein zur Förderung der digitalen Erfassung von Daten mit Österreichbezug: Austria-Forum – das Wissensnetz aus Österreich. URL: https://austria-forum.org (22. 3. 2021)." .
 
     sk:DWsource0030 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "verbrannte-und-verbannte.de"@und ;
         dcterms:bibliographicCitation "Daniel Burckhardt u. a.: Verbrannte und Verbannte. Die Liste der im Nationalsozialismus verbotenen Publikationen, Autoren und Verlage. URL: https://verbrannte-und-verbannte.de (22. 3. 2021)." .
 
     sk:DWsource0043 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Auswärtiges Amt 2000–2008"@und ;
         dcterms:bibliographicCitation "Auswärtiges Amt (Hg.): Biographisches Handbuch des deutschen Auswärtigen Dienstes 1871–1945. 3 Bde. Paderborn u. a. 2000–2008." .
 
     sk:DWsource0051 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "findagrave.com"@und ;
         dcterms:bibliographicCitation "Die größte Grabsammlung weltweit. Über 190 Millionen Gedenkstätten, die von der Community seit 1995 erfasst wurden. URL: https://de.findagrave.com (22. 3. 2021)." .
 
     sk:DWsource0060 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "GESIS"@und ;
         dcterms:bibliographicCitation "GESIS – Leibniz-Institut für Sozialwissenschaften in Mannheim: Sozialdemokratische Parlamentarier in den deutschen Reichs- und Landtagen 1876-1933 (BIOSOP). URL: http://zhsf.gesis.org/biosop.htm (22. 3. 2021)." .
 
     sk:DWsource0096 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "DLA Marbach"@und ;
         dcterms:bibliographicCitation "Katalog: Namen. In: Deutsches Literaturarchiv Marbarch. URL: https://www.dla-marbach.de/katalog/namen/ (22. 3. 2021)." .
 
     sk:DWsource0099 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "leo-bw"@und ;
         dcterms:bibliographicCitation "Landesarchiv Baden-Württemberg: leo-bw. Landeskundliches Informationssystem Baden-Württemberg. URL: https://www.leo-bw.de (22. 3. 2021)." .
 
     sk:DWsource0122 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "RKD"@und ;
         dcterms:bibliographicCitation "RKD – Nederlands Instituut voor Kunstgeschiedenis: Explore. URL: https://rkd.nl/nl/explore (22. 3. 2021)." .
 
     sk:DWsource0128 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "dasrotewien.at"@und ;
         dcterms:bibliographicCitation "SPÖ Wien: dasrotewien.at. Weblexikon der Wiener Sozialdemokratie. URL: http://www.dasrotewien.at (22. 3. 2021)." .
 
     sk:DWsource0130 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Stadtlexikon Karlsruhe"@und ;
         dcterms:bibliographicCitation "Stadtarchiv Karlsruhe: Stadtlexikon Karlsruhe. URL: https://stadtlexikon.karlsruhe.de (22. 3. 2021)." .
 
     sk:DWsource0141 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Vernetztes Gedächtnis"@und ;
         dcterms:bibliographicCitation "Vernetztes Gedächtnis. Topographie der nationalsozialistischen Gewaltherrschaft in Braunschweig. URL: http://www.vernetztes-gedaechtnis.de (22. 3. 2021)." .
 
     sk:DWsource0152 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "en.wikipedia.org"@und ;
         dcterms:bibliographicCitation "en.wikipedia.org" .
 
     <https://sk.acdh.oeaw.ac.at/nDWpers1301/identifier/idno/1> a crm:E42_Identifier ;
@@ -37194,18 +37316,22 @@ ns1:dritte-walpurgisnacht {
 
     sk:DWsource0049 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "filmportal.de"@und ;
         dcterms:bibliographicCitation "Deutsches Filminstitut &amp; Filmmuseum e.V.: Gesichter des deutschen Films. URL: https://www.filmportal.de/people (22. 3. 2021)." .
 
     sk:DWsource0090 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Zumr 2017"@und ;
         dcterms:bibliographicCitation "Jan Zumr: Analýza činnosti Allgemeine-SS v Dolních Rakousích v letech 1932–1945 / Analysis of the activities of Allgemeine-SS in Lower Austria in the years 1932–1945. Univ.-Diss., Prag 2017." .
 
     sk:DWsource0138 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "stolpersteine-berlin"@und ;
         dcterms:bibliographicCitation "Stolpersteine in Berlin. URL: stolpersteine-berlin.de (22. 3. 2021)." .
 
     sk:DWsource0140 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Yad Vashem"@und ;
         dcterms:bibliographicCitation "The Central Database of Shoah Victims’ Names. In: Yad Vashem – The World Holocaust Remembrance Center. URL: https://yvng.yadvashem.org (22. 3. 2021)." .
 
     sk:nDWpers1301 a crm:E21_Person ;
@@ -39332,22 +39458,27 @@ ns1:dritte-walpurgisnacht {
 
     sk:DWsource0024 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "LEMO"@und ;
         dcterms:bibliographicCitation "Stiftung Haus der Geschichte der Bundesrepublik Deutschland: LEMO. Lebendiges Museum Online. URL: https://www.dhm.de/lemo (22. 3. 2021)." .
 
     sk:DWsource0029 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Wien Geschichte Wiki"@und ;
         dcterms:bibliographicCitation "Wiener Stadt- und Landesarchiv (MA 8) und die Wienbibliothek im Rathaus (MA 9): Wien Geschichte Wiki. URL: https://www.geschichtewiki.wien.gv.at/Wien_Geschichte_Wiki (22. 3. 2021)." .
 
     sk:DWsource0038 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Pauly 1964–1975"@und ;
         dcterms:bibliographicCitation "Konrath Ziegler und Walther Sontheimer (Hg.): Der Kleine Pauly. Lexikon der Antike. 5 Bde. Stuttgart 1964–1975." .
 
     sk:DWsource0042 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "ÖML"@und ;
         dcterms:bibliographicCitation "Austrian Centre for Digital Humanities and Cultural Heritage, Abteilung Musikwissenschaft: Oesterreichisches Musiklexikon online. URL: https://www.musiklexikon.ac.at (22. 3. 2021)." .
 
     sk:DWsource0074 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "LAGIS"@und ;
         dcterms:bibliographicCitation "Hessisches Landesamt für geschichtliche Landeskunde: Landesgeschichtliches Informationssystem Hessen (LAGIS). URL: https://www.lagis-hessen.de (22. 3. 2021)." .
 
     sk:nDWpers1327 a crm:E21_Person ;
@@ -40026,14 +40157,17 @@ ns1:dritte-walpurgisnacht {
 
     sk:DWsource0003 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Friedhöfe Wien"@und ;
         dcterms:bibliographicCitation "Friedhöfe Wien: Verstorbenensuche. URL: https://www.friedhoefewien.at/ (22. 3. 2021)." .
 
     sk:DWsource0142 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Volksbund"@und ;
         dcterms:bibliographicCitation "Volksbund Deutsche Kriegsgräberfürsorge e. V.: Gräbersuche online. URL: https://www.volksbund.de/erinnern-gedenken/graebersuche-online (22. 3. 2021)." .
 
     sk:DWsource0151 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "ÖStA – AdR"@und ;
         dcterms:bibliographicCitation "Österreichisches Staatsarchiv – Archiv der Republik." .
 
     <https://sk.acdh.oeaw.ac.at/types/person/persname/married> a crm:E55_Type ;
@@ -40851,14 +40985,17 @@ ns1:dritte-walpurgisnacht {
 
     sk:DWsource0034 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "AdR"@und ;
         dcterms:bibliographicCitation "Historische Kommission der Bayerischen Akademie der Wissenschaften und Bundesarchiv: „Akten der Reichskanzlei. Weimarer Republik“ online. Biographien. URL: https://www.bundesarchiv.de/aktenreichskanzlei/1919-1933/0000/adr/index.html (22. 3. 2021)." .
 
     sk:DWsource0037 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "nobelprize.org"@und ;
         dcterms:bibliographicCitation "Nobel Prize Outreach: The Nobel Prize. URL: https://www.nobelprize.org (22. 3. 2021)." .
 
     sk:DWsource0117 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Kluke 1957"@und ;
         dcterms:bibliographicCitation "Paul Kluke: Der Fall Potempa. In: Vierteljahrshefte für Zeitgeschichte 5 (1957), H. 3, S. 279–297. URL: https://www.ifz-muenchen.de/heftarchiv/1957_3.pdf (22. 3. 2021)." .
 
     sk:DWorg00002 a crm:E74_Group ;
@@ -41959,6 +42096,7 @@ ns1:dritte-walpurgisnacht {
 
     sk:DWsource0033 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "de.wikipedia.org"@und ;
         dcterms:bibliographicCitation "de.wikipedia.org" .
 
     <https://sk.acdh.oeaw.ac.at/types/person/persname/taken> a crm:E55_Type ;
@@ -43337,10 +43475,12 @@ ns1:dritte-walpurgisnacht {
 
     sk:DWsource0004 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Rothländer 2012"@und ;
         dcterms:bibliographicCitation "Christiane Rothländer: Die Anfänge der Wiener SS. Wien, Köln u. Weimar 2012." .
 
     sk:DWsource0145 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "WStLA"@und ;
         dcterms:bibliographicCitation "Wiener Stadt- und Landesarchiv (MA 8)." .
 
     sk:DWorg00001 a crm:E74_Group ;
@@ -44393,6 +44533,7 @@ ns1:dritte-walpurgisnacht {
 
     sk:DWsource0022 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "parlament.gv.at"@und ;
         dcterms:bibliographicCitation "Wer ist wer. In: Republik Österreich. Parlament. URL: https://www.parlament.gv.at/WWER/ (22. 3. 2021)." .
 
     sk:DWorg00012 a crm:E74_Group ;
@@ -45901,6 +46042,7 @@ ns1:dritte-walpurgisnacht {
 
     sk:DWsource0057 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Klee 2009"@und ;
         dcterms:bibliographicCitation "Ernst Klee: Das Kulturlexikon zum Dritten Reich. Wer war was vor und nach 1945. Überarb. Ausg. Frankfurt am Main 2009." .
 
     <https://sk.acdh.oeaw.ac.at/types/org/orgname/short> a crm:E55_Type ;
@@ -45942,6 +46084,7 @@ ns1:dritte-walpurgisnacht {
 
     sk:DWsource0020 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Czeike 1992–1997"@und ;
         dcterms:bibliographicCitation "Felix Czeike: Historisches Lexikon Wien. 6 Bde. Wien 1992–1997 (online unter: https://www.digital.wienbibliothek.at/wbrobv/content/titleinfo/1112764)." .
 
     sk:DWorg00007 a crm:E74_Group ;
@@ -45966,6 +46109,7 @@ ns1:dritte-walpurgisnacht {
 
     sk:DWsource0011 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "GND"@und ;
         dcterms:bibliographicCitation "Gemeinsame Normdatei der Deutschen Nationalbibliothek. (Durchsuchbar z. B. über: Bibliotheksservice-Zentrum Baden-Württemberg: Online-GND. URL: https://swb.bsz-bw.de (22. 3. 2021))." .
 
     <https://sk.acdh.oeaw.ac.at/types/org/orgname/pref> a crm:E55_Type ;
@@ -46038,6 +46182,7 @@ ns1:dritte-walpurgisnacht {
 
     sk:DWsource0035 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "zeitgen. Berichterstattung"@und ;
         dcterms:bibliographicCitation "zeitgen. Berichterstattung" .
 
     <https://sk.acdh.oeaw.ac.at/types/date/approx> a crm:E55_Type ;
@@ -46133,10 +46278,12 @@ ns1:dritte-walpurgisnacht {
 
     sk:DWsource0025 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Klee 2007"@und ;
         dcterms:bibliographicCitation "Ernst Klee: Das Personenlexikon zum Dritten Reich. Wer war was vor und nach 1945. 2. Aufl. Frankfurt am Main 2007." .
 
     sk:DWsource0026 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Killy"@und ;
         dcterms:bibliographicCitation "Walter Killy (Hg.): Literaturlexikon. Autoren und Werke deutscher Sprache. 15 Bde. Gütersloh und München 1988–1993." .
 
     sk:DWplace00313 a crm:E53_Place ;
@@ -46305,6 +46452,7 @@ ns1:dritte-walpurgisnacht {
 
     sk:DWsource0008 a dcterms:BibliographicResource,
             prov:Entity ;
+        rdfs:label "Deutsche Biographie"@und ;
         dcterms:bibliographicCitation "Historische Kommission bei der Bayerischen Akademie der Wissenschaften und Bayerische Staatsbibliothek: Deutsche Biographie. URL: https://www.deutsche-biographie.de/home (22. 3. 2021)." .
 
     sk:DWplace00085 a crm:E53_Place ;
