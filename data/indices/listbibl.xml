@@ -8480,7 +8480,7 @@ jenem großdeutschen Sepp; [vgl. Timms 2 m. Hinweis auf diese Zusammenarbeit von
 				<bibl source="_" xml:id="DWbibl02592" sortKey="Frank_II_Hans">
 					<author key="#DWpers0062">Hans Frank II</author>
 					<title level="m">[Äußerung auf einer Pressekonferenz in Wien]</title>
-					<citedRange xml:id="DWbibl02593" wholeText="yes"/><!-- Der Nationalsozialismus … Menschheitsgedanken! -->
+					<citedRange xml:id="DWbibl02593"/><!-- Der Nationalsozialismus … Menschheitsgedanken! -->
 				</bibl>
 
 				<bibl source="_" xml:id="DWbibl03763" sortKey="N._N." corresp="#DWfacs1331">

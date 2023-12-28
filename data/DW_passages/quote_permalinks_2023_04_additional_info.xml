@@ -2208,7 +2208,7 @@
         <source>#DWbibl01503</source>
         <type>exemp</type>
         <content>jener Kampfruf »gegen den Kitsch«</content>
-        <info source="" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
+        <info source="DWbibl01500" wholeText="yes" wholePeriodical="no" posCitedRange="1" refInt="no" refIntSubtype="no" refLevel="no" refPos="no" refBase="no" refInt2="no" refIntSubtype2="no" refLevel2="no" refPos2="no" refBase2="no"/>
     </item>
     <item>
         <id>DWquote0250</id>
@@ -12212,7 +12212,7 @@
         <source>#DWbibl01441</source>
         <type/>
         <content>Der Nationalsozialismus bekennt sich zum Menschheitsgedanken⁠ ⁠!</content>
-        <info source="DWbibl00406" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03716" refIntSubtype="specific" refLevel="no" refPos="0" refBase="DWbibl03715" refInt2="DWbibl02593" refIntSubtype2="nonexcl" refLevel2="text" refPos2="0" refBase2="DWbibl02593"/>
+        <info source="DWbibl00406" wholeText="no" wholePeriodical="no" posCitedRange="0" refInt="DWbibl03716" refIntSubtype="specific" refLevel="no" refPos="0" refBase="DWbibl03715" refInt2="DWbibl02593" refIntSubtype2="nonexcl" refLevel2="no" refPos2="0" refBase2="DWbibl02592"/>
     </item>
     <item>
         <id>DWquote1952</id>
