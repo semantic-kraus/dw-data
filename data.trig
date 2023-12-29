@@ -16,7 +16,7 @@ ns1:dritte-walpurgisnacht {
         crm:P82b_end_of_the_end "1933"^^xsd:gYear .
 
     <https://sk.acdh.oeaw.ac.at/DWbibl00000/publication/time-span> a crm:E52_Time-Span ;
-        rdfs:label "2021"@de ;
+        rdfs:label "2021"@en ;
         crm:P4i_is_time-span_of <https://sk.acdh.oeaw.ac.at/DWbibl00000/publication> ;
         crm:P82a_begin_of_the_begin "2021"^^xsd:gYear ;
         crm:P82b_end_of_the_end "2021"^^xsd:gYear .

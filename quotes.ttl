@@ -8642,7 +8642,7 @@
 #INT3 intertext relationship
 <https://sk.acdh.oeaw.ac.at/DWbibl00000/relation/244> a ns1:INT3_IntertextualRelationship ;
   rdfs:label "Intertextual relation"@en ;
-  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at//passage/0> ;
+  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl01500> ;
   ns1:R13_has_referring_entity <https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/244> .
 
 #INT16 segment
@@ -42830,7 +42830,7 @@
 #INT3 intertext relationship
 <https://sk.acdh.oeaw.ac.at/DWbibl00000/relation/1354> a ns1:INT3_IntertextualRelationship ;
   rdfs:label "Intertextual relation"@en ;
-  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl02593/passage/0> ;
+  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl02592/passage/0> ;
   ns1:R13_has_referring_entity <https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/1354> .
 
 #INT16 segment
