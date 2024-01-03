@@ -191,7 +191,9 @@
       <xsl:when test="$info[@wholeText = 'yes' and @refInt = 'no']">
         <xsl:value-of select="$uri-id"/>
       </xsl:when>
-
+      <xsl:when test="$info[@wholeText = 'yes' and @refInt != 'no' and @refLevel = 'no']">
+        <xsl:value-of select="$uri-id"/>
+      </xsl:when>
       <xsl:when test="$info[@refLevel = 'no']">
         <xsl:value-of select="$uri-id"/>
         <xsl:text>/passage/</xsl:text>
