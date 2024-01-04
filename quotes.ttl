@@ -10566,7 +10566,7 @@
 #INT3 intertext relationship
 <https://sk.acdh.oeaw.ac.at/DWbibl00000/relation/327> a ns1:INT3_IntertextualRelationship ;
   rdfs:label "Intertextual relation"@en ;
-  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl01218/passage/0> ;
+  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl01218> ;
   ns1:R13_has_referring_entity <https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/327> .
 
 #INT16 segment
@@ -13156,7 +13156,7 @@
 #INT3 intertext relationship
 <https://sk.acdh.oeaw.ac.at/DWbibl00000/relation/404> a ns1:INT3_IntertextualRelationship ;
   rdfs:label "Intertextual relation"@en ;
-  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl02007/passage/0> ;
+  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl02007> ;
   ns1:R13_has_referring_entity <https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/404> .
 
 #INT16 segment
@@ -13526,7 +13526,7 @@
 #INT3 intertext relationship
 <https://sk.acdh.oeaw.ac.at/DWbibl00000/relation/414> a ns1:INT3_IntertextualRelationship ;
   rdfs:label "Intertextual relation"@en ;
-  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl02016/passage/0> ;
+  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl02016> ;
   ns1:R13_has_referring_entity <https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/414> .
 
 #INT16 segment
@@ -15080,7 +15080,7 @@
 #INT3 intertext relationship
 <https://sk.acdh.oeaw.ac.at/DWbibl00000/relation/463> a ns1:INT3_IntertextualRelationship ;
   rdfs:label "Intertextual relation"@en ;
-  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl04100/passage/0> ;
+  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl04100> ;
   ns1:R13_has_referring_entity <https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/463> .
 
 #INT16 segment
@@ -16745,7 +16745,7 @@
 #INT3 intertext relationship
 <https://sk.acdh.oeaw.ac.at/DWbibl00000/relation/522> a ns1:INT3_IntertextualRelationship ;
   rdfs:label "Intertextual relation"@en ;
-  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl00555/passage/0> ;
+  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl00555> ;
   ns1:R13_has_referring_entity <https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/522> .
 
 #INT16 segment
@@ -20371,7 +20371,7 @@
 #INT3 intertext relationship
 <https://sk.acdh.oeaw.ac.at/DWbibl00000/relation/637> a ns1:INT3_IntertextualRelationship ;
   rdfs:label "Intertextual relation"@en ;
-  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl02736/passage/0> ;
+  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl02736> ;
   ns1:R13_has_referring_entity <https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/637> .
 
 #INT16 segment
@@ -20445,7 +20445,7 @@
 #INT3 intertext relationship
 <https://sk.acdh.oeaw.ac.at/DWbibl00000/relation/639> a ns1:INT3_IntertextualRelationship ;
   rdfs:label "Intertextual relation"@en ;
-  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl02736/passage/0> ;
+  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl02736> ;
   ns1:R13_has_referring_entity <https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/639> .
 
 #INT16 segment
@@ -40980,7 +40980,7 @@
 #INT3 intertext relationship
 <https://sk.acdh.oeaw.ac.at/DWbibl00000/relation/1299> a ns1:INT3_IntertextualRelationship ;
   rdfs:label "Intertextual relation"@en ;
-  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl01665/passage/1> ;
+  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl01665> ;
   ns1:R13_has_referring_entity <https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/1299> .
 
 #INT16 segment
@@ -53449,7 +53449,7 @@
 #INT3 intertext relationship
 <https://sk.acdh.oeaw.ac.at/DWbibl00000/relation/1670> a ns1:INT3_IntertextualRelationship ;
   rdfs:label "Intertextual relation"@en ;
-  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl03053/passage/0> ;
+  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl03053> ;
   ns1:R13_has_referring_entity <https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/1670> .
 
 #INT16 segment
@@ -55447,7 +55447,7 @@
 #INT3 intertext relationship
 <https://sk.acdh.oeaw.ac.at/DWbibl00000/relation/1731> a ns1:INT3_IntertextualRelationship ;
   rdfs:label "Intertextual relation"@en ;
-  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl03321/passage/0> ;
+  ns1:R12_has_referred_to_entity <https://sk.acdh.oeaw.ac.at/DWbibl03321> ;
   ns1:R13_has_referring_entity <https://sk.acdh.oeaw.ac.at/DWbibl00000/passage/1731> .
 
 #INT16 segment
