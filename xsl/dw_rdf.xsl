@@ -428,7 +428,20 @@
       <xsl:call-template name="get-F22-uri"/>
     </xsl:variable>
     <xsl:variable name="uri-issue">
-      <xsl:call-template name="get-issue-uri"/>
+      <xsl:variable name="uri">
+        <xsl:choose>
+          <xsl:when test="tei:title[@level = 'j']">
+            <xsl:value-of select="tei:date/@key"/>
+          </xsl:when>
+          <xsl:when test="tei:title[@level = 'm']/@key">
+            <xsl:value-of select="tei:title[@level = 'm']/@key"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:text/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:variable>
+      <xsl:value-of select="translate($uri, '#', '')"/>
     </xsl:variable>
     <xsl:variable name="title">
       <xsl:call-template name="get-issue-title-text"/>
@@ -634,7 +647,20 @@
     </xsl:call-template>
     <xsl:call-template name="create-F22-title-param">
       <xsl:with-param name="uri-f22">
-        <xsl:call-template name="get-issue-uri"/>
+        <xsl:variable name="uri">
+          <xsl:choose>
+            <xsl:when test="tei:title[@level = 'j']">
+              <xsl:value-of select="tei:date/@key"/>
+            </xsl:when>
+            <xsl:when test="tei:title[@level = 'm']/@key">
+              <xsl:value-of select="tei:title[@level = 'm']/@key"/>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:text/>
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
+        <xsl:value-of select="translate($uri, '#', '')"/>
       </xsl:with-param>
       <xsl:with-param name="title">
         <xsl:call-template name="get-issue-title"/>
