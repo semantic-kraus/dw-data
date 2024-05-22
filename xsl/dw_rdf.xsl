@@ -1983,7 +1983,7 @@
     <xsl:for-each select="tei:citedRange">
       <xsl:if test="not(@wholeText) and not(@wholePeriodical)">
         <xsl:variable name="uri-citedrange" select="@xml:id"/>
-
+<xsl:variable name="cr-pos" select="position()"/>
         <xsl:for-each select="tei:ref[@type = 'ext']">
           <xsl:call-template name="comment">
             <xsl:with-param name="text" select="'#E42 url type identifier'"/>
@@ -2023,7 +2023,12 @@
           <xsl:text>&lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
           <xsl:value-of select="$uri-citedrange"/>
           <xsl:text>/identifier/idno/</xsl:text>
-          <xsl:value-of select="position()"/>
+          <xsl:value-of select="$cr-pos"/>
+          <!--
+          fix for https://github.com/semantic-kraus/dw-data/issues/53
+          as the former <xsl:value-of select="position()"/> takes the position of the ref element 
+          instead of the citedRange
+          -->
           <xsl:text>&gt; a cidoc:E42_Identifier</xsl:text>
           <xsl:call-template name="newline-semicolon"/>
 
@@ -2040,7 +2045,11 @@
           <xsl:text>  cidoc:P1i_identifies &lt;https://sk.acdh.oeaw.ac.at/</xsl:text>
           <xsl:value-of select="$uri-f22"/>
           <xsl:text>/passage/</xsl:text>
-          <xsl:value-of select="position() - 1"/>
+          <xsl:value-of select="number($cr-pos) - 1"/>          
+          <!--
+          fix for https://github.com/semantic-kraus/dw-data/issues/53
+          old: <xsl:value-of select="position() - 1"/>
+          -->
           <xsl:text>&gt;</xsl:text>
           <xsl:call-template name="newline-semicolon"/>
 
