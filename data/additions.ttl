@@ -8,6 +8,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 <https://sk.acdh.oeaw.ac.at/DWbibl00000> a frbroo:F22_Self-Contained_Expression ;
   rdfs:label "Dritte Walpurgisnacht"@de ;
@@ -652,3 +653,53 @@ rdfs:label "BIOSOP"@de ;
 rdfs:label "Krause [2005]"@de ;
   dcterms:bibliographicCitation "Otto Krause: Biographisches Handbuch des niederösterreichischen Landtages 1861–1921. [2005] (online unter: https://noe-landtag.gv.at/fileadmin/sites/noe-landtag/dokumente/biographisches_handbuch/1861-1921.pdf)." .
 
+
+
+<https://sk.acdh.oeaw.ac.at/DWbibl00308> owl:sameAs <https://sk.acdh.oeaw.ac.at/text00003> .
+<https://sk.acdh.oeaw.ac.at/DWbibl01883> owl:sameAs <https://sk.acdh.oeaw.ac.at/text02479> .
+<https://sk.acdh.oeaw.ac.at/DWbibl00686> owl:sameAs <https://sk.acdh.oeaw.ac.at/text02924> .
+<https://sk.acdh.oeaw.ac.at/DWbibl00002> owl:sameAs <https://sk.acdh.oeaw.ac.at/text05904> .
+<https://sk.acdh.oeaw.ac.at/DWbibl01995> owl:sameAs <https://sk.acdh.oeaw.ac.at/text06262> .
+<https://sk.acdh.oeaw.ac.at/DWbibl01909> owl:sameAs <https://sk.acdh.oeaw.ac.at/text06353> .
+<https://sk.acdh.oeaw.ac.at/DWbibl02031> owl:sameAs <https://sk.acdh.oeaw.ac.at/text06989> .
+<https://sk.acdh.oeaw.ac.at/DWbibl03247> owl:sameAs <https://sk.acdh.oeaw.ac.at/text08643> .
+<https://sk.acdh.oeaw.ac.at/DWbibl02085> owl:sameAs <https://sk.acdh.oeaw.ac.at/text08719> .
+<https://sk.acdh.oeaw.ac.at/DWbibl01929> owl:sameAs <https://sk.acdh.oeaw.ac.at/text09180> .
+<https://sk.acdh.oeaw.ac.at/DWbibl03226> owl:sameAs <https://sk.acdh.oeaw.ac.at/text09344> .
+<https://sk.acdh.oeaw.ac.at/DWbibl02033> owl:sameAs <https://sk.acdh.oeaw.ac.at/text09369> .
+<https://sk.acdh.oeaw.ac.at/DWbibl03215> owl:sameAs <https://sk.acdh.oeaw.ac.at/text10013> .
+<https://sk.acdh.oeaw.ac.at/DWbibl02036> owl:sameAs <https://sk.acdh.oeaw.ac.at/text10519> .
+<https://sk.acdh.oeaw.ac.at/DWbibl01779> owl:sameAs <https://sk.acdh.oeaw.ac.at/text10641> .
+<https://sk.acdh.oeaw.ac.at/DWbibl00261> owl:sameAs <https://sk.acdh.oeaw.ac.at/text10843> .
+<https://sk.acdh.oeaw.ac.at/DWbibl01927> owl:sameAs <https://sk.acdh.oeaw.ac.at/text11045> .
+<https://sk.acdh.oeaw.ac.at/DWbibl03560> owl:sameAs <https://sk.acdh.oeaw.ac.at/text14392> .
+<https://sk.acdh.oeaw.ac.at/DWbibl02998> owl:sameAs <https://sk.acdh.oeaw.ac.at/text11075> .
+<https://sk.acdh.oeaw.ac.at/DWbibl01893> owl:sameAs <https://sk.acdh.oeaw.ac.at/text11149> .
+<https://sk.acdh.oeaw.ac.at/DWbibl02077> owl:sameAs <https://sk.acdh.oeaw.ac.at/text10424> .
+<https://sk.acdh.oeaw.ac.at/DWbibl03381> owl:sameAs <https://sk.acdh.oeaw.ac.at/text11428> .
+<https://sk.acdh.oeaw.ac.at/DWbibl00309> owl:sameAs <https://sk.acdh.oeaw.ac.at/text12183> .
+<https://sk.acdh.oeaw.ac.at/DWbibl01897> owl:sameAs <https://sk.acdh.oeaw.ac.at/text12416> .
+<https://sk.acdh.oeaw.ac.at/DWbibl03245> owl:sameAs <https://sk.acdh.oeaw.ac.at/text13468> .
+<https://sk.acdh.oeaw.ac.at/DWbibl03311> owl:sameAs <https://sk.acdh.oeaw.ac.at/text13448> .
+<https://sk.acdh.oeaw.ac.at/DWbibl02940> owl:sameAs <https://sk.acdh.oeaw.ac.at/text14060> .
+<https://sk.acdh.oeaw.ac.at/DWbibl02144> owl:sameAs <https://sk.acdh.oeaw.ac.at/text14124> .
+<https://sk.acdh.oeaw.ac.at/DWbibl02048> owl:sameAs <https://sk.acdh.oeaw.ac.at/text14309> .
+<https://sk.acdh.oeaw.ac.at/DWbibl02029> owl:sameAs <https://sk.acdh.oeaw.ac.at/text14624> .
+<https://sk.acdh.oeaw.ac.at/DWbibl01886> owl:sameAs <https://sk.acdh.oeaw.ac.at/text10156> .
+<https://sk.acdh.oeaw.ac.at/DWbibl03504> owl:sameAs <https://sk.acdh.oeaw.ac.at/text14821> .
+<https://sk.acdh.oeaw.ac.at/DWbibl04529> owl:sameAs <https://sk.acdh.oeaw.ac.at/issue800> .
+<https://sk.acdh.oeaw.ac.at/DWbibl00315> owl:sameAs <https://sk.acdh.oeaw.ac.at/text08571> .
+<https://sk.acdh.oeaw.ac.at/DWbibl00317> owl:sameAs <https://sk.acdh.oeaw.ac.at/text08650> .
+<https://sk.acdh.oeaw.ac.at/DWbibl00318> owl:sameAs <https://sk.acdh.oeaw.ac.at/text12471> .
+<https://sk.acdh.oeaw.ac.at/DWbibl03746> owl:sameAs <https://sk.acdh.oeaw.ac.at/text14570> .
+<https://sk.acdh.oeaw.ac.at/DWbibl01703> owl:sameAs <https://sk.acdh.oeaw.ac.at/text10149> .
+<https://sk.acdh.oeaw.ac.at/DWbibl03645> owl:sameAs <https://sk.acdh.oeaw.ac.at/text13999> .
+<https://sk.acdh.oeaw.ac.at/DWbibl02716> owl:sameAs <https://sk.acdh.oeaw.ac.at/text10254> .
+<https://sk.acdh.oeaw.ac.at/DWbibl02229> owl:sameAs <https://sk.acdh.oeaw.ac.at/text08943> .
+<https://sk.acdh.oeaw.ac.at/DWbibl02231> owl:sameAs <https://sk.acdh.oeaw.ac.at/text09776> .
+<https://sk.acdh.oeaw.ac.at/DWbibl02276> owl:sameAs <https://sk.acdh.oeaw.ac.at/text10062> .
+<https://sk.acdh.oeaw.ac.at/DWbibl01902> owl:sameAs <https://sk.acdh.oeaw.ac.at/text13400> .
+<https://sk.acdh.oeaw.ac.at/DWbibl01913> owl:sameAs <https://sk.acdh.oeaw.ac.at/text14637> .
+<https://sk.acdh.oeaw.ac.at/DWbibl04108> owl:sameAs <https://sk.acdh.oeaw.ac.at/text14645> .
+<https://sk.acdh.oeaw.ac.at/DWbibl03998> owl:sameAs <https://sk.acdh.oeaw.ac.at/text13457> .
+<https://sk.acdh.oeaw.ac.at/DWbibl03934> owl:sameAs <https://sk.acdh.oeaw.ac.at/text14664> .
