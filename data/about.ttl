@@ -4,8 +4,10 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
 
 dw: a <http://www.w3.org/ns/sparql-service-description#NamedGraph> ;
+    sd:name "Dritte Walpurgisnacht" ;
     dct:title "Dritte Walpurgisnacht"@de ;
     rdfs:label "Dritte Walpurgisnacht"@en ;
     dct:bibliographicCitation """Karl Kraus: Dritte Walpurgisnacht. Annotated Reader‘s Edition. Ed. by Bernhard Oberreither at Austrian Corpora and Editions at ACDH-CH. 2021."""  ;
