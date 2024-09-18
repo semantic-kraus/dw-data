@@ -1,14 +1,14 @@
 @prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dw: <https://sk.acdh.oeaw.ac.at/project/dritte-walpurgisnacht> .
 @prefix ns1: <https://w3id.org/lso/intro/beta202304#> .
-@prefix ns2: <https://sk.acdh.oeaw.ac.at/project/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sk: <https://sk.acdh.oeaw.ac.at/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns2:dritte-walpurgisnacht {
+dw: {
     sk:DWpers0001 cidoc:P67i_is_referred_to_by <https://sk.acdh.oeaw.ac.at/DWbibl00000/reference/2085> .
 
     sk:DWpers0002 cidoc:P67i_is_referred_to_by <https://sk.acdh.oeaw.ac.at/DWbibl00000/reference/2156> .
